@@ -1,0 +1,12 @@
+#EXTM3U url-tvg="https://raw.githubusercontent.com/BuddyChewChew/whiplash-epg/main/epg.xml"
+
+#EXTINF:-1 group-title="whiplash" tvg-id="whiplash" tvg-logo="https://whiplash.cc/assets/img/channels/whiplash.png",WHIPLASH
+https://cdn.whiplash.cc/whiplash/index.m3u8
+#EXTINF:-1 group-title="whiplash" tvg-id="whiplash2" tvg-logo="https://whiplash.cc/assets/img/channels/whiplash2.png",WHIPLASH 2
+https://cdn.whiplash.cc/whiplash-2/index.m3u8
+#EXTINF:-1 group-title="whiplash" tvg-id="whiplashatlas" tvg-logo="https://whiplash.cc/assets/img/channels/atlas.png",WHIPLASH ATLAS
+https://cdn.whiplash.cc/whiplash-atlas/index.m3u8
+#EXTINF:-1 group-title="whiplash" tvg-id="whiplashcinema" tvg-logo="https://whiplash.cc/assets/img/channels/whiplashcinema.png",WHIPLASH CINEMA
+https://cdn.whiplash.cc/whiplash-cinema/index.m3u8
+#EXTINF:-1 group-title="whiplash" tvg-id="whiplashwindowtv" tvg-logo="https://whiplash.cc/assets/img/channels/windowtv.png",WHIPLASH WINDOW TV
+https://cdn.whiplash.cc/whiplash-windowtv/index.m3u8
