@@ -50,7 +50,7 @@ STREAM_URLS = {
 
 EPG_OUTPUT = "epg.xml"
 M3U_OUTPUT = "playlist.m3u"
-EPG_RAW_URL = "https://raw.githubusercontent.com/REPLACE_WITH_YOUR_REPO/main/epg.xml"
+EPG_RAW_URL = "https://raw.githubusercontent.com/BuddyChewChew/whiplash-epg/main/epg.xml"
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; WhiplashEPGBot/1.0)"}
 
