@@ -4,19 +4,19 @@ Whiplash EPG + M3U generator.
 
 Pulls live ErsatzTV XMLTV feeds from whiplash.cc, extracts only the channels
 we care about, remaps their ids to stable local ids, and emits:
-  - epg.xml      (merged XMLTV guide for all 6 known channels)
+  - epg.xml      (merged XMLTV guide for all channels)
   - playlist.m3u (static playlist with tvg-id values filled in)
 
 No external deps beyond `requests`. Designed to run on GitHub Actions.
 """
 
-import re
 import sys
 import requests
 import xml.etree.ElementTree as ET
 
 WL_URL = "https://whiplash.cc/scheds/wl.xml"
 WIN_URL = "https://whiplash.cc/scheds/win.xml"
+BIWI_URL = "https://whiplash.cc/biwi/schedule.xml"
 
 # Stable local tvg-ids we control, mapped from the source XML's channel id.
 # source_id -> (local_tvg_id, display_name, m3u_group, source)
@@ -27,9 +27,10 @@ CHANNEL_MAP = {
     "C7.151.ersatztv.org":    ("whiplashatlas",    "WHIPLASH ATLAS",    "whiplash", "wl"),
     "C11.194.ersatztv.org":   ("whiplashplutotv",  "WHIPLASH PLUTO TV", "whiplash", "wl"),
     "C3.147.ersatztv.org":    ("whiplashwindowtv", "WHIPLASH WINDOW TV","whiplash", "win"),
+    "C6.1.151.ersatztv.org":  ("whiplashbiwi",     "BIWI",              "whiplash", "biwi"),
 }
 
-# Logos taken from the existing m3u (kept stable rather than scraped each run)
+# Logos
 LOGOS = {
     "whiplash":         "https://whiplash.cc/assets/img/channels/whiplash.png",
     "whiplash2":        "https://whiplash.cc/assets/img/channels/whiplash2.png",
@@ -37,6 +38,7 @@ LOGOS = {
     "whiplashatlas":    "https://whiplash.cc/assets/img/channels/atlas.png",
     "whiplashplutotv":  "https://whiplash.cc/assets/img/channels/whiplash.png",
     "whiplashwindowtv": "https://whiplash.cc/assets/img/channels/windowtv.png",
+    "whiplashbiwi":     "https://whiplash.cc/assets/img/channels/biwi.png",
 }
 
 STREAM_URLS = {
@@ -46,6 +48,7 @@ STREAM_URLS = {
     "whiplashatlas":    "https://cdn.whiplash.cc/whiplash-atlas/index.m3u8",
     "whiplashplutotv":  "https://cdn.whiplash.cc/whiplash-pluto/index.m3u8",
     "whiplashwindowtv": "https://cdn.whiplash.cc/whiplash-windowtv/index.m3u8",
+    "whiplashbiwi":     "https://cdn.whiplash.cc/whiplash-biwi/index.m3u8",
 }
 
 EPG_OUTPUT = "epg.xml"
@@ -58,15 +61,14 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; WhiplashEPGBot/1.0)"}
 def fetch_xml(url: str) -> ET.Element:
     resp = requests.get(url, headers=HEADERS, timeout=30)
     resp.raise_for_status()
-    # Strip BOM/whitespace quirks before parsing
     text = resp.content.decode("utf-8-sig", errors="replace")
     return ET.fromstring(text)
 
 
-def build_epg(wl_root: ET.Element, win_root: ET.Element) -> ET.Element:
+def build_epg(wl_root: ET.Element, win_root: ET.Element, biwi_root: ET.Element) -> ET.Element:
     tv = ET.Element("tv", {"generator-info-name": "whiplash-epg-generator"})
 
-    sources = {"wl": wl_root, "win": win_root}
+    sources = {"wl": wl_root, "win": win_root, "biwi": biwi_root}
 
     # Write <channel> blocks first, in CHANNEL_MAP order, using local ids
     for source_id, (local_id, display_name, group, source) in CHANNEL_MAP.items():
@@ -91,14 +93,14 @@ def build_epg(wl_root: ET.Element, win_root: ET.Element) -> ET.Element:
 
 def build_m3u() -> str:
     lines = [f'#EXTM3U url-tvg="{EPG_RAW_URL}"', ""]
-    # Keep playlist order matching the original upload
-    order = ["whiplash", "whiplash2", "whiplashatlas", "whiplashcinema", "whiplashwindowtv"]
+    order = ["whiplash", "whiplash2", "whiplashatlas", "whiplashcinema", "whiplashwindowtv", "whiplashbiwi"]
     display = {
-        "whiplash": "WHIPLASH",
-        "whiplash2": "WHIPLASH 2",
-        "whiplashatlas": "WHIPLASH ATLAS",
-        "whiplashcinema": "WHIPLASH CINEMA",
+        "whiplash":         "WHIPLASH",
+        "whiplash2":        "WHIPLASH 2",
+        "whiplashatlas":    "WHIPLASH ATLAS",
+        "whiplashcinema":   "WHIPLASH CINEMA",
         "whiplashwindowtv": "WHIPLASH WINDOW TV",
+        "whiplashbiwi":     "BIWI",
     }
     for local_id in order:
         logo = LOGOS[local_id]
@@ -112,7 +114,6 @@ def build_m3u() -> str:
 
 
 def indent(elem, level=0):
-    # Minimal pretty-printer (avoids needing lxml)
     i = "\n" + level * "  "
     if len(elem):
         if not elem.text or not elem.text.strip():
@@ -133,8 +134,10 @@ def main():
     wl_root = fetch_xml(WL_URL)
     print(f"Fetching {WIN_URL} ...")
     win_root = fetch_xml(WIN_URL)
+    print(f"Fetching {BIWI_URL} ...")
+    biwi_root = fetch_xml(BIWI_URL)
 
-    tv = build_epg(wl_root, win_root)
+    tv = build_epg(wl_root, win_root, biwi_root)
     indent(tv)
     tree = ET.ElementTree(tv)
     tree.write(EPG_OUTPUT, encoding="UTF-8", xml_declaration=True)
@@ -145,7 +148,6 @@ def main():
         f.write(m3u_text)
     print(f"Wrote {M3U_OUTPUT}")
 
-    # Sanity report
     n_progs = len(tv.findall("programme"))
     n_chans = len(tv.findall("channel"))
     print(f"Channels: {n_chans}, programmes: {n_progs}")
