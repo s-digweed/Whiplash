@@ -28,7 +28,7 @@ CHANNEL_MAP = {
     "C7.151.ersatztv.org":    ("whiplashatlas",    "WHIPLASH ATLAS",    "whiplash", "wl"),
     "C11.194.ersatztv.org":   ("whiplashplutotv",  "WHIPLASH PLUTO TV", "whiplash", "wl"),
     "C3.147.ersatztv.org":    ("whiplashwindowtv", "WHIPLASH WINDOW TV","whiplash", "win"),
-    "C6.1.151.ersatztv.org":  ("whiplashbiwi",     "BIWI",              "whiplash", "biwi"),
+    "C2.146.ersatztv.org":  ("whiplashbiwi",     "BIWI",              "whiplash", "biwi"),
 }
 
 # Logos
