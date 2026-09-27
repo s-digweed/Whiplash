@@ -11713,12 +11713,14 @@ It's a tough day, but Phil comes through in the end, logging 24 food free hours.
   <programme start="20260927021000 -0400" stop="20260927023500 -0400" channel="fizz">
     <title lang="en">Three Delivery</title>
     <sub-title lang="en">I Feel the Earth Move</sub-title>
+    <desc lang="en">Earthquakes are the result of the Di Xia dragon, which has been awakened by Kong Li in an effort to break the force field.</desc>
     <episode-num system="onscreen">S01E01</episode-num>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
   <programme start="20260927023500 -0400" stop="20260927030000 -0400" channel="fizz">
     <title lang="en">Three Delivery</title>
     <sub-title lang="en">The Bottomless Soup of General Yang</sub-title>
+    <desc lang="en">Soup floods the town and the gang track down the ghost of a hungry general to eat it up, but his army arrives as well and attacks when there isn't enough food for them too.</desc>
     <episode-num system="onscreen">S01E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
