@@ -13,7 +13,10 @@ Outputs epg.xml (merged) and playlist.m3u. No deps beyond `requests`.
 """
 
 import re
+import os
 import sys
+import json
+import time
 import html
 import requests
 import xml.etree.ElementTree as ET
@@ -198,6 +201,76 @@ def parse_title(raw):
                 title = _clean(fm.group(2))
     return _rename(title), subtitle, season, ep, ep_end
 
+
+# ───────────────────────── TMDB episode descriptions ──────────────────────
+# Optional: set the TMDB_API_KEY env (GitHub Secret). If absent, descriptions
+# are simply skipped and the EPG is generated exactly as before.
+TMDB_KEY        = os.environ.get("TMDB_API_KEY", "").strip()
+TMDB_BASE       = "https://api.themoviedb.org/3"
+TMDB_LANG       = "en-US"
+DESC_CACHE_FILE = "desc_cache.json"
+
+# Force a TMDB show id when search picks the wrong one: {"Show Name": 1234}
+SHOW_TMDB_OVERRIDES = {}
+
+_QYEAR = re.compile(r'\s*\(((?:19|20)\d\d)\)\s*$')
+_tmdb_session = requests.Session()
+
+def load_desc_cache():
+    try:
+        with open(DESC_CACHE_FILE, encoding="utf-8") as f:
+            c = json.load(f)
+            c.setdefault("shows", {}); c.setdefault("episodes", {})
+            return c
+    except Exception:
+        return {"shows": {}, "episodes": {}}
+
+def save_desc_cache(cache):
+    with open(DESC_CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=0, sort_keys=True)
+
+def _tmdb_get(path, **params):
+    params["api_key"] = TMDB_KEY
+    for _ in range(3):
+        try:
+            r = _tmdb_session.get(TMDB_BASE + path, params=params, timeout=20)
+            if r.status_code == 429:
+                time.sleep(int(r.headers.get("Retry-After", "2")) + 1); continue
+            return r.json() if r.status_code == 200 else None
+        except requests.RequestException:
+            time.sleep(1)
+    return None
+
+def _resolve_show_id(show, cache):
+    if show in SHOW_TMDB_OVERRIDES:
+        return SHOW_TMDB_OVERRIDES[show]
+    key = show.lower()
+    if key in cache["shows"]:
+        return cache["shows"][key]                       # may be None = "searched, not found"
+    ym = _QYEAR.search(show)
+    query = show[:ym.start()].strip() if ym else show
+    params = {"query": query}
+    if ym: params["first_air_date_year"] = ym.group(1)
+    data = _tmdb_get("/search/tv", **params)
+    sid = data["results"][0]["id"] if (data and data.get("results")) else None
+    cache["shows"][key] = sid
+    return sid
+
+def episode_overview(show, season, ep, cache):
+    """Return a plain-text episode overview from TMDB, or None. Cached; never raises."""
+    if not TMDB_KEY or season is None:
+        return None
+    sid = _resolve_show_id(show, cache)
+    if not sid:
+        return None
+    ck = f"{sid}|{season}|{ep}"
+    if ck in cache["episodes"]:
+        return cache["episodes"][ck] or None             # "" = fetched, none available
+    data = _tmdb_get(f"/tv/{sid}/season/{season}/episode/{ep}", language=TMDB_LANG)
+    ov = ((data or {}).get("overview") or "").strip()
+    cache["episodes"][ck] = ov
+    return ov or None
+
 # ── XML helpers ──
 _XML_ILLEGAL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
 _LOCAL_IP = re.compile(r'^(https?://)?(192\.168\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.)')
@@ -238,7 +311,8 @@ def copy_whiplash(tv, root):
             _strip_local_images(np); tv.append(np); n += 1
         if n: print(f"  {local_id}: {n} programmes")
 
-def build_eel(tv, root):
+def build_eel(tv, root, cache):
+    got_desc = 0
     for src_id, (local_id, _) in EEL_CHANNEL_MAP.items():
         n = 0
         for prog in root.findall("programme"):
@@ -250,11 +324,16 @@ def build_eel(tv, root):
             ET.SubElement(np, "title", {"lang": "en"}).text = title
             if sub: ET.SubElement(np, "sub-title", {"lang": "en"}).text = sub
             if season is not None:
+                desc = episode_overview(title, season, ep, cache)
+                if desc:
+                    ET.SubElement(np, "desc", {"lang": "en"}).text = desc
+                    got_desc += 1
                 onscr = f"S{season:02d}E{ep:02d}" + (f"-E{ep_end:02d}" if ep_end else "")
                 ET.SubElement(np, "episode-num", {"system": "onscreen"}).text = onscr
                 ET.SubElement(np, "episode-num", {"system": "xmltv_ns"}).text = f"{season-1}.{ep-1}."
             tv.append(np); n += 1
         if n: print(f"  {local_id}: {n} programmes (normalized)")
+    if TMDB_KEY: print(f"  descriptions attached: {got_desc}")
 
 def build_m3u():
     lines = [f'#EXTM3U url-tvg="{EPG_RAW_URL}"', ""]
@@ -281,18 +360,22 @@ EPG_OUTPUT = "epg.xml"
 M3U_OUTPUT = "playlist.m3u"
 EPG_RAW_URL = "https://raw.githubusercontent.com/s-digweed/Whiplash/main/epg.xml"
 
-def build_all(wl_root, eel_root):
+def build_all(wl_root, eel_root, cache):
     tv = ET.Element("tv", {"generator-info-name": "whiplash-eel-epg-generator"})
     add_channels(tv, WL_CHANNEL_MAP, WL_LOGOS)
     add_channels(tv, EEL_CHANNEL_MAP, EEL_LOGOS)
     print("Whiplash:"); copy_whiplash(tv, wl_root)
-    print("Eel:");      build_eel(tv, eel_root)
+    print("Eel:");      build_eel(tv, eel_root, cache)
     return tv
 
 def main():
+    cache = load_desc_cache()
+    if not TMDB_KEY:
+        print("NOTE: TMDB_API_KEY not set - descriptions skipped this run.")
     print(f"Fetching {WL_URL} ...");  wl_root  = fetch_xml_safe(WL_URL, "Whiplash")
     print(f"Fetching {EEL_URL} ..."); eel_root = fetch_xml_safe(EEL_URL, "Eel")
-    tv = build_all(wl_root, eel_root)
+    tv = build_all(wl_root, eel_root, cache)
+    save_desc_cache(cache)
     indent(tv)
     ET.ElementTree(tv).write(EPG_OUTPUT, encoding="UTF-8", xml_declaration=True)
     with open(M3U_OUTPUT, "w", encoding="utf-8") as f: f.write(build_m3u())
