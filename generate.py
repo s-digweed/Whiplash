@@ -87,6 +87,7 @@ RENAMES = {
     "Homeless In Denton": "Homeless in Denton",
     "Shin-Chan": "Crayon Shin-chan",
     "Chip n' Dale Rescue Rangers": "Chip 'n Dale Rescue Rangers",
+    "Oban Star-Racers": "Ōban Star-Racers",
     # parked (not in current feed, kept in case the source drifts):
     "It's Always Sunny at": "It's Always Sunny in Philadelphia",
     "Batman Animated": "Batman: The Animated Series",
@@ -96,6 +97,13 @@ RENAMES = {
     "Mighty Mouse '87": "Mighty Mouse: The New Adventures (1987)",
     "SRMTHFG!": "Super Robot Monkey Team Hyperforce Go!",
 }
+
+# Fuzzy renames: (pattern, canonical) applied when the exact table misses.
+# Catches truncated / variant titles, e.g. a bare "It's Always Sunny".
+REGEX_RENAMES = [
+    (re.compile(r"^It[\u2019']?s\s+Always\s+Sunny\b.*$", re.I),
+     "It's Always Sunny in Philadelphia"),
+]
 
 # ── title parser ──
 YEAR_ANY = re.compile(r'\((?:19|20)\d\d\)')
@@ -126,7 +134,15 @@ def _rename(title):
     m = YEAR_END.search(title)
     yr = " " + m.group(1) if m else ""
     base = title[:m.start()].strip() if m else title
-    return (RENAMES.get(base, base) + yr).strip()
+    if base in RENAMES:
+        base = RENAMES[base]
+    else:
+        for rx, canon in REGEX_RENAMES:
+            if rx.match(base):
+                base = canon
+                yr = ""          # canonical already carries any year it needs
+                break
+    return (base + yr).strip()
 
 def parse_title(raw):
     """Return (title, subtitle_or_None, season_or_None, ep_or_None, ep_end_or_None)."""
