@@ -225,6 +225,9 @@ def load_desc_cache():
                 c.setdefault(k, {})
             if not c.get("_tvdb_v2"):                    # refresh TVDB layer once (/eng + slug overrides)
                 c["tvdb_shows"] = {}; c["tvdb_episodes"] = {}; c["_tvdb_v2"] = True
+            if not c.get("_meta_v3"):                    # refresh episode caches once to capture episode NAMES
+                for _k in ("episodes","tvmaze_episodes","tvdb_episodes","tvmaze_eplist"): c[_k] = {}
+                c["_meta_v3"] = True
             return c
     except Exception:
         return {"shows": {}, "episodes": {}, "tvmaze_shows": {}, "tvmaze_episodes": {},
@@ -261,19 +264,26 @@ def _resolve_show_id(show, cache):
     cache["shows"][key] = sid
     return sid
 
-def _tmdb_overview(show, season, ep, cache):
+def _rec(v):
+    """Normalize a cached episode value -> (overview, name). Legacy str = overview only."""
+    if isinstance(v, dict):
+        return (v.get("o") or ""), (v.get("n") or "")
+    return (v or ""), ""
+
+def _tmdb_meta(show, season, ep, cache):
     if not TMDB_KEY:
-        return None
+        return "", ""
     sid = _resolve_show_id(show, cache)
     if not sid:
-        return None
+        return "", ""
     ck = f"{sid}|{season}|{ep}"
     if ck in cache["episodes"]:
-        return cache["episodes"][ck] or None             # "" = fetched, none available
+        return _rec(cache["episodes"][ck])
     data = _tmdb_get(f"/tv/{sid}/season/{season}/episode/{ep}", language=TMDB_LANG)
     ov = ((data or {}).get("overview") or "").strip()
-    cache["episodes"][ck] = ov
-    return ov or None
+    nm = ((data or {}).get("name") or "").strip()
+    cache["episodes"][ck] = {"o": ov, "n": nm}
+    return ov, nm
 
 # ── TVmaze fallback (keyless) ──
 ENABLE_TVMAZE = True
@@ -305,18 +315,19 @@ def _resolve_tvmaze_id(show, cache):
     cache["tvmaze_shows"][key] = tid
     return tid
 
-def _tvmaze_overview(show, season, ep, cache):
+def _tvmaze_meta(show, season, ep, cache):
     tid = _resolve_tvmaze_id(show, cache)
     if not tid:
-        return None
+        return "", ""
     ck = f"{tid}|{season}|{ep}"
     if ck in cache["tvmaze_episodes"]:
-        return cache["tvmaze_episodes"][ck] or None
+        return _rec(cache["tvmaze_episodes"][ck])
     data = _tvmaze_get(f"/shows/{tid}/episodebynumber", season=season, number=ep)
-    summ = ((data or {}).get("summary") or "") if isinstance(data, dict) else ""
-    summ = html.unescape(_TAGS.sub("", summ)).strip()
-    cache["tvmaze_episodes"][ck] = summ
-    return summ or None
+    d = data if isinstance(data, dict) else {}
+    ov = html.unescape(_TAGS.sub("", d.get("summary") or "")).strip()
+    nm = (d.get("name") or "").strip()
+    cache["tvmaze_episodes"][ck] = {"o": ov, "n": nm}
+    return ov, nm
 
 def _tvmaze_eplist(tid, cache):
     """Flat list of regular-episode summaries in air order (index 0 = ep 1). Cached."""
@@ -328,7 +339,8 @@ def _tvmaze_eplist(tid, cache):
     if isinstance(data, list):
         for e in data:
             if e.get("season") and e.get("number"):          # skip specials
-                lst.append(html.unescape(_TAGS.sub("", e.get("summary") or "")).strip())
+                lst.append({"o": html.unescape(_TAGS.sub("", e.get("summary") or "")).strip(),
+                            "n": (e.get("name") or "").strip()})
     cache["tvmaze_eplist"][key] = lst
     return lst
 
@@ -347,15 +359,17 @@ def _tmdb_seasons(sid, cache):
     cache["tmdb_seasons"][key] = seasons
     return seasons
 
-def _absolute_overview(show, absN, cache):
+def _absolute_meta(show, absN, cache):
     """Treat absN as an ABSOLUTE episode number and resolve via the show's episode list."""
     if not absN or absN < 1:
-        return None
+        return "", ""
     tid = cache["tvmaze_shows"].get(show.lower())               # set during the TVmaze direct try
     if tid:
         lst = _tvmaze_eplist(tid, cache)
-        if 1 <= absN <= len(lst) and lst[absN - 1]:
-            return lst[absN - 1]
+        if 1 <= absN <= len(lst):
+            o, n = _rec(lst[absN - 1])
+            if o or n:
+                return o, n
     sid = _resolve_show_id(show, cache) if TMDB_KEY else None
     if sid:
         rem = absN
@@ -364,10 +378,11 @@ def _absolute_overview(show, absN, cache):
                 ck = f"{sid}|{snum}|{rem}"
                 if ck not in cache["episodes"]:
                     data = _tmdb_get(f"/tv/{sid}/season/{snum}/episode/{rem}", language=TMDB_LANG)
-                    cache["episodes"][ck] = ((data or {}).get("overview") or "").strip()
-                return cache["episodes"][ck] or None
+                    cache["episodes"][ck] = {"o": ((data or {}).get("overview") or "").strip(),
+                                             "n": ((data or {}).get("name") or "").strip()}
+                return _rec(cache["episodes"][ck])
             rem -= cnt
-    return None
+    return "", ""
 
 # ── TheTVDB fallback (third source; strong on old-cartoon episode overviews) ──
 TVDB_KEY   = os.environ.get("TVDB_API_KEY", "").strip()
@@ -438,48 +453,48 @@ def _resolve_tvdb_id(show, cache):
     cache["tvdb_shows"][key] = tid
     return tid
 
-def _tvdb_overview(show, season, ep, cache):
+def _tvdb_meta(show, season, ep, cache):
     if not ENABLE_TVDB:
-        return None
+        return "", ""
     tid = _resolve_tvdb_id(show, cache)
     if not tid:
-        return None
+        return "", ""
     ck = f"{tid}|{season}|{ep}"
     if ck in cache["tvdb_episodes"]:
-        return cache["tvdb_episodes"][ck] or None
-    ov = ""
+        return _rec(cache["tvdb_episodes"][ck])
+    ov = nm = ""
     for path in (f"/series/{tid}/episodes/default/eng", f"/series/{tid}/episodes/default"):
         data = _tvdb_get(path, season=season, episodeNumber=ep, page=0)
         eps = data.get("episodes") if isinstance(data, dict) else None
         if isinstance(eps, list) and eps:
-            match = next((e for e in eps if e.get("seasonNumber") == season and e.get("number") == ep), eps[0])
-            ov = (match.get("overview") or "").strip()
+            m = next((e for e in eps if e.get("seasonNumber") == season and e.get("number") == ep), eps[0])
+            ov = (m.get("overview") or "").strip()
+            if not nm:
+                nm = (m.get("name") or "").strip()
             if ov:
                 break
-    cache["tvdb_episodes"][ck] = ov
-    return ov or None
+    cache["tvdb_episodes"][ck] = {"o": ov, "n": nm}
+    return ov, nm
+
+def episode_meta(show, season, ep, cache):
+    """(overview, name): first non-empty of each across sources. Cached; never raises."""
+    if season is None:
+        return None, None
+    ov = nm = ""
+    def take(res):
+        nonlocal ov, nm
+        o, n = res
+        if o and not ov: ov = o
+        if n and not nm: nm = n
+        return bool(ov and nm)
+    if take(_tmdb_meta(show, season, ep, cache)):                 return ov, nm
+    if ENABLE_TVMAZE and take(_tvmaze_meta(show, season, ep, cache)): return ov, nm
+    if ENABLE_TVDB and take(_tvdb_meta(show, season, ep, cache)):     return ov, nm
+    if season == 1: take(_absolute_meta(show, ep, cache))
+    return (ov or None), (nm or None)
 
 def episode_overview(show, season, ep, cache):
-    """TMDB first, TVmaze as fallback. Plain text or None. Cached; never raises."""
-    if season is None:
-        return None
-    ov = _tmdb_overview(show, season, ep, cache)
-    if ov:
-        return ov
-    if ENABLE_TVMAZE:
-        ov = _tvmaze_overview(show, season, ep, cache)
-        if ov:
-            return ov
-    if ENABLE_TVDB:
-        ov = _tvdb_overview(show, season, ep, cache)
-        if ov:
-            return ov
-    # absolute fallback: season-1 numbers that overflow the DB's real season layout
-    if season == 1:
-        ov = _absolute_overview(show, ep, cache)
-        if ov:
-            return ov
-    return None
+    return episode_meta(show, season, ep, cache)[0]
 
 # ── XML helpers ──
 _XML_ILLEGAL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
@@ -522,28 +537,32 @@ def copy_whiplash(tv, root):
         if n: print(f"  {local_id}: {n} programmes")
 
 def build_eel(tv, root, cache):
-    got_desc = 0
+    got_desc = got_sub = 0
     for src_id, (local_id, _) in EEL_CHANNEL_MAP.items():
         n = 0
         for prog in root.findall("programme"):
             if prog.get("channel") != src_id: continue
             raw_title = (prog.findtext("title") or "").strip()
             title, sub, season, ep, ep_end = parse_title(raw_title)
+            desc = None
+            if season is not None:
+                desc, epname = episode_meta(title, season, ep, cache)
+                if not sub and epname:                 # fill missing episode name from metadata
+                    sub = epname; got_sub += 1
             np = ET.Element("programme", {k: prog.get(k) for k in prog.keys()})
             np.set("channel", local_id)
             ET.SubElement(np, "title", {"lang": "en"}).text = title
             if sub: ET.SubElement(np, "sub-title", {"lang": "en"}).text = sub
+            if desc:
+                ET.SubElement(np, "desc", {"lang": "en"}).text = desc
+                got_desc += 1
             if season is not None:
-                desc = episode_overview(title, season, ep, cache)
-                if desc:
-                    ET.SubElement(np, "desc", {"lang": "en"}).text = desc
-                    got_desc += 1
                 onscr = f"S{season:02d}E{ep:02d}" + (f"-E{ep_end:02d}" if ep_end else "")
                 ET.SubElement(np, "episode-num", {"system": "onscreen"}).text = onscr
                 ET.SubElement(np, "episode-num", {"system": "xmltv_ns"}).text = f"{season-1}.{ep-1}."
             tv.append(np); n += 1
         if n: print(f"  {local_id}: {n} programmes (normalized)")
-    if TMDB_KEY: print(f"  descriptions attached: {got_desc}")
+    if TMDB_KEY: print(f"  descriptions attached: {got_desc} | episode names added: {got_sub}")
 
 def build_m3u():
     lines = [f'#EXTM3U url-tvg="{EPG_RAW_URL}"', ""]
