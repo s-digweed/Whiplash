@@ -220,12 +220,13 @@ def load_desc_cache():
     try:
         with open(DESC_CACHE_FILE, encoding="utf-8") as f:
             c = json.load(f)
-            for k in ("shows","episodes","tvmaze_shows","tvmaze_episodes","tmdb_seasons","tvmaze_eplist"):
+            for k in ("shows","episodes","tvmaze_shows","tvmaze_episodes","tmdb_seasons",
+                      "tvmaze_eplist","tvdb_shows","tvdb_episodes"):
                 c.setdefault(k, {})
             return c
     except Exception:
         return {"shows": {}, "episodes": {}, "tvmaze_shows": {}, "tvmaze_episodes": {},
-                "tmdb_seasons": {}, "tvmaze_eplist": {}}
+                "tmdb_seasons": {}, "tvmaze_eplist": {}, "tvdb_shows": {}, "tvdb_episodes": {}}
 
 def save_desc_cache(cache):
     with open(DESC_CACHE_FILE, "w", encoding="utf-8") as f:
@@ -366,6 +367,74 @@ def _absolute_overview(show, absN, cache):
             rem -= cnt
     return None
 
+# ── TheTVDB fallback (third source; strong on old-cartoon episode overviews) ──
+TVDB_KEY   = os.environ.get("TVDB_API_KEY", "").strip()
+TVDB_BASE  = "https://api4.thetvdb.com/v4"
+ENABLE_TVDB = bool(TVDB_KEY)
+_TVDB_TOKEN = None
+
+def _tvdb_login():
+    global _TVDB_TOKEN
+    if not TVDB_KEY:
+        return None
+    try:
+        r = _tmdb_session.post(TVDB_BASE + "/login", json={"apikey": TVDB_KEY}, timeout=20)
+        _TVDB_TOKEN = r.json().get("data", {}).get("token") if r.status_code == 200 else None
+    except requests.RequestException:
+        _TVDB_TOKEN = None
+    return _TVDB_TOKEN
+
+def _tvdb_get(path, **params):
+    global _TVDB_TOKEN
+    if not TVDB_KEY:
+        return None
+    if _TVDB_TOKEN is None and _tvdb_login() is None:
+        return None
+    for attempt in range(2):
+        try:
+            r = _tmdb_session.get(TVDB_BASE + path, params=params,
+                                  headers={"Authorization": f"Bearer {_TVDB_TOKEN}"}, timeout=20)
+            if r.status_code == 401 and attempt == 0:
+                _TVDB_TOKEN = None
+                if _tvdb_login() is None:
+                    return None
+                continue
+            return r.json().get("data") if r.status_code == 200 else None
+        except requests.RequestException:
+            time.sleep(1)
+    return None
+
+def _resolve_tvdb_id(show, cache):
+    key = show.lower()
+    if key in cache["tvdb_shows"]:
+        return cache["tvdb_shows"][key]
+    ym = _QYEAR.search(show)
+    query = show[:ym.start()].strip() if ym else show
+    data = _tvdb_get("/search", query=query, type="series")
+    tid = None
+    if isinstance(data, list) and data:
+        tid = data[0].get("tvdb_id") or data[0].get("id")
+    cache["tvdb_shows"][key] = tid
+    return tid
+
+def _tvdb_overview(show, season, ep, cache):
+    if not ENABLE_TVDB:
+        return None
+    tid = _resolve_tvdb_id(show, cache)
+    if not tid:
+        return None
+    ck = f"{tid}|{season}|{ep}"
+    if ck in cache["tvdb_episodes"]:
+        return cache["tvdb_episodes"][ck] or None
+    data = _tvdb_get(f"/series/{tid}/episodes/default", season=season, episodeNumber=ep, page=0)
+    eps = data.get("episodes") if isinstance(data, dict) else None
+    ov = ""
+    if isinstance(eps, list) and eps:
+        match = next((e for e in eps if e.get("seasonNumber") == season and e.get("number") == ep), eps[0])
+        ov = (match.get("overview") or "").strip()
+    cache["tvdb_episodes"][ck] = ov
+    return ov or None
+
 def episode_overview(show, season, ep, cache):
     """TMDB first, TVmaze as fallback. Plain text or None. Cached; never raises."""
     if season is None:
@@ -375,6 +444,10 @@ def episode_overview(show, season, ep, cache):
         return ov
     if ENABLE_TVMAZE:
         ov = _tvmaze_overview(show, season, ep, cache)
+        if ov:
+            return ov
+    if ENABLE_TVDB:
+        ov = _tvdb_overview(show, season, ep, cache)
         if ov:
             return ov
     # absolute fallback: season-1 numbers that overflow the DB's real season layout
