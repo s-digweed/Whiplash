@@ -220,11 +220,12 @@ def load_desc_cache():
     try:
         with open(DESC_CACHE_FILE, encoding="utf-8") as f:
             c = json.load(f)
-            for k in ("shows","episodes","tvmaze_shows","tvmaze_episodes"):
+            for k in ("shows","episodes","tvmaze_shows","tvmaze_episodes","tmdb_seasons","tvmaze_eplist"):
                 c.setdefault(k, {})
             return c
     except Exception:
-        return {"shows": {}, "episodes": {}, "tvmaze_shows": {}, "tvmaze_episodes": {}}
+        return {"shows": {}, "episodes": {}, "tvmaze_shows": {}, "tvmaze_episodes": {},
+                "tmdb_seasons": {}, "tvmaze_eplist": {}}
 
 def save_desc_cache(cache):
     with open(DESC_CACHE_FILE, "w", encoding="utf-8") as f:
@@ -314,6 +315,57 @@ def _tvmaze_overview(show, season, ep, cache):
     cache["tvmaze_episodes"][ck] = summ
     return summ or None
 
+def _tvmaze_eplist(tid, cache):
+    """Flat list of regular-episode summaries in air order (index 0 = ep 1). Cached."""
+    key = str(tid)
+    if key in cache["tvmaze_eplist"]:
+        return cache["tvmaze_eplist"][key]
+    data = _tvmaze_get(f"/shows/{tid}/episodes")
+    lst = []
+    if isinstance(data, list):
+        for e in data:
+            if e.get("season") and e.get("number"):          # skip specials
+                lst.append(html.unescape(_TAGS.sub("", e.get("summary") or "")).strip())
+    cache["tvmaze_eplist"][key] = lst
+    return lst
+
+def _tmdb_seasons(sid, cache):
+    """[[season_number, episode_count], ...] for regular seasons. Cached."""
+    key = str(sid)
+    if key in cache["tmdb_seasons"]:
+        return cache["tmdb_seasons"][key]
+    data = _tmdb_get(f"/tv/{sid}")
+    seasons = []
+    if data:
+        for s in data.get("seasons", []):
+            if s.get("season_number", 0) >= 1 and s.get("episode_count"):
+                seasons.append([s["season_number"], s["episode_count"]])
+    seasons.sort()
+    cache["tmdb_seasons"][key] = seasons
+    return seasons
+
+def _absolute_overview(show, absN, cache):
+    """Treat absN as an ABSOLUTE episode number and resolve via the show's episode list."""
+    if not absN or absN < 1:
+        return None
+    tid = cache["tvmaze_shows"].get(show.lower())               # set during the TVmaze direct try
+    if tid:
+        lst = _tvmaze_eplist(tid, cache)
+        if 1 <= absN <= len(lst) and lst[absN - 1]:
+            return lst[absN - 1]
+    sid = _resolve_show_id(show, cache) if TMDB_KEY else None
+    if sid:
+        rem = absN
+        for snum, cnt in _tmdb_seasons(sid, cache):
+            if rem <= cnt:
+                ck = f"{sid}|{snum}|{rem}"
+                if ck not in cache["episodes"]:
+                    data = _tmdb_get(f"/tv/{sid}/season/{snum}/episode/{rem}", language=TMDB_LANG)
+                    cache["episodes"][ck] = ((data or {}).get("overview") or "").strip()
+                return cache["episodes"][ck] or None
+            rem -= cnt
+    return None
+
 def episode_overview(show, season, ep, cache):
     """TMDB first, TVmaze as fallback. Plain text or None. Cached; never raises."""
     if season is None:
@@ -323,6 +375,11 @@ def episode_overview(show, season, ep, cache):
         return ov
     if ENABLE_TVMAZE:
         ov = _tvmaze_overview(show, season, ep, cache)
+        if ov:
+            return ov
+    # absolute fallback: season-1 numbers that overflow the DB's real season layout
+    if season == 1:
+        ov = _absolute_overview(show, ep, cache)
         if ov:
             return ov
     return None
