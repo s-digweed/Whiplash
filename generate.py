@@ -223,6 +223,8 @@ def load_desc_cache():
             for k in ("shows","episodes","tvmaze_shows","tvmaze_episodes","tmdb_seasons",
                       "tvmaze_eplist","tvdb_shows","tvdb_episodes"):
                 c.setdefault(k, {})
+            if not c.get("_tvdb_v2"):                    # refresh TVDB layer once (/eng + slug overrides)
+                c["tvdb_shows"] = {}; c["tvdb_episodes"] = {}; c["_tvdb_v2"] = True
             return c
     except Exception:
         return {"shows": {}, "episodes": {}, "tvmaze_shows": {}, "tvmaze_episodes": {},
@@ -404,16 +406,35 @@ def _tvdb_get(path, **params):
             time.sleep(1)
     return None
 
+# Force a TVDB series by its thetvdb.com slug (from the URL) when search mismatches.
+SHOW_TVDB_OVERRIDES = {
+    "Spider-Man: The Animated Series": "spider-man-1994",
+}
+
+def _tvdb_search_id(query):
+    data = _tvdb_get("/search", query=query, type="series")
+    if isinstance(data, list) and data:
+        return data[0].get("tvdb_id") or data[0].get("id")
+    return None
+
 def _resolve_tvdb_id(show, cache):
+    if show in SHOW_TVDB_OVERRIDES:
+        slug = SHOW_TVDB_OVERRIDES[show]
+        ck = "slug:" + slug
+        if ck in cache["tvdb_shows"]:
+            return cache["tvdb_shows"][ck]
+        d = _tvdb_get(f"/series/slug/{slug}")
+        tid = d.get("id") if isinstance(d, dict) else None
+        cache["tvdb_shows"][ck] = tid
+        return tid
     key = show.lower()
     if key in cache["tvdb_shows"]:
         return cache["tvdb_shows"][key]
     ym = _QYEAR.search(show)
     query = show[:ym.start()].strip() if ym else show
-    data = _tvdb_get("/search", query=query, type="series")
-    tid = None
-    if isinstance(data, list) and data:
-        tid = data[0].get("tvdb_id") or data[0].get("id")
+    tid = _tvdb_search_id(query)
+    if tid is None and ":" in query:                     # retry on the base name
+        tid = _tvdb_search_id(query.split(":")[0].strip())
     cache["tvdb_shows"][key] = tid
     return tid
 
@@ -426,12 +447,15 @@ def _tvdb_overview(show, season, ep, cache):
     ck = f"{tid}|{season}|{ep}"
     if ck in cache["tvdb_episodes"]:
         return cache["tvdb_episodes"][ck] or None
-    data = _tvdb_get(f"/series/{tid}/episodes/default", season=season, episodeNumber=ep, page=0)
-    eps = data.get("episodes") if isinstance(data, dict) else None
     ov = ""
-    if isinstance(eps, list) and eps:
-        match = next((e for e in eps if e.get("seasonNumber") == season and e.get("number") == ep), eps[0])
-        ov = (match.get("overview") or "").strip()
+    for path in (f"/series/{tid}/episodes/default/eng", f"/series/{tid}/episodes/default"):
+        data = _tvdb_get(path, season=season, episodeNumber=ep, page=0)
+        eps = data.get("episodes") if isinstance(data, dict) else None
+        if isinstance(eps, list) and eps:
+            match = next((e for e in eps if e.get("seasonNumber") == season and e.get("number") == ep), eps[0])
+            ov = (match.get("overview") or "").strip()
+            if ov:
+                break
     cache["tvdb_episodes"][ck] = ov
     return ov or None
 
