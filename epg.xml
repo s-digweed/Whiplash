@@ -10813,16 +10813,19 @@ Planxty - The Blacksmith</desc>
   </programme>
   <programme start="20260927072000 -0400" stop="20260927074500 -0400" channel="eel-channel">
     <title lang="en">Lupin The Third Part II</title>
+    <desc lang="en">Zenigata is at the wheel of a patrol car. Sitting next to him is, of all people, Fujiko. She believes that the best way to protect Lupin from the high-speed hitman Puma is for him to be arrested by the police. Lupin answers Puma's ability to hit at long range, in the midst of rain and hail, goes out for a one-on-one showdown, and gets shot! Will the repose of poor Lupin's soul go with his love for Fujiko?</desc>
     <episode-num system="onscreen">S01E55</episode-num>
     <episode-num system="xmltv_ns">0.54.</episode-num>
   </programme>
   <programme start="20260927074500 -0400" stop="20260927081000 -0400" channel="eel-channel">
     <title lang="en">Dragon Ball</title>
+    <desc lang="en">The Tournament begins with the fight between Tien and his former mentor turned cyborg, Mercenary Tao.</desc>
     <episode-num system="onscreen">S01E136</episode-num>
     <episode-num system="xmltv_ns">0.135.</episode-num>
   </programme>
   <programme start="20260927081000 -0400" stop="20260927083500 -0400" channel="eel-channel">
     <title lang="en">Dragon Ball</title>
+    <desc lang="en">In the second fight of the World Martial Arts Tournament, Goku faces his most beautiful opponent yet. The identity of the beautiful warrior is as mysterious as her fierce anger towards Goku, who must win the fight to learn her real name.</desc>
     <episode-num system="onscreen">S01E137</episode-num>
     <episode-num system="xmltv_ns">0.136.</episode-num>
   </programme>
@@ -11107,16 +11110,19 @@ Karl's diary is about his hospital visit for his kidney and a TV documentary in 
   </programme>
   <programme start="20260928074000 -0400" stop="20260928080500 -0400" channel="eel-channel">
     <title lang="en">Lupin The Third Part II</title>
+    <desc lang="en">A stolen crown goes to auction by a secret route. Jigen is with the seller, Jaguar, Goemon is with the buyer, Tatsumaki, and Lupin is in disguise as the jewelry appraiser. Their objective in sneaking in is to get both the crown and the money used to purchase it. It's a four-way tug-of-war with Lupin, the Jaguar gang, the Tatsumaki gang, and even Zenigata getting in on the act! And lest we forget, an upset by Fujiko. What effect will that have on the outcome?!</desc>
     <episode-num system="onscreen">S01E56</episode-num>
     <episode-num system="xmltv_ns">0.55.</episode-num>
   </programme>
   <programme start="20260928080500 -0400" stop="20260928083000 -0400" channel="eel-channel">
     <title lang="en">Dragon Ball</title>
+    <desc lang="en">The tournament continues with a double header! First up, Krillin battles Piccolo Junior. Yamcha jumps in the ring next, opposing Shen, whose meek appearance may hide a darker threat.</desc>
     <episode-num system="onscreen">S01E138</episode-num>
     <episode-num system="xmltv_ns">0.137.</episode-num>
   </programme>
   <programme start="20260928083000 -0400" stop="20260928085500 -0400" channel="eel-channel">
     <title lang="en">Dragon Ball</title>
+    <desc lang="en">Yamcha scratches to stay in the ring as Shen reveals his true ability and identity. Later, Goku and Tien must face off in the semifinals.</desc>
     <episode-num system="onscreen">S01E139</episode-num>
     <episode-num system="xmltv_ns">0.138.</episode-num>
   </programme>
@@ -11445,16 +11451,19 @@ Mack discovers the joys of female company and becomes frustrated with his monosy
   </programme>
   <programme start="20260929074000 -0400" stop="20260929080500 -0400" channel="eel-channel">
     <title lang="en">Lupin The Third Part II</title>
+    <desc lang="en">Heburai Village, Japan - a place where, according to legend, Jesus Christ was washed ashore. In an excavated casket, a beautiful woman is found in a near-death state, together with a golden statuette of the Virgin Mary. Lupin goes after the statuette, but the woman, Camilla, revives, and brings Lupin into her circle of vampire acquaintances. She is Christ's twin sister, and she stole the statuette from her brother and fled. Will Fujiko be rescued from sacrifice at the ball 2000 years later?!</desc>
     <episode-num system="onscreen">S01E57</episode-num>
     <episode-num system="xmltv_ns">0.56.</episode-num>
   </programme>
   <programme start="20260929080500 -0400" stop="20260929083000 -0400" channel="eel-channel">
     <title lang="en">Dragon Ball</title>
+    <desc lang="en">Goku unloads a heavy burden, one that may shift the balance in the epic showdown. All eyes turn to Tien as an embarrassing moment spurs him to make a dangerous decision.</desc>
     <episode-num system="onscreen">S01E140</episode-num>
     <episode-num system="xmltv_ns">0.139.</episode-num>
   </programme>
   <programme start="20260929083000 -0400" stop="20260929085500 -0400" channel="eel-channel">
     <title lang="en">Dragon Ball</title>
+    <desc lang="en">When Goku's fight with Tien turns into a war against an army, he finds himself in great danger. Tien's new technique could mean the end for our hero!</desc>
     <episode-num system="onscreen">S01E141</episode-num>
     <episode-num system="xmltv_ns">0.140.</episode-num>
   </programme>
@@ -11696,6 +11705,7 @@ It's a tough day, but Phil comes through in the end, logging 24 food free hours.
   </programme>
   <programme start="20260927010000 -0400" stop="20260927012500 -0400" channel="fizz">
     <title lang="en">X-Men: The Animated Series</title>
+    <desc lang="en">Wolverine is led back to his homeland of Canada, and is attacked by his former teammates from the supergroup Alpha Flight. The government wants the secrets of his adamantium skeleton back, and are willing to take him apart to get it.</desc>
     <episode-num system="onscreen">S01E18</episode-num>
     <episode-num system="xmltv_ns">0.17.</episode-num>
   </programme>
@@ -12049,6 +12059,7 @@ Closing Theme</desc>
   </programme>
   <programme start="20260928005500 -0400" stop="20260928012000 -0400" channel="fizz">
     <title lang="en">X-Men: The Animated Series</title>
+    <desc lang="en">Gambit must come face to face with the past he's been running from for years, as he returns to Louisiana to save his brother from the woman he left at the altar.</desc>
     <episode-num system="onscreen">S01E19</episode-num>
     <episode-num system="xmltv_ns">0.18.</episode-num>
   </programme>
@@ -12083,6 +12094,7 @@ Guest appearance: Mako Iwamatsu as Master Offay</desc>
   </programme>
   <programme start="20260928032500 -0400" stop="20260928035000 -0400" channel="fizz">
     <title lang="en">Storm Hawks</title>
+    <desc lang="en">The Storm Hawks respond to a distress call from the bottom of Terra Aquanos to rescue the Neck Deeps. At the bottom they find monsters which have been released by I.J. Domiwick from a sealed cavern. In this cavern are supposed endless tunnels that lead to everywhere throughout the Atmos, even the fabled "other side". While the Storm Hawks and Neck Deeps try to seal the cavern, Domiwick escapes, but only delays their plan and swims into the cavern before Finn reseals it. However, just as the Storm Hawks head for the surface, one of the monsters punctures the Condor, causing it to flood. All but Aerrow abandon ship, Aerrow having giving his breather to Piper after Domiwick stole hers. Aerrow manages to make it to the surface while riding atop the monster, now called "Bessie", to satisfy Stork's belief that it exists. In the last scene, Domiwick is seen crawling up onto shore on an unknown land.</desc>
     <episode-num system="onscreen">S01E40</episode-num>
     <episode-num system="xmltv_ns">0.39.</episode-num>
   </programme>
@@ -12389,6 +12401,7 @@ Gym:  Moze and Ned spar in martial arts and Ned gets thrown for a loop. So now N
   </programme>
   <programme start="20260929010000 -0400" stop="20260929012500 -0400" channel="fizz">
     <title lang="en">X-Men: The Animated Series</title>
+    <desc lang="en">Bishop returns from the future to again attempt to fix his world, this time trying to stop a plague from infecting mutants. But his noble actions lead to a far greater tragedy.</desc>
     <episode-num system="onscreen">S01E20</episode-num>
     <episode-num system="xmltv_ns">0.19.</episode-num>
   </programme>
@@ -12423,6 +12436,7 @@ Guest appearance: John Kassir as the Wigglenog</desc>
   </programme>
   <programme start="20260929033000 -0400" stop="20260929035500 -0400" channel="fizz">
     <title lang="en">Storm Hawks</title>
+    <desc lang="en">With nothing better to do, the Storm Hawks answer a distress call from a very small, almost unnoticeable terra, where they meet a nerdy boy named Noob. Noob is their number one fan and president of the Storm Hawks fan club. Noob manages to talk his way onto the Condor, quickly becoming an annoyance to the Storm Hawks. Noob wants to see them fight Cyclonians but the Cyclonians haven't been active for weeks, which Aerrow finds suspicious. Cyclonis is planning something that requires many rare warp crystals, that she sends her Talons to collect. While playing on Finn's Skimmer, Noob nearly falls into the Wastelands. The Storm hawks decide it is time for him to leave, but he refuses to, believing that they are testing him. Finn finally snaps and hurts his feelings, which convinces Noob to leave. Noob soon sends another distress signal, but the Storm Hawks don't believe him, even though Ravess and some Talons are actually attacking the crystal mines on his terra. Ravess captures Noob and interrogates him. The Storm Hawks, feeling bad, head back to his terra. Meanwhile, Ravess accidentally reveals Cyclonis' secret plot. The Storm Hawks arrive and rescue Noob, who possesses three warp crystals. Noob drives his trailer into Ravess and the warp crystals activate, sending her to Master Cyclonis. Noob then tells them about Operation Exodus, Cyclonis' secret mission. Noob realizes that he shouldn't obsess with the Storm Hawks and whips out a trailer dedicated to the Absolute Zeros.</desc>
     <episode-num system="onscreen">S01E41</episode-num>
     <episode-num system="xmltv_ns">0.40.</episode-num>
   </programme>
@@ -12761,11 +12775,13 @@ Meanwhile, Alan and Amy fight about spending too much money.</desc>
   </programme>
   <programme start="20260927035500 -0400" stop="20260927042000 -0400" channel="toon-diggity">
     <title lang="en">Goof Troop</title>
+    <desc lang="en">Max wants to impress a new girl in school.</desc>
     <episode-num system="onscreen">S01E68</episode-num>
     <episode-num system="xmltv_ns">0.67.</episode-num>
   </programme>
   <programme start="20260927042000 -0400" stop="20260927044500 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
+    <desc lang="en">Abis Mal and Mechanickles team up to get their revenge on Aladdin. They do it by these magical jewels. Each jewel possesses a certain bad feeling or emotion. The jewels effect everyone except for Aladdin who decides to reverse the curse and use the jewels on Mechanickles and Abis Mal.</desc>
     <episode-num system="onscreen">S01E26</episode-num>
     <episode-num system="xmltv_ns">0.25.</episode-num>
   </programme>
@@ -12797,6 +12813,7 @@ Meanwhile, Alan and Amy fight about spending too much money.</desc>
   </programme>
   <programme start="20260927071500 -0400" stop="20260927074000 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
+    <desc lang="en">Abis Mal is able to steal from Agrabah blind. He does this by burning this magical powder that creates smoke demons when burned.</desc>
     <episode-num system="onscreen">S01E13</episode-num>
     <episode-num system="xmltv_ns">0.12.</episode-num>
   </programme>
@@ -12864,11 +12881,13 @@ Meanwhile, Alan and Amy fight about spending too much money.</desc>
   </programme>
   <programme start="20260927115000 -0400" stop="20260927121500 -0400" channel="toon-diggity">
     <title lang="en">Chip 'n Dale Rescue Rangers</title>
+    <desc lang="en">A night at the Opera proves to be more than just culturally enriching for the Rescue Rangers, when they go underground into the sewers and run into an insane alligator with a yen for acting.</desc>
     <episode-num system="onscreen">S01E26</episode-num>
     <episode-num system="xmltv_ns">0.25.</episode-num>
   </programme>
   <programme start="20260927121500 -0400" stop="20260927124000 -0400" channel="toon-diggity">
     <title lang="en">Chip 'n Dale Rescue Rangers</title>
+    <desc lang="en">Dale's greed gets the best of him when he switches places with a leprechaun to get the pot of magic gold.</desc>
     <episode-num system="onscreen">S01E39</episode-num>
     <episode-num system="xmltv_ns">0.38.</episode-num>
   </programme>
@@ -12951,6 +12970,7 @@ Meanwhile, Alan and Amy fight about spending too much money.</desc>
   </programme>
   <programme start="20260927200000 -0400" stop="20260927202500 -0400" channel="toon-diggity">
     <title lang="en">Chip 'n Dale Rescue Rangers</title>
+    <desc lang="en">A night at the Opera proves to be more than just culturally enriching for the Rescue Rangers, when they go underground into the sewers and run into an insane alligator with a yen for acting.</desc>
     <episode-num system="onscreen">S01E26</episode-num>
     <episode-num system="xmltv_ns">0.25.</episode-num>
   </programme>
@@ -12962,6 +12982,7 @@ Meanwhile, Alan and Amy fight about spending too much money.</desc>
   </programme>
   <programme start="20260927205000 -0400" stop="20260927211500 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
+    <desc lang="en">Webby leads the kids in a race against the Beagles to find a secret treasure while hiding a secret of her own. Della is forced to teach Launchpad how to actually fly a plane.</desc>
     <episode-num system="onscreen">S01E43</episode-num>
     <episode-num system="xmltv_ns">0.42.</episode-num>
   </programme>
@@ -12997,6 +13018,7 @@ Meanwhile, Alan and Amy fight about spending too much money.</desc>
   </programme>
   <programme start="20260927232000 -0400" stop="20260927234500 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
+    <desc lang="en">When Louie uses Gyro’s Time Tub to steal lost treasures from the past, a mysterious storm in the present sends all of space and time crashing down onto the mansion.</desc>
     <episode-num system="onscreen">S01E44</episode-num>
     <episode-num system="xmltv_ns">0.43.</episode-num>
   </programme>
@@ -13046,6 +13068,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260928024000 -0400" stop="20260928030500 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
+    <desc lang="en">Genie has never won a game against carpet, but when he meets two game-loving wizards, how far will he go to win?</desc>
     <episode-num system="onscreen">S01E37</episode-num>
     <episode-num system="xmltv_ns">0.36.</episode-num>
   </programme>
@@ -13108,6 +13131,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260928074000 -0400" stop="20260928080500 -0400" channel="toon-diggity">
     <title lang="en">Chip 'n Dale Rescue Rangers</title>
+    <desc lang="en">While out test driving the Rangermobile, the Rangers stumble across an entire cult of rats that worship a soft drink known as 'Kookoo Cola.'</desc>
     <episode-num system="onscreen">S01E27</episode-num>
     <episode-num system="xmltv_ns">0.26.</episode-num>
   </programme>
@@ -13180,6 +13204,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260928124000 -0400" stop="20260928130500 -0400" channel="toon-diggity">
     <title lang="en">Chip 'n Dale Rescue Rangers</title>
+    <desc lang="en">Monty is torn between an old flame and his loyalty to the Rescue Rangers.</desc>
     <episode-num system="onscreen">S01E43</episode-num>
     <episode-num system="xmltv_ns">0.42.</episode-num>
   </programme>
@@ -13245,11 +13270,13 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260928191500 -0400" stop="20260928194000 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
+    <desc lang="en">Genie has never won a game against carpet, but when he meets two game-loving wizards, how far will he go to win?</desc>
     <episode-num system="onscreen">S01E37</episode-num>
     <episode-num system="xmltv_ns">0.36.</episode-num>
   </programme>
   <programme start="20260928194000 -0400" stop="20260928200500 -0400" channel="toon-diggity">
     <title lang="en">Chip 'n Dale Rescue Rangers</title>
+    <desc lang="en">While out test driving the Rangermobile, the Rangers stumble across an entire cult of rats that worship a soft drink known as 'Kookoo Cola.'</desc>
     <episode-num system="onscreen">S01E27</episode-num>
     <episode-num system="xmltv_ns">0.26.</episode-num>
   </programme>
@@ -13285,6 +13312,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260928221000 -0400" stop="20260928223500 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
+    <desc lang="en">Iago can't stand being greedy so he steals valuables to give away.</desc>
     <episode-num system="onscreen">S01E38</episode-num>
     <episode-num system="xmltv_ns">0.37.</episode-num>
   </programme>
@@ -13302,6 +13330,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260928232500 -0400" stop="20260928235000 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
+    <desc lang="en">Glomgold forms his own family made of all of Scrooge’s greatest villains to defeat Scrooge’s family once and for all.</desc>
     <episode-num system="onscreen">S01E45</episode-num>
     <episode-num system="xmltv_ns">0.44.</episode-num>
   </programme>
@@ -13319,6 +13348,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929004000 -0400" stop="20260929010500 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
+    <desc lang="en">Louie, Scrooge and Owlson must escape from an unstoppable monster cursed to hunt down and destroy the richest duck in the world.</desc>
     <episode-num system="onscreen">S01E46</episode-num>
     <episode-num system="xmltv_ns">0.45.</episode-num>
   </programme>
@@ -13402,6 +13432,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929065000 -0400" stop="20260929071500 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
+    <desc lang="en">Jasmine receives a cute little animal for a present. The problem is that this little animal was the power to make your fears come true which makes him a target for evil.</desc>
     <episode-num system="onscreen">S01E22</episode-num>
     <episode-num system="xmltv_ns">0.21.</episode-num>
   </programme>
@@ -13492,6 +13523,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929130500 -0400" stop="20260929133000 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
+    <desc lang="en">The moon invades Duckburg, forcing Scrooge to join forces with an unlikely ally in an effort to save the earth. Meanwhile, Della and the kids search the globe for reinforcements.</desc>
     <episode-num system="onscreen">S01E47</episode-num>
     <episode-num system="xmltv_ns">0.46.</episode-num>
   </programme>
@@ -13540,16 +13572,19 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929181500 -0400" stop="20260929184000 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
+    <desc lang="en">Aladdin finds a chest filled with spice and a necklace. When he gives them to Jasmine he releases Ayam Aghoul, the duke of the dead who wants to marry Jasmine.</desc>
     <episode-num system="onscreen">S01E39</episode-num>
     <episode-num system="xmltv_ns">0.38.</episode-num>
   </programme>
   <programme start="20260929184000 -0400" stop="20260929190500 -0400" channel="toon-diggity">
     <title lang="en">Chip 'n Dale Rescue Rangers</title>
+    <desc lang="en">A crooked archaeologist steals a mummy's ring and the Rangers agree to help the mummy get the ring back.</desc>
     <episode-num system="onscreen">S01E28</episode-num>
     <episode-num system="xmltv_ns">0.27.</episode-num>
   </programme>
   <programme start="20260929190500 -0400" stop="20260929193000 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
+    <desc lang="en">Louie, Scrooge and Owlson must escape from an unstoppable monster cursed to hunt down and destroy the richest duck in the world.</desc>
     <episode-num system="onscreen">S01E46</episode-num>
     <episode-num system="xmltv_ns">0.45.</episode-num>
   </programme>
@@ -13579,6 +13614,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929211000 -0400" stop="20260929213500 -0400" channel="toon-diggity">
     <title lang="en">Fillmore!</title>
+    <desc lang="en">Tina and Toby are the stars of the school at both dancing and smoit-collecting. Smoits are tokens found on dairy bars and packets of chips used to buy basically anything a kid could want once enough of them are saved up. The smoit stash goes missing, and Fillmore and Ingrid go undercover in X's steamy underground casino scene. They discover Toby's gambling debts, and he becomes the prime suspect, which destroys his dance partnership with Tina.</desc>
     <episode-num system="onscreen">S01E14</episode-num>
     <episode-num system="xmltv_ns">0.13.</episode-num>
   </programme>
@@ -13614,6 +13650,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929234000 -0400" stop="20260930000500 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
+    <desc lang="en">Aladdin and company find themselves in a village with talking animals. These animals are prejudiced against humans and don't trust them, but when Aladdin saves the day they learn that you need to judge each creature by their actions.</desc>
     <episode-num system="onscreen">S01E40</episode-num>
     <episode-num system="xmltv_ns">0.39.</episode-num>
   </programme>
