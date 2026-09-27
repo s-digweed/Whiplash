@@ -10797,6 +10797,7 @@ Planxty - The Blacksmith</desc>
   </programme>
   <programme start="20260927060000 -0400" stop="20260927062500 -0400" channel="eel-channel">
     <title lang="en">Kevin Spencer</title>
+    <desc lang="en">After a tooth extraction, Kevin develops a bizarre snakelike fang in the back of his mouth. Percy meanwhile has been arrested for saying â€˜BOMB"" at the airport. He cops a deal to become a snitch on the Quebec Mafia, but makes all the shit up, and uses his newfound stoolie immunity to drive on sidewalks and act like a jackass. When Percy's handler, Gruff Cop gets upset, Kevin bites him and they discover his new fang contains paralyzing neurotoxins.</desc>
     <episode-num system="onscreen">S04E05</episode-num>
     <episode-num system="xmltv_ns">3.4.</episode-num>
   </programme>
@@ -10881,6 +10882,18 @@ Karl's diary is about his hospital visit for his kidney and a TV documentary in 
   </programme>
   <programme start="20260927115500 -0400" stop="20260927122000 -0400" channel="eel-channel">
     <title lang="en">The Tom Green Show</title>
+    <desc lang="en">- Playing soccer with a deer
+- Intro
+- Secret audience camera: Spraying Glenn Humplik with milk
+- Billy Bob: "I like putting rocks in my bum"
+- Guest: Rene', the crazy mental guy that cant speak clearly
+- Small town: Kenora, Ontario. High voiced Tom applies at local radio stations, followed by cable access show: Big city Beef
+- Making fun of Humplik's car: the suzuzki swift
+- Holding up traffic: tom puts his face on the side of a bus
+- Sneakin into movies: makin friends with scott
+- Talkin with a crazy old racist man "I like that negro eddie murphy"
+- Glenn Humplik loves children: Who are slaves and make his t-shirts. Spraying Glenn Humplik with milk
+- Observation Humor</desc>
     <episode-num system="onscreen">S02E02</episode-num>
     <episode-num system="xmltv_ns">1.1.</episode-num>
   </programme>
@@ -10913,6 +10926,7 @@ Karl's diary is about his hospital visit for his kidney and a TV documentary in 
   </programme>
   <programme start="20260927152000 -0400" stop="20260927154500 -0400" channel="eel-channel">
     <title lang="en">The Sifl &amp; Olly Show</title>
+    <desc lang="en">Calls: Mrs. Sifl, Daycare Mom, Pizza Order / Chester: Hippie Indian / Song: ""Electric Oven"" with Delictush Sexplosius / Precious Roy's Laser Peeler / Interview: Cooking With Aesop Jones (Mashed Potatoes) / Kickin' It Old School: ""Laser Eyes"" / Interview: Sifl This Is Your Life / Letter To Chester: Kissing Advice / Song: ""Sunny Side Up""</desc>
     <episode-num system="onscreen">S02E09</episode-num>
     <episode-num system="xmltv_ns">1.8.</episode-num>
   </programme>
@@ -11227,6 +11241,7 @@ JJ Marvin</desc>
   </programme>
   <programme start="20260928145500 -0400" stop="20260928152000 -0400" channel="eel-channel">
     <title lang="en">The Sifl &amp; Olly Show</title>
+    <desc lang="en">Calls: Marty's Grandpa, Funeral Home Elvis, Goth Girl / Chester: 'The Nuclear Decapitator with a Bad Attitude' Rollerderby King / Song: ""Heart Attacks"" / Precious Roy's Hickey Doohickey / Sifl &amp; Olly Play Pong / Interview: Battle of the Bands - Kee Kee &amp; The P.P. Gang, Sgt. Blind Kiwi Tarzan, Yeah / Kickin' It Old School: ""He's Up There In the Cabinet"" / Interview:  Testosterone &amp; Estrogen / Letter To Chester: Damp    Rag Windy Ass / Song: ""Dr. Puberty""</desc>
     <episode-num system="onscreen">S02E10</episode-num>
     <episode-num system="xmltv_ns">1.9.</episode-num>
   </programme>
@@ -11417,6 +11432,7 @@ Next, Bam steals Phil's van and takes it to a junkyard. The van is crushed and d
   </programme>
   <programme start="20260929041000 -0400" stop="20260929043500 -0400" channel="eel-channel">
     <title lang="en">Kevin Spencer</title>
+    <desc lang="en">Kevin secretly enters Percy as a contestant on an American gameshow, ""Who Wants to Marry a Prostitute."" Percy nearly wins but the show is canceled midstream by the new network head, Bruno Gerussi. Percy is furious and searches for his Drunken Welfare Man costume. Kevin and Allen meanwhile tour the LA basin, blacking out at the Viper Club.</desc>
     <episode-num system="onscreen">S04E06</episode-num>
     <episode-num system="xmltv_ns">3.5.</episode-num>
   </programme>
@@ -11588,6 +11604,7 @@ Rochelle finds out that Julius has kept a credit card secret from her for over 1
   </programme>
   <programme start="20260929145500 -0400" stop="20260929152000 -0400" channel="eel-channel">
     <title lang="en">The Sifl &amp; Olly Show</title>
+    <desc lang="en">Chester: Dr. Bubba The Spy / Interview: Delixir SorbaÃ±o's Circus of Freaks - The Bearded Beard, Susan, The Spice Girls, The    Breathing Salami, Inside-Out Man, Chester / Song: ""Hellfire (Rain On You)"" / Precious Roy's Mr. Ptootie Head / Calls: Dr. Bubba's Chester Impersonation, Cres Dude (Starting a Cres Band), Ziggy Starmaker / Kickin' It Old School: ""Country Boy Song"" / Interview: John from Champs 1 (Chicken Robot Companion) / Chester Needs To Spit / Song: ""The Days of the Week""</desc>
     <episode-num system="onscreen">S02E11</episode-num>
     <episode-num system="xmltv_ns">1.10.</episode-num>
   </programme>
@@ -11737,12 +11754,14 @@ It's a tough day, but Phil comes through in the end, logging 24 food free hours.
   <programme start="20260927030000 -0400" stop="20260927032500 -0400" channel="fizz">
     <title lang="en">FUNKY COPS</title>
     <sub-title lang="en">All the cars in San Fransisco</sub-title>
+    <desc lang="en">La police de San Francisco souffre d'un déficit de confiance. À la veille des élections, le Maire de la ville demande un reportage sur le SFPD afin de redorer son blason.</desc>
     <episode-num system="onscreen">S01E01</episode-num>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
   <programme start="20260927032500 -0400" stop="20260927035000 -0400" channel="fizz">
     <title lang="en">FUNKY COPS</title>
     <sub-title lang="en">Jill Roy was here</sub-title>
+    <desc lang="en">Ace tombe amoureux de la délicieuse Jill Roy, passionnée par les pierres précieuses. Lorsque de nombreux et mystérieux vols de bijoux surviennent, Dick commence sérieusement à suspecter Jill d'en être l'auteur, ce qui déplaît fortement à Ace...</desc>
     <episode-num system="onscreen">S01E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
@@ -11926,6 +11945,7 @@ Closing Theme</desc>
   </programme>
   <programme start="20260927144500 -0400" stop="20260927151000 -0400" channel="fizz">
     <title lang="en">Totally Spies! (2001)</title>
+    <desc lang="en">A madman plans to wipe out the evils of civilization by destroying it with a new Ice Age.</desc>
     <episode-num system="onscreen">S01E25</episode-num>
     <episode-num system="xmltv_ns">0.24.</episode-num>
   </programme>
@@ -12139,6 +12159,7 @@ Guest appearance: Mako Iwamatsu as Master Offay</desc>
   </programme>
   <programme start="20260928074000 -0400" stop="20260928080500 -0400" channel="fizz">
     <title lang="en">The Replacements</title>
+    <desc lang="en">The Darings host their annual holiday show directed by Riley with Ed Begley, Jr., Carson Palmer, and Josh Duhamel. Meanwhile, Todd tries to make some money with his own telethon.</desc>
     <episode-num system="onscreen">S02E22</episode-num>
     <episode-num system="xmltv_ns">1.21.</episode-num>
   </programme>
@@ -12262,11 +12283,13 @@ Henry &amp; June Theme  New Director of Research's "tweaks" put Henry in a ladyb
   </programme>
   <programme start="20260928144500 -0400" stop="20260928151000 -0400" channel="fizz">
     <title lang="en">Totally Spies! (2001)</title>
+    <desc lang="en">A disgruntled scientist is kidnapping world leaders and replacing them with animatronic robots who then ruin national landmarks by turning them into amusement park rides.</desc>
     <episode-num system="onscreen">S01E26</episode-num>
     <episode-num system="xmltv_ns">0.25.</episode-num>
   </programme>
   <programme start="20260928151000 -0400" stop="20260928153500 -0400" channel="fizz">
     <title lang="en">Totally Spies! (2001)</title>
+    <desc lang="en">Leaving off after the first part of "A Spy Is Born", the director Lumiere has kidnapped Alex! Sam and Clover must follow his clues to find her, avoiding his traps along the way.</desc>
     <episode-num system="onscreen">S02E01</episode-num>
     <episode-num system="xmltv_ns">1.0.</episode-num>
   </programme>
@@ -12481,6 +12504,7 @@ Guest appearance: John Kassir as the Wigglenog</desc>
   </programme>
   <programme start="20260929074000 -0400" stop="20260929080500 -0400" channel="fizz">
     <title lang="en">The Replacements</title>
+    <desc lang="en">Everyone assumes Todd is an adult when one of K's gadgets makes him sprout a moustache.</desc>
     <episode-num system="onscreen">S02E26</episode-num>
     <episode-num system="xmltv_ns">1.25.</episode-num>
   </programme>
@@ -12548,6 +12572,7 @@ Guest appearance: John Kassir as the Wigglenog</desc>
   </programme>
   <programme start="20260929112500 -0400" stop="20260929115000 -0400" channel="fizz">
     <title lang="en">Space Goofs</title>
+    <desc lang="en">D'étranges humains aux nez rouges et aux cheveux vert s'installent dans la maison. Il s'agit en fait de clowns, mais au lieu de faire rire les aliens, ils semblent leur faire peur.</desc>
     <episode-num system="onscreen">S01E12</episode-num>
     <episode-num system="xmltv_ns">0.11.</episode-num>
   </programme>
@@ -12559,6 +12584,7 @@ Guest appearance: John Kassir as the Wigglenog</desc>
   </programme>
   <programme start="20260929121500 -0400" stop="20260929124000 -0400" channel="fizz">
     <title lang="en">Nickelodeon GUTS</title>
+    <desc lang="en">The spotters laugh at Brad as he struggles to clear the Elastic Jungle obstacle.</desc>
     <episode-num system="onscreen">S01E33</episode-num>
     <episode-num system="xmltv_ns">0.32.</episode-num>
   </programme>
@@ -12595,11 +12621,13 @@ Guest appearance: John Kassir as the Wigglenog</desc>
   </programme>
   <programme start="20260929144500 -0400" stop="20260929151000 -0400" channel="fizz">
     <title lang="en">Totally Spies! (2001)</title>
+    <desc lang="en">An archeologist fakes his disappearance, then plots to use ancient magic to give himself eternal life and power. The spies, with the help of the professor's assistant, must stop him.</desc>
     <episode-num system="onscreen">S02E02</episode-num>
     <episode-num system="xmltv_ns">1.1.</episode-num>
   </programme>
   <programme start="20260929151000 -0400" stop="20260929153500 -0400" channel="fizz">
     <title lang="en">Totally Spies! (2001)</title>
+    <desc lang="en">Looking for Mother's Day gifts for their mothers, Clover, Sam and Alex find a flyer about a special offer at a spa. But after they get there they notice that their moms are not behaving normally. They find out that their arch nemesis Tim Scam has escaped from prison and has taken over their mothers. Jerry on the other hand is spending Mother's Day at his mom's house.</desc>
     <episode-num system="onscreen">S02E03</episode-num>
     <episode-num system="xmltv_ns">1.2.</episode-num>
   </programme>
@@ -12753,6 +12781,7 @@ Meanwhile, Alan and Amy fight about spending too much money.</desc>
   </programme>
   <programme start="20260927021500 -0400" stop="20260927024000 -0400" channel="toon-diggity">
     <title lang="en">Pepper Ann</title>
+    <desc lang="en">Pepper Ann tries to make her androgynous sister, Moose (born Margaret Rose Pearson), into the epitome of femininity.</desc>
     <episode-num system="onscreen">S03E18</episode-num>
     <episode-num system="xmltv_ns">2.17.</episode-num>
   </programme>
@@ -12781,7 +12810,7 @@ Meanwhile, Alan and Amy fight about spending too much money.</desc>
   </programme>
   <programme start="20260927042000 -0400" stop="20260927044500 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
-    <desc lang="en">Abis Mal and Mechanickles team up to get their revenge on Aladdin. They do it by these magical jewels. Each jewel possesses a certain bad feeling or emotion. The jewels effect everyone except for Aladdin who decides to reverse the curse and use the jewels on Mechanickles and Abis Mal.</desc>
+    <desc lang="en">Abis Mal puts a curse on the Sultan's bathing oils to turn him to stone, but Iago uses it instead and has before sundown to get the cure. He does everything that he can to get it.</desc>
     <episode-num system="onscreen">S01E26</episode-num>
     <episode-num system="xmltv_ns">0.25.</episode-num>
   </programme>
@@ -12813,7 +12842,7 @@ Meanwhile, Alan and Amy fight about spending too much money.</desc>
   </programme>
   <programme start="20260927071500 -0400" stop="20260927074000 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
-    <desc lang="en">Abis Mal is able to steal from Agrabah blind. He does this by burning this magical powder that creates smoke demons when burned.</desc>
+    <desc lang="en">Aladdin and company are captured by mud creatures called the Al Muddi, and they need water in order to beat them, but it's hard to find that in a dessert so they improvise by using the sun!</desc>
     <episode-num system="onscreen">S01E13</episode-num>
     <episode-num system="xmltv_ns">0.12.</episode-num>
   </programme>
@@ -12982,7 +13011,7 @@ Meanwhile, Alan and Amy fight about spending too much money.</desc>
   </programme>
   <programme start="20260927205000 -0400" stop="20260927211500 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
-    <desc lang="en">Webby leads the kids in a race against the Beagles to find a secret treasure while hiding a secret of her own. Della is forced to teach Launchpad how to actually fly a plane.</desc>
+    <desc lang="en">Gyro invents a watch that allows anyone to move super fast. But the Beagle Boys want to use it so they can steal all of Scrooge's money.</desc>
     <episode-num system="onscreen">S01E43</episode-num>
     <episode-num system="xmltv_ns">0.42.</episode-num>
   </programme>
@@ -13018,7 +13047,7 @@ Meanwhile, Alan and Amy fight about spending too much money.</desc>
   </programme>
   <programme start="20260927232000 -0400" stop="20260927234500 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
-    <desc lang="en">When Louie uses Gyro’s Time Tub to steal lost treasures from the past, a mysterious storm in the present sends all of space and time crashing down onto the mansion.</desc>
+    <desc lang="en">Something's attacking Scrooge's sheep and shearing off their wool, so Scrooge heads off for Australia to find out what's going on.</desc>
     <episode-num system="onscreen">S01E44</episode-num>
     <episode-num system="xmltv_ns">0.43.</episode-num>
   </programme>
@@ -13068,7 +13097,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260928024000 -0400" stop="20260928030500 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
-    <desc lang="en">Genie has never won a game against carpet, but when he meets two game-loving wizards, how far will he go to win?</desc>
+    <desc lang="en">Evil sorcerer Mozenrath is looking for someone who can take challenges. He learns about Aladdin, and when he does he kidnaps Genie to force Aladdin to rescue him and destroy a monster called Thirdak who's trying to eat Genie's magic.</desc>
     <episode-num system="onscreen">S01E37</episode-num>
     <episode-num system="xmltv_ns">0.36.</episode-num>
   </programme>
@@ -13270,7 +13299,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260928191500 -0400" stop="20260928194000 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
-    <desc lang="en">Genie has never won a game against carpet, but when he meets two game-loving wizards, how far will he go to win?</desc>
+    <desc lang="en">Evil sorcerer Mozenrath is looking for someone who can take challenges. He learns about Aladdin, and when he does he kidnaps Genie to force Aladdin to rescue him and destroy a monster called Thirdak who's trying to eat Genie's magic.</desc>
     <episode-num system="onscreen">S01E37</episode-num>
     <episode-num system="xmltv_ns">0.36.</episode-num>
   </programme>
@@ -13330,7 +13359,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260928232500 -0400" stop="20260928235000 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
-    <desc lang="en">Glomgold forms his own family made of all of Scrooge’s greatest villains to defeat Scrooge’s family once and for all.</desc>
+    <desc lang="en">Scrooge acquires a magical harp that can determine if someone was lying or not. However, Magica de Spell wants the harp for herself, and so does the harp's guardian.</desc>
     <episode-num system="onscreen">S01E45</episode-num>
     <episode-num system="xmltv_ns">0.44.</episode-num>
   </programme>
@@ -13348,7 +13377,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929004000 -0400" stop="20260929010500 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
-    <desc lang="en">Louie, Scrooge and Owlson must escape from an unstoppable monster cursed to hunt down and destroy the richest duck in the world.</desc>
+    <desc lang="en">After being fired by Scrooge, Launchpad enters the space program, and accidentally gets sent to Mars.</desc>
     <episode-num system="onscreen">S01E46</episode-num>
     <episode-num system="xmltv_ns">0.45.</episode-num>
   </programme>
@@ -13432,7 +13461,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929065000 -0400" stop="20260929071500 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
-    <desc lang="en">Jasmine receives a cute little animal for a present. The problem is that this little animal was the power to make your fears come true which makes him a target for evil.</desc>
+    <desc lang="en">Aladdin and Jasmine have a very romantic date and before he can finish it the others want him to help them find a treasure.</desc>
     <episode-num system="onscreen">S01E22</episode-num>
     <episode-num system="xmltv_ns">0.21.</episode-num>
   </programme>
@@ -13523,7 +13552,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929130500 -0400" stop="20260929133000 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
-    <desc lang="en">The moon invades Duckburg, forcing Scrooge to join forces with an unlikely ally in an effort to save the earth. Meanwhile, Della and the kids search the globe for reinforcements.</desc>
+    <desc lang="en">While experiencing a fever, Scrooge has an extended dream sequence parodying the fairy tale of Cinderella, with himself in the titular role.</desc>
     <episode-num system="onscreen">S01E47</episode-num>
     <episode-num system="xmltv_ns">0.46.</episode-num>
   </programme>
@@ -13572,7 +13601,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929181500 -0400" stop="20260929184000 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
-    <desc lang="en">Aladdin finds a chest filled with spice and a necklace. When he gives them to Jasmine he releases Ayam Aghoul, the duke of the dead who wants to marry Jasmine.</desc>
+    <desc lang="en">On a lovely day Aladdin and Jasmine are about to go on a date, but it is quickly ruined by Mozenrath. He kidnaps Aladdin for Genie, and now Jasmine has to disguise herself as a guard to rescue him.</desc>
     <episode-num system="onscreen">S01E39</episode-num>
     <episode-num system="xmltv_ns">0.38.</episode-num>
   </programme>
@@ -13584,7 +13613,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929190500 -0400" stop="20260929193000 -0400" channel="toon-diggity">
     <title lang="en">DuckTales</title>
-    <desc lang="en">Louie, Scrooge and Owlson must escape from an unstoppable monster cursed to hunt down and destroy the richest duck in the world.</desc>
+    <desc lang="en">After being fired by Scrooge, Launchpad enters the space program, and accidentally gets sent to Mars.</desc>
     <episode-num system="onscreen">S01E46</episode-num>
     <episode-num system="xmltv_ns">0.45.</episode-num>
   </programme>
@@ -13650,7 +13679,7 @@ After not too long, Bert finds a promising tar pit and prepares to examine it mo
   </programme>
   <programme start="20260929234000 -0400" stop="20260930000500 -0400" channel="toon-diggity">
     <title lang="en">Aladdin</title>
-    <desc lang="en">Aladdin and company find themselves in a village with talking animals. These animals are prejudiced against humans and don't trust them, but when Aladdin saves the day they learn that you need to judge each creature by their actions.</desc>
+    <desc lang="en">Aladdin and friends meet Mirage, the evil catwoman with incredible powers.</desc>
     <episode-num system="onscreen">S01E40</episode-num>
     <episode-num system="xmltv_ns">0.39.</episode-num>
   </programme>
