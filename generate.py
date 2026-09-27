@@ -220,10 +220,11 @@ def load_desc_cache():
     try:
         with open(DESC_CACHE_FILE, encoding="utf-8") as f:
             c = json.load(f)
-            c.setdefault("shows", {}); c.setdefault("episodes", {})
+            for k in ("shows","episodes","tvmaze_shows","tvmaze_episodes"):
+                c.setdefault(k, {})
             return c
     except Exception:
-        return {"shows": {}, "episodes": {}}
+        return {"shows": {}, "episodes": {}, "tvmaze_shows": {}, "tvmaze_episodes": {}}
 
 def save_desc_cache(cache):
     with open(DESC_CACHE_FILE, "w", encoding="utf-8") as f:
@@ -256,9 +257,8 @@ def _resolve_show_id(show, cache):
     cache["shows"][key] = sid
     return sid
 
-def episode_overview(show, season, ep, cache):
-    """Return a plain-text episode overview from TMDB, or None. Cached; never raises."""
-    if not TMDB_KEY or season is None:
+def _tmdb_overview(show, season, ep, cache):
+    if not TMDB_KEY:
         return None
     sid = _resolve_show_id(show, cache)
     if not sid:
@@ -270,6 +270,62 @@ def episode_overview(show, season, ep, cache):
     ov = ((data or {}).get("overview") or "").strip()
     cache["episodes"][ck] = ov
     return ov or None
+
+# ── TVmaze fallback (keyless) ──
+ENABLE_TVMAZE = True
+TVMAZE_BASE   = "https://api.tvmaze.com"
+_TAGS = re.compile(r"<[^>]+>")
+
+def _tvmaze_get(path, **params):
+    for _ in range(3):
+        try:
+            r = _tmdb_session.get(TVMAZE_BASE + path, params=params, timeout=20)
+            time.sleep(0.2)                               # ~5 req/s: well under TVmaze's limit
+            if r.status_code == 429:
+                time.sleep(int(r.headers.get("Retry-After", "5")) + 1); continue
+            if r.status_code == 200:
+                return r.json()
+            return None                                  # 404 = no such episode
+        except requests.RequestException:
+            time.sleep(1)
+    return None
+
+def _resolve_tvmaze_id(show, cache):
+    key = show.lower()
+    if key in cache["tvmaze_shows"]:
+        return cache["tvmaze_shows"][key]
+    ym = _QYEAR.search(show)
+    query = show[:ym.start()].strip() if ym else show
+    data = _tvmaze_get("/singlesearch/shows", q=query)
+    tid = data.get("id") if isinstance(data, dict) else None
+    cache["tvmaze_shows"][key] = tid
+    return tid
+
+def _tvmaze_overview(show, season, ep, cache):
+    tid = _resolve_tvmaze_id(show, cache)
+    if not tid:
+        return None
+    ck = f"{tid}|{season}|{ep}"
+    if ck in cache["tvmaze_episodes"]:
+        return cache["tvmaze_episodes"][ck] or None
+    data = _tvmaze_get(f"/shows/{tid}/episodebynumber", season=season, number=ep)
+    summ = ((data or {}).get("summary") or "") if isinstance(data, dict) else ""
+    summ = html.unescape(_TAGS.sub("", summ)).strip()
+    cache["tvmaze_episodes"][ck] = summ
+    return summ or None
+
+def episode_overview(show, season, ep, cache):
+    """TMDB first, TVmaze as fallback. Plain text or None. Cached; never raises."""
+    if season is None:
+        return None
+    ov = _tmdb_overview(show, season, ep, cache)
+    if ov:
+        return ov
+    if ENABLE_TVMAZE:
+        ov = _tvmaze_overview(show, season, ep, cache)
+        if ov:
+            return ov
+    return None
 
 # ── XML helpers ──
 _XML_ILLEGAL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
