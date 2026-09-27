@@ -5,13 +5,24 @@ on:
     # 04-08 UTC = 7am-11am KSA, 11/13/15 UTC = 2pm/4pm/6pm KSA
     - cron: "0 4,5,6,7,8,11,13,15 * * *"
   workflow_dispatch: {}
+  push:
+    paths:
+      - "generate.py"
+      - ".github/workflows/update-epg.yml"
 
 permissions:
   contents: write
 
+concurrency:
+  group: whiplash-epg
+  cancel-in-progress: false
+
 jobs:
   update-epg:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONUNBUFFERED: "1"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -20,18 +31,21 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
 
       - name: Install dependencies
         run: pip install requests
 
       - name: Run generator
-        run: python generate.py
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python -u generate.py
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add epg.xml playlist.m3u
+          git add epg.xml playlist.m3u desc_cache.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
