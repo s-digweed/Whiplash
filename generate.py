@@ -584,13 +584,21 @@ def add_channels(tv, chan_map, logos):
         ET.SubElement(ch, "display-name").text = display
         if local_id in logos: ET.SubElement(ch, "icon", {"src": logos[local_id]})
 
+_ONSCR_SPACE = re.compile(r"\bS(\d+)E(\d+)")
+
+def _space_onscreen(prog):
+    """Reformat onscreen episode-num 'SxxEyy' -> 'Sxx Eyy' (xmltv_ns left untouched)."""
+    for en in prog.findall("episode-num"):
+        if en.get("system") == "onscreen" and en.text:
+            en.text = _ONSCR_SPACE.sub(r"S\1 E\2", en.text)
+
 def copy_whiplash(tv, root):
     for src_id, (local_id, _) in WL_CHANNEL_MAP.items():
         n = 0
         for prog in root.findall("programme"):
             if prog.get("channel") != src_id: continue
             np = ET.fromstring(ET.tostring(prog)); np.set("channel", local_id)
-            _strip_local_images(np); tv.append(np); n += 1
+            _strip_local_images(np); _space_onscreen(np); tv.append(np); n += 1
         if n: print(f"  {local_id}: {n} programmes")
 
 def build_eel(tv, root, cache):
@@ -616,7 +624,7 @@ def build_eel(tv, root, cache):
                 ET.SubElement(np, "desc", {"lang": "en"}).text = desc
                 got_desc += 1
             if season is not None:
-                onscr = f"S{season:02d}E{ep:02d}" + (f"-E{ep_end:02d}" if ep_end else "")
+                onscr = f"S{season:02d} E{ep:02d}" + (f"-E{ep_end:02d}" if ep_end else "")
                 ET.SubElement(np, "episode-num", {"system": "onscreen"}).text = onscr
                 ET.SubElement(np, "episode-num", {"system": "xmltv_ns"}).text = f"{season-1}.{ep-1}."
             tv.append(np); n += 1
