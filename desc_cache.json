@@ -150,6 +150,26 @@
 "n": "K is for Knowledge",
 "o": "W.I.T.C.H. gains new knowledge of their sorceress foe Nerissa, a former Guardian and one-time holder of the Heart of Kandrakhar."
 },
+"13943|2|10": {
+"n": "Way Down Mexico Way (1)",
+"o": "Beavis and Butt-head head to Mexico with their friend, Dave, in an effort to obtain illegal fireworks, but instead make a run for the bathroom after a taco stand owner gets revenge on the duo who fed his dog hot sauce."
+},
+"13943|3|11": {
+"n": "Eating Contest",
+"o": "Beavis and Butt-Head enter a bratwurst eating contest and end up having to feed frogs to earn the entrance fee."
+},
+"13943|3|27": {
+"n": "Closing Time",
+"o": "Working the late shift at Burger World, the boys make up some special \"curly fries\", find new a use for the ceiling fan and have a visit from the health inspector."
+},
+"13943|4|2": {
+"n": "Cow Tipping",
+"o": "Beavis and Butt-Head see a milk commercial on TV that reminds them that cow tipping is cool,  so they set out to try it."
+},
+"13943|5|17": {
+"n": "Top o' the Mountain",
+"o": "Beavis and Butt-Head go to the hair salon to see the stylist's boobs...and maybe get their hair cut."
+},
 "1487|3|3": {
 "n": "Static in Africa",
 "o": "While visiting Africa as his secret identity, Static teams up with an African superhero, Anansi, to defeat the villain Osebo, before he blows up a dam."
@@ -1753,6 +1773,7 @@
 "american dragon jake long": 346,
 "aqua teen hunger force": 251,
 "batman: the animated series (1992)": 2098,
+"beavis and butt-head": 13943,
 "beck mongolian chop squad": 43288,
 "beyblade": 226688,
 "bill nye the science guy": 3483,
@@ -2451,8 +2472,877 @@
 "o": "- Playing soccer with a deer\r\n- Intro\r\n- Secret audience camera: Spraying Glenn Humplik with milk\r\n- Billy Bob: \"I like putting rocks in my bum\"\r\n- Guest: Rene', the crazy mental guy that cant speak clearly\r\n- Small town: Kenora, Ontario. High voiced Tom applies at local radio stations, followed by cable access show: Big city Beef\r\n- Making fun of Humplik's car: the suzuzki swift\r\n- Holding up traffic: tom puts his face on the side of a bus\r\n- Sneakin into movies: makin friends with scott\r\n- Talkin with a crazy old racist man \"I like that negro eddie murphy\"\r\n- Glenn Humplik loves children: Who are slaves and make his t-shirts. Spraying Glenn Humplik with milk\r\n- Observation Humor"
 }
 },
+"tvdb_namemap": {
+"75863": {
+"1 900 beavis": [
+4,
+9
+],
+"a great day": [
+7,
+14
+],
+"a very special episode": [
+7,
+6
+],
+"animation sucks": [
+5,
+24
+],
+"another friday night": [
+5,
+37
+],
+"at the movies": [
+2,
+11
+],
+"at the sideshow": [
+2,
+6
+],
+"babes r us": [
+2,
+18
+],
+"baby makes uh three": [
+2,
+4
+],
+"babysitting": [
+6,
+7
+],
+"bad dog": [
+5,
+20
+],
+"ball breakers": [
+3,
+17
+],
+"balloon": [
+1,
+3
+],
+"bang the drum slowly dumbass": [
+5,
+36
+],
+"bathroom break": [
+9,
+8
+],
+"be all you can be": [
+2,
+24
+],
+"beard boys": [
+5,
+3
+],
+"beaverly buttbillies": [
+5,
+14
+],
+"beavis and butt head are dead": [
+7,
+40
+],
+"beavis and butt head s island": [
+4,
+16
+],
+"beavis and butt head vs the vending machine": [
+4,
+28
+],
+"beavis can you spare a dime": [
+5,
+32
+],
+"bedpans broomsticks": [
+2,
+17
+],
+"beware of the butt": [
+2,
+5
+],
+"blackout": [
+4,
+11
+],
+"blood pressure": [
+6,
+6
+],
+"bounty hunters": [
+9,
+16
+],
+"breakdown": [
+7,
+33
+],
+"bride of butt head": [
+7,
+20
+],
+"buff n stuff": [
+3,
+14
+],
+"bungholio lord of the harvest": [
+6,
+1
+],
+"burger world": [
+2,
+3
+],
+"bus trip": [
+5,
+48
+],
+"butt butt hike": [
+7,
+1
+],
+"butt flamb": [
+7,
+38
+],
+"butt is it art": [
+4,
+19
+],
+"buttniks": [
+5,
+35
+],
+"buy beer": [
+6,
+18
+],
+"candy sale": [
+5,
+23
+],
+"canned": [
+7,
+24
+],
+"canoe": [
+3,
+23
+],
+"career day": [
+5,
+11
+],
+"carwash": [
+3,
+2
+],
+"choke": [
+5,
+4
+],
+"citizen butt head": [
+3,
+15
+],
+"citizens arrest": [
+7,
+12
+],
+"cleaning house": [
+3,
+9
+],
+"close encounters": [
+5,
+39
+],
+"closing time": [
+3,
+26
+],
+"comedians": [
+3,
+1
+],
+"copy machine": [
+9,
+13
+],
+"couch fishing": [
+3,
+3
+],
+"cow tipping": [
+4,
+2
+],
+"crisis line": [
+4,
+27
+],
+"crying": [
+9,
+2
+],
+"customers suck": [
+2,
+7
+],
+"cyber butt": [
+7,
+10
+],
+"date bait": [
+4,
+18
+],
+"date watchers": [
+6,
+5
+],
+"daughter s hand": [
+9,
+3
+],
+"die fly die": [
+7,
+30
+],
+"ding dong ditch": [
+7,
+4
+],
+"doomsday": [
+9,
+11
+],
+"door to door": [
+1,
+1
+],
+"dream on": [
+5,
+22
+],
+"drinking butt ies": [
+7,
+31
+],
+"drones": [
+9,
+6
+],
+"dude a reward": [
+5,
+9
+],
+"dumb design": [
+9,
+12
+],
+"dumbasses anonymous": [
+7,
+7
+],
+"eating contest": [
+3,
+11
+],
+"evolution sucks": [
+7,
+3
+],
+"feel a cop": [
+6,
+4
+],
+"figure drawing": [
+4,
+17
+],
+"follow me": [
+7,
+16
+],
+"for better or verse": [
+2,
+16
+],
+"foreign exchange": [
+3,
+25
+],
+"friday night": [
+2,
+23
+],
+"gang of two": [
+6,
+10
+],
+"garage band": [
+7,
+25
+],
+"generation in crisis": [
+4,
+29
+],
+"give blood": [
+1,
+2
+],
+"going down": [
+9,
+22
+],
+"good credit": [
+2,
+2
+],
+"graduation day": [
+7,
+34
+],
+"green thumbs": [
+5,
+49
+],
+"hard sell": [
+5,
+6
+],
+"head lice": [
+7,
+9
+],
+"held back": [
+5,
+1
+],
+"here comes the bride s butt": [
+5,
+30
+],
+"heroes": [
+2,
+20
+],
+"holding": [
+9,
+14
+],
+"holy cornholio": [
+9,
+5
+],
+"home improvement": [
+2,
+9
+],
+"i dream of beavis": [
+5,
+28
+],
+"impotence": [
+7,
+26
+],
+"incognito": [
+3,
+4
+],
+"inventors": [
+7,
+29
+],
+"jump": [
+4,
+6
+],
+"just for girls": [
+7,
+5
+],
+"kidnapped": [
+3,
+5
+],
+"killing time": [
+5,
+2
+],
+"late night with butt head": [
+4,
+12
+],
+"lawn garden": [
+2,
+14
+],
+"leave it to beavis": [
+7,
+37
+],
+"let s clean it up": [
+4,
+8
+],
+"liar liar": [
+4,
+32
+],
+"lightning strikes": [
+5,
+21
+],
+"madame blavatsky": [
+4,
+15
+],
+"manners suck": [
+4,
+21
+],
+"massage": [
+9,
+18
+],
+"meet god": [
+3,
+18
+],
+"most wanted": [
+3,
+27
+],
+"mr anderson s balls": [
+4,
+24
+],
+"murder site": [
+5,
+45
+],
+"naked colony": [
+3,
+6
+],
+"no laughing": [
+2,
+12
+],
+"no service": [
+6,
+13
+],
+"nose bleed": [
+7,
+11
+],
+"nothing happening": [
+7,
+17
+],
+"oil change": [
+5,
+34
+],
+"on strike": [
+7,
+15
+],
+"our founding losers": [
+7,
+39
+],
+"p t a": [
+6,
+15
+],
+"party": [
+5,
+18
+],
+"patients patients": [
+4,
+25
+],
+"patsies": [
+5,
+44
+],
+"pierced": [
+7,
+13
+],
+"plastic surgin": [
+5,
+12
+],
+"plate frisbee": [
+3,
+22
+],
+"politically correct": [
+3,
+16
+],
+"pool toys": [
+4,
+14
+],
+"prank call": [
+6,
+12
+],
+"pregnant pause": [
+5,
+29
+],
+"premature evacuation": [
+5,
+41
+],
+"pumping iron": [
+4,
+7
+],
+"rabies scare": [
+4,
+4
+],
+"radio sweethearts": [
+4,
+30
+],
+"right on": [
+4,
+20
+],
+"safe driving": [
+4,
+23
+],
+"safe house": [
+5,
+5
+],
+"scared straight": [
+3,
+10
+],
+"school test": [
+9,
+19
+],
+"scientific stuff": [
+2,
+1
+],
+"scratch n win": [
+3,
+8
+],
+"screamers": [
+5,
+31
+],
+"sexual harrassment": [
+5,
+46
+],
+"shopping cart": [
+7,
+28
+],
+"shopping list": [
+6,
+17
+],
+"shortcuts": [
+7,
+19
+],
+"sick": [
+2,
+8
+],
+"sign here": [
+2,
+21
+],
+"skin trade": [
+5,
+33
+],
+"snitchers": [
+9,
+20
+],
+"spanish fly": [
+5,
+47
+],
+"spare me": [
+5,
+43
+],
+"special delivery": [
+7,
+21
+],
+"speech therapy": [
+7,
+36
+],
+"sperm bank": [
+3,
+13
+],
+"spill": [
+9,
+10
+],
+"sporting goods": [
+3,
+12
+],
+"sprout": [
+6,
+11
+],
+"steamroller": [
+5,
+50
+],
+"stewart is missing": [
+6,
+9
+],
+"stewart moves away": [
+5,
+16
+],
+"stewart s house": [
+2,
+15
+],
+"substitute": [
+6,
+16
+],
+"supersize me": [
+9,
+7
+],
+"t v violence": [
+7,
+23
+],
+"tainted meat": [
+5,
+15
+],
+"take a lap": [
+7,
+18
+],
+"take a number": [
+5,
+13
+],
+"tech support": [
+9,
+4
+],
+"teen talk": [
+4,
+26
+],
+"temporary insanity": [
+5,
+8
+],
+"the butt head experience": [
+2,
+13
+],
+"the crush": [
+3,
+21
+],
+"the final judgement of beavis": [
+4,
+13
+],
+"the future of beavis and butt head": [
+7,
+35
+],
+"the great cornholio": [
+4,
+31
+],
+"the history of women": [
+5,
+26
+],
+"the miracle that is beavis": [
+7,
+27
+],
+"the mystery of morning wood": [
+6,
+2
+],
+"the pipe of doom": [
+4,
+22
+],
+"the rat": [
+9,
+9
+],
+"the trial": [
+3,
+20
+],
+"they re coming to take me away huh huh": [
+4,
+5
+],
+"time machine": [
+9,
+17
+],
+"tired": [
+5,
+38
+],
+"to the rescue": [
+5,
+27
+],
+"top o the mountain": [
+5,
+17
+],
+"tornado": [
+3,
+7
+],
+"trouble urinating": [
+4,
+3
+],
+"true crime": [
+3,
+19
+],
+"u s history": [
+6,
+3
+],
+"underwear": [
+7,
+8
+],
+"used car": [
+9,
+15
+],
+"vaya con cornholio": [
+7,
+2
+],
+"vidiots": [
+6,
+8
+],
+"walkathon": [
+5,
+7
+],
+"walking erect": [
+5,
+10
+],
+"wall of youth": [
+4,
+1
+],
+"washing the dog": [
+2,
+22
+],
+"water safety": [
+4,
+10
+],
+"way down mexico way": [
+2,
+10
+],
+"werewolves of highland": [
+9,
+1
+],
+"wet behind the rears": [
+5,
+19
+],
+"what s the deal": [
+5,
+25
+],
+"whiplash": [
+5,
+42
+],
+"whorehouse": [
+9,
+21
+],
+"womyn": [
+5,
+40
+],
+"woodshop": [
+7,
+22
+],
+"work is death": [
+7,
+32
+],
+"yard sale": [
+6,
+14
+],
+"yogurt s cool": [
+2,
+19
+],
+"young gifted crude": [
+3,
+24
+]
+}
+},
 "tvdb_shows": {
 "aladdin": "73981",
+"beavis and butt-head": "75863",
 "beyblade": "435020",
 "chip 'n dale rescue rangers": "75477",
 "crayon shin-chan": "332568",
@@ -2460,6 +3350,7 @@
 "dragon ball": "272910",
 "dragon ball z movie": null,
 "ducktales": "75931",
+"ducktales the movie": null,
 "dude, what would happen": "302498",
 "fillmore!": "79910",
 "funky cops": "80227",
@@ -8299,8 +9190,853 @@
 }
 ]
 },
+"tvmaze_namemap": {
+"910": {
+"1 900 beavis": [
+4,
+9
+],
+"a great day": [
+7,
+14
+],
+"a very special episode": [
+7,
+6
+],
+"animation sucks": [
+5,
+24
+],
+"another friday night": [
+5,
+37
+],
+"at the movies": [
+2,
+12
+],
+"at the sideshow": [
+2,
+6
+],
+"babes r us": [
+2,
+20
+],
+"baby makes uh three": [
+2,
+4
+],
+"babysitting": [
+6,
+9
+],
+"bad dog": [
+5,
+20
+],
+"ball breakers": [
+3,
+17
+],
+"balloon": [
+1,
+3
+],
+"bang the drum slowly dumbass": [
+5,
+36
+],
+"be all you can be": [
+2,
+26
+],
+"beard boys": [
+5,
+3
+],
+"beaverly buttbillies": [
+5,
+14
+],
+"beavis and butt head are dead": [
+8,
+21
+],
+"beavis and butt head meet god": [
+3,
+18
+],
+"beavis and butt head s island": [
+4,
+16
+],
+"beavis can you spare a dime": [
+5,
+32
+],
+"bedpans broomsticks": [
+2,
+19
+],
+"beware of the butt": [
+2,
+5
+],
+"blackout": [
+4,
+11
+],
+"blood pressure": [
+6,
+6
+],
+"breakdown": [
+8,
+14
+],
+"bride of butt head": [
+8,
+1
+],
+"buff n stuff": [
+3,
+14
+],
+"bungholio lord of the harvest": [
+6,
+1
+],
+"burger world": [
+2,
+3
+],
+"bus trip": [
+5,
+48
+],
+"butt butt hike": [
+7,
+1
+],
+"butt flamb": [
+8,
+19
+],
+"butt is it art": [
+4,
+19
+],
+"buttniks": [
+5,
+35
+],
+"buy beer": [
+6,
+20
+],
+"candy sale": [
+5,
+23
+],
+"canned": [
+8,
+5
+],
+"canoe": [
+3,
+23
+],
+"car wash": [
+3,
+2
+],
+"career day": [
+5,
+11
+],
+"choke": [
+5,
+4
+],
+"citizen butt head": [
+3,
+15
+],
+"citizens arrest": [
+7,
+12
+],
+"cleaning house": [
+3,
+8
+],
+"close encounters": [
+5,
+39
+],
+"closing time": [
+3,
+27
+],
+"comedians": [
+3,
+1
+],
+"copy machine holding": [
+9,
+8
+],
+"couch fishing": [
+3,
+3
+],
+"cow tipping": [
+4,
+2
+],
+"crisis line": [
+4,
+27
+],
+"customers suck": [
+2,
+7
+],
+"cyber butt": [
+7,
+10
+],
+"date bait": [
+4,
+18
+],
+"date watchers": [
+6,
+5
+],
+"daughter s hand tech support": [
+9,
+2
+],
+"die fly die": [
+8,
+11
+],
+"ding dong ditch": [
+7,
+4
+],
+"doomsday dumb design": [
+9,
+7
+],
+"door to door": [
+1,
+1
+],
+"dream on": [
+5,
+22
+],
+"drinking butt ies": [
+8,
+12
+],
+"drones": [
+9,
+4
+],
+"dude a reward": [
+5,
+9
+],
+"dumbasses anonymous": [
+7,
+7
+],
+"eating contest": [
+3,
+11
+],
+"evolution sucks": [
+7,
+3
+],
+"feel a cop": [
+6,
+4
+],
+"figure drawing": [
+4,
+17
+],
+"follow me": [
+7,
+16
+],
+"for better or verse": [
+2,
+18
+],
+"foreign exchange": [
+3,
+25
+],
+"friday night": [
+2,
+25
+],
+"gang of two": [
+6,
+12
+],
+"garage band": [
+8,
+6
+],
+"generation in crisis": [
+4,
+29
+],
+"give blood": [
+1,
+2
+],
+"good credit": [
+2,
+2
+],
+"graduation day": [
+8,
+15
+],
+"green thumbs": [
+5,
+49
+],
+"hard sell": [
+5,
+6
+],
+"head lice": [
+7,
+9
+],
+"held back": [
+5,
+1
+],
+"here comes the bride s butt": [
+5,
+30
+],
+"heroes": [
+2,
+22
+],
+"holy cornholio": [
+9,
+3
+],
+"home improvement": [
+2,
+9
+],
+"huh huh humbug": [
+6,
+7
+],
+"i dream of beavis": [
+5,
+28
+],
+"impotence": [
+8,
+7
+],
+"incognito": [
+3,
+4
+],
+"inventors": [
+8,
+10
+],
+"it s a miserable life": [
+6,
+8
+],
+"jump": [
+4,
+6
+],
+"just for girls": [
+7,
+5
+],
+"kidnapped": [
+3,
+5
+],
+"killing time": [
+5,
+2
+],
+"late night with butt head": [
+4,
+12
+],
+"lawn garden": [
+2,
+16
+],
+"leave it to beavis": [
+8,
+18
+],
+"let s clean it up": [
+4,
+8
+],
+"liar liar": [
+4,
+32
+],
+"lightning strikes": [
+5,
+21
+],
+"madame blavatsky": [
+4,
+15
+],
+"manners suck": [
+4,
+21
+],
+"most wanted": [
+3,
+28
+],
+"mr anderson s balls": [
+4,
+24
+],
+"murder site": [
+5,
+45
+],
+"naked colony": [
+3,
+6
+],
+"no laughing 1": [
+2,
+13
+],
+"no laughing 2": [
+2,
+14
+],
+"no service": [
+6,
+15
+],
+"nose bleed": [
+7,
+11
+],
+"nothing happening": [
+7,
+17
+],
+"oil change": [
+5,
+34
+],
+"on strike": [
+7,
+15
+],
+"our founding losers": [
+8,
+20
+],
+"p t a": [
+6,
+17
+],
+"party": [
+5,
+18
+],
+"patients patients": [
+4,
+25
+],
+"patsies": [
+5,
+44
+],
+"pierced": [
+7,
+13
+],
+"plastic surgin": [
+5,
+12
+],
+"plate frisbee": [
+3,
+22
+],
+"politically correct": [
+3,
+16
+],
+"pool toys": [
+4,
+14
+],
+"prank call": [
+6,
+14
+],
+"pregnant pause": [
+5,
+29
+],
+"premature evacuation": [
+5,
+41
+],
+"pumping iron": [
+4,
+7
+],
+"rabies scare": [
+4,
+4
+],
+"radio sweethearts": [
+4,
+30
+],
+"right on": [
+4,
+20
+],
+"safe driving": [
+4,
+23
+],
+"safe house": [
+5,
+5
+],
+"scared straight": [
+3,
+10
+],
+"school test snitchers": [
+9,
+11
+],
+"scientific stuff": [
+2,
+1
+],
+"scratch n win": [
+3,
+9
+],
+"screamers": [
+5,
+31
+],
+"sexual harrassment": [
+5,
+47
+],
+"shopping cart": [
+8,
+9
+],
+"shopping list": [
+6,
+19
+],
+"shortcuts": [
+7,
+19
+],
+"sick": [
+2,
+8
+],
+"sign here": [
+2,
+23
+],
+"skin trade": [
+5,
+33
+],
+"spanish fly": [
+5,
+46
+],
+"spare me": [
+5,
+43
+],
+"special delivery": [
+8,
+2
+],
+"speech therapy": [
+8,
+17
+],
+"sperm bank": [
+3,
+13
+],
+"sporting goods": [
+3,
+12
+],
+"sprout": [
+6,
+13
+],
+"steamroller": [
+5,
+50
+],
+"stewart is missing": [
+6,
+11
+],
+"stewart moves away": [
+5,
+16
+],
+"stewart s house": [
+2,
+17
+],
+"substitute": [
+6,
+18
+],
+"supersize me bathroom break": [
+9,
+5
+],
+"t v violence": [
+8,
+4
+],
+"tainted meat": [
+5,
+15
+],
+"take a lap": [
+7,
+18
+],
+"take a number": [
+5,
+13
+],
+"teen talk": [
+4,
+26
+],
+"temporary insanity": [
+5,
+8
+],
+"the butt head experience": [
+2,
+15
+],
+"the crush": [
+3,
+21
+],
+"the final judgement of beavis": [
+4,
+13
+],
+"the future of beavis and butt head": [
+8,
+16
+],
+"the great cornholio": [
+4,
+31
+],
+"the history of women": [
+5,
+26
+],
+"the miracle that is beavis": [
+8,
+8
+],
+"the mystery of morning wood": [
+6,
+2
+],
+"the pipe of doom": [
+4,
+22
+],
+"the rat spill": [
+9,
+6
+],
+"the trial": [
+3,
+20
+],
+"they re coming to take me away huh huh": [
+4,
+5
+],
+"time machine massage": [
+9,
+10
+],
+"tired": [
+5,
+38
+],
+"to the rescue": [
+5,
+27
+],
+"top o the mountain": [
+5,
+17
+],
+"tornado": [
+3,
+7
+],
+"trouble urinating": [
+4,
+3
+],
+"true crime": [
+3,
+19
+],
+"u s history": [
+6,
+3
+],
+"underwear": [
+7,
+8
+],
+"used car bounty hunters": [
+9,
+9
+],
+"vaya con cornholio": [
+7,
+2
+],
+"vidiots": [
+6,
+10
+],
+"vs the vending machine": [
+4,
+28
+],
+"walkathon": [
+5,
+7
+],
+"walking erect": [
+5,
+10
+],
+"wall of youth": [
+4,
+1
+],
+"washing the dog": [
+2,
+24
+],
+"water safety": [
+4,
+10
+],
+"way down mexico way 1": [
+2,
+10
+],
+"way down mexico way 2": [
+2,
+11
+],
+"werewolves of highland crying": [
+9,
+1
+],
+"wet behind the rears": [
+5,
+19
+],
+"what s the deal": [
+5,
+25
+],
+"whiplash": [
+5,
+42
+],
+"whorehouse going down": [
+9,
+12
+],
+"womyn": [
+5,
+40
+],
+"woodshop": [
+8,
+3
+],
+"work is death": [
+8,
+13
+],
+"yard sale": [
+6,
+16
+],
+"yogurt s cool": [
+2,
+21
+],
+"young gifted crude": [
+3,
+24
+]
+}
+},
 "tvmaze_shows": {
 "aladdin": 5307,
+"beavis and butt-head": 910,
 "beyblade": 4072,
 "chip 'n dale rescue rangers": 5308,
 "crayon shin-chan": 29247,
@@ -8308,6 +10044,7 @@
 "dragon ball": 2102,
 "dragon ball z movie": null,
 "ducktales": 4295,
+"ducktales the movie": null,
 "dude, what would happen": 40821,
 "fillmore!": 17996,
 "funky cops": 52616,

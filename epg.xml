@@ -10719,6 +10719,9 @@ Planxty - The Blacksmith</desc>
   <programme start="20260927001500 -0400" stop="20260927003000 -0400" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Cow Tipping</sub-title>
+    <desc lang="en">Beavis and Butt-Head see a milk commercial on TV that reminds them that cow tipping is cool,  so they set out to try it.</desc>
+    <episode-num system="onscreen">S04E02</episode-num>
+    <episode-num system="xmltv_ns">3.1.</episode-num>
   </programme>
   <programme start="20260927003000 -0400" stop="20260927004500 -0400" channel="eel-channel">
     <title lang="en">Aqua Teen Hunger Force</title>
@@ -11062,10 +11065,16 @@ Karl's diary is about his hospital visit for his kidney and a TV documentary in 
   <programme start="20260928001000 -0400" stop="20260928002500 -0400" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Top O the Mountain</sub-title>
+    <desc lang="en">Beavis and Butt-Head go to the hair salon to see the stylist's boobs...and maybe get their hair cut.</desc>
+    <episode-num system="onscreen">S05E17</episode-num>
+    <episode-num system="xmltv_ns">4.16.</episode-num>
   </programme>
   <programme start="20260928002500 -0400" stop="20260928005000 -0400" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Way Down Mexico Way</sub-title>
+    <desc lang="en">Beavis and Butt-head head to Mexico with their friend, Dave, in an effort to obtain illegal fireworks, but instead make a run for the bathroom after a taco stand owner gets revenge on the duo who fed his dog hot sauce.</desc>
+    <episode-num system="onscreen">S02E10</episode-num>
+    <episode-num system="xmltv_ns">1.9.</episode-num>
   </programme>
   <programme start="20260928005000 -0400" stop="20260928010500 -0400" channel="eel-channel">
     <title lang="en">Aqua Teen Hunger Force</title>
@@ -11456,10 +11465,16 @@ Next, Bam steals Phil's van and takes it to a junkyard. The van is crushed and d
   <programme start="20260929003000 -0400" stop="20260929004500 -0400" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Closing Time</sub-title>
+    <desc lang="en">Working the late shift at Burger World, the boys make up some special "curly fries", find new a use for the ceiling fan and have a visit from the health inspector.</desc>
+    <episode-num system="onscreen">S03E27</episode-num>
+    <episode-num system="xmltv_ns">2.26.</episode-num>
   </programme>
   <programme start="20260929004500 -0400" stop="20260929010000 -0400" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Eating Contest</sub-title>
+    <desc lang="en">Beavis and Butt-Head enter a bratwurst eating contest and end up having to feed frogs to earn the entrance fee.</desc>
+    <episode-num system="onscreen">S03E11</episode-num>
+    <episode-num system="xmltv_ns">2.10.</episode-num>
   </programme>
   <programme start="20260929010000 -0400" stop="20260929011500 -0400" channel="eel-channel">
     <title lang="en">Aqua Teen Hunger Force</title>
