@@ -221,7 +221,8 @@ def load_desc_cache():
         with open(DESC_CACHE_FILE, encoding="utf-8") as f:
             c = json.load(f)
             for k in ("shows","episodes","tvmaze_shows","tvmaze_episodes","tmdb_seasons",
-                      "tvmaze_eplist","tvdb_shows","tvdb_episodes"):
+                      "tvmaze_eplist","tvdb_shows","tvdb_episodes",
+                      "tvmaze_namemap","tvdb_namemap"):
                 c.setdefault(k, {})
             if not c.get("_tvdb_v2"):                    # refresh TVDB layer once (/eng + slug overrides)
                 c["tvdb_shows"] = {}; c["tvdb_episodes"] = {}; c["_tvdb_v2"] = True
@@ -231,7 +232,8 @@ def load_desc_cache():
             return c
     except Exception:
         return {"shows": {}, "episodes": {}, "tvmaze_shows": {}, "tvmaze_episodes": {},
-                "tmdb_seasons": {}, "tvmaze_eplist": {}, "tvdb_shows": {}, "tvdb_episodes": {}}
+                "tmdb_seasons": {}, "tvmaze_eplist": {}, "tvdb_shows": {}, "tvdb_episodes": {},
+                "tvmaze_namemap": {}, "tvdb_namemap": {}}
 
 def save_desc_cache(cache):
     with open(DESC_CACHE_FILE, "w", encoding="utf-8") as f:
@@ -476,6 +478,61 @@ def _tvdb_meta(show, season, ep, cache):
     cache["tvdb_episodes"][ck] = {"o": ov, "n": nm}
     return ov, nm
 
+def _norm(name):
+    return re.sub(r"[^a-z0-9]+", " ", (name or "").lower()).strip()
+
+def _tvmaze_namemap(tid, cache):
+    key = str(tid)
+    if key in cache["tvmaze_namemap"]:
+        return cache["tvmaze_namemap"][key]
+    data = _tvmaze_get(f"/shows/{tid}/episodes")
+    m = {}
+    if isinstance(data, list):
+        for e in data:
+            nm = _norm(e.get("name")); sn = e.get("season"); num = e.get("number")
+            if nm and sn and num:
+                m.setdefault(nm, [sn, num])
+    cache["tvmaze_namemap"][key] = m
+    return m
+
+def _tvdb_namemap(tid, cache):
+    key = str(tid)
+    if key in cache["tvdb_namemap"]:
+        return cache["tvdb_namemap"][key]
+    m = {}
+    for page in range(10):                               # safety cap; 500 eps/page
+        data = _tvdb_get(f"/series/{tid}/episodes/default/eng", page=page)
+        eps = data.get("episodes") if isinstance(data, dict) else None
+        if not eps:
+            break
+        for e in eps:
+            nm = _norm(e.get("name")); sn = e.get("seasonNumber"); num = e.get("number")
+            if nm and sn and num:
+                m.setdefault(nm, [sn, num])
+        if len(eps) < 100:
+            break
+    cache["tvdb_namemap"][key] = m
+    return m
+
+def _name_to_se(show, name, cache):
+    """Match an episode NAME to its (season, number) via the show's episode list."""
+    target = _norm(name)
+    if not target:
+        return None, None
+    if ENABLE_TVMAZE:
+        tid = _resolve_tvmaze_id(show, cache)
+        if tid:
+            se = _tvmaze_namemap(tid, cache).get(target)
+            if se:
+                return se[0], se[1]
+    if ENABLE_TVDB:
+        tid = _resolve_tvdb_id(show, cache)
+        if tid:
+            se = _tvdb_namemap(tid, cache).get(target)
+            if se:
+                return se[0], se[1]
+    return None, None
+
 def episode_meta(show, season, ep, cache):
     """(overview, name): first non-empty of each across sources. Cached; never raises."""
     if season is None:
@@ -545,6 +602,8 @@ def build_eel(tv, root, cache):
             raw_title = (prog.findtext("title") or "").strip()
             title, sub, season, ep, ep_end = parse_title(raw_title)
             desc = None
+            if season is None and sub:                 # have episode name, no number -> match it
+                season, ep = _name_to_se(title, sub, cache)
             if season is not None:
                 desc, epname = episode_meta(title, season, ep, cache)
                 if not sub and epname:                 # fill missing episode name from metadata
