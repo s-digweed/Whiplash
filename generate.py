@@ -108,6 +108,15 @@ REGEX_RENAMES = [
      "It's Always Sunny in Philadelphia"),
 ]
 
+# Fixed descriptions for block/filler programmes with no episode data (keyed by title).
+_FIZZ_MIX_DESC = ("Classic cartoons like Bugs Bunny, Droopy, Tom and Jerry, Woody "
+                  "Woodpecker, NFB Canada and Zagreb Film animated shorts plus some "
+                  "Pop and Rock music videos.")
+FIXED_DESC = {
+    "Late Night Mix": _FIZZ_MIX_DESC,
+    "Evening Mix":    _FIZZ_MIX_DESC,
+}
+
 # ── title parser ──
 YEAR_ANY = re.compile(r'\((?:19|20)\d\d\)')
 YEAR_END = re.compile(r'\s*(\((?:19|20)\d\d\))\s*$')
@@ -616,6 +625,8 @@ def build_eel(tv, root, cache):
                 desc, epname = episode_meta(title, season, ep, cache)
                 if not sub and epname:                 # fill missing episode name from metadata
                     sub = epname; got_sub += 1
+            if desc is None and title in FIXED_DESC:    # fixed desc for block/filler programmes
+                desc = FIXED_DESC[title]
             np = ET.Element("programme", {k: prog.get(k) for k in prog.keys()})
             np.set("channel", local_id)
             ET.SubElement(np, "title", {"lang": "en"}).text = title
