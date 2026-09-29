@@ -580,6 +580,13 @@ def episode_overview(show, season, ep, cache):
 _XML_ILLEGAL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
 _LOCAL_IP = re.compile(r'^(https?://)?(192\.168\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.)')
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; WhiplashEPGBot/1.0)"}
+# Full browser headers for servers that WAF-block bot user-agents (e.g. MistLive 403).
+BROWSER_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"),
+    "Accept": "application/xml,text/xml,*/*;q=0.9",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 def _sanitize(text): return _XML_ILLEGAL.sub("", text)
 
@@ -590,12 +597,12 @@ def _strip_local_images(prog):
             if _LOCAL_IP.search(src.strip()): prog.remove(elem)
     return prog
 
-def fetch_xml(url):
-    resp = requests.get(url, headers=HEADERS, timeout=30); resp.raise_for_status()
+def fetch_xml(url, headers=None):
+    resp = requests.get(url, headers=headers or HEADERS, timeout=30); resp.raise_for_status()
     return ET.fromstring(_sanitize(resp.content.decode("utf-8-sig", errors="replace")))
 
-def fetch_xml_safe(url, name):
-    try: return fetch_xml(url)
+def fetch_xml_safe(url, name, headers=None):
+    try: return fetch_xml(url, headers=headers)
     except (ET.ParseError, requests.RequestException) as e:
         print(f"WARNING: {name} fetch/parse error ({e}) - skipping {name} this run")
         return ET.fromstring("<tv></tv>")
@@ -764,12 +771,16 @@ def main():
     print(f"Wrote {EPG_OUTPUT} and {M3U_OUTPUT}")
     print(f"Channels: {len(tv.findall('channel'))}, programmes: {len(tv.findall('programme'))}")
 
-    print(f"Fetching {MIST_URL} ..."); mist_root = fetch_xml_safe(MIST_URL, "MistLive")
-    print("MistLive:"); mtv = build_mist(mist_root, cache)
-    indent(mtv)
-    ET.ElementTree(mtv).write(MIST_OUTPUT, encoding="UTF-8", xml_declaration=True)
-    print(f"Wrote {MIST_OUTPUT}")
-    print(f"Channels: {len(mtv.findall('channel'))}, programmes: {len(mtv.findall('programme'))}")
+    print(f"Fetching {MIST_URL} ...")
+    mist_root = fetch_xml_safe(MIST_URL, "MistLive", headers=BROWSER_HEADERS)
+    if mist_root.findall("channel") or mist_root.findall("programme"):
+        print("MistLive:"); mtv = build_mist(mist_root, cache)
+        indent(mtv)
+        ET.ElementTree(mtv).write(MIST_OUTPUT, encoding="UTF-8", xml_declaration=True)
+        print(f"Wrote {MIST_OUTPUT}")
+        print(f"Channels: {len(mtv.findall('channel'))}, programmes: {len(mtv.findall('programme'))}")
+    else:
+        print(f"MistLive feed empty/unavailable - keeping existing {MIST_OUTPUT} unchanged")
 
     save_desc_cache(cache)
 
