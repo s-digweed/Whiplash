@@ -112,9 +112,11 @@ REGEX_RENAMES = [
 _FIZZ_MIX_DESC = ("Classic cartoons like Bugs Bunny, Droopy, Tom and Jerry, Woody "
                   "Woodpecker, NFB Canada and Zagreb Film animated shorts plus some "
                   "Pop and Rock music videos.")
+_TOON_DISNEY_DESC = "Timeless theatrical animated shorts from Disney's golden age."
 FIXED_DESC = {
-    "Late Night Mix": _FIZZ_MIX_DESC,
-    "Evening Mix":    _FIZZ_MIX_DESC,
+    "Late Night Mix":     _FIZZ_MIX_DESC,
+    "Evening Mix":        _FIZZ_MIX_DESC,
+    "Toon Disney Shorts": _TOON_DISNEY_DESC,
 }
 
 # ── title parser ──
