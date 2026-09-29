@@ -68,6 +68,18 @@ EEL_LOGOS = {
     "toon-diggity": "https://i.imgur.com/GhzJMF9.png",
 }
 
+# ── MistLive: copy every channel as-is, enrich only these two ──
+MIST_URL = "https://api.mistlive.tv/api/xmltv.xml"
+MIST_OUTPUT = "MistLive.xml"
+MIST_ENRICH = {"vortex.iptv.mistlive.tv", "nfktv.iptv.mistlive.tv"}
+# Show-name fixes for the enriched channels (display + metadata lookup).
+MIST_RENAMES = {
+    "The 70s Show":            "That '70s Show",
+    "Malcom In The Middle":    "Malcolm in the Middle",
+    "Genarator Rex":           "Generator Rex",
+    "Courage The Cowardly Dog":"Courage the Cowardly Dog",
+}
+
 # Shows numbered ABSOLUTELY (3+ digit code = absolute ep in S01, hundreds kept)
 ABSOLUTE_SHOWS = {"dragon ball"}
 
@@ -644,6 +656,68 @@ def build_eel(tv, root, cache):
         if n: print(f"  {local_id}: {n} programmes (normalized)")
     if TMDB_KEY: print(f"  descriptions attached: {got_desc} | episode names added: {got_sub}")
 
+_MIST_DASH_SE = re.compile(r"S(\d{1,2})\s*[-–]\s*E(\d{1,2})", re.I)  # "S1 - E5" -> S1E5
+_MIST_EPISODE = re.compile(r"episode[\s\-_]*(\d{1,3})", re.I)             # "...episode-17..."
+_MIST_LEADNUM = re.compile(r"^(\d{1,2})\s+\D")                            # "10 Damien" -> ep 10
+
+def _mist_se(sub):
+    """Extract (season, ep) from a MistLive sub-title. None,None if not episodic."""
+    if not sub:
+        return None, None
+    s = sub.replace("+", " ").replace("_", " ").replace(".", " ")
+    s = re.sub(r"\s+", " ", s).strip()
+    s = _MIST_DASH_SE.sub(lambda m: f"S{m.group(1)}E{m.group(2)}", s)
+    _, _, season, ep, _ = parse_title(s)
+    if season is not None:
+        return season, ep
+    m = _MIST_EPISODE.search(s)                 # bare "episode N" -> S01E N (absolute walk fixes season)
+    if m:
+        return 1, int(m.group(1))
+    m = _MIST_LEADNUM.match(s)                  # leading "NN Title" -> S01E NN
+    if m:
+        return 1, int(m.group(1))
+    return None, None
+
+def _mist_lookup_name(title):
+    """Show name for metadata lookup: drop parenthetical tags, apply renames."""
+    name = MIST_RENAMES.get(title, title)
+    return re.sub(r"\s*\([^)]*\)\s*", " ", name).strip() or name
+
+def build_mist(root, cache):
+    """Copy every channel/programme as-is; enrich only the MIST_ENRICH channels."""
+    tv = ET.Element("tv", {"generator-info-name": "mistlive-epg-generator"})
+    for ch in root.findall("channel"):
+        tv.append(ET.fromstring(ET.tostring(ch)))
+    kept = enriched = got_desc = got_sub = 0
+    for prog in root.findall("programme"):
+        cid = prog.get("channel")
+        if cid not in MIST_ENRICH:
+            tv.append(ET.fromstring(ET.tostring(prog))); kept += 1
+            continue
+        raw_title = (prog.findtext("title") or "").strip()
+        disp_title = MIST_RENAMES.get(raw_title, raw_title)   # keep content tags, fix names
+        season, ep = _mist_se(prog.findtext("sub-title"))
+        sub = desc = None
+        if season is not None:
+            lookup = _mist_lookup_name(raw_title)
+            desc, epname = episode_meta(lookup, season, ep, cache)
+            if epname: sub = epname; got_sub += 1
+        if season is None:                                   # non-episodic -> leave as-is
+            tv.append(ET.fromstring(ET.tostring(prog))); kept += 1
+            continue
+        np = ET.Element("programme", {k: prog.get(k) for k in prog.keys()})
+        ET.SubElement(np, "title", {"lang": "en"}).text = disp_title
+        if sub: ET.SubElement(np, "sub-title", {"lang": "en"}).text = sub
+        if desc:
+            ET.SubElement(np, "desc", {"lang": "en"}).text = desc; got_desc += 1
+        onscr = f"S{season:02d} E{ep:02d}"
+        ET.SubElement(np, "episode-num", {"system": "onscreen"}).text = onscr
+        ET.SubElement(np, "episode-num", {"system": "xmltv_ns"}).text = f"{season-1}.{ep-1}."
+        tv.append(np); enriched += 1
+    print(f"  copied as-is: {kept} | enriched: {enriched}")
+    if TMDB_KEY: print(f"  descriptions attached: {got_desc} | episode names added: {got_sub}")
+    return tv
+
 def build_m3u():
     lines = [f'#EXTM3U url-tvg="{EPG_RAW_URL}"', ""]
     disp = {v[0]: v[1] for v in WL_CHANNEL_MAP.values()}
@@ -684,12 +758,20 @@ def main():
     print(f"Fetching {WL_URL} ...");  wl_root  = fetch_xml_safe(WL_URL, "Whiplash")
     print(f"Fetching {EEL_URL} ..."); eel_root = fetch_xml_safe(EEL_URL, "Eel")
     tv = build_all(wl_root, eel_root, cache)
-    save_desc_cache(cache)
     indent(tv)
     ET.ElementTree(tv).write(EPG_OUTPUT, encoding="UTF-8", xml_declaration=True)
     with open(M3U_OUTPUT, "w", encoding="utf-8") as f: f.write(build_m3u())
     print(f"Wrote {EPG_OUTPUT} and {M3U_OUTPUT}")
     print(f"Channels: {len(tv.findall('channel'))}, programmes: {len(tv.findall('programme'))}")
+
+    print(f"Fetching {MIST_URL} ..."); mist_root = fetch_xml_safe(MIST_URL, "MistLive")
+    print("MistLive:"); mtv = build_mist(mist_root, cache)
+    indent(mtv)
+    ET.ElementTree(mtv).write(MIST_OUTPUT, encoding="UTF-8", xml_declaration=True)
+    print(f"Wrote {MIST_OUTPUT}")
+    print(f"Channels: {len(mtv.findall('channel'))}, programmes: {len(mtv.findall('programme'))}")
+
+    save_desc_cache(cache)
 
 if __name__ == "__main__":
     main()
