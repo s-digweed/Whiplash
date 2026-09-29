@@ -607,6 +607,37 @@ def fetch_xml_safe(url, name, headers=None):
         print(f"WARNING: {name} fetch/parse error ({e}) - skipping {name} this run")
         return ET.fromstring("<tv></tv>")
 
+def _http_diag(name, status, hdrs):
+    """Log why a fetch was refused (Cloudflare / IP block / auth) instead of guessing."""
+    keys = ("server", "cf-ray", "cf-mitigated", "cf-cache-status", "retry-after",
+            "www-authenticate", "x-sucuri-id")
+    shown = {k: hdrs.get(k) for k in keys if hdrs.get(k)}
+    print(f"  {name} HTTP {status} | {shown or 'no telltale headers'}")
+
+def fetch_mist(url):
+    """MistLive sits behind bot protection. Try a TLS-impersonating client (curl_cffi,
+    real-Chrome handshake) first, then fall back to plain requests. Return root or <tv/>."""
+    try:
+        from curl_cffi import requests as creq
+        r = creq.get(url, impersonate="chrome", timeout=30)
+        if r.status_code == 200:
+            print("  fetched via curl_cffi (chrome impersonation)")
+            return ET.fromstring(_sanitize(r.content.decode("utf-8-sig", errors="replace")))
+        _http_diag("MistLive(curl_cffi)", r.status_code, r.headers)
+    except ImportError:
+        print("  curl_cffi not installed - falling back to requests")
+    except Exception as e:
+        print(f"  curl_cffi attempt failed: {e}")
+    try:
+        r = requests.get(url, headers=BROWSER_HEADERS, timeout=30)
+        if r.status_code == 200:
+            return ET.fromstring(_sanitize(r.content.decode("utf-8-sig", errors="replace")))
+        _http_diag("MistLive(requests)", r.status_code, r.headers)
+    except (ET.ParseError, requests.RequestException) as e:
+        print(f"  requests attempt failed: {e}")
+    print("WARNING: MistLive unavailable - skipping MistLive this run")
+    return ET.fromstring("<tv></tv>")
+
 def add_channels(tv, chan_map, logos):
     for _, (local_id, display) in chan_map.items():
         if tv.find(f"./channel[@id='{local_id}']") is not None: continue
@@ -772,7 +803,7 @@ def main():
     print(f"Channels: {len(tv.findall('channel'))}, programmes: {len(tv.findall('programme'))}")
 
     print(f"Fetching {MIST_URL} ...")
-    mist_root = fetch_xml_safe(MIST_URL, "MistLive", headers=BROWSER_HEADERS)
+    mist_root = fetch_mist(MIST_URL)
     if mist_root.findall("channel") or mist_root.findall("programme"):
         print("MistLive:"); mtv = build_mist(mist_root, cache)
         indent(mtv)
