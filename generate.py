@@ -121,8 +121,8 @@ REGEX_RENAMES = [
 ]
 
 # Fixed descriptions for block/filler programmes with no episode data (keyed by title).
-_FIZZ_MIX_DESC = ("Classic cartoons like Looney Tunes, Tom and Jerry, Woody "
-                  "Woodpecker, Droopy, NFB Canada and Zagreb Film animated shorts plus some "
+_FIZZ_MIX_DESC = ("Classic cartoons like Looney Tunes, Tom and Jerry, Woody Woodpecker, "
+                  "Droopy, NFB Canada and Zagreb Film animated shorts plus some "
                   "Pop and Rock music videos.")
 _TOON_DISNEY_DESC = "Timeless theatrical animated shorts from Disney's golden age."
 FIXED_DESC = {
@@ -245,7 +245,7 @@ def load_desc_cache():
             c = json.load(f)
             for k in ("shows","episodes","tvmaze_shows","tvmaze_episodes","tmdb_seasons",
                       "tvmaze_eplist","tvdb_shows","tvdb_episodes",
-                      "tvmaze_namemap","tvdb_namemap"):
+                      "tvmaze_namemap","tvdb_namemap","tmdb_movies"):
                 c.setdefault(k, {})
             if not c.get("_tvdb_v2"):                    # refresh TVDB layer once (/eng + slug overrides)
                 c["tvdb_shows"] = {}; c["tvdb_episodes"] = {}; c["_tvdb_v2"] = True
@@ -256,7 +256,7 @@ def load_desc_cache():
     except Exception:
         return {"shows": {}, "episodes": {}, "tvmaze_shows": {}, "tvmaze_episodes": {},
                 "tmdb_seasons": {}, "tvmaze_eplist": {}, "tvdb_shows": {}, "tvdb_episodes": {},
-                "tvmaze_namemap": {}, "tvdb_namemap": {}}
+                "tvmaze_namemap": {}, "tvdb_namemap": {}, "tmdb_movies": {}}
 
 def save_desc_cache(cache):
     with open(DESC_CACHE_FILE, "w", encoding="utf-8") as f:
@@ -721,12 +721,44 @@ def _mist_lookup_name(title):
     name = MIST_RENAMES.get(title, title)
     return re.sub(r"\s*\([^)]*\)\s*", " ", name).strip() or name
 
+_MV_MARKER = re.compile(r"(official|music|lyric)\s*(video|visualizer|audio)|\bvisualizer\b", re.I)
+
+def _movie_meta(raw_title, cache):
+    """Look up a non-episodic title as a MOVIE on TMDB. Returns (year, overview) or (None,None).
+    Strict: exact normalized-title match + real vote count, so music videos/art shorts never match."""
+    if not TMDB_KEY:
+        return None, None
+    if _MV_MARKER.search(raw_title) or " - " in raw_title:   # music video / "Artist - Title" -> not a movie
+        return None, None
+    ym = re.search(r"\((19|20)\d\d\)", raw_title)
+    year = ym.group(0)[1:-1] if ym else None
+    clean = re.sub(r"\s*[\(\[][^\)\]]*[\)\]]\s*", " ", raw_title)   # drop (…) and […]
+    clean = re.sub(r"\s+", " ", clean).strip()
+    if not clean:
+        return None, None
+    key = clean.lower() + (f"|{year}" if year else "")
+    if key in cache["tmdb_movies"]:
+        rec = cache["tmdb_movies"][key]
+        return (rec["y"], rec["o"]) if rec else (None, None)
+    params = {"query": clean}
+    if year: params["year"] = year
+    data = _tmdb_get("/search/movie", **params) or {}
+    rec = None
+    for res in (data.get("results") or [])[:5]:
+        if _norm(res.get("title")) == _norm(clean) and (res.get("vote_count") or 0) >= 50:
+            rd = res.get("release_date") or ""
+            rec = {"y": rd[:4] if rd[:4].isdigit() else (year or ""),
+                   "o": (res.get("overview") or "").strip()}
+            break
+    cache["tmdb_movies"][key] = rec
+    return (rec["y"], rec["o"]) if rec else (None, None)
+
 def build_mist(root, cache):
     """Copy every channel/programme as-is; enrich only the MIST_ENRICH channels."""
     tv = ET.Element("tv", {"generator-info-name": "mistlive-epg-generator"})
     for ch in root.findall("channel"):
         tv.append(ET.fromstring(ET.tostring(ch)))
-    kept = enriched = got_desc = got_sub = 0
+    kept = enriched = movies = got_desc = got_sub = 0
     for prog in root.findall("programme"):
         cid = prog.get("channel")
         if cid not in MIST_ENRICH:
@@ -740,8 +772,20 @@ def build_mist(root, cache):
             lookup = _mist_lookup_name(raw_title)
             desc, epname = episode_meta(lookup, season, ep, cache)
             if epname: sub = epname; got_sub += 1
-        if season is None:                                   # non-episodic -> leave as-is
-            tv.append(ET.fromstring(ET.tostring(prog))); kept += 1
+        if season is None:                                   # not a TV episode -> try MOVIE
+            m_year, m_desc = _movie_meta(raw_title, cache)
+            if m_year or m_desc:
+                np = ET.Element("programme", {k: prog.get(k) for k in prog.keys()})
+                mt = disp_title
+                if m_year and not re.search(r"\((19|20)\d\d\)", mt):
+                    mt = f"{mt} ({m_year})"
+                ET.SubElement(np, "title", {"lang": "en"}).text = mt
+                if m_desc: ET.SubElement(np, "desc", {"lang": "en"}).text = m_desc
+                if m_year: ET.SubElement(np, "date").text = m_year
+                ET.SubElement(np, "category", {"lang": "en"}).text = "Movie"
+                tv.append(np); movies += 1
+            else:                                            # music video / art short -> leave as-is
+                tv.append(ET.fromstring(ET.tostring(prog))); kept += 1
             continue
         np = ET.Element("programme", {k: prog.get(k) for k in prog.keys()})
         ET.SubElement(np, "title", {"lang": "en"}).text = disp_title
@@ -752,7 +796,7 @@ def build_mist(root, cache):
         ET.SubElement(np, "episode-num", {"system": "onscreen"}).text = onscr
         ET.SubElement(np, "episode-num", {"system": "xmltv_ns"}).text = f"{season-1}.{ep-1}."
         tv.append(np); enriched += 1
-    print(f"  copied as-is: {kept} | enriched: {enriched}")
+    print(f"  copied as-is: {kept} | enriched: {enriched} | movies: {movies}")
     if TMDB_KEY: print(f"  descriptions attached: {got_desc} | episode names added: {got_sub}")
     return tv
 
