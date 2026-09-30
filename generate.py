@@ -121,8 +121,8 @@ REGEX_RENAMES = [
 ]
 
 # Fixed descriptions for block/filler programmes with no episode data (keyed by title).
-_FIZZ_MIX_DESC = ("Classic cartoons like Bugs Bunny, Droopy, Tom and Jerry, Woody "
-                  "Woodpecker, NFB Canada and Zagreb Film animated shorts plus some "
+_FIZZ_MIX_DESC = ("Classic cartoons like Looney Tunes, Tom and Jerry, Woody "
+                  "Woodpecker, Droopy, NFB Canada and Zagreb Film animated shorts plus some "
                   "Pop and Rock music videos.")
 _TOON_DISNEY_DESC = "Timeless theatrical animated shorts from Disney's golden age."
 FIXED_DESC = {
