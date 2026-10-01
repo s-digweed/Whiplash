@@ -20,6 +20,7 @@ import time
 import html
 import requests
 import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta
 
 # ───────────────────────── Whiplash (single feed) ─────────────────────────
 WL_URL = "https://whiplash.cc/scheds/schedule.xml"
@@ -131,6 +132,9 @@ FIXED_DESC = {
     "Toon Disney Shorts": _TOON_DISNEY_DESC,
 }
 
+# Renamed titles that should NOT carry the source's trailing (YYYY)
+DROP_YEAR = {"Batman: The Animated Series"}
+
 # ── title parser ──
 YEAR_ANY = re.compile(r'\((?:19|20)\d\d\)')
 YEAR_END = re.compile(r'\s*(\((?:19|20)\d\d\))\s*$')
@@ -168,6 +172,8 @@ def _rename(title):
                 base = canon
                 yr = ""          # canonical already carries any year it needs
                 break
+    if base in DROP_YEAR:
+        yr = ""                  # strip the source year for these titles
     return (base + yr).strip()
 
 def parse_title(raw):
@@ -245,7 +251,7 @@ def load_desc_cache():
             c = json.load(f)
             for k in ("shows","episodes","tvmaze_shows","tvmaze_episodes","tmdb_seasons",
                       "tvmaze_eplist","tvdb_shows","tvdb_episodes",
-                      "tvmaze_namemap","tvdb_namemap","tmdb_movies"):
+                      "tvmaze_namemap","tvdb_namemap","tmdb_movies","show_syn"):
                 c.setdefault(k, {})
             if not c.get("_tvdb_v2"):                    # refresh TVDB layer once (/eng + slug overrides)
                 c["tvdb_shows"] = {}; c["tvdb_episodes"] = {}; c["_tvdb_v2"] = True
@@ -256,7 +262,7 @@ def load_desc_cache():
     except Exception:
         return {"shows": {}, "episodes": {}, "tvmaze_shows": {}, "tvmaze_episodes": {},
                 "tmdb_seasons": {}, "tvmaze_eplist": {}, "tvdb_shows": {}, "tvdb_episodes": {},
-                "tvmaze_namemap": {}, "tvdb_namemap": {}, "tmdb_movies": {}}
+                "tvmaze_namemap": {}, "tvdb_namemap": {}, "tmdb_movies": {}, "show_syn": {}}
 
 def save_desc_cache(cache):
     with open(DESC_CACHE_FILE, "w", encoding="utf-8") as f:
@@ -800,6 +806,79 @@ def build_mist(root, cache):
     if TMDB_KEY: print(f"  descriptions attached: {got_desc} | episode names added: {got_sub}")
     return tv
 
+# ── CCN: Cartoon Cartoons Network (fixed weekly lineup, show-level synopses) ──
+CCN_OUTPUT     = "CCN.xml"
+CCN_ID         = "CartoonCartoonsNetwork"
+CCN_NAME       = "Cartoon Cartoons Network"
+CCN_LOGO       = "https://i.imgur.com/CaeVZxd.png"
+CCN_SCHED_FILE = "ccn_schedule.json"   # {weekday: [[start_min, stop_min, "Title"], ...]}
+CCN_START      = datetime(2026, 9, 30)  # first Central date to generate (covers "now")
+CCN_END        = datetime(2026, 11, 1)  # exclusive: through all of October
+
+def _central_to_utc(dt):
+    """US Central -> UTC: CDT (-5) through 2026-11-01 02:00 local, then CST (-6)."""
+    off = 5 if dt < datetime(2026, 11, 1, 2, 0) else 6
+    return dt + timedelta(hours=off)
+
+def _show_overview(title, cache):
+    """SHOW-level synopsis: TMDB -> TVmaze -> TVDB, cached. (YYYY) in title disambiguates."""
+    if title in cache["show_syn"]:
+        return cache["show_syn"][title]
+    ym = re.search(r"\((19|20)\d\d\)", title)
+    year = ym.group(0)[1:-1] if ym else None
+    clean = re.sub(r"\s*\((19|20)\d\d\)\s*", " ", title).strip() or title
+    ov = ""
+    if TMDB_KEY:
+        params = {"query": clean}
+        if year: params["first_air_date_year"] = year
+        data = _tmdb_get("/search/tv", **params) or {}
+        for res in (data.get("results") or [])[:3]:
+            if res.get("overview"): ov = res["overview"].strip(); break
+    if not ov and ENABLE_TVMAZE:
+        d = _tvmaze_get("/singlesearch/shows", q=clean)
+        if isinstance(d, dict) and d.get("summary"):
+            ov = _TAGS.sub("", d["summary"]).strip()
+    if not ov and ENABLE_TVDB:
+        tid = _resolve_tvdb_id(clean, cache)
+        if tid:
+            d = _tvdb_get(f"/series/{tid}") or {}
+            ov = (d.get("overview") or "").strip()
+    cache["show_syn"][title] = ov
+    return ov
+
+def load_ccn_schedule():
+    try:
+        with open(CCN_SCHED_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"WARNING: cannot read {CCN_SCHED_FILE} ({e}) - skipping CCN"); return None
+
+def build_ccn(sched, cache):
+    tv = ET.Element("tv", {"generator-info-name": "ccn-epg-generator"})
+    ch = ET.SubElement(tv, "channel", {"id": CCN_ID})
+    ET.SubElement(ch, "display-name").text = CCN_NAME
+    ET.SubElement(ch, "icon", {"src": CCN_LOGO})
+    WD = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+    n = got = 0
+    day = CCN_START
+    while day < CCN_END:
+        for start_m, stop_m, title in sched.get(WD[day.weekday()], []):
+            st = _central_to_utc(day + timedelta(minutes=start_m))
+            sp = _central_to_utc(day + timedelta(minutes=stop_m))
+            desc = _show_overview(title, cache)
+            p = ET.SubElement(tv, "programme", {
+                "start": st.strftime("%Y%m%d%H%M%S") + " +0000",
+                "stop":  sp.strftime("%Y%m%d%H%M%S") + " +0000",
+                "channel": CCN_ID})
+            ET.SubElement(p, "title", {"lang": "en"}).text = title
+            if desc:
+                ET.SubElement(p, "desc", {"lang": "en"}).text = desc; got += 1
+            n += 1
+        day += timedelta(days=1)
+    print(f"  programmes: {n}")
+    if TMDB_KEY: print(f"  synopses attached: {got}")
+    return tv
+
 def build_m3u():
     lines = [f'#EXTM3U url-tvg="{EPG_RAW_URL}"', ""]
     disp = {v[0]: v[1] for v in WL_CHANNEL_MAP.values()}
@@ -856,6 +935,14 @@ def main():
         print(f"Channels: {len(mtv.findall('channel'))}, programmes: {len(mtv.findall('programme'))}")
     else:
         print(f"MistLive feed empty/unavailable - keeping existing {MIST_OUTPUT} unchanged")
+
+    ccn_sched = load_ccn_schedule()
+    if ccn_sched:
+        print("CCN:"); ctv = build_ccn(ccn_sched, cache)
+        indent(ctv)
+        ET.ElementTree(ctv).write(CCN_OUTPUT, encoding="UTF-8", xml_declaration=True)
+        print(f"Wrote {CCN_OUTPUT}")
+        print(f"Channels: {len(ctv.findall('channel'))}, programmes: {len(ctv.findall('programme'))}")
 
     save_desc_cache(cache)
 
