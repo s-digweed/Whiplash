@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/s-digweed/Whiplash/main/epg.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/s-digweed/Whiplash/main/Whiplash.xml"
 
 #EXTINF:-1 group-title="whiplash" tvg-id="whiplash" tvg-logo="https://whiplash.cc/assets/img/channels/whiplash.png",WHIPLASH
 https://cdn.whiplash.cc/whiplash/index.m3u8
