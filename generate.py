@@ -130,6 +130,8 @@ FIXED_DESC = {
     "Late Night Mix":     _FIZZ_MIX_DESC,
     "Evening Mix":        _FIZZ_MIX_DESC,
     "Toon Disney Shorts": _TOON_DISNEY_DESC,
+    "You're on Nickelodeon, Charlie Brown":
+        "The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.",
 }
 
 # Renamed titles that should NOT carry the source's trailing (YYYY)
@@ -831,10 +833,14 @@ def _central_to_utc(dt):
     return dt + timedelta(hours=off)
 
 # Display title -> name to search when the schedule's title is abbreviated/non-canonical
-SYN_ALIAS = {}
+SYN_ALIAS = {
+    "Dennis the Menace ('86)": "Dennis the Menace (1986)",
+}
 
 def _show_overview(title, cache):
     """SHOW-level synopsis: TMDB -> TVmaze -> TVDB, cached. (YYYY) in title disambiguates."""
+    if title in FIXED_DESC:                    # fixed override (no metadata lookup)
+        return FIXED_DESC[title]
     if title in cache["show_syn"] and cache["show_syn"][title]:
         return cache["show_syn"][title]
     lookup = SYN_ALIAS.get(title, title)
