@@ -806,14 +806,24 @@ def build_mist(root, cache):
     if TMDB_KEY: print(f"  descriptions attached: {got_desc} | episode names added: {got_sub}")
     return tv
 
-# ── CCN: Cartoon Cartoons Network (fixed weekly lineup, show-level synopses) ──
+# ── US-Central fixed-weekly-lineup channels (CCN, NickPicks): show-level synopses ──
+# Each schedule file is {weekday: [[start_min, stop_min, "Title"], ...]} in Central local time.
+# Schedules repeat weekly; each channel has its own exclusive end horizon.
+WEEKLY_START = datetime(2026, 9, 30)    # first Central date to generate (covers "now")
+
 CCN_OUTPUT     = "CCN.xml"
 CCN_ID         = "CartoonCartoonsNetwork"
 CCN_NAME       = "Cartoon Cartoons Network"
 CCN_LOGO       = "https://i.imgur.com/CaeVZxd.png"
-CCN_SCHED_FILE = "ccn_schedule.json"   # {weekday: [[start_min, stop_min, "Title"], ...]}
-CCN_START      = datetime(2026, 9, 30)  # first Central date to generate (covers "now")
-CCN_END        = datetime(2026, 11, 1)  # exclusive: through all of October
+CCN_SCHED_FILE = "ccn_schedule.json"
+CCN_END        = datetime(2026, 11, 1)  # all of October
+
+NICK_OUTPUT     = "NickPicks.xml"
+NICK_ID         = "NickPicks"
+NICK_NAME       = "Nick Picks"
+NICK_LOGO       = "https://i.imgur.com/6is9eGi.png"
+NICK_SCHED_FILE = "nickpicks_schedule.json"
+NICK_END        = datetime(2026, 12, 30)  # ~90 days (perpetual weekly loop)
 
 def _central_to_utc(dt):
     """US Central -> UTC: CDT (-5) through 2026-11-01 02:00 local, then CST (-6)."""
@@ -821,13 +831,13 @@ def _central_to_utc(dt):
     return dt + timedelta(hours=off)
 
 # Display title -> name to search when the schedule's title is abbreviated/non-canonical
-CCN_SYN_ALIAS = {}
+SYN_ALIAS = {}
 
 def _show_overview(title, cache):
     """SHOW-level synopsis: TMDB -> TVmaze -> TVDB, cached. (YYYY) in title disambiguates."""
     if title in cache["show_syn"] and cache["show_syn"][title]:
         return cache["show_syn"][title]
-    lookup = CCN_SYN_ALIAS.get(title, title)
+    lookup = SYN_ALIAS.get(title, title)
     ym = re.search(r"\((19|20)\d\d\)", lookup)
     year = ym.group(0)[1:-1] if ym else None
     clean = re.sub(r"\s*\((19|20)\d\d\)\s*", " ", lookup).strip() or lookup
@@ -850,22 +860,24 @@ def _show_overview(title, cache):
     cache["show_syn"][title] = ov
     return ov
 
-def load_ccn_schedule():
+def load_weekly_schedule(path):
     try:
-        with open(CCN_SCHED_FILE, encoding="utf-8") as f:
+        with open(path, encoding="utf-8") as f:
             return json.load(f)
     except Exception as e:
-        print(f"WARNING: cannot read {CCN_SCHED_FILE} ({e}) - skipping CCN"); return None
+        print(f"WARNING: cannot read {path} ({e}) - skipping"); return None
 
-def build_ccn(sched, cache):
-    tv = ET.Element("tv", {"generator-info-name": "ccn-epg-generator"})
-    ch = ET.SubElement(tv, "channel", {"id": CCN_ID})
-    ET.SubElement(ch, "display-name").text = CCN_NAME
-    ET.SubElement(ch, "icon", {"src": CCN_LOGO})
+def build_weekly(ch_id, name, logo, sched, cache, end):
+    """Expand a Central-local weekly grid forward over [WEEKLY_START, end),
+    convert to UTC (DST-aware), attach show-level synopses."""
+    tv = ET.Element("tv", {"generator-info-name": f"{ch_id}-epg-generator"})
+    ch = ET.SubElement(tv, "channel", {"id": ch_id})
+    ET.SubElement(ch, "display-name").text = name
+    if logo: ET.SubElement(ch, "icon", {"src": logo})
     WD = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
     n = got = 0
-    day = CCN_START
-    while day < CCN_END:
+    day = WEEKLY_START
+    while day < end:
         for start_m, stop_m, title in sched.get(WD[day.weekday()], []):
             st = _central_to_utc(day + timedelta(minutes=start_m))
             sp = _central_to_utc(day + timedelta(minutes=stop_m))
@@ -873,7 +885,7 @@ def build_ccn(sched, cache):
             p = ET.SubElement(tv, "programme", {
                 "start": st.strftime("%Y%m%d%H%M%S") + " +0000",
                 "stop":  sp.strftime("%Y%m%d%H%M%S") + " +0000",
-                "channel": CCN_ID})
+                "channel": ch_id})
             ET.SubElement(p, "title", {"lang": "en"}).text = title
             if desc:
                 ET.SubElement(p, "desc", {"lang": "en"}).text = desc; got += 1
@@ -940,13 +952,17 @@ def main():
     else:
         print(f"MistLive feed empty/unavailable - keeping existing {MIST_OUTPUT} unchanged")
 
-    ccn_sched = load_ccn_schedule()
-    if ccn_sched:
-        print("CCN:"); ctv = build_ccn(ccn_sched, cache)
-        indent(ctv)
-        ET.ElementTree(ctv).write(CCN_OUTPUT, encoding="UTF-8", xml_declaration=True)
-        print(f"Wrote {CCN_OUTPUT}")
-        print(f"Channels: {len(ctv.findall('channel'))}, programmes: {len(ctv.findall('programme'))}")
+    for out, cid, nm, logo, sfile, end in (
+        (CCN_OUTPUT,  CCN_ID,  CCN_NAME,  CCN_LOGO,  CCN_SCHED_FILE,  CCN_END),
+        (NICK_OUTPUT, NICK_ID, NICK_NAME, NICK_LOGO, NICK_SCHED_FILE, NICK_END)):
+        sched = load_weekly_schedule(sfile)
+        if not sched:
+            continue
+        print(f"{nm}:"); wtv = build_weekly(cid, nm, logo, sched, cache, end)
+        indent(wtv)
+        ET.ElementTree(wtv).write(out, encoding="UTF-8", xml_declaration=True)
+        print(f"Wrote {out}")
+        print(f"Channels: {len(wtv.findall('channel'))}, programmes: {len(wtv.findall('programme'))}")
 
     save_desc_cache(cache)
 
