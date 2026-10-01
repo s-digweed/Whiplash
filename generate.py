@@ -820,13 +820,17 @@ def _central_to_utc(dt):
     off = 5 if dt < datetime(2026, 11, 1, 2, 0) else 6
     return dt + timedelta(hours=off)
 
+# Display title -> name to search when the schedule's title is abbreviated/non-canonical
+CCN_SYN_ALIAS = {}
+
 def _show_overview(title, cache):
     """SHOW-level synopsis: TMDB -> TVmaze -> TVDB, cached. (YYYY) in title disambiguates."""
-    if title in cache["show_syn"]:
+    if title in cache["show_syn"] and cache["show_syn"][title]:
         return cache["show_syn"][title]
-    ym = re.search(r"\((19|20)\d\d\)", title)
+    lookup = CCN_SYN_ALIAS.get(title, title)
+    ym = re.search(r"\((19|20)\d\d\)", lookup)
     year = ym.group(0)[1:-1] if ym else None
-    clean = re.sub(r"\s*\((19|20)\d\d\)\s*", " ", title).strip() or title
+    clean = re.sub(r"\s*\((19|20)\d\d\)\s*", " ", lookup).strip() or lookup
     ov = ""
     if TMDB_KEY:
         params = {"query": clean}
