@@ -132,6 +132,14 @@ FIXED_DESC = {
     "Toon Disney Shorts": _TOON_DISNEY_DESC,
     "You're on Nickelodeon, Charlie Brown":
         "The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.",
+    "Disney Channel Original Movies":
+        "A made-for-TV Disney Channel Original Movie, spanning teen comedies, musicals, fantasy and adventure.",
+    "AfterToon Movie":
+        "An afternoon feature presentation, a family or animated film capping off the cartoon lineup.",
+    "Saturday Night Movie":
+        "A Saturday night feature presentation, a family film to round out the night.",
+    "Sunday Night Movie":
+        "A Sunday night feature presentation, a family film to close out the weekend.",
 }
 
 # Renamed titles that should NOT carry the source's trailing (YYYY)
@@ -827,6 +835,13 @@ NICK_LOGO       = "https://i.imgur.com/6is9eGi.png"
 NICK_SCHED_FILE = "nickpicks_schedule.json"
 NICK_END        = datetime(2026, 12, 30)  # ~90 days (perpetual weekly loop)
 
+TSD_OUTPUT     = "ThatsSoDisney.xml"
+TSD_ID         = "ThatsSoDisney"
+TSD_NAME       = "That's So Disney"
+TSD_LOGO       = ""                        # no logo
+TSD_SCHED_FILE = "thatssodisney_schedule.json"
+TSD_END        = datetime(2026, 12, 30)   # ~90 days (perpetual weekly loop)
+
 def _central_to_utc(dt):
     """US Central -> UTC: CDT (-5) through 2026-11-01 02:00 local, then CST (-6)."""
     off = 5 if dt < datetime(2026, 11, 1, 2, 0) else 6
@@ -922,9 +937,9 @@ def indent(elem, level=0):
     else:
         if level and (not elem.tail or not elem.tail.strip()): elem.tail = i
 
-EPG_OUTPUT = "epg.xml"
+EPG_OUTPUT = "Whiplash.xml"          # renamed from epg.xml (same tvg-ids)
 M3U_OUTPUT = "playlist.m3u"
-EPG_RAW_URL = "https://raw.githubusercontent.com/s-digweed/Whiplash/main/epg.xml"
+EPG_RAW_URL = "https://raw.githubusercontent.com/s-digweed/Whiplash/main/Whiplash.xml"
 
 def build_all(wl_root, eel_root, cache):
     tv = ET.Element("tv", {"generator-info-name": "whiplash-eel-epg-generator"})
@@ -960,7 +975,8 @@ def main():
 
     for out, cid, nm, logo, sfile, end in (
         (CCN_OUTPUT,  CCN_ID,  CCN_NAME,  CCN_LOGO,  CCN_SCHED_FILE,  CCN_END),
-        (NICK_OUTPUT, NICK_ID, NICK_NAME, NICK_LOGO, NICK_SCHED_FILE, NICK_END)):
+        (NICK_OUTPUT, NICK_ID, NICK_NAME, NICK_LOGO, NICK_SCHED_FILE, NICK_END),
+        (TSD_OUTPUT,  TSD_ID,  TSD_NAME,  TSD_LOGO,  TSD_SCHED_FILE,  TSD_END)):
         sched = load_weekly_schedule(sfile)
         if not sched:
             continue
