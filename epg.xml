@@ -12442,7 +12442,7 @@ Blue Hair Timmy</desc>
     <episode-num system="xmltv_ns">0.11.</episode-num>
   </programme>
   <programme start="20260930000500 -0400" stop="20260930003000 -0400" channel="fizz">
-    <title lang="en">Batman: The Animated Series (1992)</title>
+    <title lang="en">Batman: The Animated Series</title>
     <sub-title lang="en">Night of the Ninja</sub-title>
     <desc lang="en">When Wayne Enterprises is robbed by a mysterious figure known as the Ninja, Batman and Robin discover that the Ninja is an old nemesis of Bruce Wayne.</desc>
     <episode-num system="onscreen">S01 E28</episode-num>
@@ -12840,7 +12840,7 @@ Meanwhile, Alan makes the mistake of getting Amy a trash compacter for their ann
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
   <programme start="20261001000500 -0400" stop="20261001003000 -0400" channel="fizz">
-    <title lang="en">Batman: The Animated Series (1992)</title>
+    <title lang="en">Batman: The Animated Series</title>
     <sub-title lang="en">The Strange Secret of Bruce Wayne</sub-title>
     <desc lang="en">Dr. Hugo Strange's invention, a machine that reads people's thoughts, leads him to discover that Bruce Wayne is Batman.</desc>
     <episode-num system="onscreen">S01 E29</episode-num>
@@ -13236,7 +13236,7 @@ Henry and June Theme  Kabloopers!: Henry isn't amused with June, who is displayi
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
   <programme start="20261002000500 -0400" stop="20261002003000 -0400" channel="fizz">
-    <title lang="en">Batman: The Animated Series (1992)</title>
+    <title lang="en">Batman: The Animated Series</title>
     <sub-title lang="en">Tyger, Tyger</sub-title>
     <desc lang="en">When a genetic engineer produces a man-cat hybrid, he kidnaps Selina Kyle to provide his creation with a mate.</desc>
     <episode-num system="onscreen">S01 E30</episode-num>
