@@ -74,12 +74,14 @@
   </programme>
   <programme start="20260930140000 +0000" stop="20260930143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20260930143000 +0000" stop="20260930150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20260930150000 +0000" stop="20260930153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20260930153000 +0000" stop="20260930160000 +0000" channel="NickPicks">
@@ -281,11 +283,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261001143000 +0000" stop="20261001150000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261001150000 +0000" stop="20261001153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261001153000 +0000" stop="20261001160000 +0000" channel="NickPicks">
@@ -619,7 +621,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261003070000 +0000" stop="20261003073000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261003073000 +0000" stop="20261003080000 +0000" channel="NickPicks">
@@ -639,7 +641,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261003093000 +0000" stop="20261003100000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -757,8 +759,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261003233000 +0000" stop="20261004000000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261004000000 +0000" stop="20261004003000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -913,7 +915,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261004163000 +0000" stop="20261004170000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261004170000 +0000" stop="20261004173000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -1089,12 +1092,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261005140000 +0000" stop="20261005143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261005143000 +0000" stop="20261005150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261005150000 +0000" stop="20261005153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261005153000 +0000" stop="20261005160000 +0000" channel="NickPicks">
@@ -1293,12 +1298,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261006140000 +0000" stop="20261006143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261006143000 +0000" stop="20261006150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261006150000 +0000" stop="20261006153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261006153000 +0000" stop="20261006160000 +0000" channel="NickPicks">
@@ -1499,12 +1506,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261007140000 +0000" stop="20261007143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261007143000 +0000" stop="20261007150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261007150000 +0000" stop="20261007153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261007153000 +0000" stop="20261007160000 +0000" channel="NickPicks">
@@ -1706,11 +1715,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261008143000 +0000" stop="20261008150000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261008150000 +0000" stop="20261008153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261008153000 +0000" stop="20261008160000 +0000" channel="NickPicks">
@@ -2044,7 +2053,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261010070000 +0000" stop="20261010073000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261010073000 +0000" stop="20261010080000 +0000" channel="NickPicks">
@@ -2064,7 +2073,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261010093000 +0000" stop="20261010100000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -2182,8 +2191,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261010233000 +0000" stop="20261011000000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261011000000 +0000" stop="20261011003000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -2338,7 +2347,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261011163000 +0000" stop="20261011170000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261011170000 +0000" stop="20261011173000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -2514,12 +2524,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261012140000 +0000" stop="20261012143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261012143000 +0000" stop="20261012150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261012150000 +0000" stop="20261012153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261012153000 +0000" stop="20261012160000 +0000" channel="NickPicks">
@@ -2718,12 +2730,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261013140000 +0000" stop="20261013143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261013143000 +0000" stop="20261013150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261013150000 +0000" stop="20261013153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261013153000 +0000" stop="20261013160000 +0000" channel="NickPicks">
@@ -2924,12 +2938,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261014140000 +0000" stop="20261014143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261014143000 +0000" stop="20261014150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261014150000 +0000" stop="20261014153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261014153000 +0000" stop="20261014160000 +0000" channel="NickPicks">
@@ -3131,11 +3147,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261015143000 +0000" stop="20261015150000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261015150000 +0000" stop="20261015153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261015153000 +0000" stop="20261015160000 +0000" channel="NickPicks">
@@ -3469,7 +3485,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261017070000 +0000" stop="20261017073000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261017073000 +0000" stop="20261017080000 +0000" channel="NickPicks">
@@ -3489,7 +3505,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261017093000 +0000" stop="20261017100000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -3607,8 +3623,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261017233000 +0000" stop="20261018000000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261018000000 +0000" stop="20261018003000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -3763,7 +3779,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261018163000 +0000" stop="20261018170000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261018170000 +0000" stop="20261018173000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -3939,12 +3956,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261019140000 +0000" stop="20261019143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261019143000 +0000" stop="20261019150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261019150000 +0000" stop="20261019153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261019153000 +0000" stop="20261019160000 +0000" channel="NickPicks">
@@ -4143,12 +4162,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261020140000 +0000" stop="20261020143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261020143000 +0000" stop="20261020150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261020150000 +0000" stop="20261020153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261020153000 +0000" stop="20261020160000 +0000" channel="NickPicks">
@@ -4349,12 +4370,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261021140000 +0000" stop="20261021143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261021143000 +0000" stop="20261021150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261021150000 +0000" stop="20261021153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261021153000 +0000" stop="20261021160000 +0000" channel="NickPicks">
@@ -4556,11 +4579,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261022143000 +0000" stop="20261022150000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261022150000 +0000" stop="20261022153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261022153000 +0000" stop="20261022160000 +0000" channel="NickPicks">
@@ -4894,7 +4917,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261024070000 +0000" stop="20261024073000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261024073000 +0000" stop="20261024080000 +0000" channel="NickPicks">
@@ -4914,7 +4937,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261024093000 +0000" stop="20261024100000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -5032,8 +5055,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261024233000 +0000" stop="20261025000000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261025000000 +0000" stop="20261025003000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -5188,7 +5211,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261025163000 +0000" stop="20261025170000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261025170000 +0000" stop="20261025173000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -5364,12 +5388,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261026140000 +0000" stop="20261026143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261026143000 +0000" stop="20261026150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261026150000 +0000" stop="20261026153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261026153000 +0000" stop="20261026160000 +0000" channel="NickPicks">
@@ -5568,12 +5594,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261027140000 +0000" stop="20261027143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261027143000 +0000" stop="20261027150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261027150000 +0000" stop="20261027153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261027153000 +0000" stop="20261027160000 +0000" channel="NickPicks">
@@ -5774,12 +5802,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261028140000 +0000" stop="20261028143000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261028143000 +0000" stop="20261028150000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261028150000 +0000" stop="20261028153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261028153000 +0000" stop="20261028160000 +0000" channel="NickPicks">
@@ -5981,11 +6011,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261029143000 +0000" stop="20261029150000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261029150000 +0000" stop="20261029153000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261029153000 +0000" stop="20261029160000 +0000" channel="NickPicks">
@@ -6319,7 +6349,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261031070000 +0000" stop="20261031073000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261031073000 +0000" stop="20261031080000 +0000" channel="NickPicks">
@@ -6339,7 +6369,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261031093000 +0000" stop="20261031100000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -6457,8 +6487,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261031233000 +0000" stop="20261101000000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261101000000 +0000" stop="20261101003000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -6613,7 +6643,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261101173000 +0000" stop="20261101180000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261101180000 +0000" stop="20261101183000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -6789,12 +6820,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261102150000 +0000" stop="20261102153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261102153000 +0000" stop="20261102160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261102160000 +0000" stop="20261102163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261102163000 +0000" stop="20261102170000 +0000" channel="NickPicks">
@@ -6993,12 +7026,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261103150000 +0000" stop="20261103153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261103153000 +0000" stop="20261103160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261103160000 +0000" stop="20261103163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261103163000 +0000" stop="20261103170000 +0000" channel="NickPicks">
@@ -7199,12 +7234,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261104150000 +0000" stop="20261104153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261104153000 +0000" stop="20261104160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261104160000 +0000" stop="20261104163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261104163000 +0000" stop="20261104170000 +0000" channel="NickPicks">
@@ -7406,11 +7443,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261105153000 +0000" stop="20261105160000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261105160000 +0000" stop="20261105163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261105163000 +0000" stop="20261105170000 +0000" channel="NickPicks">
@@ -7744,7 +7781,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261107080000 +0000" stop="20261107083000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261107083000 +0000" stop="20261107090000 +0000" channel="NickPicks">
@@ -7764,7 +7801,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261107103000 +0000" stop="20261107110000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -7882,8 +7919,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261108003000 +0000" stop="20261108010000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261108010000 +0000" stop="20261108013000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -8038,7 +8075,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261108173000 +0000" stop="20261108180000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261108180000 +0000" stop="20261108183000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -8214,12 +8252,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261109150000 +0000" stop="20261109153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261109153000 +0000" stop="20261109160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261109160000 +0000" stop="20261109163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261109163000 +0000" stop="20261109170000 +0000" channel="NickPicks">
@@ -8418,12 +8458,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261110150000 +0000" stop="20261110153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261110153000 +0000" stop="20261110160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261110160000 +0000" stop="20261110163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261110163000 +0000" stop="20261110170000 +0000" channel="NickPicks">
@@ -8624,12 +8666,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261111150000 +0000" stop="20261111153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261111153000 +0000" stop="20261111160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261111160000 +0000" stop="20261111163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261111163000 +0000" stop="20261111170000 +0000" channel="NickPicks">
@@ -8831,11 +8875,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261112153000 +0000" stop="20261112160000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261112160000 +0000" stop="20261112163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261112163000 +0000" stop="20261112170000 +0000" channel="NickPicks">
@@ -9169,7 +9213,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261114080000 +0000" stop="20261114083000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261114083000 +0000" stop="20261114090000 +0000" channel="NickPicks">
@@ -9189,7 +9233,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261114103000 +0000" stop="20261114110000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -9307,8 +9351,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261115003000 +0000" stop="20261115010000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261115010000 +0000" stop="20261115013000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -9463,7 +9507,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261115173000 +0000" stop="20261115180000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261115180000 +0000" stop="20261115183000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -9639,12 +9684,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261116150000 +0000" stop="20261116153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261116153000 +0000" stop="20261116160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261116160000 +0000" stop="20261116163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261116163000 +0000" stop="20261116170000 +0000" channel="NickPicks">
@@ -9843,12 +9890,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261117150000 +0000" stop="20261117153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261117153000 +0000" stop="20261117160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261117160000 +0000" stop="20261117163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261117163000 +0000" stop="20261117170000 +0000" channel="NickPicks">
@@ -10049,12 +10098,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261118150000 +0000" stop="20261118153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261118153000 +0000" stop="20261118160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261118160000 +0000" stop="20261118163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261118163000 +0000" stop="20261118170000 +0000" channel="NickPicks">
@@ -10256,11 +10307,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261119153000 +0000" stop="20261119160000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261119160000 +0000" stop="20261119163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261119163000 +0000" stop="20261119170000 +0000" channel="NickPicks">
@@ -10594,7 +10645,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261121080000 +0000" stop="20261121083000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261121083000 +0000" stop="20261121090000 +0000" channel="NickPicks">
@@ -10614,7 +10665,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261121103000 +0000" stop="20261121110000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -10732,8 +10783,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261122003000 +0000" stop="20261122010000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261122010000 +0000" stop="20261122013000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -10888,7 +10939,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261122173000 +0000" stop="20261122180000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261122180000 +0000" stop="20261122183000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -11064,12 +11116,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261123150000 +0000" stop="20261123153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261123153000 +0000" stop="20261123160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261123160000 +0000" stop="20261123163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261123163000 +0000" stop="20261123170000 +0000" channel="NickPicks">
@@ -11268,12 +11322,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261124150000 +0000" stop="20261124153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261124153000 +0000" stop="20261124160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261124160000 +0000" stop="20261124163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261124163000 +0000" stop="20261124170000 +0000" channel="NickPicks">
@@ -11474,12 +11530,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261125150000 +0000" stop="20261125153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261125153000 +0000" stop="20261125160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261125160000 +0000" stop="20261125163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261125163000 +0000" stop="20261125170000 +0000" channel="NickPicks">
@@ -11681,11 +11739,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261126153000 +0000" stop="20261126160000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261126160000 +0000" stop="20261126163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261126163000 +0000" stop="20261126170000 +0000" channel="NickPicks">
@@ -12019,7 +12077,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261128080000 +0000" stop="20261128083000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261128083000 +0000" stop="20261128090000 +0000" channel="NickPicks">
@@ -12039,7 +12097,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261128103000 +0000" stop="20261128110000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -12157,8 +12215,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261129003000 +0000" stop="20261129010000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261129010000 +0000" stop="20261129013000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -12313,7 +12371,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261129173000 +0000" stop="20261129180000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261129180000 +0000" stop="20261129183000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -12489,12 +12548,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261130150000 +0000" stop="20261130153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261130153000 +0000" stop="20261130160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261130160000 +0000" stop="20261130163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261130163000 +0000" stop="20261130170000 +0000" channel="NickPicks">
@@ -12693,12 +12754,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261201150000 +0000" stop="20261201153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261201153000 +0000" stop="20261201160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261201160000 +0000" stop="20261201163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261201163000 +0000" stop="20261201170000 +0000" channel="NickPicks">
@@ -12899,12 +12962,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261202150000 +0000" stop="20261202153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261202153000 +0000" stop="20261202160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261202160000 +0000" stop="20261202163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261202163000 +0000" stop="20261202170000 +0000" channel="NickPicks">
@@ -13106,11 +13171,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261203153000 +0000" stop="20261203160000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261203160000 +0000" stop="20261203163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261203163000 +0000" stop="20261203170000 +0000" channel="NickPicks">
@@ -13444,7 +13509,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261205080000 +0000" stop="20261205083000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261205083000 +0000" stop="20261205090000 +0000" channel="NickPicks">
@@ -13464,7 +13529,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261205103000 +0000" stop="20261205110000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -13582,8 +13647,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261206003000 +0000" stop="20261206010000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261206010000 +0000" stop="20261206013000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -13738,7 +13803,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261206173000 +0000" stop="20261206180000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261206180000 +0000" stop="20261206183000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -13914,12 +13980,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261207150000 +0000" stop="20261207153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261207153000 +0000" stop="20261207160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261207160000 +0000" stop="20261207163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261207163000 +0000" stop="20261207170000 +0000" channel="NickPicks">
@@ -14118,12 +14186,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261208150000 +0000" stop="20261208153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261208153000 +0000" stop="20261208160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261208160000 +0000" stop="20261208163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261208163000 +0000" stop="20261208170000 +0000" channel="NickPicks">
@@ -14324,12 +14394,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261209150000 +0000" stop="20261209153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261209153000 +0000" stop="20261209160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261209160000 +0000" stop="20261209163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261209163000 +0000" stop="20261209170000 +0000" channel="NickPicks">
@@ -14531,11 +14603,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261210153000 +0000" stop="20261210160000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261210160000 +0000" stop="20261210163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261210163000 +0000" stop="20261210170000 +0000" channel="NickPicks">
@@ -14869,7 +14941,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261212080000 +0000" stop="20261212083000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261212083000 +0000" stop="20261212090000 +0000" channel="NickPicks">
@@ -14889,7 +14961,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261212103000 +0000" stop="20261212110000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -15007,8 +15079,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261213003000 +0000" stop="20261213010000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261213010000 +0000" stop="20261213013000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -15163,7 +15235,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261213173000 +0000" stop="20261213180000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261213180000 +0000" stop="20261213183000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -15339,12 +15412,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261214150000 +0000" stop="20261214153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261214153000 +0000" stop="20261214160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261214160000 +0000" stop="20261214163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261214163000 +0000" stop="20261214170000 +0000" channel="NickPicks">
@@ -15543,12 +15618,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261215150000 +0000" stop="20261215153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261215153000 +0000" stop="20261215160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261215160000 +0000" stop="20261215163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261215163000 +0000" stop="20261215170000 +0000" channel="NickPicks">
@@ -15749,12 +15826,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261216150000 +0000" stop="20261216153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261216153000 +0000" stop="20261216160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261216160000 +0000" stop="20261216163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261216163000 +0000" stop="20261216170000 +0000" channel="NickPicks">
@@ -15956,11 +16035,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261217153000 +0000" stop="20261217160000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261217160000 +0000" stop="20261217163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261217163000 +0000" stop="20261217170000 +0000" channel="NickPicks">
@@ -16294,7 +16373,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261219080000 +0000" stop="20261219083000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261219083000 +0000" stop="20261219090000 +0000" channel="NickPicks">
@@ -16314,7 +16393,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261219103000 +0000" stop="20261219110000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -16432,8 +16511,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261220003000 +0000" stop="20261220010000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261220010000 +0000" stop="20261220013000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -16588,7 +16667,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261220173000 +0000" stop="20261220180000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261220180000 +0000" stop="20261220183000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -16764,12 +16844,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261221150000 +0000" stop="20261221153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261221153000 +0000" stop="20261221160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261221160000 +0000" stop="20261221163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261221163000 +0000" stop="20261221170000 +0000" channel="NickPicks">
@@ -16968,12 +17050,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261222150000 +0000" stop="20261222153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261222153000 +0000" stop="20261222160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261222160000 +0000" stop="20261222163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261222163000 +0000" stop="20261222170000 +0000" channel="NickPicks">
@@ -17174,12 +17258,14 @@ Starring Irene Ng as the title character, the series revolves around the adventu
   </programme>
   <programme start="20261223150000 +0000" stop="20261223153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261223153000 +0000" stop="20261223160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261223160000 +0000" stop="20261223163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261223163000 +0000" stop="20261223170000 +0000" channel="NickPicks">
@@ -17381,11 +17467,11 @@ The title comes from a common prank campers play on each other: a group of kids 
     <desc lang="en">Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.</desc>
   </programme>
   <programme start="20261224153000 +0000" stop="20261224160000 +0000" channel="NickPicks">
-    <title lang="en">Charlie Brown</title>
-    <desc lang="en">From the voyage of the Mayflower to the bold exploration of outer space, join the Peanuts gang as they take you on a timeless journey through American history! Groove along with Charlie Brown and Snoopy as they discover the beginnings of jazz and ragtime music, accompanied by Lucy's speech about American heroes. So all aboard with Peanuts because This Is America, Charlie Brown!</desc>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261224160000 +0000" stop="20261224163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261224163000 +0000" stop="20261224170000 +0000" channel="NickPicks">
@@ -17719,7 +17805,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.</desc>
   </programme>
   <programme start="20261226080000 +0000" stop="20261226083000 +0000" channel="NickPicks">
-    <title lang="en">Yes\, Dear</title>
+    <title lang="en">Yes, Dear</title>
     <desc lang="en">A comedy about two young couples and their outrageously contrasting views on parenting. Greg and Kim Warner struggle on a daily basis to become perfect at the job. Kim is a neurotic, stay-at-home mother, and although her husband, Greg, is a success in his career, his more difficult job is keeping his wife calm as they raise their two young children. While Kim is determined to be the perfect mother and perfect wife and to raise the perfect children, her sister, Christine Hughes, a very down-to-earth mother of two, continually reminds her that life will never be perfect. Christine's husband, Jimmy, often feels compelled to share with his brother-in-law his philosophy about being a husband and a parent while still remaining a man.</desc>
   </programme>
   <programme start="20261226083000 +0000" stop="20261226090000 +0000" channel="NickPicks">
@@ -17739,7 +17825,7 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">Fatherhood is an American animated television series revolving around the Bindlebeep family and various happenings, inspired by the book of the same name by Bill Cosby. This was Nick at Nite's first original animated series. It has aired on Nick at Nite and Nickelodeon. It was canceled in 2005.</desc>
   </programme>
   <programme start="20261226103000 +0000" stop="20261226110000 +0000" channel="NickPicks">
-    <title lang="en">Glenn Martin\, DDS</title>
+    <title lang="en">Glenn Martin, DDS</title>
     <desc lang="en">Glenn Martin, DDS is an American-Canadian stop-motion-animated television series that premiered on Nick at Nite on August 17, 2009. The series was produced by Tornante Animation in association with Cuppa Coffee Studio. Glenn Martin, DDS was Nick at Nite's fourth original series.
 
 The show premiered on March 18, 2010 on Sky1 in the UK and Ireland. Season two premiered on June 11, 2010. The show ended on November 7th, 2011.</desc>
@@ -17857,8 +17943,8 @@ The show focuses on Willy Zilla, an ordinary timid teen boy just trying to be no
     <desc lang="en">With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.</desc>
   </programme>
   <programme start="20261227003000 +0000" stop="20261227010000 +0000" channel="NickPicks">
-    <title lang="en">Kenan and Kel</title>
-    <desc lang="en">Kenan &amp;amp; Kel features Kenan Rockmore, a high schooler who works at Rigby's mini grocery store. Kel Kimble is his orange soda-loving best friend. Chris Potter is Kenan's boss at Rigby's. In Kenan's home life there is his mother Sheryl, his bald father Roger, and his Kel-loving sister Kyra.</desc>
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.</desc>
   </programme>
   <programme start="20261227010000 +0000" stop="20261227013000 +0000" channel="NickPicks">
     <title lang="en">The Amanda Show</title>
@@ -18013,7 +18099,8 @@ In 2002, a revival was produced which lasted ten episodes and aired on Nickelode
     <desc lang="en">This action-packed half-hour lets kids loose in a fantasy sports landscape filled with crazy obstacles. Basketball is taken to its limits in Slam Dunk while rock climbing reaches new heights on the Aggro Crag.</desc>
   </programme>
   <programme start="20261227173000 +0000" stop="20261227180000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare Series (Random)</title>
+    <title lang="en">Double Dare (2018)</title>
+    <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261227180000 +0000" stop="20261227183000 +0000" channel="NickPicks">
     <title lang="en">Saved by the Bell</title>
@@ -18189,12 +18276,14 @@ Reruns occasionally aired on Nickelodeon, CBS, BET and The N until December 26, 
   </programme>
   <programme start="20261228150000 +0000" stop="20261228153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261228153000 +0000" stop="20261228160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261228160000 +0000" stop="20261228163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261228163000 +0000" stop="20261228170000 +0000" channel="NickPicks">
@@ -18393,12 +18482,14 @@ The complete series have been released on DVD. Only the first four seasons are o
   </programme>
   <programme start="20261229150000 +0000" stop="20261229153000 +0000" channel="NickPicks">
     <title lang="en">Dennis the Menace ('86)</title>
+    <desc lang="en">The comic misadventures of television's most well-meaning but misguided boy are back! The lovable Dennis Mitchell (Jay North) left a trail of chaos throughout his suburban neighborhood. Yet along with his friends and classmates Tommy (Billy Booth) and Margaret (Jeannie Russell), Dennis managed to pry his way into the hearts of millions from week to week. Based on the long-running comic strip by Hank Ketcham, this beloved CBS television series (1959 1963) stayed true to form, as Dennis's youthful curiosity always managed to get him into heaps of trouble... especially with his crotchety old neighbor Mr. Wilson (Joseph Kearns). Herbert Anderson and Gloria Henry starred as Dennis's parents who were always on hand with love and guidance but not necessarily the required supervision.</desc>
   </programme>
   <programme start="20261229153000 +0000" stop="20261229160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon\, Charlie Brown</title>
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
   </programme>
   <programme start="20261229160000 +0000" stop="20261229163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare</title>
+    <title lang="en">Double Dare (2018)</title>
     <desc lang="en">The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!</desc>
   </programme>
   <programme start="20261229163000 +0000" stop="20261229170000 +0000" channel="NickPicks">
