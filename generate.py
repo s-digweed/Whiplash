@@ -148,6 +148,18 @@ FIXED_DESC = {
         "Feature-length animated movies, theatrical releases, and television specials "
         "distributed by Hanna-Barbera Studios, Warner Bros., Disney, 20th Century Fox, "
         "Universal, Columbia, Paramount, DreamWorks, and MGM.",
+    "Adult Halloween Special":
+        "The spooky stuff they aired after the kids went to bed. Lights off, zero supervision.",
+    "Retro Blast Halloween":
+        "Enjoy classic Halloween specials and movies including Scooby-Doo, Courage the "
+        "Cowardly Dog, The Simpsons, The Grim Adventures of Billy & Mandy, Hocus Pocus (1993), "
+        "Halloweentown (1998), Nightmare Before Christmas (1993), and the original 1978 Halloween.",
+    "Fridays Halloween":
+        "Get ready for a spooky Friday night of classic chills and weird thrills. Retro Blast "
+        "brings back the eeriest animation from the vault.",
+    "Horror Movie":
+        "End the weekend with a scream. A classic horror movie, served late and uncut. "
+        "Tune in if you dare.",
     "Saturday Late Night Movie":
         "Unwind your weekend the right way with the Saturday Late Night Movie, a nostalgic "
         "television sanctuary dedicated to the night owls, animation enthusiasts, and "
@@ -878,6 +890,7 @@ def _eastern_to_utc(dt):
 # Display title -> name to search when the schedule's title is abbreviated/non-canonical
 SYN_ALIAS = {
     "Dennis the Menace ('86)": "Dennis the Menace (1986)",
+    "Hellsing": "Hellsing (2001)",   # disambiguate to the 2001 series for lookup; title stays "Hellsing"
 }
 
 def _show_overview(title, cache):
