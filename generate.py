@@ -132,8 +132,11 @@ FIXED_DESC = {
     "Toon Disney Shorts": _TOON_DISNEY_DESC,
     "You're on Nickelodeon, Charlie Brown":
         "The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.",
-    "Disney Channel Original Movies":
+    "Disney Channel Original Movie":
         "A made-for-TV Disney Channel Original Movie, spanning teen comedies, musicals, fantasy and adventure.",
+    "Spider-Man (2017)":
+        "Peter Parker, a new student at the famous Horizon High, fights evil super-villains "
+        "as the costumed superhero, Spider-Man.",
     "AfterToon Movie":
         "An afternoon feature presentation, a family or animated film capping off the cartoon lineup.",
     "Saturday Night Movie":
