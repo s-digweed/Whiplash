@@ -134,9 +134,10 @@ FIXED_DESC = {
         "The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.",
     "Disney Channel Original Movie":
         "A made-for-TV Disney Channel Original Movie, spanning teen comedies, musicals, fantasy and adventure.",
-    "Spider-Man (2017)":
-        "Peter Parker, a new student at the famous Horizon High, fights evil super-villains "
-        "as the costumed superhero, Spider-Man.",
+    "Spider-Man: The Animated Series":
+        "When college student, Peter Parker, is bitten by a genetically altered spider, he "
+        "gains Spider-like powers and must use his gifts to fight crime in New York City as "
+        "the superhero, Spider-Man, whilst trying to have a normal personal life.",
     "AfterToon Movie":
         "An afternoon feature presentation, a family or animated film capping off the cartoon lineup.",
     "Saturday Night Movie":
