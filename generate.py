@@ -140,6 +140,17 @@ FIXED_DESC = {
         "A Saturday night feature presentation, a family film to round out the night.",
     "Sunday Night Movie":
         "A Sunday night feature presentation, a family film to close out the weekend.",
+    "Cartoon Theater":
+        "Feature-length animated movies, theatrical releases, and television specials "
+        "distributed by Hanna-Barbera Studios, Warner Bros., Disney, 20th Century Fox, "
+        "Universal, Columbia, Paramount, DreamWorks, and MGM.",
+    "Saturday Late Night Movie":
+        "Unwind your weekend the right way with the Saturday Late Night Movie, a nostalgic "
+        "television sanctuary dedicated to the night owls, animation enthusiasts, and "
+        "insomniacs. Broadcasting directly from the deep archives of the Cartoon Network and "
+        "Adult Swim Universes, this retro block strips away the standard daytime schedule to "
+        "showcase full-length animated features that are a little darker, a little weirder, "
+        "and entirely captivating.",
 }
 
 # Renamed titles that should NOT carry the source's trailing (YYYY)
@@ -842,9 +853,22 @@ TSD_LOGO       = ""                        # no logo
 TSD_SCHED_FILE = "thatssodisney_schedule.json"
 TSD_END        = datetime(2026, 12, 30)   # ~90 days (perpetual weekly loop)
 
+RB_OUTPUT     = "RetroBlast.xml"
+RB_ID         = "RetroBlast"
+RB_NAME       = "RetroBlast"
+RB_LOGO       = "https://i.imgur.com/m9GHMe9.png"
+RB_SCHED_FILE = "retroblast_schedule.json"
+RB_START      = datetime(2026, 10, 1)   # all of October, from Oct 1
+RB_END        = datetime(2026, 11, 1)
+
 def _central_to_utc(dt):
     """US Central -> UTC: CDT (-5) through 2026-11-01 02:00 local, then CST (-6)."""
     off = 5 if dt < datetime(2026, 11, 1, 2, 0) else 6
+    return dt + timedelta(hours=off)
+
+def _eastern_to_utc(dt):
+    """US Eastern -> UTC: EDT (-4) through 2026-11-01 02:00 local, then EST (-5)."""
+    off = 4 if dt < datetime(2026, 11, 1, 2, 0) else 5
     return dt + timedelta(hours=off)
 
 # Display title -> name to search when the schedule's title is abbreviated/non-canonical
@@ -888,21 +912,27 @@ def load_weekly_schedule(path):
     except Exception as e:
         print(f"WARNING: cannot read {path} ({e}) - skipping"); return None
 
-def build_weekly(ch_id, name, logo, sched, cache, end):
-    """Expand a Central-local weekly grid forward over [WEEKLY_START, end),
-    convert to UTC (DST-aware), attach show-level synopses."""
+def build_weekly(ch_id, name, logo, sched, cache, end, start=None, tz=_central_to_utc):
+    """Expand a source-local weekly grid forward over [start, end), convert to
+    UTC via tz() (DST-aware), attach show-level synopses.
+
+    Schedule rows are [start_m, stop_m, title] or [start_m, stop_m, title, desc];
+    a 4th element is an inline description override (used e.g. for the Boomerang
+    hour-segments, which all share the title "Boomerang")."""
     tv = ET.Element("tv", {"generator-info-name": f"{ch_id}-epg-generator"})
     ch = ET.SubElement(tv, "channel", {"id": ch_id})
     ET.SubElement(ch, "display-name").text = name
     if logo: ET.SubElement(ch, "icon", {"src": logo})
     WD = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
     n = got = 0
-    day = WEEKLY_START
+    day = start or WEEKLY_START
     while day < end:
-        for start_m, stop_m, title in sched.get(WD[day.weekday()], []):
-            st = _central_to_utc(day + timedelta(minutes=start_m))
-            sp = _central_to_utc(day + timedelta(minutes=stop_m))
-            desc = _show_overview(title, cache)
+        for row in sched.get(WD[day.weekday()], []):
+            start_m, stop_m, title = row[0], row[1], row[2]
+            inline = row[3] if len(row) > 3 else None
+            st = tz(day + timedelta(minutes=start_m))
+            sp = tz(day + timedelta(minutes=stop_m))
+            desc = inline if inline is not None else _show_overview(title, cache)
             p = ET.SubElement(tv, "programme", {
                 "start": st.strftime("%Y%m%d%H%M%S") + " +0000",
                 "stop":  sp.strftime("%Y%m%d%H%M%S") + " +0000",
@@ -973,14 +1003,15 @@ def main():
     else:
         print(f"MistLive feed empty/unavailable - keeping existing {MIST_OUTPUT} unchanged")
 
-    for out, cid, nm, logo, sfile, end in (
-        (CCN_OUTPUT,  CCN_ID,  CCN_NAME,  CCN_LOGO,  CCN_SCHED_FILE,  CCN_END),
-        (NICK_OUTPUT, NICK_ID, NICK_NAME, NICK_LOGO, NICK_SCHED_FILE, NICK_END),
-        (TSD_OUTPUT,  TSD_ID,  TSD_NAME,  TSD_LOGO,  TSD_SCHED_FILE,  TSD_END)):
+    for out, cid, nm, logo, sfile, end, start, tz in (
+        (CCN_OUTPUT,  CCN_ID,  CCN_NAME,  CCN_LOGO,  CCN_SCHED_FILE,  CCN_END,  None,     _central_to_utc),
+        (NICK_OUTPUT, NICK_ID, NICK_NAME, NICK_LOGO, NICK_SCHED_FILE, NICK_END, None,     _central_to_utc),
+        (TSD_OUTPUT,  TSD_ID,  TSD_NAME,  TSD_LOGO,  TSD_SCHED_FILE,  TSD_END,  None,     _central_to_utc),
+        (RB_OUTPUT,   RB_ID,   RB_NAME,   RB_LOGO,   RB_SCHED_FILE,   RB_END,   RB_START, _eastern_to_utc)):
         sched = load_weekly_schedule(sfile)
         if not sched:
             continue
-        print(f"{nm}:"); wtv = build_weekly(cid, nm, logo, sched, cache, end)
+        print(f"{nm}:"); wtv = build_weekly(cid, nm, logo, sched, cache, end, start, tz)
         indent(wtv)
         ET.ElementTree(wtv).write(out, encoding="UTF-8", xml_declaration=True)
         print(f"Wrote {out}")
