@@ -562,6 +562,14 @@
 "n": "And Then There Were Fewer",
 "o": "In this murder mystery special, The Griffins as well as all the other major characters become trapped in a mansion while they are killed off one by one."
 },
+"1434|9|2": {
+"n": "Excellence in Broadcasting",
+"o": "Brian decides to confront Rush Limbaugh when he comes to Quahog for a book signing."
+},
+"1434|9|3": {
+"n": "Welcome Back Carter",
+"o": "After Peter catches Carter having an affair, he is forced into keeping a secret. But when Peter accidentally spills the beans, Lois' mom demands a divorce, and Peter is in charge of Carter's return to bachelorhood."
+},
 "1487|3|3": {
 "n": "Static in Africa",
 "o": "While visiting Africa as his secret identity, Static teams up with an African superhero, Anansi, to defeat the villain Osebo, before he blows up a dam."
@@ -1205,6 +1213,10 @@
 "1960|1|12": {
 "n": "Terror of Mecha-Dave",
 "o": "Dave fears he has been brainwashed to act like a bully by Chuckles the Silly Piggy."
+},
+"1996|1|10": {
+"n": "Hollyrock, Here I Come",
+"o": "Wilma and Betty win a trip to Hollyrock from a television contest.  Finding themselves lonely and bored, Fred and Barney take vacations from work and follow them out.  When Wilma is \"\"discovered,\"\" Fred muscles his own way into the world of television to bring her back."
 },
 "1996|1|13": {
 "n": "The Drive-in",
@@ -1997,6 +2009,10 @@
 "2362|1|23": {
 "n": "TV or Not TV",
 "o": "George and Astro accidentally see and robbery. That is: they THINK they witness a robbery. It turns out they were in a movie-set. To prevent a law suit the producer does everything to buy them out, while George and Astro do everything possible to avoid being caught by the 'robbers'."
+},
+"2362|1|24": {
+"n": "Elroy's Mob",
+"o": "A bad sneaky student switches Elroy's report tape with his own, which consists of 4 D's, a \"F\", and a \"H\", but Elroy's family doesn't believe him so he runs away with Astro and gets mixed up with a mob who's robbing a bank."
 },
 "2362|1|3": {
 "n": "The Space Car",
@@ -5402,6 +5418,14 @@
 "n": "Veggies for Sloth",
 "o": "The classic movie The Beastmaster takes Broadway by storm. Lance Armstrong gets revenge on France. Buck Rogers learns what his name rhymes with. The gang from Archie Comics learn that nobody cheats Death for long! Rebroadcast as \"Blankets in a Pig\" on May 15, 2008 with Britney Spears as Citizen Spears instead of the Archies as the final segment."
 },
+"709|2|15": {
+"n": "Sausage Fest",
+"o": "Lil' Hitler will win your heart! The Library of Heaven yields answers even God doesn't want you to know. The Burger King serves up some delicious B&E. Garfield and Heathcliff face off in court. A giraffe deals with the five stages of grief. The gang from Police Academy joins the X-Men. Rated TV-MA."
+},
+"709|2|16": {
+"n": "Drippy Pony",
+"o": "Learn the secret life of Batman villain, The Penguin! Kids will love playing with \"My Stalker!\" Orlando Bloomin' Onion must help his fellow passengers survive after a plane crash - with his delicious deep-fried onion hair! Jesus and the Argonauts find action and adventure, and turn the other cheek. The Micronauts climb the mountains which are big breasts. The U.S. government declares a war on Christmas."
+},
 "709|2|2": {
 "n": "Federated Resources",
 "o": "A time-traveler wreaks havoc on history in \"Dicks with Time Machines\", but after he ends World War II by humiliating Adolf Hitler during a speech, the title changes to \"Heroes with Time Machines\". Lion-O, leader of the ThunderCats, is adopted as a little girl's pet. Clifford the Big Red Dog gets in big red trouble. Evel Knievel wows his nursing home. The Swedish Chef \"borks\" his way through New York City. Corey Haim and Corey Feldman reunite to rescue the President's daughters."
@@ -5666,6 +5690,10 @@
 "n": "The Magmafying Past",
 "o": "The only thing hotter than the future is the present, and the only thing wetter than a present is the itchy glass of molten absolution that just quenched the thrust of Tessa's face."
 },
+"85000|1|3": {
+"n": "Ogled Inklings",
+"o": "By the time you are done reading this sentence your right eye will have secretly murdered your left eye, right under your nose."
+},
 "85000|1|4": {
 "n": "ConstaDeath",
 "o": "Die once, shame on you. Die once every three seconds, shame on us all."
@@ -5765,6 +5793,10 @@
 "96713|1|1": {
 "n": "Taste of the King",
 "o": "The simulator lands Clancy on a zombie-ravaged earth, where he meets the president, who's a fan of drugs and meditation."
+},
+"96713|1|2": {
+"n": "Officers and Wolves",
+"o": "On a planet populated by baby clowns, Clancy hears a deer-dog's thoughts on death as they head to a slaughterhouse."
 },
 "96713|1|6": {
 "n": "Vulture With Honor",
@@ -6474,7 +6506,8 @@
 "o": "After a botched assassination attempt, the mismatched duo finds themselves in Paris, struggling to retrieve a precious list of names, as the murderous crime syndicate's henchmen try their best to stop them. Once more, Lee and Carter must fight their way through dangerous gangsters; however, this time, the past has come back to haunt Lee. Will the boys get the job done once and for all?",
 "y": "2007"
 },
-"shop__a_pop_opera___adult_swim_smalls": null
+"shop__a_pop_opera___adult_swim_smalls": null,
+"video sep 24 2026, 5 20 51 pm": null
 },
 "tmdb_seasons": {
 "1022": [
