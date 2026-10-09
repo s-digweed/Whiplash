@@ -167,7 +167,44 @@ FIXED_DESC = {
         "Adult Swim Universes, this retro block strips away the standard daytime schedule to "
         "showcase full-length animated features that are a little darker, a little weirder, "
         "and entirely captivating.",
+    # ── Eel Channel blocks (blank lines between paragraphs render as line breaks) ──
+    "The Late Shift":
+        "The office's shuttered, the takeout's gone cold, and the tubes are still warm. "
+        "The Late Shift is the Eel Channel after dark."
+        "\n\n"
+        "Insomniac cartoons, vintage grapplers, music videos warped off a third-gen tape, "
+        "and static-soaked oddities out of the archive at 4 AM, all buzzing at a cozy 502p."
+        "\n\n"
+        "Don't adjust your set; that hum is on purpose.",
+    "The Break Room":
+        "Your midday jolt, no talk, no ads."
+        "\n\n"
+        "Back-to-back music videos: fresh, forgotten, and gloriously scuffed — enough to "
+        "carry you clean through to clock-out."
+        "\n\n"
+        "Pull up a folding chair.",
+    "Nightwave":
+        "Half past eleven and the signal goes molten."
+        "\n\n"
+        "A neon loop of music videos: new drops, deep cuts, and signal-bent classics bleeding "
+        "one into the next, strobing through the dark like a jukebox nobody can unplug."
+        "\n\n"
+        "Lights low, voltage high.",
 }
+
+# Eel Channel segment renames that the title-only RENAMES table can't express.
+#  - "Music Videos" airs twice under one feed title: a ~1 PM afternoon block and a
+#    ~11:25-11:30 PM late-night block (2x/week). Split them by local start hour.
+# ("The Late Shift" keeps its feed title; its description is handled via FIXED_DESC.)
+# Feed start attr looks like "20260927131000 -0400"; digits [8:10] are the local hour.
+def _eel_segment_rename(title, start):
+    if title == "Music Videos":
+        try:
+            hr = int((start or "")[8:10])
+        except ValueError:
+            hr = 13                      # unparsable -> treat as the afternoon block
+        return "The Break Room" if 10 <= hr < 18 else "Nightwave"
+    return title
 
 # Renamed titles that should NOT carry the source's trailing (YYYY)
 DROP_YEAR = {"Batman: The Animated Series"}
@@ -713,6 +750,7 @@ def build_eel(tv, root, cache):
             if prog.get("channel") != src_id: continue
             raw_title = (prog.findtext("title") or "").strip()
             title, sub, season, ep, ep_end = parse_title(raw_title)
+            title = _eel_segment_rename(title, prog.get("start"))   # time-based / display renames
             desc = None
             if season is None and sub:                 # have episode name, no number -> match it
                 season, ep = _name_to_se(title, sub, cache)
