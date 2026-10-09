@@ -40,6 +40,119 @@
     <display-name>Toon Diggity</display-name>
     <icon src="https://i.imgur.com/GhzJMF9.png" />
   </channel>
+  <programme start="20261009000000 -0400" stop="20261009010000 -0400" channel="whiplash">
+    <title lang="en">Dexter</title>
+    <sub-title lang="en">Truth Be Told</sub-title>
+    <desc lang="en">The Ice Truck Killer sets a trap for Dexter by kidnapping someone close to him; Dexter's increasingly odd behavior piques Doakes's interest.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Crime</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Mystery</category>
+    <category lang="en">Suspense</category>
+    <category lang="en">Thriller</category>
+    <episode-num system="onscreen">S01 E11</episode-num>
+    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
+    <rating>
+      <value>TV-MA</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261009010000 -0400" stop="20261009013000 -0400" channel="whiplash">
+    <title lang="en">Mr. Show</title>
+    <sub-title lang="en">It's Insane, This Guy's Taint</sub-title>
+    <desc lang="en">Tribute, Fat Intervention, Interventionist Intervention, Car Wash Change Thief Action Squad, The Men's Club of Allah, Kalunda, Taint Magazine.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S04 E06</episode-num>
+    <episode-num system="xmltv_ns">3.5.0/1</episode-num>
+    <rating>
+      <value>TV-MA</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261009013000 -0400" stop="20261009020000 -0400" channel="whiplash">
+    <title lang="en">Penn &amp; Teller: Bullshit!</title>
+    <sub-title lang="en">Life Coaching</sub-title>
+    <desc lang="en">Today, it's hip to have a therapist. In fact, you're really "in" if you skip doc's diagnosis and head straight to a "Life Coach" for motivation. The training of psychologists, psychiatrists and other mental health "professionals" does little or nothing to make them better equipped as counselors or therapists. We'll reveal the bullshit that Freud made famous, and we'll find out what the experts think about the degree to which drug therapy is being used. Is it really helping? Or, are we over-medicating our way to an unknown future. We'll expose the truth behind the lucrative mind games industry, tracing its history to the father of psychoanalysis, Sigmund Freud. We'll weave our way through all the trends in psychobabble, including the latest scam, life coaching. We'll catch coaches in action as they celebrate International Coaching Week with an array of events and activities. To top it all off, we'll create our own psychotherapist and thread him throughout the show. Skip the therapy &amp; coaching, talk to a good friend and take some notes during this episode of Bullshit!</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S03 E04</episode-num>
+    <episode-num system="xmltv_ns">2.3.0/1</episode-num>
+    <rating>
+      <value>TV-MA</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261009020000 -0400" stop="20261009024500 -0400" channel="whiplash">
+    <title lang="en">Buffy the Vampire Slayer</title>
+    <sub-title lang="en">Out of Mind, Out of Sight</sub-title>
+    <desc lang="en">When an invisible menace starts attacking students and faculty at Sunnydale High, the Scooby Gang traces the problem back to Cordelia.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Action</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Horror</category>
+    <category lang="en">Romance</category>
+    <category lang="en">Sci-Fi &amp; Fantasy</category>
+    <episode-num system="onscreen">S01 E11</episode-num>
+    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261009024500 -0400" stop="20261009033000 -0400" channel="whiplash">
+    <title lang="en">Buffy the Vampire Slayer</title>
+    <sub-title lang="en">Prophecy Girl</sub-title>
+    <desc lang="en">In the first-season finale, Giles discovers an ancient prophecy which states that Buffy will face the Master and she will die. Upon hearing this, Buffy first denies her slayer roots, but when a small tragedy occurs at school, Buffy realizes she can't run from destiny, and decides to take on The Master.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Action</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Horror</category>
+    <category lang="en">Romance</category>
+    <category lang="en">Sci-Fi &amp; Fantasy</category>
+    <episode-num system="onscreen">S01 E12</episode-num>
+    <episode-num system="xmltv_ns">0.11.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261009033000 -0400" stop="20261009034500 -0400" channel="whiplash">
+    <title lang="en">Check It Out! with Dr. Steve Brule</title>
+    <sub-title lang="en">Planes</sub-title>
+    <desc lang="en">Dr. Steven Brule and his new co-host Linda Barelli explore the wonder of planes and air travel.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Talk Show</category>
+    <episode-num system="onscreen">S03 E01</episode-num>
+    <episode-num system="xmltv_ns">2.0.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261009034500 -0400" stop="20261009040000 -0400" channel="whiplash">
+    <title lang="en">Tom Goes to the Mayor</title>
+    <sub-title lang="en">Gibbons</sub-title>
+    <desc lang="en">Tom's old friend Gibbons visits just in time for the best friends' convention.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S01 E10</episode-num>
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
   <programme start="20261009040000 -0400" stop="20261009044500 -0400" channel="whiplash">
     <title lang="en">Bar Rescue</title>
     <sub-title lang="en">Back to the Bar: Delusional Owners</sub-title>
@@ -1116,20 +1229,19 @@
     <episode-num system="xmltv_ns">2.0.0/1</episode-num>
     <previously-shown />
   </programme>
-  <programme start="20261011014000 -0400" stop="20261011020500 -0400" channel="whiplash">
-    <title lang="en">Jon Benjamin Has a Van</title>
-    <sub-title lang="en">Border</sub-title>
-    <desc lang="en">After pushing his producer (Matt Walsh) over the border of Mexico a year ago without his passport to get back in America, Jon visits him and manages to push the man over the border of Guatemala. Some time after, arriving to interview an infamous drug cartel leader, Jon learns his producer became the cartel leader prior to the Guatemalan government storming the complex. In a heated chase, it ended with the producer pushed over the border of El Salvador and having Jon's passport on him as Jon is taken away to experience Guatemala's justice system. Also included is "You Can't Shoot Here", in which Jon gets a glimpse of some of New York's most elusive filming locations.</desc>
+  <programme start="20261011014000 -0400" stop="20261011021000 -0400" channel="whiplash">
+    <title lang="en">World Shut Your Mouth</title>
+    <sub-title lang="en">Episode 1</sub-title>
     <category lang="en">Series</category>
     <category lang="en">Comedy</category>
     <episode-num system="onscreen">S01 E01</episode-num>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <rating>
-      <value>TV-14</value>
+      <value>TV-PG</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261011020500 -0400" stop="20261011023500 -0400" channel="whiplash">
+  <programme start="20261011021000 -0400" stop="20261011024000 -0400" channel="whiplash">
     <title lang="en">Limmy's Show!</title>
     <sub-title lang="en">Episode 1</sub-title>
     <desc lang="en">One of Scotland's most original comedy talents, Limmy, is back with another series of offbeat sketches, animations and musings.
@@ -1144,7 +1256,7 @@ Get reacquainted with Falconhoof the adventure phone-in host as he gets a new si
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261011023500 -0400" stop="20261011030500 -0400" channel="whiplash">
+  <programme start="20261011024000 -0400" stop="20261011031000 -0400" channel="whiplash">
     <title lang="en">Limmy's Show!</title>
     <sub-title lang="en">Episode 2</sub-title>
     <desc lang="en">Dee Dee ventures into the outside world and takes a day trip to Yoker. Jacqueline has a go at speed dating, while Limmy's decision to wear a cravat does not go down well at a karaoke bar. Elsewhere, a dance competition becomes worryingly intense, and viewers receive help with their spelling.</desc>
@@ -1157,7 +1269,7 @@ Get reacquainted with Falconhoof the adventure phone-in host as he gets a new si
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261011030500 -0400" stop="20261011033500 -0400" channel="whiplash">
+  <programme start="20261011031000 -0400" stop="20261011034000 -0400" channel="whiplash">
     <title lang="en">Limmy's Show!</title>
     <sub-title lang="en">Episode 3</sub-title>
     <desc lang="en">Falconhoof must think quickly when a caller asks him to do a spot of charity work. Elsewhere, Dee Dee tries to deal with a laughing cow, Limmy is infuriated by a dreadful joke, two secret agents do battle and a bingo caller takes advantage of his well-connected friends.</desc>
@@ -1170,7 +1282,7 @@ Get reacquainted with Falconhoof the adventure phone-in host as he gets a new si
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261011033500 -0400" stop="20261011042000 -0400" channel="whiplash">
+  <programme start="20261011034000 -0400" stop="20261011042500 -0400" channel="whiplash">
     <title lang="en">Bar Rescue</title>
     <sub-title lang="en">Green Walls and Donkey Balls</sub-title>
     <desc lang="en">Two best friends are acting more like jackasses than owners and find themselves on the verge of losing their bar.</desc>
@@ -1183,7 +1295,7 @@ Get reacquainted with Falconhoof the adventure phone-in host as he gets a new si
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261011042000 -0400" stop="20261011050500 -0400" channel="whiplash">
+  <programme start="20261011042500 -0400" stop="20261011051000 -0400" channel="whiplash">
     <title lang="en">Bar Rescue</title>
     <sub-title lang="en">Back to the Bar: Stubborn Owners</sub-title>
     <desc lang="en">Jon checks in on some of the most stubborn owners he's ever worked with, including the owner of O Face, where Jon previously walked out without completing the rescue.</desc>
@@ -1196,7 +1308,7 @@ Get reacquainted with Falconhoof the adventure phone-in host as he gets a new si
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261011050500 -0400" stop="20261011060000 -0400" channel="whiplash">
+  <programme start="20261011051000 -0400" stop="20261011060000 -0400" channel="whiplash">
     <title lang="en">OFF-AIR</title>
     <previously-shown />
   </programme>
@@ -1725,20 +1837,19 @@ Get reacquainted with Falconhoof the adventure phone-in host as he gets a new si
     <episode-num system="xmltv_ns">2.1.0/1</episode-num>
     <previously-shown />
   </programme>
-  <programme start="20261012015000 -0400" stop="20261012021500 -0400" channel="whiplash">
-    <title lang="en">Jon Benjamin Has a Van</title>
-    <sub-title lang="en">Little Italy</sub-title>
-    <desc lang="en">During an investigative report on Italian communities in New York, Jon finds himself in a feud between Little Italy and Little Little Italy, a tiny town in the back room of a Little Italy establishment full of Italians only inches tall. Complicating things, Jon strikes up a romantic relationship with the daughter of the Don in Little Little Italy. Also includes "Jon Takes On Gay Marriage," in which Jon half-heartedly attempts to find what people really think of the hot button issue, and an interview with an interviewer who survived interviewing a hideously mangled man.</desc>
+  <programme start="20261012015000 -0400" stop="20261012022000 -0400" channel="whiplash">
+    <title lang="en">World Shut Your Mouth</title>
+    <sub-title lang="en">Episode 2</sub-title>
     <category lang="en">Series</category>
     <category lang="en">Comedy</category>
     <episode-num system="onscreen">S01 E02</episode-num>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <rating>
-      <value>TV-14</value>
+      <value>TV-PG</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261012021500 -0400" stop="20261012024500 -0400" channel="whiplash">
+  <programme start="20261012022000 -0400" stop="20261012025000 -0400" channel="whiplash">
     <title lang="en">Limmy's Show!</title>
     <sub-title lang="en">Episode 4</sub-title>
     <desc lang="en">Reformed junkie Jacqueline McCafferty meets her hero. Major Boo Boo makes a costly faux pas. And adventure phone-in host Falconhoof deals with something highly suspicious.Meanwhile Limmy reveals a worrying new dance craze, tells the scariest of stories and wrestles with his webcam.</desc>
@@ -1751,7 +1862,7 @@ Get reacquainted with Falconhoof the adventure phone-in host as he gets a new si
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261012024500 -0400" stop="20261012031500 -0400" channel="whiplash">
+  <programme start="20261012025000 -0400" stop="20261012032000 -0400" channel="whiplash">
     <title lang="en">Limmy's Show!</title>
     <sub-title lang="en">Episode 5</sub-title>
     <desc lang="en">Dee Dee is astounded by the wonders of teletext, and TV psychic Raymond Day puts a member of his studio audience back in touch with a deceased boyfriend. Elsewhere, Limmy speculates on what it would be like to be brilliant at everything, and bumps into an over-friendly old acquaintance.</desc>
@@ -1764,7 +1875,7 @@ Get reacquainted with Falconhoof the adventure phone-in host as he gets a new si
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261012031500 -0400" stop="20261012034500 -0400" channel="whiplash">
+  <programme start="20261012032000 -0400" stop="20261012035000 -0400" channel="whiplash">
     <title lang="en">Limmy's Show!</title>
     <sub-title lang="en">Episode 6</sub-title>
     <desc lang="en">A tramp falls in love with a heart-shaped balloon, a 1960s pop star tries to make a comeback, Jacqueline treats herself to dinner at a fancy restaurant, and a caller flirts with Falconhoof. Elsewhere, Limmy shows off his spoon-playing skills. Sketch show, starring Brian Limond.</desc>
@@ -1777,7 +1888,7 @@ Get reacquainted with Falconhoof the adventure phone-in host as he gets a new si
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261012034500 -0400" stop="20261012043000 -0400" channel="whiplash">
+  <programme start="20261012035000 -0400" stop="20261012043500 -0400" channel="whiplash">
     <title lang="en">Bar Rescue</title>
     <sub-title lang="en">The Perks of Being a Wallpaper</sub-title>
     <desc lang="en">A classic dive bar with mob ties in Las Vegas is about to close its doors because of an owner who's busy being a nice guy rather than a wise guy.</desc>
@@ -1790,7 +1901,7 @@ Get reacquainted with Falconhoof the adventure phone-in host as he gets a new si
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261012043000 -0400" stop="20261012051500 -0400" channel="whiplash">
+  <programme start="20261012043500 -0400" stop="20261012052000 -0400" channel="whiplash">
     <title lang="en">Bar Rescue</title>
     <sub-title lang="en">Irish Eyes Aren't Smiling</sub-title>
     <desc lang="en">Jon Taffer embarks on a cross-country tour of the worst drinking establishments in America. Bad drinks, wild staffs and wasted owners conspire against him and his experts as they give failing businesses one last shot at success.</desc>
@@ -1803,7 +1914,7 @@ Get reacquainted with Falconhoof the adventure phone-in host as he gets a new si
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261012051500 -0400" stop="20261012060000 -0400" channel="whiplash">
+  <programme start="20261012052000 -0400" stop="20261012060000 -0400" channel="whiplash">
     <title lang="en">OFF-AIR</title>
     <previously-shown />
   </programme>
@@ -2469,7 +2580,7 @@ Whilst Vince swaps tales with the locals at the King Prawn's Head, Howard is abd
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261013080000 -0400" stop="20261013082138 -0400" channel="whiplash">
+  <programme start="20261013080000 -0400" stop="20261013083000 -0400" channel="whiplash">
     <title lang="en">The King of Queens</title>
     <sub-title lang="en">Bun Dummy</sub-title>
     <desc lang="en">Doug and Spence have attend a high school reunion, but Spence doesn't want to go because he had a relationship that ended very badly. Doug is looking forward to the reunion, until Carrie starts wearing a new hairdo.</desc>
@@ -2482,187 +2593,237 @@ Whilst Vince swaps tales with the locals at the King Prawn's Head, Howard is abd
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261008230000 -0400" stop="20261008233000 -0400" channel="whiplash2">
-    <title lang="en">New Girl</title>
-    <sub-title lang="en">Bells</sub-title>
-    <desc lang="en">Jess gets jealous when Winston joins her troubled-youth handbell quartet and instantly becomes a natural. Meanwhile Nick and Schmidt engage in class warfare when the toilet breaks and they each have their own idea of how to get it fixed.</desc>
+  <programme start="20261013083000 -0400" stop="20261013090000 -0400" channel="whiplash">
+    <title lang="en">George Lopez</title>
+    <sub-title lang="en">The Kidney Stays in the Picture</sub-title>
+    <desc lang="en">Max starts to wet the bed and George makes fun of him, but when this keeps happening, Vic thinks that Max may be sexually active. So they take Max to the doctor to find out that Max's kidney needs to be taken out.</desc>
     <category lang="en">Series</category>
     <category lang="en">Comedy</category>
-    <category lang="en">Romance</category>
-    <episode-num system="onscreen">S01 E07</episode-num>
-    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <category lang="en">Drama</category>
+    <episode-num system="onscreen">S05 E14</episode-num>
+    <episode-num system="xmltv_ns">4.13.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013090000 -0400" stop="20261013093000 -0400" channel="whiplash">
+    <title lang="en">George Lopez</title>
+    <sub-title lang="en">A Funeral Brings George to His Niece</sub-title>
+    <desc lang="en">George gets money signs in his eyes when he finds out that he is named trustee of his niece's multi-million dollar inheritance.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <episode-num system="onscreen">S05 E15</episode-num>
+    <episode-num system="xmltv_ns">4.14.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013093000 -0400" stop="20261013100000 -0400" channel="whiplash">
+    <title lang="en">George Lopez</title>
+    <sub-title lang="en">George Gets Caught in a Powers Play</sub-title>
+    <desc lang="en">George tries to teach his niece, whose multimillion-dollar inheritance he controls, a lesson in the value of hard work by putting her to work at the factory. Meanwhile, Angie books her first new-age wedding.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <episode-num system="onscreen">S05 E16</episode-num>
+    <episode-num system="xmltv_ns">4.15.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013100000 -0400" stop="20261013103000 -0400" channel="whiplash">
+    <title lang="en">Frasier</title>
+    <sub-title lang="en">The Kid</sub-title>
+    <desc lang="en">Roz (Peri Gilpin) comes to terms with her impending motherhood and, with a little pressure from Frasier (Kelsey Grammer), breaks the news to the baby's father (guest star Todd Babcock). Inspired by Roz's news, Daphne (Jane Leeves) offers to watch the neighbor's baby and then enlists Martin (John Mahoney) and Niles (David Hyde Pierce) to help.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S05 E04</episode-num>
+    <episode-num system="xmltv_ns">4.3.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013103000 -0400" stop="20261013110000 -0400" channel="whiplash">
+    <title lang="en">Frasier</title>
+    <sub-title lang="en">The 1000th Show</sub-title>
+    <desc lang="en">Niles' envy and a series of mishaps may prevent Frasier from attending the festivities honoring him for his 1,000th radio show.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S05 E05</episode-num>
+    <episode-num system="xmltv_ns">4.4.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013110000 -0400" stop="20261013114500 -0400" channel="whiplash">
+    <title lang="en">Hell's Kitchen (US)</title>
+    <sub-title lang="en">4 Chefs Compete Again</sub-title>
+    <desc lang="en">The challenge: create a balanced fusion dish. The judges: Top L.A. chefs Philip Dubose (Asia de Cuba), Helene An (Crustacean) and Lee Hefter (Spago). Then, at dinner service, tempers flare and Chef Ramsay must intervene.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Food</category>
+    <category lang="en">Game Show</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S08 E14</episode-num>
+    <episode-num system="xmltv_ns">7.13.0/1</episode-num>
     <rating>
       <value>TV-14</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261008233000 -0400" stop="20261009000010 -0400" channel="whiplash2">
-    <title lang="en">New Girl</title>
-    <sub-title lang="en">Bad In Bed</sub-title>
-    <desc lang="en">When Jess decides to take her relationship with Paul to the next level, she consults with the guys for some sex advice. Meanwhile, Schmidt worms his way into his boss' baby shower to compete with his office female counterpart.</desc>
+  <programme start="20261013114500 -0400" stop="20261013123000 -0400" channel="whiplash">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">Devon</sub-title>
+    <desc lang="en">Nicki Chapman helps a buyer to find a rural home in Devon where she can escape London life and nourish her creative spirit. While in the county, Nicki drops in on a one-of-a-kind business where she learns about the ancient craft of leather tanning.</desc>
     <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Romance</category>
-    <episode-num system="onscreen">S01 E08</episode-num>
-    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
+    <category lang="en">Home and Garden</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S15 E16</episode-num>
+    <episode-num system="xmltv_ns">14.15.0/1</episode-num>
     <rating>
-      <value>TV-14</value>
+      <value>TV-PG</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009000010 -0400" stop="20261009002000 -0400" channel="whiplash2">
-    <title lang="en">Hot Ones</title>
-    <sub-title lang="en">Charlie Day Learns to Love Ridiculously Spicy Wings</sub-title>
-    <desc lang="en">As he seeks to "shamelessly promote" his new movie "Fist Fight" (Feb 17), actor Charlie Day submits to the Sean Evans-led onslaught of hot wings and even hotter questions. Through the emotional highs and lows of Zombie Apocalypse and Mad Dog 357, the "It's Always Sunny in Philadelphia Star" weighs in on everything from Zac Efron's neighborliness, to the most iconic regional foods of Rhode Island. Kitten mittens!</desc>
+  <programme start="20261013123000 -0400" stop="20261013131500 -0400" channel="whiplash">
+    <title lang="en">Kitchen Nightmares (US)</title>
+    <sub-title lang="en">Campania</sub-title>
+    <desc lang="en">Chef Ramsay visits Campania, an Italian restaurant in Fair Lawn, N.J. He discovers a lackadaisical wait staff is hurting business.</desc>
     <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Food</category>
-    <category lang="en">Game Show</category>
-    <category lang="en">Talk</category>
-    <category lang="en">Talk Show</category>
-    <episode-num system="onscreen">S03 E05</episode-num>
-    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
-    <rating>
-      <value>TV-MA</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009002000 -0400" stop="20261009004000 -0400" channel="whiplash2">
-    <title lang="en">Hot Ones</title>
-    <sub-title lang="en">Mac DeMarco Tries to Stay Chill While Eating Spicy Wings</sub-title>
-    <desc lang="en">Musician, hashtag expert, and Canadian icon Mac DeMarco may be the most laid-back Hot Ones guest of all time. But how chill can you be in the face of Sean Evans' hot questions and even hotter wings? Find out as DeMarco gets pummeled by Scovilles and discusses important matters ranging from his distaste for tour buses, to the exact reason why lighting a fart on fire is funny. Bonus: He brought his mom!</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Food</category>
-    <category lang="en">Game Show</category>
-    <category lang="en">Talk</category>
-    <category lang="en">Talk Show</category>
-    <episode-num system="onscreen">S03 E06</episode-num>
-    <episode-num system="xmltv_ns">2.5.0/1</episode-num>
-    <rating>
-      <value>TV-MA</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009004000 -0400" stop="20261009011510 -0400" channel="whiplash2">
-    <title lang="en">Last Week Tonight with John Oliver</title>
-    <sub-title lang="en">Climate Change Denial</sub-title>
-    <desc lang="en">John talks about Eurovision, Ukraine and Russia's relations and interviews Bill Nye about Climate Change.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
     <category lang="en">News</category>
-    <category lang="en">Talk</category>
-    <category lang="en">Talk Show</category>
-    <episode-num system="onscreen">S01 E03</episode-num>
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <rating>
-      <value>TV-MA</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009011510 -0400" stop="20261009020000 -0400" channel="whiplash2">
-    <title lang="en">Taskmaster</title>
-    <sub-title lang="en">Little Denim Shorts</sub-title>
-    <desc lang="en">Greg Davies and Alex Horne host as Frank Skinner takes a boulder onto a train for a pleasant excursion. Then, he and the other comedians try to make a Swedish man blush.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Game Show</category>
-    <episode-num system="onscreen">S01 E05</episode-num>
-    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S01 E09</episode-num>
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
     <rating>
       <value>TV-14</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009020000 -0400" stop="20261009025000 -0400" channel="whiplash2">
-    <title lang="en">Taskmaster</title>
-    <sub-title lang="en">The Last Supper</sub-title>
-    <desc lang="en">In the last episode of the series, the five comics are not only playing for homemade chowder but also for the inaugural Taskmaster series winner’s trophy. Tasks include playing golf with eggs and cooking a meal using ingredients starting with every letter of the alphabet.</desc>
+  <programme start="20261013131500 -0400" stop="20261013134500 -0400" channel="whiplash">
+    <title lang="en">Brooklyn Nine-Nine</title>
+    <sub-title lang="en">The Slaughterhouse</sub-title>
+    <desc lang="en">A drug case leads Jake and Rosa to an investigation conducted by their shared idol, Lt. Hawkins, who indicates she may have a job for one of them.</desc>
     <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Game Show</category>
-    <episode-num system="onscreen">S01 E06</episode-num>
-    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009025000 -0400" stop="20261009033510 -0400" channel="whiplash2">
-    <title lang="en">Mel Giedroyc: Unforgivable</title>
-    <sub-title lang="en">Episode 3</sub-title>
-    <desc lang="en">Johnny Vegas overshares about what he used to get up to in the bath, Josh Widdicombe tells all about the time he ruined hundreds of Beckham fans day, and Clare Balding admits blaming her brother for a bowel movement in the bath 40 years ago.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Game Show</category>
-    <category lang="en">Talk Show</category>
-    <episode-num system="onscreen">S01 E03</episode-num>
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009033510 -0400" stop="20261009042500 -0400" channel="whiplash2">
-    <title lang="en">Dave Gorman: Modern Life is Goodish</title>
-    <sub-title lang="en">I Is Da Queen</sub-title>
-    <desc lang="en">Dave annoys his wife to prove a point, explores the blister-pack economy and tries to make a quick (though hard-earned) profit, rails against weird envelopes (and then teases postmen with them), ropes in the Fijians via their dollars, and embarrasses a rich guy.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <episode-num system="onscreen">S01 E03</episode-num>
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009042500 -0400" stop="20261009051000 -0400" channel="whiplash2">
-    <title lang="en">Alan Davies: As Yet Untitled</title>
-    <sub-title lang="en">Jarvis Cocker's Britpop Herd</sub-title>
-    <desc lang="en">Fab free-form comedy chat show with master of ceremonies, Alan Davies. Ross Noble, Liza Tarbuck, Colin Lane and Josie Long join Alan for some side-splitting unrehearsed banter.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Game Show</category>
-    <category lang="en">Talk</category>
-    <category lang="en">Talk Show</category>
-    <episode-num system="onscreen">S01 E05</episode-num>
-    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009051000 -0400" stop="20261009060010 -0400" channel="whiplash2">
-    <title lang="en">Alan Davies: As Yet Untitled</title>
-    <sub-title lang="en">Simple People Eating Complex Carbohydrates</sub-title>
-    <desc lang="en">No agenda or script, just side-splitting improvised chat and amusing anecdotes with Alan Davies and his comedic chums Tommy Tiernan, Jimmy Carr, Seann Walsh and Holly Walsh.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Game Show</category>
-    <category lang="en">Talk</category>
-    <category lang="en">Talk Show</category>
-    <episode-num system="onscreen">S02 E01</episode-num>
-    <episode-num system="xmltv_ns">1.0.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009060010 -0400" stop="20261009073500 -0400" channel="whiplash2">
-    <title lang="en">Austin Powers: International Man of Mystery</title>
-    <desc lang="en">As a swinging fashion photographer by day and a groovy British superagent by night, Austin Powers is the '60s' most shagadelic spy. But can he stop megalomaniac Dr. Evil after the bald villain freezes himself and unthaws in the '90s? With the help of sexy sidekick Vanessa Kensington, he just might.</desc>
-    <date>1997</date>
-    <category lang="en">Movie</category>
-    <category lang="en">Adventure</category>
     <category lang="en">Comedy</category>
     <category lang="en">Crime</category>
-    <category lang="en">Science Fiction</category>
+    <episode-num system="onscreen">S04 E20</episode-num>
+    <episode-num system="xmltv_ns">3.19.0/1</episode-num>
     <rating>
-      <value>PG-13</value>
+      <value>TV-14</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009073500 -0400" stop="20261009093500 -0400" channel="whiplash2">
+  <programme start="20261013134500 -0400" stop="20261013141500 -0400" channel="whiplash">
+    <title lang="en">Brooklyn Nine-Nine</title>
+    <sub-title lang="en">The Bank Job</sub-title>
+    <desc lang="en">Jake and Rosa call for backup from Holt and Pimento after their search for bank robbers turns dangerous. Boyle disapproves of Gina's new boyfriend.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Crime</category>
+    <episode-num system="onscreen">S04 E21</episode-num>
+    <episode-num system="xmltv_ns">3.20.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013141500 -0400" stop="20261013144500 -0400" channel="whiplash">
+    <title lang="en">Modern Family</title>
+    <sub-title lang="en">Heart Broken</sub-title>
+    <desc lang="en">Claire and Phil's Valentine's Day romp ends with Claire in the hospital. Jay and Gloria's attempts at romance face constant interruption. After hosting a wild party, Cam and Mitch are left with hangovers and a new housemate.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Romance</category>
+    <episode-num system="onscreen">S04 E15</episode-num>
+    <episode-num system="xmltv_ns">3.14.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013144500 -0400" stop="20261013151500 -0400" channel="whiplash">
+    <title lang="en">Modern Family</title>
+    <sub-title lang="en">Bad Hair Day</sub-title>
+    <desc lang="en">Things get awkward when Phil shows up at Claire's college reunion. Jay is fixated on winning a big bowling tournament. A wig malfunction during an elaborate photo shoot with Joe leads to unfortunate results.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Romance</category>
+    <episode-num system="onscreen">S04 E16</episode-num>
+    <episode-num system="xmltv_ns">3.15.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013151500 -0400" stop="20261013154500 -0400" channel="whiplash">
+    <title lang="en">Parks and Recreation</title>
+    <sub-title lang="en">Jerry's Retirement</sub-title>
+    <desc lang="en">When Leslie finds out Jerry is retiring, she struggles with the proper way to commemorate the occasion. Chris and Ann prepare to have a baby together. Tom worries he will become the office punching bag once Jerry leaves.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S05 E20</episode-num>
+    <episode-num system="xmltv_ns">4.19.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013154500 -0400" stop="20261013161500 -0400" channel="whiplash">
+    <title lang="en">Parks and Recreation</title>
+    <sub-title lang="en">Swing Vote</sub-title>
+    <desc lang="en">After a bill to fund a local putt-putt course is introduced, Leslie and Ron compete for Jamm's swing vote. Meanwhile, Andy decides to retire from the band, and Ann tries to help Tom break up with Mona-Lisa.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S05 E21</episode-num>
+    <episode-num system="xmltv_ns">4.20.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013161500 -0400" stop="20261013170000 -0400" channel="whiplash">
+    <title lang="en">Bones</title>
+    <sub-title lang="en">The Glowing Bones in the Old Stone House</sub-title>
+    <desc lang="en">Homeland security asks Bones to examine some remains, thinking they're radioactive, and although the site is cleared two questions remain: why was an up and coming chef murdered, and why are the bones still glowing?</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Crime</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Mystery</category>
+    <category lang="en">Romance</category>
+    <episode-num system="onscreen">S02 E20</episode-num>
+    <episode-num system="xmltv_ns">1.19.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013170000 -0400" stop="20261013174323 -0400" channel="whiplash">
+    <title lang="en">Monk</title>
+    <sub-title lang="en">Mr. Monk Stays in Bed</sub-title>
+    <desc lang="en">When Natalie finally catches up with the pizza guy who mistakenly left her $50 in change, she finds him dead in his car. She feels compelled to solve the murder but Monk, sick in bed, offers little help.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Crime</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Mystery</category>
+    <episode-num system="onscreen">S04 E03</episode-num>
+    <episode-num system="xmltv_ns">3.2.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261009073510 -0400" stop="20261009093500 -0400" channel="whiplash2">
     <title lang="en">Fear and Loathing in Las Vegas</title>
     <desc lang="en">The big-screen version of Hunter S. Thompson's seminal psychedelic classic about his road trip across Western America as he and his large Samoan lawyer searched desperately for the "American dream"... they were helped in large part by the huge amount of drugs and alcohol kept in their convertible, The Red Shark.</desc>
     <date>1998</date>
@@ -4699,7 +4860,7 @@ Whilst Vince swaps tales with the locals at the King Prawn's Head, Howard is abd
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261013064010 -0400" stop="20261013081940 -0400" channel="whiplash2">
+  <programme start="20261013064010 -0400" stop="20261013082000 -0400" channel="whiplash2">
     <title lang="en">Shaun of the Dead</title>
     <desc lang="en">Shaun (Simon Pegg) doesn't have a very good day, so he decides to turn his life around by getting his ex to take him back, but he times it for right in the middle of what may be a zombie apocalypse. But for him, it's an opportunity to show everyone he knows how useful he is by saving them all. All he has to do is survive, and get his ex back.</desc>
     <date>2004</date>
@@ -4711,67 +4872,167 @@ Whilst Vince swaps tales with the locals at the King Prawn's Head, Howard is abd
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009021646 -0400" stop="20261009050314 -0400" channel="whiplashcinema">
-    <title lang="en">Blade Runner 2049</title>
-    <desc lang="en">Thirty years after the events of Blade Runner (1982), a new Blade Runner, L.A.P.D. Officer "K" (Ryan Gosling), unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard (Harrison Ford), a former L.A.P.D. Blade Runner, who has been missing for thirty years.</desc>
-    <date>2017</date>
+  <programme start="20261013082000 -0400" stop="20261013101000 -0400" channel="whiplash2">
+    <title lang="en">Anchorman: The Legend of Ron Burgundy</title>
+    <desc lang="en">In the 1970s, an anchorman's stint as San Diego's top-rated newsreader is challenged when an ambitious newswoman becomes his co-anchor.</desc>
+    <date>2004</date>
     <category lang="en">Movie</category>
-    <category lang="en">Action</category>
-    <category lang="en">Drama</category>
-    <category lang="en">Mystery</category>
-    <category lang="en">Science Fiction</category>
-    <category lang="en">Thriller</category>
-    <rating>
-      <value>R</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009050314 -0400" stop="20261009064847 -0400" channel="whiplashcinema">
-    <title lang="en">Ponyo</title>
-    <desc lang="en">When Sosuke, a young boy who lives on a clifftop overlooking the sea, rescues a stranded goldfish named Ponyo, he discovers more than he bargained for. Ponyo is a curious, energetic young creature who yearns to be human, but even as she causes chaos around the house, her father, a powerful sorcerer, schemes to return Ponyo to the sea.</desc>
-    <date>2008</date>
-    <category lang="en">Movie</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Anime</category>
     <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <category lang="en">Fantasy</category>
-    <rating>
-      <value>G</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009064847 -0400" stop="20261009082211 -0400" channel="whiplashcinema">
-    <title lang="en">Puss in Boots</title>
-    <desc lang="en">An outlaw cat, his childhood egg-friend, and a seductive thief kitty set out in search for the eggs of the fabled Golden Goose to clear his name, restore his lost honor, and regain the trust of his mother and town.</desc>
-    <date>2011</date>
-    <category lang="en">Movie</category>
-    <category lang="en">Action</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <category lang="en">Fantasy</category>
-    <rating>
-      <value>PG</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009082211 -0400" stop="20261009105546 -0400" channel="whiplashcinema">
-    <title lang="en">Transformers: Revenge of the Fallen</title>
-    <desc lang="en">Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war.</desc>
-    <date>2009</date>
-    <category lang="en">Movie</category>
-    <category lang="en">Action</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Science Fiction</category>
     <rating>
       <value>PG-13</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009105546 -0400" stop="20261009122935 -0400" channel="whiplashcinema">
+  <programme start="20261013101000 -0400" stop="20261013115010 -0400" channel="whiplash2">
+    <title lang="en">Team America: World Police</title>
+    <desc lang="en">Popular Broadway actor Gary Johnston is recruited by the elite counter-terrorism organization Team America: World Police. As the world begins to crumble around him, he must battle with terrorists, celebrities and falling in love.</desc>
+    <date>2004</date>
+    <category lang="en">Movie</category>
+    <category lang="en">Action</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <rating>
+      <value>R</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013115010 -0400" stop="20261013121500 -0400" channel="whiplash2">
+    <title lang="en">The Middle</title>
+    <sub-title lang="en">The Trip</sub-title>
+    <desc lang="en">Frankie urges Sue to fight for her right to attend a class trip after making the grade by selling thousands of dollars worth of sausage and cheese; Brick gets his first girlfriend.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013121500 -0400" stop="20261013124500 -0400" channel="whiplash2">
+    <title lang="en">The Middle</title>
+    <sub-title lang="en">The Block Party</sub-title>
+    <desc lang="en">Brick's teachers tell Frankie and Mike that Brick tested as "socially challenged," so Mike thinks basketball is the answer to help Brick interact with others. When that fails, Mike enters the neighborhood block-party lawnmower contest and discovers that Brick has a talent for souping up machines. Meanwhile Frankie joins the booster club to raise money for new football jerseys for Axl's team, but Axl refuses to give his old one to her.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S01 E05</episode-num>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013124500 -0400" stop="20261013131510 -0400" channel="whiplash2">
+    <title lang="en">The Middle</title>
+    <sub-title lang="en">The Front Door</sub-title>
+    <desc lang="en">Frankie is caught in the middle when Axl accidentally breaks down the front door, and Mike insists that he fix it - which could leave the Heck house wide open for days. Meanwhile, Frankie must sell a car within a week or be forced to wear a dog suit outside the lot, and it's school picture time for Sue, who has never had a flattering photo taken of her.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S01 E06</episode-num>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013131510 -0400" stop="20261013134500 -0400" channel="whiplash2">
+    <title lang="en">The Goldbergs (2013)</title>
+    <sub-title lang="en">Why're You Hitting Yourself?</sub-title>
+    <desc lang="en">Barry and Adam bond over the discovery of a TV channel; Beverly involves herself in her father's dating life.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013134500 -0400" stop="20261013141500 -0400" channel="whiplash2">
+    <title lang="en">The Goldbergs (2013)</title>
+    <sub-title lang="en">The Ring</sub-title>
+    <desc lang="en">Adam, Erica and Barry learn about Murray's romantic past while cleaning out the garage; Adam falls for his neighbor.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S01 E05</episode-num>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013141500 -0400" stop="20261013144510 -0400" channel="whiplash2">
+    <title lang="en">The Goldbergs (2013)</title>
+    <sub-title lang="en">Who Are You Going to Telephone?</sub-title>
+    <desc lang="en">Beverly is disappointed when the kids don't want to celebrate Halloween with her; Beverly tries to get Barry's crush to go out with him.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S01 E06</episode-num>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013144510 -0400" stop="20261013151500 -0400" channel="whiplash2">
+    <title lang="en">Parks and Recreation</title>
+    <sub-title lang="en">Boys' Club</sub-title>
+    <desc lang="en">Leslie tries to infiltrate the boys' club of politics by crashing an after-work gathering at the town hall. Trying to fit in, she opens a gift basket breaking the local government ethics, and then is called before an ethics committee.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013151500 -0400" stop="20261013154500 -0400" channel="whiplash2">
+    <title lang="en">Parks and Recreation</title>
+    <sub-title lang="en">The Banquet</sub-title>
+    <desc lang="en">At a banquet honouring her mother, Leslie tries to convince a local zoning official to support her park project. But sensing resistance, Lesie resorts to blackmail. Meanwhile, Tom and Mark ditch the festivities to hit the bars.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S01 E05</episode-num>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013154500 -0400" stop="20261013161510 -0400" channel="whiplash2">
+    <title lang="en">Parks and Recreation</title>
+    <sub-title lang="en">Rock Show</sub-title>
+    <desc lang="en">Leslie attends what she believes is a business meeting with an elderly local government bigwig, unaware that her mother has secretly set her up on a blind date. Andy plays his first gig since breaking both of his legs in the pit.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S01 E06</episode-num>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013161510 -0400" stop="20261013171534 -0400" channel="whiplash2">
+    <title lang="en">Bo Burnham: what.</title>
+    <desc lang="en">Left brain and right brain duke it out and then belt out a tune in comedian Bo Burnham's quick and clever one-man show. As intelligent as he is lanky, Burnham cynically pokes at pop entertainment while offering unadulterated showmanship of his own.</desc>
+    <date>2013</date>
+    <category lang="en">Movie</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Music</category>
+    <rating>
+      <value>TV-MA</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261009105557 -0400" stop="20261009122935 -0400" channel="whiplashcinema">
     <title lang="en">Monster House</title>
     <desc lang="en">Monsters under the bed are scary enough, but what happens when an entire house is out to get you? Three teens aim to find out when they go up against a decrepit neighboring home and unlock its frightening secrets.</desc>
     <date>2006</date>
@@ -5534,7 +5795,7 @@ Whilst Vince swaps tales with the locals at the King Prawn's Head, Howard is abd
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261013072617 -0400" stop="20261013094633 -0400" channel="whiplashcinema">
+  <programme start="20261013072617 -0400" stop="20261013094933 -0400" channel="whiplashcinema">
     <title lang="en">Star Wars: Episode III - Revenge of the Sith</title>
     <desc lang="en">As the Clone Wars nears its end, Obi-Wan Kenobi pursues a new threat, while Anakin Skywalker is lured by Chancellor Palpatine into a sinister plot for galactic domination.</desc>
     <date>2005</date>
@@ -5548,200 +5809,67 @@ Whilst Vince swaps tales with the locals at the King Prawn's Head, Howard is abd
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009034515 -0400" stop="20261009043500 -0400" channel="whiplashatlas">
-    <title lang="en">Planet Earth</title>
-    <sub-title lang="en">Jungles</sub-title>
-    <desc lang="en">Jungles cover roughly three percent of our planet yet contain fifty percent of the world's species. Experience the countless flora and fauna that inhabit these unique areas.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Documentary</category>
-    <category lang="en">Family</category>
-    <episode-num system="onscreen">S01 E08</episode-num>
-    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
-    <rating>
-      <value>TV-PG</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009043500 -0400" stop="20261009052510 -0400" channel="whiplashatlas">
-    <title lang="en">Planet Earth</title>
-    <sub-title lang="en">Shallow Seas</sub-title>
-    <desc lang="en">Shallow seas cover only 8% of earth's surface, but contain the richest, most varied maritime life: from plankton and coral (literally vital for the very existence of reefs) to birds and from various invertebrates to mammals like seals, dolphins and whales and from sea snakes to countless fish species. Their ecological interaction is greatly varied and complex, often with nearby land to, even with deserts.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Documentary</category>
-    <category lang="en">Family</category>
-    <episode-num system="onscreen">S01 E09</episode-num>
-    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
-    <rating>
-      <value>TV-PG</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009052510 -0400" stop="20261009061000 -0400" channel="whiplashatlas">
-    <title lang="en">Hazardous History with Henry Winkler</title>
-    <sub-title lang="en">Young &amp; the Reckless</sub-title>
-    <desc lang="en">When being young meant testing the limits of what our bodies could survive. From launching our bikes off homemade ramps and playing chicken in traffic, to using dangerous construction sites as our playground, childhood adventure was often intertwined with how far you were willing to go--and the consequences that came with it. Armed with cherry bombs, slingshots, and more confidence than caution, we pushed boundaries in ways that would make parents today shudder.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Documentary</category>
-    <category lang="en">History</category>
-    <category lang="en">Reality</category>
-    <episode-num system="onscreen">S02 E11</episode-num>
-    <episode-num system="xmltv_ns">1.10.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009061000 -0400" stop="20261009065500 -0400" channel="whiplashatlas">
-    <title lang="en">Hazardous History with Henry Winkler</title>
-    <sub-title lang="en">Insane Inventions</sub-title>
-    <desc lang="en">From personal jetpacks that promised to send us sky-high, to electrified exercise machines that shocked us into shape, to firefighting hand grenades hurled straight into the flames, yesterday's boldest inventions were packed with promise - and risks nobody saw coming. These are the ambitious ideas, futuristic gadgets, and engineering marvels that aimed to revolutionize everyday life, but sometimes overshot the mark.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Documentary</category>
-    <category lang="en">History</category>
-    <category lang="en">Reality</category>
-    <episode-num system="onscreen">S02 E12</episode-num>
-    <episode-num system="xmltv_ns">1.11.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009065500 -0400" stop="20261009074010 -0400" channel="whiplashatlas">
-    <title lang="en">Brain Games</title>
-    <sub-title lang="en">The God Brain</sub-title>
-    <desc lang="en">Jason Silva travels to Israel to explore “The God Brain.” New research has uncovered that believing in God may be hardwired in our brains.</desc>
-    <category lang="en">Series</category>
+  <programme start="20261013094933 -0400" stop="20261013113136 -0400" channel="whiplashcinema">
+    <title lang="en">Sonic the Hedgehog</title>
+    <desc lang="en">Taking refuge on Earth, when Sonic uses his incredible speed and accidentally knock out the power in part of the United States, he catches the attention of Dr. Robotnik and must stop him from using his unique power for world domination.</desc>
+    <date>2020</date>
+    <category lang="en">Movie</category>
+    <category lang="en">Action</category>
+    <category lang="en">Adventure</category>
     <category lang="en">Comedy</category>
-    <category lang="en">Documentary</category>
-    <category lang="en">Drama</category>
-    <category lang="en">Game Show</category>
-    <category lang="en">Reality</category>
-    <episode-num system="onscreen">S07 E02</episode-num>
-    <episode-num system="xmltv_ns">6.1.0/1</episode-num>
-    <rating>
-      <value>TV-G</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009074010 -0400" stop="20261009080500 -0400" channel="whiplashatlas">
-    <title lang="en">Brain Games</title>
-    <sub-title lang="en">What's Going On?</sub-title>
-    <desc lang="en">Whether it's remembering where you parked the car, or just finding the light switch in the morning, navigating your busy world can be tough. Luckily your brain has a built-in navigation system to help make sense of your surroundings. In fact, recent discoveries prove that the brain uses place cells and direction cells to help get us to where we're going. In this episode we explore spatial awareness. It's how your brain tells you where you are. Through a series of games and experiments we’ll test the boundaries of your brain’s hardwired sense of direction, and prove how you aren’t always aware of your surroundings or even your body. Plus you’ll learn a surprising technique to enhance your spatial memory.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Documentary</category>
-    <category lang="en">Drama</category>
-    <category lang="en">Game Show</category>
-    <category lang="en">Reality</category>
-    <episode-num system="onscreen">S03 E06</episode-num>
-    <episode-num system="xmltv_ns">2.5.0/1</episode-num>
-    <rating>
-      <value>TV-G</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009080500 -0400" stop="20261009083000 -0400" channel="whiplashatlas">
-    <title lang="en">Brain Games</title>
-    <sub-title lang="en">Perspective</sub-title>
-    <desc lang="en">In this episode of Brain Games, you'll see how your brain gets tripped up by odd angles, how light and shadows play a crucial role in your perception of the world, how you can radically shift the way you see reality, and how your brain isn't always as honest with you as you think. Through a series of games and experiments, you'll discover why you shouldn't always believe what you see.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Documentary</category>
-    <category lang="en">Drama</category>
-    <category lang="en">Game Show</category>
-    <category lang="en">Reality</category>
-    <episode-num system="onscreen">S06 E04</episode-num>
-    <episode-num system="xmltv_ns">5.3.0/1</episode-num>
-    <rating>
-      <value>TV-G</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009083000 -0400" stop="20261009085510 -0400" channel="whiplashatlas">
-    <title lang="en">How It's Made</title>
-    <sub-title lang="en">LED Tubes, Chocolate Peanut Butter Bars, Robotic Medication Dispensers</sub-title>
-    <desc lang="en">Rows of light-emitting diodes, drivers and heat-management components are installed inside tubular fixtures. Peanut-butter centres are formed, coated with chocolate and cooled into finished bars, while automated medication dispensers combine storage, counting, labelling and computer-control systems to prepare prescriptions accurately.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Documentary</category>
-    <episode-num system="onscreen">S27 E04</episode-num>
-    <episode-num system="xmltv_ns">26.3.0/1</episode-num>
-    <rating>
-      <value>TV-G</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009085510 -0400" stop="20261009092000 -0400" channel="whiplashatlas">
-    <title lang="en">How It's Made</title>
-    <sub-title lang="en">Classic Car Gauges, Chocolate Marble Cake, Ghillie Kettles, Condoms</sub-title>
-    <desc lang="en">Ceramic forms are repeatedly dipped in liquid latex before the finished condoms are cured, removed, tested and packaged. Precision mechanisms, numbered faces and pointers are assembled and calibrated into gauges for classic cars; contrasting cake batters are swirled, baked and decorated to create chocolate marble truffle cakes; and formed metal sections are joined into chimney-style ghillie kettles that rapidly boil water over a small fire.
-
-NOTE: The US version contains a late regional editorial decision to use the S21 E01 segment on Rubber Gloves in place of the Canadian original segment on Condoms due to "content sensitivity."</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Documentary</category>
-    <episode-num system="onscreen">S28 E01</episode-num>
-    <episode-num system="xmltv_ns">27.0.0/1</episode-num>
-    <rating>
-      <value>TV-G</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009092000 -0400" stop="20261009094500 -0400" channel="whiplashatlas">
-    <title lang="en">How It's Made</title>
-    <sub-title lang="en">Rice Cookers, Concealment Furniture, Promotional Origami, Hedge Shears</sub-title>
-    <desc lang="en">Cooking vessels, heating elements and temperature controls are assembled into automatic rice cookers; discreet compartments and locking mechanisms are incorporated into ordinary-looking furniture; printed paper is cut, creased and folded into promotional origami; and heat-treated steel blades are sharpened and joined to handles to form hedge shears.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Documentary</category>
-    <episode-num system="onscreen">S31 E06</episode-num>
-    <episode-num system="xmltv_ns">30.5.0/1</episode-num>
-    <rating>
-      <value>TV-G</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009094500 -0400" stop="20261009104010 -0400" channel="whiplashatlas">
-    <title lang="en">MythBusters</title>
-    <sub-title lang="en">Is Yawning Contagious?</sub-title>
-    <desc lang="en">Can a yawn, like a cold, truly be caught? Does toast really fall buttered-side down? Could a toy car beat a real car (in this case, a Dodge Viper) in a gravity slope race?</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Documentary</category>
-    <category lang="en">Mystery</category>
-    <category lang="en">Reality</category>
-    <episode-num system="onscreen">S03 E04</episode-num>
-    <episode-num system="xmltv_ns">2.3.0/1</episode-num>
-    <rating>
-      <value>TV-PG</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009104010 -0400" stop="20261009113000 -0400" channel="whiplashatlas">
-    <title lang="en">Planet Earth</title>
-    <sub-title lang="en">Seasonal Forests</sub-title>
-    <desc lang="en">Trees are Earth's largest organisms and are also one of the planet's oldest inhabitants. Seasonal forests (unlike tropical rain-forest) are the largest land habitats. A third of all trees grow in the endless taiga of the Arctic north. Northern America has forests that include California's sequoias, the Earth's largest trees. There and elsewhere, their vast production of photosynthesis and shade presides over a seasonal cycle of life and involves countless plant and animal species.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Documentary</category>
     <category lang="en">Family</category>
-    <episode-num system="onscreen">S01 E10</episode-num>
-    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Science Fiction</category>
     <rating>
-      <value>TV-PG</value>
+      <value>PG</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009113000 -0400" stop="20261009122000 -0400" channel="whiplashatlas">
-    <title lang="en">Planet Earth</title>
-    <sub-title lang="en">Ocean Deep</sub-title>
-    <desc lang="en">An exploration of the deepest, darkest realms of the ocean, spanning countless species to a depth of 2,000 meters.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Documentary</category>
+  <programme start="20261013113136 -0400" stop="20261013130253 -0400" channel="whiplashcinema">
+    <title lang="en">The Peanuts Movie</title>
+    <desc lang="en">Snoopy embarks upon his greatest mission as he and his team take to the skies to pursue their archnemesis, while his best pal Charlie Brown begins his own epic quest back home to win the love of his life.</desc>
+    <date>2015</date>
+    <category lang="en">Movie</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
     <category lang="en">Family</category>
-    <episode-num system="onscreen">S01 E11</episode-num>
-    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <rating>
-      <value>TV-PG</value>
+      <value>G</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009122000 -0400" stop="20261009132510 -0400" channel="whiplashatlas">
+  <programme start="20261013130253 -0400" stop="20261013143954 -0400" channel="whiplashcinema">
+    <title lang="en">Trainspotting</title>
+    <desc lang="en">Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends --Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left behind as Begbie and Sick Boy come knocking.</desc>
+    <date>1996</date>
+    <category lang="en">Movie</category>
+    <category lang="en">Crime</category>
+    <category lang="en">Drama</category>
+    <rating>
+      <value>R</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013143954 -0400" stop="20261013163915 -0400" channel="whiplashcinema">
+    <title lang="en">Pom Poko</title>
+    <desc lang="en">As the human city development encroaches on the raccoon dog population's forest and meadow habitat, the raccoon dogs find themselves faced with the very real possibility of extinction. In response, the raccoon dogs engage in a desperate struggle to stop the construction and preserve their home.</desc>
+    <date>1994</date>
+    <category lang="en">Movie</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Family</category>
+    <category lang="en">Fantasy</category>
+    <rating>
+      <value>PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261009122015 -0400" stop="20261009132510 -0400" channel="whiplashatlas">
     <title lang="en">Rick Stein's Mediterranean Escapes</title>
     <sub-title lang="en">Corsica and Sardinia</sub-title>
     <desc lang="en">Rick Stein's Mediterranean escape started in Marseille where his last series ended. He caught the ferry to Bastia, the ancient capital of Corsica, where he was invited to a typical Corsican feast. Here pulenda, a kind of polenta made with chestnut flour, took pride of place along with figatellu, a strong-tasting local sausage made with offal and cheek from the Corsican black pig. At Bonifacio, Rick sailed across the rough straits to Sardinia, where he sampled an especially good spaghetti with cuttlefish ink and a rich tomato sauce.</desc>
@@ -7509,7 +7637,7 @@ Then it's on to Navarra and its most famous town, Pamplona - known for its bull 
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261013071510 -0400" stop="20261013081706 -0400" channel="whiplashatlas">
+  <programme start="20261013071510 -0400" stop="20261013082000 -0400" channel="whiplashatlas">
     <title lang="en">Rick Stein's Spain</title>
     <sub-title lang="en">Spanish Christmas</sub-title>
     <desc lang="en">Inspired by his recent journey through Spain, Rick Stein hosts a festive gathering and shares his take on great dishes to cook for Christmas and New Year. This is a Christmas feast with a difference... clams with serrano ham and oloroso sherry, lamb stuffed aubergines with moorish spices, chicken with saffron and pine nuts and orange caramel creams. Guests include Jose Pizarro and Maria Jose Sevilla, two close friends who, together with Rick, prepare favourite family recipes that form part of their Spanish Christmas celebrations right here in the UK.</desc>
@@ -7524,180 +7652,202 @@ Then it's on to Navarra and its most famous town, Pamplona - known for its bull 
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009090015 +0100" stop="20261009094500 +0100" channel="whiplashwindowtv">
-    <title lang="en">Dad's Army</title>
-    <sub-title lang="en">If the Cap Fits</sub-title>
-    <desc lang="en">The platoon is given a lecture on the German army but because Frazer keeps on complaining, Mainwaring makes him Acting CO of the platoon. Later, when the Colonel asks the platoon to attend a dinner, Mainwaring has to play the bagpipes.</desc>
+  <programme start="20261013082000 -0400" stop="20261013091000 -0400" channel="whiplashatlas">
+    <title lang="en">Gordon Behind Bars</title>
+    <sub-title lang="en">Episode 1</sub-title>
+    <desc lang="en">Gordon arrives at the notorious HM Prison Brixton, in the hopes of taking non working prisoners and molding them into working cooks. Can Ramsay deal with offenders from murders to a man who was found with a shotgun under his bed?</desc>
     <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">War</category>
-    <category lang="en">War &amp; Politics</category>
-    <episode-num system="onscreen">S05 E06</episode-num>
-    <episode-num system="xmltv_ns">4.5.0/1</episode-num>
-    <rating>
-      <value>TV-PG</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009094500 +0100" stop="20261009101500 +0100" channel="whiplashwindowtv">
-    <title lang="en">Blackadder</title>
-    <sub-title lang="en">Plan C: Major Star</sub-title>
-    <desc lang="en">Blackadder grabs yet another opportunity to return to England by organizing a morale-raising music hall show, including Baldrick's Charlie Chaplin impersonation and George's appearance as a lady songstress who captures the General's heart.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <episode-num system="onscreen">S04 E03</episode-num>
-    <episode-num system="xmltv_ns">3.2.0/1</episode-num>
-    <rating>
-      <value>TV-PG</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009101500 +0100" stop="20261009103000 +0100" channel="whiplashwindowtv">
-    <title lang="en">The Amazing World of Gumball</title>
-    <sub-title lang="en">The Choices</sub-title>
-    <desc lang="en">Nicole reminisces about how she met Richard during a disastrous family dinner, and how things could have turned out for her if she had not.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Music</category>
-    <category lang="en">Musical</category>
-    <category lang="en">Sci-Fi &amp; Fantasy</category>
-    <category lang="en">Science Fiction</category>
-    <category lang="en">Short</category>
-    <episode-num system="onscreen">S05 E06</episode-num>
-    <episode-num system="xmltv_ns">4.5.0/1</episode-num>
-    <rating>
-      <value>TV-Y7</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009103000 +0100" stop="20261009111500 +0100" channel="whiplashwindowtv">
-    <title lang="en">Escape to the Country</title>
-    <sub-title lang="en">Cornwall</sub-title>
-    <desc lang="en">Nicki Chapman is in Cornwall with a young couple looking for a complete life change and who have a very generous budget of £1.3 million to spend on a new rural home. While in the county, Nicki learns how a simple switch in our eating habits could not only help the marine environment but also save us money.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Home and Garden</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">Food</category>
     <category lang="en">Reality</category>
-    <episode-num system="onscreen">S15 E23</episode-num>
-    <episode-num system="xmltv_ns">14.22.0/1</episode-num>
+    <episode-num system="onscreen">S01 E01</episode-num>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <rating>
-      <value>TV-PG</value>
+      <value>TV-14</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009111500 +0100" stop="20261009121500 +0100" channel="whiplashwindowtv">
-    <title lang="en">Clarkson's Farm</title>
-    <sub-title lang="en">Parking</sub-title>
-    <desc lang="en">Team Diddly assemble for a much needed building project and Jeremy brings in the Chairman of the British Deer Society to help with the deer management issues on the farm.</desc>
+  <programme start="20261013091000 -0400" stop="20261013100010 -0400" channel="whiplashatlas">
+    <title lang="en">Gordon Behind Bars</title>
+    <sub-title lang="en">Episode 2</sub-title>
+    <desc lang="en">Now narrowed down to twelve prisoners, Gordon must try to get the pilot prison food program off the ground with members who in thirty seconds could destroy half the team.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">Food</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S01 E02</episode-num>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013100010 -0400" stop="20261013104500 -0400" channel="whiplashatlas">
+    <title lang="en">Hazardous History with Henry Winkler</title>
+    <sub-title lang="en">Crazy Cures</sub-title>
+    <desc lang="en">These are the curious cures and questionable treatments that offered hope to generations of patients… along with a host of side effects nobody expected.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">History</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S02 E17</episode-num>
+    <episode-num system="xmltv_ns">1.16.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013104500 -0400" stop="20261013113000 -0400" channel="whiplashatlas">
+    <title lang="en">Hazardous History with Henry Winkler</title>
+    <sub-title lang="en">School Dazed</sub-title>
+    <desc lang="en">These are the classroom customs and schoolyard rituals that generations of students accepted without a second thought… for better or worse</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">History</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S02 E18</episode-num>
+    <episode-num system="xmltv_ns">1.17.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013113000 -0400" stop="20261013115510 -0400" channel="whiplashatlas">
+    <title lang="en">Brain Games</title>
+    <sub-title lang="en">Peer Pressure</sub-title>
+    <desc lang="en">Are you a unique individual? Are you a rebel - or do you give into peer pressure? If you think you have full control of your thoughts and actions - think again. It turns out the clothes you wear, the food you eat, and even the way you walk has less to do with you and more to do with everyone else. We'll explore the idea that your brain may be hardwired to want to fit in.</desc>
     <category lang="en">Series</category>
     <category lang="en">Comedy</category>
     <category lang="en">Documentary</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Game Show</category>
     <category lang="en">Reality</category>
-    <episode-num system="onscreen">S03 E07</episode-num>
-    <episode-num system="xmltv_ns">2.6.0/1</episode-num>
+    <episode-num system="onscreen">S05 E08</episode-num>
+    <episode-num system="xmltv_ns">4.7.0/1</episode-num>
+    <rating>
+      <value>TV-G</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013115510 -0400" stop="20261013124000 -0400" channel="whiplashatlas">
+    <title lang="en">Brain Games</title>
+    <sub-title lang="en">Brains Behaving Badly</sub-title>
+    <desc lang="en">Host Jason Silva visits New Orleans, Louisiana, to explore the brain and bad behavior. A series of games and experiments demonstrate how the brain has an evolutionary predilection toward doing the wrong thing.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Game Show</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S07 E03</episode-num>
+    <episode-num system="xmltv_ns">6.2.0/1</episode-num>
+    <rating>
+      <value>TV-G</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013124000 -0400" stop="20261013132500 -0400" channel="whiplashatlas">
+    <title lang="en">Brain Games</title>
+    <sub-title lang="en">The Survivor Brain</sub-title>
+    <desc lang="en">Jason Silva meets several people in Colorado Springs, Colorado, who personify the word "survivor," and puts their brains to the test in a battery of challenges engineered to demonstrate what it takes to be a super survivor.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Game Show</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S07 E06</episode-num>
+    <episode-num system="xmltv_ns">6.5.0/1</episode-num>
+    <rating>
+      <value>TV-G</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013132500 -0400" stop="20261013135010 -0400" channel="whiplashatlas">
+    <title lang="en">How It's Made</title>
+    <sub-title lang="en">Coconut Shell Charcoal, Dial Indicators, Wet Downdraft Tables, Bassoon Reeds</sub-title>
+    <desc lang="en">Discarded coconut shells are carbonized, ground and formed into clean-burning charcoal. Precision gears, springs and calibrated faces are assembled into dial indicators; ventilated worktables draw dust and sparks downward into water-based collection systems; and selected cane is split, shaped, bound and carefully scraped into responsive bassoon reeds.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Documentary</category>
+    <episode-num system="onscreen">S27 E13</episode-num>
+    <episode-num system="xmltv_ns">26.12.0/1</episode-num>
+    <rating>
+      <value>TV-G</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013135010 -0400" stop="20261013141500 -0400" channel="whiplashatlas">
+    <title lang="en">How It's Made</title>
+    <sub-title lang="en">Belts, 3D Metal Printers, Detectable Warning Panels, Model Stirling Engines</sub-title>
+    <desc lang="en">Carefully inspected cowhide is cut into strips, bevelled, dyed, decorated and fitted with buckles to produce leather belts. Precision components are assembled into machines that deposit and laser-fuse metal powder, glass-reinforced resin is compression-moulded into tactile warning panels, and finely machined pistons, cylinders, crankshafts and flywheels are combined in working model Stirling engines.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Documentary</category>
+    <episode-num system="onscreen">S32 E08</episode-num>
+    <episode-num system="xmltv_ns">31.7.0/1</episode-num>
+    <rating>
+      <value>TV-G</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013141500 -0400" stop="20261013144000 -0400" channel="whiplashatlas">
+    <title lang="en">How It's Made</title>
+    <sub-title lang="en">CNC Assembly Machines, Lemon Tarts, Miniature War Figures</sub-title>
+    <desc lang="en">Computer-aided designs guide the fabrication and assembly of CNC production machines before their automated systems are calibrated for industrial use. Lemon custard is prepared and deposited into pastry shells to create frozen lemon tarts, while artists sculpt original miniature war figures that are moulded, cast and finished as detailed gaming pieces.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Documentary</category>
+    <episode-num system="onscreen">S27 E01</episode-num>
+    <episode-num system="xmltv_ns">26.0.0/1</episode-num>
+    <rating>
+      <value>TV-G</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261013144000 -0400" stop="20261013153510 -0400" channel="whiplashatlas">
+    <title lang="en">MythBusters</title>
+    <sub-title lang="en">Killer Tissue Box</sub-title>
+    <desc lang="en">'Killer Tissue Box' is an investigation into whether a tissue box can become a lethal missile in a car crash. In 'Split Arrow' the build team tests whether an archer can split one arrow with another, as the legendary Robin Hood was said to have done.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">Mystery</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S03 E13</episode-num>
+    <episode-num system="xmltv_ns">2.12.0/1</episode-num>
     <rating>
       <value>TV-PG</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009121500 +0100" stop="20261009131500 +0100" channel="whiplashwindowtv">
-    <title lang="en">Ramsay's Kitchen Nightmares</title>
-    <sub-title lang="en">Ruby Tates</sub-title>
-    <desc lang="en">The new series of Ramsay’s Kitchen Nightmares hits the ground running as Gordon comes to the aid of resting actor Allan Love.  Despite an aversion to fish Allan opened Ruby Tates, a high end seafood restaurant in Brighton. But it hasn’t been a success. Thanks to a pair of lazy chefs producing badly cooked, poor quality food at premium prices Ruby Tates is losing £1500 a week.  And it’s not just the food that’s off-putting. The restaurant’s name is instantly forgettable, even to locals and the décor, featuring a paint splattered pair of knickers, is keeping potential punters far from the door.</desc>
+  <programme start="20261013153510 -0400" stop="20261013162500 -0400" channel="whiplashatlas">
+    <title lang="en">Gordon Behind Bars</title>
+    <sub-title lang="en">Episode 3</sub-title>
+    <desc lang="en">After two months of success, Gordon now wants to expand the prisoner's food selections and go commercial. Meanwhile the team has dwindled down yet again.</desc>
     <category lang="en">Series</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">Food</category>
     <category lang="en">Reality</category>
-    <episode-num system="onscreen">S05 E01</episode-num>
-    <episode-num system="xmltv_ns">4.0.0/1</episode-num>
+    <episode-num system="onscreen">S01 E03</episode-num>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <rating>
       <value>TV-14</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009131500 +0100" stop="20261009134500 +0100" channel="whiplashwindowtv">
-    <title lang="en">Lucky Star</title>
-    <sub-title lang="en">A Delicate Line</sub-title>
-    <desc lang="en">Konata and Yutaka catch a cold, and Yutaka's friends, Minami, Hiyori, and Patricia, come and visit her.  They, Konata, and Yutaka discuss younger-sister-moe, Minami's lack of breasts and how Hiyori doesn't want Yutaka to read her doujin manga.
-
-After seeing a TV program about how xylitol chewing gum can eliminate cavities, Miyuki decides to test this out.  As a result, one of her fillings comes out and she has to go to the dentist.
-
-Kagami and Misao play a video game together.  Although Misao is terrible at playing them, she seems to be having more fun than Kagami who's playing to win.
-
-Patricia tells Kagami what music she's been listening to lately and how much she would like to have a maid.
-
-Miyuki tells her mother about her friends' opinions on Minami, but they seem to contradict with what Miyuki's mom recalls from Minami's previous actions.</desc>
+  <programme start="20261013162500 -0400" stop="20261013171434 -0400" channel="whiplashatlas">
+    <title lang="en">Gordon Behind Bars</title>
+    <sub-title lang="en">Episode 4</sub-title>
+    <desc lang="en">The six months are up, the team is now even smaller, and everything is now on the line. Can it all be a success? Can lives be turned around? Will the program be allowed to continued?</desc>
     <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <category lang="en">Romance</category>
-    <episode-num system="onscreen">S01 E23</episode-num>
-    <episode-num system="xmltv_ns">0.22.0/1</episode-num>
+    <category lang="en">Documentary</category>
+    <category lang="en">Food</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
     <rating>
       <value>TV-14</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009134500 +0100" stop="20261009141500 +0100" channel="whiplashwindowtv">
-    <title lang="en">Fate/Apocrypha</title>
-    <sub-title lang="en">Scorpio Shot</sub-title>
-    <desc lang="en">Chiron battles his former disciple, Achilles, in a bare-knuckle fight. As Astolfo and Sieg attack the Hanging Garden, Sieg makes a fateful decision.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Action</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Anime</category>
-    <category lang="en">Drama</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Sci-Fi &amp; Fantasy</category>
-    <episode-num system="onscreen">S01 E21</episode-num>
-    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
-    <rating>
-      <value>TV-MA</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009141500 +0100" stop="20261009151500 +0100" channel="whiplashwindowtv">
-    <title lang="en">Tipping Point</title>
-    <sub-title lang="en">Episode 23</sub-title>
-    <category lang="en">Series</category>
-    <category lang="en">Game Show</category>
-    <category lang="en">Reality</category>
-    <episode-num system="onscreen">S10 E23</episode-num>
-    <episode-num system="xmltv_ns">9.22.0/1</episode-num>
-    <rating>
-      <value>TV-PG</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009151500 +0100" stop="20261009161500 +0100" channel="whiplashwindowtv">
-    <title lang="en">The Chase (2009)</title>
-    <sub-title lang="en">Episode 23</sub-title>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Drama</category>
-    <category lang="en">Game Show</category>
-    <category lang="en">Reality</category>
-    <episode-num system="onscreen">S11 E23</episode-num>
-    <episode-num system="xmltv_ns">10.22.0/1</episode-num>
-    <previously-shown />
-  </programme>
-  <programme start="20261009161500 +0100" stop="20261009170000 +0100" channel="whiplashwindowtv">
-    <title lang="en">Pointless</title>
-    <sub-title lang="en">Episode 23</sub-title>
-    <category lang="en">Series</category>
-    <category lang="en">Game Show</category>
-    <category lang="en">Reality</category>
-    <episode-num system="onscreen">S23 E23</episode-num>
-    <episode-num system="xmltv_ns">22.22.0/1</episode-num>
-    <rating>
-      <value>Not Rated</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009170000 +0100" stop="20261009171500 +0100" channel="whiplashwindowtv">
+  <programme start="20261009170015 +0100" stop="20261009171500 +0100" channel="whiplashwindowtv">
     <title lang="en">The Amazing World of Gumball</title>
     <sub-title lang="en">The Code</sub-title>
     <desc lang="en">It turns out the Wattersons have been using the Robinsons' WiFi, but when Mr. Robinson changes the password, the Watterson household is left without internet and Gumball and Darwin attempt to recreate it.</desc>
@@ -8890,7 +9040,7 @@ Now, one year on, Gordon’s back only to find that morale is at an all-time low
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261011124500 +0100" stop="20261011132719 +0100" channel="whiplashwindowtv">
+  <programme start="20261011124500 +0100" stop="20261011133000 +0100" channel="whiplashwindowtv">
     <title lang="en">Lucky Star</title>
     <sub-title lang="en">JK</sub-title>
     <desc lang="en">The OVA features six separate stories revolving around the cast, some of which border on the bizarre; one of which is an MMORPG environment being played by Konata, Kagami, Tsukasa, and Nanako Kuroi, and another which in which Kagami has a 'suggestive' dream about Konata. The Lucky Channel segment is performed in live-action rather than being animated.</desc>
@@ -8907,317 +9057,183 @@ Now, one year on, Gordon’s back only to find that morale is at an all-time low
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009034436 -0400" stop="20261009040758 -0400" channel="whiplashbiwi">
-    <title lang="en">SpongeBob SquarePants</title>
-    <sub-title lang="en">Patrick! The Game / The Sewers of Bikini Bottom</sub-title>
-    <desc lang="en">Patrick invents a new board game and invites SpongeBob, Sandy, and Squidward to play it with him. After accidentally flushing Mr. Krabs' safe, SpongeBob and Squidward must go into the sewers to find it.</desc>
+  <programme start="20261011133000 +0100" stop="20261011140000 +0100" channel="whiplashwindowtv">
+    <title lang="en">Fate/Apocrypha</title>
+    <sub-title lang="en">Apocrypha</sub-title>
+    <desc lang="en">Shiro and Semiramis make peace with themselves as their world crumbles around them. Young Sieg makes a shattering choice in an attempt to change fate.</desc>
     <category lang="en">Series</category>
+    <category lang="en">Action</category>
     <category lang="en">Animation</category>
-    <category lang="en">Children</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
+    <category lang="en">Anime</category>
+    <category lang="en">Drama</category>
     <category lang="en">Fantasy</category>
-    <episode-num system="onscreen">S09 E16</episode-num>
-    <episode-num system="xmltv_ns">8.15.0/1</episode-num>
-    <rating>
-      <value>TV-Y7</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009040758 -0400" stop="20261009043305 -0400" channel="whiplashbiwi">
-    <title lang="en">Arrested Development</title>
-    <sub-title lang="en">Taste Makers</sub-title>
-    <desc lang="en">Michael jumps at a chance to spend more time with George-Michael, who seeks a clueless president for Fakeblock. Tobias relocates his makeshift family.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <episode-num system="onscreen">S05 E10</episode-num>
-    <episode-num system="xmltv_ns">4.9.0/1</episode-num>
+    <category lang="en">Sci-Fi &amp; Fantasy</category>
+    <episode-num system="onscreen">S01 E25</episode-num>
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
     <rating>
       <value>TV-MA</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009043305 -0400" stop="20261009062240 -0400" channel="whiplashbiwi">
-    <title lang="en">Anchorman: The Legend of Ron Burgundy</title>
-    <desc lang="en">In the 1970s, an anchorman's stint as San Diego's top-rated newsreader is challenged when an ambitious newswoman becomes his co-anchor.</desc>
-    <date>2004</date>
-    <category lang="en">Movie</category>
-    <category lang="en">Comedy</category>
-    <rating>
-      <value>PG-13</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009062240 -0400" stop="20261009064630 -0400" channel="whiplashbiwi">
-    <title lang="en">SpongeBob SquarePants</title>
-    <sub-title lang="en">Not Normal / Gone</sub-title>
-    <desc lang="en">When Squidward points out to SpongeBob that he's not normal, SpongeBob makes it his mission to become normal. SpongeBob wakes up one morning to find that everyone in Bikini Bottom is gone - even Gary!</desc>
+  <programme start="20261011140000 +0100" stop="20261011150000 +0100" channel="whiplashwindowtv">
+    <title lang="en">Tipping Point</title>
+    <sub-title lang="en">Episode 25</sub-title>
     <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Children</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <category lang="en">Fantasy</category>
-    <episode-num system="onscreen">S06 E04</episode-num>
-    <episode-num system="xmltv_ns">5.3.0/1</episode-num>
-    <rating>
-      <value>TV-Y7</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009064630 -0400" stop="20261009070917 -0400" channel="whiplashbiwi">
-    <title lang="en">The Simpsons</title>
-    <sub-title lang="en">Pygmoelian</sub-title>
-    <desc lang="en">Plastic surgery gives Moe the bartender a handsome new face and a whole new life as a soap opera star.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <episode-num system="onscreen">S11 E16</episode-num>
-    <episode-num system="xmltv_ns">10.15.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009070917 -0400" stop="20261009073158 -0400" channel="whiplashbiwi">
-    <title lang="en">King of the Hill</title>
-    <sub-title lang="en">Night and Deity</sub-title>
-    <desc lang="en">A pest-control expert's chemistry with Dale worries Nancy; Hank is the designated driver as Luanne turns 21.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Drama</category>
-    <category lang="en">Family</category>
-    <episode-num system="onscreen">S07 E21</episode-num>
-    <episode-num system="xmltv_ns">6.20.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009073158 -0400" stop="20261009075349 -0400" channel="whiplashbiwi">
-    <title lang="en">King of the Hill</title>
-    <sub-title lang="en">Peggy's Turtle Song</sub-title>
-    <desc lang="en">After Bobby eats too much sugar one morning, he is mistakenly diagnosed with attention deficit disorder. Feeling guilty about not spending enough time with her son, Peggy decides to give up teaching and be a stay-at-home mother, a decision Hank fully approves of. But Peggy is so bored at home that she starts taking guitar lessons, and composes a symbolic song about a turtle trapped in her shell. Meanwhile, Bobby takes pills for his ADD, and Luanne becomes convinced that she caught ADD from Bobby.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Drama</category>
-    <category lang="en">Family</category>
-    <episode-num system="onscreen">S02 E22</episode-num>
-    <episode-num system="xmltv_ns">1.21.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009075349 -0400" stop="20261009081604 -0400" channel="whiplashbiwi">
-    <title lang="en">The Simpsons</title>
-    <sub-title lang="en">Special Edna</sub-title>
-    <desc lang="en">After Skinner once again has let Mrs. Krabappel down, Bart takes her to the cinema. To cheer her up, Bart nominates Krabappel for the 'teacher of the year' award. The nominations is accepted, and soon the Simpsons family and Mrs. Krabappel are going to the award ceremony in Orlando, Florida, where Skinner tries to get back Krabappel by asking her to marry him.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <episode-num system="onscreen">S14 E07</episode-num>
-    <episode-num system="xmltv_ns">13.6.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009081604 -0400" stop="20261009082730 -0400" channel="whiplashbiwi">
-    <title lang="en">The Eric Andre Show</title>
-    <sub-title lang="en">Maria Menounos; Eric Balfour</sub-title>
-    <desc lang="en">Maria Menounos and Eric Balfour are interviewed.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
+    <category lang="en">Game Show</category>
     <category lang="en">Reality</category>
-    <category lang="en">Talk Show</category>
-    <episode-num system="onscreen">S02 E01</episode-num>
-    <episode-num system="xmltv_ns">1.0.0/1</episode-num>
+    <episode-num system="onscreen">S10 E25</episode-num>
+    <episode-num system="xmltv_ns">9.24.0/1</episode-num>
     <rating>
-      <value>TV-MA</value>
+      <value>TV-PG</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009082730 -0400" stop="20261009085215 -0400" channel="whiplashbiwi">
-    <title lang="en">SpongeBob SquarePants</title>
-    <sub-title lang="en">Krab Borg / Rock-a-Bye Bivalve</sub-title>
-    <desc lang="en">After watching a movie where robots take over the world, Spongebob thinks Mr. Krabs is a robot ./Spongebob and Patrick find a baby clam and decide to raise it as their own</desc>
+  <programme start="20261011150000 +0100" stop="20261011160000 +0100" channel="whiplashwindowtv">
+    <title lang="en">The Chase (2009)</title>
+    <sub-title lang="en">Episode 25</sub-title>
     <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Children</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <category lang="en">Fantasy</category>
-    <episode-num system="onscreen">S03 E09</episode-num>
-    <episode-num system="xmltv_ns">2.8.0/1</episode-num>
-    <rating>
-      <value>TV-Y7</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009085215 -0400" stop="20261009091608 -0400" channel="whiplashbiwi">
-    <title lang="en">CatDog</title>
-    <sub-title lang="en">Episode 35</sub-title>
-    <category lang="en">Series</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Children</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <episode-num system="onscreen">S03 E35</episode-num>
-    <episode-num system="xmltv_ns">2.34.0/1</episode-num>
-    <rating>
-      <value>TV-Y7</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009091608 -0400" stop="20261009094335 -0400" channel="whiplashbiwi">
-    <title lang="en">The Eric Andre Show</title>
-    <sub-title lang="en">The Eric Andre New Year's Eve Spooktacular!</sub-title>
-    <desc lang="en">2012 not scary enough? Then kick off 2013 with Eric Andre's LIVE New Year's Eve Spooktacular!!! The Eric Andre New Year's Eve Spooktacular features hair-raising celebrity guests Demi Lovato, Sebastian Bach, Omarosa, Kevin Sorbo, John Kricfalusi, and more.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Talk Show</category>
-    <episode-num system="onscreen">S00 E21</episode-num>
-    <episode-num system="xmltv_ns">-1.20.0/1</episode-num>
-    <rating>
-      <value>TV-MA</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009094335 -0400" stop="20261009100628 -0400" channel="whiplashbiwi">
-    <title lang="en">The Simpsons</title>
-    <sub-title lang="en">Bart vs. Australia</sub-title>
-    <desc lang="en">Lisa tells Bart that toilet water swirls in the opposite direction in the Southern Hemisphere. Determined to find out if this is true, Bart makes a collect call to Australia. When the father of the boy he called finds out about the charges, it sparks an international incident. The Simpsons must travel to Australia to repair relations with the United States.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <episode-num system="onscreen">S06 E16</episode-num>
-    <episode-num system="xmltv_ns">5.15.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009100628 -0400" stop="20261009102759 -0400" channel="whiplashbiwi">
-    <title lang="en">Animaniacs</title>
-    <sub-title lang="en">Ta da Dump, Ta da Dump, Ta da Dump Dump Dump</sub-title>
-    <desc lang="en">Bobby and Squit must help Pesto when he gets his head caught in a plastic six-pack ring while the trio are rummaging through the garbage in a garbage scow.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Children</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <category lang="en">Musical</category>
-    <category lang="en">Short</category>
-    <episode-num system="onscreen">S01 E54</episode-num>
-    <episode-num system="xmltv_ns">0.53.0/1</episode-num>
-    <rating>
-      <value>TV-Y7</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009102759 -0400" stop="20261009104942 -0400" channel="whiplashbiwi">
-    <title lang="en">Animaniacs</title>
-    <sub-title lang="en">A Midsummer Night's Dream</sub-title>
-    <desc lang="en">The Warners perform a unique interpretation of William Shakespeare's A Midsummer Night's Dream.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Children</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <category lang="en">Musical</category>
-    <category lang="en">Short</category>
-    <episode-num system="onscreen">S01 E59</episode-num>
-    <episode-num system="xmltv_ns">0.58.0/1</episode-num>
-    <rating>
-      <value>TV-Y7</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009104942 -0400" stop="20261009111252 -0400" channel="whiplashbiwi">
-    <title lang="en">The Simpsons</title>
-    <sub-title lang="en">I Love Lisa</sub-title>
-    <desc lang="en">Feeling sorry for Ralph, Lisa sends him a Valentine card. Having developed a crush on her, Ralph invites Lisa to go see the Krusty the Clown show. She accepts but after Krusty asks them if they are boyfriend and girlfriend, Lisa lets Ralph know that she just wants them to be friends.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <episode-num system="onscreen">S04 E15</episode-num>
-    <episode-num system="xmltv_ns">3.14.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009111252 -0400" stop="20261009113512 -0400" channel="whiplashbiwi">
-    <title lang="en">The Simpsons</title>
-    <sub-title lang="en">New Kid on the Block</sub-title>
-    <desc lang="en">Bart has a crush on his new neighbor, a teenage girl who only has eyes for Jimbo Jones. Bart sets out to prove that Jimbo is not as tough as he seems.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <episode-num system="onscreen">S04 E08</episode-num>
-    <episode-num system="xmltv_ns">3.7.0/1</episode-num>
-    <rating>
-      <value>TV-14</value>
-    </rating>
-    <previously-shown />
-  </programme>
-  <programme start="20261009113512 -0400" stop="20261009115737 -0400" channel="whiplashbiwi">
-    <title lang="en">King of the Hill</title>
-    <sub-title lang="en">Peggy Hill: The Decline and Fall</sub-title>
-    <desc lang="en">Peggy's fate and details surrounding Cotton and Didi's newborn are revealed.</desc>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
     <category lang="en">Comedy</category>
     <category lang="en">Drama</category>
-    <category lang="en">Family</category>
-    <episode-num system="onscreen">S04 E01</episode-num>
-    <episode-num system="xmltv_ns">3.0.0/1</episode-num>
+    <category lang="en">Game Show</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S11 E25</episode-num>
+    <episode-num system="xmltv_ns">10.24.0/1</episode-num>
+    <previously-shown />
+  </programme>
+  <programme start="20261011160000 +0100" stop="20261011164500 +0100" channel="whiplashwindowtv">
+    <title lang="en">Pointless</title>
+    <sub-title lang="en">Episode 25</sub-title>
+    <category lang="en">Series</category>
+    <category lang="en">Game Show</category>
+    <category lang="en">Reality</category>
+    <episode-num system="onscreen">S23 E25</episode-num>
+    <episode-num system="xmltv_ns">22.24.0/1</episode-num>
     <rating>
-      <value>TV-14</value>
+      <value>Not Rated</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009115737 -0400" stop="20261009120911 -0400" channel="whiplashbiwi">
-    <title lang="en">Mike Tyson Mysteries</title>
-    <sub-title lang="en">Love Letters</sub-title>
-    <desc lang="en">The team attends yard sales.</desc>
+  <programme start="20261011164500 +0100" stop="20261011170000 +0100" channel="whiplashwindowtv">
+    <title lang="en">The Amazing World of Gumball</title>
+    <sub-title lang="en">The Potato</sub-title>
+    <desc lang="en">When Darwin has lunch with Idaho, he decides to stop eating potatoes in solidarity with his brotato, but he finds his obsession with his favorite food harder to kick than he ever imagined, so Gumball decides to help his friend curb his carb cravings.</desc>
     <category lang="en">Series</category>
     <category lang="en">Adventure</category>
     <category lang="en">Animation</category>
     <category lang="en">Comedy</category>
-    <category lang="en">Crime</category>
+    <category lang="en">Family</category>
     <category lang="en">Fantasy</category>
-    <category lang="en">Horror</category>
-    <category lang="en">Mystery</category>
+    <category lang="en">Music</category>
+    <category lang="en">Musical</category>
+    <category lang="en">Sci-Fi &amp; Fantasy</category>
     <category lang="en">Science Fiction</category>
-    <episode-num system="onscreen">S03 E03</episode-num>
-    <episode-num system="xmltv_ns">2.2.0/1</episode-num>
+    <category lang="en">Short</category>
+    <episode-num system="onscreen">S05 E11</episode-num>
+    <episode-num system="xmltv_ns">4.10.0/1</episode-num>
+    <rating>
+      <value>TV-Y7</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011170000 +0100" stop="20261011173000 +0100" channel="whiplashwindowtv">
+    <title lang="en">Would I Lie to You?</title>
+    <sub-title lang="en">Greg Davies, Richard Osman, Patsy Kensit, Bob Mortimer</sub-title>
+    <desc lang="en">Lee Mack is joined by Bob Mortimer and Patsy Kensit and David Mitchell is joined by Greg Davies and Richard Osman.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Game Show</category>
+    <episode-num system="onscreen">S06 E06</episode-num>
+    <episode-num system="xmltv_ns">5.5.0/1</episode-num>
+    <rating>
+      <value>Not Rated</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011173000 +0100" stop="20261011180000 +0100" channel="whiplashwindowtv">
+    <title lang="en">Would I Lie to You?</title>
+    <sub-title lang="en">Huw Edwards, Sarah Millican, Josie Lawrence, Bradley Walsh</sub-title>
+    <desc lang="en">In this episode, Lee Mack is joined by Huw Edwards and Sarah Millican, and David Mitchell is joined by Bradley Walsh and Josie Lawrence.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Game Show</category>
+    <episode-num system="onscreen">S06 E07</episode-num>
+    <episode-num system="xmltv_ns">5.6.0/1</episode-num>
+    <rating>
+      <value>Not Rated</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011180000 +0100" stop="20261011184500 +0100" channel="whiplashwindowtv">
+    <title lang="en">House</title>
+    <sub-title lang="en">Autopsy</sub-title>
+    <desc lang="en">A girl's unimaginable bravery toward her terminal illness makes House suspicious as he puts a life-or-death decision about her case in her young hands.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Mystery</category>
+    <category lang="en">Suspense</category>
+    <episode-num system="onscreen">S02 E02</episode-num>
+    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
     <rating>
       <value>TV-14</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009120911 -0400" stop="20261009124349 -0400" channel="whiplashbiwi">
-    <title lang="en">Arrested Development</title>
-    <sub-title lang="en">Queen B.</sub-title>
-    <desc lang="en">Lucille finds that her children have started dividing up her things, and adjusts to her new home.</desc>
+  <programme start="20261011184500 +0100" stop="20261011194500 +0100" channel="whiplashwindowtv">
+    <title lang="en">Top Gear</title>
+    <sub-title lang="en">Celebrating 40 Years of the Porsche 911</sub-title>
+    <desc lang="en">REVIEWS: Ford GT • BMW 5-Series • Porsche 911 GT3
+
+CHALLENGE: Can the diesel Volkswagen Lupo get better mpg than the petrol version?
+
+Jeremy drives the new Ford GT40 in Detroit and a diesel VW Lupo around the M25. James drives the new-look BMW 5 series and Richard drives the new - but it looks like every other - Porsche GT3. The Stig drives off the end of an aircraft carrier (!?) and Martin Kemp is the Star in a Reasonably Priced Car.</desc>
     <category lang="en">Series</category>
+    <category lang="en">Adventure</category>
     <category lang="en">Comedy</category>
-    <episode-num system="onscreen">S04 E10</episode-num>
-    <episode-num system="xmltv_ns">3.9.0/1</episode-num>
+    <category lang="en">Documentary</category>
+    <category lang="en">Reality</category>
+    <category lang="en">Sport</category>
+    <category lang="en">Talk</category>
+    <category lang="en">Talk Show</category>
+    <category lang="en">Travel</category>
+    <episode-num system="onscreen">S03 E01</episode-num>
+    <episode-num system="xmltv_ns">2.0.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011194500 +0100" stop="20261011203000 +0100" channel="whiplashwindowtv">
+    <title lang="en">An Idiot Abroad</title>
+    <sub-title lang="en">India</sub-title>
+    <desc lang="en">Karl travels to India and gives own unique verdict on its ancient customs and vibrant culture.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">Reality</category>
+    <category lang="en">Travel</category>
+    <episode-num system="onscreen">S01 E02</episode-num>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <rating>
       <value>TV-MA</value>
     </rating>
     <previously-shown />
   </programme>
-  <programme start="20261009124349 -0400" stop="20261009130649 -0400" channel="whiplashbiwi">
+  <programme start="20261011203000 +0100" stop="20261011212929 +0100" channel="whiplashwindowtv">
+    <title lang="en">Gavin &amp; Stacey</title>
+    <sub-title lang="en">Episode 8</sub-title>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Romance</category>
+    <episode-num system="onscreen">S02 E08</episode-num>
+    <episode-num system="xmltv_ns">1.7.0/1</episode-num>
+    <rating>
+      <value>Not Rated</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261009124404 -0400" stop="20261009130649 -0400" channel="whiplashbiwi">
     <title lang="en">The Simpsons</title>
     <sub-title lang="en">Lemon of Troy</sub-title>
     <desc lang="en">Springfield boys try to recapture the town's beloved lemon tree after it's stolen.</desc>
@@ -10801,6 +10817,302 @@ SpongeBob and Patrick play with slide whistles. Squidward joins in, but takes th
     </rating>
     <previously-shown />
   </programme>
+  <programme start="20261011081601 -0400" stop="20261011083921 -0400" channel="whiplashbiwi">
+    <title lang="en">Teen Titans</title>
+    <sub-title lang="en">Things Change</sub-title>
+    <desc lang="en">After months of fighting the Brotherhood of Evil around the globe, the Teen Titans are finally back home. But a walk through the city reveals that things are no longer as they remembered. And while Beast Boy wants everything to be just like it was in the past, he has to face the fact that in life things change.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Action</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Children</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Sci-Fi &amp; Fantasy</category>
+    <category lang="en">Science Fiction</category>
+    <episode-num system="onscreen">S05 E13</episode-num>
+    <episode-num system="xmltv_ns">4.12.0/1</episode-num>
+    <rating>
+      <value>TV-Y7</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011083921 -0400" stop="20261011090122 -0400" channel="whiplashbiwi">
+    <title lang="en">King of the Hill</title>
+    <sub-title lang="en">Propane Boom</sub-title>
+    <desc lang="en">Buck Strickland is forced to close the Arlen branch of Strickland Propane after the local Mega Lo Mart begins selling propane at a lower price. As a result, Hank has to take a job at Mega Lo- working under Buckley.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S02 E23</episode-num>
+    <episode-num system="xmltv_ns">1.22.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011090122 -0400" stop="20261011092306 -0400" channel="whiplashbiwi">
+    <title lang="en">King of the Hill</title>
+    <sub-title lang="en">Hillennium</sub-title>
+    <desc lang="en">As Y2K approaches, everybody fears the approaching millennium, even Dale, who hoards food, Mountain Dew and hamsters in his basement. Only Hank is unaffected by the growing concerns...until there's a propane shortage.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S04 E10</episode-num>
+    <episode-num system="xmltv_ns">3.9.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011092306 -0400" stop="20261011095328 -0400" channel="whiplashbiwi">
+    <title lang="en">Curb Your Enthusiasm</title>
+    <sub-title lang="en">The Seder</sub-title>
+    <desc lang="en">A sex offender (Rob Corddry) moves into the neighborhood, and becomes friends with Larry. Larry also suspects that Dr. Mark is stealing his newspaper, after his neighbor Ethel claims she saw him take it. Tension mounts when all of these people are guests at Larry's Passover Seder.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S05 E07</episode-num>
+    <episode-num system="xmltv_ns">4.6.0/1</episode-num>
+    <rating>
+      <value>TV-MA</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011095328 -0400" stop="20261011101510 -0400" channel="whiplashbiwi">
+    <title lang="en">Animaniacs</title>
+    <sub-title lang="en">Taming of the Screwy</sub-title>
+    <desc lang="en">When potential foreign investors want to meet the wacky Warner siblings, the studio boss orders Dr. Scratchansniff to train the untamable trio.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Children</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <category lang="en">Musical</category>
+    <category lang="en">Short</category>
+    <episode-num system="onscreen">S01 E12</episode-num>
+    <episode-num system="xmltv_ns">0.11.0/1</episode-num>
+    <rating>
+      <value>TV-Y7</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011101510 -0400" stop="20261011103857 -0400" channel="whiplashbiwi">
+    <title lang="en">SpongeBob SquarePants</title>
+    <sub-title lang="en">Squid's Visit / To SquarePants or Not to SquarePants</sub-title>
+    <desc lang="en">Squidward won't come over to SpongeBob's house no matter how many times he asks, so SpongeBob creates an exact replica of the inside of Squidward's house.
+
+After SpongeBob has to buy a pair of rounded pants because his square ones shrunk in the washing machine, he takes on a new personality.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Children</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <category lang="en">Fantasy</category>
+    <episode-num system="onscreen">S06 E16</episode-num>
+    <episode-num system="xmltv_ns">5.15.0/1</episode-num>
+    <rating>
+      <value>TV-Y7</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011103857 -0400" stop="20261011110107 -0400" channel="whiplashbiwi">
+    <title lang="en">Arrested Development</title>
+    <sub-title lang="en">Burning Love</sub-title>
+    <desc lang="en">Michael reunites with his long, lost love Sally Sitwell, but faces interference from parents. Meanwhile, the two Lucilles need someone to bid on them at the bachelorette auction with Buster already in a relationship.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S02 E09</episode-num>
+    <episode-num system="xmltv_ns">1.8.0/1</episode-num>
+    <rating>
+      <value>TV-MA</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011110107 -0400" stop="20261011111238 -0400" channel="whiplashbiwi">
+    <title lang="en">Mike Tyson Mysteries</title>
+    <sub-title lang="en">A Mystery in Little Italy</sub-title>
+    <desc lang="en">What to do with baby octopus, plantains, smoked kippers and cream of mushroom soup.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Crime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Horror</category>
+    <category lang="en">Mystery</category>
+    <category lang="en">Science Fiction</category>
+    <episode-num system="onscreen">S04 E10</episode-num>
+    <episode-num system="xmltv_ns">3.9.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011111238 -0400" stop="20261011113450 -0400" channel="whiplashbiwi">
+    <title lang="en">King of the Hill</title>
+    <sub-title lang="en">Episode 24</sub-title>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S13 E24</episode-num>
+    <episode-num system="xmltv_ns">12.23.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011113450 -0400" stop="20261011115701 -0400" channel="whiplashbiwi">
+    <title lang="en">King of the Hill</title>
+    <sub-title lang="en">Yard, She Blows!</sub-title>
+    <desc lang="en">Hank's immaculately manicured front lawn is as good as gone when Peggy tries to horn in on the glory with her own contributions.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S09 E04</episode-num>
+    <episode-num system="xmltv_ns">8.3.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011115701 -0400" stop="20261011140154 -0400" channel="whiplashbiwi">
+    <title lang="en">Castle in the Sky</title>
+    <desc lang="en">A young boy stumbles into a mysterious girl who floats down from the sky. The girl, Sheeta, was chased by pirates, army and government secret agents. In saving her life, they begin a high flying adventure that goes through all sorts of flying machines, eventually searching for Sheeta's identity in a floating castle of a lost civilization.</desc>
+    <date>1986</date>
+    <category lang="en">Movie</category>
+    <category lang="en">Action</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Anime</category>
+    <category lang="en">Family</category>
+    <category lang="en">Fantasy</category>
+    <rating>
+      <value>PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011140154 -0400" stop="20261011143209 -0400" channel="whiplashbiwi">
+    <title lang="en">Curb Your Enthusiasm</title>
+    <sub-title lang="en">The Car Pool Lane</sub-title>
+    <desc lang="en">Larry wants tickets for a coming Dodger game. Before he can go he has to get out of jury duty, score some medical marijuana for his dad's glaucoma and drive a friend to the airport. Thankfully a run-in with a hooker makes all these easier.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S04 E06</episode-num>
+    <episode-num system="xmltv_ns">3.5.0/1</episode-num>
+    <rating>
+      <value>TV-MA</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011143209 -0400" stop="20261011145450 -0400" channel="whiplashbiwi">
+    <title lang="en">Home Movies</title>
+    <sub-title lang="en">I Don't Do Well in Parent-Teacher Conferences</sub-title>
+    <desc lang="en">Brendon is in danger of being held back when he won't complete the research for his presentation, and Paula isn't helping his cause.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <episode-num system="onscreen">S01 E02</episode-num>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <rating>
+      <value>TV-PG</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011145450 -0400" stop="20261011152757 -0400" channel="whiplashbiwi">
+    <title lang="en">Curb Your Enthusiasm</title>
+    <sub-title lang="en">Mister Softee</sub-title>
+    <desc lang="en">An ice cream truck triggers a painful childhood memory for Larry.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S08 E09</episode-num>
+    <episode-num system="xmltv_ns">7.8.0/1</episode-num>
+    <rating>
+      <value>TV-MA</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011152757 -0400" stop="20261011154942 -0400" channel="whiplashbiwi">
+    <title lang="en">The Simpsons</title>
+    <sub-title lang="en">G.I. (Annoyed Grunt)</sub-title>
+    <desc lang="en">Homer is bamboozled by Army recruiters and winds up in basic training, where he runs afoul of a tough-minded colonel and is assigned to play the enemy in war games.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S18 E05</episode-num>
+    <episode-num system="xmltv_ns">17.4.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011154942 -0400" stop="20261011161222 -0400" channel="whiplashbiwi">
+    <title lang="en">The Simpsons</title>
+    <sub-title lang="en">Round Springfield</sub-title>
+    <desc lang="en">When Bart swallows a hazardous prize from a cereal box and winds up in the hospital, Lisa finds out her jazz idol Bleeding Gums Murphy has a room of his own there. Sadly, this turns out to be his deathbed, and not only is she upset about him dying, but she realizes that nobody will ever remember him for his music, unless she does something about it.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S06 E22</episode-num>
+    <episode-num system="xmltv_ns">5.21.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011161222 -0400" stop="20261011163525 -0400" channel="whiplashbiwi">
+    <title lang="en">King of the Hill</title>
+    <sub-title lang="en">The Substitute Spanish Prisoner</sub-title>
+    <desc lang="en">A con man offers "genius" Peggy an at-home doctorate course, which she finances with the Hills' retirement fund.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Family</category>
+    <episode-num system="onscreen">S06 E10</episode-num>
+    <episode-num system="xmltv_ns">5.9.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011163525 -0400" stop="20261011165833 -0400" channel="whiplashbiwi">
+    <title lang="en">The Simpsons</title>
+    <sub-title lang="en">22 Short Films About Springfield</sub-title>
+    <desc lang="en">Bart and Milhouse wonder if anything interesting happens to the citizens of Springfield, which leads to a series of interconnected vignettes.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S07 E21</episode-num>
+    <episode-num system="xmltv_ns">6.20.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
+  <programme start="20261011165833 -0400" stop="20261011172514 -0400" channel="whiplashbiwi">
+    <title lang="en">The Inbetweeners</title>
+    <sub-title lang="en">The Camping Trip</sub-title>
+    <desc lang="en">Will decides to organise one last adventure for his friends before they all go their separate ways, so the gang heads off for a camping trip in the countryside. While Will draws on all his scout training, Jay, Neil and Simon are less than prepared for the great outdoors.</desc>
+    <category lang="en">Series</category>
+    <category lang="en">Comedy</category>
+    <episode-num system="onscreen">S03 E06</episode-num>
+    <episode-num system="xmltv_ns">2.5.0/1</episode-num>
+    <rating>
+      <value>TV-14</value>
+    </rating>
+    <previously-shown />
+  </programme>
   <programme start="20260912120000 +0200" stop="20260912130000 +0200" channel="whiplashzenith">
     <title lang="fr">Pixel Perfect (rediffusion)</title>
   </programme>
@@ -11413,6 +11725,11 @@ SpongeBob and Patrick play with slide whistles. Squidward joins in, but takes th
   </programme>
   <programme start="20261009043000 -0400" stop="20261009060000 -0400" channel="eel-channel">
     <title lang="en">The Late Shift</title>
+    <desc lang="en">The office's shuttered, the takeout's gone cold, and the tubes are still warm. The Late Shift is the Eel Channel after dark.
+
+Insomniac cartoons, vintage grapplers, music videos warped off a third-gen tape, and static-soaked oddities out of the archive at 4 AM, all buzzing at a cozy 502p.
+
+Don't adjust your set; that hum is on purpose.</desc>
   </programme>
   <programme start="20261009060000 -0400" stop="20261009062500 -0400" channel="eel-channel">
     <title lang="en">Trigun</title>
@@ -11546,7 +11863,12 @@ Car Dealership</desc>
     <episode-num system="xmltv_ns">2.0.</episode-num>
   </programme>
   <programme start="20261009131500 -0400" stop="20261009140500 -0400" channel="eel-channel">
-    <title lang="en">Music Videos</title>
+    <title lang="en">The Break Room</title>
+    <desc lang="en">Your midday jolt, no talk, no ads.
+
+Back-to-back music videos: fresh, forgotten, and gloriously scuffed — enough to carry you clean through to clock-out.
+
+Pull up a folding chair.</desc>
   </programme>
   <programme start="20261009140500 -0400" stop="20261009143000 -0400" channel="eel-channel">
     <title lang="en">Everybody Hates Chris</title>
@@ -11808,6 +12130,11 @@ The next event in the ""Fat Boy Face Off"" is an obstacle course affectionally l
   </programme>
   <programme start="20261010045000 -0400" stop="20261010060000 -0400" channel="eel-channel">
     <title lang="en">The Late Shift</title>
+    <desc lang="en">The office's shuttered, the takeout's gone cold, and the tubes are still warm. The Late Shift is the Eel Channel after dark.
+
+Insomniac cartoons, vintage grapplers, music videos warped off a third-gen tape, and static-soaked oddities out of the archive at 4 AM, all buzzing at a cozy 502p.
+
+Don't adjust your set; that hum is on purpose.</desc>
   </programme>
   <programme start="20261010060000 -0400" stop="20261010062500 -0400" channel="eel-channel">
     <title lang="en">Trigun</title>
@@ -11941,7 +12268,12 @@ The next event in the ""Fat Boy Face Off"" is an obstacle course affectionally l
     <episode-num system="xmltv_ns">3.0.</episode-num>
   </programme>
   <programme start="20261010131000 -0400" stop="20261010140500 -0400" channel="eel-channel">
-    <title lang="en">Music Videos</title>
+    <title lang="en">The Break Room</title>
+    <desc lang="en">Your midday jolt, no talk, no ads.
+
+Back-to-back music videos: fresh, forgotten, and gloriously scuffed — enough to carry you clean through to clock-out.
+
+Pull up a folding chair.</desc>
   </programme>
   <programme start="20261010140500 -0400" stop="20261010143000 -0400" channel="eel-channel">
     <title lang="en">Everybody Hates Chris</title>
@@ -12173,6 +12505,11 @@ The next event in the ""Fat Boy Face Off"" is an obstacle course affectionally l
   </programme>
   <programme start="20261011043500 -0400" stop="20261011060000 -0400" channel="eel-channel">
     <title lang="en">The Late Shift</title>
+    <desc lang="en">The office's shuttered, the takeout's gone cold, and the tubes are still warm. The Late Shift is the Eel Channel after dark.
+
+Insomniac cartoons, vintage grapplers, music videos warped off a third-gen tape, and static-soaked oddities out of the archive at 4 AM, all buzzing at a cozy 502p.
+
+Don't adjust your set; that hum is on purpose.</desc>
   </programme>
   <programme start="20261011060000 -0400" stop="20261011062500 -0400" channel="eel-channel">
     <title lang="en">Trigun</title>
@@ -12306,7 +12643,12 @@ The next event in the ""Fat Boy Face Off"" is an obstacle course affectionally l
     <episode-num system="xmltv_ns">3.1.</episode-num>
   </programme>
   <programme start="20261011131500 -0400" stop="20261011140500 -0400" channel="eel-channel">
-    <title lang="en">Music Videos</title>
+    <title lang="en">The Break Room</title>
+    <desc lang="en">Your midday jolt, no talk, no ads.
+
+Back-to-back music videos: fresh, forgotten, and gloriously scuffed — enough to carry you clean through to clock-out.
+
+Pull up a folding chair.</desc>
   </programme>
   <programme start="20261011140500 -0400" stop="20261011143000 -0400" channel="eel-channel">
     <title lang="en">Everybody Hates Chris</title>
