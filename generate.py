@@ -149,7 +149,9 @@ FIXED_DESC = {
         "distributed by Hanna-Barbera Studios, Warner Bros., Disney, 20th Century Fox, "
         "Universal, Columbia, Paramount, DreamWorks, and MGM.",
     "Adult Halloween Special":
-        "The spooky stuff they aired after the kids went to bed. Lights off, zero supervision.",
+        "The spooky stuff they aired after the kids went to bed."
+        "\n\n"
+        "Lights off, zero supervision.",
     "Retro Blast Halloween":
         "Enjoy classic Halloween specials and movies including Scooby-Doo, Courage the "
         "Cowardly Dog, The Simpsons, The Grim Adventures of Billy & Mandy, Hocus Pocus (1993), "
@@ -167,6 +169,14 @@ FIXED_DESC = {
         "Adult Swim Universes, this retro block strips away the standard daytime schedule to "
         "showcase full-length animated features that are a little darker, a little weirder, "
         "and entirely captivating.",
+    # ── Fizz blocks ──
+    "Fizz Cartoons":
+        "Vintage fizz from the golden age of animation: Looney Tunes, MGM shorts, Walter Lantz "
+        "Cartunes and Fleischer classics, mixed with international gems from the NFB/ONF, "
+        "Zagreb Film and beyond.",
+    "Fizz Vidz":
+        "Three decades of rock and pop on tap, with music videos from the 80s to the 00s, "
+        "fizzing you through the small hours.",
     # ── Eel Channel blocks (blank lines between paragraphs render as line breaks) ──
     "The Late Shift":
         "The office's shuttered, the takeout's gone cold, and the tubes are still warm. "
@@ -197,7 +207,10 @@ FIXED_DESC = {
 #    ~11:25-11:30 PM late-night block (2x/week). Split them by local start hour.
 # ("The Late Shift" keeps its feed title; its description is handled via FIXED_DESC.)
 # Feed start attr looks like "20260927131000 -0400"; digits [8:10] are the local hour.
-def _eel_segment_rename(title, start):
+def _eel_segment_rename(title, start, channel=None):
+    # Fizz's nightly classic-shorts block is titled just "Cartoons" in the feed.
+    if channel == "fizz" and title == "Cartoons":
+        return "Fizz Cartoons"
     if title == "Music Videos":
         try:
             hr = int((start or "")[8:10])
@@ -750,7 +763,7 @@ def build_eel(tv, root, cache):
             if prog.get("channel") != src_id: continue
             raw_title = (prog.findtext("title") or "").strip()
             title, sub, season, ep, ep_end = parse_title(raw_title)
-            title = _eel_segment_rename(title, prog.get("start"))   # time-based / display renames
+            title = _eel_segment_rename(title, prog.get("start"), local_id)   # time/channel-based renames
             desc = None
             if season is None and sub:                 # have episode name, no number -> match it
                 season, ep = _name_to_se(title, sub, cache)
