@@ -1059,6 +1059,100 @@ def build_weekly(ch_id, name, logo, sched, cache, end, start=None, tz=_central_t
     if TMDB_KEY: print(f"  synopses attached: {got}")
     return tv
 
+# ── Placid (webch.nl live weekly anime block) ──────────────────────────────
+# Source serves only a short window, live ~once a week (Sat). We ROLLING-MERGE
+# each run into placid_state.json (committed) so captured blocks persist, prune
+# old history, then fill all off-air time with 12h filler. Output Placid.xml.
+PLACID_URL          = "https://placid.webch.nl/assets/api/schedules.php?id=38"
+PLACID_OUTPUT       = "Placid.xml"
+PLACID_ID           = "Placid"
+PLACID_NAME         = "Placid"
+PLACID_LOGO         = "https://i.imgur.com/0PCSYdW.png"
+PLACID_STATE        = "placid_state.json"   # rolling store of real programmes seen (commit it)
+PLACID_KEEP_DAYS    = 21                      # retain this much past history
+PLACID_HORIZON_DAYS = 14                      # extend off-air filler this far ahead of now
+PLACID_FILLER_TITLE = "PLACID IS OFFLINE FOR THE WEEK"
+PLACID_FILLER_DESC  = ("Only the best in anime(tion)."
+                       "\n\n"
+                       "Placid is live every Saturday at 5:00 PM EST.")
+
+def _xmltv_to_utc(ts):
+    """'YYYYmmddHHMMSS ±HHMM' -> naive UTC datetime."""
+    parts = (ts or "").split()
+    d = parts[0]; off = parts[1] if len(parts) > 1 else "+0000"
+    base = datetime.strptime(d, "%Y%m%d%H%M%S")
+    sign = 1 if off[0] == "+" else -1
+    return base - sign * timedelta(hours=int(off[1:3]), minutes=int(off[3:5]))
+
+def _next_grid12(dt):
+    """Next 00:00 or 12:00 UTC strictly after dt (12h filler grid)."""
+    b = dt.replace(hour=0, minute=0, second=0, microsecond=0)
+    for h in (0, 12, 24):
+        c = b + timedelta(hours=h)
+        if c > dt:
+            return c
+    return dt + timedelta(hours=12)
+
+def build_placid(src_root, state_path=PLACID_STATE, now=None):
+    now = now or datetime.utcnow()
+    try:
+        with open(state_path, encoding="utf-8") as f:
+            state = json.load(f)
+    except Exception:
+        state = {}
+    added = 0
+    for prog in src_root.findall("programme"):
+        np = ET.fromstring(ET.tostring(prog)); np.set("channel", PLACID_ID)
+        _strip_local_images(np)
+        key = np.get("start")
+        if not key:
+            continue
+        if key not in state:
+            added += 1
+        state[key] = ET.tostring(np, encoding="unicode")        # add or refresh
+    cutoff = now - timedelta(days=PLACID_KEEP_DAYS)
+    state = {k: v for k, v in state.items() if _xmltv_to_utc(k) >= cutoff}
+    with open(state_path, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=0, sort_keys=True)
+
+    tv = ET.Element("tv", {"generator-info-name": "placid-epg-generator"})
+    ch = ET.SubElement(tv, "channel", {"id": PLACID_ID})
+    ET.SubElement(ch, "display-name").text = PLACID_NAME
+    ET.SubElement(ch, "icon", {"src": PLACID_LOGO})
+
+    reals = []
+    for xmlstr in state.values():
+        p = ET.fromstring(xmlstr)
+        reals.append((_xmltv_to_utc(p.get("start")), _xmltv_to_utc(p.get("stop")), p))
+    reals.sort(key=lambda r: r[0])
+
+    span_start = min([r[0] for r in reals] + [now]) if reals else now
+    span_end   = max([r[1] for r in reals] + [now + timedelta(days=PLACID_HORIZON_DAYS)])
+
+    def add_filler(a, b):
+        t = a
+        while t < b:
+            end = min(_next_grid12(t), b)
+            fp = ET.SubElement(tv, "programme", {
+                "start": t.strftime("%Y%m%d%H%M%S") + " +0000",
+                "stop":  end.strftime("%Y%m%d%H%M%S") + " +0000",
+                "channel": PLACID_ID})
+            ET.SubElement(fp, "title", {"lang": "en"}).text = PLACID_FILLER_TITLE
+            ET.SubElement(fp, "desc",  {"lang": "en"}).text = PLACID_FILLER_DESC
+            t = end
+
+    cursor = span_start
+    for a, b, p in reals:
+        if a > cursor:
+            add_filler(cursor, a)
+        tv.append(p)
+        if b > cursor:
+            cursor = b
+    if cursor < span_end:
+        add_filler(cursor, span_end)
+    print(f"  Placid: {len(reals)} real programmes (+{added} new this run), filler to now+{PLACID_HORIZON_DAYS}d")
+    return tv
+
 def build_m3u():
     lines = [f'#EXTM3U url-tvg="{EPG_RAW_URL}"', ""]
     disp = {v[0]: v[1] for v in WL_CHANNEL_MAP.values()}
@@ -1129,6 +1223,14 @@ def main():
         ET.ElementTree(wtv).write(out, encoding="UTF-8", xml_declaration=True)
         print(f"Wrote {out}")
         print(f"Channels: {len(wtv.findall('channel'))}, programmes: {len(wtv.findall('programme'))}")
+
+    print(f"Fetching {PLACID_URL} ...")
+    placid_src = fetch_xml_safe(PLACID_URL, "Placid")
+    print("Placid:"); ptv = build_placid(placid_src)
+    indent(ptv)
+    ET.ElementTree(ptv).write(PLACID_OUTPUT, encoding="UTF-8", xml_declaration=True)
+    print(f"Wrote {PLACID_OUTPUT}")
+    print(f"Channels: {len(ptv.findall('channel'))}, programmes: {len(ptv.findall('programme'))}")
 
     save_desc_cache(cache)
 
