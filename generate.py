@@ -68,6 +68,19 @@ EEL_LOGOS = {
     "fizz":         "https://i.imgur.com/0z5rG3A.png",
     "toon-diggity": "https://i.imgur.com/GhzJMF9.png",
 }
+# The eel feed occasionally RENUMBERS a source channel id (e.g. Toon Diggity moved
+# C3.147 -> C121.244, leaving C3.147 as a stale orphan). build_eel self-heals: if a
+# configured id is gone from the feed, it re-finds the channel by its display-name
+# (keyed on the stable tvg-id) and logs a NOTE. Extra display-name spellings the feed
+# might use go here; the display-names in EEL_CHANNEL_MAP are matched automatically.
+EEL_NAME_ALIASES = {
+    "toon disney shuffle": "toon-diggity",
+    "toon disney":         "toon-diggity",
+    "toon disney shorts":  "toon-diggity",
+}
+def _norm_chan_name(s):
+    s = re.sub(r"^\s*\d+\s*", "", (s or "").strip())      # drop the feed's leading channel number
+    return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
 
 # ── MistLive: copy every channel as-is, enrich only these two ──
 MIST_URL = "https://api.mistlive.tv/api/xmltv.xml"
@@ -784,7 +797,29 @@ def copy_whiplash(tv, root):
 
 def build_eel(tv, root, cache):
     got_desc = got_sub = 0
-    for src_id, (local_id, _) in EEL_CHANNEL_MAP.items():
+    # Resolve each configured Eel channel to the source id present in THIS feed.
+    # Prefer the configured id; if it has vanished (feed renumbered it), auto-switch
+    # to whichever DECLARED channel now carries the matching display-name, keyed on
+    # the stable tvg-id. Undeclared "orphan" programme ids are ignored.
+    declared = {c.get("id"): (c.findtext("display-name") or "") for c in root.findall("channel")}
+    name2local = {_norm_chan_name(disp): loc for loc, disp in EEL_CHANNEL_MAP.values()}
+    for _alias, _loc in EEL_NAME_ALIASES.items():
+        name2local[_norm_chan_name(_alias)] = _loc
+    resolved = {}   # src_id_in_feed -> (local_id, display)
+    for want_id, (local_id, display) in EEL_CHANNEL_MAP.items():
+        if want_id in declared:
+            resolved[want_id] = (local_id, display)
+            continue
+        alt = next((cid for cid, cname in declared.items()
+                    if cid not in EEL_CHANNEL_MAP and name2local.get(_norm_chan_name(cname)) == local_id), None)
+        if alt:
+            resolved[alt] = (local_id, display)
+            print(f"  NOTE: Eel '{display}' source id changed {want_id} -> {alt} "
+                  f"(auto-matched by display-name; update EEL_CHANNEL_MAP to silence)")
+        else:
+            print(f"  WARNING: Eel '{display}' source id {want_id} not in feed and no "
+                  f"display-name match found -> this channel will be EMPTY this run")
+    for src_id, (local_id, _) in resolved.items():
         n = 0
         for prog in root.findall("programme"):
             if prog.get("channel") != src_id: continue
