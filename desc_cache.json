@@ -322,6 +322,10 @@
 "n": "Ned's Life as a Dog",
 "o": "Ned eats dog food and is turned into a dog."
 },
+"11050|1|11": {
+"n": "Tooth or Consequences",
+"o": ""
+},
 "11050|1|3": {
 "n": "Robot Ned",
 "o": ""
@@ -733,6 +737,14 @@
 "137|2|14": {
 "n": "N is for Narcissist",
 "o": "Cornelia’s narcissistic behavior is getting on the other four Guardians’ nerves, especially when she signs them up to help her out at a school carwash so she won’t have to do any actual work."
+},
+"137|2|18": {
+"n": "R is for Relentless",
+"o": "A frightened Hay Lin is desperate to protect her grandmother from Nerissa. But Nerissa’s pursuit to capture Yan Lin results in a relentless chase from one dimension to another."
+},
+"137|2|19": {
+"n": "S is for Self",
+"o": "A K-SHIP ‘Battle of the Bands’ sets the stage for a battle between Matt and Shagon for ultimate control of Matt’s self. Meanwhile, Nerissa pursues her own agenda to complete the enthrallment and transformation of the old Guardians."
 },
 "13943|2|10": {
 "n": "Way Down Mexico Way (1)",
@@ -1298,6 +1310,10 @@
 "n": "The Substitute",
 "o": "Substitute teacher Mr. E. captivates all the kids with his command of authority, except T.J."
 },
+"1546|2|12": {
+"n": "Gretchen and the Secret of Yo",
+"o": "Gretchen turns to former yo-yo champ Tommy Tate to learn how to master the yo-yo."
+},
 "1546|2|13": {
 "n": "The Girl Was Trouble",
 "o": "Gretchen's search for her stolen laptop leads her on a journey among the school's delinquents that ultimately brings about her downfall."
@@ -1313,6 +1329,10 @@
 "1546|2|6": {
 "n": "The Lost Ball",
 "o": "Gus has to go to the Yard of No Return when he kicks a good kickball over the fence."
+},
+"1546|2|7": {
+"n": "Gus' Last Stand",
+"o": "Gus winds up the new target of the school bully's wrath."
 },
 "1546|2|8": {
 "n": "Operation Field Trip",
@@ -1386,6 +1406,14 @@
 "n": "The Biggest Trouble Ever",
 "o": "The gang gets busted when they accidentally break a statue of a famous hero."
 },
+"1546|4|3": {
+"n": "Hustler's Apprentice",
+"o": "Gus winds up working for the Hustler Kid to pay off a debt, and soon he himself becomes the biggest hustler in the playground."
+},
+"1546|4|4": {
+"n": "The Spy Who Came In from the Playground",
+"o": "The main kids make a friend of new kid James Stone and show him all their little schemes, but soon regret that."
+},
 "1546|4|5": {
 "n": "Gus' Fortune",
 "o": "The kids find a paper fortune teller on the ground that predicts doom for Gus."
@@ -1411,6 +1439,14 @@
 "o": ""
 },
 "1547|1|19": {
+"n": "",
+"o": ""
+},
+"1547|1|22": {
+"n": "",
+"o": ""
+},
+"1547|1|23": {
 "n": "",
 "o": ""
 },
@@ -1810,6 +1846,10 @@
 "n": "",
 "o": ""
 },
+"1615|1|6": {
+"n": "Kiwi's Big Adventure",
+"o": "The Ranger plane is swiped by a primitive tribe of flightless Kiwis, who worship it in the hope that it will allow them to fly once again."
+},
 "1615|1|62": {
 "n": "",
 "o": ""
@@ -1821,6 +1861,10 @@
 "1615|1|65": {
 "n": "",
 "o": ""
+},
+"1615|1|7": {
+"n": "Adventures in Squirrelsitting",
+"o": "The Rescue Rangers try to recover the Maltese Mouse from Fat Cat, and end up with the unlikely task of babysitting a mother squirrel's two rambunctious daughters."
 },
 "1615|1|8": {
 "n": "Pound of the Baskervilles",
@@ -1863,6 +1907,18 @@
 "o": ""
 },
 "1664|3|9": {
+"n": "",
+"o": ""
+},
+"1664|5|4": {
+"n": "",
+"o": ""
+},
+"1664|5|5": {
+"n": "",
+"o": ""
+},
+"1664|5|6": {
 "n": "",
 "o": ""
 },
@@ -1998,9 +2054,25 @@
 "n": "The Green",
 "o": "Cyberbiotics are cutting down the rainforest in Guatemala, and have hired Jackal and Hyena to take care of the local Gargoyle clan."
 },
+"1719|2|45": {
+"n": "The Gathering (2)",
+"o": "Oberon besieges Xanatos' skyscraper, determined to let nothing stand between him and the child."
+},
+"1719|2|46": {
+"n": "Vendettas",
+"o": "Three vengeful souls seek to make the gargoyles pay for ruining their lives."
+},
 "1719|2|47": {
 "n": "Turf",
 "o": "Tomas Brod tries to establish himself in New York by throwing out Dracon. Having infiltrated his gang, Elisa ends up right in the middle."
+},
+"1719|2|48": {
+"n": "The Reckoning",
+"o": "When the Manhattan Clan captures Demona, they and the Mutates decide to be her permanent jailers, unaware that they are falling into an elaborate trap."
+},
+"1719|2|49": {
+"n": "Possession",
+"o": "Puck's first magic lesson for Alexander causes no end of confusion amongst the gargoyles, as they transfer two of Coldstone's personalities into Broadway and Angela, while possessing two other gargoyles themselves."
 },
 "1719|2|5": {
 "n": "The Mirror",
@@ -2358,6 +2430,10 @@
 "n": "I.O.U. a U.F.O.",
 "o": "Donald and the kids are with Daisy, who's doing a story on a prospector who claims to have seen a UFO. Louie discovers the truth and ends up kidnapped."
 },
+"1863|1|30": {
+"n": "None Like it Hot",
+"o": "Dewey investigates who stole his favorite comic book and discovers a supervillain who lives in the sewers, hates the surfacedwellers and plans to set the world on fire with his giant lens. Meanwhile, Donald can't relax from all the noise."
+},
 "1863|1|31": {
 "n": "Ducky Dearest",
 "o": "Donald becomes paranoid that the kids have become juvenile delinquents. After seeing an infomercial about a special kit that helps parents track their kids, he immediately buys it and begins his investigation."
@@ -2445,6 +2521,14 @@
 "1877|2|5": {
 "n": "Backyard Aquarium",
 "o": "Phineas and Ferb have a new pet, Goldy the goldfish, and to help make Goldy feel less lonely, Phineas and Ferb have built an aquarium with many other creatures. Meanwhile, Perry must stop Doofenshmirtz from a food related childhood revenge story."
+},
+"1931|1|6": {
+"n": "A Gummi in a Gilded Cage",
+"o": "Sunni is kidnapped by a flock of ugly bird-like creatures known as Carpies, whose king wants her for a song bird. The Gummis (Gruffi, Zummi, and Cubbi) must use their new flying machine to get to the top of the mountain and rescue her, all whiledealing with Zummi's acrophobia and Gruffi's insistence that \"Gummis were not meant to fly\"."
+},
+"1931|1|7": {
+"n": "The Oracle",
+"o": "While trying to sneak out of his new diet, Tummi finds a stone ogre oracle and uses it to trick Duke Igthorn and the ogres with it."
 },
 "1931|5|6": {
 "n": "My Kingdom For A Pie",
@@ -2889,6 +2973,10 @@
 "2005|1|4": {
 "n": "There's No Camp Like Home",
 "o": "When the gang goes camping, Piglet is frightened by Tigger's stories and comes up against one of his greatest fears: Heffalumps."
+},
+"2005|1|5": {
+"n": "Balloonatics",
+"o": "Pooh borrows a balloon from Christopher Robin."
 },
 "2005|1|9": {
 "n": "The Great Hunny Pot Robbery",
@@ -3562,6 +3650,10 @@
 "n": "Goofin' Hood & His Melancholy Men",
 "o": "To get Max interested in history, Goofy tells him a story about one of his many ancestors in his family."
 },
+"2235|1|2": {
+"n": "Good Neighbor Goof",
+"o": "P.J. and Max, prohibited by their dads from hanging out with each other, finds a way to get them to make up so everyone can be happy."
+},
 "2235|1|20": {
 "n": "Leader of the Pack",
 "o": "A gang tries to takes over the popular hangout, and Max, PJ and his cousin Debbie tries his best to stop them."
@@ -3578,6 +3670,10 @@
 "n": "Waste Makes Haste",
 "o": "Goofy and Pete's recycling project gets serious when a millionaire's valuable is in with the recyclables."
 },
+"2235|1|29": {
+"n": "To Heir Is Human",
+"o": "Pete puts PJ to work at this car lot."
+},
 "2235|1|3": {
 "n": "Axed by Addition",
 "o": "P.J. afraid of getting grounded big time by his dad for a bad report card, so he has fun like it's his last day on Earth."
@@ -3585,6 +3681,10 @@
 "2235|1|30": {
 "n": "Hallow-Weenies",
 "o": "Pete acquires an old, haunted mansion -- haunted by a trio of ghostly musicians."
+},
+"2235|1|31": {
+"n": "Tub Be or Not Tub Be",
+"o": "A bathtub race pits PJ and Pete together."
 },
 "2235|1|32": {
 "n": "Major Goof",
@@ -3597,6 +3697,10 @@
 "2235|1|37": {
 "n": "Frankengoof",
 "o": "Goofy inherits the scary Frankengoof castle...and a monster to boot."
+},
+"2235|1|38": {
+"n": "E=MC Goof",
+"o": "Goofy? A rocket scientist? No way, there must be some mix-up somewhere."
 },
 "2235|1|39": {
 "n": "Pete's Day at the Races",
@@ -3617,6 +3721,10 @@
 "2235|1|47": {
 "n": "Window Pains",
 "o": "Peg's new window washing job causes a stupid battle between her and Pete over who makes the most money."
+},
+"2235|1|48": {
+"n": "Nightmare on Goof Street",
+"o": "Con artists takes Pete's house for a remodelling scheme."
 },
 "2235|1|5": {
 "n": "You Camp Take It with You",
@@ -3653,6 +3761,14 @@
 "2235|1|64": {
 "n": "To Catch a Goof",
 "o": "Pete goes on a diet, Goofy works on his ninja training techniques, and a burglar is roaming around town. What do these three scenarios have in common? That's up to the families and the police to decide."
+},
+"2235|1|65": {
+"n": "Gunfight at the Okie-Doke Corral",
+"o": "Goofy tells about his cowboy ancestor, Mopalong Goofy."
+},
+"2235|1|66": {
+"n": "",
+"o": ""
 },
 "2235|1|68": {
 "n": "",
@@ -4478,6 +4594,10 @@
 "n": "Everybody Hates The New Kid",
 "o": "When another African American kid goes to Corleone he and Chris hit it off, unfortunately Albert doesn't get along with most of the other kids including Greg.  When Julius and Rochelle get a tax refund Julius thinks it's a mistake and is afraid to spend it."
 },
+"2567|1|1": {
+"n": "Hercules and the Apollo Mission",
+"o": "It's Intern Week (which means a week off in the Real World), and everyone is happy with their jobs - everyone except Hercules, who's stuck in the fast food joint. When Hercules asks his dad for help in getting a better job, Zeus gives him a job guiding Apollo's chariot across the heavens."
+},
 "2567|1|11": {
 "n": "Hercules and the First Day of School",
 "o": "Hercules' first day of school, in which we are introduced to Icarus and Cassandra, and Herc's plans to be impressive don't work out quite as he had hoped."
@@ -4485,6 +4605,10 @@
 "2567|1|13": {
 "n": "Hercules and the Living Legend",
 "o": "The Lord of the Dead enlists the aid of former hero Achilles to help him distract Phil from training his would-be hero Hercules, by returning Achilles to his former glory."
+},
+"2567|1|14": {
+"n": "Hercules and the Return of Typhon",
+"o": "A three day weekend festival that celebrates Zeus' victory over the evil Titans occurs but when Hercules accidentally frees the titan Typhon, he doesn't feel much like celebrating."
 },
 "2567|1|16": {
 "n": "Hercules and the Girdle of Hippolyte",
@@ -4926,6 +5050,10 @@
 "n": "The Golden Sprocket of Friendship",
 "o": "Baloo has a new get-rich-quick scheme, but Rebecca has other plans for him."
 },
+"2720|1|19": {
+"n": "For a Fuel Dollars More",
+"o": "Rebecca has Baloo and Kit operating a mid-air refueling service."
+},
 "2720|1|22": {
 "n": "On a Wing and a Bear",
 "o": "Baloo lets his pilot's license expire and must retake his pilot's test."
@@ -5030,6 +5158,10 @@
 "n": "The Sound and the Furry",
 "o": "Wildcat finds a tank filled with furry beasts and takes them in as pets."
 },
+"2720|1|6": {
+"n": "It Came From Beneath the Sea Duck",
+"o": "Kit is anxious to tackle his first baby-sitting job."
+},
 "2720|1|63": {
 "n": "The Incredible Shrinking Molly",
 "o": "Molly is caught in a shrinking ray and is reduced to a quarter-inch tall."
@@ -5099,6 +5231,10 @@
 "o": ""
 },
 "2745|1|33": {
+"n": "",
+"o": ""
+},
+"2745|1|35": {
 "n": "",
 "o": ""
 },
@@ -5198,6 +5334,14 @@
 "n": "",
 "o": ""
 },
+"2745|1|7": {
+"n": "To Cure a Thief",
+"o": "Abu constantly steals whatever he likes and causes the Aladdin trouble as a new palace resident. Aladdin tries to keep Abu on a leash to keep him from mischief, but Abu hates it and runs away."
+},
+"2745|1|8": {
+"n": "Never Say Nefir",
+"o": "The city of Gezistan crashes everyday and it's up to Aladdin and friends to stop whatever is causing it. They find that a group of imps are doing the damage, then turning around and accepting payment by the sultan of Gezistan to fix the damage."
+},
 "2745|1|9": {
 "n": "Raiders Of The Lost Shark",
 "o": "A land swimming shark rampages through Agrabah. Aladdin and company climb aboard Captain Murk's flying ship to hunt it down."
@@ -5225,6 +5369,10 @@
 "2745|3|5": {
 "n": "Two to Tangle",
 "o": "Mozenrath's magic glove is destroying his body and  he's  decided to switch bodies with Aladdin, but something goes wrong and they both wind up in Aladdin's body."
+},
+"2745|3|6": {
+"n": "The Ethereal",
+"o": "Jasmine has a dream about the destruction of Agrabah. She tells the others, and they think she's crazy until it comes true. An evil being called the ethereal comes to judge Agrabah and she's not happy by what she sees."
 },
 "2798|3|14": {
 "n": "Art Show",
@@ -5578,8 +5726,20 @@
 "n": "",
 "o": ""
 },
+"298321|1|1": {
+"n": "Episode 1",
+"o": "The first volume of the Crayon Shinchan Horror Episodes Collection"
+},
 "298321|1|12": {
 "n": "Episode 12",
+"o": ""
+},
+"298321|1|14": {
+"n": "Episode 14",
+"o": ""
+},
+"298321|1|19": {
+"n": "Episode 19",
 "o": ""
 },
 "298321|1|21": {
@@ -6194,6 +6354,10 @@
 "n": "Lucky Shoes",
 "o": "Carver, convinced he can win a race as long as he is running in his lucky shoes, bets that if he loses, the others will be his opponent's slaves. Unfortunately, his \"lucky shoes\" get destroyed and the others don't want to tell him in case he loses his confidence, but will their deceit pay off and help Carver out?"
 },
+"3288|3|3": {
+"n": "Cry",
+"o": "After Tino cries at a movie in school, he decides to no longer have emotions. Will he be capable of doing such a grandiose task or will he find that emotions are something that everyone needs?"
+},
 "3288|3|4": {
 "n": "The Perfect Son",
 "o": "When Tino starts staying over at Carver's house, Carver gets the suspicion that his Dad likes Tino more and pictures Tino as a \"model son\"."
@@ -6470,9 +6634,21 @@
 "n": "Negaduck",
 "o": "Darkwing Duck has been zapped with Megavolt's tronsplitter, seperating his good side from his bad. Another zap with the two sides will restore him to normal, but his negative side is certain not to let that happen."
 },
+"3319|2|5": {
+"n": "Slaves to Fashion",
+"o": "Under Binkie Muddlefoot's advice, Drake decides Gosalyn should act more like a \"\"lady\"\". Meanwhile, Tuskernini has developed a spray that makes people act the way they are dressed and targets the rich citizens attending the school masquerade party."
+},
 "3319|2|6": {
 "n": "Something Fishy",
 "o": "A day at the beach gets turned upside down when the gang has to feal with attacks from sea creatures. In comes Neptunia, whom is sick of the pollution that is dumped in the sea and caused her to mutate. She plans revenge by flooding the city of St. Canard!"
+},
+"3319|2|7": {
+"n": "Tiff of the Titans",
+"o": "Fenton/Gizmoduck heads to St. Canard after Steelbeak.  The F.O.W.L. agents soon finds out and frames Darkwing so Gizmoduck will think he's evil.  The two fight it out, while Steelbeak tries to steal a new, top-secret weapon."
+},
+"3319|2|8": {
+"n": "Calm a Chameleon",
+"o": "The shape-changing villainess known as the Chameleon plots to take control of the Howl publishing empire so she can print her own money. Honker undergoes a personality transformation when he is bullied at school."
 },
 "3319|2|9": {
 "n": "Battle of the Brainteasers",
@@ -6726,6 +6902,10 @@
 "n": "Belly of the Beast",
 "o": "Finding themselves trapped within the Worm, the Hyperforce struggles to regain their composure after the day's past events. This doesn't keep them from their mission, however. As Antauri sets out, Sparx, Gibson, and Otto deal with the Skeleton King Droid. All the while, Chiro, separated from his teammates finds out that an old foe has survived within the Dark One's digestive tract and is plotting his vengeance. Is all lost for the Monkey Team? Dark One Worm aims to attack planet Earth."
 },
+"3428|3|3": {
+"n": "Season of the Skull",
+"o": "In hot pursuit of the Dark One Worm, the Super Robot is mysteriously transported to a strange village where everything is, as Otto puts it, \"spook-tacular.\" The citizens turn to the Monkey Team for help, claiming that they are plagued by a curse that is taking away their little ones. Nova knows it is not true literally But what secrets are these strange people really hiding? Trivia: This episode is Halloween-inspired, despite the fact that it aired before Halloween.\n\nGuest appearance: Angus Scrimm as Magistrate and Cassandra Peterson as Severina"
+},
 "3428|3|8": {
 "n": "Monster Battle Club Now!",
 "o": "Despite his already impressive combat prowess, it wouldn't hurt if Chiro learned some new moves. So the team heads to a distant planet to visit Nova's former master, only to find it corrupted by the Skeleton King Worm. Luckily, they are able to find Master Offay, who agrees to train Chiro. The leader of the Hyperforce is soon ready to compete in the tournament that will decide the team's freedom, all the while being affected by the planet's corrupted atmosphere. But while searching for a way out Sparx, Nova, Gibson, and Otto make a startling discovery about Nova's former master...\n\nGuest appearance: Mako Iwamatsu as Master Offay"
@@ -6737,6 +6917,18 @@
 "3428|4|1": {
 "n": "Galactic Smash: Space Attack (1)",
 "o": "The Monkey Team is recruited to play in the world's most dangerous game: Galactic Smash, by an unknown female warrior who requires their assistance, and a cheat device has claimed that they are the only ones who can save the world.\n\nGuest appearance: Tara Strong (Extreme Ghostbusters) as Olianna and Arthur Burghardt (Los Luchadores) as the Commodore Game Master"
+},
+"3428|4|5": {
+"n": "Invasion of the Vreen",
+"o": "When a race of super evolved insects arrives to conquer Shuggazoom, the Hyperforce has to stop them before they devour everyone in the city."
+},
+"3428|4|6": {
+"n": "Evil Ages",
+"o": "The Hyperforce decides to visit the Shuggazoom Museum, which contains past relics and antiques from the city's ancient past. Everything is going fine, until The Curator transports our heroes into the different histories of Shuggazoom! Will they be able to find their way back to the present?\n\nGuest appearance: Danny Mann as the Museum Curator and his Ancestors"
+},
+"3428|4|7": {
+"n": "Night of Fear",
+"o": "While patrolling the city, Sparx crash lands the Fist Rocket 3 in front of the Super Robot. When they rescue him they find he has lost his sight. Then Gibson turns into a drooling insane idiot, Antauri starts to lose control of his body and Mandarin takes control of his mind, Nova starts to see scary hallucinations, Chiro turns into a little boy, and clam monsters chase Otto. Who could be bring their phobias to life and will the monkeys stop who ever's behind it?"
 },
 "346|1|10": {
 "n": "The Heist",
@@ -6761,6 +6953,18 @@
 "346|1|9": {
 "n": "The Egg",
 "o": "The Egg: When a rare Griffin egg is stolen, Jake must fight the Huntsclan to return it to its nest."
+},
+"346|2|23": {
+"n": "Shaggy Frog",
+"o": "Spud is bitten by a magical frog, and begins to develop cool \"froggy\" powers. He enjoys all the perks of being part magical-that is, until #88 and #89 come 'a magical frog huntin'."
+},
+"346|2|24": {
+"n": "Nobody's Fu",
+"o": "Jake's loyalty to Fu Dog comes into question when he's assigned a new animal guardian-a totally cool hip-hop helper monkey. But can Jake's perfect new pet ever take the place of Fu Dog?"
+},
+"346|2|25": {
+"n": "Magic Enemy #1",
+"o": "Jake's venting to an online journal unintentionally turns Rotwood into the magical world's public enemy #1."
 },
 "3483|1|10": {
 "n": "Simple Machines",
@@ -7262,6 +7466,10 @@
 "n": "Enemy Without a Face",
 "o": "Team Lightyear get separated and meet up with the last Beletor and the last Krnozian, who're warring over possession of their home planet."
 },
+"3744|1|48": {
+"n": "The Starthought",
+"o": "While Team Lightyear is conducting mock-combat training with Team Rocket (...headed by Rocket Crocket...), Crocket goads Mira into getting herself tagged.  King Nova presents Mira with an invention of his, the Starthought; a small spacecraft guided by one's thoughts.  Mira has doubts about it until she realizes that it'd really bother Crocket to see her zipping around in such a spiffy ship.  While testing the Starthought, Mira runs into some tourists, who are actually Warp Darkmatter, along with one of Zurg's Brain Pods & a Grub, on a reconnaissance mission to scope out any new Star Command developments. Zurg sets up a fake raid on a Gulgarian mining outpost, in order to lure Mira, and the Starthought, into his clutches.  After successfully losing the Starthought to Zurg (...success for Zurg, dismal failure for Mira...), Mira goes to Cosmo's Diner to sulk, but Team Lightyear & King Nova show up and convince Mira to go out and re-nab the Starthought back from Zurg.  They sneak into Zurg"
+},
 "3744|1|5": {
 "n": "Inside Job",
 "o": "Buzz is impressed by rookie Flash Flemming, much to Booster's chagrin. Gargantia's ambassador Ursona Major contacts Star Command in order to join. But it turns out that there are rebels, who oppose the idea of Gargantia joining Star Command and thus possibly losing their individuality."
@@ -7306,6 +7514,10 @@
 "n": "",
 "o": ""
 },
+"3744|1|7": {
+"n": "The Planet Destroyer",
+"o": "Buzz and Mira are chasing after Lardak for counterfeiting and when they are taking him back to 42, they see Trade World being destroyed. Zurg contacts the Galactic Alliance and tells them to surrender or more planets will be destroyed."
+},
 "3745|1|1": {
 "n": "Muttamorphosis",
 "o": "Spot is jealous of Leonard's daily journey to school, so he pretends to be a boy and goes to school"
@@ -7330,6 +7542,14 @@
 "n": "Escaping Dog Trick",
 "o": "A new security fence threatens Scott's ability to go to school."
 },
+"3745|1|5": {
+"n": "A Lick is Still a Kiss",
+"o": "No one can figure out how Leonard knows what Leslie's lipstick tastes like. Spot knows."
+},
+"3745|1|6": {
+"n": "Being Mrs. Leadready",
+"o": "Spot needs someone to play his mother at parent-teacher conference night."
+},
 "3745|2|12": {
 "n": "Mr. Jolly: Man ...or Mouser?",
 "o": "Leonard bets his mom that Mr. Jolly can catch a mouse."
@@ -7337,6 +7557,10 @@
 "3745|2|14": {
 "n": "DogFight",
 "o": "Leonard can't play basketball very well, so Scott teaches him.   The two are then challenged by 2 fifth graders to a two-on-two   game. After being congratulated, Scott and Leonard have an    argument on a bad pass. Then they are told to fight each other.   But Scott has a plan..."
+},
+"3745|2|16": {
+"n": "Science Not Fair",
+"o": "Scott's science project gets mistaken as Leonard's."
 },
 "3745|2|18": {
 "n": "One Dog's Junk",
@@ -7557,6 +7781,14 @@
 "384|5|5": {
 "n": "Doug's Patti Beef",
 "o": "Patti joins a snooty club."
+},
+"384|5|6": {
+"n": "Doug: A Limited Corporation",
+"o": "Doug attempts to make his grandmother's crafts store more hip."
+},
+"384|5|7": {
+"n": "Doug's in Debt",
+"o": "Doug enters negotiations with a shady character to get Judy's hat back."
 },
 "384|5|9": {
 "n": "Doug's Big Comeback",
@@ -8466,6 +8698,10 @@
 "n": "French Fried",
 "o": "Timon and Pumbaa try to save their new best friend Speedy the Snail from French chef Culinary Quint."
 },
+"4429|1|12": {
+"n": "The Laughing Hyenas: Big Top Breakfast",
+"o": "The hyenas try to catch and eat a circus monkey who fell out of a plane."
+},
 "4429|1|19": {
 "n": "Timon's Time Togo",
 "o": "Timon dies after eating a poisonous bug. But an angel agrees to send him back to Earth, so that he can perform one good deed to be permitted to enter Heaven."
@@ -8481,6 +8717,10 @@
 "4429|1|4": {
 "n": "Rafiki Fables: Good Mousekeeping",
 "o": "Rafiki grants a bullied mouse his wish to have the abilities to fly like a bird, swim like a fish, and be as tall as a giraffe."
+},
+"4429|1|5": {
+"n": "Never Everglades",
+"o": "Pumbaa thinks that he's laid an egg. So he and a reluctant Timon raise the \"\"ugly chicken\"\" that hatches from it./The Cheetahs try to get rid of the Hyenas by sending them on various wild goose chases."
 },
 "4429|1|7": {
 "n": "How to Beat the High Costa Rica",
@@ -8514,9 +8754,17 @@
 "n": "Mombasa-In-Law",
 "o": "When his mother pays a visit, Timon has to pretend that he's a responsible contributing member of the meerkat society, and Pumbaa has to pretend that he's Timon's wife."
 },
+"4429|2|19": {
+"n": "Manhattan Mishap",
+"o": "On their way to New York, Timon and Pumbaa are thrown out of the plane and land on a desert island whose only resident is a very hungry castaway."
+},
 "4429|2|4": {
 "n": "Doubt of Africa",
 "o": "Pumbaa and a reluctant Timon help out a widowed tigress learn how to catch her own prey."
+},
+"4429|2|6": {
+"n": "You Ghana Join the Club",
+"o": "A group of ground squirrels named Ted fence off Timon and Pumbaa's favorite spot in the jungle for their own exclusionary club, and make the duo pester an unfriendly lion in order to get back in"
 },
 "4429|2|7": {
 "n": "Rocky Mountain Lie",
@@ -8577,6 +8825,10 @@
 "4429|3|39": {
 "n": "",
 "o": ""
+},
+"44|1|1": {
+"n": "Best Hedgehog",
+"o": "Sonic frees a prisoner who has been locked at Robotnik's Fortress for 30 years who wants to find his long lost girlfriend which Robotnik also loves."
 },
 "44|1|11": {
 "n": "High Stakes Sonic",
@@ -8882,6 +9134,10 @@
 "n": "Psychic Moose",
 "o": "Seeing moose hanging out with the mall psychic, Pepper Ann gets the feeling that Moose is psychic."
 },
+"4568|1|7": {
+"n": "Doll and Chain",
+"o": "Pepper Ann and friends are assigned dolls that must accompany them everywhere. Pepper Ann thinks she's irresponsible because she keeps losing her doll, and can't get it to stop crying."
+},
 "4568|2|2": {
 "n": "License to Drive",
 "o": "It's almost Ned's 16th birthday and Pepper Ann hears that Ned is going to get a new set of wheels. Now, to avoid parent drop-off, Pepper Ann must cram in 12 years of cousinly love to get on Neds good side."
@@ -8937,6 +9193,10 @@
 "4568|3|4": {
 "n": "Beyond Good and Evel",
 "o": "Moose wants Evel Knevel to represent Hazelnut with his statue."
+},
+"4568|3|8": {
+"n": "The First Date Club",
+"o": "Could it be a first date with Pepper Ann and Craig Bean!?"
 },
 "4568|4|13": {
 "n": "A Valentine's Day Tune",
@@ -8995,6 +9255,26 @@
 "o": ""
 },
 "4574|1|26": {
+"n": "",
+"o": ""
+},
+"4574|1|57": {
+"n": "",
+"o": ""
+},
+"4574|1|58": {
+"n": "",
+"o": ""
+},
+"4574|1|59": {
+"n": "",
+"o": ""
+},
+"4574|1|60": {
+"n": "",
+"o": ""
+},
+"4574|1|61": {
 "n": "",
 "o": ""
 },
@@ -9298,12 +9578,20 @@
 "n": "Tango Time",
 "o": "Mrs. Rene is learning how to tango! With a rose in her mouth and Pee-wee's magic footprints on the floor, she dances up a storm until Pee-wee dips her right out the Playhouse door! Cowboy Curtis remembers his first and last whirl on rollerskates, and Jambi helps Pee-wee relive the whole show with a replay that goes by all too \"fast.\""
 },
+"4627|1|11": {
+"n": "Days of Blunder",
+"o": ""
+},
 "4627|1|12": {
 "n": "Cheer Pressure",
 "o": ""
 },
 "4627|1|13": {
 "n": "Going Overboard",
+"o": ""
+},
+"4627|1|20": {
+"n": "Master Pho",
 "o": ""
 },
 "4627|1|8": {
@@ -9318,12 +9606,20 @@
 "n": "Glee by the Sea",
 "o": ""
 },
+"4627|2|21": {
+"n": "Puzzle Me Daring",
+"o": ""
+},
 "4627|2|22": {
 "n": "Dick Daring's All-Star Holiday Stunt Spectacular",
 "o": ""
 },
 "4627|2|26": {
 "n": "Moustache Mayhem",
+"o": ""
+},
+"4627|2|6": {
+"n": "The Rizzle",
 "o": ""
 },
 "472|1|4": {
@@ -9429,6 +9725,10 @@
 "4803|5|5": {
 "n": "Easy Money!",
 "o": "Bentley accidentally breaks Bert's new remote controlled car. Thinking he can find buried treasure is a cave system, he and the pigs end up trapped. Lisa and Bert must rescue them before the air runs out."
+},
+"4803|5|6": {
+"n": "Endless Summer!",
+"o": "Sneers new factory production line has teething troubles. Bentley breaks for the summer, and the pigs soon talk him into working for them. Bert is appalled. After Bentley's early sucess, the pigs feel threatened, and destroy Bentley's work. When he's fired, Bentley is despondant about losing the job. Then, Cyril finds out the truth."
 },
 "4803|5|7": {
 "n": "Promises Promises!",
@@ -9714,6 +10014,10 @@
 "n": "",
 "o": ""
 },
+"543|2|26": {
+"n": "",
+"o": ""
+},
 "543|2|28": {
 "n": "",
 "o": ""
@@ -9805,6 +10109,14 @@
 "553|2|7": {
 "n": "The Dragon's Graveyard",
 "o": "After another attempt at getting home is foiled by Venger, the frustration is too much for the kids.  They decide to take the fight to Venger and finish things once and for all.  Their idea: Tiamat - Venger's mortal enemy.  When they disregard Dungeon Master's next mission to embark on their own, he advises against it and then indicates where they can find Tiamat.  A place called the Dragon's Graveyard, where old dragons go to die.  The kids then start their journey to the graveyard, but not without the presence of Venger in the midsts."
+},
+"553|3|2": {
+"n": "The Time Lost",
+"o": "Venger's got a new idea for eliminating his annoying young enemies, and pulls both a futuristic plane and a WWII Nazi fighter pilot into the Realm using his Crystal of Chronos. Venger intends to send Josef Mueller, the pilot, back to Earth to win the war for Germany, but after meeting the kids, Josef has other plans."
+},
+"553|3|3": {
+"n": "Odyssey of the Twelfth Talisman",
+"o": "A lonely but smart orphan, Lorne, finds a lost amulet that leads him into big trouble.  He and Eric become fast friends through the usual exchange of insults and bad-mouthing, and the gang teams up with him on their search for the Stone of Astra.  But the wizard Korlok also seeks the Stone, and is close on their tail."
 },
 "56021|1|1": {
 "n": "Episode 1",
@@ -10350,6 +10662,10 @@
 "n": "Cyranosaurus Rex",
 "o": "Spring is in the air as Whisker’s falls in love for the first time: with a giant lizard, Isabel (Jennifer Hale). She wants nothing to do with the smelly rabbit, but Coach Brandy is determined that Whiskers can woo her. Meanwhile, Brandy has her own issues in fighting off a persistent little lemur (Charlie Adler & Jeff Bennett)."
 },
+"618|2|10": {
+"n": "Loathe Triangle",
+"o": "When Margo sarcastically tells Mr. Whiskers that she's in love with him he attempts to find a way to win her heart, so he seeks Brandy's advice. However, Brandy mistakenly believes that Mr. Whiskers is actually in love with her, much to her dismay, so she attempts to convince him to never speak to the girl he loves again. However, things take a turn for the worse when Ed gets involved and begins to fight for Margo's affection, which causes Brandy to think Ed loves her as well, though will this love triangle manage to be resolved without offending the parties involved?"
+},
 "618|2|13": {
 "n": "You've Got Snail",
 "o": "When Mr. Whiskers' toy ball falls onto a snail's yard, Brandy attempts to get the ball back in order to get Mr. Whiskers to stop crying. However, when the snail turns out to be a complete jerk who claims that he owns the tree that Brandy and Whiskers live in, Brandy decides to take drastic measures in order to try to force the snail to move away; though the snail proves to be more resilient than Brandy had originally anticipated."
@@ -10578,6 +10894,10 @@
 "n": "Imagine That",
 "o": "Bonkers and Lucky must stop a toon pencil who is covering the city in graffiti."
 },
+"6616|1|7": {
+"n": "Calling All Cars",
+"o": "Toon tow truck Ma Parker gains Lucky's trust in order to steal car parts from the police garage, assisted by Wooly and Bully."
+},
 "6616|1|8": {
 "n": "Fall Apart Bomb Squad",
 "o": "Fall-Apart Rabbit assists Bonkers and Lucky in capturing a crazy Toon Bomb who wanted to be a stand-up comedian and is now terrorizing the city."
@@ -10598,6 +10918,10 @@
 "n": "The Lost Ballpark",
 "o": "Charlie Brown walks funny, Marcie finds her mean streak after a boy develops a crush on her, Linus and Snoopy go truffle hunting, and Charlie Brown's team suffers setback after setback."
 },
+"6670|2|2": {
+"n": "Snoopy's Brother Spike",
+"o": "Peppermint Patty asks Charlie Brown for help with her team. Linus waits up for the Great Pumpkin while Charlie Brown and Peppermint Patty go bowling. Snoopy's older brother Spike vists."
+},
 "6670|2|3": {
 "n": "Snoopy's Robot",
 "o": "The gang goes to computer camp. Linus starts a clinic for kids with security blankets. Snoopy goes to visit Spike in the desert. Charlie Brown and Peppermint Patty go on a date. Later Marcie and Peppermint Patty both develop a crush on Charlie Brown."
@@ -10617,6 +10941,10 @@
 "6670|2|9": {
 "n": "",
 "o": ""
+},
+"67487|1|5": {
+"n": "Fear of Flying",
+"o": "Tick and Dot help Arthur try to control his flyaway supersuit as the Pyramid Gang pursues them. Miss Lint has an unexpected caller."
 },
 "67487|3|2": {
 "n": "",
@@ -10982,6 +11310,26 @@
 "n": "Oprah's Baby Daddy",
 "o": "Dave thinks Oprah is pregant with his child. Dave also goes into his experience as a member of the O.J. Simpson trial jury. Also featuring musical guest Wyclef."
 },
+"720|1|10": {
+"n": "Robot Robbers",
+"o": "After the incident with Armstrong, Gyro builds giant human-operated robots for Glomgold, only to have them be stolen and operated by Ma Beagle and the Beagle Boys."
+},
+"720|1|11": {
+"n": "Magica's Shadow War",
+"o": "Magica's plot to steal the Number One Dime using her own shadow goes awry when her shadow develops a mind of its own."
+},
+"720|1|32": {
+"n": "Micro Ducks from Outer Space",
+"o": "Scrooge misuses an alien size-shifting device, and accidentally ends up shrinking himself, the boys, and Webby."
+},
+"720|1|44": {
+"n": "Back Out in the Outback",
+"o": "Something's attacking Scrooge's sheep and shearing off their wool, so Scrooge heads off for Australia to find out what's going on."
+},
+"720|1|9": {
+"n": "Armstrong",
+"o": "Gyro presents the McDuck household with a robot named Armstrong to do their work for them. However, the robot decides it would rather work for itself."
+},
 "72350|1|20": {
 "n": "Sky Pirates...In the Sky!",
 "o": "Feeling ignored, Dewey finds a new family: a band of singing and dancing pirates looking to rob Scrooge blind."
@@ -11258,6 +11606,10 @@
 "n": "La Femme Sabrina",
 "o": "Harvey is ecstatic when a spy movie is supposed to come out today. He and Sabrina go to the movies but they find out that it has been postponed until next week. Harvey says he can't wait that long so Sabrina cast a spell saying that she wants the spy movie to be realesed all over the world today but there's a problemwhen everybody starts acting out the movie and becoming spys and secret agents."
 },
+"733|1|7": {
+"n": "Picture Perfect",
+"o": "Sabrina competes with Gem to be student of the year."
+},
 "737|1|6": {
 "n": "With Sarah Jessica Parker",
 "o": "Special guest star Sarah Jessica Parker joins the cast to introduce several comedy sketches, from a picnic.Sketches include:   Oliver Stone Land   Pan America Salesman Of The Year   Jake Steele Marrionette Cop   Blue & White Shampoo   Bomb Squad   Ask Manson"
@@ -11521,6 +11873,14 @@
 "9891|2|12": {
 "n": "Destructo's Flipside",
 "o": "When Bumpy puts Destructo's batteries in backwards, the big metal juggernaut of destruction becomes a cross between Alan Alda and Phil Donahue. Can Mr. Bumpy right his wrong?"
+},
+"9891|2|13": {
+"n": "Karaoke Cafe: \"I'm Bigger than You\"",
+"o": ""
+},
+"9891|2|5": {
+"n": "Cold Turkey",
+"o": "When Bumpy accidentally defrosts the freezer, he revives the Thanksgiving Day Turkey, which makes an escape into the house. In order for his Boy to have eats on the big day, Mr. Bumpy must track the gobbler down and get it back to its wintry abode. Will Bumpy succeed without winding up as the stuffing?"
 },
 "9891|2|8": {
 "n": "Karaoke Cafe: \"Making Music Is Fun\"",
@@ -12238,6 +12598,7 @@
 "o": "After a battle with a high-tech villain named, Saiko-Tek, the Teen Titans travel to the city of Tokyo where they find themselves embroiled in a conflict with an ancient enemy.",
 "y": "2006"
 },
+"there's no time for love, charlie brown|1973": null,
 "video sep 24 2026, 5 19 59 pm": null,
 "video sep 24 2026, 5 20 51 pm": null,
 "video sep 24 2026, 5 21 31 pm": null
@@ -12613,6 +12974,14 @@
 },
 "332568|1|12": {
 "n": "Goodbye, Obaan!",
+"o": ""
+},
+"332568|1|14": {
+"n": "Chindarake",
+"o": ""
+},
+"332568|1|19": {
+"n": "Chindarake",
 "o": ""
 },
 "332568|1|21": {
@@ -13087,6 +13456,10 @@
 "n": "Delia - Marnie - Jon",
 "o": ""
 },
+"70945|2|13": {
+"n": "Not a Leg to Stand On",
+"o": "NOT A LEG TO STAND ON - Bumpy is accused of stealing Molly's feet"
+},
 "70945|2|8": {
 "n": "I Got Needs / Beauty and the Bump",
 "o": "I GOT NEEDS - Starts with invading Vikings and turns into musical number for Bumpy as they try to make him their leader.\r\n\r\nBEAUTY AND THE BUMP - Bumpy falls for an antique china doll under glass, who becomes the Princess in his fairy-tale dream."
@@ -13363,6 +13736,18 @@
 "n": "Tombstone",
 "o": "Robbie Robertson is losing his son, Randy, to a gang of thugs lead by Tombstone. When this harder-than-stone hit man tries to use his history with Robbie to kill a story about his new boss, Alicia Silvermane, he runs afoul of Spider-Man. Both discover Robbie's bond with his child and his ethical resolve is mightier."
 },
+"73750|5|4": {
+"n": "Six Forgotten Warriors (3): Secrets of the Six",
+"o": "Robbie and Peter encounter an old professor who knows about the Six Forgotten Warriors."
+},
+"73750|5|5": {
+"n": "Six Forgotten Warriors (4): The Six Fight Again",
+"o": "Spider-Man and the Warriors join forces to stop the Kingpin from activating the doomsday device."
+},
+"73750|5|6": {
+"n": "Six Forgotten Warriors (5): The Price of Heroism",
+"o": "Red Skull reveals his Doomsday Weapon, the powerful Electro. Can Spidey and the Six American Warriors stop Electro and his battle robots?"
+},
 "73981|1|13": {
 "n": "Mudder's Day",
 "o": "Aladdin and company are captured by mud creatures called the Al Muddi, and they need water in order to beat them, but it's hard to find that in a dessert so they improvise by using the sun!"
@@ -13398,6 +13783,10 @@
 "73981|1|33": {
 "n": "Snowman is an Island",
 "o": "Aladdin and friends are forced to go through a castle when there's no other way around, and the resident decides he wants Genie to stay and be his court jester."
+},
+"73981|1|35": {
+"n": "Power to the Parrot",
+"o": "Iago thinks that Genie's magical job is easy, so Genie gives Iago his powers for a day. Iago has fun with it at first, but then he realizes what a tough job it is to be a genie."
 },
 "73981|1|37": {
 "n": "The Citadel",
@@ -13775,7 +14164,31 @@
 "n": "Pryde of the X-Men (Pilot)",
 "o": "The story begins with the voice of Stan Lee: \"Look around you... you never know who could be a mutant, a person born with strange and wondrous powers...\" It is the desert. The X-Men’s archenemy Magneto is being transported by a military convoy, unable to use his powers, trapped in a force field. That is, until the White Queen appears. A member of his \"Brotherhood of Mutant Terrorists\", she scatters the escort and dismantles the field restricting Magneto, allowing him to use his magnetic powers to tear apart his portable prison."
 },
+"76115|1|57": {
+"n": "Pryde of the X-Men (Pilot)",
+"o": "The story begins with the voice of Stan Lee: \"Look around you... you never know who could be a mutant, a person born with strange and wondrous powers...\" It is the desert. The X-Men’s archenemy Magneto is being transported by a military convoy, unable to use his powers, trapped in a force field. That is, until the White Queen appears. A member of his \"Brotherhood of Mutant Terrorists\", she scatters the escort and dismantles the field restricting Magneto, allowing him to use his magnetic powers to tear apart his portable prison."
+},
+"76115|1|58": {
+"n": "Pryde of the X-Men (Pilot)",
+"o": "The story begins with the voice of Stan Lee: \"Look around you... you never know who could be a mutant, a person born with strange and wondrous powers...\" It is the desert. The X-Men’s archenemy Magneto is being transported by a military convoy, unable to use his powers, trapped in a force field. That is, until the White Queen appears. A member of his \"Brotherhood of Mutant Terrorists\", she scatters the escort and dismantles the field restricting Magneto, allowing him to use his magnetic powers to tear apart his portable prison."
+},
+"76115|1|59": {
+"n": "Pryde of the X-Men (Pilot)",
+"o": "The story begins with the voice of Stan Lee: \"Look around you... you never know who could be a mutant, a person born with strange and wondrous powers...\" It is the desert. The X-Men’s archenemy Magneto is being transported by a military convoy, unable to use his powers, trapped in a force field. That is, until the White Queen appears. A member of his \"Brotherhood of Mutant Terrorists\", she scatters the escort and dismantles the field restricting Magneto, allowing him to use his magnetic powers to tear apart his portable prison."
+},
+"76115|1|60": {
+"n": "Pryde of the X-Men (Pilot)",
+"o": "The story begins with the voice of Stan Lee: \"Look around you... you never know who could be a mutant, a person born with strange and wondrous powers...\" It is the desert. The X-Men’s archenemy Magneto is being transported by a military convoy, unable to use his powers, trapped in a force field. That is, until the White Queen appears. A member of his \"Brotherhood of Mutant Terrorists\", she scatters the escort and dismantles the field restricting Magneto, allowing him to use his magnetic powers to tear apart his portable prison."
+},
+"76115|1|61": {
+"n": "Pryde of the X-Men (Pilot)",
+"o": "The story begins with the voice of Stan Lee: \"Look around you... you never know who could be a mutant, a person born with strange and wondrous powers...\" It is the desert. The X-Men’s archenemy Magneto is being transported by a military convoy, unable to use his powers, trapped in a force field. That is, until the White Queen appears. A member of his \"Brotherhood of Mutant Terrorists\", she scatters the escort and dismantles the field restricting Magneto, allowing him to use his magnetic powers to tear apart his portable prison."
+},
 "76814|2|25": {
+"n": "The Proud Family Movie",
+"o": "Penny and her family are lured on an all expenses paid vacation where a mad scientist captures them, refusing to let them go because Oscar won't reveal his secret Proud Snacks formulas."
+},
+"76814|2|26": {
 "n": "The Proud Family Movie",
 "o": "Penny and her family are lured on an all expenses paid vacation where a mad scientist captures them, refusing to let them go because Oscar won't reveal his secret Proud Snacks formulas."
 },
@@ -13919,6 +14332,10 @@
 "n": "Computer Creep Much?",
 "o": "An evil computer software designer develops a computer virus that turns people into zombies when they are exposed to it. People are exposed to the virus through computers, palm pilots, cell phones, and even the spies' own electronic gadgets! Can the spies defeat the designer and his even plans before they, and the rest of the world, become infected? In a b-story, Alex has to get a job to pay the rent."
 },
+"78143|1|11": {
+"n": "The Ballad of Conrad & Vernon",
+"o": ""
+},
 "78143|1|3": {
 "n": "Robot Ned",
 "o": ""
@@ -13946,6 +14363,10 @@
 "78225|2|9": {
 "n": "A Charlie Brown Christmas",
 "o": "Repelled by the commercialism he sees around him, Charlie Brown tries to find the true meaning of Christmas."
+},
+"78250|1|66": {
+"n": "Have Yourself a Goofy Little Christmas (A Goof Troop Christmas)",
+"o": "Goofy and Pete end up spending Christmas together at a ski lodge in Aspirin, Colorado, much to Pete's chagrin."
 },
 "78250|1|68": {
 "n": "Have Yourself a Goofy Little Christmas (A Goof Troop Christmas)",
@@ -14135,6 +14556,14 @@
 "n": "To Mar a Stall",
 "o": "X Middle School's bathroom renovation project teeters on the brink of disaster as the new tagger \"STAINLESS\" strikes at will.  Out of leads, Fillmore and Ingrid turn to Randall Julian, the former vandal \"FLAVA SAVA,\" currently in solitary detention.  His help puts them back on the trail, but Randall escapes, forcing Fillmore and Ingrid to hunt down both \"STAINLESS\" and \"FLAVA SAVA\" before they strike again..."
 },
+"79910|1|22": {
+"n": "To Mar a Stall",
+"o": "X Middle School's bathroom renovation project teeters on the brink of disaster as the new tagger \"STAINLESS\" strikes at will.  Out of leads, Fillmore and Ingrid turn to Randall Julian, the former vandal \"FLAVA SAVA,\" currently in solitary detention.  His help puts them back on the trail, but Randall escapes, forcing Fillmore and Ingrid to hunt down both \"STAINLESS\" and \"FLAVA SAVA\" before they strike again..."
+},
+"79910|1|23": {
+"n": "To Mar a Stall",
+"o": "X Middle School's bathroom renovation project teeters on the brink of disaster as the new tagger \"STAINLESS\" strikes at will.  Out of leads, Fillmore and Ingrid turn to Randall Julian, the former vandal \"FLAVA SAVA,\" currently in solitary detention.  His help puts them back on the trail, but Randall escapes, forcing Fillmore and Ingrid to hunt down both \"STAINLESS\" and \"FLAVA SAVA\" before they strike again..."
+},
 "80227|1|1": {
 "n": "All the cars in San Fransisco",
 "o": "La police de San Francisco souffre d'un déficit de confiance. À la veille des élections, le Maire de la ville demande un reportage sur le SFPD afin de redorer son blason."
@@ -14215,6 +14644,10 @@
 "n": "Death By Request",
 "o": "Highlights of the goriest, sexiest and most delightfully horrible deaths."
 },
+"84192|1|11": {
+"n": "Days of Blunder",
+"o": "Todd and Dick build a go cart together for an upcoming race. When Dick is terrible at it, Todd has him temporarily replaced with an ace mechanic."
+},
 "84192|1|12": {
 "n": "Cheer Pressure",
 "o": "To impress Johnny Hitswell, Riley replaces the school's cheerleading coach with a spiritual hippie after she, Tasumi, and Abbey don't make the team. In the end Riley does the right thing and all of the original cheerleaders are back on the team and all of the new cheerleaders are off the team."
@@ -14222,6 +14655,10 @@
 "84192|1|13": {
 "n": "Going Overboard",
 "o": "Todd and Riley replace their unfun babysitter with an educational TV show host, who has no respect for the Daring home."
+},
+"84192|1|20": {
+"n": "Master Pho",
+"o": "In order to help him take on Donny Rottwieler, Todd replaces his karate teacher with a professional who turns out to be one of Agent K's enemies."
 },
 "84192|1|8": {
 "n": "Jumping Mad",
@@ -14235,6 +14672,10 @@
 "n": "Glee by the Sea",
 "o": "The Darings go on vacation at a beach where Todd falls for an older girl, and Riley waits for Johnny Hitswell to call. K thinks Dr. Skorpius is up to something."
 },
+"84192|2|21": {
+"n": "Puzzle Me Daring",
+"o": "Todd tries to help his mom solve a case that involves riddles left by a crook. Riley discovers that she can make boys do what she wants by acting like someone else."
+},
 "84192|2|22": {
 "n": "Dick Daring's All-Star Holiday Stunt Spectacular V",
 "o": "The Darings host their annual holiday show directed by Riley with Ed Begley, Jr., Carson Palmer, and Josh Duhamel. Meanwhile, Todd tries to make some money with his own telethon."
@@ -14242,6 +14683,10 @@
 "84192|2|26": {
 "n": "Moustache Mayhem",
 "o": "Everyone assumes Todd is an adult when one of K's gadgets makes him sprout a moustache."
+},
+"84192|2|6": {
+"n": "The Rizzle",
+"o": "Riley gets in trouble when she hangs out with an older girl with a wild side; Todd realizes he needs to wear glasses, but he pretends that he doesn't need them."
 },
 "99231|2|2": {
 "n": "Episode 15",
@@ -16917,6 +17362,10 @@
 "n": "",
 "o": ""
 },
+"12958|1|66": {
+"n": "",
+"o": ""
+},
 "12958|1|68": {
 "n": "",
 "o": ""
@@ -16973,6 +17422,10 @@
 "n": "",
 "o": ""
 },
+"14860|2|13": {
+"n": "Not a Leg to Stand On",
+"o": ""
+},
 "14860|2|8": {
 "n": "I Got Needs/Beauty and the Bump",
 "o": ""
@@ -17001,6 +17454,14 @@
 "n": "",
 "o": ""
 },
+"17996|1|22": {
+"n": "",
+"o": ""
+},
+"17996|1|23": {
+"n": "",
+"o": ""
+},
 "17997|3|17": {
 "n": "",
 "o": ""
@@ -17021,12 +17482,20 @@
 "n": "Flim Flam Fever",
 "o": ""
 },
+"18354|1|11": {
+"n": "Days of Blunder",
+"o": ""
+},
 "18354|1|12": {
 "n": "Cheer Pressure",
 "o": ""
 },
 "18354|1|13": {
 "n": "Going Overboard",
+"o": ""
+},
+"18354|1|20": {
+"n": "Master Pho",
 "o": ""
 },
 "18354|1|8": {
@@ -17041,6 +17510,10 @@
 "n": "Glee by the Sea",
 "o": ""
 },
+"18354|2|21": {
+"n": "Puzzle Me Daring",
+"o": ""
+},
 "18354|2|22": {
 "n": "Dick Daring's All-Star Holiday Stunt Spectacular",
 "o": ""
@@ -17049,7 +17522,15 @@
 "n": "Moustache Mayhem",
 "o": ""
 },
+"18354|2|6": {
+"n": "The Rizzle",
+"o": ""
+},
 "18458|2|25": {
+"n": "",
+"o": ""
+},
+"18458|2|26": {
 "n": "",
 "o": ""
 },
@@ -17405,6 +17886,14 @@
 "n": "",
 "o": ""
 },
+"29247|1|14": {
+"n": "",
+"o": ""
+},
+"29247|1|19": {
+"n": "",
+"o": ""
+},
 "29247|1|21": {
 "n": "",
 "o": ""
@@ -17617,6 +18106,10 @@
 "n": "Dodgeball / Loudest Fart / Cartoons",
 "o": ""
 },
+"41822|1|11": {
+"n": "My, How You've Grown, Part 2",
+"o": ""
+},
 "41822|1|3": {
 "n": "Robot Ned",
 "o": ""
@@ -17825,6 +18318,18 @@
 "n": "",
 "o": ""
 },
+"4458|5|4": {
+"n": "",
+"o": ""
+},
+"4458|5|5": {
+"n": "",
+"o": ""
+},
+"4458|5|6": {
+"n": "",
+"o": ""
+},
 "46518|3|27": {
 "n": "",
 "o": ""
@@ -18022,6 +18527,10 @@
 "o": ""
 },
 "5307|1|33": {
+"n": "",
+"o": ""
+},
+"5307|1|35": {
 "n": "",
 "o": ""
 },
