@@ -1,0 +1,1660 @@
+{
+"Batman: The Animated Series": {
+"eps": [
+{
+"desc": "When a giant bat-like creature terrorizes Gotham, Batman is blamed for the attacks and must uncover the truth while evading a police task force determined to capture him.",
+"se": [
+1,
+1
+],
+"title": "On Leather Wings"
+},
+{
+"desc": "On Christmas Eve, the Joker hijacks Gotham's airwaves for a twisted holiday special, forcing Batman and Robin to race to rescue his hostages before midnight.",
+"se": [
+1,
+2
+],
+"title": "Christmas with the Joker"
+},
+{
+"desc": "When the Scarecrow terrorizes Gotham University with a fear-inducing toxin, Batman must confront his own deepest fears to stop him.",
+"se": [
+1,
+3
+],
+"title": "Nothing to Fear"
+},
+{
+"desc": "The Joker unleashes a laughing toxin from a garbage barge, plunging Gotham into chaos and forcing Batman to confront the villain's hulking new accomplice.",
+"se": [
+1,
+4
+],
+"title": "The Last Laugh"
+},
+{
+"desc": "After Harvey Dent is mysteriously poisoned, Batman searches for an antidote as Poison Ivy pursues a deadly vendetta tied to Gotham's newest prison.",
+"se": [
+1,
+5
+],
+"title": "Pretty Poison"
+},
+{
+"desc": "A young pickpocket leads Batman into Gotham's sewers, where he sets out to free a group of children forced to steal for the cruel Sewer King.",
+"se": [
+1,
+6
+],
+"title": "The Underdwellers"
+},
+{
+"desc": "After a police sting ends in chaos, Bullock, Montoya, and a rookie officer give conflicting accounts of the night, forcing their superiors to piece together the truth about Batman's involvement.",
+"se": [
+1,
+7
+],
+"title": "P.O.V."
+},
+{
+"desc": "While investigating disappearances among Gotham's homeless, Bruce Wayne is abducted and imprisoned in a mining camp, with no memory of his identity as Batman.",
+"se": [
+1,
+8
+],
+"title": "The Forgotten"
+},
+{
+"desc": "The Joker infiltrates the birthday party of Mayor Hill's son in order to plant a bomb.",
+"se": [
+1,
+9
+],
+"title": "Be a Clown"
+},
+{
+"desc": "As District Attorney Harvey Dent struggles to control a violent alternate personality, crime boss Rupert Thorne uncovers his secret and tries to blackmail him.",
+"se": [
+1,
+10
+],
+"title": "Two-Face: Part 1"
+},
+{
+"desc": "As Two-Face launches a ruthless campaign against Rupert Thorne, Batman fights to stop his former friend while trying to reach the man still buried beneath his fractured identity.",
+"se": [
+1,
+11
+],
+"title": "Two-Face: Part 2"
+},
+{
+"desc": "With a gang war raging and his son missing, an aging crime boss faces a ruthless rival while Batman urges him to confront the human cost of his criminal empire.",
+"se": [
+1,
+12
+],
+"title": "It's Never Too Late"
+},
+{
+"desc": "When the Penguin incapacitates Batman with nerve gas, a young amateur detective and his friend hide the hero in a basement and must protect him from the villain and his henchmen.",
+"se": [
+1,
+13
+],
+"title": "I've Got Batman in My Basement"
+},
+{
+"desc": "Batman investigates a string of icy robberies targeting GothCorp and confronts Mr. Freeze, a formidable new foe driven by a deeply personal vendetta.",
+"se": [
+1,
+14
+],
+"title": "Heart of Ice"
+},
+{
+"desc": "Bruce Wayne grows close to animal-rights activist Selina Kyle as Batman pursues the elusive Catwoman and investigates a dangerous conspiracy threatening Gotham.",
+"se": [
+1,
+15
+],
+"title": "The Cat and the Claw : Part 1"
+},
+{
+"desc": "When Catwoman infiltrates the underground headquarters of terrorists, both she and Batman are captured and left to die as victims of a viral plague.",
+"se": [
+1,
+16
+],
+"title": "The Cat and the Claw : Part 2"
+},
+{
+"desc": "After a fortune disappears from a gem exposition, Batman investigates and discovers that the crime may have been committed by an invisible man.",
+"se": [
+1,
+17
+],
+"title": "See No Evil"
+},
+{
+"desc": "When bombings in Gotham mirror an old television show, Batman seeks help from the out-of-work actor who played his childhood hero, the Gray Ghost.",
+"se": [
+1,
+18
+],
+"title": "Beware the Gray Ghost"
+},
+{
+"desc": "Bruce begins to worry when all of his wealthy friends join the same Brotherhood group run by Nostromos, a so-called psychic.",
+"se": [
+1,
+19
+],
+"title": "Prophecy of Doom"
+},
+{
+"desc": "When an impostor posing as Bruce Wayne attacks Lucius Fox, Batman's investigation leads to a desperate actor whose dependence on an experimental face-altering compound leaves him at a ruthless criminal's mercy.",
+"se": [
+1,
+20
+],
+"title": "Feat of Clay: Part 1"
+},
+{
+"desc": "Now transformed into Clayface, a desperate actor seeks revenge on the corrupt businessman who exploited him, forcing Batman to confront an enemy capable of assuming any form.",
+"se": [
+1,
+21
+],
+"title": "Feat of Clay: Part 2"
+},
+{
+"desc": "After a chance encounter leaves an ordinary man owing the Joker a favor, the debt is called in years later, drawing Batman into a deadly scheme targeting Gotham's police commissioner.",
+"se": [
+1,
+22
+],
+"title": "Joker's Favor"
+},
+{
+"desc": "When two police informants disappear and evidence points to Detective Bullock, Batman must look past their mutual distrust to determine whether the cop is guilty or being framed.",
+"se": [
+1,
+23
+],
+"title": "Vendetta"
+},
+{
+"desc": "The Scarecrow uses a fear chemical triggered by adrenaline on Gotham's greatest athletes, then bets against them to reap the winnings.",
+"se": [
+1,
+24
+],
+"title": "Fear of Victory"
+},
+{
+"desc": "After an efficiency expert blames Mayor Hill for his ruin, he resurfaces as the Clock King and launches a meticulously timed campaign of revenge, drawing Batman into a battle against the clock.",
+"se": [
+1,
+25
+],
+"title": "The Clock King"
+},
+{
+"desc": "As a ruthless developer targets Crime Alley, Batman races through a night of emergencies to keep an annual appointment tied to his tragic past.",
+"se": [
+1,
+26
+],
+"title": "Appointment in Crime Alley"
+},
+{
+"desc": "Batman faces the Mad Hatter, a scientist who uses mind-control technology in a dangerous attempt to win the affections of his coworker, Alice.",
+"se": [
+1,
+27
+],
+"title": "Mad as a Hatter"
+},
+{
+"desc": "Batman must thwart the Scarecrow's plan to poison Gotham's water supply with a chemical that induces hallucinations.",
+"se": [
+1,
+28
+],
+"title": "Dreams in Darkness"
+},
+{
+"desc": "When Alfred and a friend vanish after visiting an exclusive health spa promising renewed youth, Batman investigates a sinister scheme targeting Gotham's wealthy industrialists.",
+"se": [
+1,
+29
+],
+"title": "Eternal Youth"
+},
+{
+"desc": "Bruce Wayne awakens to a seemingly perfect life with his parents alive and Selina Kyle as his fiancée, but his memories of being Batman lead him to question what is real.",
+"se": [
+1,
+30
+],
+"title": "Perchance to Dream"
+},
+{
+"desc": "While investigating stolen bearer bonds, Batman must outwit a master of deadly traps hired to steal his cape and cowl.",
+"se": [
+1,
+31
+],
+"title": "The Cape and Cowl Conspiracy"
+},
+{
+"desc": "After learning the name of an extortion ringleader, Batman mysteriously refuses to let Robin continue the investigation with him.",
+"se": [
+1,
+32
+],
+"title": "Robin's Reckoning: Part 1"
+},
+{
+"desc": "Despite Batman's orders not to, Robin pursues Tony Zucco, the criminal who was responsible for the death of Robin's parents.",
+"se": [
+1,
+33
+],
+"title": "Robin's Reckoning: Part 2"
+},
+{
+"desc": "The Joker becomes enraged when the Gotham copyright office rejects his demand for a copyright for his grinning Joker fish.",
+"se": [
+1,
+34
+],
+"title": "The Laughing Fish"
+},
+{
+"desc": "When a ninja targets Wayne Enterprises, Bruce Wayne must confront an old martial arts rival while protecting his secret identity as Batman.",
+"se": [
+1,
+35
+],
+"title": "Night of the Ninja"
+},
+{
+"desc": "While searching for her missing cat, Selina Kyle uncovers a plot to spread a deadly disease through Gotham's stray animals, drawing Batman into a race to stop an epidemic.",
+"se": [
+1,
+36
+],
+"title": "Cat Scratch Fever"
+},
+{
+"desc": "A blackmail investigation leads Bruce Wayne to a health resort, where Hugo Strange's mind-reading machine threatens to expose his secret identity as Batman.",
+"se": [
+1,
+37
+],
+"title": "The Strange Secret of Bruce Wayne"
+},
+{
+"desc": "When a robot steals experimental microchips from Wayne Enterprises, Batman investigates a robotics company as Gotham officials begin behaving strangely.",
+"se": [
+1,
+38
+],
+"title": "Heart of Steel: Part 1"
+},
+{
+"desc": "As robotic doubles replace Gotham's officials, Batman investigates the conspiracy while Barbara Gordon searches for the truth behind her father's strange behavior.",
+"se": [
+1,
+39
+],
+"title": "Heart of Steel: Part 2"
+},
+{
+"desc": "Batman and Robin must outwit the Riddler, a game designer who turns his gift for puzzles into a deadly revenge plot against the greedy boss who fired him.",
+"se": [
+1,
+40
+],
+"title": "If You're So Smart, Why Aren't You Rich?"
+},
+{
+"desc": "When a billionaire builds a casino called the Joker's Wild, the Joker breaks out of Arkham Asylum to destroy it.",
+"se": [
+1,
+41
+],
+"title": "Joker's Wild"
+},
+{
+"desc": "Batman tracks the kidnapped Selina Kyle to a remote island, where a rogue geneticist's experiments have created a powerful human-feline hybrid.",
+"se": [
+1,
+42
+],
+"title": "Tyger Tyger"
+},
+{
+"desc": "Batman investigates a werewolf attack in Gotham, unaware that the creature is being manipulated into hunting him.",
+"se": [
+1,
+43
+],
+"title": "Moon of the Wolf"
+},
+{
+"desc": "Bruce Wayne and Alfred travel to Japan to help Bruce's old martial arts teacher, Sensi Yoru. The sensei's daughter has been kidnapped by Kyodai Ken.",
+"se": [
+1,
+44
+],
+"title": "Day of the Samurai"
+},
+{
+"desc": "When a giant bat terrorizes Gotham, Batman investigates whether Kirk Langstrom has resumed using the serum that once transformed him into Man-Bat.",
+"se": [
+1,
+45
+],
+"title": "Terror in the Sky"
+},
+{
+"desc": "While hiding from the police, five of Batman's deadliest enemies play poker while arguing about which of them came the closest to killing the Dark Knight.",
+"se": [
+1,
+46
+],
+"title": "Almost Got 'Im"
+},
+{
+"desc": "A socialite desperate to create a novel party makes the mistake of inviting the Penguin as her guest of honor.",
+"se": [
+1,
+47
+],
+"title": "Birds of a Feather"
+},
+{
+"desc": "To prove that he has a superior mind, the Riddler lures Batman into a contest inside a virtual reality computer game.",
+"se": [
+1,
+48
+],
+"title": "What Is Reality?"
+},
+{
+"desc": "When Commissioner Gordon is critically wounded during a police raid, a guilt-ridden Batman questions whether his crusade against crime is worth continuing.",
+"se": [
+1,
+49
+],
+"title": "I Am the Night"
+},
+{
+"desc": "Batman investigates a notorious global crime cartel, the Society of Shadows, which has begun to operate in Gotham City.",
+"se": [
+1,
+50
+],
+"title": "Off Balance"
+},
+{
+"desc": "Sidney Debris, a small-time mobster, earns the hatred of all of Batman's enemies when he claims to have accidentally killed Batman during a brawl.",
+"se": [
+1,
+51
+],
+"title": "The Man Who Killed Batman"
+},
+{
+"desc": "When Clayface's clay-like body begins to disintegrate, he is forces to steal to pay for the expensive ingredients of a possible remedy.",
+"se": [
+1,
+52
+],
+"title": "Mudslide"
+},
+{
+"desc": "Crime boss Rupert Thorne forces his older brother, a doctor, to perform delicate surgery on Rupert - and kidnaps Dr. Leslie Thompkins to assist.",
+"se": [
+1,
+53
+],
+"title": "Paging the Crime Doctor"
+},
+{
+"desc": "When glamorous female magician Zatanna is framed for a robbery during her act, Batman comes to her defense.",
+"se": [
+1,
+54
+],
+"title": "Zatanna"
+},
+{
+"desc": "While engaged in a high-speed chase, the Penguin's gang escapes and the Batmobile is nearly demolished.",
+"se": [
+1,
+55
+],
+"title": "The Mechanic"
+},
+{
+"desc": "Harley Quinn has broken off with the Joker and teams up with Poison Ivy. Together they wreak havoc on Gotham.",
+"se": [
+1,
+56
+],
+"title": "Harley and Ivy"
+},
+{
+"desc": "Commissioner James Gordon is rumored to be taking bribes from Rupert Thorne. His daughter sets out to prove that he's innocent.",
+"se": [
+1,
+57
+],
+"title": "Shadow of the Bat: Part 1"
+},
+{
+"desc": "Robin, who discovers that Gil Mason is in league with a powerful crime boss, encounters Batgirl as she tries to clear her father's name.",
+"se": [
+1,
+58
+],
+"title": "Shadow of the Bat: Part 2"
+},
+{
+"desc": "Bruce Wayne is temporarily blinded when the Penguin steals a new police helicopter with weaponry developed by WayneTech.",
+"se": [
+1,
+59
+],
+"title": "Blind as a Bat"
+},
+{
+"desc": "When Robin is mysteriously abducted, Batman's search leads him to Ra's Al Ghul, leader of the Society of Shadows.",
+"se": [
+1,
+60
+],
+"title": "The Demon's Quest: Part 1"
+},
+{
+"desc": "Batman discovers Ra's Al Ghul's plan to flood Earth with chemicals and return it to a lush, green planet.",
+"se": [
+1,
+61
+],
+"title": "The Demon's Quest: Part 2"
+},
+{
+"desc": "A confused robot that believes it is Batman causes problems for the real Dark Knight.",
+"se": [
+1,
+62
+],
+"title": "His Silicon Soul"
+},
+{
+"desc": "Believing he's the reincarnation of Zeus, a mad shipping magnate mounts a stolen electron cannon atop his penthouse.",
+"se": [
+1,
+63
+],
+"title": "Fire from Olympus"
+},
+{
+"desc": "Batman investigates a series of baffling crimes and discovers that the crime czar is a wooden dummy.",
+"se": [
+1,
+64
+],
+"title": "Read My Lips"
+},
+{
+"desc": "Veronica Vreeland returns from Central America with tiny handmade dolls that are controlled by the Mad Hatter.",
+"se": [
+1,
+65
+],
+"title": "The Worry Men"
+},
+{
+"desc": "Killer Croc escapes a prison train and finds refuge with a group of former circus freaks living in the mountains, who take pity on him.",
+"se": [
+2,
+1
+],
+"title": "Sideshow"
+},
+{
+"desc": "Det. Bullock reluctantly asks for Batman's assistance when he is convinced someone is trying to kill him.",
+"se": [
+2,
+2
+],
+"title": "A Bullet for Bullock"
+},
+{
+"desc": "A district attorney who loathes Batman is forced to defend him in a twisted parody of a trial run by the inmates of Arkham Asylum who have seized control and taken them both prisoner.",
+"se": [
+2,
+3
+],
+"title": "Trial"
+},
+{
+"desc": "Batman travels to Egypt and joins with Talia to hunt down Ra's al Ghul who is searching for an ancient source of ultimate power.",
+"se": [
+2,
+4
+],
+"title": "Avatar"
+},
+{
+"desc": "Poison Ivy has apparently settled for a normal life. Batman and Robin are suspicious because semi-sentient plant-like creatures are committing mayhem all over Gotham.",
+"se": [
+2,
+5
+],
+"title": "House & Garden"
+},
+{
+"desc": "Three rich youths who commit armed robbery for fun are pursued by Batman as their irresponsible hobby escalates into potentially worse deeds.",
+"se": [
+2,
+6
+],
+"title": "The Terrible Trio"
+},
+{
+"desc": "When Joker steals a nuclear weapon, Batman arranges for Harley Quinn's release from Arkham, so she can help him track the Joker down.",
+"se": [
+2,
+7
+],
+"title": "Harlequinade"
+},
+{
+"desc": "Batman and Robin battle the Clock King who has a prototype device that allows him to operate at an extremely accelerated time rate apart from the rest of his reality.",
+"se": [
+2,
+8
+],
+"title": "Time Out of Joint"
+},
+{
+"desc": "Catwoman is trying to go straight, but is recruited by The Ventriloquist as a jewel thief.",
+"se": [
+2,
+9
+],
+"title": "Catwalk"
+},
+{
+"desc": "Rupert Thorne hires steroid-enhanced mercenary Bane to eliminate Batman.",
+"se": [
+2,
+10
+],
+"title": "Bane"
+},
+{
+"desc": "A washed-up actress with a bizarre condition that makes her look permanently like a child seeks revenge against her canceled show's cast and crew.",
+"se": [
+2,
+11
+],
+"title": "Baby-Doll"
+},
+{
+"desc": "Red Claw kidnaps an old colleague of Alfred's from the British Secret Service, to gain access to a hidden missile silo.",
+"se": [
+2,
+12
+],
+"title": "The Lion and the Unicorn"
+},
+{
+"desc": "While the Dynamic Duo race to stop Ra's Al Ghul from performing a kidnapping, the wild west story of how he was once opposed by the disfigured bounty hunter, Jonah Hex, is told.",
+"se": [
+2,
+13
+],
+"title": "Showdown"
+},
+{
+"desc": "The Riddler has apparently gone straight, but Batman is not so sure.",
+"se": [
+2,
+14
+],
+"title": "Riddler's Reform"
+},
+{
+"desc": "Before undergoing surgery meant to remove both his disfigurement and his alternate personality, Two-Face/Harvey Dent is kidnapped by persons unknown.",
+"se": [
+2,
+15
+],
+"title": "Second Chance"
+},
+{
+"desc": "On her first day of release, Harley Quinn gets into a ridiculous amount of trouble in record time.",
+"se": [
+2,
+16
+],
+"title": "Harley's Holiday"
+},
+{
+"desc": "A disgraced fanatical warder of Arkham Asylum sets himself as a vigilante jailer.",
+"se": [
+2,
+17
+],
+"title": "Lock-Up"
+},
+{
+"desc": "Batman and Robin investigate why various comedians are suddenly committing crimes with comically bizarre motifs.",
+"se": [
+2,
+18
+],
+"title": "Make 'Em Laugh"
+},
+{
+"desc": "An elderly amusement park owner breaks Mr. Freeze out of jail, hoping to be \"frozen\" like him in order to achieve immortality.",
+"se": [
+2,
+19
+],
+"title": "Deep Freeze"
+},
+{
+"desc": "Batgirl, Catwoman and Robin team up to investigate the theft of a valuable cat statuette.",
+"se": [
+2,
+20
+],
+"title": "Batgirl Returns"
+}
+],
+"mode": "absolute"
+},
+"Garfield and Friends": {
+"eps": {
+"1.1": {
+"desc": "Garfield tries to sleep after watching TV all night; but Binky the Clown refuses to go away, believing he's at the home of a 97 year old woman to wish her a happy birthday. / While Orson goes to shut off Roy's new stereo, which can't stop playing rooster crows, Wade Duck tears a law label from underneath Orson's sofa and fears he will be sent to prison for it. / Garfield contracts a disease called the Hawaiian Cat Flu which makes him dance anytime something Hawaiian is mentioned. 7.3 / 10 ( 160 )",
+"se": [
+1,
+1
+],
+"title": "Peace & Quiet / Wanted: Wade / Garfield Goes Hawaiian"
+},
+"1.10": {
+"desc": "Jon and Garfield go to a magic shop and Garfield gets into a battle with the magician's dog. / Booker's anxious to prove to everybody on the farm he's not too small to help. / Garfield is so desperate to escape Monday that he mails himself to Samoa. 7.4 / 10 ( 76 )",
+"se": [
+1,
+10
+],
+"title": "Magic Mutt / Short Story / Monday Misery"
+},
+"1.11": {
+"desc": "After seeing how many medals Nermal has won, pushes Jon to put him in a cat show. / Roy gives a box of booby trapped tapioca pudding to Orson telling him it's a national holiday, not counting on Orson to pass his gift along to his friends. / Garfield puts together a presentation on Odie. 7.3 / 10 ( 80 )",
+"se": [
+1,
+11
+],
+"title": "Best of Breed / National Tapioca Pudding Day / All About Odie"
+},
+"1.12": {
+"desc": "Believing Pooky's been kidnapped, Garfield turns himself into a super hero and Odie becomes his sidekick in the search for the teddy bear. / Wade encounters Fred Duck, whose teasing pushes him to try and overcome his fear of flying. / Appalled at the grocery bill, Jon decides they should grow their own food. 7.4 / 10 ( 77 )",
+"se": [
+1,
+12
+],
+"title": "Caped Avenger / Shy Fly Guy / Green Thumbs Down"
+},
+"1.13": {
+"desc": "Garfield gets hit with a lasagna pan and becomes a polite, health conscious feline. / Orson writes in his diary about Bo and Lanolin having a fight that caused Bo to leave the farm. / Jon warns Garfield against buying anymore useless junk, but Garfield has trouble getting rid of a persistent elephant repellent salesman. 7.2 / 10 ( 72 )",
+"se": [
+1,
+13
+],
+"title": "Forget Me Not / I Like Having You Around! / Sales Resistance"
+},
+"1.2": {
+"desc": "With a cardboard box and his imagination, Garfield gets into a lot of trouble with Jon. / Knowing Orson tends to believe everything he reads, Roy preys on a nervous Orson when he's absorbed in a book about alien invasion. / Jon gets fed up with Garfield's bad behavior and sends him to obedience school where the biggest obstacle is the trainer. 7.5 / 10 ( 106 )",
+"se": [
+1,
+2
+],
+"title": "Box O' Fun / Unidentified Flying Orson / School Daze"
+},
+"1.3": {
+"desc": "After consuming a whole pizza and being warned by Jon that he'll have nightmares from it, Garfield dreams he overeats and becomes too big to feed. / When Roy pulls a prank on his friends, they retaliate by calling him Banana Nose to the point he leaves the farm. / Garfield recites a poem about Odie wandering away from home and encountering some tough dogs in the mean part of town. 7.3 / 10 ( 110 )",
+"se": [
+1,
+3
+],
+"title": "Nighty Nightmare / Banana Nose / Ode to Odie"
+},
+"1.4": {
+"desc": "Garfield and Odie are spooked when the power goes out after watching a monster movie and they find out Jon is missing. / Orson and his friends convince Sheldon to return to the chicken coop to become fully hatched. / Jon takes Liz out on a date but must put up with an allergic Garfield and his constant sneezing. 7.6 / 10 ( 97 )",
+"se": [
+1,
+4
+],
+"title": "Fraidy Cat / Shell Shocked Sheldon / Nothing to Sneeze At"
+},
+"1.5": {
+"desc": "Garfield presses his luck with Jon too much and gets thrown out of the house. He decides to go live somewhere else and gets adopted by a rich girl. / Orson is fed up with Wade cowering over every little thing and hypnotizes him to be brave. / A mouse, Floyd, encounters Garfield and takes for granted living with a cat who doesn't chase mice. 7.4 / 10 ( 100 )",
+"se": [
+1,
+5
+],
+"title": "Garfield's Moving Experience / Wade: You're Afraid / Good Mousekeeping"
+},
+"1.6": {
+"desc": "A dogcatcher thinks Garfield's a dog, Floyd starts meowing and the dog chasing Garfield works on his mouse impersonation. / Orson convinces everybody to try a new sport called pig ball, unaware that Roy has put a bunch of fake rules in the game book. / Garfield gets thrown out of the house when Nermal comes to visit; hears a tree calling to him and jumps up it, but then can't get down. 7.6 / 10 ( 90 )",
+"se": [
+1,
+6
+],
+"title": "Identity Crisis / The Bad Sport / Up a Tree"
+},
+"1.7": {
+"desc": "Garfield tampers with a new scale leading Jon to believe he's 50 pounds overweight. / Orson tells a story about how Booker gave up hunting worms. / Garfield is at war with himself when his good and bad sides tell him what to do. 7.4 / 10 ( 84 )",
+"se": [
+1,
+7
+],
+"title": "Weighty Problem / The Worm Turns / Good Cat, Bad Cat"
+},
+"1.8": {
+"desc": "Garfield and Odie are stuck in a cabin during a blizzard with no food. / A rumor says there's a monster on the farm; calling for Orson to make his return as Power Pig to destroy the monster. / Garfield and Jon both dream about what it's like to be the other. 7.7 / 10 ( 84 )",
+"se": [
+1,
+8
+],
+"title": "Cabin Fever / Return of Power Pig / Fair Exchange"
+},
+"1.9": {
+"desc": "The Binky Show: Garfield goes on the Binky show to win presents for Jon's birthday. Keeping Cool: Bo tries to teach Orson how to keep his cool even though his brothers are coming. Don't Move! Garfield tells Odie not to move from his spot but due to events beyond his controls, goes on a long adventure. 7.4 / 10 ( 79 )",
+"se": [
+1,
+9
+],
+"title": "The Binky Show / Keeping Cool / Don't Move!"
+},
+"2.1": {
+"desc": "Jon takes in a starving cat who more than happily makes himself at home at Garfield's expense. / Roy gets on everybody's nerves with his humorless jokes and Orson fires him. / Garfield buys a lottery ticket at the store which winds up winning them millions of dollars.",
+"se": [
+2,
+1
+],
+"title": "Pest of a Guest / The Impractical Joker / Fat & Furry"
+},
+"2.10": {
+"desc": "While visiting Cactus Jake's dude ranch, Garfield helps Jon survive Jake's horse riding lessons, and falls for a black and white cat. / Orson's brothers are coming to pay him a visit and he imagines himself as the eternally strong Hercules who could take on anything. / Jon, Garfield and Odie go out to visit some family, and while Jon's stuck looking at slides, Garfield's stuck in the garage with a bratty kid scientist.",
+"se": [
+2,
+10
+],
+"title": "Polecat Flats / Hogcules / Brain Boy"
+},
+"2.11": {
+"desc": "Jon receives a lobster as a gift but it refuses to be cooked, so he and Garfield try to make a pet out of it. / Aliens come to Earth to drain it of all its humor, so Orson and his friends use Roy's joke books to try and defeat them. / Garfield tells Nermal a scary story about mutant guppies living in the sewer so he'll go to bed, but the story seems to take on a life of its own.",
+"se": [
+2,
+11
+],
+"title": "Maine Course / No Laughing Matter / Attack of the Mutant Guppies"
+},
+"2.12": {
+"desc": "Odie is dog-napped by a nutty scientist who wants to make robotic duplicates of him. / After hurting his leg, Wade overhears Roy and Orson talking about fixing broken legs with nails and hammer and glue, not knowing they're trying to fix a broken ping pong table. / Garfield enters a bet with Jon that he can't watch TV for 24 hours, but the TV starts to feel neglected and comes after Garfield to watch it.",
+"se": [
+2,
+12
+],
+"title": "Robodie / First Aid Wade / Video Victim"
+},
+"2.13": {
+"desc": "Jon's uncle dies and leaves his famous cursed Klopman diamond to Garfield, which brings him nothing but bad luck. / Orson arranges for everybody to help in cleaning up the farm, but they take it a step further and try to clean out his mud waller. / Stuck inside on a rainy day, Garfield imagines he and Odie in the castle of a mad scientist while a woman comes over to swindle Jon into buying insurance.",
+"se": [
+2,
+13
+],
+"title": "The Curse of the Klopman / Mud Sweet Mud / Rainy Day Dreams"
+},
+"2.14": {
+"desc": "BASKET BRAWL: Jon, Odie and Nermal's attempt to go on a picnic is seen as a basketball game. CHANGE YOUR LIFE: Orson reads some advice to Wade. WINDOW SHADES: Jon buys venetian blinds. THE ORIGIN OF POWER PIG: Orson tells how he became Power Pig. Song: \"Power Pig.\" CACTUS JAKE RIDES AGAIN: Cactus Jake moves in with Jon when the local rodeo comes to town.",
+"se": [
+2,
+14
+],
+"title": "Basket Brawl / Origin of Power Pig! / Cactus Jake Rides Again"
+},
+"2.15": {
+"desc": "Binky is put on trial for a list of robbery charges and Garfield uses the show's script to find out who's really behind it. / The barn is overloaded with crops that there's no place to sleep, so Orson takes everybody up to the old barn, which Wade insists is haunted by the ghosts of their ancestors. / Garfield does a presentation on how mini-malls are grown from seeds and what all they contain.",
+"se": [
+2,
+15
+],
+"title": "Binky Goes Bad! / Barn of Fear / Mini-Mall Matters"
+},
+"2.16": {
+"desc": "No matter what Garfield does, everybody ignores him and only pays attention to Odie. / Orson's sick and has a Star Trek-like dream sequence about he and the others hunting down the virus. / Garfield presents a bunch of wild ideas on a TV show about the world, falling back on the line 'if they show it on TV, it must be true!'",
+"se": [
+2,
+16
+],
+"title": "Attention Getting Garfield / Swine Trek / It Must Be True!"
+},
+"2.17": {
+"desc": "Arrevederci, Odie!: Jon takes Odie to the vet and comes back without him, leaving Garfield to believe he has the house to himself now. Gort Goes Good: Orson's brother Gort seems to have turned over a new leaf and wants to help work on the farm. feeling Feline: Jon worries he and Garfield do too many things together and tries to do something Garfield won't.",
+"se": [
+2,
+17
+],
+"title": "Arrivederci, Odie! / Gort Goes Good / Feeling Feline"
+},
+"2.18": {
+"desc": "Jon takes Garfield and Odie camping where they run across Binky's dancing bear. / Everybody on the farm tries to come up with something that won't scare Wade. / Garfield goes after a talk show host that publicly hates cats.",
+"se": [
+2,
+18
+],
+"title": "The Bear Facts / Nothing to Be Afraid of / The Big Talker"
+},
+"2.19": {
+"desc": "READY FOR SNOW: Jon dresses Garfield and Odie for snow. CACTUS MAKES PERFECT: Jon, Garfield and Odie visit Cactus Jake at his home. HOGCULES II: When Roy and Wade have a fight, Orson wonders what Hogcules would do. Song: \"Hogcules.\" CRIME AND NOURISHMENT: Garfield discovers a secret world inside a tree. BINK: BUILDING: Binky crashes a new building dedication.",
+"se": [
+2,
+19
+],
+"title": "Cactus Makes Perfect / Hogcules II / Crime and Nourishment"
+},
+"2.2": {
+"desc": "At a picnic, Garfield falls asleep and dreams he wakes up 20 years later. / Roy plays a practical joke on Wade leaving him to worry that the law of gravity has been repealed. / Jon tries to keep Garfield asleep so he can enjoy a box of cookies his mother sent.",
+"se": [
+2,
+2
+],
+"title": "Rip Van Kitty / Grabbity / The Big Catnap"
+},
+"2.20": {
+"desc": "Jon's 1-year-old TV breaks down and he and Garfield are subjected to the many different kinds of televisions of the future. / Orson finds a video camera and decides to make a movie of Little Red Riding Hood with Sheldon in the starring role, Wade as the grandmother and Roy as the wolf unaware that a real wolf is in the area. / Garfield convinces a woman that he's starving and she tells Jon he'll go to jail unless Garfield is well-fed when she returns.",
+"se": [
+2,
+20
+],
+"title": "T.V. of Tomorrow / Little Red Riding Egg / Well-Fed Feline"
+},
+"2.21": {
+"desc": "Garfield wakes up and finds himself in the wrong cartoon - an action packed cartoon. / Roy bets Wade and Lanolin that Orson can't get his books put away because he reads them all first. / Jon leaves Garfield and Odie at Howie's Housebreak Hotel which turns out to be a pet prison.",
+"se": [
+2,
+21
+],
+"title": "Invasion of the Big Robots / Shelf Esteem / Housebreak Hotel"
+},
+"2.22": {
+"desc": "In \"First Class Feline,\" Garfield's latest attempt to mail Nermal to Abu Dhabi gets out of hand. Then, in \"Hamelot,\" Orson imagines himself as King Arthur. Finally, in \"How To Be Funny\", Garfield gives a lecture on comedy.",
+"se": [
+2,
+22
+],
+"title": "First Class Feline / Hamelot / How to Be Funny"
+},
+"2.23": {
+"desc": "While on vacation, Odie disappears into a haunted house called Mystic Manor and Garfield has to bring him back. / Wade accidentally catches the weasel and lets the ego of being a hero go to his head. / Jon, Garfield and Odie go to Washington to find out about his relatives, only to be chased by a mob and find out that his ancestor, Long Jon, stole maps from George Washington.",
+"se": [
+2,
+23
+],
+"title": "Mystic Manor / Flop Goes the Weasel / The Legend of Long Jon"
+},
+"2.24": {
+"desc": "BLAMED: Garfield feels persecuted. CHINA CAT: While at a Chinese restaurant, Jon and Garfield hear the story of the dragon and the cat. DUTCH DOOR: Roy plans to \"pie\" Orson. COCK-A-DOODLE DANDY: Roy's morning bugle keeps waking up an angry bear. Song: \"Mr. Lips.\"",
+"se": [
+2,
+24
+],
+"title": "China Cat / Cock-A-Doodle Dandy / Beach Blanket Bonzo"
+},
+"2.25": {
+"desc": "Jon gets conned into selling his car and buying a broken down piece of junk by Al G. / Orson receives a letter from Hammerhead Hog, a bully who Orson helped get sentenced to detention for life - he's coming at noon to settle with Orson. / When the same movie plays on every TV channel, Jon takes Garfield and Odie to rent a movie from the video store.",
+"se": [
+2,
+25
+],
+"title": "Lemon Aid / Hog Noon / Video Airlines"
+},
+"2.26": {
+"desc": "Melvin the mailman gets fired because of his inability to deal with Garfield; so Garfield gives Melvin's boss a taste of what it's like trying to deliver mail to the Arbuckle house. / Orson tells a story of how Roy became fixated on peanuts just at the time that Mort, Gort and Wort stole their entire peanut crop. / On a mummy expedition at the museum, Garfield hits his head and dreams of being a Pharoh's cat in Ancient Egypt.",
+"se": [
+2,
+26
+],
+"title": "The Mail Animal / Peanut-Brained Rooster / Mummy Dearest"
+},
+"2.3": {
+"desc": "After stowing away in Jon's suitcase to New York, Garfield finds out his owner has gotten involved with a pickpocket. / Orson tells a story about how a mother turtle with a baby who didn't want to hatch, confused her runaway son with Sheldon. / Garfield's stuck entertaining Nermal for the day so tells his own version of Hansel and Gretel.",
+"se": [
+2,
+3
+],
+"title": "The Great Getaway / Scrambled Eggs / Hansel and Garfield"
+},
+"2.4": {
+"desc": "Jon tells Garfield and Odie the story of the sludge monster, which scares them into thinking the monster is outside. / For a practical joke, Roy makes the predictions of Wade's fortune cookies come to life. / In an attempt to think cool on a hot day, Jon and Garfield decorate the house for Christmas; something that quickly spreads to all the other houses and soon the whole town.",
+"se": [
+2,
+4
+],
+"title": "The Sludge Monster / Fortune Kooky / Heatwave Holiday"
+},
+"2.5": {
+"desc": "Jon buys a fern that's guaranteed impossible for Garfield to eat, unaware it's a meat eating fern. / In an attempt to get a record player for Bo, Orson winds up having to do favors for everybody else on the farm. / Due to a misunderstanding, Jon tells Garfield to get rid of his little black book and then about goes crazy trying to get it back.",
+"se": [
+2,
+5
+],
+"title": "One Good Fern Deserves Another / Goody-Go-Round / The Black Book"
+},
+"2.6": {
+"desc": "Garfield recounts the history of a lake that a prehistoric cat crossed to reach an island of lasagna trees. / Orson gets caught up in a mystery novel. / Jon decides to get in shape thanks to a fitness guru named Rick Deltoid, and tries to get Garfield to do the same.",
+"se": [
+2,
+6
+],
+"title": "The Legend of the Lake / Double Oh Orson / Health Feud"
+},
+"2.7": {
+"desc": "Binky Gets Cancelled! The network doesn't find Binky's show suitable for young viewers so replace him with the Buddy Bears. Show Stoppers: Orsons brothers Gort, Mort and Wort crash a variety show they're performing. Cutie and the Beast: Garfield convinces Nermal he's ugly, causing Nermal to run away and get mixed up with a dangerous cat.",
+"se": [
+2,
+7
+],
+"title": "Binky Gets Cancelled! / Show Stoppers / Cutie and the Beast"
+},
+"2.8": {
+"desc": "Jon brings home a new satellite dish with an unusual warning which Garfield doesn't notice and as a result, winds up in the TV. / The Sandman missed the farm and Orson didn't sleep all night so his friends try to make him tired. / Jon and Liz are mugged on a date, so Jon goes for martial art lessons while Garfield becomes 'Yojumbo', a Samauri warrior cat to protect Jon.",
+"se": [
+2,
+8
+],
+"title": "The Lasagna Zone / Sleepytime Pig / Yojumbo"
+},
+"2.9": {
+"desc": "Odie falls victim to a conman cat on the way to the store and loses Jon's money in exchange for a dirty sock. / Roy drops 50 pounds of creamed spinach on Orson and despite Orson's insistence that he's not going to trick Roy back, Roy becomes paranoid waiting for the payback prank. / A movie director calls Garfield the perfect thing for his big picture, but Garfield expects to be the glamorous star, not the stunt cat put in all the peril.",
+"se": [
+2,
+9
+],
+"title": "Pros and Cons / Rooster Revenge / Lights! Camera! Garfield!"
+},
+"3.1": {
+"desc": "Jon, Garfield and Odie are passengers on a rickety broken-down plane flown by Al G. Swindler, who bails out and leaves them to fly the plane. / Orson and the others receive a telegram that says only 'The bunny rabbits is coming'. / John, Garfield and Odie encounter a cute little alien whose reasons for coming to earth are more sinister than he leads them to believe. 7.5 / 10 ( 62 )",
+"se": [
+3,
+1
+],
+"title": "Skyway Robbery / The Bunny Rabbits Is Coming! / Close Encounters of the Garfield Kind"
+},
+"3.10": {
+"desc": "While waiting for his lasagna to cool down, Garfield tells Odie the story of Odielocks and the 3 Cats. / Orson yells at Wade for making a mistake and then wonders how it might effect their future. / Garfield breaks his bed and Jon takes him shopping to get a new one. 7.8 / 10 ( 54 )",
+"se": [
+3,
+10
+],
+"title": "Odielocks and the 3 Cats / Quack to the Future / Beddy Buy"
+},
+"3.11": {
+"desc": "Jon tries to sell his boss on the idea of a new cartoon, a vampire cat called Count Lasagna. / Roy hold a contest to give away the farmer's tractor to anybody who can guess the identity of their mystery guest (Garfield). / Floyd and his cousin make themselves at home and Jon demands Garfield get rid of them. 7.8 / 10 ( 53 )",
+"se": [
+3,
+11
+],
+"title": "Count Lasagna / Mystery Guest / Rodent Ramage"
+},
+"3.12": {
+"desc": "After stealing a pie, Garfield dreams his criminal career is profiled on the TV series WANTED: BAD GUYS. Odie hides from Garfield. Jon shows off his new shirt. 7.7 / 10 ( 52 )",
+"se": [
+3,
+12
+],
+"title": "Feline Felon / The Legal Eagle / The Cactus Saga"
+},
+"3.13": {
+"desc": "Jon's cousin, George, gets him a job at the radio station as *cringe*, a disc jockey! / Orson imagines himself as Double-O Orson, battling against P. Cornfinger, who has been stealing corn from all over the world. / Jon bets Garfield he can't go five whole minutes without eating. 7.6 / 10 ( 55 )",
+"se": [
+3,
+13
+],
+"title": "D.J. Jon / Cornfinger / Five Minute Warning"
+},
+"3.14": {
+"desc": "Jon takes Garfield and Odie to a vacation at the theme park, Wonderful World, which is anything but wonderful as Al G. Swindler has taken it over and let it fall by the wayside. / All the barnyard animals turn out to see who will take home the trophy for the Orson Awards. / Garfield presents his own ideas on working out, dieting, and how to tell if you're overweight. 7.8 / 10 ( 52 )",
+"se": [
+3,
+14
+],
+"title": "Wonderful World / The Orson Awards / The Garfield Workout"
+},
+"3.15": {
+"desc": "Jon competes with a wilderness guide for the affection of the women who have joined them on their wilderness trip; while Garfield and Odie meet up with some of the wild animals, who Garfield teaches how to get food from humans. / After Roy confiscates their crop of acorns, Orson gets hit in the head and imagines himself as Robin Hog going up against the evil Sheriff, which is Roy. / Jon gets a rabbit for a magic trick he's going to perform, but the rabbit, who is tired of being pulled out of hats, runs off, leaving Garfield to substitute for him. 7.5 / 10 ( 51 )",
+"se": [
+3,
+15
+],
+"title": "All Things Fat and Small / Robin Hog / Hare Replacement"
+},
+"3.16": {
+"desc": "Odie gets lost when Garfield throws a stick too far. Orson dreams he is in Wonderland. Garfield hosts a special explaining the \"true\" origin of cats. 7.4 / 10 ( 49 )",
+"se": [
+3,
+16
+],
+"title": "Stick to It / Orson in Wonderland / For Cats Only"
+},
+"3.17": {
+"desc": "Garfield shows an episode filled with errors. During a drought, Orson meets a friendly alien. A chance meeting with a guru, convinces Jon to change his lifestyle. 8.4 / 10 ( 71 )",
+"se": [
+3,
+17
+],
+"title": "Mistakes Will Happen / The Well Dweller / The Wise Man"
+},
+"3.18": {
+"desc": "Comedy - Garfield, angry about Jon and Odie getting so many jokes, decides to write his own script for the show. Garfield isn't afraid of a mouse named Loretta. The weasel secretly convinces Roy to suggest an election for who runs the farm: Roy or Orson. Jon visits his cousin Berferd and gets mixed up in an old feud. Garfield and Binky visit an animation studio. 7.7 / 10 ( 53 )",
+"se": [
+3,
+18
+],
+"title": "Star Struck / Election Daze / Dirty Business"
+},
+"3.2": {
+"desc": "Garfield tells Odie about a relative of his who was the first cat in outer space. / A new rooster comes to the farm who swoons the chickens with poetry and music, and Roy feuds with him for the chickens' affection. / Garfield finds a lost book of Cinderella and wishes he had a fairy godmother, but instead winds up with a fairy godfather who grants wishes, but with a catch. 7.4 / 10 ( 58 )",
+"se": [
+3,
+2
+],
+"title": "Astro Cat / Cock-A-Doodle Duel / Cinderella Cat"
+},
+"3.3": {
+"desc": "Jon and Garfield are booked on a 2 week cruise, but the ship doesn't allow pets. / Orson and the others decide to dress up in their ancestors' clothes and hold a harvest celebration up at the old barn; while unbeknownst to them, the ghosts of their ancestors ward off Orson's brothers who have come to steal the harvest. / Jon takes Garfield and Odie up to a ski resort to meet ladies, while Garfield continuously predicts, \"You're going to break your leg.\" 7.5 / 10 ( 54 )",
+"se": [
+3,
+3
+],
+"title": "Ship Shape / Barn of Fear II / Break-a-Leg"
+},
+"3.4": {
+"desc": "Jon and Garfield both tell very different versions of how the house got filled with yogurt. / Orson goes away on a vacation and leaves Wade in charge. / Jon's cousin Marian asks him to be best man at her wedding and Garfield and Odie overhear, mistakenly believing Jon's getting married. 7.8 / 10 ( 59 )",
+"se": [
+3,
+4
+],
+"title": "Twice Told Tale / Orson Goes on Vacation / Wedding Bell Blues"
+},
+"3.5": {
+"desc": "Jon buys a Shlocko Pet Washer that's designed to clean pets as soon as they get dirty, and Garfield takes it for a test drive on Odie. / Orson explains to Wade (and the viewers) how certain elements of cartoons work, including: takes, double takes, spit takes, running off of cliffs, and delayed reactions. / Cactus Jake gets fired from the ranch and tries to find a job in the city living with Jon and Garfield. 7.6 / 10 ( 54 )",
+"se": [
+3,
+5
+],
+"title": "Clean Sweep / Secrets of the Animated Cartoon / How the West was Lost"
+},
+"3.6": {
+"desc": "SPECIAL: Odie does a trick for Garfield. BINKY GETS CANCELLED AGAIN: Binky loses his show to the Buddy Bears, who never disagree. Song: \"The Buddy Bears.\" CEILING: Roy's wake up call sends all through the roof. ORSON'S DINER: Orson and Wade open a diner with Roy as their first customer. Song: \"Orson's Diner.\" LONG NAP: Garfield sleeps into the future. UNDERWATER: Binky goes deep sea diving. FLAT TIRED: Garfield is too tired so the director gives Odie his own cartoon. 7.5 / 10 ( 58 )",
+"se": [
+3,
+6
+],
+"title": "Binky Gets Cancelled, Again! / Orson's Diner / Flat Tired"
+},
+"3.7": {
+"desc": "Garfield has a fun time with swiss cheese, gets some help to clean the house, and hosts a debate about why cats are better than dogs. 7.5 / 10 ( 55 )",
+"se": [
+3,
+7
+],
+"title": "Return of the Buddy Bears / Much Ado About Lanolin / Reigning Cats and Dogs"
+},
+"3.8": {
+"desc": "FIT FOR A KING: Garfield tells the story of a land where the King is given his weight in gold every year. CLOWN CONVENTION: While away at a clown convention, Binky gives Garfield a call. BEN HOG: On the day of the County Fair parade, Orson dreams he's in Ben Hog's chariot race. Song: \"Ben Hog.\" CHAIR LEVEL: Garfield levels Jon's chair. DESSERT IN THE DESERT: Jon's car breaks down in the desert. As he walks for help, Garfield and Odie see various mirages. 7.4 / 10 ( 52 )",
+"se": [
+3,
+8
+],
+"title": "Fit for a King / Ben Hog / Dessert in the Desert"
+},
+"3.9": {
+"desc": "Garfield falls asleep watching a Sherlock Holmes movie and dreams he's assisting the famous detective. Orson's imagination brings things he is reading about to life. 7.6 / 10 ( 53 )",
+"se": [
+3,
+9
+],
+"title": "Hound of the Arbuckles / Read Alert / Urban Arbuckle"
+},
+"4.1": {
+"desc": "Garfield tricks Odie into thinking he's a cow. Roy becomes the newest member of the Buddy Bears. An angel tries to get Garfield to change his ways.",
+"se": [
+4,
+1
+],
+"title": "Moo Cow Mutt / Big Bad Buddy Bird / Angel Puss"
+},
+"4.10": {
+"desc": "Garfield is consumed playing a video game while Jon is having a terrible stomachache. Orson can't find his spy novel and slips into one of his fantasies being a secret agent. The Arbuckle household is in distress when Jon's overweight uncle comes for a long visit.",
+"se": [
+4,
+10
+],
+"title": "Galactic Gamesman Garfield / Sly Spy Guy / The Thing That Stayed Forever"
+},
+"4.11": {
+"desc": "Garfield and Odie are doing the shopping when they accidentally take the wrong cart with a baby in it. Orson is telling the story of the ugly duckling, starring Wade. Garfield is struggling when the network invites the Buddy Bears to bring more educational portion to the cartoon.",
+"se": [
+4,
+11
+],
+"title": "Bouncing Baby Blues / The Ugly Duckling / Learning Lessons"
+},
+"4.12": {
+"desc": "Robodie: Dr. Bean returns and tries again to use Odie as the basis for robot dogs including a giant robot. Odie's Nose: Garfield and Odie have a fight. For Butter or Worse: When all the butter disappears, Orson dreams he's Power Pig and solves the mystery. Jon's Lap: Garfield won't get off Jon's lap. Annoying Things: Garfield hosts a show about things that are annoying but can't mention dogs due to threats.",
+"se": [
+4,
+12
+],
+"title": "Robodie II / For Butter or Worse / Annoying Things"
+},
+"4.13": {
+"desc": "Jon buys a new TV from Madman Murray but finds the TV and guarantee faulty. / Wade suggests the Roy Rosster Fan Club be changed to the Wade Duck fan club. / When a mouse's mother gets trapped in the cookie jar, he thinks Garfield's eaten her.",
+"se": [
+4,
+13
+],
+"title": "Guaranteed Trouble / Fan Clubbing / A Jarring Experience"
+},
+"4.14": {
+"desc": "The Idol of Id: Garfield and Odie touch an idol that exchanges their minds. Bedtime Story Blues (US Acres): Orson reads Cinderella to Booker and Sheldon. Mamma Mannicotti: Garfield, Odie, and Jon help Mamma Mannicotti get famous.",
+"se": [
+4,
+14
+],
+"title": "The Idol of Id / Bedtime Story Blues / Mama Manicotti"
+},
+"4.15": {
+"desc": "Garfield uses a pizza company's guarantee of \"delivery in 30 minutes or its free\" to get free pizza. / Wade's father, who believes his son is brave, comes to the farm just as the evil weasel returns. / Jon's new car falls in love with him...and tells him so.",
+"se": [
+4,
+15
+],
+"title": "The Pizza Patrol / The Son Also Rises / Rolling Romance"
+},
+"4.16": {
+"desc": "Jon's boss Mr. Sprocket decides to digitize Garfield to show them the future of how cartoons will be made. / After failing to guard the crops, Wade finds out how different things would be if he was never born. / In a homage to Wham, Garfield sings a song about Odie riding with a trucker and helping him escape a cargo thief to safely deliver the truck on time.",
+"se": [
+4,
+16
+],
+"title": "The Automated, Animated Adventure / It's a Wonderful Wade / Truckin' Odie"
+},
+"4.2": {
+"desc": "Odie is put on trial for eating Garfield's blueberry pie. Orson answers some fan mail as he tells how Booker hatched and Sheldon almost did. A local store looses his customers when a monster supermarket opens across the street.",
+"se": [
+4,
+2
+],
+"title": "Trial and Error / An Egg-Citing Story / Supermarket Mania"
+},
+"4.3": {
+"desc": "On a camping trip, Jon, Odie, Garfield and Cactus Jake dream of being pioneers in outer space. / Roy gets a watch for his birthday, but it turns up missing and Roys suspects everyone. / Jon's attempt to break a habit by listening to a record n his sleep backfires when Garfield changes the music.",
+"se": [
+4,
+3
+],
+"title": "The Legend of Cactus Jupiter / Birthday Boy Roy / Jukebox Jon"
+},
+"4.4": {
+"desc": "Two mice critics review a documentary that features Garfield's attempt to catch mice. Wade is hypnotized to turn into a monster every time he hears a bell. Nermal tells the story of Paul Bunyan.",
+"se": [
+4,
+4
+],
+"title": "Squeak Previews / Dr. Jekyll & Mr. Wade / A Tall Tale"
+},
+"4.5": {
+"desc": "Jon dreams he's Dr. Frankenstein who has invented a cat with a tummy the size of a whale's. / Wade makes a wish it would stop raining, and is pleased, but several months pass by without rain so he tries to undo his wish. / Garfield's sick so the director casts Nermal in his role in the current cartoon.",
+"se": [
+4,
+5
+],
+"title": "Frankenstein Feline / Weatherman Wade / Fill-In Feline"
+},
+"4.6": {
+"desc": "Garfield accidentally winds up on an airplane going to the North Pole. / When the rain stops, Roy follows the rainbow for the pot of gold, but finds himself instead in the middle of a game show. / Jon has too many remotes so goes to buy one brand new universal remote that will work on all his electronics; only Garfield and Odie get their hands on a new, experimental remote that controls everything.",
+"se": [
+4,
+6
+],
+"title": "Polar Pussycat / Over the Rainbow / Remote Possibilities"
+},
+"4.7": {
+"desc": "Jon buys a washing machine that is actually alive and eats his clothes. Bo is the slowest cook ever and Roy opens a fast food joint. Jon cancels all his credit cards and takes Garfield and Odie to the mall to buy a new waste basket.",
+"se": [
+4,
+7
+],
+"title": "Night of the Living Laundromat / Fast Food / Cash and Carry"
+},
+"4.8": {
+"desc": "Jon gets a speeding ticket from a phony cop and decides to protest in court. Orson teaches Wade how by using one's imagination anything is possible. Garfield is reliving Robinson Crusoe while Jon persuades a repairman to fix the cable.",
+"se": [
+4,
+8
+],
+"title": "Speed Trap / Flights of Fantasy / Castaway Cat"
+},
+"4.9": {
+"desc": "Jon takes Garfield and Odie to see the mind reader Suami Pastrami. Orson and the gang are playing baseball when he gets hit on the head and dreams his team is playing against his brothers. Garfield gives a multiple choice quiz.",
+"se": [
+4,
+9
+],
+"title": "Mind Over Matter / Orson at the Bat / The Multiple-Choice Cartoon"
+},
+"5.1": {
+"desc": "Garfield leaves home and gets adopted by an elderly lady with a mouse problem. Roy buys a robot that creates not only weather but problems. Odie finds a magic wand.",
+"se": [
+5,
+1
+],
+"title": "Home Away from Home / Rainy Day Robot / Odie the Amazing"
+},
+"5.10": {
+"desc": "Garfield tries to use Nermal to get free food. / Orson, Roy, and Wade look for a chocolate mine, unaware that Orson's brothers are following. / Jon goes on a game show in hopes of finding his ideal woman.",
+"se": [
+5,
+10
+],
+"title": "Cute for Loot / The Caverns of Cocoa / Dream Date"
+},
+"5.11": {
+"desc": "Garfield uses a pizza company's guarantee of \"delivery in 30 minutes or its free\" to get free pizza. / Wade's father, who believes his son is brave, comes to the farm just as the evil weasel returns. / Jon's new car falls in love with him...and tells him so.",
+"se": [
+5,
+11
+],
+"title": "The Worst Pizza in the History of Mankind / Jack II: The Rest of the Story / The Garfield Opera"
+},
+"5.12": {
+"desc": "Dummy of Danger: Garfield discovers Jon's new ventriloquist dummy is alive. Tree Stump: Garfield asks which is smarter: a dog or a tree stump. Sooner or Later: The wolf tricks the crew into putting things off. Jumping Jon: Jon decides to take up skydiving.",
+"se": [
+5,
+12
+],
+"title": "Dummy of Danger / Sooner or Later / Jumping Jon"
+},
+"5.13": {
+"desc": "When the sound effects man quits, Garfield assigns Odie to take his place. / The wolf tricks the crew into believing that aliens have arrived. / Penelope breaks up with her boyfriend, Brick, and decides to date Garfield.",
+"se": [
+5,
+13
+],
+"title": "Sound Judgement / Gross Encounters / The Perils of Penelope"
+},
+"5.14": {
+"desc": "Cartoon Cat conspiracy: Tired of animated cat stereotypes, Garfield creates his own cartoon. Snowball: Garfield gets Jon with a snowball. Who Done It: Three fix it canines come to the farm. The Picnic Panic: Jon, Garfield and Odie's picnic is ruined by ants.",
+"se": [
+5,
+14
+],
+"title": "The Cartoon Cat Conspiracy / Who Done It? / The Picnic Panic"
+},
+"5.15": {
+"desc": "A rookie ghost gets assigned Garfield's house to haunt. / Roy quits the show and joins the Buddy Bears. / A meteorite is mistaken for a fruit cake, refrigerated, and brings the food to life.",
+"se": [
+5,
+15
+],
+"title": "Ghost of a Chance / Roy Gets Sacked / Revenge of the Living Lunch"
+},
+"5.16": {
+"desc": "Jon hires a time obsessed man to help him get his life organized, much to Garfield and Odie's dismay. / While a psychiatrist tries to cure Wade of his phobias, the wolf tricks Roy into abandoning his guard at the hen house. / Garfield's rap music video about being a cat becomes number one on a cat music channel.",
+"se": [
+5,
+16
+],
+"title": "Super Sonic Seymour / A Mildly Mental Mix-Up / The Garfield Rap"
+},
+"5.2": {
+"desc": "Garfield hosts a quiz show for viewers at home. Orson does his own take on \"The Raven\". Garfield and Odie break Jon's record player.",
+"se": [
+5,
+2
+],
+"title": "The First Annual Garfield Watchers Test / Stark Raven Mad / The Record Breaker"
+},
+"5.3": {
+"desc": "Jon is harassed by a magazine salesman. / Orson is too sick to read the story of \"Chicken Licken\" to the chicks so the others try to. / An escaped Saber tooth tiger switches identities with Garfield.",
+"se": [
+5,
+3
+],
+"title": "Renewed Terror / Bad Time Story / Tooth or Dare"
+},
+"5.4": {
+"desc": "Speed Trap: On a vacation, Jon gets a speeding ticket but Garfield suspects foul play. Rubber Hole: Garfield plans to trap Odie in a hole. Flights of Fantasy: Tiring of Orson's imagination running wild, Wade tries some imagining of his own. Shoelaces: Garfield ties Jon's laces together. Castaway Cat: When the TV cable goes out, Garfield reads about Robinson Crusoe and gets caught up in the story.",
+"se": [
+5,
+4
+],
+"title": "Country Cousin / The Name Game / The Carnival Curse"
+},
+"5.5": {
+"desc": "Home Sweet Swindler: Mr. Swindler returns and gets Jon to sell the house for two cents. Heat Register: Odie runs into trouble. Forget-Me-Not-Newton: Wade's forgetful cousin, Newton, arrives. The Great Inventor: Garfield tells a story about how an ancient cook and his cat invented lasagna.",
+"se": [
+5,
+5
+],
+"title": "Home Sweet Swindler / Forget-Me-Not Newton / The Great Inventor"
+},
+"5.6": {
+"desc": "Taste Makes Waist: Jon joins a weight reducing program that offers its own food. Man of Decision: Jon makes plans for the day. The Wolf Who Cried Boy: The crew installs a wolf alarm, but Roy uses it for his own amusement. Day of Doom: When Garfield wishes there were no Mondays, it comes true.",
+"se": [
+5,
+6
+],
+"title": "Taste Makes Waist / The Wolf Who Cried Boy / Day of Doom"
+},
+"5.7": {
+"desc": "The Kitty Council: Garfield is called up before the council on charges of not acting like a cat. Incompetent: Jon sends for a book. The Bo Show: When Orson's brothers kidnap most of the crew, Bo tries to do the show by himself. Bad Neighbor Policy: Garfield's neighbor is being driven crazy by the cat's antics.",
+"se": [
+5,
+7
+],
+"title": "The Kitty Council / The Bo Show / Bad Neighbor Policy"
+},
+"5.8": {
+"desc": "Jon has to wrestle the masked mauler and it's up to Garfield to actually defeat him. Orson takes Wade and Roy on an imaginary trip to the moon while the Weasel attempts to steal the chickens. Some leftovers in the fridge become alive.",
+"se": [
+5,
+8
+],
+"title": "Canvas Back Cat / Make Believe Moon / The Creature That Lived in the Refrigerator, Behind the Mayonnaise, Next to the Ketchup and to the Left of the Cole Slaw"
+},
+"5.9": {
+"desc": "Odie finds a magic lamp that grants his wish to fly. Wade is trying to collect a debt from Roy and Orson decides to help him to build the courage for the task by using his imagination. A witch is determined to get married and since her longtime boyfriend is dogging the subject, she picks Jon for her future husband.",
+"se": [
+5,
+9
+],
+"title": "Airborne Odie / Once Upon a Time Warp / Bride and Broom"
+},
+"6.1": {
+"desc": "Garfield and Odie try to get out of another Jon Arbuckle vacation, then are sorry they did. / Orson is taking Booker and Sheldon hiking when they encounter the incredibly stupid swamp monster who's run away from the mad scientist that created him. / Nermal dreams Garfield tries to get him away on a TV infomercial, but nobody wants him.",
+"se": [
+6,
+1
+],
+"title": "A Vacation from His Senses / The Incredibly Stupid Swamp Monster / Dread Giveaway"
+},
+"6.10": {
+"desc": "Cartoon Cat conspiracy: Tired of anmated cat stereotypes, Garfield animates his own cartoon. Snowball: Garfield gets Jon with a snowball. Who Done It: Three fix it canines come to the farm. The Picnic Panic: Jon, Garfield and Odie's picnic is ruined by ants.",
+"se": [
+6,
+10
+],
+"title": "Date of Disaster / A Little Time Off / The Longest Doze"
+},
+"6.11": {
+"desc": "Sound Judgment: Garfield demonstrates the importance of sound effects. Lift Off: Coffee gets Garfield going. Gross Encounters: The wolf convinces the crew that aliens have landed. The Perils of Penelope: Penelope wants Garfield as her new beau while Garfield tries to avoid her brutish boyfriend.",
+"se": [
+6,
+11
+],
+"title": "The Life and Times of the Lasagne Kid / Return of the Incredibly Stupid Swamp Monster / Unreal Estate"
+},
+"6.12": {
+"desc": "Garfield reminisces of how he was once famous. Roy writes a new version of Paul Revere and his duck, after realizing he's not in this week's episode. Jon was playing a wizard's and dungeon's game all night long and forgets to make everybody breakfast. While Garfield is trying to order food, Jon has a dream that he is the game's big hero, together with his trusty enchanted cat, they journey in search of the Bottomless Wallet.",
+"se": [
+6,
+12
+],
+"title": "Stairway to Stardom / Midnight Ride of Paul Revere's Duck / Magic, Monsters and Manicotti"
+},
+"6.13": {
+"desc": "Lost And Foundling: while playing \"hide and seek,\" Odie gets found by a rich girl who wants a puppy. Speedy: Garfield races for food. Winter Wonderland: to keep from freezing, Orson uses his imagination to think it's summer, but the Weasel has a different forecast. Films And Felines: Garfield gives a tour of a movie museum, discussing famous cats in films.",
+"se": [
+6,
+13
+],
+"title": "Lost and Foundling / Winter Wonderland / Films and Felines"
+},
+"6.14": {
+"desc": "The Garfield Musical: Penelope falls for a hipper cat until Garfield learns to rock and roll. Nose Switch: Garfield and Odie switch noses. Mind Over Melvin: No one can win at Roy's crooked quiz show until Orson receives a mind reading device from an alien. Madman Meets His Match: The crazy salesman gets competition from Demented Dave's for Jon's money.",
+"se": [
+6,
+14
+],
+"title": "The Garfield Musical / Mind Over Melvin / The Third Penelope Episode"
+},
+"6.15": {
+"desc": "After a mix-up, Jon has to become a contestant in an aerial show and confront the Boulder. Wade receives too many pies in his face since it's a national holiday and he writes to the government, suggesting a new holiday. Jon gives a lecture in a prison about being a cartoonist and one of the convicts expresses a big interest in the profession.",
+"se": [
+6,
+15
+],
+"title": "Knights and Daze / Holiday Happening / Jailbird Jon"
+},
+"6.16": {
+"desc": "The Third Penelope Episode: Garfield and Penelope imagine what it would be like to be married to each other. Hare Force. Garfield's Garbage Can And Tin Pan Alley Review.",
+"se": [
+6,
+16
+],
+"title": "The Third Penelope Episode / Hare Force / Garfield's Garbage Can & Tin Pan Alley Revue"
+},
+"6.2": {
+"desc": "The Wright Stuff: Garfield tells how it was the Wright brothers' cat that first flew at Kitty Hawk. Gravity: It's Monday and even gravity isn't working. Orson Express: Orson and Booker must deliver a package to a hermit who lives in a tree guarded by a dog. Safe At Home: Jon has a super security system installed in his home...that even keeps him out.",
+"se": [
+6,
+2
+],
+"title": "The Wright Stuff / Safe at Home / Orson Express"
+},
+"6.3": {
+"desc": "Taste Makes Waist: Jon joins a weight reducing program that offers its own food. Man of Decision: Jon makes plans for the day. The wolf Who Cried Boy: The crew installs a wolf alarm, but Roy uses it for his own amusement. Day of Doom: When Garfield wishes there were no Mondays, it comes true!",
+"se": [
+6,
+3
+],
+"title": "Jon the Barbarian / Uncle Roy to the Rescue / The Kitten and the Council"
+},
+"6.4": {
+"desc": "The Kitty Council: Garfield is called up before the council on charges of not acting like a cat. Incompetent: Jon sends for a book. The Bo Show: When Orson's brothers kidnap most of the crew, Bo tries to do the show by himself. Bad Neighbor Policy: Garfield's neighbor is being driven crazy by the cat's antics.",
+"se": [
+6,
+4
+],
+"title": "Next Door Nuisance / What's It All About, Wade? / Bigfeetz"
+},
+"6.5": {
+"desc": "Canvasback Cat: Jon and Garfield end up in the ring wrestling the masked mauler. Impression: Odie does an impression of another character. Make Believe Moon: Orson takes the gang on an imaginary trip to the moon just as Spencer the Weasel arrives. Creature: Leftovers run rampant in Jon's refrigerator.",
+"se": [
+6,
+5
+],
+"title": "The Canine Conspiracy / Snow Wade and the 77 Dwarfs: Part 1 / The Genuine Article"
+},
+"6.6": {
+"desc": "Jon gets his car to a garage for a repair and when he sees the bill, decides to pay with his insurance policy. Snow Wade is asleep and even when Orson turns into the handsome prince, his kiss can't awake him. Garfield dreams he's a fish.",
+"se": [
+6,
+6
+],
+"title": "The Best Policy / Snow Wade and the 77 Dwarfs: Part 2 / Fishy Feline"
+},
+"6.7": {
+"desc": "The Pie-eyed Piper: Garfield tells the \"real\" story of the Pied Piper (Jon) of Hamlin, who happened to have a cat. Mask: Garfield scares Jon awake. Fine Feathered Funnyman: When the network gets one letter of complaint, Roy is forced to stop doing practical jokes. Sweet Tweet Treat: Garfield finally catches a bird, Ludlow a young crow.",
+"se": [
+6,
+7
+],
+"title": "The Pie-Eyed Piper / Sweet Tweet Treat / Fine Feathered Funnyman"
+},
+"6.8": {
+"desc": "Floyd tries to get on the show more often as Jon's overbearing Aunt Prunella comes to visit. / When Orson's too absorbed in a crime book to milk the cow, Roy sets up a mystery for Orson to solve in order to find the cow. / Garfield and Penelope are out on a date that turns into a nightmare when a French cat named Lorelei and animal control interfering.",
+"se": [
+6,
+8
+],
+"title": "The Floyd Story / How Now, Stolen Cow? / The Second Penelope Episode"
+},
+"6.9": {
+"desc": "Garfield is tasked with exterminating a 19th century mouse that transforms into a giant monster. / Finagler Fox cons everybody on the farm out of their paychecks. / Garfield gives a lecture for how cats can drive their owners crazy.",
+"se": [
+6,
+9
+],
+"title": "Dr. Jekyll and Mr. Mouse / Payday Mayday / How to Drive a Human Crazy"
+},
+"7.1": {
+"desc": "In frontier America, Jonny Ragweedseed (Jon) with his cat Roosevelt (Garfield) walks from shore to shore to make sure that ragweed will cover the land and he is chased from sneezing town to sneezing town for his trouble. / Roy rooster is put on trial for not staying at his post and guarding the crop of grapes. / Garfield is in the mood to catch a bird for dinner as is Gunther, another neighborhood cat.",
+"se": [
+7,
+1
+],
+"title": "The Legend of Johnny Ragweedseed / Grape Expectations, Part 1 / Catch as Cats Can't"
+},
+"7.10": {
+"desc": "Garfield and Odie follow Jon's valley girl niece, Shannon, to the mall. / Bo receives a box with air holes and everybody goes crazy trying to guess what it is. / The feline philosopher gives Garfield speeches that inspire him to try stealing a pie from the bull dog next door.",
+"se": [
+7,
+10
+],
+"title": "The Suburban Jungle / The Thing in the Box / The Feline Philosopher"
+},
+"7.11": {
+"desc": "The ancestor of one of the most hungry pirates sets sail with Jon's new boat as one of his targets. / Philo is back to help give motivational speeches to the weasel and Wade. / Esmeralda is back and grants everyone in the house as many wishes as they want.",
+"se": [
+7,
+11
+],
+"title": "Thoroughly Mixed-Up Mouse / The Old Man and the Mountain / Food Fighter"
+},
+"7.12": {
+"desc": "The ancestor of one of the most hungry pirates sets sail with Jon's new boat as one of his targets. / Philo is back to help give motivational speeches to the weasel and Wade. / Esmeralda is back and grants everyone in the house as many wishes as they want.",
+"se": [
+7,
+12
+],
+"title": "The Jelly Roger / The Farmyard Feline Philosopher / Dogmother II"
+},
+"7.13": {
+"desc": "The Garfield Musical: Penelope falls for a hipper cat until Garfield learns to rock and roll. Nose Switch: Garfield and Odie switch noses. Mind Over Melvin: No one can win at Roy's crooked quiz show until Orson receives a mind reading device from an alien. Madman Meets His Match: The crazy salesman gets competition from Demented Dave's for Jon's money.",
+"se": [
+7,
+13
+],
+"title": "Alley Katta & the 40 Thieves / If It's Tuesday, This Must Be Alpha Centauri / Clash of Titans"
+},
+"7.14": {
+"desc": "The Man Who Hated Cats. A musical episode about Jon and Garfield's cranky new neighbor. Deja Vu: Orson and Roy have a discussion about deja vu while once again the weasel tries to steal the chickens. Canned Laughter: Jon builds his own joke-telling robot.",
+"se": [
+7,
+14
+],
+"title": "The Man Who Hated Cats / Deja Vu / Canned Laughter"
+},
+"7.15": {
+"desc": "Garfield and Odie help John meet his dream girl, the television horror host Vivacia. Unfortunately, Vivacia has more sinister plans for John; with Garfield and Odie now having to rescue their owner.",
+"se": [
+7,
+15
+],
+"title": "Horror Hostess / Newsworthy Wade"
+},
+"7.16": {
+"desc": "A part from an alien aircraft falls into Jon's back pocket and makes him invincible. Orson tells Booker and Sheldon the story of the little monster, who couldn't scare anybody. Garfield, Odie and Jon are on vacation and while Jon is fishing, Garfield tries to get pizza.",
+"se": [
+7,
+16
+],
+"title": "Arbuckle the Invincible / The Monster Who Couldn't Scare Anybody / The Ocean Blue"
+},
+"7.2": {
+"desc": "Ichabod Cricket shows up to be Garfield's conscience, and everything backfires. / Roy is found innocent of leaving the grape harvest unattended. / Garfield runs down his top ten lists for the show.",
+"se": [
+7,
+2
+],
+"title": "A Matter of Conscience / Grape Expectations: Part 2 / Top Ten"
+},
+"7.3": {
+"desc": "Nermal makes a wish and switches places with Garfield. / Orson hires Aloysius Pig in his absence, who goes around the farm issuing demerits for everything. / Jon tries a computer dating service and meets a woman who is just like him.",
+"se": [
+7,
+3
+],
+"title": "Change of Mind / Temp Trouble / The Perfect Match"
+},
+"7.4": {
+"desc": "Garfield gets thrown into the Lamaar School of Cats and turns the rest of the cats into 'Garfields' rather than Garfield becoming a refined cat. / Roy rooster learns the art of double speak to get out of doing his chores, but eventually everyone learns and no work is done in the farmyard. / Garfield finds Ichabod, the conscience cricket, that lets Jon express his true feeling to his boss, who wants him to move to Alaska.",
+"se": [
+7,
+4
+],
+"title": "My Fair Feline / Double Trouble Talk / Half-Baked Alaska"
+},
+"7.5": {
+"desc": "In this fairy tale, Garfield wins the hand of a Princess for Jon. / Wade decides to shell himself up because of all that is scary about the world. / Sidney the dinosaur comes out of a cave and decided the best way to take over the world is to paint himself pink and start a children's show but, Garfield won't have that.",
+"se": [
+7,
+5
+],
+"title": "Puss in High Tops / Egg Over Easy: Part 1 / The Beast from Beyond"
+},
+"7.6": {
+"desc": "Model Behavior: Supermodel Heather keeps leading Jon on, while only wanting Garfield for herself. Egg Over Easy 2: Wade realizes you can't just escape from the world by closing yourself off and unshells himself. Another Ant Episode: The ants are back and Jon calls Mr. Crater, a bug exterminator, for this musical episode. Song: \"We Are Back.\"",
+"se": [
+7,
+6
+],
+"title": "Model Behavior / Egg Over Easy - Part 2 / Another Ant Episode"
+},
+"7.7": {
+"desc": "Penelope is back singing why she loves Garfield. / \"the Guy of My Dreams.\" Discount Of Monty Cristo: Aloysius Pig is back trying to cut the budget of the show. / Esmeralda is sent from doggy wish Central to fulfill Odie's wish to go to the Doggie Ball.",
+"se": [
+7,
+7
+],
+"title": "The Guy of Her Dreams / The Discount of Monte Cristo / The Fairy Dogmother"
+},
+"7.8": {
+"desc": "Floyd quits the show and leases his hole to a comic mouse who does a whole special revolving around Garfield sleeping. / A psychiatrist comes to the farm and falls victim to Orson's overactive imagination. / A musical episode for Garfield's birthday set to the tune of '12 Days of Christmas'.",
+"se": [
+7,
+8
+],
+"title": "The Stand-Up Mouse / Daydream Doctor / Happy Garfield Day"
+},
+"7.9": {
+"desc": "In Sit on It, Garfield learns from the Cat Channel that he should sit on things humans want to read, so he takes over Jon's Spanish book. In Kiddie Korner, a pig from the network tells the US Acres crew to do nursery rhymes instead of Dr. Zhivago, but every rhyme they try is unsuitable for children. In Brainwave Broadcast, Garfield demonstrates the \"telepathovisionator,\" which allows the audience to hear his thoughts.",
+"se": [
+7,
+9
+],
+"title": "Sit on It / Kiddy Korner / Brainwave Broadcast"
+}
+},
+"mode": "se"
+}
+}

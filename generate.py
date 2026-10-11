@@ -125,9 +125,13 @@ REGEX_RENAMES = [
 _FIZZ_MIX_DESC = ("Classic cartoons like Looney Tunes, Tom and Jerry, Woody Woodpecker, "
                   "Droopy, NFB Canada and Zagreb Film animated shorts plus some "
                   "Pop and Rock music videos.")
+_LATE_NIGHT_MIX_DESC = ("Your hand-picked midnight refill of Looney Tunes, Tom and Jerry, "
+                        "Woody Woodpecker, Droopy, and animated shorts from NFB Canada and "
+                        "Zagreb Film, with pop and rock music videos fizzing away while the "
+                        "rest of the world sleeps.")
 _TOON_DISNEY_DESC = "Timeless theatrical animated shorts from Disney's golden age."
 FIXED_DESC = {
-    "Late Night Mix":     _FIZZ_MIX_DESC,
+    "Late Night Mix":     _LATE_NIGHT_MIX_DESC,
     "Evening Mix":        _FIZZ_MIX_DESC,
     "Toon Disney Shorts": _TOON_DISNEY_DESC,
     "You're on Nickelodeon, Charlie Brown":
@@ -221,6 +225,28 @@ def _eel_segment_rename(title, start, channel=None):
 
 # Renamed titles that should NOT carry the source's trailing (YYYY)
 DROP_YEAR = {"Batman: The Animated Series"}
+
+# ── Per-show air-order override guide ──────────────────────────────────────
+# Some Eel/Fizz shows are numbered by the feed in its own (broadcast) order, which
+# the metadata DBs don't share (TMDB/IMDb use production/DVD order), so a DB lookup
+# by the feed number lands on the wrong episode. fizz_guide.json maps the feed
+# straight to the real episode, built OFFLINE from authoritative guides:
+#   { "<Show>": {"mode": "absolute"|"se", "eps": <list|dict>} }
+#   - mode "absolute": eps is a list indexed by the feed's absolute episode number
+#     (feed_ep-1). Batman: The Animated Series — Wikipedia broadcast order + Wiki
+#     S/E, synopsis from IMDb (matched by title), titles normalized "X: Part N".
+#   - mode "se": eps is a dict keyed "<season>.<episode>". Garfield and Friends —
+#     feed S/E already matches IMDb; segments joined " / ", per-segment IMDb
+#     synopsis " / "-joined where IMDb labels them, else the full episode synopsis.
+FIZZ_GUIDE_FILE = "fizz_guide.json"
+def load_fizz_guide():
+    try:
+        with open(FIZZ_GUIDE_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"  fizz guide: {FIZZ_GUIDE_FILE} not loaded ({e})")
+        return {}
+FIZZ_GUIDE = load_fizz_guide()
 
 # ── title parser ──
 YEAR_ANY = re.compile(r'\((?:19|20)\d\d\)')
@@ -765,9 +791,28 @@ def build_eel(tv, root, cache):
             title, sub, season, ep, ep_end = parse_title(raw_title)
             title = _eel_segment_rename(title, prog.get("start"), local_id)   # time/channel-based renames
             desc = None
-            if season is None and sub:                 # have episode name, no number -> match it
+            # Per-show override guide (feed numbers the show in an order the DBs don't share).
+            #   mode "absolute": index by the feed's absolute episode number (Batman).
+            #   mode "se":       key by the feed's season.episode (Garfield; feed S/E == guide S/E).
+            gentry = None
+            gdef = FIZZ_GUIDE.get(title)
+            if gdef and ep is not None:
+                mode = gdef.get("mode")
+                if mode == "absolute":
+                    lst = gdef["eps"]
+                    if 1 <= ep <= len(lst):
+                        gentry = lst[ep - 1]
+                        season, ep = gentry["se"]
+                        sub = gentry.get("title") or sub
+                elif mode == "se" and season is not None:
+                    gentry = gdef["eps"].get(f"{season}.{ep}")
+                    if gentry:
+                        sub = gentry.get("title") or sub   # season/ep unchanged (feed matches guide)
+            if gentry is not None:
+                desc = gentry.get("desc") or None
+            elif season is None and sub:                # have episode name, no number -> match it
                 season, ep = _name_to_se(title, sub, cache)
-            if season is not None:
+            if gentry is None and season is not None:
                 desc, epname = episode_meta(title, season, ep, cache)
                 if not sub and epname:                 # fill missing episode name from metadata
                     sub = epname; got_sub += 1
