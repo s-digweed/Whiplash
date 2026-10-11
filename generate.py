@@ -61,7 +61,7 @@ EEL_URL = "https://whiplash.cc/epg/eel.xml"
 EEL_CHANNEL_MAP = {
     "C1.145.ersatztv.org": ("eel-channel",  "Eel Channel"),
     "C2.146.ersatztv.org": ("fizz",         "Fizz"),
-    "C3.147.ersatztv.org": ("toon-diggity", "Toon Diggity"),
+    "C121.244.ersatztv.org": ("toon-diggity", "Toon Diggity"),  # feed moved it off C3.147 (now an orphan/stale id)
 }
 EEL_LOGOS = {
     "eel-channel":  "https://i.imgur.com/YBZUFXs.png",
@@ -87,6 +87,7 @@ ABSOLUTE_SHOWS = {"dragon ball"}
 # Show-name renames, keyed on the parsed base title (trailing "(YYYY)" kept)
 RENAMES = {
     "Garfield": "Garfield and Friends",
+    "DuckTales": "DuckTales (1987)",   # disambiguate from the 2017 reboot (feed = the original)
     "Batman The Animated Series": "Batman: The Animated Series",
     "Superman The Animated Series": "Superman: The Animated Series",
     "X-Men": "X-Men: The Animated Series",
@@ -353,7 +354,7 @@ TMDB_LANG       = "en-US"
 DESC_CACHE_FILE = "desc_cache.json"
 
 # Force a TMDB show id when search picks the wrong one: {"Show Name": 1234}
-SHOW_TMDB_OVERRIDES = {}
+SHOW_TMDB_OVERRIDES = {"DuckTales (1987)": 720}   # TMDB id 720 = the 1987 series, not the 2017 reboot
 
 _QYEAR = re.compile(r'\s*\(((?:19|20)\d\d)\)\s*$')
 _tmdb_session = requests.Session()
