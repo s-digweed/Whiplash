@@ -818,6 +818,16 @@ def build_eel(tv, root, cache):
                     sub = epname; got_sub += 1
             if desc is None and title in FIXED_DESC:    # fixed desc for block/filler programmes
                 desc = FIXED_DESC[title]
+            # Movie fallback: non-episodic entries carrying a (YYYY) in the title or
+            # sub-title are films (e.g. "American History X (1998)", or "Teen Titans" +
+            # "Trouble in Tokyo (2006)"). Look them up as MOVIES on TMDB. Display title
+            # and sub-title are left exactly as-is; only the description is filled.
+            if desc is None and season is None and title not in FIXED_DESC and TMDB_KEY:
+                mq = f"{title}: {sub}" if sub else title
+                if re.search(r"\((?:19|20)\d\d\)", mq):
+                    _my, _mov = _movie_meta(mq, cache)
+                    if _mov:
+                        desc = _mov; got_desc += 1
             np = ET.Element("programme", {k: prog.get(k) for k in prog.keys()})
             np.set("channel", local_id)
             ET.SubElement(np, "title", {"lang": "en"}).text = title
