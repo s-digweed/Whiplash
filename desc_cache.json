@@ -6422,6 +6422,10 @@
 "n": "Skips Strikes",
 "o": "When the park's bowling team, \"The Park Strikers\" make it to the championship match in a bowling tournament, Death, the lead member of the rival championship team threatens to reveal Skips' secret if he does not back out."
 },
+"31132|3|5": {
+"n": "Camping Can Be Cool",
+"o": "Mordecai and Rigby take Margaret and Eileen to a secret camping spot to show them how great camping is."
+},
 "31499|1|15": {
 "n": "Hooray for Hamsterwood",
 "o": "Milo, Oscar and Bea travel to Hamsterwood where Bea can have her own TV show. However, there is something fishy going on in there, and it turns out the hamsters are planning to eat Bea!"
@@ -6673,6 +6677,10 @@
 "32118|1|19": {
 "n": "Promises, Promises",
 "o": "Rex's birthday and a flashback to how he joined Providence."
+},
+"32118|1|2": {
+"n": "String Theory",
+"o": "An Evo infects regular people, building army. Rex must cure the Evo, or Manhattan will be \"cleansed.\""
 },
 "32118|1|20": {
 "n": "Badlands",
@@ -9621,6 +9629,10 @@
 "45140|1|29": {
 "n": "Starfire the Terrible",
 "o": "When Robin needs an archenemy, Starfire generously offers to fill the role and she exceeds expectations."
+},
+"45140|1|3": {
+"n": "Driver's Ed",
+"o": "Robin takes driver's ed, and his teacher has some tricks up his sleeve."
 },
 "45140|2|10": {
 "n": "Slumber Party",
