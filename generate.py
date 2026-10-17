@@ -18,6 +18,7 @@ import sys
 import json
 import time
 import html
+import unicodedata
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
@@ -147,7 +148,8 @@ _TOON_DISNEY_DESC = "Timeless theatrical animated shorts from Disney's golden ag
 FIXED_DESC = {
     "Late Night Mix":     _LATE_NIGHT_MIX_DESC,
     "Evening Mix":        _FIZZ_MIX_DESC,
-    "Toon Disney Shorts": _TOON_DISNEY_DESC,
+    "Toon Disney Shorts": _TOON_DISNEY_DESC,   # parked: old feed title for the block
+    "Disney Cartoons":    _TOON_DISNEY_DESC,   # feed renamed "Toon Disney Cartoons/Shorts" -> "Disney Cartoons"
     "You're on Nickelodeon, Charlie Brown":
         "The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.",
     "Disney Channel Original Movie":
@@ -240,18 +242,64 @@ def _eel_segment_rename(title, start, channel=None):
 # Renamed titles that should NOT carry the source's trailing (YYYY)
 DROP_YEAR = {"Batman: The Animated Series"}
 
+# ── Part-marker standardization (guardrail across all 3 Eel channels) ──────
+# Normalize two-parter markers to "Title: Part N": "(1)/(2)", "(Part One)",
+# "City of Stone: Part Four", bare " Part Two" -> ": Part 1/2/4...". Conservative:
+# acts only on an explicit "Part" keyword or a trailing 1-2 digit "(N)"; never touches
+# "Mock 5", "D2", or 4-digit years like "(1995)". Applied to title AND sub-title.
+_WORDNUM = {"one":1,"two":2,"three":3,"four":4,"five":5,"six":6,"seven":7,"eight":8,"nine":9,"ten":10}
+def _wordnum(w):
+    w = w.strip().lower()
+    return _WORDNUM.get(w, int(w) if w.isdigit() else None)
+def norm_parts(title):
+    if not title:
+        return title
+    t = title.rstrip()
+    def mk(base, n):
+        return base.rstrip().rstrip(":").rstrip() + f": Part {n}"
+    m = re.search(r'\s*\(\s*Part\s+([A-Za-z]+|\d{1,2})\s*\)\s*$', t, re.I)   # "(Part One)"/"(Part 1)"
+    if m and _wordnum(m.group(1)): return mk(t[:m.start()], _wordnum(m.group(1)))
+    m = re.search(r'\s*\(\s*(\d{1,2})\s*\)\s*$', t)                          # "(1)"/"(2)"
+    if m: return mk(t[:m.start()], int(m.group(1)))
+    m = re.search(r'\s*:?\s*Part\s+([A-Za-z]+|\d{1,2})\s*$', t, re.I)        # ": Part X"/" Part X"
+    if m and _wordnum(m.group(1)): return mk(t[:m.start()], _wordnum(m.group(1)))
+    return t
+
+# Normalize a title/segment name to a match key (mirrors build_guide.py _norm) so the
+# feed's TMDB-sourced names resolve to the authoritative guide regardless of case,
+# punctuation, accents, "&"/"and", or part-marker spelling ("(1)" == ": Part One").
+def _guide_norm(s):
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = s.lower().replace("&", "and")
+    s = re.sub(r'\bpart\s+(one|two|three|four|five|six|seven|eight|nine|ten)\b',
+               lambda m: "part" + str(_WORDNUM[m.group(1)]), s)
+    s = re.sub(r'[:\-]?\s*part\s*(\d{1,2})\b', lambda m: " part" + m.group(1), s)
+    s = re.sub(r'\(\s*(\d{1,2})\s*\)\s*$', lambda m: " part" + m.group(1), s.strip())
+    return re.sub(r'[^a-z0-9]', '', s)
+
 # ── Per-show air-order override guide ──────────────────────────────────────
 # Some Eel/Fizz shows are numbered by the feed in its own (broadcast) order, which
 # the metadata DBs don't share (TMDB/IMDb use production/DVD order), so a DB lookup
 # by the feed number lands on the wrong episode. fizz_guide.json maps the feed
 # straight to the real episode, built OFFLINE from authoritative guides:
-#   { "<Show>": {"mode": "absolute"|"se", "eps": <list|dict>} }
+#   { "<Show>": {"mode": "absolute"|"se"|"name", "eps": <list|dict>} }
 #   - mode "absolute": eps is a list indexed by the feed's absolute episode number
 #     (feed_ep-1). Batman: The Animated Series — Wikipedia broadcast order + Wiki
 #     S/E, synopsis from IMDb (matched by title), titles normalized "X: Part N".
 #   - mode "se": eps is a dict keyed "<season>.<episode>". Garfield and Friends —
 #     feed S/E already matches IMDb; segments joined " / ", per-segment IMDb
 #     synopsis " / "-joined where IMDb labels them, else the full episode synopsis.
+#   - mode "name": eps is a dict keyed by _guide_norm(<episode or segment name>). Used
+#     when the feed numbers the show on TMDB's grid but TMDB/IMDb disagree on the
+#     NUMBERING (so a by-number key would misalign). We resolve the item's name (the
+#     feed's sub-title, else the TMDB episode name for the feed's S/E) and match THAT.
+#     The displayed S/E is left as the feed's. Gargoyles (non-segmented: name -> that
+#     episode's IMDb title+synopsis, Part-normalized). Dexter's Laboratory / Rocko's
+#     Modern Life (SEGMENTED: the feed labels each half-hour slot with one TMDB segment;
+#     every segment name maps to its IMDb HALF-HOUR -> all segment titles joined " / "
+#     plus the half-hour's IMDb synopsis, Garfield-style). Non-matches fall through to
+#     the normal TMDB/TVmaze/TVDB path, so the guide can only improve, never corrupt.
 FIZZ_GUIDE_FILE = "fizz_guide.json"
 def load_fizz_guide():
     try:
@@ -844,6 +892,21 @@ def build_eel(tv, root, cache):
                     gentry = gdef["eps"].get(f"{season}.{ep}")
                     if gentry:
                         sub = gentry.get("title") or sub   # season/ep unchanged (feed matches guide)
+                elif mode == "name":
+                    # resolve the item's episode/segment name, then match by name (feed
+                    # numbers on TMDB's grid but the NUMBERING differs from IMDb's).
+                    look = sub
+                    if not look and season is not None:
+                        _d, look = episode_meta(title, season, ep, cache)
+                    if look:
+                        gentry = gdef["eps"].get(_guide_norm(look))
+                        if gentry:
+                            sub = gentry.get("title") or sub   # S/E left as the feed's
+            elif gdef and gdef.get("mode") == "name" and ep is None and sub:
+                # name-mode show with no parsed number but a feed sub-title -> match on it
+                gentry = gdef["eps"].get(_guide_norm(sub))
+                if gentry:
+                    sub = gentry.get("title") or sub
             if gentry is not None:
                 desc = gentry.get("desc") or None
             elif season is None and sub:                # have episode name, no number -> match it
@@ -864,6 +927,10 @@ def build_eel(tv, root, cache):
                     _my, _mov = _movie_meta(mq, cache)
                     if _mov:
                         desc = _mov; got_desc += 1
+            # Part-marker guardrail (runs AFTER movie detection so a "(YYYY)" is untouched):
+            # standardize "(1)/(2)"/"(Part One)"/": Part Four" -> ": Part N" on every channel.
+            title = norm_parts(title)
+            if sub: sub = norm_parts(sub)
             np = ET.Element("programme", {k: prog.get(k) for k in prog.keys()})
             np.set("channel", local_id)
             ET.SubElement(np, "title", {"lang": "en"}).text = title
