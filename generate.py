@@ -21,7 +21,7 @@ import html
 import unicodedata
 import requests
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # ───────────────────────── Whiplash (single feed) ─────────────────────────
 WL_URL = "https://whiplash.cc/scheds/schedule.xml"
@@ -1266,6 +1266,90 @@ def build_placid(src_root, state_path=PLACID_STATE, now=None):
     print(f"  Placid: {len(reals)} real programmes (+{added} new this run), filler to now+{PLACID_HORIZON_DAYS}d")
     return tv
 
+# ── 40 Media Group (ENT + Totalmusic FAST channels) ─────────────────────────
+# Each channel exposes a JSON guide at api.40mediagroup.com. Times are already
+# ISO-8601 in UTC (…+00:00) so no tz conversion is needed (verified against the
+# live on-air anchor). Titles/sub-titles/descriptions/categories are the feed's
+# own Spanish-localized text, copied as-is. tvg-id == the JSON url slug.
+# Rebuilt once per UTC day: the <tv date="YYYYMMDD"> stamp gates same-day reruns
+# (the Whiplash workflow fires several times a day; this output only changes once).
+MEDIA40_OUTPUT   = "40media.xml"
+MEDIA40_URL      = "https://api.40mediagroup.com/xmltv/programacion/{slug}/guia.json"
+MEDIA40_HEADERS  = {**BROWSER_HEADERS, "Accept": "application/json, text/plain, */*"}
+# (tvg-id / url-slug, display-name, logo)
+MEDIA40_CHANNELS = [
+    ("entchannel",     "ENT Channel",      "https://i.imgur.com/5w7jlcr.png"),
+    ("entclassic",     "ENT Classic",      "https://i.imgur.com/42wUAun.png"),
+    ("entcomedy",      "ENT Comedy",       "https://i.imgur.com/22yAycO.png"),
+    ("entdrama",       "ENT Drama",        "https://i.imgur.com/ARLD4hQ.png"),
+    ("entextreme",     "ENT Extreme",      "https://i.imgur.com/AZwQU5n.png"),
+    ("entfamily",      "ENT Family",       "https://i.imgur.com/ez5UE1a.png"),
+    ("entlife",        "ENT Life",         "https://i.imgur.com/V6hdLT0.png"),
+    ("entmovies",      "ENT Movies",       "https://i.imgur.com/wVcolSX.png"),
+    ("totalmusic",     "Totalmusic",       "https://i.imgur.com/S9i0Vi4.png"),
+    ("totalmusic-80s", "Totalmusic 80s",   "https://i.imgur.com/uG229hI.png"),
+    ("totalmusic-00s", "Totalmusic 2000s", "https://i.imgur.com/JResjBY.png"),
+]
+
+def _iso_to_xmltv(s):
+    """ISO-8601 (feed is already UTC, +00:00) -> 'YYYYmmddHHMMSS +0000'."""
+    dt = datetime.fromisoformat(s)
+    dt = dt.astimezone(timezone.utc) if dt.tzinfo else dt
+    return dt.strftime("%Y%m%d%H%M%S") + " +0000"
+
+def build_40media(now=None):
+    """Scrape the 11 40 Media Group JSON guides into one XMLTV tree. Returns the
+    tree, or None to leave the committed 40media.xml untouched (already built today,
+    or every feed failed)."""
+    now = now or datetime.utcnow()
+    today = now.strftime("%Y%m%d")
+    try:                                   # once-a-day gate
+        if ET.parse(MEDIA40_OUTPUT).getroot().get("date") == today:
+            print(f"  40media: already built today ({today}) - skipping")
+            return None
+    except Exception:
+        pass
+
+    tv = ET.Element("tv", {"generator-info-name": "40media-epg-generator", "date": today})
+    for slug, name, logo in MEDIA40_CHANNELS:      # declare every channel up front
+        ch = ET.SubElement(tv, "channel", {"id": slug})
+        ET.SubElement(ch, "display-name").text = name
+        if logo:
+            ET.SubElement(ch, "icon", {"src": logo})
+
+    ok = total = 0
+    for slug, name, logo in MEDIA40_CHANNELS:
+        try:
+            r = requests.get(MEDIA40_URL.format(slug=slug), headers=MEDIA40_HEADERS, timeout=30)
+            r.raise_for_status()
+            progs = (r.json() or {}).get("programmes") or []
+        except Exception as e:
+            print(f"  40media {slug}: fetch failed ({e}) - channel left empty this run")
+            continue
+        n = 0
+        for pr in progs:
+            try:
+                st, sp = _iso_to_xmltv(pr["start"]), _iso_to_xmltv(pr["stop"])
+            except Exception:
+                continue
+            p = ET.SubElement(tv, "programme", {"start": st, "stop": sp, "channel": slug})
+            ET.SubElement(p, "title", {"lang": "es"}).text = (pr.get("title") or "").strip() or name
+            for src, tag in (("subtitle", "sub-title"), ("desc", "desc"), ("category", "category")):
+                val = (pr.get(src) or "").strip()
+                if val:
+                    ET.SubElement(p, tag, {"lang": "es"}).text = val
+            icon = (pr.get("icon") or "").strip()
+            if icon:
+                ET.SubElement(p, "icon", {"src": icon})
+            n += 1
+        ok += 1; total += n
+        print(f"  40media {slug}: {n} programmes")
+    if ok == 0:
+        print("  40media: ALL feeds failed - keeping existing 40media.xml unchanged")
+        return None
+    print(f"  40media: {ok}/{len(MEDIA40_CHANNELS)} channels, {total} programmes")
+    return tv
+
 def build_m3u():
     lines = [f'#EXTM3U url-tvg="{EPG_RAW_URL}"', ""]
     disp = {v[0]: v[1] for v in WL_CHANNEL_MAP.values()}
@@ -1344,6 +1428,14 @@ def main():
     ET.ElementTree(ptv).write(PLACID_OUTPUT, encoding="UTF-8", xml_declaration=True)
     print(f"Wrote {PLACID_OUTPUT}")
     print(f"Channels: {len(ptv.findall('channel'))}, programmes: {len(ptv.findall('programme'))}")
+
+    print("40 Media Group:")
+    mtv40 = build_40media()
+    if mtv40 is not None:
+        indent(mtv40)
+        ET.ElementTree(mtv40).write(MEDIA40_OUTPUT, encoding="UTF-8", xml_declaration=True)
+        print(f"Wrote {MEDIA40_OUTPUT}")
+        print(f"Channels: {len(mtv40.findall('channel'))}, programmes: {len(mtv40.findall('programme'))}")
 
     save_desc_cache(cache)
 
