@@ -180,7 +180,8 @@ FIXED_DESC = {
         "Get ready for a spooky Friday night of classic chills and weird thrills. Retro Blast "
         "brings back the eeriest animation from the vault.",
     "Horror Movie":
-        "End the weekend with a scream. A classic horror movie, served late and uncut. "
+        "Close the weekend with a scream. A classic horror movie, served late and uncut. "
+        "\n\n"
         "Tune in if you dare.",
     "Saturday Late Night Movie":
         "Unwind your weekend the right way with the Saturday Late Night Movie, a nostalgic "
