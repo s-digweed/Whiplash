@@ -686,917 +686,645 @@
  },
  "Dexter's Laboratory": {
   "eps": {
-   "2geniuses2gether4ever": {
-    "desc": "\"Babe Sitter\" (7 minutes) Mandark thinks he's going to have a nice romantic evening with his lady love when Dee Dee shows up to babysit him. \"Mountain Mandark\" (7 minutes) Getting in touch with nature, Mandark becomes Mountain Mandark, throwing of the shackles of technology. \"2Geniuses 2Gether 4Ever\" (7 minutes) Mandark and Dexter become scientific buddies while Mandark plots to destroy Dexter.",
-    "title": "Babe Sitter / Mountain Mandark / 2Geniuses 2Gether 4Ever"
-   },
-   "911": {
-    "desc": "Dee Dee wants to join the choir, but her bad singing is making it impossible for Dexter to work.; An emergency broadcast signal interrupts Dexter's favorite show; Dee Dee and Dexter go to the city to find Dee Dee's teddy bear.",
-    "title": "Dee Dee Be Deep / 911 / Down in the Dumps"
-   },
-   "aboyandhisbug": {
-    "desc": "Mandark and Dexter battle each other with Rushmore Presidents Washington and Lincoln brought to life. / Dexter has a metal eating termite named Timmy as a pet. / Dee Dee uses way too much of Dexter's super growth formula in the backyard and turns the plants into man eating monsters.",
-    "title": "Rushmore Rumble / A Boy and His Bug / You Vegetabelieve It!"
-   },
-   "aboynamedsue": {
-    "desc": "\"Boy Named Sue\" (11 minutes) Mandark reveals the origin of his anger is from being named Susan and being raised by New Age parents who disallowed science. This comes to a head when he meets Dexter, a science genius, who disregards Susan as not being scientifically equal.",
-    "title": "A Boy Named Sue / Lab on the Run"
-   },
-   "accentyouhate": {
-    "desc": "When a bully who hates kids with funny accents sets his sights on Dexter, the boy genius has until 3:00 before he receives an after-school beating.",
-    "title": "Quiet Riot / Accent You Hate / Catch of the Day"
-   },
-   "adadcartoon": {
-    "desc": "\"Streaky Clean\" (9 minutes) When Dexter gets tired of spilling stuff on himself, he invents a washing machine satellite to zap out any spots. But when the satellite is nudged in space to a higher setting, the spots aren't the only things that get removed.",
-    "title": "Streaky Clean / A Dad Cartoon / Sole Brother"
-   },
-   "adeedeecartoon": {
-    "desc": "\"Dos Boot\" (9 minutes) When Mandark downloads himself into Dexter's computer, Dexter must upload himself in order to combat this virus.",
-    "title": "Dos Boot / A Dee Dee Cartoon / Would You Like That in the Can"
-   },
-   "afailedlabexperiment": {
-    "desc": "\"Copping an Attitude\" (9 minutes) Dexter goes to college ready to learn only to discover it's party central. But when Dexter fries out by over-studying, he's ready to party and creates the biggest party ever.",
-    "title": "Copping an Aptitude / A Failed Lab Experiment / The Grand-Daddy of All Inventions"
-   },
-   "aharddaysday": {
-    "desc": "In \"A HARD DAY'S DAY\", every day is a fine day for science until things take a turn for the worse thanks to the position of the stars in the sky. In \"ROAD RASH\", Dexter's mom forces Dexter to go outside and ride a bike, with Dee Dee challenging him to catch her on her roller blades, resulting in a chase similar to one between Wile E. Coyote and the Road Runner. In \"OCEAN COMMOTION\", on a visit to the beach, Dee Dee (dressed in a mermaid bathing suit) gets kidnapped by some manic seafarin' sailors and Dexter vows to save her.",
-    "title": "A Hard Day's Day / Road Rash / Ocean Commotion"
-   },
-   "amandarkcartoon": {
-    "desc": "Dexter wants to save his memories before he forgets them; a day in the life of Mandark; Dexter finds a way to transmit TV into his brain.",
-    "title": "If Memory Serves / A Mandark Cartoon / Tele Trauma"
-   },
-   "amomanddadcartoon": {
-    "desc": "\"Glove At First Sight\" (9 minutes) It's a flashback to the 80s as Mom deals with her germaphobia with the slob that will someday be her true love.",
-    "title": "Glove at First Sight / A Mom & Dad Cartoon / Smells Like Victory"
-   },
-   "amomcartoon": {
-    "desc": "\"Poppa Wheelie\" - Dexter's school has Career Day, \"A Mom Cartoon\" - Mom is shopping and suddenly a sale is announced. \"Mockside of the Moon\" - Dexter discovers that the moon is hallow and monsters are living inside.",
-    "title": "Poppa Wheely / A Mom Cartoon / The Mock Side of the Moon"
-   },
-   "anotherdadcartoon": {
-    "desc": "\"Oh Brother\" (9 minutes) Dexter is convinced that life would be better if he had an older brother. But he soon learns Dee Dee wasn't really that bad.",
-    "title": "Oh, Brother / Another Dad Cartoon / Bar Exam"
-   },
-   "antpants": {
-    "desc": "Dexter decides to emulate his hero, Action Hank, and grow a synthetic beard to make himself more rugged.",
-    "title": "Beard to Be Feared / Quackor the Fowl / Ant Pants"
-   },
-   "aquackorcartoon": {
-    "desc": "\"Mind Over Chatter\" (9 minutes) Dexter wants to know what Dad has gotten him for his birthday, so he creates an invention so he can read minds. But when it backfires, it's everyone else who can read Dexter's thoughts.",
-    "title": "Mind Over Chatter / A Quakor Cartoon / Momdark"
-   },
-   "aquakorcartoon": {
-    "desc": "\"Mind Over Chatter\" (9 minutes) Dexter wants to know what Dad has gotten him for his birthday, so he creates an invention so he can read minds. But when it backfires, it's everyone else who can read Dexter's thoughts.",
-    "title": "Mind Over Chatter / A Quakor Cartoon / Momdark"
-   },
-   "asilentcartoon": {
-    "desc": "\"That Magic Moment\" (9 minutes) Uncle Magic comes to visit the family and promises to make Dee Dee disappear in a trick. Dexter poo-poos his Uncle's world of illusion and makes Dee Dee disappear via science.",
-    "title": "That Magic Moment / A Silent Cartoon / Opposites Attract"
-   },
-   "athirddadcartoon": {
-    "desc": "\"Comic Relief\" (9 minutes) When reading his latest comic book adventure isn't enough for Dexter, he makes a machine so he can create his own adventure. Dexter enters this comic book world and becomes a comic book hero himself-complete with his own supervillain to battle.",
-    "title": "Comic Relief / A Third Dad Cartoon / Robo Dexo 3000"
-   },
-   "averagejoe": {
-    "desc": "Dexter wolfs down a burrito and suddenly feels a growing pain inside. After having his computer analyze the pain, Dexter thinks he's going to explode.",
-    "title": "Critical Gas / Let's Save the World You Jerk! / Average Joe"
-   },
-   "ayeayeeyes": {
-    "desc": "When Dexter returns a little girl's stuffed bunny to her, she falls in love with him. She is soon stalking Dexter. With the help of Dee Dee, Dexter is eventually able to divert the girl's affections toward another little boy.",
-    "title": "Aye Aye Eyes / Dee Dee and the Man"
-   },
-   "babesitter": {
-    "desc": "\"Babe Sitter\" (7 minutes) Mandark thinks he's going to have a nice romantic evening with his lady love when Dee Dee shows up to babysit him. \"Mountain Mandark\" (7 minutes) Getting in touch with nature, Mandark becomes Mountain Mandark, throwing of the shackles of technology. \"2Geniuses 2Gether 4Ever\" (7 minutes) Mandark and Dexter become scientific buddies while Mandark plots to destroy Dexter.",
-    "title": "Babe Sitter / Mountain Mandark / 2Geniuses 2Gether 4Ever"
-   },
-   "babysitterblues": {
-    "desc": "Dexter is in love with his babysitter, Lisa.",
-    "title": "Babysitter Blues / The Justice Friends: Valhallen's Room / Dream Machine"
-   },
-   "backfire": {
-    "desc": "Dexter tries to entertain his ill sister by reading to her out of his science text. Bored by protons and neutrons, Dee Dee uses her imagination to make up a story of her own.",
-    "title": "Dee Dee Locks and the Ness Monster / Backfire / Book 'Em"
-   },
-   "badcablemanners": {
-    "desc": "Dee Dee accidentally shuts down the lab and must embody all of Dexter's lab so he doesn't find out. Dexter pirates cable for his father. Dexter becomes the stern administrator of his local library.",
-    "title": "Sis-Tem Error / Bad Cable Manners / Dexter's Library"
-   },
-   "barbequor": {
-    "desc": "Dexter and his cloning machine overheat when Dee Dee and her friends clone and re-clone themselves for Laboratory fun-time.",
-    "title": "Double Trouble / Barbequor / Changes"
-   },
-   "barexam": {
-    "desc": "\"Oh Brother\" (9 minutes) Dexter is convinced that life would be better if he had an older brother. But he soon learns Dee Dee wasn't really that bad.",
-    "title": "Oh, Brother / Another Dad Cartoon / Bar Exam"
-   },
-   "beardtobefeared": {
-    "desc": "Dexter decides to emulate his hero, Action Hank, and grow a synthetic beard to make himself more rugged.",
-    "title": "Beard to Be Feared / Quackor the Fowl / Ant Pants"
-   },
-   "beautie": {
-    "desc": "\"Beau tie\" (7 minutes) Dee Dee brings home a boy who's not only cute-he's smart. Soon Dexter and Dee Dee are fighting for his attention.",
-    "title": "Beau Tie / Remember Me? / Over-Labbing"
-   },
-   "betteroffwet": {
-    "desc": "When Dexter takes in a lost Labrador Retriever, he decides to enable the dog to talk.",
-    "title": "Dexter's Lab: A Story / Coupon for Craziness / Better Off Wet"
-   },
-   "bigbots": {
-    "desc": "Dexter builds Dee Dee a huge robot after she tells him he can't. The problem begins when they use their robots to try to save a volcanic island from eruption.",
-    "title": "Big Bots / Gooey Aliens That Control Your Mind / Misplaced in Space"
-   },
-   "blackfootandslim": {
-    "desc": "Dexter and Dee Dee are unknowingly the focus of a \"Wild Kingdom\" type animal documentary. During Dexter's bathing ritual, he realizes he's being observed, runs, gets tranquilized, and upon awakening discovers he's been tagged.",
-    "title": "Blackfoot and Slim / Trapped with a Vengeance / The Parrot Trap"
-   },
-   "blondeleadingtheblonde": {
-    "desc": "\"Voice Over\" (7 minutes) When Computer gets laryngitis, Dexter must find a replacement voice for her.",
-    "title": "Voice Over / Blonde Leading the Blonde / Comic Stripper"
-   },
-   "bookem": {
-    "desc": "Dexter tries to entertain his ill sister by reading to her out of his science text. Bored by protons and neutrons, Dee Dee uses her imagination to make up a story of her own.",
-    "title": "Dee Dee Locks and the Ness Monster / Backfire / Book 'Em"
-   },
-   "bygoneerrors": {
-    "desc": "\"Height Unseen\" (7 minutes) When everyone but him has had a growth spurt, Dexter decides to try and make himself tall. When that fails, he switches things around, making everyone else short.",
-    "title": "Height Unseen / Bygone Errors / Folly Calls"
-   },
-   "catchoftheday": {
-    "desc": "When a bully who hates kids with funny accents sets his sights on Dexter, the boy genius has until 3:00 before he receives an after-school beating.",
-    "title": "Quiet Riot / Accent You Hate / Catch of the Day"
-   },
-   "changes": {
-    "desc": "Dexter and his cloning machine overheat when Dee Dee and her friends clone and re-clone themselves for Laboratory fun-time.",
-    "title": "Double Trouble / Barbequor / Changes"
-   },
-   "chessmom": {
-    "desc": "\"School Girl Crushed\" (7 minutes) Dexter and Mandark attempt to defend their scientific turfs when a new scientific genius come to town. The only thing different is that this genius is a girl!",
-    "title": "School Girl Crushed / Chess Mom / Father Knows Least"
-   },
-   "chickenscratch": {
-    "desc": "\"The Lab of Tomorrow\" (7 minutes) Dexter narrates as he shows new scientists the great inventions he has planned for a super, future, modern lab.",
-    "title": "The Lab of Tomorrow / Chicken Scratch / Garage Sale"
-   },
-   "chubbycheese": {
-    "desc": "When Dexter's brain transplant experiment goes awry, his brain is switched with that of a mouse.",
-    "title": "Mom and Jerry / Chubby Cheese / That Crazy Robot"
-   },
-   "comedyoffeathers": {
-    "desc": "\"They Got Chops\" (7 minutes) When Dee Dee starts layin' the judo on Dexter, he learns to fight back.",
-    "title": "They Got Chops / Poetic Injustice / Comedy of Feathers"
-   },
-   "comicrelief": {
-    "desc": "\"Comic Relief\" (9 minutes) When reading his latest comic book adventure isn't enough for Dexter, he makes a machine so he can create his own adventure. Dexter enters this comic book world and becomes a comic book hero himself-complete with his own supervillain to battle.",
-    "title": "Comic Relief / A Third Dad Cartoon / Robo Dexo 3000"
-   },
-   "comicstripper": {
-    "desc": "\"Voice Over\" (7 minutes) When Computer gets laryngitis, Dexter must find a replacement voice for her.",
-    "title": "Voice Over / Blonde Leading the Blonde / Comic Stripper"
-   },
-   "coppinganaptitude": {
-    "desc": "\"Copping an Attitude\" (9 minutes) Dexter goes to college ready to learn only to discover it's party central. But when Dexter fries out by over-studying, he's ready to party and creates the biggest party ever.",
-    "title": "Copping an Aptitude / A Failed Lab Experiment / The Grand-Daddy of All Inventions"
-   },
-   "coppinganattitude": {
-    "desc": "\"Copping an Attitude\" (9 minutes) Dexter goes to college ready to learn only to discover it's party central. But when Dexter fries out by over-studying, he's ready to party and creates the biggest party ever.",
-    "title": "Copping an Aptitude / A Failed Lab Experiment / The Grand-Daddy of All Inventions"
-   },
-   "couponforcraziness": {
-    "desc": "When Dexter takes in a lost Labrador Retriever, he decides to enable the dog to talk.",
-    "title": "Dexter's Lab: A Story / Coupon for Craziness / Better Off Wet"
-   },
-   "criticalgas": {
-    "desc": "Dexter wolfs down a burrito and suddenly feels a growing pain inside. After having his computer analyze the pain, Dexter thinks he's going to explode.",
-    "title": "Critical Gas / Let's Save the World You Jerk! / Average Joe"
-   },
-   "d2": {
-    "desc": "\"Dexter's Little Dilemma\" (7 minutes) Dexter has shrunk his parents and put them in a model of the house. But the house isn't complete, so Dexter must scramble about before they discover the truth.",
-    "title": "Dexter's Little Dilemma / Faux Chapeau / D2"
-   },
-   "dadisdisturbed": {
-    "desc": "Dad tries to watch a golf game but is constantly interrupted; Dexter gains popularity with broken glasses; Dexter brings home an eccentric man with a lot of electronics on his head.",
-    "title": "Dad Is Disturbed / Framed / That's Using Your Head"
-   },
-   "dadmanwalking": {
-    "desc": "\"The Scrying Game\" (7 minutes) Dee Dee reads Dexter's fortune and, much to his shock, the things she predicted actually start happening.",
-    "title": "The Scrying Game / Monstrosi-Dee Dee / Dad Man Walking"
-   },
-   "danddd": {
-    "desc": "\"D & DD\" Dee Dee wants to play Monsters & Mazes with Dexter and his friends. Against Dexter's wishes, she is made the game master! Dexter is relegated to a secondary character, but his friends have a great time in Dee Dee's world. \"Ham Hocks n' Arm Locks\" While on a road trip, car trouble forces Dexter and his family to pull into a truck stop. When Earl, a local arm wrestling champ, gets Dad angry, they decide to have an arm wrestling contest. Knowing Dad has no chance of winning, Dexter comes up with a technological way to make Dad stronger.",
-    "title": "D & DD / Hamhocks and Armlocks"
-   },
-   "decodeofhonor": {
-    "desc": "When Dexter and Dee Dee get their Action Hank and Pony Puffs decoder rings mixed up (respectively), each goes through the other's initiation.",
-    "title": "Decode of Honor / World's Greatest Mom / Ultrajerk 2000"
-   },
-   "deedeeandtheman": {
-    "desc": "When Dexter returns a little girl's stuffed bunny to her, she falls in love with him. She is soon stalking Dexter. With the help of Dee Dee, Dexter is eventually able to divert the girl's affections toward another little boy.",
-    "title": "Aye Aye Eyes / Dee Dee and the Man"
-   },
-   "deedeebedeep": {
-    "desc": "Dee Dee wants to join the choir, but her bad singing is making it impossible for Dexter to work.; An emergency broadcast signal interrupts Dexter's favorite show; Dee Dee and Dexter go to the city to find Dee Dee's teddy bear.",
-    "title": "Dee Dee Be Deep / 911 / Down in the Dumps"
-   },
-   "deedeelocksandthenessmonster": {
-    "desc": "Dexter tries to entertain his ill sister by reading to her out of his science text. Bored by protons and neutrons, Dee Dee uses her imagination to make up a story of her own.",
-    "title": "Dee Dee Locks and the Ness Monster / Backfire / Book 'Em"
-   },
-   "deedeemensional": {
+   "1.1": {
     "desc": "In \"Deedeemensional\", Dee Dee time-travels to save Dexter from a monster. In \"Magmanamus\", Monkey goes up against a lava being that dislikes human-caused noise. In \"Maternal Combat\", when his mother falls, Dexter creates a robot mom to substitute for her.",
+    "se": [
+     1,
+     1
+    ],
     "title": "Deedeemensional / Dial M for Monkey: Magmanamus / Maternal Combat"
    },
-   "deedeesrival": {
-    "desc": "In an episode that mirrors \"Dexter's Rival,\" Dee Dee goes head to head with the new student in her dance class, Olga - Mandark's sister.",
-    "title": "Dee Dee's Rival / Pslyghtly Psycho / Game for a Game"
+   "1.10": {
+    "desc": "When Dee Dee accuses Dexter of not knowing how to live in the outside world - and only in his lab, he asks her to show him the Dee Dee way of knowledge.",
+    "se": [
+     1,
+     10
+    ],
+    "title": "Way of the Dee Dee / The Justice Friends: Say Uncle Sam / Tribe Called Girl"
    },
-   "deedeesroom": {
-    "desc": "In \"Dee Dee's Room\", Dexter loses something of his and must go into Dee Dee's room to retrieve it. In \"Huntor\", Monkey finds himself stalked by an alien hunter. In \"The Big Sister\", Dee Dee eats one of Dexter's experimental cookies and becomes a giant.",
-    "title": "Dee Dee's Room / Dial M for Monkey: Huntor / The Big Sister"
-   },
-   "deedeestail": {
-    "desc": "When Dexter has to have a \"parent-principal\" meeting at school, the boy genius is distraught. He's never been in trouble so how can he disappoint his parents now?",
-    "title": "Topped Off / Dee Dee's Tail / No Power Trip"
-   },
-   "dexterandcomputressgetmandark": {
-    "desc": "Dee Dee uses the lab computer to send her wish list to Santa Claus, but Dexter mocks her because he doesn't believe in the Santa.",
-    "title": "Dexter and Computress Get Mandark! / The Justice Friends: Pain in the Mouth / Dexter vs. Santa's Claws"
-   },
-   "dexterdetention": {
-    "desc": "It's picture day at school and Dexter must face the truth: he is not photogenic. Using Dee Dee's Teen magazine as a guide for restructuring his physical appearance, Dexter becomes grotesquely handsome.",
-    "title": "Picture Day / Now That's a Stretch / Dexter Detention"
-   },
-   "dexterdodgeball": {
-    "desc": "After repeated pummeling in the Gym class dodgeball game, Dexter arrives for class ready for action encased in an Armored Cyber-Sonic Exo-Jock Jumpsuit.",
-    "title": "Dexter Dodgeball / Dial M for Monkey: Rasslor / Dexter's Assistant"
-   },
-   "dexterisdirty": {
-    "desc": "Dexter and his friends attend a Star Check convention dressed as their favorite characters; Dexter covers his body in plastic so that he doesn't have to wash his hands before dinner; Dexter creates a device to stop the ice cream van.",
-    "title": "Star Check Unconventional / Dexter Is Dirty / Ice Cream Scream"
-   },
-   "dextersassistant": {
-    "desc": "After repeated pummeling in the Gym class dodgeball game, Dexter arrives for class ready for action encased in an Armored Cyber-Sonic Exo-Jock Jumpsuit.",
-    "title": "Dexter Dodgeball / Dial M for Monkey: Rasslor / Dexter's Assistant"
-   },
-   "dextersdebt": {
+   "1.11": {
     "desc": "In \"Space Case\", Dexter hands off Dee Dee to invading aliens, only to become so overcome with guilt that he decides to save her. In \"Ratman\", the Justice Friends discover that a vigilante raised by rats has been living in their basement the whole time. In \"Dexter's Debt\", Dexter owes a huge debt to NASA and must find some way to pay it.",
+    "se": [
+     1,
+     11
+    ],
     "title": "Spacecase / The Justice Friends: Ratman / Dexter's Debt"
    },
-   "dexterslabastory": {
-    "desc": "When Dexter takes in a lost Labrador Retriever, he decides to enable the dog to talk.",
-    "title": "Dexter's Lab: A Story / Coupon for Craziness / Better Off Wet"
+   "1.12": {
+    "desc": "The new kid in school, Mandark, steals Dexter's spotlight and his ego when he find Mandark has a bigger and better laboratory.",
+    "se": [
+     1,
+     12
+    ],
+    "title": "Dexter's Rival / The Justice Friends: Bee Where? / Mandarker"
    },
-   "dexterslaboratory": {
-    "desc": "When Dexter takes in a lost Labrador Retriever, he decides to enable the dog to talk.",
-    "title": "Dexter's Lab: A Story / Coupon for Craziness / Better Off Wet"
-   },
-   "dexterslibrary": {
-    "desc": "Dee Dee accidentally shuts down the lab and must embody all of Dexter's lab so he doesn't find out. Dexter pirates cable for his father. Dexter becomes the stern administrator of his local library.",
-    "title": "Sis-Tem Error / Bad Cable Manners / Dexter's Library"
-   },
-   "dexterslittledilemma": {
-    "desc": "\"Dexter's Little Dilemma\" (7 minutes) Dexter has shrunk his parents and put them in a model of the house. But the house isn't complete, so Dexter must scramble about before they discover the truth.",
-    "title": "Dexter's Little Dilemma / Faux Chapeau / D2"
-   },
-   "dextersrival": {
-    "desc": "Boy genius Dexter wants to stay up and watch the 8 o'clock movie with his family, but his mother says he's not old enough. Using one of his inventions makes himself older, but maybe he's made himself a little too old.",
-    "title": "Dexter's Rival / Dial M for Monkey: Simion / Old Man Dexter"
-   },
-   "dexterswackyraces": {
-    "desc": "\"Tee Party\" (11 minutes) When Dad makes Dexter be his caddy, Dexter destroys the normally peaceful game of golf.",
-    "title": "Tee Party / Dexter's Wacky Races"
-   },
-   "dexterthebarbarian": {
-    "desc": "\"Dexter the Barbarian\" (7 minutes) Dexter is a barbarian just trying to make his way to the bathroom.",
-    "title": "Dexter the Barbarian / Tuber Time / Sore Eyes"
-   },
-   "dextervssantasclaws": {
-    "desc": "Dee Dee uses the lab computer to send her wish list to Santa Claus, but Dexter mocks her because he doesn't believe in the Santa.",
-    "title": "Dexter and Computress Get Mandark! / The Justice Friends: Pain in the Mouth / Dexter vs. Santa's Claws"
-   },
-   "dialmformonkeyhuntor": {
-    "desc": "In \"Dee Dee's Room\", Dexter loses something of his and must go into Dee Dee's room to retrieve it. In \"Huntor\", Monkey finds himself stalked by an alien hunter. In \"The Big Sister\", Dee Dee eats one of Dexter's experimental cookies and becomes a giant.",
-    "title": "Dee Dee's Room / Dial M for Monkey: Huntor / The Big Sister"
-   },
-   "dialmformonkeymagmanamus": {
-    "desc": "In \"Deedeemensional\", Dee Dee time-travels to save Dexter from a monster. In \"Magmanamus\", Monkey goes up against a lava being that dislikes human-caused noise. In \"Maternal Combat\", when his mother falls, Dexter creates a robot mom to substitute for her.",
-    "title": "Deedeemensional / Dial M for Monkey: Magmanamus / Maternal Combat"
-   },
-   "dialmformonkeyorgongrindor": {
-    "desc": "After regenerating a Tyrannosaurus Rex using some puppy-dog DNA, Dexter must recapture the dinosaur-doggie beast when Dee Dee decides to take it for a walk in the park.",
-    "title": "Jurassic Pooch / Dial M for Monkey: Orgon Grindor / Dimwit Dexter"
-   },
-   "dialmformonkeyrasslor": {
-    "desc": "After repeated pummeling in the Gym class dodgeball game, Dexter arrives for class ready for action encased in an Armored Cyber-Sonic Exo-Jock Jumpsuit.",
-    "title": "Dexter Dodgeball / Dial M for Monkey: Rasslor / Dexter's Assistant"
-   },
-   "dialmformonkeysimion": {
-    "desc": "Boy genius Dexter wants to stay up and watch the 8 o'clock movie with his family, but his mother says he's not old enough. Using one of his inventions makes himself older, but maybe he's made himself a little too old.",
-    "title": "Dexter's Rival / Dial M for Monkey: Simion / Old Man Dexter"
-   },
-   "dim": {
-    "desc": "While Dexter is working in his lab, one of the light bulbs burns out. Mom takes him to a giant hardware store in an exhausting journey to replace it.",
-    "title": "DiM / Just an Old Fashioned Lab Song... / Repairanoid"
-   },
-   "dimwitdexter": {
-    "desc": "After regenerating a Tyrannosaurus Rex using some puppy-dog DNA, Dexter must recapture the dinosaur-doggie beast when Dee Dee decides to take it for a walk in the park.",
-    "title": "Jurassic Pooch / Dial M for Monkey: Orgon Grindor / Dimwit Dexter"
-   },
-   "dollhousedrama": {
-    "desc": "Spying through Dee Dee's bedroom keyhole, Dexter thinks she is plotting against him.",
-    "title": "Dollhouse Drama / The Justice Friends: Krunk's Date / The Big Cheese"
-   },
-   "dontbeababy": {
-    "desc": "Being too young to watch an R-rated movie, Dexter tries to make Dee Dee and himself older than Mom and Dad.",
-    "title": "Don't Be a Baby / Peltra / G.I.R.L. Squad"
-   },
-   "dontbeahero": {
-    "desc": "Dexter wants to meet the original genius who invented fire and zips back in time. He grabs the unsuspecting and frightened caveman and brings him back to the lab.",
-    "title": "Old Flame / Don't Be a Hero / My Favorite Martian"
-   },
-   "dosboot": {
-    "desc": "\"Dos Boot\" (9 minutes) When Mandark downloads himself into Dexter's computer, Dexter must upload himself in order to combat this virus.",
-    "title": "Dos Boot / A Dee Dee Cartoon / Would You Like That in the Can"
-   },
-   "doubletrouble": {
-    "desc": "Dexter and his cloning machine overheat when Dee Dee and her friends clone and re-clone themselves for Laboratory fun-time.",
-    "title": "Double Trouble / Barbequor / Changes"
-   },
-   "downinthedumps": {
-    "desc": "Dee Dee wants to join the choir, but her bad singing is making it impossible for Dexter to work.; An emergency broadcast signal interrupts Dexter's favorite show; Dee Dee and Dexter go to the city to find Dee Dee's teddy bear.",
-    "title": "Dee Dee Be Deep / 911 / Down in the Dumps"
-   },
-   "dreammachine": {
-    "desc": "Dexter is in love with his babysitter, Lisa.",
-    "title": "Babysitter Blues / The Justice Friends: Valhallen's Room / Dream Machine"
-   },
-   "dynomight": {
-    "desc": "Through opera we see Dexter's origins leading up to the creation of his laboratory.",
-    "title": "Dyno-Might / LABretto"
-   },
-   "ewwwthatsgrowth": {
-    "desc": "When the whole family goes to the carnival, Dexter can't go on a ride because he's too short. Using his lab, he makes himself grow taller, but can't stop.",
-    "title": "Ewww That's Growth / Nuclear Confusion / Germ Warfare"
-   },
-   "fantasticboyage": {
-    "desc": "During a fight with his sister over the chair in front of the TV, Dexter gets the idea to start labeling his things.",
-    "title": "Labels / Game Show / Fantastic Boyage"
-   },
-   "fatherknowsleast": {
-    "desc": "\"School Girl Crushed\" (7 minutes) Dexter and Mandark attempt to defend their scientific turfs when a new scientific genius come to town. The only thing different is that this genius is a girl!",
-    "title": "School Girl Crushed / Chess Mom / Father Knows Least"
-   },
-   "fauxchapeau": {
-    "desc": "\"Dexter's Little Dilemma\" (7 minutes) Dexter has shrunk his parents and put them in a model of the house. But the house isn't complete, so Dexter must scramble about before they discover the truth.",
-    "title": "Dexter's Little Dilemma / Faux Chapeau / D2"
-   },
-   "figurenotincluded": {
-    "desc": "Dee Dee keeps pelting Dexter with snowballs.",
-    "title": "Snowdown / *Figure Not Included / Mock 5"
-   },
-   "filetofsoul": {
-    "desc": "\"Filet of Soul\": Dexter and Dee Dee are haunted by the ghost of a dead goldfish. \"Golden Diskette\": Dexter obsessed with finding a golden diskette to get a unprecedented tour of an eccentric inventor's mysterious factory.",
-    "title": "Filet of Soul / Golden Diskette"
-   },
-   "follycalls": {
-    "desc": "\"Height Unseen\" (7 minutes) When everyone but him has had a growth spurt, Dexter decides to try and make himself tall. When that fails, he switches things around, making everyone else short.",
-    "title": "Height Unseen / Bygone Errors / Folly Calls"
-   },
-   "framed": {
-    "desc": "Dad tries to watch a golf game but is constantly interrupted; Dexter gains popularity with broken glasses; Dexter brings home an eccentric man with a lot of electronics on his head.",
-    "title": "Dad Is Disturbed / Framed / That's Using Your Head"
-   },
-   "gameforagame": {
-    "desc": "In an episode that mirrors \"Dexter's Rival,\" Dee Dee goes head to head with the new student in her dance class, Olga - Mandark's sister.",
-    "title": "Dee Dee's Rival / Pslyghtly Psycho / Game for a Game"
-   },
-   "gameover": {
-    "desc": "Dexter and Dee Dee audition to be Major Glory's sidekick; The Infragable Krunk wants to watch his favorite TV show; Dexter is trapped inside a video game.",
-    "title": "Star Spangled Sidekicks / The Justice Friends: TV Super Pals / Game Over"
-   },
-   "gameshow": {
-    "desc": "During a fight with his sister over the chair in front of the TV, Dexter gets the idea to start labeling his things.",
-    "title": "Labels / Game Show / Fantastic Boyage"
-   },
-   "garagesale": {
-    "desc": "\"The Lab of Tomorrow\" (7 minutes) Dexter narrates as he shows new scientists the great inventions he has planned for a super, future, modern lab.",
-    "title": "The Lab of Tomorrow / Chicken Scratch / Garage Sale"
-   },
-   "germwarfare": {
-    "desc": "When the whole family goes to the carnival, Dexter can't go on a ride because he's too short. Using his lab, he makes himself grow taller, but can't stop.",
-    "title": "Ewww That's Growth / Nuclear Confusion / Germ Warfare"
-   },
-   "girlsquad": {
-    "desc": "Being too young to watch an R-rated movie, Dexter tries to make Dee Dee and himself older than Mom and Dad.",
-    "title": "Don't Be a Baby / Peltra / G.I.R.L. Squad"
-   },
-   "gloveatfirstsight": {
-    "desc": "\"Glove At First Sight\" (9 minutes) It's a flashback to the 80s as Mom deals with her germaphobia with the slob that will someday be her true love.",
-    "title": "Glove at First Sight / A Mom & Dad Cartoon / Smells Like Victory"
-   },
-   "godexterfamilygo": {
-    "desc": "\"Jeepers, Creepers, Where is Peepers\" (11 minutes) Koosie's dog Peepers is stolen from Koosland. Koosie begs Dexter for help and Dexter must balance his world of science with Koosie's land of imagination.",
-    "title": "Jeepers, Creepers, Where Is Peepers? / Go, Dexter Family, Go!"
-   },
-   "goldendiskette": {
-    "desc": "\"Filet of Soul\": Dexter and Dee Dee are haunted by the ghost of a dead goldfish. \"Golden Diskette\": Dexter obsessed with finding a golden diskette to get a unprecedented tour of an eccentric inventor's mysterious factory.",
-    "title": "Filet of Soul / Golden Diskette"
-   },
-   "gooeyaliensthatcontrolyourmind": {
-    "desc": "Dexter builds Dee Dee a huge robot after she tells him he can't. The problem begins when they use their robots to try to save a volcanic island from eruption.",
-    "title": "Big Bots / Gooey Aliens That Control Your Mind / Misplaced in Space"
-   },
-   "gotyourgoat": {
-    "desc": "When Dee Dee rescues a wounded turtle from a hawk's talons, Dexter helps rebuild the little shelled animal into a bionic powerhouse.",
-    "title": "Techno Turtle / Surprise! / Got Your Goat"
-   },
-   "hamhocksandarmlocks": {
-    "desc": "\"D & DD\" Dee Dee wants to play Monsters & Mazes with Dexter and his friends. Against Dexter's wishes, she is made the game master! Dexter is relegated to a secondary character, but his friends have a great time in Dee Dee's world. \"Ham Hocks n' Arm Locks\" While on a road trip, car trouble forces Dexter and his family to pull into a truck stop. When Earl, a local arm wrestling champ, gets Dad angry, they decide to have an arm wrestling contest. Knowing Dad has no chance of winning, Dexter comes up with a technological way to make Dad stronger.",
-    "title": "D & DD / Hamhocks and Armlocks"
-   },
-   "headband": {
-    "desc": "\"Head Band\" (7 minutes) Dee Dee has a song stuck in her head-literally. Dexter discovers that Dee Dee has a viral boy band infecting her brain and must come up with a cure before it spreads throughout the world.",
-    "title": "Head Band / Stuffed Animal House / Used Ink"
-   },
-   "heightunseen": {
-    "desc": "\"Height Unseen\" (7 minutes) When everyone but him has had a growth spurt, Dexter decides to try and make himself tall. When that fails, he switches things around, making everyone else short.",
-    "title": "Height Unseen / Bygone Errors / Folly Calls"
-   },
-   "hungerstrikes": {
-    "desc": "Dexter is denied dessert when he doesn't finish his vegetables. He decides to use gamma radiation to alter his tastebuds.",
-    "title": "Hunger Strikes / The Koos Is Loose / Morning Stretch"
-   },
-   "icecreamscream": {
-    "desc": "Dexter and his friends attend a Star Check convention dressed as their favorite characters; Dexter covers his body in plastic so that he doesn't have to wash his hands before dinner; Dexter creates a device to stop the ice cream van.",
-    "title": "Star Check Unconventional / Dexter Is Dirty / Ice Cream Scream"
-   },
-   "ifmemoryserves": {
-    "desc": "Dexter wants to save his memories before he forgets them; a day in the life of Mandark; Dexter finds a way to transmit TV into his brain.",
-    "title": "If Memory Serves / A Mandark Cartoon / Tele Trauma"
-   },
-   "inflatadeedee": {
+   "1.13": {
     "desc": "Dee Dee dances into Dexter's Laboratory, puts on Dexter's inflatable suit, floats up above him and taunts him.",
+    "se": [
+     1,
+     13
+    ],
     "title": "Inflata Dee Dee / The Justice Friends: Can't Nap / Monstory"
    },
-   "jeeperscreeperswhereispeepers": {
-    "desc": "\"Jeepers, Creepers, Where is Peepers\" (11 minutes) Koosie's dog Peepers is stolen from Koosland. Koosie begs Dexter for help and Dexter must balance his world of science with Koosie's land of imagination.",
-    "title": "Jeepers, Creepers, Where Is Peepers? / Go, Dexter Family, Go!"
+   "1.2": {
+    "desc": "After repeated pummeling in the Gym class dodgeball game, Dexter arrives for class ready for action encased in an Armored Cyber-Sonic Exo-Jock Jumpsuit.",
+    "se": [
+     1,
+     2
+    ],
+    "title": "Dexter Dodgeball / Dial M for Monkey: Rasslor / Dexter's Assistant"
    },
-   "jurassicpooch": {
+   "1.3": {
+    "desc": "Boy genius Dexter wants to stay up and watch the 8 o'clock movie with his family, but his mother says he's not old enough. Using one of his inventions makes himself older, but maybe he's made himself a little too old.",
+    "se": [
+     1,
+     3
+    ],
+    "title": "Dexter's Rival / Dial M for Monkey: Simion / Old Man Dexter"
+   },
+   "1.4": {
+    "desc": "Dexter and his cloning machine overheat when Dee Dee and her friends clone and re-clone themselves for Laboratory fun-time.",
+    "se": [
+     1,
+     4
+    ],
+    "title": "Double Trouble / Barbequor / Changes"
+   },
+   "1.5": {
     "desc": "After regenerating a Tyrannosaurus Rex using some puppy-dog DNA, Dexter must recapture the dinosaur-doggie beast when Dee Dee decides to take it for a walk in the park.",
+    "se": [
+     1,
+     5
+    ],
     "title": "Jurassic Pooch / Dial M for Monkey: Orgon Grindor / Dimwit Dexter"
    },
-   "justanoldfashionedlabsong": {
-    "desc": "While Dexter is working in his lab, one of the light bulbs burns out. Mom takes him to a giant hardware store in an exhausting journey to replace it.",
-    "title": "DiM / Just an Old Fashioned Lab Song... / Repairanoid"
+   "1.6": {
+    "desc": "In \"Dee Dee's Room\", Dexter loses something of his and must go into Dee Dee's room to retrieve it. In \"Huntor\", Monkey finds himself stalked by an alien hunter. In \"The Big Sister\", Dee Dee eats one of Dexter's experimental cookies and becomes a giant.",
+    "se": [
+     1,
+     6
+    ],
+    "title": "Dee Dee's Room / Dial M for Monkey: Huntor / The Big Sister"
    },
-   "koosalagoopagoop": {
+   "1.7": {
+    "desc": "Dexter and Dee Dee audition to be Major Glory's sidekick; The Infragable Krunk wants to watch his favorite TV show; Dexter is trapped inside a video game.",
+    "se": [
+     1,
+     7
+    ],
+    "title": "Star Spangled Sidekicks / The Justice Friends: TV Super Pals / Game Over"
+   },
+   "1.8": {
+    "desc": "Dexter is in love with his babysitter, Lisa.",
+    "se": [
+     1,
+     8
+    ],
+    "title": "Babysitter Blues / The Justice Friends: Valhallen's Room / Dream Machine"
+   },
+   "1.9": {
+    "desc": "Spying through Dee Dee's bedroom keyhole, Dexter thinks she is plotting against him.",
+    "se": [
+     1,
+     9
+    ],
+    "title": "Dollhouse Drama / The Justice Friends: Krunk's Date / The Big Cheese"
+   },
+   "2.1": {
+    "desc": "Dexter decides to emulate his hero, Action Hank, and grow a synthetic beard to make himself more rugged.",
+    "se": [
+     2,
+     1
+    ],
+    "title": "Beard to Be Feared / Quackor the Fowl / Ant Pants"
+   },
+   "2.10": {
+    "desc": "When the whole family goes to the carnival, Dexter can't go on a ride because he's too short. Using his lab, he makes himself grow taller, but can't stop.",
+    "se": [
+     2,
+     10
+    ],
+    "title": "Ewww That's Growth / Nuclear Confusion / Germ Warfare"
+   },
+   "2.11": {
+    "desc": "In \"A HARD DAY'S DAY\", every day is a fine day for science until things take a turn for the worse thanks to the position of the stars in the sky. In \"ROAD RASH\", Dexter's mom forces Dexter to go outside and ride a bike, with Dee Dee challenging him to catch her on her roller blades, resulting in a chase similar to one between Wile E. Coyote and the Road Runner. In \"OCEAN COMMOTION\", on a visit to the beach, Dee Dee (dressed in a mermaid bathing suit) gets kidnapped by some manic seafarin' sailors and Dexter vows to save her.",
+    "se": [
+     2,
+     11
+    ],
+    "title": "A Hard Day's Day / Road Rash / Ocean Commotion"
+   },
+   "2.12": {
+    "desc": "When Dexter is harassed by two bullies and forced to go into the back of a school bus chasing his #2 writing implement, he must brave the legend of little Billy Blumberg who disappeared back there years ago.",
+    "se": [
+     2,
+     12
+    ],
+    "title": "The Bus Boy / The Justice Friends: Things That Go Bonk in the Night / Ol' McDexter"
+   },
+   "2.13": {
+    "desc": "While vacationing in the woods with his family, Dexter finds Sasquatch tracks and hopes to photograph the mythical beast.",
+    "se": [
+     2,
+     13
+    ],
+    "title": "Sassy Come Home / Photo Finish"
+   },
+   "2.14": {
+    "desc": "Dexter and his friends attend a Star Check convention dressed as their favorite characters; Dexter covers his body in plastic so that he doesn't have to wash his hands before dinner; Dexter creates a device to stop the ice cream van.",
+    "se": [
+     2,
+     14
+    ],
+    "title": "Star Check Unconventional / Dexter Is Dirty / Ice Cream Scream"
+   },
+   "2.15": {
+    "desc": "When Dexter and Dee Dee get their Action Hank and Pony Puffs decoder rings mixed up (respectively), each goes through the other's initiation.",
+    "se": [
+     2,
+     15
+    ],
+    "title": "Decode of Honor / World's Greatest Mom / Ultrajerk 2000"
+   },
+   "2.16": {
+    "desc": "When Dee Dee rescues a wounded turtle from a hawk's talons, Dexter helps rebuild the little shelled animal into a bionic powerhouse.",
+    "se": [
+     2,
+     16
+    ],
+    "title": "Techno Turtle / Surprise! / Got Your Goat"
+   },
+   "2.17": {
+    "desc": "Dee Dee wants to join the choir, but her bad singing is making it impossible for Dexter to work.; An emergency broadcast signal interrupts Dexter's favorite show; Dee Dee and Dexter go to the city to find Dee Dee's teddy bear.",
+    "se": [
+     2,
+     17
+    ],
+    "title": "Dee Dee Be Deep / 911 / Down in the Dumps"
+   },
+   "2.18": {
+    "desc": "Dexter and Dee Dee get stuck together by a Chinese Finger Puzzle, they track it to its maker in Chinatown, USA.",
+    "se": [
+     2,
+     18
+    ],
+    "title": "Unfortunate Cookie / The Muffin King"
+   },
+   "2.19": {
+    "desc": "It's picture day at school and Dexter must face the truth: he is not photogenic. Using Dee Dee's Teen magazine as a guide for restructuring his physical appearance, Dexter becomes grotesquely handsome.",
+    "se": [
+     2,
+     19
+    ],
+    "title": "Picture Day / Now That's a Stretch / Dexter Detention"
+   },
+   "2.2": {
+    "desc": "When Dexter's brain transplant experiment goes awry, his brain is switched with that of a mouse.",
+    "se": [
+     2,
+     2
+    ],
+    "title": "Mom and Jerry / Chubby Cheese / That Crazy Robot"
+   },
+   "2.20": {
+    "desc": "Being too young to watch an R-rated movie, Dexter tries to make Dee Dee and himself older than Mom and Dad.",
+    "se": [
+     2,
+     20
+    ],
+    "title": "Don't Be a Baby / Peltra / G.I.R.L. Squad"
+   },
+   "2.21": {
     "desc": "\"Dad tries to teach Dexter a sport, like all the other fathers and sons. But Dexter is just horrible at every sport - from baseball to football, soccer to badminton, Dexter stinks!",
+    "se": [
+     2,
+     21
+    ],
     "title": "Sports-a-Poppin' / Koos a la Goop a Goop / Project Dee Dee"
    },
-   "labels": {
-    "desc": "During a fight with his sister over the chair in front of the TV, Dexter gets the idea to start labeling his things.",
-    "title": "Labels / Game Show / Fantastic Boyage"
+   "2.22": {
+    "desc": "When Dexter has to have a \"parent-principal\" meeting at school, the boy genius is distraught. He's never been in trouble so how can he disappoint his parents now?",
+    "se": [
+     2,
+     22
+    ],
+    "title": "Topped Off / Dee Dee's Tail / No Power Trip"
    },
-   "labofthelost": {
-    "desc": "Dee Dee sees Big Daddy Fat doing a new dance on \"Groove Train\" and has to learn it.",
-    "title": "Sister's Got a Brand New Bag / Shoo, Shoe Gnomes / Lab of the Lost"
+   "2.23": {
+    "desc": "Dexter disguises Dee Dee as his mother when he needs to have a parent/teacher conference at school; Dexter turns into a crazy clown after being bitten by one at a party.",
+    "se": [
+     2,
+     23
+    ],
+    "title": "Sister Mom / The Laughing"
    },
-   "labontherun": {
-    "desc": "\"Boy Named Sue\" (11 minutes) Mandark reveals the origin of his anger is from being named Susan and being raised by New Age parents who disallowed science. This comes to a head when he meets Dexter, a science genius, who disregards Susan as not being scientifically equal.",
-    "title": "A Boy Named Sue / Lab on the Run"
+   "2.24": {
+    "desc": "When Dexter takes in a lost Labrador Retriever, he decides to enable the dog to talk.",
+    "se": [
+     2,
+     24
+    ],
+    "title": "Dexter's Lab: A Story / Coupon for Craziness / Better Off Wet"
    },
-   "labretto": {
+   "2.25": {
+    "desc": "Dexter wolfs down a burrito and suddenly feels a growing pain inside. After having his computer analyze the pain, Dexter thinks he's going to explode.",
+    "se": [
+     2,
+     25
+    ],
+    "title": "Critical Gas / Let's Save the World You Jerk! / Average Joe"
+   },
+   "2.26": {
+    "desc": "Mandark and Dexter battle each other with Rushmore Presidents Washington and Lincoln brought to life. / Dexter has a metal eating termite named Timmy as a pet. / Dee Dee uses way too much of Dexter's super growth formula in the backyard and turns the plants into man eating monsters.",
+    "se": [
+     2,
+     26
+    ],
+    "title": "Rushmore Rumble / A Boy and His Bug / You Vegetabelieve It!"
+   },
+   "2.27": {
+    "desc": "When Dexter returns a little girl's stuffed bunny to her, she falls in love with him. She is soon stalking Dexter. With the help of Dee Dee, Dexter is eventually able to divert the girl's affections toward another little boy.",
+    "se": [
+     2,
+     27
+    ],
+    "title": "Aye Aye Eyes / Dee Dee and the Man"
+   },
+   "2.28": {
+    "desc": "Dexter wants to meet the original genius who invented fire and zips back in time. He grabs the unsuspecting and frightened caveman and brings him back to the lab.",
+    "se": [
+     2,
+     28
+    ],
+    "title": "Old Flame / Don't Be a Hero / My Favorite Martian"
+   },
+   "2.29": {
+    "desc": "Dee Dee and Ninja Clan fight for who delivers the newspapers; Dexter and Dee Dee destroy Dad's bowling trophy; Dee Dee builds a tree house in the garden.",
+    "se": [
+     2,
+     29
+    ],
+    "title": "Paper Route Bout / The Old Switcharooms / Trick or Treehouse"
+   },
+   "2.3": {
+    "desc": "\"D & DD\" Dee Dee wants to play Monsters & Mazes with Dexter and his friends. Against Dexter's wishes, she is made the game master! Dexter is relegated to a secondary character, but his friends have a great time in Dee Dee's world. \"Ham Hocks n' Arm Locks\" While on a road trip, car trouble forces Dexter and his family to pull into a truck stop. When Earl, a local arm wrestling champ, gets Dad angry, they decide to have an arm wrestling contest. Knowing Dad has no chance of winning, Dexter comes up with a technological way to make Dad stronger.",
+    "se": [
+     2,
+     3
+    ],
+    "title": "D & DD / Hamhocks and Armlocks"
+   },
+   "2.30": {
+    "desc": "When a bully who hates kids with funny accents sets his sights on Dexter, the boy genius has until 3:00 before he receives an after-school beating.",
+    "se": [
+     2,
+     30
+    ],
+    "title": "Quiet Riot / Accent You Hate / Catch of the Day"
+   },
+   "2.31": {
+    "desc": "Dad tries to watch a golf game but is constantly interrupted; Dexter gains popularity with broken glasses; Dexter brings home an eccentric man with a lot of electronics on his head.",
+    "se": [
+     2,
+     31
+    ],
+    "title": "Dad Is Disturbed / Framed / That's Using Your Head"
+   },
+   "2.32": {
+    "desc": "While Dexter is working in his lab, one of the light bulbs burns out. Mom takes him to a giant hardware store in an exhausting journey to replace it.",
+    "se": [
+     2,
+     32
+    ],
+    "title": "DiM / Just an Old Fashioned Lab Song... / Repairanoid"
+   },
+   "2.33": {
+    "desc": "Dexter develops a reverse belt. While wearing the belt to get a snack in the kitchen, Dee Dee sneaks into the lab to play with the belt controls.",
+    "se": [
+     2,
+     33
+    ],
+    "title": "Sdrawkcab / The Continuum of Cartoon Fools / Sun, Surf, and Science"
+   },
+   "2.34": {
+    "desc": "Dexter builds Dee Dee a huge robot after she tells him he can't. The problem begins when they use their robots to try to save a volcanic island from eruption.",
+    "se": [
+     2,
+     34
+    ],
+    "title": "Big Bots / Gooey Aliens That Control Your Mind / Misplaced in Space"
+   },
+   "2.35": {
+    "desc": "In an episode that mirrors \"Dexter's Rival,\" Dee Dee goes head to head with the new student in her dance class, Olga - Mandark's sister.",
+    "se": [
+     2,
+     35
+    ],
+    "title": "Dee Dee's Rival / Pslyghtly Psycho / Game for a Game"
+   },
+   "2.36": {
+    "desc": "Dexter and Dee Dee are unknowingly the focus of a \"Wild Kingdom\" type animal documentary. During Dexter's bathing ritual, he realizes he's being observed, runs, gets tranquilized, and upon awakening discovers he's been tagged.",
+    "se": [
+     2,
+     36
+    ],
+    "title": "Blackfoot and Slim / Trapped with a Vengeance / The Parrot Trap"
+   },
+   "2.37": {
+    "desc": "Dee Dee uses the lab computer to send her wish list to Santa Claus, but Dexter mocks her because he doesn't believe in the Santa.",
+    "se": [
+     2,
+     37
+    ],
+    "title": "Dexter and Computress Get Mandark! / The Justice Friends: Pain in the Mouth / Dexter vs. Santa's Claws"
+   },
+   "2.38": {
     "desc": "Through opera we see Dexter's origins leading up to the creation of his laboratory.",
+    "se": [
+     2,
+     38
+    ],
     "title": "Dyno-Might / LABretto"
    },
-   "lastbutnotbeast": {
+   "2.39": {
     "desc": "In England as part of a student exchange program, Dexter gets involved in a battle.",
+    "se": [
+     2,
+     39
+    ],
     "title": "Last But Not Beast"
    },
-   "letssavetheworldyoujerk": {
-    "desc": "Dexter wolfs down a burrito and suddenly feels a growing pain inside. After having his computer analyze the pain, Dexter thinks he's going to explode.",
-    "title": "Critical Gas / Let's Save the World You Jerk! / Average Joe"
+   "2.4": {
+    "desc": "Dexter is denied dessert when he doesn't finish his vegetables. He decides to use gamma radiation to alter his tastebuds.",
+    "se": [
+     2,
+     4
+    ],
+    "title": "Hunger Strikes / The Koos Is Loose / Morning Stretch"
    },
-   "londoncalling": {
+   "2.40": {
     "desc": null,
+    "se": [
+     2,
+     40
+    ],
     "title": "London Calling"
    },
-   "mandarker": {
-    "desc": "The new kid in school, Mandark, steals Dexter's spotlight and his ego when he find Mandark has a bigger and better laboratory.",
-    "title": "Dexter's Rival / The Justice Friends: Bee Where? / Mandarker"
+   "2.5": {
+    "desc": "Dexter tries to entertain his ill sister by reading to her out of his science text. Bored by protons and neutrons, Dee Dee uses her imagination to make up a story of her own.",
+    "se": [
+     2,
+     5
+    ],
+    "title": "Dee Dee Locks and the Ness Monster / Backfire / Book 'Em"
    },
-   "maternalcombat": {
-    "desc": "In \"Deedeemensional\", Dee Dee time-travels to save Dexter from a monster. In \"Magmanamus\", Monkey goes up against a lava being that dislikes human-caused noise. In \"Maternal Combat\", when his mother falls, Dexter creates a robot mom to substitute for her.",
-    "title": "Deedeemensional / Dial M for Monkey: Magmanamus / Maternal Combat"
+   "2.6": {
+    "desc": "Dee Dee sees Big Daddy Fat doing a new dance on \"Groove Train\" and has to learn it.",
+    "se": [
+     2,
+     6
+    ],
+    "title": "Sister's Got a Brand New Bag / Shoo, Shoe Gnomes / Lab of the Lost"
    },
-   "mindoverchatter": {
-    "desc": "\"Mind Over Chatter\" (9 minutes) Dexter wants to know what Dad has gotten him for his birthday, so he creates an invention so he can read minds. But when it backfires, it's everyone else who can read Dexter's thoughts.",
-    "title": "Mind Over Chatter / A Quakor Cartoon / Momdark"
+   "2.7": {
+    "desc": "During a fight with his sister over the chair in front of the TV, Dexter gets the idea to start labeling his things.",
+    "se": [
+     2,
+     7
+    ],
+    "title": "Labels / Game Show / Fantastic Boyage"
    },
-   "misplacedinspace": {
-    "desc": "Dexter builds Dee Dee a huge robot after she tells him he can't. The problem begins when they use their robots to try to save a volcanic island from eruption.",
-    "title": "Big Bots / Gooey Aliens That Control Your Mind / Misplaced in Space"
+   "2.8": {
+    "desc": "\"Filet of Soul\": Dexter and Dee Dee are haunted by the ghost of a dead goldfish. \"Golden Diskette\": Dexter obsessed with finding a golden diskette to get a unprecedented tour of an eccentric inventor's mysterious factory.",
+    "se": [
+     2,
+     8
+    ],
+    "title": "Filet of Soul / Golden Diskette"
    },
-   "mock5": {
+   "2.9": {
     "desc": "Dee Dee keeps pelting Dexter with snowballs.",
+    "se": [
+     2,
+     9
+    ],
     "title": "Snowdown / *Figure Not Included / Mock 5"
    },
-   "momandjerry": {
-    "desc": "When Dexter's brain transplant experiment goes awry, his brain is switched with that of a mouse.",
-    "title": "Mom and Jerry / Chubby Cheese / That Crazy Robot"
+   "3.1": {
+    "desc": "\"Streaky Clean\" (9 minutes) When Dexter gets tired of spilling stuff on himself, he invents a washing machine satellite to zap out any spots. But when the satellite is nudged in space to a higher setting, the spots aren't the only things that get removed.",
+    "se": [
+     3,
+     1
+    ],
+    "title": "Streaky Clean / A Dad Cartoon / Sole Brother"
    },
-   "momdark": {
-    "desc": "\"Mind Over Chatter\" (9 minutes) Dexter wants to know what Dad has gotten him for his birthday, so he creates an invention so he can read minds. But when it backfires, it's everyone else who can read Dexter's thoughts.",
-    "title": "Mind Over Chatter / A Quakor Cartoon / Momdark"
-   },
-   "monstory": {
-    "desc": "Dee Dee dances into Dexter's Laboratory, puts on Dexter's inflatable suit, floats up above him and taunts him.",
-    "title": "Inflata Dee Dee / The Justice Friends: Can't Nap / Monstory"
-   },
-   "monstrosideedee": {
-    "desc": "\"The Scrying Game\" (7 minutes) Dee Dee reads Dexter's fortune and, much to his shock, the things she predicted actually start happening.",
-    "title": "The Scrying Game / Monstrosi-Dee Dee / Dad Man Walking"
-   },
-   "morningstretch": {
-    "desc": "Dexter is denied dessert when he doesn't finish his vegetables. He decides to use gamma radiation to alter his tastebuds.",
-    "title": "Hunger Strikes / The Koos Is Loose / Morning Stretch"
-   },
-   "mountainmandark": {
-    "desc": "\"Babe Sitter\" (7 minutes) Mandark thinks he's going to have a nice romantic evening with his lady love when Dee Dee shows up to babysit him. \"Mountain Mandark\" (7 minutes) Getting in touch with nature, Mandark becomes Mountain Mandark, throwing of the shackles of technology. \"2Geniuses 2Gether 4Ever\" (7 minutes) Mandark and Dexter become scientific buddies while Mandark plots to destroy Dexter.",
-    "title": "Babe Sitter / Mountain Mandark / 2Geniuses 2Gether 4Ever"
-   },
-   "mydadvsyourdad": {
-    "desc": "\"Scare Tactics\" (9 minutes) When Dad won't let Dexter stay up for a late-night scary movie, Dexter sneaks down and watches anyway. Dad sees this and tries to scare Dexter. But then his own trick backfires as the two of them end up being scared by all the spooky sounds in the house.",
-    "title": "Scare Tactics / A Mom Cartoon / My Dad vs. Your Dad"
-   },
-   "myfavoritemartian": {
-    "desc": "Dexter wants to meet the original genius who invented fire and zips back in time. He grabs the unsuspecting and frightened caveman and brings him back to the lab.",
-    "title": "Old Flame / Don't Be a Hero / My Favorite Martian"
-   },
-   "nopowertrip": {
-    "desc": "When Dexter has to have a \"parent-principal\" meeting at school, the boy genius is distraught. He's never been in trouble so how can he disappoint his parents now?",
-    "title": "Topped Off / Dee Dee's Tail / No Power Trip"
-   },
-   "nowthatsastretch": {
-    "desc": "It's picture day at school and Dexter must face the truth: he is not photogenic. Using Dee Dee's Teen magazine as a guide for restructuring his physical appearance, Dexter becomes grotesquely handsome.",
-    "title": "Picture Day / Now That's a Stretch / Dexter Detention"
-   },
-   "nuclearconfusion": {
-    "desc": "When the whole family goes to the carnival, Dexter can't go on a ride because he's too short. Using his lab, he makes himself grow taller, but can't stop.",
-    "title": "Ewww That's Growth / Nuclear Confusion / Germ Warfare"
-   },
-   "oceancommotion": {
-    "desc": "In \"A HARD DAY'S DAY\", every day is a fine day for science until things take a turn for the worse thanks to the position of the stars in the sky. In \"ROAD RASH\", Dexter's mom forces Dexter to go outside and ride a bike, with Dee Dee challenging him to catch her on her roller blades, resulting in a chase similar to one between Wile E. Coyote and the Road Runner. In \"OCEAN COMMOTION\", on a visit to the beach, Dee Dee (dressed in a mermaid bathing suit) gets kidnapped by some manic seafarin' sailors and Dexter vows to save her.",
-    "title": "A Hard Day's Day / Road Rash / Ocean Commotion"
-   },
-   "ohbrother": {
-    "desc": "\"Oh Brother\" (9 minutes) Dexter is convinced that life would be better if he had an older brother. But he soon learns Dee Dee wasn't really that bad.",
-    "title": "Oh, Brother / Another Dad Cartoon / Bar Exam"
-   },
-   "oldflame": {
-    "desc": "Dexter wants to meet the original genius who invented fire and zips back in time. He grabs the unsuspecting and frightened caveman and brings him back to the lab.",
-    "title": "Old Flame / Don't Be a Hero / My Favorite Martian"
-   },
-   "oldmandexter": {
-    "desc": "Boy genius Dexter wants to stay up and watch the 8 o'clock movie with his family, but his mother says he's not old enough. Using one of his inventions makes himself older, but maybe he's made himself a little too old.",
-    "title": "Dexter's Rival / Dial M for Monkey: Simion / Old Man Dexter"
-   },
-   "olmcdexter": {
-    "desc": "When Dexter is harassed by two bullies and forced to go into the back of a school bus chasing his #2 writing implement, he must brave the legend of little Billy Blumberg who disappeared back there years ago.",
-    "title": "The Bus Boy / The Justice Friends: Things That Go Bonk in the Night / Ol' McDexter"
-   },
-   "oppositesattract": {
-    "desc": "\"That Magic Moment\" (9 minutes) Uncle Magic comes to visit the family and promises to make Dee Dee disappear in a trick. Dexter poo-poos his Uncle's world of illusion and makes Dee Dee disappear via science.",
-    "title": "That Magic Moment / A Silent Cartoon / Opposites Attract"
-   },
-   "overlabbing": {
-    "desc": "\"Beau tie\" (7 minutes) Dee Dee brings home a boy who's not only cute-he's smart. Soon Dexter and Dee Dee are fighting for his attention.",
-    "title": "Beau Tie / Remember Me? / Over-Labbing"
-   },
-   "paperroutebout": {
-    "desc": "Dee Dee and Ninja Clan fight for who delivers the newspapers; Dexter and Dee Dee destroy Dad's bowling trophy; Dee Dee builds a tree house in the garden.",
-    "title": "Paper Route Bout / The Old Switcharooms / Trick or Treehouse"
-   },
-   "peltra": {
-    "desc": "Being too young to watch an R-rated movie, Dexter tries to make Dee Dee and himself older than Mom and Dad.",
-    "title": "Don't Be a Baby / Peltra / G.I.R.L. Squad"
-   },
-   "photofinish": {
-    "desc": "While vacationing in the woods with his family, Dexter finds Sasquatch tracks and hopes to photograph the mythical beast.",
-    "title": "Sassy Come Home / Photo Finish"
-   },
-   "pictureday": {
-    "desc": "It's picture day at school and Dexter must face the truth: he is not photogenic. Using Dee Dee's Teen magazine as a guide for restructuring his physical appearance, Dexter becomes grotesquely handsome.",
-    "title": "Picture Day / Now That's a Stretch / Dexter Detention"
-   },
-   "poeticinjustice": {
-    "desc": "\"They Got Chops\" (7 minutes) When Dee Dee starts layin' the judo on Dexter, he learns to fight back.",
-    "title": "They Got Chops / Poetic Injustice / Comedy of Feathers"
-   },
-   "poppawheely": {
-    "desc": "\"Poppa Wheelie\" - Dexter's school has Career Day, \"A Mom Cartoon\" - Mom is shopping and suddenly a sale is announced. \"Mockside of the Moon\" - Dexter discovers that the moon is hallow and monsters are living inside.",
-    "title": "Poppa Wheely / A Mom Cartoon / The Mock Side of the Moon"
-   },
-   "projectdeedee": {
-    "desc": "\"Dad tries to teach Dexter a sport, like all the other fathers and sons. But Dexter is just horrible at every sport - from baseball to football, soccer to badminton, Dexter stinks!",
-    "title": "Sports-a-Poppin' / Koos a la Goop a Goop / Project Dee Dee"
-   },
-   "pslyghtlypsycho": {
-    "desc": "In an episode that mirrors \"Dexter's Rival,\" Dee Dee goes head to head with the new student in her dance class, Olga - Mandark's sister.",
-    "title": "Dee Dee's Rival / Pslyghtly Psycho / Game for a Game"
-   },
-   "quackorthefowl": {
-    "desc": "Dexter decides to emulate his hero, Action Hank, and grow a synthetic beard to make himself more rugged.",
-    "title": "Beard to Be Feared / Quackor the Fowl / Ant Pants"
-   },
-   "quietriot": {
-    "desc": "When a bully who hates kids with funny accents sets his sights on Dexter, the boy genius has until 3:00 before he receives an after-school beating.",
-    "title": "Quiet Riot / Accent You Hate / Catch of the Day"
-   },
-   "rememberme": {
-    "desc": "\"Beau tie\" (7 minutes) Dee Dee brings home a boy who's not only cute-he's smart. Soon Dexter and Dee Dee are fighting for his attention.",
-    "title": "Beau Tie / Remember Me? / Over-Labbing"
-   },
-   "repairanoid": {
-    "desc": "While Dexter is working in his lab, one of the light bulbs burns out. Mom takes him to a giant hardware store in an exhausting journey to replace it.",
-    "title": "DiM / Just an Old Fashioned Lab Song... / Repairanoid"
-   },
-   "roadrash": {
-    "desc": "In \"A HARD DAY'S DAY\", every day is a fine day for science until things take a turn for the worse thanks to the position of the stars in the sky. In \"ROAD RASH\", Dexter's mom forces Dexter to go outside and ride a bike, with Dee Dee challenging him to catch her on her roller blades, resulting in a chase similar to one between Wile E. Coyote and the Road Runner. In \"OCEAN COMMOTION\", on a visit to the beach, Dee Dee (dressed in a mermaid bathing suit) gets kidnapped by some manic seafarin' sailors and Dexter vows to save her.",
-    "title": "A Hard Day's Day / Road Rash / Ocean Commotion"
-   },
-   "robodexo3000": {
-    "desc": "\"Comic Relief\" (9 minutes) When reading his latest comic book adventure isn't enough for Dexter, he makes a machine so he can create his own adventure. Dexter enters this comic book world and becomes a comic book hero himself-complete with his own supervillain to battle.",
-    "title": "Comic Relief / A Third Dad Cartoon / Robo Dexo 3000"
-   },
-   "ruderemoval": {
-    "desc": "When Dexter creates a new invention to get DeeDee's rudeness under control, her foolish antics cause both her and Dexter to end up in the machine, resulting in them becoming polite, and their rude, evil counterparts being made. Now, the polite Dexter and DeeDee must find a way to rid of the disrespectful clones of themselves before they cause even more trouble.",
-    "title": "Rude Removal"
-   },
-   "rushmorerumble": {
-    "desc": "Mandark and Dexter battle each other with Rushmore Presidents Washington and Lincoln brought to life. / Dexter has a metal eating termite named Timmy as a pet. / Dee Dee uses way too much of Dexter's super growth formula in the backyard and turns the plants into man eating monsters.",
-    "title": "Rushmore Rumble / A Boy and His Bug / You Vegetabelieve It!"
-   },
-   "sassycomehome": {
-    "desc": "While vacationing in the woods with his family, Dexter finds Sasquatch tracks and hopes to photograph the mythical beast.",
-    "title": "Sassy Come Home / Photo Finish"
-   },
-   "scaretactics": {
-    "desc": "\"Scare Tactics\" (9 minutes) When Dad won't let Dexter stay up for a late-night scary movie, Dexter sneaks down and watches anyway. Dad sees this and tries to scare Dexter. But then his own trick backfires as the two of them end up being scared by all the spooky sounds in the house.",
-    "title": "Scare Tactics / A Mom Cartoon / My Dad vs. Your Dad"
-   },
-   "schoolgirlcrushed": {
-    "desc": "\"School Girl Crushed\" (7 minutes) Dexter and Mandark attempt to defend their scientific turfs when a new scientific genius come to town. The only thing different is that this genius is a girl!",
-    "title": "School Girl Crushed / Chess Mom / Father Knows Least"
-   },
-   "sdrawkcab": {
-    "desc": "Dexter develops a reverse belt. While wearing the belt to get a snack in the kitchen, Dee Dee sneaks into the lab to play with the belt controls.",
-    "title": "Sdrawkcab / The Continuum of Cartoon Fools / Sun, Surf, and Science"
-   },
-   "shooshoegnomes": {
-    "desc": "Dee Dee sees Big Daddy Fat doing a new dance on \"Groove Train\" and has to learn it.",
-    "title": "Sister's Got a Brand New Bag / Shoo, Shoe Gnomes / Lab of the Lost"
-   },
-   "sistemerror": {
-    "desc": "Dee Dee accidentally shuts down the lab and must embody all of Dexter's lab so he doesn't find out. Dexter pirates cable for his father. Dexter becomes the stern administrator of his local library.",
-    "title": "Sis-Tem Error / Bad Cable Manners / Dexter's Library"
-   },
-   "sistermom": {
-    "desc": "Dexter disguises Dee Dee as his mother when he needs to have a parent/teacher conference at school; Dexter turns into a crazy clown after being bitten by one at a party.",
-    "title": "Sister Mom / The Laughing"
-   },
-   "sistersgotabrandnewbag": {
-    "desc": "Dee Dee sees Big Daddy Fat doing a new dance on \"Groove Train\" and has to learn it.",
-    "title": "Sister's Got a Brand New Bag / Shoo, Shoe Gnomes / Lab of the Lost"
-   },
-   "smellslikevictory": {
+   "3.10": {
     "desc": "\"Glove At First Sight\" (9 minutes) It's a flashback to the 80s as Mom deals with her germaphobia with the slob that will someday be her true love.",
+    "se": [
+     3,
+     10
+    ],
     "title": "Glove at First Sight / A Mom & Dad Cartoon / Smells Like Victory"
    },
-   "snowdown": {
-    "desc": "Dee Dee keeps pelting Dexter with snowballs.",
-    "title": "Snowdown / *Figure Not Included / Mock 5"
+   "3.11": {
+    "desc": "\"Oh Brother\" (9 minutes) Dexter is convinced that life would be better if he had an older brother. But he soon learns Dee Dee wasn't really that bad.",
+    "se": [
+     3,
+     11
+    ],
+    "title": "Oh, Brother / Another Dad Cartoon / Bar Exam"
    },
-   "solebrother": {
-    "desc": "\"Streaky Clean\" (9 minutes) When Dexter gets tired of spilling stuff on himself, he invents a washing machine satellite to zap out any spots. But when the satellite is nudged in space to a higher setting, the spots aren't the only things that get removed.",
-    "title": "Streaky Clean / A Dad Cartoon / Sole Brother"
+   "3.12": {
+    "desc": "\"Scare Tactics\" (9 minutes) When Dad won't let Dexter stay up for a late-night scary movie, Dexter sneaks down and watches anyway. Dad sees this and tries to scare Dexter. But then his own trick backfires as the two of them end up being scared by all the spooky sounds in the house.",
+    "se": [
+     3,
+     12
+    ],
+    "title": "Scare Tactics / A Mom Cartoon / My Dad vs. Your Dad"
    },
-   "soreeyes": {
-    "desc": "\"Dexter the Barbarian\" (7 minutes) Dexter is a barbarian just trying to make his way to the bathroom.",
-    "title": "Dexter the Barbarian / Tuber Time / Sore Eyes"
+   "3.13": {
+    "desc": "\"Jeepers, Creepers, Where is Peepers\" (11 minutes) Koosie's dog Peepers is stolen from Koosland. Koosie begs Dexter for help and Dexter must balance his world of science with Koosie's land of imagination.",
+    "se": [
+     3,
+     13
+    ],
+    "title": "Jeepers, Creepers, Where Is Peepers? / Go, Dexter Family, Go!"
    },
-   "spacecase": {
-    "desc": "In \"Space Case\", Dexter hands off Dee Dee to invading aliens, only to become so overcome with guilt that he decides to save her. In \"Ratman\", the Justice Friends discover that a vigilante raised by rats has been living in their basement the whole time. In \"Dexter's Debt\", Dexter owes a huge debt to NASA and must find some way to pay it.",
-    "title": "Spacecase / The Justice Friends: Ratman / Dexter's Debt"
+   "3.2": {
+    "desc": "\"Mind Over Chatter\" (9 minutes) Dexter wants to know what Dad has gotten him for his birthday, so he creates an invention so he can read minds. But when it backfires, it's everyone else who can read Dexter's thoughts.",
+    "se": [
+     3,
+     2
+    ],
+    "title": "Mind Over Chatter / A Quakor Cartoon / Momdark"
    },
-   "sportsapoppin": {
-    "desc": "\"Dad tries to teach Dexter a sport, like all the other fathers and sons. But Dexter is just horrible at every sport - from baseball to football, soccer to badminton, Dexter stinks!",
-    "title": "Sports-a-Poppin' / Koos a la Goop a Goop / Project Dee Dee"
-   },
-   "starcheckunconventional": {
-    "desc": "Dexter and his friends attend a Star Check convention dressed as their favorite characters; Dexter covers his body in plastic so that he doesn't have to wash his hands before dinner; Dexter creates a device to stop the ice cream van.",
-    "title": "Star Check Unconventional / Dexter Is Dirty / Ice Cream Scream"
-   },
-   "starspangledsidekicks": {
-    "desc": "Dexter and Dee Dee audition to be Major Glory's sidekick; The Infragable Krunk wants to watch his favorite TV show; Dexter is trapped inside a video game.",
-    "title": "Star Spangled Sidekicks / The Justice Friends: TV Super Pals / Game Over"
-   },
-   "streakyclean": {
-    "desc": "\"Streaky Clean\" (9 minutes) When Dexter gets tired of spilling stuff on himself, he invents a washing machine satellite to zap out any spots. But when the satellite is nudged in space to a higher setting, the spots aren't the only things that get removed.",
-    "title": "Streaky Clean / A Dad Cartoon / Sole Brother"
-   },
-   "stuffedanimalhouse": {
-    "desc": "\"Head Band\" (7 minutes) Dee Dee has a song stuck in her head-literally. Dexter discovers that Dee Dee has a viral boy band infecting her brain and must come up with a cure before it spreads throughout the world.",
-    "title": "Head Band / Stuffed Animal House / Used Ink"
-   },
-   "sunsurfandscience": {
-    "desc": "Dexter develops a reverse belt. While wearing the belt to get a snack in the kitchen, Dee Dee sneaks into the lab to play with the belt controls.",
-    "title": "Sdrawkcab / The Continuum of Cartoon Fools / Sun, Surf, and Science"
-   },
-   "surprise": {
-    "desc": "When Dee Dee rescues a wounded turtle from a hawk's talons, Dexter helps rebuild the little shelled animal into a bionic powerhouse.",
-    "title": "Techno Turtle / Surprise! / Got Your Goat"
-   },
-   "technoturtle": {
-    "desc": "When Dee Dee rescues a wounded turtle from a hawk's talons, Dexter helps rebuild the little shelled animal into a bionic powerhouse.",
-    "title": "Techno Turtle / Surprise! / Got Your Goat"
-   },
-   "teeparty": {
-    "desc": "\"Tee Party\" (11 minutes) When Dad makes Dexter be his caddy, Dexter destroys the normally peaceful game of golf.",
-    "title": "Tee Party / Dexter's Wacky Races"
-   },
-   "teletrauma": {
-    "desc": "Dexter wants to save his memories before he forgets them; a day in the life of Mandark; Dexter finds a way to transmit TV into his brain.",
-    "title": "If Memory Serves / A Mandark Cartoon / Tele Trauma"
-   },
-   "thatcrazyrobot": {
-    "desc": "When Dexter's brain transplant experiment goes awry, his brain is switched with that of a mouse.",
-    "title": "Mom and Jerry / Chubby Cheese / That Crazy Robot"
-   },
-   "thatmagicmoment": {
-    "desc": "\"That Magic Moment\" (9 minutes) Uncle Magic comes to visit the family and promises to make Dee Dee disappear in a trick. Dexter poo-poos his Uncle's world of illusion and makes Dee Dee disappear via science.",
-    "title": "That Magic Moment / A Silent Cartoon / Opposites Attract"
-   },
-   "thatsusingyourhead": {
-    "desc": "Dad tries to watch a golf game but is constantly interrupted; Dexter gains popularity with broken glasses; Dexter brings home an eccentric man with a lot of electronics on his head.",
-    "title": "Dad Is Disturbed / Framed / That's Using Your Head"
-   },
-   "thebigcheese": {
-    "desc": "Spying through Dee Dee's bedroom keyhole, Dexter thinks she is plotting against him.",
-    "title": "Dollhouse Drama / The Justice Friends: Krunk's Date / The Big Cheese"
-   },
-   "thebigsister": {
-    "desc": "In \"Dee Dee's Room\", Dexter loses something of his and must go into Dee Dee's room to retrieve it. In \"Huntor\", Monkey finds himself stalked by an alien hunter. In \"The Big Sister\", Dee Dee eats one of Dexter's experimental cookies and becomes a giant.",
-    "title": "Dee Dee's Room / Dial M for Monkey: Huntor / The Big Sister"
-   },
-   "theblondeleadingtheblonde": {
-    "desc": "\"Voice Over\" (7 minutes) When Computer gets laryngitis, Dexter must find a replacement voice for her.",
-    "title": "Voice Over / Blonde Leading the Blonde / Comic Stripper"
-   },
-   "thebusboy": {
-    "desc": "When Dexter is harassed by two bullies and forced to go into the back of a school bus chasing his #2 writing implement, he must brave the legend of little Billy Blumberg who disappeared back there years ago.",
-    "title": "The Bus Boy / The Justice Friends: Things That Go Bonk in the Night / Ol' McDexter"
-   },
-   "thecontinuumofcartoonfools": {
-    "desc": "Dexter develops a reverse belt. While wearing the belt to get a snack in the kitchen, Dee Dee sneaks into the lab to play with the belt controls.",
-    "title": "Sdrawkcab / The Continuum of Cartoon Fools / Sun, Surf, and Science"
-   },
-   "thegranddaddyofallinventions": {
+   "3.3": {
     "desc": "\"Copping an Attitude\" (9 minutes) Dexter goes to college ready to learn only to discover it's party central. But when Dexter fries out by over-studying, he's ready to party and creates the biggest party ever.",
+    "se": [
+     3,
+     3
+    ],
     "title": "Copping an Aptitude / A Failed Lab Experiment / The Grand-Daddy of All Inventions"
    },
-   "thejusticefriendsbeewhere": {
-    "desc": "The new kid in school, Mandark, steals Dexter's spotlight and his ego when he find Mandark has a bigger and better laboratory.",
-    "title": "Dexter's Rival / The Justice Friends: Bee Where? / Mandarker"
-   },
-   "thejusticefriendscantnap": {
-    "desc": "Dee Dee dances into Dexter's Laboratory, puts on Dexter's inflatable suit, floats up above him and taunts him.",
-    "title": "Inflata Dee Dee / The Justice Friends: Can't Nap / Monstory"
-   },
-   "thejusticefriendskrunksdate": {
-    "desc": "Spying through Dee Dee's bedroom keyhole, Dexter thinks she is plotting against him.",
-    "title": "Dollhouse Drama / The Justice Friends: Krunk's Date / The Big Cheese"
-   },
-   "thejusticefriendspaininthemouth": {
-    "desc": "Dee Dee uses the lab computer to send her wish list to Santa Claus, but Dexter mocks her because he doesn't believe in the Santa.",
-    "title": "Dexter and Computress Get Mandark! / The Justice Friends: Pain in the Mouth / Dexter vs. Santa's Claws"
-   },
-   "thejusticefriendsratman": {
-    "desc": "In \"Space Case\", Dexter hands off Dee Dee to invading aliens, only to become so overcome with guilt that he decides to save her. In \"Ratman\", the Justice Friends discover that a vigilante raised by rats has been living in their basement the whole time. In \"Dexter's Debt\", Dexter owes a huge debt to NASA and must find some way to pay it.",
-    "title": "Spacecase / The Justice Friends: Ratman / Dexter's Debt"
-   },
-   "thejusticefriendssayunclesam": {
-    "desc": "When Dee Dee accuses Dexter of not knowing how to live in the outside world - and only in his lab, he asks her to show him the Dee Dee way of knowledge.",
-    "title": "Way of the Dee Dee / The Justice Friends: Say Uncle Sam / Tribe Called Girl"
-   },
-   "thejusticefriendsthingsthatgobonkinthenight": {
-    "desc": "When Dexter is harassed by two bullies and forced to go into the back of a school bus chasing his #2 writing implement, he must brave the legend of little Billy Blumberg who disappeared back there years ago.",
-    "title": "The Bus Boy / The Justice Friends: Things That Go Bonk in the Night / Ol' McDexter"
-   },
-   "thejusticefriendstvsuperpals": {
-    "desc": "Dexter and Dee Dee audition to be Major Glory's sidekick; The Infragable Krunk wants to watch his favorite TV show; Dexter is trapped inside a video game.",
-    "title": "Star Spangled Sidekicks / The Justice Friends: TV Super Pals / Game Over"
-   },
-   "thejusticefriendsvalhallensroom": {
-    "desc": "Dexter is in love with his babysitter, Lisa.",
-    "title": "Babysitter Blues / The Justice Friends: Valhallen's Room / Dream Machine"
-   },
-   "thekoosisloose": {
-    "desc": "Dexter is denied dessert when he doesn't finish his vegetables. He decides to use gamma radiation to alter his tastebuds.",
-    "title": "Hunger Strikes / The Koos Is Loose / Morning Stretch"
-   },
-   "thelaboftomorrow": {
-    "desc": "\"The Lab of Tomorrow\" (7 minutes) Dexter narrates as he shows new scientists the great inventions he has planned for a super, future, modern lab.",
-    "title": "The Lab of Tomorrow / Chicken Scratch / Garage Sale"
-   },
-   "thelaughing": {
-    "desc": "Dexter disguises Dee Dee as his mother when he needs to have a parent/teacher conference at school; Dexter turns into a crazy clown after being bitten by one at a party.",
-    "title": "Sister Mom / The Laughing"
-   },
-   "themocksideofthemoon": {
+   "3.4": {
     "desc": "\"Poppa Wheelie\" - Dexter's school has Career Day, \"A Mom Cartoon\" - Mom is shopping and suddenly a sale is announced. \"Mockside of the Moon\" - Dexter discovers that the moon is hallow and monsters are living inside.",
+    "se": [
+     3,
+     4
+    ],
     "title": "Poppa Wheely / A Mom Cartoon / The Mock Side of the Moon"
    },
-   "themuffinking": {
-    "desc": "Dexter and Dee Dee get stuck together by a Chinese Finger Puzzle, they track it to its maker in Chinatown, USA.",
-    "title": "Unfortunate Cookie / The Muffin King"
+   "3.5": {
+    "desc": "Dexter wants to save his memories before he forgets them; a day in the life of Mandark; Dexter finds a way to transmit TV into his brain.",
+    "se": [
+     3,
+     5
+    ],
+    "title": "If Memory Serves / A Mandark Cartoon / Tele Trauma"
    },
-   "theoldswitcharooms": {
-    "desc": "Dee Dee and Ninja Clan fight for who delivers the newspapers; Dexter and Dee Dee destroy Dad's bowling trophy; Dee Dee builds a tree house in the garden.",
-    "title": "Paper Route Bout / The Old Switcharooms / Trick or Treehouse"
+   "3.6": {
+    "desc": "\"Boy Named Sue\" (11 minutes) Mandark reveals the origin of his anger is from being named Susan and being raised by New Age parents who disallowed science. This comes to a head when he meets Dexter, a science genius, who disregards Susan as not being scientifically equal.",
+    "se": [
+     3,
+     6
+    ],
+    "title": "A Boy Named Sue / Lab on the Run"
    },
-   "theparrottrap": {
-    "desc": "Dexter and Dee Dee are unknowingly the focus of a \"Wild Kingdom\" type animal documentary. During Dexter's bathing ritual, he realizes he's being observed, runs, gets tranquilized, and upon awakening discovers he's been tagged.",
-    "title": "Blackfoot and Slim / Trapped with a Vengeance / The Parrot Trap"
-   },
-   "thescryinggame": {
-    "desc": "\"The Scrying Game\" (7 minutes) Dee Dee reads Dexter's fortune and, much to his shock, the things she predicted actually start happening.",
-    "title": "The Scrying Game / Monstrosi-Dee Dee / Dad Man Walking"
-   },
-   "theygotchops": {
-    "desc": "\"They Got Chops\" (7 minutes) When Dee Dee starts layin' the judo on Dexter, he learns to fight back.",
-    "title": "They Got Chops / Poetic Injustice / Comedy of Feathers"
-   },
-   "toppedoff": {
-    "desc": "When Dexter has to have a \"parent-principal\" meeting at school, the boy genius is distraught. He's never been in trouble so how can he disappoint his parents now?",
-    "title": "Topped Off / Dee Dee's Tail / No Power Trip"
-   },
-   "trappedwithavengeance": {
-    "desc": "Dexter and Dee Dee are unknowingly the focus of a \"Wild Kingdom\" type animal documentary. During Dexter's bathing ritual, he realizes he's being observed, runs, gets tranquilized, and upon awakening discovers he's been tagged.",
-    "title": "Blackfoot and Slim / Trapped with a Vengeance / The Parrot Trap"
-   },
-   "tribecalledgirl": {
-    "desc": "When Dee Dee accuses Dexter of not knowing how to live in the outside world - and only in his lab, he asks her to show him the Dee Dee way of knowledge.",
-    "title": "Way of the Dee Dee / The Justice Friends: Say Uncle Sam / Tribe Called Girl"
-   },
-   "trickortreehouse": {
-    "desc": "Dee Dee and Ninja Clan fight for who delivers the newspapers; Dexter and Dee Dee destroy Dad's bowling trophy; Dee Dee builds a tree house in the garden.",
-    "title": "Paper Route Bout / The Old Switcharooms / Trick or Treehouse"
-   },
-   "tubertime": {
-    "desc": "\"Dexter the Barbarian\" (7 minutes) Dexter is a barbarian just trying to make his way to the bathroom.",
-    "title": "Dexter the Barbarian / Tuber Time / Sore Eyes"
-   },
-   "ultrajerk2000": {
-    "desc": "When Dexter and Dee Dee get their Action Hank and Pony Puffs decoder rings mixed up (respectively), each goes through the other's initiation.",
-    "title": "Decode of Honor / World's Greatest Mom / Ultrajerk 2000"
-   },
-   "unfortunatecookie": {
-    "desc": "Dexter and Dee Dee get stuck together by a Chinese Finger Puzzle, they track it to its maker in Chinatown, USA.",
-    "title": "Unfortunate Cookie / The Muffin King"
-   },
-   "usedink": {
-    "desc": "\"Head Band\" (7 minutes) Dee Dee has a song stuck in her head-literally. Dexter discovers that Dee Dee has a viral boy band infecting her brain and must come up with a cure before it spreads throughout the world.",
-    "title": "Head Band / Stuffed Animal House / Used Ink"
-   },
-   "voiceover": {
-    "desc": "\"Voice Over\" (7 minutes) When Computer gets laryngitis, Dexter must find a replacement voice for her.",
-    "title": "Voice Over / Blonde Leading the Blonde / Comic Stripper"
-   },
-   "wayofthedeedee": {
-    "desc": "When Dee Dee accuses Dexter of not knowing how to live in the outside world - and only in his lab, he asks her to show him the Dee Dee way of knowledge.",
-    "title": "Way of the Dee Dee / The Justice Friends: Say Uncle Sam / Tribe Called Girl"
-   },
-   "worldsgreatestmom": {
-    "desc": "When Dexter and Dee Dee get their Action Hank and Pony Puffs decoder rings mixed up (respectively), each goes through the other's initiation.",
-    "title": "Decode of Honor / World's Greatest Mom / Ultrajerk 2000"
-   },
-   "wouldyoulikethatinthecan": {
+   "3.7": {
     "desc": "\"Dos Boot\" (9 minutes) When Mandark downloads himself into Dexter's computer, Dexter must upload himself in order to combat this virus.",
+    "se": [
+     3,
+     7
+    ],
     "title": "Dos Boot / A Dee Dee Cartoon / Would You Like That in the Can"
    },
-   "youvegetabelieveit": {
-    "desc": "Mandark and Dexter battle each other with Rushmore Presidents Washington and Lincoln brought to life. / Dexter has a metal eating termite named Timmy as a pet. / Dee Dee uses way too much of Dexter's super growth formula in the backyard and turns the plants into man eating monsters.",
-    "title": "Rushmore Rumble / A Boy and His Bug / You Vegetabelieve It!"
+   "3.8": {
+    "desc": "\"That Magic Moment\" (9 minutes) Uncle Magic comes to visit the family and promises to make Dee Dee disappear in a trick. Dexter poo-poos his Uncle's world of illusion and makes Dee Dee disappear via science.",
+    "se": [
+     3,
+     8
+    ],
+    "title": "That Magic Moment / A Silent Cartoon / Opposites Attract"
+   },
+   "3.9": {
+    "desc": "\"Comic Relief\" (9 minutes) When reading his latest comic book adventure isn't enough for Dexter, he makes a machine so he can create his own adventure. Dexter enters this comic book world and becomes a comic book hero himself-complete with his own supervillain to battle.",
+    "se": [
+     3,
+     9
+    ],
+    "title": "Comic Relief / A Third Dad Cartoon / Robo Dexo 3000"
+   },
+   "4.1": {
+    "desc": "\"Beau tie\" (7 minutes) Dee Dee brings home a boy who's not only cute-he's smart. Soon Dexter and Dee Dee are fighting for his attention.",
+    "se": [
+     4,
+     1
+    ],
+    "title": "Beau Tie / Remember Me? / Over-Labbing"
+   },
+   "4.10": {
+    "desc": "\"Voice Over\" (7 minutes) When Computer gets laryngitis, Dexter must find a replacement voice for her.",
+    "se": [
+     4,
+     10
+    ],
+    "title": "Voice Over / Blonde Leading the Blonde / Comic Stripper"
+   },
+   "4.11": {
+    "desc": "\"Tee Party\" (11 minutes) When Dad makes Dexter be his caddy, Dexter destroys the normally peaceful game of golf.",
+    "se": [
+     4,
+     11
+    ],
+    "title": "Tee Party / Dexter's Wacky Races"
+   },
+   "4.12": {
+    "desc": "\"The Lab of Tomorrow\" (7 minutes) Dexter narrates as he shows new scientists the great inventions he has planned for a super, future, modern lab.",
+    "se": [
+     4,
+     12
+    ],
+    "title": "The Lab of Tomorrow / Chicken Scratch / Garage Sale"
+   },
+   "4.13": {
+    "desc": "\"They Got Chops\" (7 minutes) When Dee Dee starts layin' the judo on Dexter, he learns to fight back.",
+    "se": [
+     4,
+     13
+    ],
+    "title": "They Got Chops / Poetic Injustice / Comedy of Feathers"
+   },
+   "4.2": {
+    "desc": "Dee Dee accidentally shuts down the lab and must embody all of Dexter's lab so he doesn't find out. Dexter pirates cable for his father. Dexter becomes the stern administrator of his local library.",
+    "se": [
+     4,
+     2
+    ],
+    "title": "Sis-Tem Error / Bad Cable Manners / Dexter's Library"
+   },
+   "4.3": {
+    "desc": "\"The Scrying Game\" (7 minutes) Dee Dee reads Dexter's fortune and, much to his shock, the things she predicted actually start happening.",
+    "se": [
+     4,
+     3
+    ],
+    "title": "The Scrying Game / Monstrosi-Dee Dee / Dad Man Walking"
+   },
+   "4.4": {
+    "desc": "\"Dexter's Little Dilemma\" (7 minutes) Dexter has shrunk his parents and put them in a model of the house. But the house isn't complete, so Dexter must scramble about before they discover the truth.",
+    "se": [
+     4,
+     4
+    ],
+    "title": "Dexter's Little Dilemma / Faux Chapeau / D2"
+   },
+   "4.5": {
+    "desc": "\"Head Band\" (7 minutes) Dee Dee has a song stuck in her head-literally. Dexter discovers that Dee Dee has a viral boy band infecting her brain and must come up with a cure before it spreads throughout the world.",
+    "se": [
+     4,
+     5
+    ],
+    "title": "Head Band / Stuffed Animal House / Used Ink"
+   },
+   "4.6": {
+    "desc": "\"School Girl Crushed\" (7 minutes) Dexter and Mandark attempt to defend their scientific turfs when a new scientific genius come to town. The only thing different is that this genius is a girl!",
+    "se": [
+     4,
+     6
+    ],
+    "title": "School Girl Crushed / Chess Mom / Father Knows Least"
+   },
+   "4.7": {
+    "desc": "\"Dexter the Barbarian\" (7 minutes) Dexter is a barbarian just trying to make his way to the bathroom.",
+    "se": [
+     4,
+     7
+    ],
+    "title": "Dexter the Barbarian / Tuber Time / Sore Eyes"
+   },
+   "4.8": {
+    "desc": "\"Babe Sitter\" (7 minutes) Mandark thinks he's going to have a nice romantic evening with his lady love when Dee Dee shows up to babysit him. \"Mountain Mandark\" (7 minutes) Getting in touch with nature, Mandark becomes Mountain Mandark, throwing of the shackles of technology. \"2Geniuses 2Gether 4Ever\" (7 minutes) Mandark and Dexter become scientific buddies while Mandark plots to destroy Dexter.",
+    "se": [
+     4,
+     8
+    ],
+    "title": "Babe Sitter / Mountain Mandark / 2Geniuses 2Gether 4Ever"
+   },
+   "4.9": {
+    "desc": "\"Height Unseen\" (7 minutes) When everyone but him has had a growth spurt, Dexter decides to try and make himself tall. When that fails, he switches things around, making everyone else short.",
+    "se": [
+     4,
+     9
+    ],
+    "title": "Height Unseen / Bygone Errors / Folly Calls"
    }
   },
-  "mode": "name"
+  "mode": "se"
  },
  "Garfield and Friends": {
   "eps": {
    "1.1": {
-    "desc": "Garfield tries to sleep after watching TV all night; but Binky the Clown refuses to go away, believing he's at the home of a 97 year old woman to wish her a happy birthday. / While Orson goes to shut off Roy's new stereo, which can't stop playing rooster crows, Wade Duck tears a law label from underneath Orson's sofa and fears he will be sent to prison for it. / Garfield contracts a disease called the Hawaiian Cat Flu which makes him dance anytime something Hawaiian is mentioned. 7.3 / 10 ( 160 )",
+    "desc": "Garfield tries to sleep after watching TV all night; but Binky the Clown refuses to go away, believing he's at the home of a 97 year old woman to wish her a happy birthday. / While Orson goes to shut off Roy's new stereo, which can't stop playing rooster crows, Wade Duck tears a law label from underneath Orson's sofa and fears he will be sent to prison for it. / Garfield contracts a disease called the Hawaiian Cat Flu which makes him dance anytime something Hawaiian is mentioned.",
     "se": [
      1,
      1
@@ -1604,7 +1332,7 @@
     "title": "Peace & Quiet / Wanted: Wade / Garfield Goes Hawaiian"
    },
    "1.10": {
-    "desc": "Jon and Garfield go to a magic shop and Garfield gets into a battle with the magician's dog. / Booker's anxious to prove to everybody on the farm he's not too small to help. / Garfield is so desperate to escape Monday that he mails himself to Samoa. 7.4 / 10 ( 76 )",
+    "desc": "Jon and Garfield go to a magic shop and Garfield gets into a battle with the magician's dog. / Booker's anxious to prove to everybody on the farm he's not too small to help. / Garfield is so desperate to escape Monday that he mails himself to Samoa.",
     "se": [
      1,
      10
@@ -1612,7 +1340,7 @@
     "title": "Magic Mutt / Short Story / Monday Misery"
    },
    "1.11": {
-    "desc": "After seeing how many medals Nermal has won, pushes Jon to put him in a cat show. / Roy gives a box of booby trapped tapioca pudding to Orson telling him it's a national holiday, not counting on Orson to pass his gift along to his friends. / Garfield puts together a presentation on Odie. 7.3 / 10 ( 80 )",
+    "desc": "After seeing how many medals Nermal has won, pushes Jon to put him in a cat show. / Roy gives a box of booby trapped tapioca pudding to Orson telling him it's a national holiday, not counting on Orson to pass his gift along to his friends. / Garfield puts together a presentation on Odie.",
     "se": [
      1,
      11
@@ -1620,7 +1348,7 @@
     "title": "Best of Breed / National Tapioca Pudding Day / All About Odie"
    },
    "1.12": {
-    "desc": "Believing Pooky's been kidnapped, Garfield turns himself into a super hero and Odie becomes his sidekick in the search for the teddy bear. / Wade encounters Fred Duck, whose teasing pushes him to try and overcome his fear of flying. / Appalled at the grocery bill, Jon decides they should grow their own food. 7.4 / 10 ( 77 )",
+    "desc": "Believing Pooky's been kidnapped, Garfield turns himself into a super hero and Odie becomes his sidekick in the search for the teddy bear. / Wade encounters Fred Duck, whose teasing pushes him to try and overcome his fear of flying. / Appalled at the grocery bill, Jon decides they should grow their own food.",
     "se": [
      1,
      12
@@ -1628,7 +1356,7 @@
     "title": "Caped Avenger / Shy Fly Guy / Green Thumbs Down"
    },
    "1.13": {
-    "desc": "Garfield gets hit with a lasagna pan and becomes a polite, health conscious feline. / Orson writes in his diary about Bo and Lanolin having a fight that caused Bo to leave the farm. / Jon warns Garfield against buying anymore useless junk, but Garfield has trouble getting rid of a persistent elephant repellent salesman. 7.2 / 10 ( 72 )",
+    "desc": "Garfield gets hit with a lasagna pan and becomes a polite, health conscious feline. / Orson writes in his diary about Bo and Lanolin having a fight that caused Bo to leave the farm. / Jon warns Garfield against buying anymore useless junk, but Garfield has trouble getting rid of a persistent elephant repellent salesman.",
     "se": [
      1,
      13
@@ -1636,7 +1364,7 @@
     "title": "Forget Me Not / I Like Having You Around! / Sales Resistance"
    },
    "1.2": {
-    "desc": "With a cardboard box and his imagination, Garfield gets into a lot of trouble with Jon. / Knowing Orson tends to believe everything he reads, Roy preys on a nervous Orson when he's absorbed in a book about alien invasion. / Jon gets fed up with Garfield's bad behavior and sends him to obedience school where the biggest obstacle is the trainer. 7.5 / 10 ( 106 )",
+    "desc": "With a cardboard box and his imagination, Garfield gets into a lot of trouble with Jon. / Knowing Orson tends to believe everything he reads, Roy preys on a nervous Orson when he's absorbed in a book about alien invasion. / Jon gets fed up with Garfield's bad behavior and sends him to obedience school where the biggest obstacle is the trainer.",
     "se": [
      1,
      2
@@ -1644,7 +1372,7 @@
     "title": "Box O' Fun / Unidentified Flying Orson / School Daze"
    },
    "1.3": {
-    "desc": "After consuming a whole pizza and being warned by Jon that he'll have nightmares from it, Garfield dreams he overeats and becomes too big to feed. / When Roy pulls a prank on his friends, they retaliate by calling him Banana Nose to the point he leaves the farm. / Garfield recites a poem about Odie wandering away from home and encountering some tough dogs in the mean part of town. 7.3 / 10 ( 110 )",
+    "desc": "After consuming a whole pizza and being warned by Jon that he'll have nightmares from it, Garfield dreams he overeats and becomes too big to feed. / When Roy pulls a prank on his friends, they retaliate by calling him Banana Nose to the point he leaves the farm. / Garfield recites a poem about Odie wandering away from home and encountering some tough dogs in the mean part of town.",
     "se": [
      1,
      3
@@ -1652,7 +1380,7 @@
     "title": "Nighty Nightmare / Banana Nose / Ode to Odie"
    },
    "1.4": {
-    "desc": "Garfield and Odie are spooked when the power goes out after watching a monster movie and they find out Jon is missing. / Orson and his friends convince Sheldon to return to the chicken coop to become fully hatched. / Jon takes Liz out on a date but must put up with an allergic Garfield and his constant sneezing. 7.6 / 10 ( 97 )",
+    "desc": "Garfield and Odie are spooked when the power goes out after watching a monster movie and they find out Jon is missing. / Orson and his friends convince Sheldon to return to the chicken coop to become fully hatched. / Jon takes Liz out on a date but must put up with an allergic Garfield and his constant sneezing.",
     "se": [
      1,
      4
@@ -1660,7 +1388,7 @@
     "title": "Fraidy Cat / Shell Shocked Sheldon / Nothing to Sneeze At"
    },
    "1.5": {
-    "desc": "Garfield presses his luck with Jon too much and gets thrown out of the house. He decides to go live somewhere else and gets adopted by a rich girl. / Orson is fed up with Wade cowering over every little thing and hypnotizes him to be brave. / A mouse, Floyd, encounters Garfield and takes for granted living with a cat who doesn't chase mice. 7.4 / 10 ( 100 )",
+    "desc": "Garfield presses his luck with Jon too much and gets thrown out of the house. He decides to go live somewhere else and gets adopted by a rich girl. / Orson is fed up with Wade cowering over every little thing and hypnotizes him to be brave. / A mouse, Floyd, encounters Garfield and takes for granted living with a cat who doesn't chase mice.",
     "se": [
      1,
      5
@@ -1668,7 +1396,7 @@
     "title": "Garfield's Moving Experience / Wade: You're Afraid / Good Mousekeeping"
    },
    "1.6": {
-    "desc": "A dogcatcher thinks Garfield's a dog, Floyd starts meowing and the dog chasing Garfield works on his mouse impersonation. / Orson convinces everybody to try a new sport called pig ball, unaware that Roy has put a bunch of fake rules in the game book. / Garfield gets thrown out of the house when Nermal comes to visit; hears a tree calling to him and jumps up it, but then can't get down. 7.6 / 10 ( 90 )",
+    "desc": "A dogcatcher thinks Garfield's a dog, Floyd starts meowing and the dog chasing Garfield works on his mouse impersonation. / Orson convinces everybody to try a new sport called pig ball, unaware that Roy has put a bunch of fake rules in the game book. / Garfield gets thrown out of the house when Nermal comes to visit; hears a tree calling to him and jumps up it, but then can't get down.",
     "se": [
      1,
      6
@@ -1676,7 +1404,7 @@
     "title": "Identity Crisis / The Bad Sport / Up a Tree"
    },
    "1.7": {
-    "desc": "Garfield tampers with a new scale leading Jon to believe he's 50 pounds overweight. / Orson tells a story about how Booker gave up hunting worms. / Garfield is at war with himself when his good and bad sides tell him what to do. 7.4 / 10 ( 84 )",
+    "desc": "Garfield tampers with a new scale leading Jon to believe he's 50 pounds overweight. / Orson tells a story about how Booker gave up hunting worms. / Garfield is at war with himself when his good and bad sides tell him what to do.",
     "se": [
      1,
      7
@@ -1684,7 +1412,7 @@
     "title": "Weighty Problem / The Worm Turns / Good Cat, Bad Cat"
    },
    "1.8": {
-    "desc": "Garfield and Odie are stuck in a cabin during a blizzard with no food. / A rumor says there's a monster on the farm; calling for Orson to make his return as Power Pig to destroy the monster. / Garfield and Jon both dream about what it's like to be the other. 7.7 / 10 ( 84 )",
+    "desc": "Garfield and Odie are stuck in a cabin during a blizzard with no food. / A rumor says there's a monster on the farm; calling for Orson to make his return as Power Pig to destroy the monster. / Garfield and Jon both dream about what it's like to be the other.",
     "se": [
      1,
      8
@@ -1692,7 +1420,7 @@
     "title": "Cabin Fever / Return of Power Pig / Fair Exchange"
    },
    "1.9": {
-    "desc": "The Binky Show: Garfield goes on the Binky show to win presents for Jon's birthday. Keeping Cool: Bo tries to teach Orson how to keep his cool even though his brothers are coming. Don't Move! Garfield tells Odie not to move from his spot but due to events beyond his controls, goes on a long adventure. 7.4 / 10 ( 79 )",
+    "desc": "The Binky Show: Garfield goes on the Binky show to win presents for Jon's birthday. Keeping Cool: Bo tries to teach Orson how to keep his cool even though his brothers are coming. Don't Move! Garfield tells Odie not to move from his spot but due to events beyond his controls, goes on a long adventure.",
     "se": [
      1,
      9
@@ -1908,7 +1636,7 @@
     "title": "Pros and Cons / Rooster Revenge / Lights! Camera! Garfield!"
    },
    "3.1": {
-    "desc": "Jon, Garfield and Odie are passengers on a rickety broken-down plane flown by Al G. Swindler, who bails out and leaves them to fly the plane. / Orson and the others receive a telegram that says only 'The bunny rabbits is coming'. / John, Garfield and Odie encounter a cute little alien whose reasons for coming to earth are more sinister than he leads them to believe. 7.5 / 10 ( 62 )",
+    "desc": "Jon, Garfield and Odie are passengers on a rickety broken-down plane flown by Al G. Swindler, who bails out and leaves them to fly the plane. / Orson and the others receive a telegram that says only 'The bunny rabbits is coming'. / John, Garfield and Odie encounter a cute little alien whose reasons for coming to earth are more sinister than he leads them to believe.",
     "se": [
      3,
      1
@@ -1916,7 +1644,7 @@
     "title": "Skyway Robbery / The Bunny Rabbits Is Coming! / Close Encounters of the Garfield Kind"
    },
    "3.10": {
-    "desc": "While waiting for his lasagna to cool down, Garfield tells Odie the story of Odielocks and the 3 Cats. / Orson yells at Wade for making a mistake and then wonders how it might effect their future. / Garfield breaks his bed and Jon takes him shopping to get a new one. 7.8 / 10 ( 54 )",
+    "desc": "While waiting for his lasagna to cool down, Garfield tells Odie the story of Odielocks and the 3 Cats. / Orson yells at Wade for making a mistake and then wonders how it might effect their future. / Garfield breaks his bed and Jon takes him shopping to get a new one.",
     "se": [
      3,
      10
@@ -1924,7 +1652,7 @@
     "title": "Odielocks and the 3 Cats / Quack to the Future / Beddy Buy"
    },
    "3.11": {
-    "desc": "Jon tries to sell his boss on the idea of a new cartoon, a vampire cat called Count Lasagna. / Roy hold a contest to give away the farmer's tractor to anybody who can guess the identity of their mystery guest (Garfield). / Floyd and his cousin make themselves at home and Jon demands Garfield get rid of them. 7.8 / 10 ( 53 )",
+    "desc": "Jon tries to sell his boss on the idea of a new cartoon, a vampire cat called Count Lasagna. / Roy hold a contest to give away the farmer's tractor to anybody who can guess the identity of their mystery guest (Garfield). / Floyd and his cousin make themselves at home and Jon demands Garfield get rid of them.",
     "se": [
      3,
      11
@@ -1932,7 +1660,7 @@
     "title": "Count Lasagna / Mystery Guest / Rodent Ramage"
    },
    "3.12": {
-    "desc": "After stealing a pie, Garfield dreams his criminal career is profiled on the TV series WANTED: BAD GUYS. Odie hides from Garfield. Jon shows off his new shirt. 7.7 / 10 ( 52 )",
+    "desc": "After stealing a pie, Garfield dreams his criminal career is profiled on the TV series WANTED: BAD GUYS. Odie hides from Garfield. Jon shows off his new shirt.",
     "se": [
      3,
      12
@@ -1940,7 +1668,7 @@
     "title": "Feline Felon / The Legal Eagle / The Cactus Saga"
    },
    "3.13": {
-    "desc": "Jon's cousin, George, gets him a job at the radio station as *cringe*, a disc jockey! / Orson imagines himself as Double-O Orson, battling against P. Cornfinger, who has been stealing corn from all over the world. / Jon bets Garfield he can't go five whole minutes without eating. 7.6 / 10 ( 55 )",
+    "desc": "Jon's cousin, George, gets him a job at the radio station as *cringe*, a disc jockey! / Orson imagines himself as Double-O Orson, battling against P. Cornfinger, who has been stealing corn from all over the world. / Jon bets Garfield he can't go five whole minutes without eating.",
     "se": [
      3,
      13
@@ -1948,7 +1676,7 @@
     "title": "D.J. Jon / Cornfinger / Five Minute Warning"
    },
    "3.14": {
-    "desc": "Jon takes Garfield and Odie to a vacation at the theme park, Wonderful World, which is anything but wonderful as Al G. Swindler has taken it over and let it fall by the wayside. / All the barnyard animals turn out to see who will take home the trophy for the Orson Awards. / Garfield presents his own ideas on working out, dieting, and how to tell if you're overweight. 7.8 / 10 ( 52 )",
+    "desc": "Jon takes Garfield and Odie to a vacation at the theme park, Wonderful World, which is anything but wonderful as Al G. Swindler has taken it over and let it fall by the wayside. / All the barnyard animals turn out to see who will take home the trophy for the Orson Awards. / Garfield presents his own ideas on working out, dieting, and how to tell if you're overweight.",
     "se": [
      3,
      14
@@ -1956,7 +1684,7 @@
     "title": "Wonderful World / The Orson Awards / The Garfield Workout"
    },
    "3.15": {
-    "desc": "Jon competes with a wilderness guide for the affection of the women who have joined them on their wilderness trip; while Garfield and Odie meet up with some of the wild animals, who Garfield teaches how to get food from humans. / After Roy confiscates their crop of acorns, Orson gets hit in the head and imagines himself as Robin Hog going up against the evil Sheriff, which is Roy. / Jon gets a rabbit for a magic trick he's going to perform, but the rabbit, who is tired of being pulled out of hats, runs off, leaving Garfield to substitute for him. 7.5 / 10 ( 51 )",
+    "desc": "Jon competes with a wilderness guide for the affection of the women who have joined them on their wilderness trip; while Garfield and Odie meet up with some of the wild animals, who Garfield teaches how to get food from humans. / After Roy confiscates their crop of acorns, Orson gets hit in the head and imagines himself as Robin Hog going up against the evil Sheriff, which is Roy. / Jon gets a rabbit for a magic trick he's going to perform, but the rabbit, who is tired of being pulled out of hats, runs off, leaving Garfield to substitute for him.",
     "se": [
      3,
      15
@@ -1964,7 +1692,7 @@
     "title": "All Things Fat and Small / Robin Hog / Hare Replacement"
    },
    "3.16": {
-    "desc": "Odie gets lost when Garfield throws a stick too far. Orson dreams he is in Wonderland. Garfield hosts a special explaining the \"true\" origin of cats. 7.4 / 10 ( 49 )",
+    "desc": "Odie gets lost when Garfield throws a stick too far. Orson dreams he is in Wonderland. Garfield hosts a special explaining the \"true\" origin of cats.",
     "se": [
      3,
      16
@@ -1972,7 +1700,7 @@
     "title": "Stick to It / Orson in Wonderland / For Cats Only"
    },
    "3.17": {
-    "desc": "Garfield shows an episode filled with errors. During a drought, Orson meets a friendly alien. A chance meeting with a guru, convinces Jon to change his lifestyle. 8.4 / 10 ( 71 )",
+    "desc": "Garfield shows an episode filled with errors. During a drought, Orson meets a friendly alien. A chance meeting with a guru, convinces Jon to change his lifestyle.",
     "se": [
      3,
      17
@@ -1980,7 +1708,7 @@
     "title": "Mistakes Will Happen / The Well Dweller / The Wise Man"
    },
    "3.18": {
-    "desc": "Comedy - Garfield, angry about Jon and Odie getting so many jokes, decides to write his own script for the show. Garfield isn't afraid of a mouse named Loretta. The weasel secretly convinces Roy to suggest an election for who runs the farm: Roy or Orson. Jon visits his cousin Berferd and gets mixed up in an old feud. Garfield and Binky visit an animation studio. 7.7 / 10 ( 53 )",
+    "desc": "Comedy - Garfield, angry about Jon and Odie getting so many jokes, decides to write his own script for the show. Garfield isn't afraid of a mouse named Loretta. The weasel secretly convinces Roy to suggest an election for who runs the farm: Roy or Orson. Jon visits his cousin Berferd and gets mixed up in an old feud. Garfield and Binky visit an animation studio.",
     "se": [
      3,
      18
@@ -1988,7 +1716,7 @@
     "title": "Star Struck / Election Daze / Dirty Business"
    },
    "3.2": {
-    "desc": "Garfield tells Odie about a relative of his who was the first cat in outer space. / A new rooster comes to the farm who swoons the chickens with poetry and music, and Roy feuds with him for the chickens' affection. / Garfield finds a lost book of Cinderella and wishes he had a fairy godmother, but instead winds up with a fairy godfather who grants wishes, but with a catch. 7.4 / 10 ( 58 )",
+    "desc": "Garfield tells Odie about a relative of his who was the first cat in outer space. / A new rooster comes to the farm who swoons the chickens with poetry and music, and Roy feuds with him for the chickens' affection. / Garfield finds a lost book of Cinderella and wishes he had a fairy godmother, but instead winds up with a fairy godfather who grants wishes, but with a catch.",
     "se": [
      3,
      2
@@ -1996,7 +1724,7 @@
     "title": "Astro Cat / Cock-A-Doodle Duel / Cinderella Cat"
    },
    "3.3": {
-    "desc": "Jon and Garfield are booked on a 2 week cruise, but the ship doesn't allow pets. / Orson and the others decide to dress up in their ancestors' clothes and hold a harvest celebration up at the old barn; while unbeknownst to them, the ghosts of their ancestors ward off Orson's brothers who have come to steal the harvest. / Jon takes Garfield and Odie up to a ski resort to meet ladies, while Garfield continuously predicts, \"You're going to break your leg.\" 7.5 / 10 ( 54 )",
+    "desc": "Jon and Garfield are booked on a 2 week cruise, but the ship doesn't allow pets. / Orson and the others decide to dress up in their ancestors' clothes and hold a harvest celebration up at the old barn; while unbeknownst to them, the ghosts of their ancestors ward off Orson's brothers who have come to steal the harvest. / Jon takes Garfield and Odie up to a ski resort to meet ladies, while Garfield continuously predicts, \"You're going to break your leg.\"",
     "se": [
      3,
      3
@@ -2004,7 +1732,7 @@
     "title": "Ship Shape / Barn of Fear II / Break-a-Leg"
    },
    "3.4": {
-    "desc": "Jon and Garfield both tell very different versions of how the house got filled with yogurt. / Orson goes away on a vacation and leaves Wade in charge. / Jon's cousin Marian asks him to be best man at her wedding and Garfield and Odie overhear, mistakenly believing Jon's getting married. 7.8 / 10 ( 59 )",
+    "desc": "Jon and Garfield both tell very different versions of how the house got filled with yogurt. / Orson goes away on a vacation and leaves Wade in charge. / Jon's cousin Marian asks him to be best man at her wedding and Garfield and Odie overhear, mistakenly believing Jon's getting married.",
     "se": [
      3,
      4
@@ -2012,7 +1740,7 @@
     "title": "Twice Told Tale / Orson Goes on Vacation / Wedding Bell Blues"
    },
    "3.5": {
-    "desc": "Jon buys a Shlocko Pet Washer that's designed to clean pets as soon as they get dirty, and Garfield takes it for a test drive on Odie. / Orson explains to Wade (and the viewers) how certain elements of cartoons work, including: takes, double takes, spit takes, running off of cliffs, and delayed reactions. / Cactus Jake gets fired from the ranch and tries to find a job in the city living with Jon and Garfield. 7.6 / 10 ( 54 )",
+    "desc": "Jon buys a Shlocko Pet Washer that's designed to clean pets as soon as they get dirty, and Garfield takes it for a test drive on Odie. / Orson explains to Wade (and the viewers) how certain elements of cartoons work, including: takes, double takes, spit takes, running off of cliffs, and delayed reactions. / Cactus Jake gets fired from the ranch and tries to find a job in the city living with Jon and Garfield.",
     "se": [
      3,
      5
@@ -2020,7 +1748,7 @@
     "title": "Clean Sweep / Secrets of the Animated Cartoon / How the West was Lost"
    },
    "3.6": {
-    "desc": "SPECIAL: Odie does a trick for Garfield. BINKY GETS CANCELLED AGAIN: Binky loses his show to the Buddy Bears, who never disagree. Song: \"The Buddy Bears.\" CEILING: Roy's wake up call sends all through the roof. ORSON'S DINER: Orson and Wade open a diner with Roy as their first customer. Song: \"Orson's Diner.\" LONG NAP: Garfield sleeps into the future. UNDERWATER: Binky goes deep sea diving. FLAT TIRED: Garfield is too tired so the director gives Odie his own cartoon. 7.5 / 10 ( 58 )",
+    "desc": "SPECIAL: Odie does a trick for Garfield. BINKY GETS CANCELLED AGAIN: Binky loses his show to the Buddy Bears, who never disagree. Song: \"The Buddy Bears.\" CEILING: Roy's wake up call sends all through the roof. ORSON'S DINER: Orson and Wade open a diner with Roy as their first customer. Song: \"Orson's Diner.\" LONG NAP: Garfield sleeps into the future. UNDERWATER: Binky goes deep sea diving. FLAT TIRED: Garfield is too tired so the director gives Odie his own cartoon.",
     "se": [
      3,
      6
@@ -2028,7 +1756,7 @@
     "title": "Binky Gets Cancelled, Again! / Orson's Diner / Flat Tired"
    },
    "3.7": {
-    "desc": "Garfield has a fun time with swiss cheese, gets some help to clean the house, and hosts a debate about why cats are better than dogs. 7.5 / 10 ( 55 )",
+    "desc": "Garfield has a fun time with swiss cheese, gets some help to clean the house, and hosts a debate about why cats are better than dogs.",
     "se": [
      3,
      7
@@ -2036,7 +1764,7 @@
     "title": "Return of the Buddy Bears / Much Ado About Lanolin / Reigning Cats and Dogs"
    },
    "3.8": {
-    "desc": "FIT FOR A KING: Garfield tells the story of a land where the King is given his weight in gold every year. CLOWN CONVENTION: While away at a clown convention, Binky gives Garfield a call. BEN HOG: On the day of the County Fair parade, Orson dreams he's in Ben Hog's chariot race. Song: \"Ben Hog.\" CHAIR LEVEL: Garfield levels Jon's chair. DESSERT IN THE DESERT: Jon's car breaks down in the desert. As he walks for help, Garfield and Odie see various mirages. 7.4 / 10 ( 52 )",
+    "desc": "FIT FOR A KING: Garfield tells the story of a land where the King is given his weight in gold every year. CLOWN CONVENTION: While away at a clown convention, Binky gives Garfield a call. BEN HOG: On the day of the County Fair parade, Orson dreams he's in Ben Hog's chariot race. Song: \"Ben Hog.\" CHAIR LEVEL: Garfield levels Jon's chair. DESSERT IN THE DESERT: Jon's car breaks down in the desert. As he walks for help, Garfield and Odie see various mirages.",
     "se": [
      3,
      8
@@ -2044,7 +1772,7 @@
     "title": "Fit for a King / Ben Hog / Dessert in the Desert"
    },
    "3.9": {
-    "desc": "Garfield falls asleep watching a Sherlock Holmes movie and dreams he's assisting the famous detective. Orson's imagination brings things he is reading about to life. 7.6 / 10 ( 53 )",
+    "desc": "Garfield falls asleep watching a Sherlock Holmes movie and dreams he's assisting the famous detective. Orson's imagination brings things he is reading about to life.",
     "se": [
      3,
      9
@@ -2889,407 +2617,423 @@
  },
  "Rocko's Modern Life": {
   "eps": {
-   "anelkforheffer": {
-    "desc": "In order to officially become an adult member of the Wolf Pack,Heffer must bring home an elk for dinner./Rocko's hygiene is under scrutiny after his \"spinach tooth\" is revealed nationwide during his accepance speech.",
-    "title": "An Elk for Heffer / Scrubbin' Down Under"
+   "1.1": {
+    "desc": "Rocko and Heffer join a health club. Rocko goes shopping to the mall with his new credit card.",
+    "se": [
+     1,
+     1
+    ],
+    "title": "No Pain, No Gain / Who Gives a Buck"
    },
-   "asuckerforthesuckomatic": {
-    "desc": "Rocko buys a cleaning machine from the television to help him clean his house / After being laid off, Rocko searches for a new job. He finds a job testing new products",
-    "title": "A Sucker for the Suck-O-Matic / Canned"
-   },
-   "bedfellows": {
-    "desc": "Mrs. Bighead tries to seduce Rocko./Heffer is kicked out of his parents' house, forcing him to live with Rocko.",
-    "title": "Leap Frogs / Bedfellows"
-   },
-   "belchofdestiny": {
-    "desc": "Rocko \"birdsits\" Filburt's problem bird, Tirdy, when Filburt is sick. The bird dies when Heffer sits on it and Rocko and Heffer panic. / Heffer uses his unusual burping talent to secure a place for his troop of Weasel Scouts at Astro Camp.",
-    "title": "Bye, Bye Birdie / Belch of Destiny"
-   },
-   "boobtubed": {
-    "desc": "Rocko purchases a big screen television and Heffer loses his brain inside of it / Rocko's car is impounded which causes him to continually be late for work",
-    "title": "Boob Tubed / Commuted Sentence"
-   },
-   "borntospawn": {
-    "desc": "Filburt comes of age and must go to the islands to spawn. He doesn't want to, for fear of growing up. Heffer becomes a security guard and finds it isn't all he expected it to be, in fact, it's quite scary.",
-    "title": "Born to Spawn / Uniform Behavior"
-   },
-   "byebyebirdie": {
-    "desc": "Rocko \"birdsits\" Filburt's problem bird, Tirdy, when Filburt is sick. The bird dies when Heffer sits on it and Rocko and Heffer panic. / Heffer uses his unusual burping talent to secure a place for his troop of Weasel Scouts at Astro Camp.",
-    "title": "Bye, Bye Birdie / Belch of Destiny"
-   },
-   "cabinfever": {
+   "1.10": {
     "desc": "An avalanche traps Rocko, Heffer and the Bigheads in a cabin./Filburt takes his final exam at dental school, and Rocko is his patient.",
+    "se": [
+     1,
+     10
+    ],
     "title": "Cabin Fever / Rinse and Spit"
    },
-   "camerashy": {
-    "desc": "Rocko, Heffer, and Filburt set out for a day of fantastic fishing - but the fish have other plans!/Rocko sets out to make a video tape to send home to his parents.",
-    "title": "Fish-N-Chumps / Camera Shy"
-   },
-   "canned": {
-    "desc": "Rocko buys a cleaning machine from the television to help him clean his house / After being laid off, Rocko searches for a new job. He finds a job testing new products",
-    "title": "A Sucker for the Suck-O-Matic / Canned"
-   },
-   "carnivalknowledge": {
-    "desc": "Rocko and Heffer go to a carnival and learn the secret to winning a carnival game. Rocko and Spunky cool off on a hot summer day by spending a nice relaxing day at the beach, only it doesn't go as planned.",
-    "title": "Carnival Knowledge / Sand in Your Navel"
-   },
-   "cleanlovin": {
-    "desc": "Spunky falls in love with a dirty mop / Rocko decides it's time to do his laundry",
-    "title": "Clean Lovin' / Unbalanced Load"
-   },
-   "closetclown": {
-    "desc": "When a clown's truck breaks down in front of his house, Ed Bighead begins to lead a double life./Rocko's behind earns him a place among the beautiful people of the fashion world when he becomes the spokes-wallaby for \"Wedgie Boy\" undergarments.",
-    "title": "Closet Clown / Seat to Stardom"
-   },
-   "commutedsentence": {
-    "desc": "Rocko purchases a big screen television and Heffer loses his brain inside of it / Rocko's car is impounded which causes him to continually be late for work",
-    "title": "Boob Tubed / Commuted Sentence"
-   },
-   "cruisin": {
-    "desc": "Rocko and Heffer get stuck on a senior-singles cruise with Grandpa Wolfe which takes them into the Bermuda Triangle.",
-    "title": "Cruisin'"
-   },
-   "dayoftheflecko": {
-    "desc": "Rocko has to raise money so he has a garage sale. He finds that his old belongings mean more to him than he thought and he can't sell anything. / A pesky bug (the Flecko) tries to keep Rocko awake.",
-    "title": "Junk Junkies / Day of the Flecko"
-   },
-   "dearjohn": {
-    "desc": "Filburt receives a horrible fortune from a Chinese fortune cookie just before he is to enter the Mega Spin./Rocko's kitchen is destroyed by a government satellite right before his big party. He and Heffer attend Home Show conventions.",
-    "title": "Fortune Cookie / Dear John"
-   },
-   "dirtydog": {
-    "desc": "Rocko and Heffer have very different experiences while traveling by airplane. Rocko decides to give Spunky a bath, revealing a sitcom world hidden in his fur. Introduces the show within a show, Bloaty and Squirmy.",
-    "title": "Jet Scream / Dirty Dog"
-   },
-   "downthehatch": {
-    "desc": "Rocko must take Spunky to the vet after he eats a vitamin that can cause pets to explode / Rocko and Heffer go on a road trip to see Flemm Rock",
-    "title": "Down the Hatch / Road Rash"
-   },
-   "drivingmrswolfe": {
-    "desc": "Heffer and Filburt hypnotize Rocko into thinking he's a dog./Rocko, after unwittingly being recruited as Mrs. Wolfe's driving instructor, finds himself riding shotgun in a deadly game of chicken against the ultimate demolition derby car.",
-    "title": "Hypno-Puppy Luv / Driving Mrs. Wolfe"
-   },
-   "dumbells": {
-    "desc": "Heffer and Filburt introduce Rocko to the all-American pastime of \"Ding-Dong-Ditch.\"/Filburt, the obsessive collector of bird wigs, takes Rocko along for his biggest score: the wig of an American Balding Eagle!",
-    "title": "Dumbells / Rug Birds"
-   },
-   "edgoodrockobad": {
-    "desc": "Rocko is unjustly imprisoned in the O-Town dog pound and incensed by he squalid conditions /When Heffer lands a part time job as an assistant greenskeeper at a prestigious golf course, he finds himself embroiled in Ed Bighead's office politics.",
-    "title": "Ed Good, Rocko Bad / Teed Off"
-   },
-   "edisdeadathriller": {
-    "desc": "Hessian and the potency of candy when Rocko and Heffer introduce him to the concept of trick-or-treating. / Something in a Hitchcock-ian vein: Rocko suspects Bev Bighead of foul play when Ed disappears mysteriously.",
-    "title": "Sugar-Frosted Frights / Ed Is Dead: A Thriller!"
-   },
-   "eyescapades": {
-    "desc": "Rocko feels very short until he does something very big./Rocko is competing in the Jack Hammer finals, but has a problem with his eyesight.",
-    "title": "Short Story / Eyes Capades"
-   },
-   "fatalcontraption": {
-    "desc": "O-Town begins a massive musical recycling campaign. /Rocko purchases a lonely food processor, Food Boy.",
-    "title": "Zanzibar! / Fatal Contraption"
-   },
-   "feistygeist": {
-    "desc": "After suffering some ribbing from Rocko and Filburt, Heffer decides to move out of his parents home and strike out on his own./Rocko and Heffer's visit to a fortune teller channels them into danger when the spirit of Mortimer Khan possesses Spunky.",
-    "title": "Mama's Boy / Feisty Geist"
-   },
-   "fishnchumps": {
-    "desc": "Rocko, Heffer, and Filburt set out for a day of fantastic fishing - but the fish have other plans!/Rocko sets out to make a video tape to send home to his parents.",
-    "title": "Fish-N-Chumps / Camera Shy"
-   },
-   "flounderingfathers": {
-    "desc": "The special plans for Rocko's first Thanksgiving go awry when the turkey's of O-Town escape and take refuge in Rocko's house./The residents of O-Town engage in an argument about the correct origin of the town.",
-    "title": "Turkey Time / Floundering Fathers"
-   },
-   "fluinuenza": {
+   "1.11": {
     "desc": "Rocko and Spunky run to the local grocery store to take advantage of a big sale. Rocko gets the flu and must get cured before the big wrestling match the next night.",
+    "se": [
+     1,
+     11
+    ],
     "title": "Rocko's Happy Sack / Flu-In-U-Enza"
    },
-   "flyburgers": {
-    "desc": "After stumbling upon Filburt's secret diary, Heffer and Rocko are convinced that Filburt is an alien./Flecko the fly files a lawsuit against Rocko after tripping on a rock in his house.",
-    "title": "The High-Five of Doom / Fly Burgers"
+   "1.12": {
+    "desc": "Heffer invites Rocko over for dinner with his parents, and Rocko accidentally reveals a secret. / Heffer helps Rocko get into dating.",
+    "se": [
+     1,
+     12
+    ],
+    "title": "Who's for Dinner? / Love Spanked"
    },
-   "fortunecookie": {
-    "desc": "Filburt receives a horrible fortune from a Chinese fortune cookie just before he is to enter the Mega Spin./Rocko's kitchen is destroyed by a government satellite right before his big party. He and Heffer attend Home Show conventions.",
-    "title": "Fortune Cookie / Dear John"
+   "1.13": {
+    "desc": "Spunky falls in love with a dirty mop / Rocko decides it's time to do his laundry",
+    "se": [
+     1,
+     13
+    ],
+    "title": "Clean Lovin' / Unbalanced Load"
    },
-   "frogsbestfriend": {
-    "desc": "Rocko has to deliver comic books over the snowy mountain. Heffer and Rocko decide to spend the extra time (and money) doing a little skiing. / Bev adopts Earl as her pet. Earl acts viciously to Ed but like a pussycat to Bev.",
-    "title": "Snowballs / Frog's Best Friend"
+   "1.2": {
+    "desc": "Mrs. Bighead tries to seduce Rocko./Heffer is kicked out of his parents' house, forcing him to live with Rocko.",
+    "se": [
+     1,
+     2
+    ],
+    "title": "Leap Frogs / Bedfellows"
    },
-   "fromheretomaternity": {
-    "desc": "It's the ultimate April Fools Day in O-Town as Rocko, Filburt, and Heffer try their best practical jokes on one another./Filburt's impending fatherhood is jeopordized by the Easter Bunny's fiendishly clever Lamaze class egg ring.",
-    "title": "Pranksters / From Here to Maternity"
+   "1.3": {
+    "desc": "Rocko and Heffer have very different experiences while traveling by airplane. Rocko decides to give Spunky a bath, revealing a sitcom world hidden in his fur. Introduces the show within a show, Bloaty and Squirmy.",
+    "se": [
+     1,
+     3
+    ],
+    "title": "Jet Scream / Dirty Dog"
    },
-   "futureschlock": {
-    "desc": "Heffer overdoses on Pasture Puffies and is rushed to the hospital./In the O-Town of the far-flung future, Gilbert and Norbert -- descendants of a now ancient Filburt -- discover the remains of an old banana.",
-    "title": "Put to Pasture / Future Schlock"
+   "1.4": {
+    "desc": "Rocko and Heffer try to makeover Rocko's house after Ed tries to tip his nephew, a city home inspector in a scheme to get rid of Rocko; After Rocko is pulled over because his gas cap is missing, he has to go back to driving school.",
+    "se": [
+     1,
+     4
+    ],
+    "title": "Keeping Up with the Bigheads / Skid Marks"
    },
-   "gutterballs": {
-    "desc": "Rocko frets over the state of his unkempt hair in anticipation for having his picture taken for the town newspaper./Mr. Bighead desires a bowling trophy.",
-    "title": "Hair Licked / Gutter Balls"
+   "1.5": {
+    "desc": "When his boss goes out of town, Rocko is left in charge of the store./Heffer chokes on a chicken rib cage at a Chokey Chicken restaurant and has an after-death experience with Peaches in \"Heck\".",
+    "se": [
+     1,
+     5
+    ],
+    "title": "Power Trip / To Heck and Back"
    },
-   "hairlicked": {
-    "desc": "Rocko frets over the state of his unkempt hair in anticipation for having his picture taken for the town newspaper./Mr. Bighead desires a bowling trophy.",
-    "title": "Hair Licked / Gutter Balls"
+   "1.6": {
+    "desc": "Rocko visits his uncle's cattle ranch where Heffer becomes one of the heard / Rocko tries to get his garbage to the curb in time for the garbage men to take it",
+    "se": [
+     1,
+     6
+    ],
+    "title": "The Good, the Bad and the Wallaby / Trash-o-Madness"
    },
-   "heffinahandbasket": {
-    "desc": "Heffer moves in with Rocko./Despite his vow to never do anything crazy to impress a woman, Rocko takes up roller skating after he becomes smitten with Sheila, the Roller Derby Queen.",
-    "title": "Heff in a Handbasket / Wallaby on Wheels"
+   "1.7": {
+    "desc": "Rocko and Heffer go to a baseball game to catch a foul ball and get an autograph./Rocko and Heffer go to the movies.",
+    "se": [
+     1,
+     7
+    ],
+    "title": "Spitballs / Popcorn Pandemonium"
    },
-   "hutsutraw": {
-    "desc": "Rocko, Heffer, and Filburt go camping, but find it less enjoyable than they expected / When Rocko is going to be deported, he marries Filburt in an attempt to stay in the country",
-    "title": "Hut Sut Raw / Kiss Me, I'm Foreign"
+   "1.8": {
+    "desc": "Rocko buys a cleaning machine from the television to help him clean his house / After being laid off, Rocko searches for a new job. He finds a job testing new products",
+    "se": [
+     1,
+     8
+    ],
+    "title": "A Sucker for the Suck-O-Matic / Canned"
    },
-   "hypnopuppyluv": {
-    "desc": "Heffer and Filburt hypnotize Rocko into thinking he's a dog./Rocko, after unwittingly being recruited as Mrs. Wolfe's driving instructor, finds himself riding shotgun in a deadly game of chicken against the ultimate demolition derby car.",
-    "title": "Hypno-Puppy Luv / Driving Mrs. Wolfe"
+   "1.9": {
+    "desc": "Rocko and Heffer go to a carnival and learn the secret to winning a carnival game. Rocko and Spunky cool off on a hot summer day by spending a nice relaxing day at the beach, only it doesn't go as planned.",
+    "se": [
+     1,
+     9
+    ],
+    "title": "Carnival Knowledge / Sand in Your Navel"
    },
-   "ihavenoson": {
+   "2.1": {
     "desc": "Rocko discovers that the Bigheads have a son, and he sets off to find him and bring him back.",
+    "se": [
+     2,
+     1
+    ],
     "title": "I Have No Son!"
    },
-   "iseelondoniseefrance": {
-    "desc": "While on a trip to Paris, Rocko tries to find and impress a female wallaby while Heffer gets chased by a crazy tour bus driver./Rocko tries to help Spunky lose weight he recently put on, while Bloaty and Squirmy travel to newly discovered lands due to his weight gain.",
-    "title": "I See London, I See France / The Fatlands"
+   "2.10": {
+    "desc": "Rocko frets over the state of his unkempt hair in anticipation for having his picture taken for the town newspaper./Mr. Bighead desires a bowling trophy.",
+    "se": [
+     2,
+     10
+    ],
+    "title": "Hair Licked / Gutter Balls"
    },
-   "jetscream": {
-    "desc": "Rocko and Heffer have very different experiences while traveling by airplane. Rocko decides to give Spunky a bath, revealing a sitcom world hidden in his fur. Introduces the show within a show, Bloaty and Squirmy.",
-    "title": "Jet Scream / Dirty Dog"
-   },
-   "junkjunkies": {
+   "2.11": {
     "desc": "Rocko has to raise money so he has a garage sale. He finds that his old belongings mean more to him than he thought and he can't sell anything. / A pesky bug (the Flecko) tries to keep Rocko awake.",
+    "se": [
+     2,
+     11
+    ],
     "title": "Junk Junkies / Day of the Flecko"
    },
-   "keepingupwiththebigheads": {
-    "desc": "Rocko and Heffer try to makeover Rocko's house after Ed tries to tip his nephew, a city home inspector in a scheme to get rid of Rocko; After Rocko is pulled over because his gas cap is missing, he has to go back to driving school.",
-    "title": "Keeping Up with the Bigheads / Skid Marks"
-   },
-   "kissmeimforeign": {
-    "desc": "Rocko, Heffer, and Filburt go camping, but find it less enjoyable than they expected / When Rocko is going to be deported, he marries Filburt in an attempt to stay in the country",
-    "title": "Hut Sut Raw / Kiss Me, I'm Foreign"
-   },
-   "leapfrogs": {
-    "desc": "Mrs. Bighead tries to seduce Rocko./Heffer is kicked out of his parents' house, forcing him to live with Rocko.",
-    "title": "Leap Frogs / Bedfellows"
-   },
-   "lovespanked": {
-    "desc": "Heffer invites Rocko over for dinner with his parents, and Rocko accidentally reveals a secret. / Heffer helps Rocko get into dating.",
-    "title": "Who's for Dinner? / Love Spanked"
-   },
-   "magicmeatball": {
-    "desc": "Rocko falls for Alicia, his new mail carrier, but his plan to give her a love letter goes awry when Heffer takes over her route while she's sick./Ed Bighead is promoted to an executive at Conglomo.",
-    "title": "S.W.A.K. / Magic Meatball"
-   },
-   "mamasboy": {
-    "desc": "After suffering some ribbing from Rocko and Filburt, Heffer decides to move out of his parents home and strike out on his own./Rocko and Heffer's visit to a fortune teller channels them into danger when the spirit of Mortimer Khan possesses Spunky.",
-    "title": "Mama's Boy / Feisty Geist"
-   },
-   "manicmechanic": {
-    "desc": "Rocko's car dies, but is recusitated to win the O-Town rally with Heffer piloting the car in reverse./Rocko finds himself in the middle of a plan to get Ed Bighead's private stock of bugs off the menu and into the good life.",
-    "title": "Manic Mechanic / Rocko's Happy Vermin"
-   },
-   "nopainnogain": {
-    "desc": "Rocko and Heffer join a health club. Rocko goes shopping to the mall with his new credit card.",
-    "title": "No Pain, No Gain / Who Gives a Buck"
-   },
-   "nothingtosneezeat": {
-    "desc": "Bev Bighead mistakenly gets a nose through accidental surgery and enjoys all the new aromas she encounters - all but the smell of her husband Ed./After being passed up for a promotion at work for a younger man, Ed experiences a mid-life crisis.",
-    "title": "Nothing to Sneeze At / Old Fogey Froggy"
-   },
-   "oldfogeyfroggy": {
-    "desc": "Bev Bighead mistakenly gets a nose through accidental surgery and enjoys all the new aromas she encounters - all but the smell of her husband Ed./After being passed up for a promotion at work for a younger man, Ed experiences a mid-life crisis.",
-    "title": "Nothing to Sneeze At / Old Fogey Froggy"
-   },
-   "pipedreams": {
-    "desc": "Rocko and Heffer try to fix the plumbing in Rocko's house. / While facing an appendectomy operation with Dr. Hutchison, Rocko has a crazy dream where he makes friends with Pinky, his appendix.",
-    "title": "Pipe Dreams / Tickled Pinky"
-   },
-   "popcornpandemonium": {
-    "desc": "Rocko and Heffer go to a baseball game to catch a foul ball and get an autograph./Rocko and Heffer go to the movies.",
-    "title": "Spitballs / Popcorn Pandemonium"
-   },
-   "powertrip": {
-    "desc": "When his boss goes out of town, Rocko is left in charge of the store./Heffer chokes on a chicken rib cage at a Chokey Chicken restaurant and has an after-death experience with Peaches in \"Heck\".",
-    "title": "Power Trip / To Heck and Back"
-   },
-   "pranksters": {
-    "desc": "It's the ultimate April Fools Day in O-Town as Rocko, Filburt, and Heffer try their best practical jokes on one another./Filburt's impending fatherhood is jeopordized by the Easter Bunny's fiendishly clever Lamaze class egg ring.",
-    "title": "Pranksters / From Here to Maternity"
-   },
-   "puttopasture": {
-    "desc": "Heffer overdoses on Pasture Puffies and is rushed to the hospital./In the O-Town of the far-flung future, Gilbert and Norbert -- descendants of a now ancient Filburt -- discover the remains of an old banana.",
-    "title": "Put to Pasture / Future Schlock"
-   },
-   "rinseandspit": {
-    "desc": "An avalanche traps Rocko, Heffer and the Bigheads in a cabin./Filburt takes his final exam at dental school, and Rocko is his patient.",
-    "title": "Cabin Fever / Rinse and Spit"
-   },
-   "roadrash": {
-    "desc": "Rocko must take Spunky to the vet after he eats a vitamin that can cause pets to explode / Rocko and Heffer go on a road trip to see Flemm Rock",
-    "title": "Down the Hatch / Road Rash"
-   },
-   "rockoshappysack": {
-    "desc": "Rocko and Spunky run to the local grocery store to take advantage of a big sale. Rocko gets the flu and must get cured before the big wrestling match the next night.",
-    "title": "Rocko's Happy Sack / Flu-In-U-Enza"
-   },
-   "rockoshappyvermin": {
-    "desc": "Rocko's car dies, but is recusitated to win the O-Town rally with Heffer piloting the car in reverse./Rocko finds himself in the middle of a plan to get Ed Bighead's private stock of bugs off the menu and into the good life.",
-    "title": "Manic Mechanic / Rocko's Happy Vermin"
-   },
-   "rockosmodernchristmas": {
-    "desc": "When elves move in across the street, Rocko invites them and all of O-Town to a Christmas party.",
-    "title": "Rocko's Modern Christmas"
-   },
-   "rugbirds": {
-    "desc": "Heffer and Filburt introduce Rocko to the all-American pastime of \"Ding-Dong-Ditch.\"/Filburt, the obsessive collector of bird wigs, takes Rocko along for his biggest score: the wig of an American Balding Eagle!",
-    "title": "Dumbells / Rug Birds"
-   },
-   "sailingthesevenzzzzs": {
-    "desc": "Rocko wins two free tickets to a wrestling match from a radio show./Ed Bighead's sleepwalking problem, triggered by the memory of an early childhood trauma, spells high adventure for Rocko and Spunky!",
-    "title": "With Friends Like These / Sailing the Seven Zzzz's"
-   },
-   "sandinyournavel": {
-    "desc": "Rocko and Heffer go to a carnival and learn the secret to winning a carnival game. Rocko and Spunky cool off on a hot summer day by spending a nice relaxing day at the beach, only it doesn't go as planned.",
-    "title": "Carnival Knowledge / Sand in Your Navel"
-   },
-   "schnitheads": {
-    "desc": "Rocko falls prey to the Chameleon Brother's latest scam: a trendy new cafe which features a rather interesting brew. / Heffer becomes the newest member of the Sausage Club and it's up to Rocko and Filburt to save him from nitrate-induced hysteria.",
-    "title": "The Emperor's New Joe / Schnit-Heads"
-   },
-   "scrubbindownunder": {
-    "desc": "In order to officially become an adult member of the Wolf Pack,Heffer must bring home an elk for dinner./Rocko's hygiene is under scrutiny after his \"spinach tooth\" is revealed nationwide during his accepance speech.",
-    "title": "An Elk for Heffer / Scrubbin' Down Under"
-   },
-   "seattostardom": {
-    "desc": "When a clown's truck breaks down in front of his house, Ed Bighead begins to lead a double life./Rocko's behind earns him a place among the beautiful people of the fashion world when he becomes the spokes-wallaby for \"Wedgie Boy\" undergarments.",
-    "title": "Closet Clown / Seat to Stardom"
-   },
-   "shesthetoad": {
-    "desc": "Filburt realizes his dream of becoming a lounge singer / After writing a proposal for her sick husband's presentation, Mrs. Bighead is hired as an executive at Conglomo-O.",
-    "title": "The Lounge Singer / She's the Toad"
-   },
-   "shortstory": {
-    "desc": "Rocko feels very short until he does something very big./Rocko is competing in the Jack Hammer finals, but has a problem with his eyesight.",
-    "title": "Short Story / Eyes Capades"
-   },
-   "skidmarks": {
-    "desc": "Rocko and Heffer try to makeover Rocko's house after Ed tries to tip his nephew, a city home inspector in a scheme to get rid of Rocko; After Rocko is pulled over because his gas cap is missing, he has to go back to driving school.",
-    "title": "Keeping Up with the Bigheads / Skid Marks"
-   },
-   "snowballs": {
+   "2.12": {
     "desc": "Rocko has to deliver comic books over the snowy mountain. Heffer and Rocko decide to spend the extra time (and money) doing a little skiing. / Bev adopts Earl as her pet. Earl acts viciously to Ed but like a pussycat to Bev.",
+    "se": [
+     2,
+     12
+    ],
     "title": "Snowballs / Frog's Best Friend"
    },
-   "speakingterms": {
-    "desc": "After a big fight, Rocko and Heffer find themselves guests on \"The Nosey Show\", a daytime TV talk show./Rocko is forced into a twelve-step self-help program in order to come to grips with his nail-biting problem.",
-    "title": "Speaking Terms / Tooth and Nail"
+   "2.13": {
+    "desc": "Rocko feels very short until he does something very big./Rocko is competing in the Jack Hammer finals, but has a problem with his eyesight.",
+    "se": [
+     2,
+     13
+    ],
+    "title": "Short Story / Eyes Capades"
    },
-   "spitballs": {
-    "desc": "Rocko and Heffer go to a baseball game to catch a foul ball and get an autograph./Rocko and Heffer go to the movies.",
-    "title": "Spitballs / Popcorn Pandemonium"
-   },
-   "sugarfrostedfrights": {
-    "desc": "Hessian and the potency of candy when Rocko and Heffer introduce him to the concept of trick-or-treating. / Something in a Hitchcock-ian vein: Rocko suspects Bev Bighead of foul play when Ed disappears mysteriously.",
-    "title": "Sugar-Frosted Frights / Ed Is Dead: A Thriller!"
-   },
-   "swak": {
-    "desc": "Rocko falls for Alicia, his new mail carrier, but his plan to give her a love letter goes awry when Heffer takes over her route while she's sick./Ed Bighead is promoted to an executive at Conglomo.",
-    "title": "S.W.A.K. / Magic Meatball"
-   },
-   "teedoff": {
-    "desc": "Rocko is unjustly imprisoned in the O-Town dog pound and incensed by he squalid conditions /When Heffer lands a part time job as an assistant greenskeeper at a prestigious golf course, he finds himself embroiled in Ed Bighead's office politics.",
-    "title": "Ed Good, Rocko Bad / Teed Off"
-   },
-   "thebiganswer": {
-    "desc": "The moment we've all been waiting for: Filbert overcomes his fear and decides to ask Doctor Hutchison to marry him. /Dr. Hutchinson beats Filbert to the punch and asks him to marry her.",
-    "title": "The Big Question / The Big Answer"
-   },
-   "thebigquestion": {
-    "desc": "The moment we've all been waiting for: Filbert overcomes his fear and decides to ask Doctor Hutchison to marry him. /Dr. Hutchinson beats Filbert to the punch and asks him to marry her.",
-    "title": "The Big Question / The Big Answer"
-   },
-   "theemperorsnewjoe": {
-    "desc": "Rocko falls prey to the Chameleon Brother's latest scam: a trendy new cafe which features a rather interesting brew. / Heffer becomes the newest member of the Sausage Club and it's up to Rocko and Filburt to save him from nitrate-induced hysteria.",
-    "title": "The Emperor's New Joe / Schnit-Heads"
-   },
-   "thefatlands": {
-    "desc": "While on a trip to Paris, Rocko tries to find and impress a female wallaby while Heffer gets chased by a crazy tour bus driver./Rocko tries to help Spunky lose weight he recently put on, while Bloaty and Squirmy travel to newly discovered lands due to his weight gain.",
-    "title": "I See London, I See France / The Fatlands"
-   },
-   "thegoodthebadandthewallaby": {
-    "desc": "Rocko visits his uncle's cattle ranch where Heffer becomes one of the heard / Rocko tries to get his garbage to the curb in time for the garbage men to take it",
-    "title": "The Good, the Bad and the Wallaby / Trash-o-Madness"
-   },
-   "thehighfiveofdoom": {
-    "desc": "After stumbling upon Filburt's secret diary, Heffer and Rocko are convinced that Filburt is an alien./Flecko the fly files a lawsuit against Rocko after tripping on a rock in his house.",
-    "title": "The High-Five of Doom / Fly Burgers"
-   },
-   "theloungesinger": {
-    "desc": "Filburt realizes his dream of becoming a lounge singer / After writing a proposal for her sick husband's presentation, Mrs. Bighead is hired as an executive at Conglomo-O.",
-    "title": "The Lounge Singer / She's the Toad"
-   },
-   "tickledpinky": {
+   "2.2": {
     "desc": "Rocko and Heffer try to fix the plumbing in Rocko's house. / While facing an appendectomy operation with Dr. Hutchison, Rocko has a crazy dream where he makes friends with Pinky, his appendix.",
+    "se": [
+     2,
+     2
+    ],
     "title": "Pipe Dreams / Tickled Pinky"
    },
-   "toheckandback": {
-    "desc": "When his boss goes out of town, Rocko is left in charge of the store./Heffer chokes on a chicken rib cage at a Chokey Chicken restaurant and has an after-death experience with Peaches in \"Heck\".",
-    "title": "Power Trip / To Heck and Back"
+   "2.3": {
+    "desc": "Filburt realizes his dream of becoming a lounge singer / After writing a proposal for her sick husband's presentation, Mrs. Bighead is hired as an executive at Conglomo-O.",
+    "se": [
+     2,
+     3
+    ],
+    "title": "The Lounge Singer / She's the Toad"
    },
-   "toothandnail": {
-    "desc": "After a big fight, Rocko and Heffer find themselves guests on \"The Nosey Show\", a daytime TV talk show./Rocko is forced into a twelve-step self-help program in order to come to grips with his nail-biting problem.",
-    "title": "Speaking Terms / Tooth and Nail"
+   "2.4": {
+    "desc": "Rocko must take Spunky to the vet after he eats a vitamin that can cause pets to explode / Rocko and Heffer go on a road trip to see Flemm Rock",
+    "se": [
+     2,
+     4
+    ],
+    "title": "Down the Hatch / Road Rash"
    },
-   "trashomadness": {
-    "desc": "Rocko visits his uncle's cattle ranch where Heffer becomes one of the heard / Rocko tries to get his garbage to the curb in time for the garbage men to take it",
-    "title": "The Good, the Bad and the Wallaby / Trash-o-Madness"
+   "2.5": {
+    "desc": "Rocko purchases a big screen television and Heffer loses his brain inside of it / Rocko's car is impounded which causes him to continually be late for work",
+    "se": [
+     2,
+     5
+    ],
+    "title": "Boob Tubed / Commuted Sentence"
    },
-   "turkeytime": {
-    "desc": "The special plans for Rocko's first Thanksgiving go awry when the turkey's of O-Town escape and take refuge in Rocko's house./The residents of O-Town engage in an argument about the correct origin of the town.",
-    "title": "Turkey Time / Floundering Fathers"
+   "2.6": {
+    "desc": "When elves move in across the street, Rocko invites them and all of O-Town to a Christmas party.",
+    "se": [
+     2,
+     6
+    ],
+    "title": "Rocko's Modern Christmas"
    },
-   "unbalancedload": {
-    "desc": "Spunky falls in love with a dirty mop / Rocko decides it's time to do his laundry",
-    "title": "Clean Lovin' / Unbalanced Load"
+   "2.7": {
+    "desc": "Rocko, Heffer, and Filburt go camping, but find it less enjoyable than they expected / When Rocko is going to be deported, he marries Filburt in an attempt to stay in the country",
+    "se": [
+     2,
+     7
+    ],
+    "title": "Hut Sut Raw / Kiss Me, I'm Foreign"
    },
-   "uniformbehavior": {
+   "2.8": {
+    "desc": "Rocko and Heffer get stuck on a senior-singles cruise with Grandpa Wolfe which takes them into the Bermuda Triangle.",
+    "se": [
+     2,
+     8
+    ],
+    "title": "Cruisin'"
+   },
+   "2.9": {
     "desc": "Filburt comes of age and must go to the islands to spawn. He doesn't want to, for fear of growing up. Heffer becomes a security guard and finds it isn't all he expected it to be, in fact, it's quite scary.",
+    "se": [
+     2,
+     9
+    ],
     "title": "Born to Spawn / Uniform Behavior"
    },
-   "wackydelly": {
+   "3.1": {
+    "desc": "Rocko \"birdsits\" Filburt's problem bird, Tirdy, when Filburt is sick. The bird dies when Heffer sits on it and Rocko and Heffer panic. / Heffer uses his unusual burping talent to secure a place for his troop of Weasel Scouts at Astro Camp.",
+    "se": [
+     3,
+     1
+    ],
+    "title": "Bye, Bye Birdie / Belch of Destiny"
+   },
+   "3.10": {
     "desc": "In order to get out of a contract with his network, cartoonist Ralph Bighead hires fans Rocko, Heffer, and Filburt to create a sure-fire failure of a series that, much to his dismay, becomes a success.",
+    "se": [
+     3,
+     10
+    ],
     "title": "Wacky Delly"
    },
-   "wallabyonwheels": {
-    "desc": "Heffer moves in with Rocko./Despite his vow to never do anything crazy to impress a woman, Rocko takes up roller skating after he becomes smitten with Sheila, the Roller Derby Queen.",
-    "title": "Heff in a Handbasket / Wallaby on Wheels"
+   "3.11": {
+    "desc": "The moment we've all been waiting for: Filbert overcomes his fear and decides to ask Doctor Hutchison to marry him. /Dr. Hutchinson beats Filbert to the punch and asks him to marry her.",
+    "se": [
+     3,
+     11
+    ],
+    "title": "The Big Question / The Big Answer"
    },
-   "whogivesabuck": {
-    "desc": "Rocko and Heffer join a health club. Rocko goes shopping to the mall with his new credit card.",
-    "title": "No Pain, No Gain / Who Gives a Buck"
+   "3.12": {
+    "desc": "In order to officially become an adult member of the Wolf Pack,Heffer must bring home an elk for dinner./Rocko's hygiene is under scrutiny after his \"spinach tooth\" is revealed nationwide during his accepance speech.",
+    "se": [
+     3,
+     12
+    ],
+    "title": "An Elk for Heffer / Scrubbin' Down Under"
    },
-   "whosfordinner": {
-    "desc": "Heffer invites Rocko over for dinner with his parents, and Rocko accidentally reveals a secret. / Heffer helps Rocko get into dating.",
-    "title": "Who's for Dinner? / Love Spanked"
+   "3.13": {
+    "desc": "O-Town begins a massive musical recycling campaign. /Rocko purchases a lonely food processor, Food Boy.",
+    "se": [
+     3,
+     13
+    ],
+    "title": "Zanzibar! / Fatal Contraption"
    },
-   "wimponthebarbie": {
-    "desc": "Heffer transforms Rocko from milquetoast to Terminator./Classic fairy tales take on a decidedly new twist when Rocko convinces Heffer to read to a sick Filburt from \"The Really, Really Big Book of Fairy Tales.\"",
-    "title": "Wimp on the Barbie / Yarnbenders"
+   "3.2": {
+    "desc": "Rocko falls prey to the Chameleon Brother's latest scam: a trendy new cafe which features a rather interesting brew. / Heffer becomes the newest member of the Sausage Club and it's up to Rocko and Filburt to save him from nitrate-induced hysteria.",
+    "se": [
+     3,
+     2
+    ],
+    "title": "The Emperor's New Joe / Schnit-Heads"
    },
-   "withfriendslikethese": {
+   "3.3": {
+    "desc": "Hessian and the potency of candy when Rocko and Heffer introduce him to the concept of trick-or-treating. / Something in a Hitchcock-ian vein: Rocko suspects Bev Bighead of foul play when Ed disappears mysteriously.",
+    "se": [
+     3,
+     3
+    ],
+    "title": "Sugar-Frosted Frights / Ed Is Dead: A Thriller!"
+   },
+   "3.4": {
+    "desc": "Rocko, Heffer, and Filburt set out for a day of fantastic fishing - but the fish have other plans!/Rocko sets out to make a video tape to send home to his parents.",
+    "se": [
+     3,
+     4
+    ],
+    "title": "Fish-N-Chumps / Camera Shy"
+   },
+   "3.5": {
+    "desc": "Bev Bighead mistakenly gets a nose through accidental surgery and enjoys all the new aromas she encounters - all but the smell of her husband Ed./After being passed up for a promotion at work for a younger man, Ed experiences a mid-life crisis.",
+    "se": [
+     3,
+     5
+    ],
+    "title": "Nothing to Sneeze At / Old Fogey Froggy"
+   },
+   "3.6": {
+    "desc": "Rocko's car dies, but is recusitated to win the O-Town rally with Heffer piloting the car in reverse./Rocko finds himself in the middle of a plan to get Ed Bighead's private stock of bugs off the menu and into the good life.",
+    "se": [
+     3,
+     6
+    ],
+    "title": "Manic Mechanic / Rocko's Happy Vermin"
+   },
+   "3.7": {
+    "desc": "While on a trip to Paris, Rocko tries to find and impress a female wallaby while Heffer gets chased by a crazy tour bus driver./Rocko tries to help Spunky lose weight he recently put on, while Bloaty and Squirmy travel to newly discovered lands due to his weight gain.",
+    "se": [
+     3,
+     7
+    ],
+    "title": "I See London, I See France / The Fatlands"
+   },
+   "3.8": {
+    "desc": "Filburt receives a horrible fortune from a Chinese fortune cookie just before he is to enter the Mega Spin./Rocko's kitchen is destroyed by a government satellite right before his big party. He and Heffer attend Home Show conventions.",
+    "se": [
+     3,
+     8
+    ],
+    "title": "Fortune Cookie / Dear John"
+   },
+   "3.9": {
+    "desc": "After a big fight, Rocko and Heffer find themselves guests on \"The Nosey Show\", a daytime TV talk show./Rocko is forced into a twelve-step self-help program in order to come to grips with his nail-biting problem.",
+    "se": [
+     3,
+     9
+    ],
+    "title": "Speaking Terms / Tooth and Nail"
+   },
+   "4.1": {
     "desc": "Rocko wins two free tickets to a wrestling match from a radio show./Ed Bighead's sleepwalking problem, triggered by the memory of an early childhood trauma, spells high adventure for Rocko and Spunky!",
+    "se": [
+     4,
+     1
+    ],
     "title": "With Friends Like These / Sailing the Seven Zzzz's"
    },
-   "yarnbenders": {
+   "4.10": {
+    "desc": "Heffer and Filburt introduce Rocko to the all-American pastime of \"Ding-Dong-Ditch.\"/Filburt, the obsessive collector of bird wigs, takes Rocko along for his biggest score: the wig of an American Balding Eagle!",
+    "se": [
+     4,
+     10
+    ],
+    "title": "Dumbells / Rug Birds"
+   },
+   "4.11": {
+    "desc": "Heffer and Filburt hypnotize Rocko into thinking he's a dog./Rocko, after unwittingly being recruited as Mrs. Wolfe's driving instructor, finds himself riding shotgun in a deadly game of chicken against the ultimate demolition derby car.",
+    "se": [
+     4,
+     11
+    ],
+    "title": "Hypno-Puppy Luv / Driving Mrs. Wolfe"
+   },
+   "4.12": {
+    "desc": "Heffer overdoses on Pasture Puffies and is rushed to the hospital./In the O-Town of the far-flung future, Gilbert and Norbert -- descendants of a now ancient Filburt -- discover the remains of an old banana.",
+    "se": [
+     4,
+     12
+    ],
+    "title": "Put to Pasture / Future Schlock"
+   },
+   "4.13": {
+    "desc": "The special plans for Rocko's first Thanksgiving go awry when the turkey's of O-Town escape and take refuge in Rocko's house./The residents of O-Town engage in an argument about the correct origin of the town.",
+    "se": [
+     4,
+     13
+    ],
+    "title": "Turkey Time / Floundering Fathers"
+   },
+   "4.2": {
+    "desc": "It's the ultimate April Fools Day in O-Town as Rocko, Filburt, and Heffer try their best practical jokes on one another./Filburt's impending fatherhood is jeopordized by the Easter Bunny's fiendishly clever Lamaze class egg ring.",
+    "se": [
+     4,
+     2
+    ],
+    "title": "Pranksters / From Here to Maternity"
+   },
+   "4.3": {
+    "desc": "Rocko is unjustly imprisoned in the O-Town dog pound and incensed by he squalid conditions /When Heffer lands a part time job as an assistant greenskeeper at a prestigious golf course, he finds himself embroiled in Ed Bighead's office politics.",
+    "se": [
+     4,
+     3
+    ],
+    "title": "Ed Good, Rocko Bad / Teed Off"
+   },
+   "4.4": {
     "desc": "Heffer transforms Rocko from milquetoast to Terminator./Classic fairy tales take on a decidedly new twist when Rocko convinces Heffer to read to a sick Filburt from \"The Really, Really Big Book of Fairy Tales.\"",
+    "se": [
+     4,
+     4
+    ],
     "title": "Wimp on the Barbie / Yarnbenders"
    },
-   "zanzibar": {
-    "desc": "O-Town begins a massive musical recycling campaign. /Rocko purchases a lonely food processor, Food Boy.",
-    "title": "Zanzibar! / Fatal Contraption"
+   "4.5": {
+    "desc": "After suffering some ribbing from Rocko and Filburt, Heffer decides to move out of his parents home and strike out on his own./Rocko and Heffer's visit to a fortune teller channels them into danger when the spirit of Mortimer Khan possesses Spunky.",
+    "se": [
+     4,
+     5
+    ],
+    "title": "Mama's Boy / Feisty Geist"
+   },
+   "4.6": {
+    "desc": "Rocko falls for Alicia, his new mail carrier, but his plan to give her a love letter goes awry when Heffer takes over her route while she's sick./Ed Bighead is promoted to an executive at Conglomo.",
+    "se": [
+     4,
+     6
+    ],
+    "title": "S.W.A.K. / Magic Meatball"
+   },
+   "4.7": {
+    "desc": "When a clown's truck breaks down in front of his house, Ed Bighead begins to lead a double life./Rocko's behind earns him a place among the beautiful people of the fashion world when he becomes the spokes-wallaby for \"Wedgie Boy\" undergarments.",
+    "se": [
+     4,
+     7
+    ],
+    "title": "Closet Clown / Seat to Stardom"
+   },
+   "4.8": {
+    "desc": "After stumbling upon Filburt's secret diary, Heffer and Rocko are convinced that Filburt is an alien./Flecko the fly files a lawsuit against Rocko after tripping on a rock in his house.",
+    "se": [
+     4,
+     8
+    ],
+    "title": "The High-Five of Doom / Fly Burgers"
+   },
+   "4.9": {
+    "desc": "Heffer moves in with Rocko./Despite his vow to never do anything crazy to impress a woman, Rocko takes up roller skating after he becomes smitten with Sheila, the Roller Derby Queen.",
+    "se": [
+     4,
+     9
+    ],
+    "title": "Heff in a Handbasket / Wallaby on Wheels"
    }
   },
-  "mode": "name"
+  "mode": "se"
  }
 }
