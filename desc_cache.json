@@ -738,6 +738,10 @@
 "n": "Noir Gang",
 "o": "Feeling \"\"creatively obligated by a film-noir parody,\"\" Cornfed calls their new client \"\"a dame,\"\" whose name is Tamara La Boinque. Later he confesses to a priest about betraying his partner, when they both fall in love with their client."
 },
+"1260|3|10": {
+"n": "The Mallardian Candidate",
+"o": "Former comedian Iggy Catalpa hires Duckman to investigate a conspiracy where the only evidence is a sock missing from his laundry. The conspirators capture Duckman and brainwash him into killing the only one who can stop them, Cornfed."
+},
 "1260|3|14": {
 "n": "Aged Heat",
 "o": "A Grandma-ma look-a-like robber switches places with the her to make an escape. Duckman suspects that Grandma-ma isn't quite herself, of course no one believes him. The Agnes reveals herself and holds the family hostage."
@@ -1317,6 +1321,10 @@
 "13943|3|5": {
 "n": "Kidnapped",
 "o": "Beavis and Butt-head want to go to a concert so they try to kidnap Stewart for ransom money...but quickly get sick of him."
+},
+"13943|4|1": {
+"n": "Wall of Youth",
+"o": "\"Beavis and Butter\" contribute art to an exhibit of local talent at the mall, and make friends with a sock-puppet."
 },
 "13943|4|10": {
 "n": "Water Safety",
@@ -2061,6 +2069,10 @@
 "1546|4|5": {
 "n": "Gus' Fortune",
 "o": "The kids find a paper fortune teller on the ground that predicts doom for Gus."
+},
+"1546|4|7": {
+"n": "Recess is Cancelled",
+"o": "Secretary of Schools Garrison chooses 3rd Street School as the place to test his program to bring test scores up by cancelling recess."
 },
 "1547|1|1": {
 "n": "To Mar a Stall",
@@ -3014,6 +3026,10 @@
 "n": "The Young and the Twitchy",
 "o": "A soap opera character's visit to Eerie leads to melodramatic behaviour all round."
 },
+"17082|1|7": {
+"n": "Last Laugh",
+"o": "A gag writing genius helps Stanley become a master comic, but Stanley goes to far as he insults everyone."
+},
 "1719|1|1": {
 "n": "Awakening (1)",
 "o": "In 994, a band of Vikings attack castle Wyvern in Scotland, but are driven back by the gargoyles protecting it. While retreating, they vow revenge... and someone in the castle may just want to help them with that."
@@ -3726,6 +3742,10 @@
 "n": "I.O.U. a U.F.O.",
 "o": "Donald and the kids are with Daisy, who's doing a story on a prospector who claims to have seen a UFO. Louie discovers the truth and ends up kidnapped."
 },
+"1863|1|29": {
+"n": "Gator Aid",
+"o": "Donald and the kids are with Daisy, who's doing a story in the bayou on a missing gator population. Her investigation leads them to a paramilitary outfit led by a man known as the Colonel. Also, a female gator falls for Donald."
+},
 "1863|1|30": {
 "n": "None Like it Hot",
 "o": "Dewey investigates who stole his favorite comic book and discovers a supervillain who lives in the sewers, hates the surfacedwellers and plans to set the world on fire with his giant lens. Meanwhile, Donald can't relax from all the noise."
@@ -4358,6 +4378,10 @@
 "n": "Houseboat",
 "o": "The family takes a vacation with the Kenarbans, sharing a houseboat. And while Steve's parents are caught in a fight, Reese and Steve socialize with some cheerleader from a nearby spirit camp, Malcolm is stuck with Hal fishing. At the military academy, Eric turns eighteen and leaves for Alaska, inspiring Francis to do something about his situation too."
 },
+"2004|3|15": {
+"n": "Hal's Birthday",
+"o": "The arrival of Francis's new bride on Hal's birthday sparks a fray that drives the younger siblings out---and into a posh hotel."
+},
 "2004|3|17": {
 "n": "Dewey's Dog",
 "o": "Dewey rules, thanks to his new dog that intimidates Malcolm and Reese; Hal and Lois hit the town with big plans---and flu symptoms."
@@ -4521,6 +4545,10 @@
 "2005|1|12": {
 "n": "Babysitter Blues",
 "o": "Christopher Robin and the gang get into mischief while a babysitter tries to look after them."
+},
+"2005|1|13": {
+"n": "How Much Is That Rabbit in the Window?",
+"o": "Rabbit decides to run away from the Hundred Acre Wood only to end up for sale in a secondhand shop."
 },
 "2005|1|18": {
 "n": "Trap as Trap Can",
@@ -6026,6 +6054,10 @@
 "n": "Renaissance",
 "o": "Brendon, Jason and Melissa are performing the musical 'King Arthur Meets Robin Hood' at a medieval fair organized by Mr. Lynch. Tensions soon arise between the fair and the sci-fi convention next door. Can Brendon bring peace to the warring factions? Also, can Coach McGuirk stay in character as a medieval blacksmith?"
 },
+"2274|3|7": {
+"n": "My Cheatin' Heart",
+"o": "Brendon has trouble convincing Jason and Melissa to make their latest film backwards, a la 'Memento.' Meanwhile, Brendon is forced to work on his golf game after his dad pressures him into playing a round with an important client. Coach McGuirk gives Brendon some valuable golf advice: cheat."
+},
 "22784|1|1": {
 "n": "Mysterious Shadow",
 "o": "High school biology teacher Lucas Amato finds a tube with a glowing green ooze and takes it home with him. The next night a woman named Cybersix visits Lucas to retrieve the ooze called Sustenance. But before she has a chance to get it, a big strange man breaks into Lucas's apartment."
@@ -6625,6 +6657,14 @@
 "251|11|2": {
 "n": "Brain Fairy",
 "o": "Shake and Meatwad investigate the DMV when a particular driving instructor draws suspicion."
+},
+"251|11|3": {
+"n": "The Hairy Bus",
+"o": ""
+},
+"251|11|4": {
+"n": "Sweet C",
+"o": "Carl is shrunk down in size in order to infiltrate Frylock's beehive and determine why the bees have stopped producing honey. Carl ignores his objective and instead becomes a tyrant who commands the obsequious bees to do his bidding."
 },
 "251|1|1": {
 "n": "Rabbot",
@@ -8262,6 +8302,14 @@
 "n": "Flipmode",
 "o": "Space Ghost is hosting a \"mystery dinner theater\" and in the midst, he beats Zorak senseless a number of times and causes a massive gas leak, which causes everyone to start tripping, including guest Busta Rhymes."
 },
+"2798|7|5": {
+"n": "Sweet For Brak",
+"o": "Space Ghost becomes jealous when Brak's spin off, The Brak Show becomes a hit. Meanwhile, Zorak teaches the band Tenacious D how to perform."
+},
+"2798|8|1": {
+"n": "Baffler Meal",
+"o": "Space Ghost's talk show is invaded by three life-sized fast food items from a place called Burger Trench. They are known as the Aqua Teen Hunger Force. They soon proceed to throw the show into total chaos."
+},
 "2824|1|6": {
 "n": "Don't Tread on Pete",
 "o": "Little Pete is caught in the middle when a rival teacher and his dodgeball goons invade gym class."
@@ -8784,6 +8832,10 @@
 },
 "304565|6|1": {
 "n": "Home Improv-ment",
+"o": ""
+},
+"304565|6|2": {
+"n": "Don't Fear the Reefer",
 "o": ""
 },
 "304565|7|12": {
@@ -10182,6 +10234,10 @@
 "n": "",
 "o": ""
 },
+"339|1|71": {
+"n": "",
+"o": ""
+},
 "339|1|73": {
 "n": "",
 "o": ""
@@ -10249,6 +10305,10 @@
 "3428|1|8": {
 "n": "Thingy",
 "o": "After saving a small abandoned creature from an avalanche of rocks on Shuggazoom's moon, Ranger 7, Chiro takes a liking to the little guy just like Chloe, much to Gibson's dismay, adopts it until they can find its true home planet. At first Chiro has a blast with Thingy, until weird things start happening. The Super Robot's functions go out of whack, even dumping Gibson into deep space. It seems as if Thingy is to blame, but it turns out that a virus created by the Skeleton King is making the Robot fall apart. To make matters worse, the virus has infected Gibson, transforming him into an evil mutant minion of the Skeleton King!\n\nGuest appearance: Frank Welker as Thingy"
+},
+"3428|2|11": {
+"n": "Skeleton King Threat",
+"o": "The Monkey Team is finally able to talk to the citizens of Shuggazoom! Now with this new ability, they've decided to let everyone in on the true danger that surrounds them - the Skeleton King threat."
 },
 "3428|3|10": {
 "n": "Big Lug",
@@ -11026,6 +11086,10 @@
 "n": "We'll Always Have Roscoe",
 "o": "Robbie comes to the harsh realization that sometimes love means letting go, while Travis and Lily come to discover that letting go is the only way to maintain their friendship."
 },
+"3708|2|16": {
+"n": "Musical Influences",
+"o": "Lily gets close to the new guy at Roscoe High, but this guitar player may have more in mind than just Lily."
+},
 "3708|2|2": {
 "n": "A Class, A Semester, A Lifetime",
 "o": "Lily's friendship with Audrey seems to be on the upswing. Although they reunite and find common ground once again, Audrey's snobby attitude and elite posse, whose pastimes include ridiculing others, does not mesh well with Lily's kindhearted sensibilities. Lily suffers twinges of sadness when she opts for integrity and breaks off her friendship with Audrey but discovers a silver lining and new camaraderie in the hilarious and engaging Parker. Ray and Travis haggle over the gentleman's rules of romance that they are trying to establish in their pursuit of Lily, though each is only using \"\"the list\"\" to gain footing on the ever slippery slope to Lily's heart. Both Travis and Ray appeal to Robbie who is surreptitiously leads them to see that their sparring over Lily may in fact be the beginning to a beautiful friendship."
@@ -11289,6 +11353,10 @@
 "3745|1|6": {
 "n": "Being Mrs. Leadready",
 "o": "Spot needs someone to play his mother at parent-teacher conference night."
+},
+"3745|1|8": {
+"n": "Costume Pity Party",
+"o": "Leonard doesn't want to wear a costume because some bully picked on him a year ago that Halloween.  After telling that story, Mr. Jolly starts to cry too much that he ends up dehydrating himself!"
 },
 "3745|2|1": {
 "n": "Never Take Candy from a Kindergartner",
@@ -11725,6 +11793,10 @@
 "387|1|1": {
 "n": "Help Wanted",
 "o": "SpongeBob goes to the Krusty Krab to apply for the new fry cook job. Against the advice of Squidward, Mr. Krabs, the owner of the restaurant decides to give SpongeBob a chance. Can SpongeBob find the spatula needed for the job and serve all the hungry customers?"
+},
+"387|1|10": {
+"n": "Pizza Delivery",
+"o": "A customer calls and asks the Krusty Krab to deliver him some pizza. Mr. Krabs orders SpongeBob and Squidward to deliver it. SpongeBob will stop at nothing to get the pizza to the customer, even if that means getting lost."
 },
 "387|1|12": {
 "n": "Mermaid Man and Barnacle Boy",
@@ -12354,6 +12426,10 @@
 "n": "Funball",
 "o": "Maggie devises a new game for her little brother to play."
 },
+"426|1|6": {
+"n": "Germy",
+"o": "Maggie wants to bring home a pet germ."
+},
 "426|1|8": {
 "n": "Love Stinks",
 "o": ""
@@ -12506,6 +12582,10 @@
 "n": "Stolen Memories",
 "o": "Brainiac, once Krypton's all-knowing planetary computer, comes to Earth as part of his information-gathering trek across the galaxy. But, as Superman discovers, Brainiac's intent after gathering the world's knowledge is to destroy the Earth."
 },
+"4303|1|9": {
+"n": "The Main Man (1)",
+"o": "Intergalactic bounty hunter Lobo is employed to capture the Man of Steel, but thanks to a double-cross by the rare-species-collecting Preserver, both Superman and Lobo end up trapped in the Preserver's personal zoo."
+},
 "4303|2|23": {
 "n": "Heavy Metal",
 "o": "Superman teams up with Steel to deal with Metallo."
@@ -12617,6 +12697,10 @@
 "4314|1|9": {
 "n": "Dishonest Abe",
 "o": "\"Honest Abe\" Lincoln grows tired of being upstanding when he starts getting ridiculed for it. When he finally snaps and becomes the prank-pulling \"Dishonest Abe\", it's up to Time Squad to give him a taste of his own medicine."
+},
+"4314|2|1": {
+"n": "A Thrilla at Attila's",
+"o": "After returning from an exausting mission to Attila's army of huns, Time Squad is having a hard time deciding whose description of their adventure to believe!"
 },
 "4327|1|10": {
 "n": "Mind the Baby, Mr. Bean",
@@ -13334,6 +13418,10 @@
 "n": "",
 "o": ""
 },
+"4429|3|5": {
+"n": "Klondike Con",
+"o": "Courteous Quint teams up with Timon and Pumbaa to find gold in the Artic. But Timon obstinately refuses to trust him."
+},
 "4429|3|7": {
 "n": "Wide Awake in Wonderland",
 "o": "Pumbaa makes Timon read bedtime stories from his \"Little Book of Warthog Fairy Tales\", which all portray warthogs in a good light but meerkats in a bad light."
@@ -13361,6 +13449,10 @@
 "44|1|19": {
 "n": "Robotnik's Rival",
 "o": "Robotnik and a rival named Brandon Quark try to cooperate in capturing Sonic. However, Sonic tricks them into becoming enemies, and they try to outdo each other."
+},
+"44|1|21": {
+"n": "Momma Robotnik Returns",
+"o": "Momma Robotnik visits her son, and after he fails once again, she disowns him and decides to adopt Sonic as her own son in order to capture him."
 },
 "44|1|22": {
 "n": "Too Tall Tails",
@@ -13441,6 +13533,10 @@
 "44|1|42": {
 "n": "Sonic Breakout",
 "o": "Robotnik imprisons a satirical cartoonist for making fun of him in his comic book, much to the chagrin of his biggest fan, Sonic."
+},
+"44|1|47": {
+"n": "Spaceman Sonic",
+"o": "Robotnik sends Scratch and Grounder into space to pillage the asteroid belt, with Sonic and Tails in pursuit."
 },
 "44|1|50": {
 "n": "Full Tilt Tails",
@@ -13811,6 +13907,10 @@
 "o": ""
 },
 "4568|3|24": {
+"n": "",
+"o": ""
+},
+"4568|3|25": {
 "n": "",
 "o": ""
 },
@@ -15090,6 +15190,10 @@
 "n": "Year Round Fun",
 "o": "Sniz & Fondue  The Great Chili Cookoff: Sniz and Fondue wish to cooperate in a hottest chili contest, but are forced to compete against each other.  Action League Now  Mad Dogs and Englishmen: Stinky Diver is very depressed and he meets a new friend that's a dog named Smelly and they become best friends until The Mayor is called for his huge trick again.\n\nPrometheus & Bob  Bed: Prometheus attempts to teach Bob sleeping in a bed.\n\nLife with Loopy  Sweet Dreams: Loopy puts an end to Larry's nightmares.\n\nHenry and June Theme  The Writer's Strike: The writers quit, and Henry and June try to run the show on their own."
 },
+"544|3|7": {
+"n": "The New Class",
+"o": "Action League Now  A Star is Torn: The Mayor tries tricking the Action League once again. The Mayor dresses up as a conductor of a movie and asks Thunder Girl to be in it by doing killer stunts... Literally.\n\nPrometheus & Bob  Robot\n\nLife with Loopy  Fang Fairy: Loopy is cursed by the Fang Fairy for giving her fake vampire teeth.\n\nPatchhead  Demolition Mission: Patchhead must obtain a new bowling trophy for her father.\n\nHenry & June Theme  Director: Glen, the new director, shows up to improve ratings, starts with acting exercises for Henry and June."
+},
 "544|4|10": {
 "n": "Under New Management",
 "o": "Action League Now   What's Eating the Flesh?: A mutant guniea pig has a virus that if you touch it's fur than you will get seperated from you're body parts by the virus. The Flesh rides the guinea pig around and catches the virus. The virus eats away at The Flesh's body parts. Can The Action League stay away from The Flesh until they find a cure?\n\nPrometheus & Bob   Evolution Chamber\n\nStewey the Dogboy   Basically the same as Teacher's Pet's pilot.\n\nWhy Does the Sun Shine?   Music by They Might Be Giants.\n\nHenry & June theme   Stockdale wanders in to fire someone - Mr. Foot!"
@@ -15714,6 +15818,10 @@
 "n": "A Little Trouble",
 "o": "Everyone's worried when Junko agrees to look after a baby Wallop for the day. But when the Storm Hawks set out on a mission to bring construction on Snipe's new mega-ship to a standstill, what starts as a simple favor turns out to be an adventure in babysitting… of giant proportions!"
 },
+"6067|1|15": {
+"n": "Thunder Run",
+"o": "It's a race against the clock for the Storm Hawks! If they can't bring back a mysterious treasure from the other end of Atmos by sundown, a gangster known as The Colonel is going to have Junko for lunch! To give the Condor an extra burst of speed, Finn nabs a Velocity crystal off of a couple of Raptors. But will it be enough now that Repton's on their tail too?"
+},
 "6067|1|2": {
 "n": "Age of Heroes: Part 2",
 "o": "The Storm Hawks join a mission to take back the Aurora Stone; though the team is instrumental in getting the stone away from Master Cyclonis, the members are not allowed to register as a Sky Knight squadron."
@@ -15958,6 +16066,10 @@
 "n": "The Going Bananas Republic",
 "o": "Brandy, disgusted with Gaspar’s dictatorship, riles the jungle dwellers to hold an election for king. She and Whiskers win the job, but quickly abuse the power just as bad as Gaspar, if not worse."
 },
+"618|1|11": {
+"n": "Lame Boy",
+"o": "Brandy stumbles across a suitcase that they weren't aware of, she finds a portable video game and she gives it to Mr. Whiskers to get him to stop bothering her. In the end, he finally has to save Brandy from falling off a cliff."
+},
 "618|1|16": {
 "n": "Blind Ambition",
 "o": "When Brandy introduces money into the jungle, she discovers its hard to live a life of luxury when you have to earn your finances. In the end, Whiskers pulls out what appears to be a huge emerald. Brandy exclaims that she is rich."
@@ -15965,6 +16077,10 @@
 "618|1|19": {
 "n": "Flim Flam Fever",
 "o": ""
+},
+"618|1|20": {
+"n": "Private Antics, Major Problems",
+"o": "When Brandy and Mr. Whiskers try to eat the tastiest fruit in the jungle, Brandy finds out that the fruit tastes like dirty socks. As Brandy marches off in frustration, she kicks down an ant hill, leaving it exposed to the ant eaters who attack the hill on a regular basis. The Sargent Ant goes after Brandy to get her and Mr. Whiskers to defend the ant hill until the mound can be fixed, but will Brandy agree to join the ant army, and will she even be capable of defending the hill from the ant eaters, or not?"
 },
 "618|1|3": {
 "n": "Cyranosaurus Rex",
@@ -16269,6 +16385,10 @@
 "6616|1|46": {
 "n": "A Wooly Bully",
 "o": "A toon superhero, Mammoth Mammoth, goes on a crime rampage; Bonkers is trying to make himself and Lucky the most efficient cops on the force."
+},
+"6616|1|53": {
+"n": "The Dimming",
+"o": "Lucky spends his vacation as the caretaker of an old resort hotel so he'll have his peace and quiet to finish his novel."
 },
 "6616|1|55": {
 "n": "Get Wacky",
@@ -16946,6 +17066,10 @@
 "n": "Pearl of Wisdom",
 "o": "Scrooge learns that a pearl he bought will grant him infinite wisdom once he takes it back to its homeland."
 },
+"720|1|26": {
+"n": "The Curse of Castle McDuck",
+"o": "Scrooge, the nephews, and Webby visit Scrooge's ancestral home in Scotland, only to be embroiled in a mystery surrounding Castle McDuck."
+},
 "720|1|32": {
 "n": "Micro Ducks from Outer Space",
 "o": "Scrooge misuses an alien size-shifting device, and accidentally ends up shrinking himself, the boys, and Webby."
@@ -16981,6 +17105,10 @@
 "720|4|4": {
 "n": "New Gizmo-Kids on the Block",
 "o": "Fenton's mother accidentally shrinks the Gizmoduck suit, and the child-size suit ends up in the hands of Scrooge's nephews."
+},
+"720|4|5": {
+"n": "Scrooge's Last Adventure",
+"o": "When Scrooge loses his money due to a computer bug, he and Fenton travel through cyberspace to get it back."
 },
 "72350|1|20": {
 "n": "Sky Pirates...In the Sky!",
@@ -17249,6 +17377,10 @@
 "733|1|24": {
 "n": "The Importance of Being Norma",
 "o": "Sabrina wants to be part of the cheerleading squad next year. Everything's perfact untill her old time freind from kindergarten comes and ruins everything. The cheerleading squad say's she has to ditch norma to have a better chance of being in the squad. So sabrina give norma a makeover but it fails. So she uses the spooky jar and makes everyone like norma . But the spell get's out of hand and sabrina brakes the spell and does'nt want to be in the squad. And stays freinds with norma."
+},
+"733|1|25": {
+"n": "Stage Fright",
+"o": "Romeo is brought into reality so Zelda can have a prom date and so Sabrina can get a little help from him about love. But when Enchantra makes a surprise visit, hell breaks loose."
 },
 "733|1|27": {
 "n": "My Stepmother The Babe",
@@ -19585,6 +19717,10 @@
 "n": "Home Improv-ment",
 "o": "Kevin has to take a extra-curricular activity and takes Improv as he's convinced it's the easiest one their is."
 },
+"70452|6|2": {
+"n": "Don't Fear The Reefer",
+"o": "Percy falls asleep at the wheel, crashing the car and stranding the Spencers in the pairies."
+},
 "70452|7|12": {
 "n": "Demolition Derby",
 "o": "Percy, with Kevin join a demolition derby circuit.  Anastasia goes berserk when the phone doesn't stop ringing and demands Percy to answer the phone without realizing he's joined the derby."
@@ -20077,6 +20213,10 @@
 "n": "John Cantu vs. Heidi Starfield",
 "o": "Games: Blue Print, Burgertime, Swimmer, Time Pilot and Tutankam. Grand Prize: Eyes."
 },
+"73086|1|71": {
+"n": "John Cantu vs. Heidi Starfield",
+"o": "Games: Blue Print, Burgertime, Swimmer, Time Pilot and Tutankam. Grand Prize: Eyes."
+},
 "73086|1|73": {
 "n": "John Cantu vs. Heidi Starfield",
 "o": "Games: Blue Print, Burgertime, Swimmer, Time Pilot and Tutankam. Grand Prize: Eyes."
@@ -20224,6 +20364,10 @@
 "73720|3|24": {
 "n": "One Angry Woman",
 "o": "Pepper Ann is forced to keep an orderly house when Lydia is called in for jury duty."
+},
+"73720|3|25": {
+"n": "The Sellout",
+"o": "Nicky regrets giving her last ticket to an upcoming Flaming Snot concert to Pepper Ann, and the ensuing fight tears apart their friendship."
 },
 "73750|3|1": {
 "n": "Doctor Strange",
@@ -24513,6 +24657,10 @@
 "n": "",
 "o": ""
 },
+"17997|3|25": {
+"n": "",
+"o": ""
+},
 "18002|1|19": {
 "n": "Flim Flam Fever",
 "o": ""
@@ -25125,6 +25273,10 @@
 "n": "That Guy Who Liked Pie",
 "o": ""
 },
+"26634|6|2": {
+"n": "Hogtown Hogwild",
+"o": ""
+},
 "26634|7|12": {
 "n": "Demolition Derby",
 "o": ""
@@ -25312,6 +25464,10 @@
 "382|11|1": {
 "n": "Mouth Quest",
 "o": "Abraham Lincoln's Lunch Links are available in \"Tough n' Tenacious Teriyaki.\""
+},
+"382|11|3": {
+"n": "The Hairy Bus",
+"o": "Bachelors scream for medical attention from the ultimate party bus."
 },
 "382|1|4": {
 "n": "Mayhem of the Mooninites",
@@ -26738,6 +26894,10 @@
 "o": ""
 },
 "6536|1|70": {
+"n": "",
+"o": ""
+},
+"6536|1|71": {
 "n": "",
 "o": ""
 },
