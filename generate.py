@@ -119,6 +119,7 @@ RENAMES = {
     "Shin-Chan": "Crayon Shin-chan",
     "Chip n' Dale Rescue Rangers": "Chip 'n Dale Rescue Rangers",
     "Oban Star-Racers": "Ōban Star-Racers",
+    "Snoppy's Getting Married, Charlie Brown": "Snoopy's Getting Married, Charlie Brown",  # feed typo
     # parked (not in current feed, kept in case the source drifts):
     "It's Always Sunny at": "It's Always Sunny in Philadelphia",
     "Batman Animated": "Batman: The Animated Series",
@@ -989,7 +990,9 @@ def _movie_meta(raw_title, cache):
     clean = re.sub(r"\s+", " ", clean).strip()
     if not clean:
         return None, None
-    key = clean.lower() + (f"|{year}" if year else "")
+    # year-tagged keys carry a "v2" so titles cached as misses under the old,
+    # stricter vote rule get one fresh lookup
+    key = clean.lower() + (f"|{year}|v2" if year else "")
     if key in cache["tmdb_movies"]:
         rec = cache["tmdb_movies"][key]
         return (rec["y"], rec["o"]) if rec else (None, None)
@@ -998,11 +1001,20 @@ def _movie_meta(raw_title, cache):
     data = _tmdb_get("/search/movie", **params) or {}
     rec = None
     for res in (data.get("results") or [])[:5]:
-        if _norm(res.get("title")) == _norm(clean) and (res.get("vote_count") or 0) >= 50:
-            rd = res.get("release_date") or ""
-            rec = {"y": rd[:4] if rd[:4].isdigit() else (year or ""),
-                   "o": (res.get("overview") or "").strip()}
-            break
+        rd = res.get("release_date") or ""
+        votes = res.get("vote_count") or 0
+        if _norm(res.get("title")) != _norm(clean):
+            continue
+        if year:
+            # a year in the feed is strong evidence: accept small titles (TV specials like
+            # the Peanuts ones have only a handful of votes) if TMDB's year is within 1
+            if not (rd[:4].isdigit() and abs(int(rd[:4]) - int(year)) <= 1 and votes >= 3):
+                continue
+        elif votes < 50:
+            continue
+        rec = {"y": rd[:4] if rd[:4].isdigit() else (year or ""),
+               "o": (res.get("overview") or "").strip()}
+        break
     cache["tmdb_movies"][key] = rec
     return (rec["y"], rec["o"]) if rec else (None, None)
 
