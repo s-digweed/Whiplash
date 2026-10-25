@@ -1363,6 +1363,80 @@ def build_40media(now=None):
     print(f"  40media: {ok}/{len(MEDIA40_CHANNELS)} channels, {total} programmes")
     return tv
 
+# ── Locomotion (fan-revived Latin American anime channel) ────────────────────
+# Source: the channel's own XMLTV guide. It went stale in Jan 2026 (3 identical
+# days), but the channel still plays that same 24h schedule every day - verified
+# Oct 25 2026 on air (Duckman, then South Park on the half hour). The file says
+# -0400 but the stream actually runs at UTC-5, so its wall-clock times are re-read
+# at LOCO_UTC_OFFSET_H. If the feed ever covers "now" again, its real dates are
+# used (same offset fix); otherwise its latest full day is looped forward.
+LOCO_URL          = "http://epg.locomotiontv.com/guia.xml"
+LOCO_OUTPUT       = "Locomotion.xml"
+LOCO_ID           = "Locomotion"
+LOCO_NAME         = "Locomotion"
+LOCO_LOGO         = "https://i.imgur.com/g5psxlY.png"
+LOCO_SRC_CHANNEL  = "Locomotion"
+LOCO_UTC_OFFSET_H = -5        # channel's real clock; change if the guide drifts an hour
+LOCO_DAYS         = 14        # loop this many days ahead
+
+def _loco_wallclock(ts):
+    """'YYYYmmddHHMMSS ±HHMM' -> naive wall-clock datetime (offset ignored on purpose)."""
+    return datetime.strptime((ts or "").split()[0], "%Y%m%d%H%M%S")
+
+def build_locomotion(src_root, now=None):
+    now = now or datetime.utcnow()
+    progs = [p for p in src_root.findall("programme") if p.get("channel") == LOCO_SRC_CHANNEL]
+    if not progs:
+        return None                                   # fetch failed: keep last file
+    off = timedelta(hours=LOCO_UTC_OFFSET_H)
+    def utc(wall): return wall - off                  # wall-clock at UTC-5 -> UTC
+    items = []
+    for p in progs:
+        try:
+            a, b = _loco_wallclock(p.get("start")), _loco_wallclock(p.get("stop"))
+        except ValueError:
+            continue
+        if b > a:
+            items.append((a, b, p))
+    items.sort(key=lambda x: x[0])
+    tv = ET.Element("tv", {"generator-info-name": "locomotion-epg-generator"})
+    ch = ET.SubElement(tv, "channel", {"id": LOCO_ID})
+    ET.SubElement(ch, "display-name").text = LOCO_NAME
+    ET.SubElement(ch, "icon", {"src": LOCO_LOGO})
+
+    def emit(start_utc, stop_utc, p):
+        np_ = ET.SubElement(tv, "programme", {
+            "start": start_utc.strftime("%Y%m%d%H%M%S") + " +0000",
+            "stop":  stop_utc.strftime("%Y%m%d%H%M%S") + " +0000",
+            "channel": LOCO_ID})
+        for child in p:
+            if child.tag in ("title", "sub-title", "desc", "date", "category", "icon", "episode-num"):
+                np_.append(ET.fromstring(ET.tostring(child)))
+
+    if items and utc(items[-1][1]) > now + timedelta(hours=24):
+        for a, b, p in items:                          # feed is current: use its dates
+            emit(utc(a), utc(b), p)
+        print(f"  Locomotion: live guide is current - {len(items)} programmes")
+        return tv
+
+    # stale: take the latest complete day and repeat it daily
+    last_day = items[-1][0].date()
+    day = [(a, b, p) for a, b, p in items if a.date() == last_day]
+    if sum((b - a).total_seconds() for a, b, _ in day) < 20 * 3600:   # partial last day
+        prev = last_day - timedelta(days=1)
+        day = [(a, b, p) for a, b, p in items if a.date() == prev] or day
+    base = day[0][0].replace(hour=0, minute=0, second=0)
+    template = [(a - base, b - base, p) for a, b, p in day]
+    first = (now + off).replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=1)
+    n = 0
+    for d in range(LOCO_DAYS + 1):
+        day0 = first + timedelta(days=d)
+        for sa, sb, p in template:
+            emit(utc(day0 + sa), utc(day0 + sb), p); n += 1
+    print(f"  Locomotion: guide is stale (last day {last_day}) - looped its "
+          f"{len(template)}-slot day for {LOCO_DAYS + 1} days at UTC{LOCO_UTC_OFFSET_H:+d} ({n} programmes)")
+    return tv
+
 def build_m3u():
     lines = [f'#EXTM3U url-tvg="{EPG_RAW_URL}"', ""]
     disp = {v[0]: v[1] for v in WL_CHANNEL_MAP.values()}
@@ -1449,6 +1523,16 @@ def main():
         ET.ElementTree(mtv40).write(MEDIA40_OUTPUT, encoding="UTF-8", xml_declaration=True)
         print(f"Wrote {MEDIA40_OUTPUT}")
         print(f"Channels: {len(mtv40.findall('channel'))}, programmes: {len(mtv40.findall('programme'))}")
+
+    print(f"Fetching {LOCO_URL} ...")
+    loco_src = fetch_xml_safe(LOCO_URL, "Locomotion", headers=BROWSER_HEADERS)
+    print("Locomotion:"); ltv = build_locomotion(loco_src)
+    if ltv is not None:
+        indent(ltv)
+        ET.ElementTree(ltv).write(LOCO_OUTPUT, encoding="UTF-8", xml_declaration=True)
+        print(f"Wrote {LOCO_OUTPUT} ({len(ltv.findall('programme'))} programmes)")
+    else:
+        print(f"  Locomotion feed empty/unavailable - keeping existing {LOCO_OUTPUT}")
 
     save_desc_cache(cache)
 
