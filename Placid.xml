@@ -475,7 +475,13 @@ Placid is live every Saturday at 5:00 PM EST.</desc>
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261111120000 +0000" stop="20261111222302 +0000" channel="Placid">
+  <programme start="20261111120000 +0000" stop="20261112000000 +0000" channel="Placid">
+    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
+    <desc lang="en">Only the best in anime(tion).
+
+Placid is live every Saturday at 5:00 PM EST.</desc>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261112104651 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 
