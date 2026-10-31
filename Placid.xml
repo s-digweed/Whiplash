@@ -4,12 +4,6 @@
     <display-name>Placid</display-name>
     <icon src="https://i.imgur.com/0PCSYdW.png" />
   </channel>
-  <programme start="20261010170000 -0400" stop="20261010173000 -0400" channel="Placid">
-    <title lang="en">Azumanga Daioh</title>
-    <sub-title lang="en">Chiyo-chan's Day</sub-title>
-    <desc lang="en">Chiyo recounts the event of her daily life as a high-school student, and some of the things she misses from her primary school days.</desc>
-    <episode-num system="xmltv_ns">0.11.</episode-num>
-  </programme>
   <programme start="20261010173000 -0400" stop="20261010180000 -0400" channel="Placid">
     <title lang="en">BOCCHI THE ROCK!</title>
     <sub-title lang="en">Be Right There</sub-title>
@@ -689,7 +683,7 @@ Placid is live every Saturday at 5:00 PM EST.</desc>
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261114120000 +0000" stop="20261114190502 +0000" channel="Placid">
+  <programme start="20261114120000 +0000" stop="20261114211406 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 
