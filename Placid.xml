@@ -175,13 +175,107 @@ Placid is live every Saturday at 5:00 PM EST.</desc>
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261017120000 +0000" stop="20261018000000 +0000" channel="Placid">
+  <programme start="20261017120000 +0000" stop="20261017210000 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261018000000 +0000" stop="20261018120000 +0000" channel="Placid">
+  <programme start="20261017170000 -0400" stop="20261017173000 -0400" channel="Placid">
+    <title lang="en">Azumanga Daioh</title>
+    <sub-title lang="en">Midterm Exams</sub-title>
+    <desc lang="en">Tomo, Kagura and Osaka make a last-minute effort to study for the upcoming exams, as they realize they cannot get help from their classmates.</desc>
+    <episode-num system="xmltv_ns">0.12.</episode-num>
+  </programme>
+  <programme start="20261017173000 -0400" stop="20261017180000 -0400" channel="Placid">
+    <title lang="en">BOCCHI THE ROCK!</title>
+    <sub-title lang="en">Duodecimal Sunset</sub-title>
+    <desc lang="en">The culture festival's rolled around, and the Kessoku Band girls want to enjoy it with Bocchi... if they can even find her first!</desc>
+    <episode-num system="xmltv_ns">0.10.</episode-num>
+  </programme>
+  <programme start="20261017180000 -0400" stop="20261017183000 -0400" channel="Placid">
+    <title lang="en">Aria the Animation</title>
+    <sub-title lang="en">On That Special Day...</sub-title>
+    <desc lang="en">One morning, Akari wakes up to find the entire city flooded with water! It's the Acqua Alta, a once-a-year phenomenon where the water levels rise, causing all of Neo-Venezia to shut down for a day. But while most people spend the day relaxing, Aika's mentor Akira is as strict as ever, and yells at her to get back to training. Aika has just the solution to get her mentor off her back: she's running away to the Aria Company!</desc>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <new />
+  </programme>
+  <programme start="20261017183000 -0400" stop="20261017190000 -0400" channel="Placid">
+    <title lang="en">Keep Your Hands Off Eizouken!</title>
+    <sub-title lang="en">Shibahama UFO Wars!</sub-title>
+    <desc lang="en">At the last possible second, the eizouken runs into a snag with their short film for the upcoming Comet A convention. With time running out, can they manage to salvage their new film in time?</desc>
+    <episode-num system="xmltv_ns">0.11.</episode-num>
+    <new />
+  </programme>
+  <programme start="20261017190000 -0400" stop="20261017193000 -0400" channel="Placid">
+    <title lang="en">JUJUTSU KAISEN</title>
+    <sub-title lang="en">Hidden Inventory 2</sub-title>
+    <desc lang="en">Gojo and Geto are assigned to the mission of escorting and erasing the young girl compatible with the Tengen - the Star Plasma Vessel. Amanai Riko is being targeted by the Curse User Group Q, and the religious cult the Star Religious Group.</desc>
+    <episode-num system="xmltv_ns">0.25.</episode-num>
+    <new />
+  </programme>
+  <programme start="20261017193000 -0400" stop="20261017200000 -0400" channel="Placid">
+    <title lang="en">Zom 100: Bucket List of the Dead</title>
+    <sub-title lang="en">Bucket List of the Dead</sub-title>
+    <desc lang="en">Determined to make up for all his lost vacation days, Akira goes into super lazy mode — until he has to brave the zombified streets to get more beer.</desc>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <new />
+  </programme>
+  <programme start="20261017200000 -0400" stop="20261017203000 -0400" channel="Placid">
+    <title lang="en">Bleach</title>
+    <sub-title lang="en">Desperation! The Broken Zangetsu</sub-title>
+    <desc lang="en">As the high-ranking members of the Gotei 13 continue to react to 5th Division Captain Sōsuke Aizen's murder, Ichigo Kurosaki continues his battle with 11th Division Captain Kenpachi Zaraki.</desc>
+    <episode-num system="xmltv_ns">0.37.</episode-num>
+  </programme>
+  <programme start="20261017203000 -0400" stop="20261017210000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">The Sword God Rises - Does it Have a Sweet or Salty Taste?</sub-title>
+    <desc lang="en">Sid’s secret sabotage mission into Arachne’s research facility is jeopardized when Black☆Star arrives. Hoping to avenge Maka, the hot-headed Meister is looking for a fight - and Mifune is ready to oblige.</desc>
+    <episode-num system="xmltv_ns">0.27.</episode-num>
+    <new />
+  </programme>
+  <programme start="20261017210000 -0400" stop="20261017213000 -0400" channel="Placid">
+    <title lang="en">Eureka Seven</title>
+    <sub-title lang="en">The Beginning</sub-title>
+    <desc lang="en">Renton comes face-to-face with Anemone, the girl he met in his dreams, after returning from the Corallian Zone. Both Anemone and Eureka appear to be having intense headaches, making it seem as if the same thing is affecting them. So, Dominic and Renton go into the city to find medicine for them.</desc>
+    <episode-num system="xmltv_ns">0.12.</episode-num>
+    <new />
+  </programme>
+  <programme start="20261017213000 -0400" stop="20261017220000 -0400" channel="Placid">
+    <title lang="en">IGPX: Immortal Grand Prix</title>
+    <sub-title lang="en">Win or Lose</sub-title>
+    <desc lang="en">The new IG-1 season opens. The first opponent for the rookies of Team Satomi is Team Sledgemama, known for its rough play. While Sledgemama's leader Yamma relentlessly aims at Takeshi, Liz and Amy desperately fight back, but the battle in the IG-1 is tougher than anybody in Team Satomi had imagined. Takeshi looses confidence and the team spirit slumps for the worst. Then a depressed Takeshi meets "Princess" Fantine from Team Skylark, the idol of the IG-1.</desc>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <new />
+  </programme>
+  <programme start="20261017220000 -0400" stop="20261017223000 -0400" channel="Placid">
+    <title lang="en">The Big O</title>
+    <sub-title lang="en">Dorothy, Dorothy</sub-title>
+    <desc lang="en">In the previous episode, Major Dastun and Dorothy looked like they were going to be crushed by Dorothy One as it fell.  However, when the dust cleared, Dastun was fine and Dorothy had disappeared.  Roger took Big O back into the subway to escape Dastun's rage over the destruction of the fight.  Then, he began to search for Dorothy.  He received a tip about a nightingale in the city, which led him to a club called Nightingale.  There Roger found Dorothy along with a man named Waynewright who said he was her grandfather.  Dorothy sang in the club after which Beck arrived, shot Waynewright, knocked out Roger and kidnapped Dorothy.</desc>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <new />
+  </programme>
+  <programme start="20261017223000 -0400" stop="20261017230000 -0400" channel="Placid">
+    <title lang="en">InuYasha</title>
+    <sub-title lang="en">Naraku's Insidious Plot</sub-title>
+    <desc lang="en">Sango fights Inuyasha, believing him to be her enemy. Naraku's plan is to have her fight to the death using the power of the Shikon Jewel shard. But Sango listens to Kagome and is no longer suspicious of Inuyasha.</desc>
+    <episode-num system="xmltv_ns">0.24.</episode-num>
+    <new />
+  </programme>
+  <programme start="20261017230000 -0400" stop="20261017233000 -0400" channel="Placid">
+    <title lang="en">Samurai Champloo</title>
+    <sub-title lang="en">War of the Words</sub-title>
+    <desc lang="en">Mugen learns his letters from a sake-guzzling maniac, Jin makes good on a promise from many years ago, and Fuu sparks a jealous showdown between two bickering graffiti artists.</desc>
+    <episode-num system="xmltv_ns">0.17.</episode-num>
+    <new />
+  </programme>
+  <programme start="20261017233000 -0400" stop="20261018000000 -0400" channel="Placid">
+    <title lang="en">The Boondocks</title>
+    <sub-title lang="en">The Fundraiser</sub-title>
+    <desc lang="en">Riley organizes a fundraiser with Cindy McPhearson and other kids from Woodcrest.</desc>
+    <episode-num system="xmltv_ns">2.6.</episode-num>
+  </programme>
+  <programme start="20261018040000 +0000" stop="20261018120000 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 
@@ -343,13 +437,97 @@ Placid is live every Saturday at 5:00 PM EST.</desc>
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261031120000 +0000" stop="20261101000000 +0000" channel="Placid">
+  <programme start="20261031120000 +0000" stop="20261031210000 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261101000000 +0000" stop="20261101120000 +0000" channel="Placid">
+  <programme start="20261031170000 -0400" stop="20261031173000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">Resonance of the Soul - Will Soul Eater Become a Death Scythe?</sub-title>
+    <desc lang="en">With 99 evil souls consumed, Soul just needs to defeat a witch to become a Death Scythe. He and Maka make their move against Blair - but a pointy hat doesn’t always mean witch!</desc>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme start="20261031173000 -0400" stop="20261031180000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">I Am the Star! The Big Man is Showing Up Here?</sub-title>
+    <desc lang="en">A mobster and his goons are gunning for a witch, and Black☆Star and Tsubaki want the souls of all involved. Their plan runs into trouble when the witch’s bodyguard draws his sword.</desc>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+  </programme>
+  <programme start="20261031180000 -0400" stop="20261031183000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">The Perfect Boy - Death the Kid's Magnificent Mission?</sub-title>
+    <desc lang="en">Death the Kid, Patty, and Liz travel to the desert to battle a witch who’s raising the dead. If a horde of mummies doesn’t stop them, Kid’s freaky symmetry obsession might.</desc>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme start="20261031183000 -0400" stop="20261031190000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">Black-blooded Terror - There's a Weapon Inside Crona?</sub-title>
+    <desc lang="en">Maka and Soul’s trip to Italy turns ugly when they run into Crona and Ragnarok, a Meister and Weapon team that shares a highly unusual bond.</desc>
+    <episode-num system="xmltv_ns">0.6.</episode-num>
+  </programme>
+  <programme start="20261031190000 -0400" stop="20261031193000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">Legend of the Holy Sword - Kid and Black☆Star's Great Adventure?</sub-title>
+    <desc lang="en">Black☆Star and Death the Kid discover the worst part of searching for the legendary Excalibur: finding the legendary Excalibur.</desc>
+    <episode-num system="xmltv_ns">0.8.</episode-num>
+  </programme>
+  <programme start="20261031193000 -0400" stop="20261031200000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">The Enchanted Sword Masamune - Break the Soul Possession: A Heart Sings in the Rain?</sub-title>
+    <desc lang="en">Black☆Star and Tsubaki face Masamune, and as the battle against the dark Weapon escalates, it becomes clear that Tsubaki must finish the fight alone.</desc>
+    <episode-num system="xmltv_ns">0.9.</episode-num>
+  </programme>
+  <programme start="20261031200000 -0400" stop="20261031203000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">Tsubaki the Camellia Blossom - What Lies Beyond the Grief?</sub-title>
+    <desc lang="en">Black☆Star and Tsubaki will claim their first soul if they defeat Masamune - but if Tsubaki falls, she will be absorbed forever by her powerful and bitter brother.</desc>
+    <episode-num system="xmltv_ns">0.10.</episode-num>
+  </programme>
+  <programme start="20261031203000 -0400" stop="20261031210000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">The Soul Eating Black Dragon - Scaredy-cat Liz and Her Merry Friends?</sub-title>
+    <desc lang="en">Death the Kid and the Thompson sisters board a ghost ship full of human souls. After facing the vessel’s demented captain, true evil unfurls its wings.</desc>
+    <episode-num system="xmltv_ns">0.14.</episode-num>
+  </programme>
+  <programme start="20261031210000 -0400" stop="20261031213000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">Fierce Battle Aboard the Ghost Ship - The Hell Inside My Head?</sub-title>
+    <desc lang="en">Unsettled by something he heard on the ghost ship, Kid asks his father an unimaginable question. Dr. Stein has his own questions regarding Medusa’s qualifications as a nurse.</desc>
+    <episode-num system="xmltv_ns">0.15.</episode-num>
+  </programme>
+  <programme start="20261031213000 -0400" stop="20261031220000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">The Black Blood Resonance Battle! A Small Soul's Grand Struggle Against Fear?</sub-title>
+    <desc lang="en">Empowered by black blood, Crona proves difficult to defeat. With their survival on the line, Maka and Soul push themselves to the brink of madness.</desc>
+    <episode-num system="xmltv_ns">0.19.</episode-num>
+  </programme>
+  <programme start="20261031220000 -0400" stop="20261031223000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">May My Soul Reach You - A Dry Heart Inside Unbearable Isolation?</sub-title>
+    <desc lang="en">Maka’s fight with Crona takes a very surprising turn when she puts herself in danger, hoping her actions will free the odd little Meister from a life of pain.</desc>
+    <episode-num system="xmltv_ns">0.20.</episode-num>
+  </programme>
+  <programme start="20261031223000 -0400" stop="20261031230000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">The Seal Shrine - The Immortal Man's Tricks?</sub-title>
+    <desc lang="en">Free and Eruka are perilously close to releasing Asura - close enough to witness a terrifying display of the Kishin’s madness and power.</desc>
+    <episode-num system="xmltv_ns">0.21.</episode-num>
+  </programme>
+  <programme start="20261031230000 -0400" stop="20261031233000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">Dead or Alive - In the Rift between Revival and Dazzlement?</sub-title>
+    <desc lang="en">Dr. Stein and Medusa’s fight reaches a deadly climax, but the battle still rages in Asura’s chamber - if Black☆Star and Kid can’t defeat Eruka and Free, the Kishin will be unsealed.</desc>
+    <episode-num system="xmltv_ns">0.22.</episode-num>
+  </programme>
+  <programme start="20261031233000 -0400" stop="20261101000000 -0400" channel="Placid">
+    <title lang="en">Soul Eater</title>
+    <sub-title lang="en">The Battle of the Gods - Death City on the Verge of Collapse?</sub-title>
+    <desc lang="en">Free from his underground prison, Asura unleashes his terrible powers on Death City! High in the air, above the destruction, Death himself engages the Kishin in battle.</desc>
+    <episode-num system="xmltv_ns">0.23.</episode-num>
+  </programme>
+  <programme start="20261101040000 +0000" stop="20261101120000 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 
@@ -511,7 +689,7 @@ Placid is live every Saturday at 5:00 PM EST.</desc>
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261114120000 +0000" stop="20261114155923 +0000" channel="Placid">
+  <programme start="20261114120000 +0000" stop="20261114190502 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 
