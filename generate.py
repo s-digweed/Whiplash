@@ -1189,7 +1189,13 @@ def build_weekly(ch_id, name, logo, sched, cache, end, start=None, tz=_central_t
 # Source serves only a short window, live ~once a week (Sat). We ROLLING-MERGE
 # each run into placid_state.json (committed) so captured blocks persist, prune
 # old history, then fill all off-air time with 12h filler. Output Placid.xml.
-PLACID_URL          = "https://placid.webch.nl/assets/api/schedules.php?id=38"
+# Every schedule upload gets a NEW id. The bare endpoint lists them (newest first):
+#   [{"id":44,"filename":"Oct 31.xml","uploaded_at":"2026-10-30 14:45:40"}, ...]
+# so we read the list each run and pull the newest few uploads.
+PLACID_LIST_URL     = "https://placid.webch.nl/assets/api/schedules.php"
+PLACID_URL          = PLACID_LIST_URL + "?id={id}"
+PLACID_FALLBACK_ID  = 44                      # used only if the list itself can't be read
+PLACID_FETCH_LATEST = 4                       # how many of the newest uploads to pull each run
 PLACID_OUTPUT       = "Placid.xml"
 PLACID_ID           = "Placid"
 PLACID_NAME         = "Placid"
@@ -1219,7 +1225,30 @@ def _next_grid12(dt):
             return c
     return dt + timedelta(hours=12)
 
-def build_placid(src_root, state_path=PLACID_STATE, now=None):
+def fetch_placid_uploads():
+    """Newest Placid schedule uploads as a list of XML roots, OLDEST first (so a newer
+    upload overrides an older one where they overlap)."""
+    ids = []
+    try:
+        r = requests.get(PLACID_LIST_URL, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+        r.raise_for_status()
+        rows = [x for x in r.json() if isinstance(x, dict) and str(x.get("id", "")).isdigit()]
+        rows.sort(key=lambda x: (x.get("uploaded_at") or "", int(x["id"])))
+        ids = [int(x["id"]) for x in rows][-PLACID_FETCH_LATEST:]
+        print(f"  Placid uploads listed: {len(rows)}; using ids {ids} "
+              f"(newest: {rows[-1].get('filename')} uploaded {rows[-1].get('uploaded_at')})" if rows else "  Placid: empty upload list")
+    except Exception as e:
+        print(f"WARNING: Placid upload list unreadable ({e}) - falling back to id {PLACID_FALLBACK_ID}")
+    if not ids:
+        ids = [PLACID_FALLBACK_ID]
+    roots = []
+    for i in ids:
+        root = fetch_xml_safe(PLACID_URL.format(id=i), f"Placid id {i}")
+        if root.findall("programme"):
+            roots.append(root)
+    return roots
+
+def build_placid(src_roots, state_path=PLACID_STATE, now=None):
     now = now or datetime.utcnow()
     try:
         with open(state_path, encoding="utf-8") as f:
@@ -1227,15 +1256,23 @@ def build_placid(src_root, state_path=PLACID_STATE, now=None):
     except Exception:
         state = {}
     added = 0
-    for prog in src_root.findall("programme"):
-        np = ET.fromstring(ET.tostring(prog)); np.set("channel", PLACID_ID)
-        _strip_local_images(np)
-        key = np.get("start")
-        if not key:
+    if not isinstance(src_roots, (list, tuple)):
+        src_roots = [src_roots]
+    for src_root in src_roots:                    # oldest upload first
+        upl = [p for p in src_root.findall("programme") if p.get("start") and p.get("stop")]
+        if not upl:
             continue
-        if key not in state:
-            added += 1
-        state[key] = ET.tostring(np, encoding="unicode")        # add or refresh
+        # a newer upload REPLACES whatever we had inside its time span (handles reshuffles)
+        a = min(_xmltv_to_utc(p.get("start")) for p in upl)
+        b = max(_xmltv_to_utc(p.get("stop")) for p in upl)
+        state = {k: v for k, v in state.items() if not (a <= _xmltv_to_utc(k) < b)}
+        for prog in upl:
+            np = ET.fromstring(ET.tostring(prog)); np.set("channel", PLACID_ID)
+            _strip_local_images(np)
+            key = np.get("start")
+            if key not in state:
+                added += 1
+            state[key] = ET.tostring(np, encoding="unicode")        # add or refresh
     cutoff = now - timedelta(days=PLACID_KEEP_DAYS)
     state = {k: v for k, v in state.items() if _xmltv_to_utc(k) >= cutoff}
     with open(state_path, "w", encoding="utf-8") as f:
@@ -1508,8 +1545,8 @@ def main():
         print(f"Wrote {out}")
         print(f"Channels: {len(wtv.findall('channel'))}, programmes: {len(wtv.findall('programme'))}")
 
-    print(f"Fetching {PLACID_URL} ...")
-    placid_src = fetch_xml_safe(PLACID_URL, "Placid")
+    print(f"Fetching Placid uploads from {PLACID_LIST_URL} ...")
+    placid_src = fetch_placid_uploads()
     print("Placid:"); ptv = build_placid(placid_src)
     indent(ptv)
     ET.ElementTree(ptv).write(PLACID_OUTPUT, encoding="UTF-8", xml_declaration=True)
