@@ -4,294 +4,6 @@
     <display-name>Locomotion</display-name>
     <icon src="https://i.imgur.com/g5psxlY.png" />
   </channel>
-  <programme start="20261029050000 +0000" stop="20261029053000 +0000" channel="Locomotion">
-    <title lang="es">Chica Marioneta J</title>
-    <desc lang="es">En un planeta solo de hombres, Terra II que está poblado por clones de los seis hombres que fueron abandonados allí 300 años antes. Las únicas hembras son robots llamados "marionetas", que sirven como trabajadoras y soldados. Lima, Cereza y Zarzamora son diferentes de la mayoría de las demás, ya que cada uno posee un circuito especial que les da emociones humanas.</desc>
-    <date>1996</date>
-    <icon src="http://epg.locomotiontv.com/imgs/saberj.jpg" />
-  </programme>
-  <programme start="20261029053000 +0000" stop="20261029060000 +0000" channel="Locomotion">
-    <title lang="es">The Vision of Escaflowne</title>
-    <desc lang="es">Hitomi Kanzaki es una estudiante de secundaria promedio. Además de ser una excelente atleta, también es portadora de un poder excepcional para vislumbrar el futuro de los demás a través de una baraja del tarot y últimamente ha tenido visiones extrañas de personas y seres fantasticos.</desc>
-    <date>1996</date>
-    <icon src="http://epg.locomotiontv.com/imgs/escaflowne.jpg" />
-  </programme>
-  <programme start="20261029060000 +0000" stop="20261029063000 +0000" channel="Locomotion">
-    <title lang="es">El Baron Rojo</title>
-    <desc lang="es">Ken de la Rosa, junto con su compañera de equipo Sali (que fue, al principio, inflexible), pilotea el Super Robot de Pelea, Baron Rojo y entra al concurso con el sueño de convertirse en el campeón.</desc>
-    <date>1994</date>
-    <icon src="http://epg.locomotiontv.com/imgs/baron.png" />
-  </programme>
-  <programme start="20261029063000 +0000" stop="20261029070000 +0000" channel="Locomotion">
-    <title lang="es">Cliffhanger (Lupin III)</title>
-    <desc lang="es">Las aventuras del maestro ladrón Lupin III y sus secuaces a medida que se sumergen en varias escapadas, todo el tiempo en la persecución por el tenaz inspector Zenigata.</desc>
-    <date>1971</date>
-    <icon src="http://epg.locomotiontv.com/imgs/lupin.jpg" />
-  </programme>
-  <programme start="20261029070000 +0000" stop="20261029073000 +0000" channel="Locomotion">
-    <title lang="es">Lost Universe</title>
-    <desc lang="es">Estamos en una época futurista, la fuente de poder de la humanidad se conoce como psicho-energía y el medio de transporte más usado es la nave espacial; Kain Blueriver es un joven "Cazaproblemas" que viaja por el universo junto a una holograma llamada Canary que es la computadora central de la nave en la que viajan: la Swordbreaker (Súper Espada).</desc>
-    <date>1998</date>
-    <icon src="http://epg.locomotiontv.com/imgs/lost.jpg" />
-  </programme>
-  <programme start="20261029073000 +0000" stop="20261029080000 +0000" channel="Locomotion">
-    <title lang="es">Evangelion</title>
-    <desc lang="es">Shinji, un adolescente que fue reclutado por su padre para la misteriosa organización (Nerv) para pilotear un robot gigante de bio-máquina llamado "Evangelion" en combate con seres alienígenas llamado "Angeles".</desc>
-    <date>1995</date>
-    <icon src="http://epg.locomotiontv.com/imgs/eva.png" />
-  </programme>
-  <programme start="20261029080000 +0000" stop="20261029083000 +0000" channel="Locomotion">
-    <title lang="es">Los Cazadores de Duendes</title>
-    <desc lang="es">Una actriz, un peleador de artes marciales, una estudiante de secundaria loca por las armas, y su tanque son transportados desde la tierra a un mundo de duendes y magia. Sin embargo, el hechizo para devolverlos a casa se estropeó y los fragmentos del hechizo se imprimieron mágicamente en la piel de duendes.</desc>
-    <date>1997</date>
-    <icon src="http://epg.locomotiontv.com/imgs/duendes.jpg" />
-  </programme>
-  <programme start="20261029083000 +0000" stop="20261029090000 +0000" channel="Locomotion">
-    <title lang="es">Soul Hunter</title>
-    <desc lang="es">Hace miles de años, era una época de brujería y magia oscura. Una malvada hechicera ha hechizado al emperador de la poderosa dinastía y se ha convertido en un títere sin sentido. El país está en ruinas, y los espíritus malignos acechan en todas partes.</desc>
-    <date>1999</date>
-    <icon src="http://epg.locomotiontv.com/imgs/soul.jpg" />
-  </programme>
-  <programme start="20261029090000 +0000" stop="20261029093000 +0000" channel="Locomotion">
-    <title lang="es">Bubblegum Crisis Tokyo 2040</title>
-    <desc lang="es">Después de un misterioso terremoto sacude Tokio, Genom se convierte en una poderosa influencia proporcionando sus formas de vida orgánicas artificiales llamados Boomers para reconstruir y actuar como una clase de trabajo para la humanidad. Sin embargo, algunos de ellos ocasionalmente se vuelven locos, e incluso la Policía Antidroga especialmente creada no puede detenerlos.</desc>
-    <date>1998</date>
-    <icon src="http://epg.locomotiontv.com/imgs/bubble.jpg" />
-  </programme>
-  <programme start="20261029093000 +0000" stop="20261029100000 +0000" channel="Locomotion">
-    <title lang="es">Chica Marioneta J</title>
-    <desc lang="es">En un planeta solo de hombres, Terra II que está poblado por clones de los seis hombres que fueron abandonados allí 300 años antes. Las únicas hembras son robots llamados "marionetas", que sirven como trabajadoras y soldados. Lima, Cereza y Zarzamora son diferentes de la mayoría de las demás, ya que cada uno posee un circuito especial que les da emociones humanas.</desc>
-    <date>1996</date>
-    <icon src="http://epg.locomotiontv.com/imgs/saberj.jpg" />
-  </programme>
-  <programme start="20261029100000 +0000" stop="20261029103000 +0000" channel="Locomotion">
-    <title lang="es">The Vision of Escaflowne</title>
-    <desc lang="es">Hitomi Kanzaki es una estudiante de secundaria promedio. Además de ser una excelente atleta, también es portadora de un poder excepcional para vislumbrar el futuro de los demás a través de una baraja del tarot y últimamente ha tenido visiones extrañas de personas y seres fantasticos.</desc>
-    <date>1996</date>
-    <icon src="http://epg.locomotiontv.com/imgs/escaflowne.jpg" />
-  </programme>
-  <programme start="20261029103000 +0000" stop="20261029110000 +0000" channel="Locomotion">
-    <title lang="es">Blue Seed</title>
-    <desc lang="es">Momiji es una niña promedio hasta el día en que descubre que es descendiente de la gran familia Kushinada. Solo ella, con su sangre Kushinada, puede detener a los Aragami, monstruos parecidos a plantas demoníacas que amenazan con destruir Japón.</desc>
-    <date>1994</date>
-    <icon src="http://epg.locomotiontv.com/imgs/blue.jpg" />
-  </programme>
-  <programme start="20261029110000 +0000" stop="20261029113000 +0000" channel="Locomotion">
-    <title lang="es">Cowboy Bebop</title>
-    <desc lang="es">El esbelto y despreocupado Spike Spiegel se equilibra con su bullicioso y pragmático compañero Jet Black mientras la pareja se gana la vida persiguiendo recompensas y recogiendo recompensas.</desc>
-    <date>1998</date>
-    <icon src="http://epg.locomotiontv.com/imgs/bebop.jpg" />
-  </programme>
-  <programme start="20261029113000 +0000" stop="20261029120000 +0000" channel="Locomotion">
-    <title lang="es">Ranma ½</title>
-    <desc lang="es">Ranma Saotome es una artista y prodigio marcial de primera clase en la escuela de artes marciales Saotome "Anything-Goes". Mientras entrena en China, él y su padre enfrentan un destino terrible cuando caen accidentalmente en una maldita primavera.</desc>
-    <date>1989</date>
-    <icon src="http://epg.locomotiontv.com/imgs/ranma.jpg" />
-  </programme>
-  <programme start="20261029120000 +0000" stop="20261029123000 +0000" channel="Locomotion">
-    <title lang="es">Duckman</title>
-    <desc lang="es">Duckman, un pato políticamente incorrecto, fumador enviciado, que siempre está quejándose de la vida.</desc>
-    <date>1994</date>
-    <icon src="http://epg.locomotiontv.com/imgs/duckman.jpg" />
-  </programme>
-  <programme start="20261029123000 +0000" stop="20261029130000 +0000" channel="Locomotion">
-    <title lang="es">South Park</title>
-    <desc lang="es">Sigue el desventuras de cuatro irreverente niños en la no tan tranquila y disfuncional ciudad de South Park, Colorado.</desc>
-    <date>1997</date>
-    <icon src="http://epg.locomotiontv.com/imgs/sp.png" />
-  </programme>
-  <programme start="20261029130000 +0000" stop="20261029133000 +0000" channel="Locomotion">
-    <title lang="es">Thundercats</title>
-    <desc lang="es">Los habitantes del planeta Thundera evacuan justo antes de ser destruido. Solo quedaba un pequeño grupo de Thunderans (Thundercats). Con solo la mitad de la potencia del motor, el grupo, que fue dirigido por Jaga, tuvo que establecer un rumbo para el planeta más cercano.</desc>
-    <date>1985</date>
-    <icon src="http://epg.locomotiontv.com/imgs/tcats.jpg" />
-  </programme>
-  <programme start="20261029133000 +0000" stop="20261029140000 +0000" channel="Locomotion">
-    <title lang="es">Los Defensores De La Tierra</title>
-    <desc lang="es">Cuatro de los mejores héroes de la tierra se unen para luchar contra Ming el despiadado.</desc>
-    <date>1986</date>
-    <icon src="http://epg.locomotiontv.com/imgs/defensores.jpg" />
-  </programme>
-  <programme start="20261029140000 +0000" stop="20261029143000 +0000" channel="Locomotion">
-    <title lang="es">El Baron Rojo</title>
-    <desc lang="es">Ken de la Rosa, junto con su compañera de equipo Sali (que fue, al principio, inflexible), pilotea el Super Robot de Pelea, Baron Rojo y entra al concurso con el sueño de convertirse en el campeón.</desc>
-    <date>1994</date>
-    <icon src="http://epg.locomotiontv.com/imgs/baron.png" />
-  </programme>
-  <programme start="20261029143000 +0000" stop="20261029150000 +0000" channel="Locomotion">
-    <title lang="es">Cliffhanger (Lupin III)</title>
-    <desc lang="es">Las aventuras del maestro ladrón Lupin III y sus secuaces a medida que se sumergen en varias escapadas, todo el tiempo en la persecución por el tenaz inspector Zenigata.</desc>
-    <date>1971</date>
-    <icon src="http://epg.locomotiontv.com/imgs/lupin.jpg" />
-  </programme>
-  <programme start="20261029150000 +0000" stop="20261029153000 +0000" channel="Locomotion">
-    <title lang="es">Lost Universe</title>
-    <desc lang="es">Estamos en una época futurista, la fuente de poder de la humanidad se conoce como psicho-energía y el medio de transporte más usado es la nave espacial; Kain Blueriver es un joven "Cazaproblemas" que viaja por el universo junto a una holograma llamada Canary que es la computadora central de la nave en la que viajan: la Swordbreaker (Súper Espada).</desc>
-    <date>1998</date>
-    <icon src="http://epg.locomotiontv.com/imgs/lost.jpg" />
-  </programme>
-  <programme start="20261029153000 +0000" stop="20261029160000 +0000" channel="Locomotion">
-    <title lang="es">Evangelion</title>
-    <desc lang="es">Shinji, un adolescente que fue reclutado por su padre para la misteriosa organización (Nerv) para pilotear un robot gigante de bio-máquina llamado "Evangelion" en combate con seres alienígenas llamado "Angeles".</desc>
-    <date>1995</date>
-    <icon src="http://epg.locomotiontv.com/imgs/eva.png" />
-  </programme>
-  <programme start="20261029160000 +0000" stop="20261029163000 +0000" channel="Locomotion">
-    <title lang="es">Los Cazadores de Duendes</title>
-    <desc lang="es">Una actriz, un peleador de artes marciales, una estudiante de secundaria loca por las armas, y su tanque son transportados desde la tierra a un mundo de duendes y magia. Sin embargo, el hechizo para devolverlos a casa se estropeó y los fragmentos del hechizo se imprimieron mágicamente en la piel de duendes.</desc>
-    <date>1997</date>
-    <icon src="http://epg.locomotiontv.com/imgs/duendes.jpg" />
-  </programme>
-  <programme start="20261029163000 +0000" stop="20261029170000 +0000" channel="Locomotion">
-    <title lang="es">Soul Hunter</title>
-    <desc lang="es">Hace miles de años, era una época de brujería y magia oscura. Una malvada hechicera ha hechizado al emperador de la poderosa dinastía y se ha convertido en un títere sin sentido. El país está en ruinas, y los espíritus malignos acechan en todas partes.</desc>
-    <date>1999</date>
-    <icon src="http://epg.locomotiontv.com/imgs/soul.jpg" />
-  </programme>
-  <programme start="20261029170000 +0000" stop="20261029173000 +0000" channel="Locomotion">
-    <title lang="es">Bubblegum Crisis Tokyo 2040</title>
-    <desc lang="es">Después de un misterioso terremoto sacude Tokio, Genom se convierte en una poderosa influencia proporcionando sus formas de vida orgánicas artificiales llamados Boomers para reconstruir y actuar como una clase de trabajo para la humanidad. Sin embargo, algunos de ellos ocasionalmente se vuelven locos, e incluso la Policía Antidroga especialmente creada no puede detenerlos.</desc>
-    <date>1998</date>
-    <icon src="http://epg.locomotiontv.com/imgs/bubble.jpg" />
-  </programme>
-  <programme start="20261029173000 +0000" stop="20261029180000 +0000" channel="Locomotion">
-    <title lang="es">Chica Marioneta J</title>
-    <desc lang="es">En un planeta solo de hombres, Terra II que está poblado por clones de los seis hombres que fueron abandonados allí 300 años antes. Las únicas hembras son robots llamados "marionetas", que sirven como trabajadoras y soldados. Lima, Cereza y Zarzamora son diferentes de la mayoría de las demás, ya que cada uno posee un circuito especial que les da emociones humanas.</desc>
-    <date>1996</date>
-    <icon src="http://epg.locomotiontv.com/imgs/saberj.jpg" />
-  </programme>
-  <programme start="20261029180000 +0000" stop="20261029183000 +0000" channel="Locomotion">
-    <title lang="es">The Vision of Escaflowne</title>
-    <desc lang="es">Hitomi Kanzaki es una estudiante de secundaria promedio. Además de ser una excelente atleta, también es portadora de un poder excepcional para vislumbrar el futuro de los demás a través de una baraja del tarot y últimamente ha tenido visiones extrañas de personas y seres fantasticos.</desc>
-    <date>1996</date>
-    <icon src="http://epg.locomotiontv.com/imgs/escaflowne.jpg" />
-  </programme>
-  <programme start="20261029183000 +0000" stop="20261029190000 +0000" channel="Locomotion">
-    <title lang="es">Blue Seed</title>
-    <desc lang="es">Momiji es una niña promedio hasta el día en que descubre que es descendiente de la gran familia Kushinada. Solo ella, con su sangre Kushinada, puede detener a los Aragami, monstruos parecidos a plantas demoníacas que amenazan con destruir Japón.</desc>
-    <date>1994</date>
-    <icon src="http://epg.locomotiontv.com/imgs/blue.jpg" />
-  </programme>
-  <programme start="20261029190000 +0000" stop="20261029193000 +0000" channel="Locomotion">
-    <title lang="es">Cowboy Bebop</title>
-    <desc lang="es">El esbelto y despreocupado Spike Spiegel se equilibra con su bullicioso y pragmático compañero Jet Black mientras la pareja se gana la vida persiguiendo recompensas y recogiendo recompensas.</desc>
-    <date>1998</date>
-    <icon src="http://epg.locomotiontv.com/imgs/bebop.jpg" />
-  </programme>
-  <programme start="20261029193000 +0000" stop="20261029200000 +0000" channel="Locomotion">
-    <title lang="es">Ranma ½</title>
-    <desc lang="es">Ranma Saotome es una artista y prodigio marcial de primera clase en la escuela de artes marciales Saotome "Anything-Goes". Mientras entrena en China, él y su padre enfrentan un destino terrible cuando caen accidentalmente en una maldita primavera.</desc>
-    <date>1989</date>
-    <icon src="http://epg.locomotiontv.com/imgs/ranma.jpg" />
-  </programme>
-  <programme start="20261029200000 +0000" stop="20261029203000 +0000" channel="Locomotion">
-    <title lang="es">Duckman</title>
-    <desc lang="es">Duckman, un pato políticamente incorrecto, fumador enviciado, que siempre está quejándose de la vida.</desc>
-    <date>1994</date>
-    <icon src="http://epg.locomotiontv.com/imgs/duckman.jpg" />
-  </programme>
-  <programme start="20261029203000 +0000" stop="20261029210000 +0000" channel="Locomotion">
-    <title lang="es">South Park</title>
-    <desc lang="es">Sigue el desventuras de cuatro irreverente niños en la no tan tranquila y disfuncional ciudad de South Park, Colorado.</desc>
-    <date>1997</date>
-    <icon src="http://epg.locomotiontv.com/imgs/sp.png" />
-  </programme>
-  <programme start="20261029210000 +0000" stop="20261029213000 +0000" channel="Locomotion">
-    <title lang="es">Thundercats</title>
-    <desc lang="es">Los habitantes del planeta Thundera evacuan justo antes de ser destruido. Solo quedaba un pequeño grupo de Thunderans (Thundercats). Con solo la mitad de la potencia del motor, el grupo, que fue dirigido por Jaga, tuvo que establecer un rumbo para el planeta más cercano.</desc>
-    <date>1985</date>
-    <icon src="http://epg.locomotiontv.com/imgs/tcats.jpg" />
-  </programme>
-  <programme start="20261029213000 +0000" stop="20261029220000 +0000" channel="Locomotion">
-    <title lang="es">Los Defensores De La Tierra</title>
-    <desc lang="es">Cuatro de los mejores héroes de la tierra se unen para luchar contra Ming el despiadado.</desc>
-    <date>1986</date>
-    <icon src="http://epg.locomotiontv.com/imgs/defensores.jpg" />
-  </programme>
-  <programme start="20261029220000 +0000" stop="20261029223000 +0000" channel="Locomotion">
-    <title lang="es">El Baron Rojo</title>
-    <desc lang="es">Ken de la Rosa, junto con su compañera de equipo Sali (que fue, al principio, inflexible), pilotea el Super Robot de Pelea, Baron Rojo y entra al concurso con el sueño de convertirse en el campeón.</desc>
-    <date>1994</date>
-    <icon src="http://epg.locomotiontv.com/imgs/baron.png" />
-  </programme>
-  <programme start="20261029223000 +0000" stop="20261029230000 +0000" channel="Locomotion">
-    <title lang="es">Cliffhanger (Lupin III)</title>
-    <desc lang="es">Las aventuras del maestro ladrón Lupin III y sus secuaces a medida que se sumergen en varias escapadas, todo el tiempo en la persecución por el tenaz inspector Zenigata.</desc>
-    <date>1971</date>
-    <icon src="http://epg.locomotiontv.com/imgs/lupin.jpg" />
-  </programme>
-  <programme start="20261029230000 +0000" stop="20261029233000 +0000" channel="Locomotion">
-    <title lang="es">Lost Universe</title>
-    <desc lang="es">Estamos en una época futurista, la fuente de poder de la humanidad se conoce como psicho-energía y el medio de transporte más usado es la nave espacial; Kain Blueriver es un joven "Cazaproblemas" que viaja por el universo junto a una holograma llamada Canary que es la computadora central de la nave en la que viajan: la Swordbreaker (Súper Espada).</desc>
-    <date>1998</date>
-    <icon src="http://epg.locomotiontv.com/imgs/lost.jpg" />
-  </programme>
-  <programme start="20261029233000 +0000" stop="20261030000000 +0000" channel="Locomotion">
-    <title lang="es">Evangelion</title>
-    <desc lang="es">Shinji, un adolescente que fue reclutado por su padre para la misteriosa organización (Nerv) para pilotear un robot gigante de bio-máquina llamado "Evangelion" en combate con seres alienígenas llamado "Angeles".</desc>
-    <date>1995</date>
-    <icon src="http://epg.locomotiontv.com/imgs/eva.png" />
-  </programme>
-  <programme start="20261030000000 +0000" stop="20261030003000 +0000" channel="Locomotion">
-    <title lang="es">Los Cazadores de Duendes</title>
-    <desc lang="es">Una actriz, un peleador de artes marciales, una estudiante de secundaria loca por las armas, y su tanque son transportados desde la tierra a un mundo de duendes y magia. Sin embargo, el hechizo para devolverlos a casa se estropeó y los fragmentos del hechizo se imprimieron mágicamente en la piel de duendes.</desc>
-    <date>1997</date>
-    <icon src="http://epg.locomotiontv.com/imgs/duendes.jpg" />
-  </programme>
-  <programme start="20261030003000 +0000" stop="20261030010000 +0000" channel="Locomotion">
-    <title lang="es">Soul Hunter</title>
-    <desc lang="es">Hace miles de años, era una época de brujería y magia oscura. Una malvada hechicera ha hechizado al emperador de la poderosa dinastía y se ha convertido en un títere sin sentido. El país está en ruinas, y los espíritus malignos acechan en todas partes.</desc>
-    <date>1999</date>
-    <icon src="http://epg.locomotiontv.com/imgs/soul.jpg" />
-  </programme>
-  <programme start="20261030010000 +0000" stop="20261030013000 +0000" channel="Locomotion">
-    <title lang="es">Bubblegum Crisis Tokyo 2040</title>
-    <desc lang="es">Después de un misterioso terremoto sacude Tokio, Genom se convierte en una poderosa influencia proporcionando sus formas de vida orgánicas artificiales llamados Boomers para reconstruir y actuar como una clase de trabajo para la humanidad. Sin embargo, algunos de ellos ocasionalmente se vuelven locos, e incluso la Policía Antidroga especialmente creada no puede detenerlos.</desc>
-    <date>1998</date>
-    <icon src="http://epg.locomotiontv.com/imgs/bubble.jpg" />
-  </programme>
-  <programme start="20261030013000 +0000" stop="20261030020000 +0000" channel="Locomotion">
-    <title lang="es">Chica Marioneta J</title>
-    <desc lang="es">En un planeta solo de hombres, Terra II que está poblado por clones de los seis hombres que fueron abandonados allí 300 años antes. Las únicas hembras son robots llamados "marionetas", que sirven como trabajadoras y soldados. Lima, Cereza y Zarzamora son diferentes de la mayoría de las demás, ya que cada uno posee un circuito especial que les da emociones humanas.</desc>
-    <date>1996</date>
-    <icon src="http://epg.locomotiontv.com/imgs/saberj.jpg" />
-  </programme>
-  <programme start="20261030020000 +0000" stop="20261030023000 +0000" channel="Locomotion">
-    <title lang="es">The Vision of Escaflowne</title>
-    <desc lang="es">Hitomi Kanzaki es una estudiante de secundaria promedio. Además de ser una excelente atleta, también es portadora de un poder excepcional para vislumbrar el futuro de los demás a través de una baraja del tarot y últimamente ha tenido visiones extrañas de personas y seres fantasticos.</desc>
-    <date>1996</date>
-    <icon src="http://epg.locomotiontv.com/imgs/escaflowne.jpg" />
-  </programme>
-  <programme start="20261030023000 +0000" stop="20261030030000 +0000" channel="Locomotion">
-    <title lang="es">Blue Seed</title>
-    <desc lang="es">Momiji es una niña promedio hasta el día en que descubre que es descendiente de la gran familia Kushinada. Solo ella, con su sangre Kushinada, puede detener a los Aragami, monstruos parecidos a plantas demoníacas que amenazan con destruir Japón.</desc>
-    <date>1994</date>
-    <icon src="http://epg.locomotiontv.com/imgs/blue.jpg" />
-  </programme>
-  <programme start="20261030030000 +0000" stop="20261030033000 +0000" channel="Locomotion">
-    <title lang="es">Cowboy Bebop</title>
-    <desc lang="es">El esbelto y despreocupado Spike Spiegel se equilibra con su bullicioso y pragmático compañero Jet Black mientras la pareja se gana la vida persiguiendo recompensas y recogiendo recompensas.</desc>
-    <date>1998</date>
-    <icon src="http://epg.locomotiontv.com/imgs/bebop.jpg" />
-  </programme>
-  <programme start="20261030033000 +0000" stop="20261030040000 +0000" channel="Locomotion">
-    <title lang="es">Ranma ½</title>
-    <desc lang="es">Ranma Saotome es una artista y prodigio marcial de primera clase en la escuela de artes marciales Saotome "Anything-Goes". Mientras entrena en China, él y su padre enfrentan un destino terrible cuando caen accidentalmente en una maldita primavera.</desc>
-    <date>1989</date>
-    <icon src="http://epg.locomotiontv.com/imgs/ranma.jpg" />
-  </programme>
-  <programme start="20261030040000 +0000" stop="20261030043000 +0000" channel="Locomotion">
-    <title lang="es">Duckman</title>
-    <desc lang="es">Duckman, un pato políticamente incorrecto, fumador enviciado, que siempre está quejándose de la vida.</desc>
-    <date>1994</date>
-    <icon src="http://epg.locomotiontv.com/imgs/duckman.jpg" />
-  </programme>
-  <programme start="20261030043000 +0000" stop="20261030050000 +0000" channel="Locomotion">
-    <title lang="es">South Park</title>
-    <desc lang="es">Sigue el desventuras de cuatro irreverente niños en la no tan tranquila y disfuncional ciudad de South Park, Colorado.</desc>
-    <date>1997</date>
-    <icon src="http://epg.locomotiontv.com/imgs/sp.png" />
-  </programme>
   <programme start="20261030050000 +0000" stop="20261030053000 +0000" channel="Locomotion">
     <title lang="es">Chica Marioneta J</title>
     <desc lang="es">En un planeta solo de hombres, Terra II que está poblado por clones de los seis hombres que fueron abandonados allí 300 años antes. Las únicas hembras son robots llamados "marionetas", que sirven como trabajadoras y soldados. Lima, Cereza y Zarzamora son diferentes de la mayoría de las demás, ya que cada uno posee un circuito especial que les da emociones humanas.</desc>
@@ -4319,6 +4031,294 @@
     <icon src="http://epg.locomotiontv.com/imgs/duckman.jpg" />
   </programme>
   <programme start="20261113043000 +0000" stop="20261113050000 +0000" channel="Locomotion">
+    <title lang="es">South Park</title>
+    <desc lang="es">Sigue el desventuras de cuatro irreverente niños en la no tan tranquila y disfuncional ciudad de South Park, Colorado.</desc>
+    <date>1997</date>
+    <icon src="http://epg.locomotiontv.com/imgs/sp.png" />
+  </programme>
+  <programme start="20261113050000 +0000" stop="20261113053000 +0000" channel="Locomotion">
+    <title lang="es">Chica Marioneta J</title>
+    <desc lang="es">En un planeta solo de hombres, Terra II que está poblado por clones de los seis hombres que fueron abandonados allí 300 años antes. Las únicas hembras son robots llamados "marionetas", que sirven como trabajadoras y soldados. Lima, Cereza y Zarzamora son diferentes de la mayoría de las demás, ya que cada uno posee un circuito especial que les da emociones humanas.</desc>
+    <date>1996</date>
+    <icon src="http://epg.locomotiontv.com/imgs/saberj.jpg" />
+  </programme>
+  <programme start="20261113053000 +0000" stop="20261113060000 +0000" channel="Locomotion">
+    <title lang="es">The Vision of Escaflowne</title>
+    <desc lang="es">Hitomi Kanzaki es una estudiante de secundaria promedio. Además de ser una excelente atleta, también es portadora de un poder excepcional para vislumbrar el futuro de los demás a través de una baraja del tarot y últimamente ha tenido visiones extrañas de personas y seres fantasticos.</desc>
+    <date>1996</date>
+    <icon src="http://epg.locomotiontv.com/imgs/escaflowne.jpg" />
+  </programme>
+  <programme start="20261113060000 +0000" stop="20261113063000 +0000" channel="Locomotion">
+    <title lang="es">El Baron Rojo</title>
+    <desc lang="es">Ken de la Rosa, junto con su compañera de equipo Sali (que fue, al principio, inflexible), pilotea el Super Robot de Pelea, Baron Rojo y entra al concurso con el sueño de convertirse en el campeón.</desc>
+    <date>1994</date>
+    <icon src="http://epg.locomotiontv.com/imgs/baron.png" />
+  </programme>
+  <programme start="20261113063000 +0000" stop="20261113070000 +0000" channel="Locomotion">
+    <title lang="es">Cliffhanger (Lupin III)</title>
+    <desc lang="es">Las aventuras del maestro ladrón Lupin III y sus secuaces a medida que se sumergen en varias escapadas, todo el tiempo en la persecución por el tenaz inspector Zenigata.</desc>
+    <date>1971</date>
+    <icon src="http://epg.locomotiontv.com/imgs/lupin.jpg" />
+  </programme>
+  <programme start="20261113070000 +0000" stop="20261113073000 +0000" channel="Locomotion">
+    <title lang="es">Lost Universe</title>
+    <desc lang="es">Estamos en una época futurista, la fuente de poder de la humanidad se conoce como psicho-energía y el medio de transporte más usado es la nave espacial; Kain Blueriver es un joven "Cazaproblemas" que viaja por el universo junto a una holograma llamada Canary que es la computadora central de la nave en la que viajan: la Swordbreaker (Súper Espada).</desc>
+    <date>1998</date>
+    <icon src="http://epg.locomotiontv.com/imgs/lost.jpg" />
+  </programme>
+  <programme start="20261113073000 +0000" stop="20261113080000 +0000" channel="Locomotion">
+    <title lang="es">Evangelion</title>
+    <desc lang="es">Shinji, un adolescente que fue reclutado por su padre para la misteriosa organización (Nerv) para pilotear un robot gigante de bio-máquina llamado "Evangelion" en combate con seres alienígenas llamado "Angeles".</desc>
+    <date>1995</date>
+    <icon src="http://epg.locomotiontv.com/imgs/eva.png" />
+  </programme>
+  <programme start="20261113080000 +0000" stop="20261113083000 +0000" channel="Locomotion">
+    <title lang="es">Los Cazadores de Duendes</title>
+    <desc lang="es">Una actriz, un peleador de artes marciales, una estudiante de secundaria loca por las armas, y su tanque son transportados desde la tierra a un mundo de duendes y magia. Sin embargo, el hechizo para devolverlos a casa se estropeó y los fragmentos del hechizo se imprimieron mágicamente en la piel de duendes.</desc>
+    <date>1997</date>
+    <icon src="http://epg.locomotiontv.com/imgs/duendes.jpg" />
+  </programme>
+  <programme start="20261113083000 +0000" stop="20261113090000 +0000" channel="Locomotion">
+    <title lang="es">Soul Hunter</title>
+    <desc lang="es">Hace miles de años, era una época de brujería y magia oscura. Una malvada hechicera ha hechizado al emperador de la poderosa dinastía y se ha convertido en un títere sin sentido. El país está en ruinas, y los espíritus malignos acechan en todas partes.</desc>
+    <date>1999</date>
+    <icon src="http://epg.locomotiontv.com/imgs/soul.jpg" />
+  </programme>
+  <programme start="20261113090000 +0000" stop="20261113093000 +0000" channel="Locomotion">
+    <title lang="es">Bubblegum Crisis Tokyo 2040</title>
+    <desc lang="es">Después de un misterioso terremoto sacude Tokio, Genom se convierte en una poderosa influencia proporcionando sus formas de vida orgánicas artificiales llamados Boomers para reconstruir y actuar como una clase de trabajo para la humanidad. Sin embargo, algunos de ellos ocasionalmente se vuelven locos, e incluso la Policía Antidroga especialmente creada no puede detenerlos.</desc>
+    <date>1998</date>
+    <icon src="http://epg.locomotiontv.com/imgs/bubble.jpg" />
+  </programme>
+  <programme start="20261113093000 +0000" stop="20261113100000 +0000" channel="Locomotion">
+    <title lang="es">Chica Marioneta J</title>
+    <desc lang="es">En un planeta solo de hombres, Terra II que está poblado por clones de los seis hombres que fueron abandonados allí 300 años antes. Las únicas hembras son robots llamados "marionetas", que sirven como trabajadoras y soldados. Lima, Cereza y Zarzamora son diferentes de la mayoría de las demás, ya que cada uno posee un circuito especial que les da emociones humanas.</desc>
+    <date>1996</date>
+    <icon src="http://epg.locomotiontv.com/imgs/saberj.jpg" />
+  </programme>
+  <programme start="20261113100000 +0000" stop="20261113103000 +0000" channel="Locomotion">
+    <title lang="es">The Vision of Escaflowne</title>
+    <desc lang="es">Hitomi Kanzaki es una estudiante de secundaria promedio. Además de ser una excelente atleta, también es portadora de un poder excepcional para vislumbrar el futuro de los demás a través de una baraja del tarot y últimamente ha tenido visiones extrañas de personas y seres fantasticos.</desc>
+    <date>1996</date>
+    <icon src="http://epg.locomotiontv.com/imgs/escaflowne.jpg" />
+  </programme>
+  <programme start="20261113103000 +0000" stop="20261113110000 +0000" channel="Locomotion">
+    <title lang="es">Blue Seed</title>
+    <desc lang="es">Momiji es una niña promedio hasta el día en que descubre que es descendiente de la gran familia Kushinada. Solo ella, con su sangre Kushinada, puede detener a los Aragami, monstruos parecidos a plantas demoníacas que amenazan con destruir Japón.</desc>
+    <date>1994</date>
+    <icon src="http://epg.locomotiontv.com/imgs/blue.jpg" />
+  </programme>
+  <programme start="20261113110000 +0000" stop="20261113113000 +0000" channel="Locomotion">
+    <title lang="es">Cowboy Bebop</title>
+    <desc lang="es">El esbelto y despreocupado Spike Spiegel se equilibra con su bullicioso y pragmático compañero Jet Black mientras la pareja se gana la vida persiguiendo recompensas y recogiendo recompensas.</desc>
+    <date>1998</date>
+    <icon src="http://epg.locomotiontv.com/imgs/bebop.jpg" />
+  </programme>
+  <programme start="20261113113000 +0000" stop="20261113120000 +0000" channel="Locomotion">
+    <title lang="es">Ranma ½</title>
+    <desc lang="es">Ranma Saotome es una artista y prodigio marcial de primera clase en la escuela de artes marciales Saotome "Anything-Goes". Mientras entrena en China, él y su padre enfrentan un destino terrible cuando caen accidentalmente en una maldita primavera.</desc>
+    <date>1989</date>
+    <icon src="http://epg.locomotiontv.com/imgs/ranma.jpg" />
+  </programme>
+  <programme start="20261113120000 +0000" stop="20261113123000 +0000" channel="Locomotion">
+    <title lang="es">Duckman</title>
+    <desc lang="es">Duckman, un pato políticamente incorrecto, fumador enviciado, que siempre está quejándose de la vida.</desc>
+    <date>1994</date>
+    <icon src="http://epg.locomotiontv.com/imgs/duckman.jpg" />
+  </programme>
+  <programme start="20261113123000 +0000" stop="20261113130000 +0000" channel="Locomotion">
+    <title lang="es">South Park</title>
+    <desc lang="es">Sigue el desventuras de cuatro irreverente niños en la no tan tranquila y disfuncional ciudad de South Park, Colorado.</desc>
+    <date>1997</date>
+    <icon src="http://epg.locomotiontv.com/imgs/sp.png" />
+  </programme>
+  <programme start="20261113130000 +0000" stop="20261113133000 +0000" channel="Locomotion">
+    <title lang="es">Thundercats</title>
+    <desc lang="es">Los habitantes del planeta Thundera evacuan justo antes de ser destruido. Solo quedaba un pequeño grupo de Thunderans (Thundercats). Con solo la mitad de la potencia del motor, el grupo, que fue dirigido por Jaga, tuvo que establecer un rumbo para el planeta más cercano.</desc>
+    <date>1985</date>
+    <icon src="http://epg.locomotiontv.com/imgs/tcats.jpg" />
+  </programme>
+  <programme start="20261113133000 +0000" stop="20261113140000 +0000" channel="Locomotion">
+    <title lang="es">Los Defensores De La Tierra</title>
+    <desc lang="es">Cuatro de los mejores héroes de la tierra se unen para luchar contra Ming el despiadado.</desc>
+    <date>1986</date>
+    <icon src="http://epg.locomotiontv.com/imgs/defensores.jpg" />
+  </programme>
+  <programme start="20261113140000 +0000" stop="20261113143000 +0000" channel="Locomotion">
+    <title lang="es">El Baron Rojo</title>
+    <desc lang="es">Ken de la Rosa, junto con su compañera de equipo Sali (que fue, al principio, inflexible), pilotea el Super Robot de Pelea, Baron Rojo y entra al concurso con el sueño de convertirse en el campeón.</desc>
+    <date>1994</date>
+    <icon src="http://epg.locomotiontv.com/imgs/baron.png" />
+  </programme>
+  <programme start="20261113143000 +0000" stop="20261113150000 +0000" channel="Locomotion">
+    <title lang="es">Cliffhanger (Lupin III)</title>
+    <desc lang="es">Las aventuras del maestro ladrón Lupin III y sus secuaces a medida que se sumergen en varias escapadas, todo el tiempo en la persecución por el tenaz inspector Zenigata.</desc>
+    <date>1971</date>
+    <icon src="http://epg.locomotiontv.com/imgs/lupin.jpg" />
+  </programme>
+  <programme start="20261113150000 +0000" stop="20261113153000 +0000" channel="Locomotion">
+    <title lang="es">Lost Universe</title>
+    <desc lang="es">Estamos en una época futurista, la fuente de poder de la humanidad se conoce como psicho-energía y el medio de transporte más usado es la nave espacial; Kain Blueriver es un joven "Cazaproblemas" que viaja por el universo junto a una holograma llamada Canary que es la computadora central de la nave en la que viajan: la Swordbreaker (Súper Espada).</desc>
+    <date>1998</date>
+    <icon src="http://epg.locomotiontv.com/imgs/lost.jpg" />
+  </programme>
+  <programme start="20261113153000 +0000" stop="20261113160000 +0000" channel="Locomotion">
+    <title lang="es">Evangelion</title>
+    <desc lang="es">Shinji, un adolescente que fue reclutado por su padre para la misteriosa organización (Nerv) para pilotear un robot gigante de bio-máquina llamado "Evangelion" en combate con seres alienígenas llamado "Angeles".</desc>
+    <date>1995</date>
+    <icon src="http://epg.locomotiontv.com/imgs/eva.png" />
+  </programme>
+  <programme start="20261113160000 +0000" stop="20261113163000 +0000" channel="Locomotion">
+    <title lang="es">Los Cazadores de Duendes</title>
+    <desc lang="es">Una actriz, un peleador de artes marciales, una estudiante de secundaria loca por las armas, y su tanque son transportados desde la tierra a un mundo de duendes y magia. Sin embargo, el hechizo para devolverlos a casa se estropeó y los fragmentos del hechizo se imprimieron mágicamente en la piel de duendes.</desc>
+    <date>1997</date>
+    <icon src="http://epg.locomotiontv.com/imgs/duendes.jpg" />
+  </programme>
+  <programme start="20261113163000 +0000" stop="20261113170000 +0000" channel="Locomotion">
+    <title lang="es">Soul Hunter</title>
+    <desc lang="es">Hace miles de años, era una época de brujería y magia oscura. Una malvada hechicera ha hechizado al emperador de la poderosa dinastía y se ha convertido en un títere sin sentido. El país está en ruinas, y los espíritus malignos acechan en todas partes.</desc>
+    <date>1999</date>
+    <icon src="http://epg.locomotiontv.com/imgs/soul.jpg" />
+  </programme>
+  <programme start="20261113170000 +0000" stop="20261113173000 +0000" channel="Locomotion">
+    <title lang="es">Bubblegum Crisis Tokyo 2040</title>
+    <desc lang="es">Después de un misterioso terremoto sacude Tokio, Genom se convierte en una poderosa influencia proporcionando sus formas de vida orgánicas artificiales llamados Boomers para reconstruir y actuar como una clase de trabajo para la humanidad. Sin embargo, algunos de ellos ocasionalmente se vuelven locos, e incluso la Policía Antidroga especialmente creada no puede detenerlos.</desc>
+    <date>1998</date>
+    <icon src="http://epg.locomotiontv.com/imgs/bubble.jpg" />
+  </programme>
+  <programme start="20261113173000 +0000" stop="20261113180000 +0000" channel="Locomotion">
+    <title lang="es">Chica Marioneta J</title>
+    <desc lang="es">En un planeta solo de hombres, Terra II que está poblado por clones de los seis hombres que fueron abandonados allí 300 años antes. Las únicas hembras son robots llamados "marionetas", que sirven como trabajadoras y soldados. Lima, Cereza y Zarzamora son diferentes de la mayoría de las demás, ya que cada uno posee un circuito especial que les da emociones humanas.</desc>
+    <date>1996</date>
+    <icon src="http://epg.locomotiontv.com/imgs/saberj.jpg" />
+  </programme>
+  <programme start="20261113180000 +0000" stop="20261113183000 +0000" channel="Locomotion">
+    <title lang="es">The Vision of Escaflowne</title>
+    <desc lang="es">Hitomi Kanzaki es una estudiante de secundaria promedio. Además de ser una excelente atleta, también es portadora de un poder excepcional para vislumbrar el futuro de los demás a través de una baraja del tarot y últimamente ha tenido visiones extrañas de personas y seres fantasticos.</desc>
+    <date>1996</date>
+    <icon src="http://epg.locomotiontv.com/imgs/escaflowne.jpg" />
+  </programme>
+  <programme start="20261113183000 +0000" stop="20261113190000 +0000" channel="Locomotion">
+    <title lang="es">Blue Seed</title>
+    <desc lang="es">Momiji es una niña promedio hasta el día en que descubre que es descendiente de la gran familia Kushinada. Solo ella, con su sangre Kushinada, puede detener a los Aragami, monstruos parecidos a plantas demoníacas que amenazan con destruir Japón.</desc>
+    <date>1994</date>
+    <icon src="http://epg.locomotiontv.com/imgs/blue.jpg" />
+  </programme>
+  <programme start="20261113190000 +0000" stop="20261113193000 +0000" channel="Locomotion">
+    <title lang="es">Cowboy Bebop</title>
+    <desc lang="es">El esbelto y despreocupado Spike Spiegel se equilibra con su bullicioso y pragmático compañero Jet Black mientras la pareja se gana la vida persiguiendo recompensas y recogiendo recompensas.</desc>
+    <date>1998</date>
+    <icon src="http://epg.locomotiontv.com/imgs/bebop.jpg" />
+  </programme>
+  <programme start="20261113193000 +0000" stop="20261113200000 +0000" channel="Locomotion">
+    <title lang="es">Ranma ½</title>
+    <desc lang="es">Ranma Saotome es una artista y prodigio marcial de primera clase en la escuela de artes marciales Saotome "Anything-Goes". Mientras entrena en China, él y su padre enfrentan un destino terrible cuando caen accidentalmente en una maldita primavera.</desc>
+    <date>1989</date>
+    <icon src="http://epg.locomotiontv.com/imgs/ranma.jpg" />
+  </programme>
+  <programme start="20261113200000 +0000" stop="20261113203000 +0000" channel="Locomotion">
+    <title lang="es">Duckman</title>
+    <desc lang="es">Duckman, un pato políticamente incorrecto, fumador enviciado, que siempre está quejándose de la vida.</desc>
+    <date>1994</date>
+    <icon src="http://epg.locomotiontv.com/imgs/duckman.jpg" />
+  </programme>
+  <programme start="20261113203000 +0000" stop="20261113210000 +0000" channel="Locomotion">
+    <title lang="es">South Park</title>
+    <desc lang="es">Sigue el desventuras de cuatro irreverente niños en la no tan tranquila y disfuncional ciudad de South Park, Colorado.</desc>
+    <date>1997</date>
+    <icon src="http://epg.locomotiontv.com/imgs/sp.png" />
+  </programme>
+  <programme start="20261113210000 +0000" stop="20261113213000 +0000" channel="Locomotion">
+    <title lang="es">Thundercats</title>
+    <desc lang="es">Los habitantes del planeta Thundera evacuan justo antes de ser destruido. Solo quedaba un pequeño grupo de Thunderans (Thundercats). Con solo la mitad de la potencia del motor, el grupo, que fue dirigido por Jaga, tuvo que establecer un rumbo para el planeta más cercano.</desc>
+    <date>1985</date>
+    <icon src="http://epg.locomotiontv.com/imgs/tcats.jpg" />
+  </programme>
+  <programme start="20261113213000 +0000" stop="20261113220000 +0000" channel="Locomotion">
+    <title lang="es">Los Defensores De La Tierra</title>
+    <desc lang="es">Cuatro de los mejores héroes de la tierra se unen para luchar contra Ming el despiadado.</desc>
+    <date>1986</date>
+    <icon src="http://epg.locomotiontv.com/imgs/defensores.jpg" />
+  </programme>
+  <programme start="20261113220000 +0000" stop="20261113223000 +0000" channel="Locomotion">
+    <title lang="es">El Baron Rojo</title>
+    <desc lang="es">Ken de la Rosa, junto con su compañera de equipo Sali (que fue, al principio, inflexible), pilotea el Super Robot de Pelea, Baron Rojo y entra al concurso con el sueño de convertirse en el campeón.</desc>
+    <date>1994</date>
+    <icon src="http://epg.locomotiontv.com/imgs/baron.png" />
+  </programme>
+  <programme start="20261113223000 +0000" stop="20261113230000 +0000" channel="Locomotion">
+    <title lang="es">Cliffhanger (Lupin III)</title>
+    <desc lang="es">Las aventuras del maestro ladrón Lupin III y sus secuaces a medida que se sumergen en varias escapadas, todo el tiempo en la persecución por el tenaz inspector Zenigata.</desc>
+    <date>1971</date>
+    <icon src="http://epg.locomotiontv.com/imgs/lupin.jpg" />
+  </programme>
+  <programme start="20261113230000 +0000" stop="20261113233000 +0000" channel="Locomotion">
+    <title lang="es">Lost Universe</title>
+    <desc lang="es">Estamos en una época futurista, la fuente de poder de la humanidad se conoce como psicho-energía y el medio de transporte más usado es la nave espacial; Kain Blueriver es un joven "Cazaproblemas" que viaja por el universo junto a una holograma llamada Canary que es la computadora central de la nave en la que viajan: la Swordbreaker (Súper Espada).</desc>
+    <date>1998</date>
+    <icon src="http://epg.locomotiontv.com/imgs/lost.jpg" />
+  </programme>
+  <programme start="20261113233000 +0000" stop="20261114000000 +0000" channel="Locomotion">
+    <title lang="es">Evangelion</title>
+    <desc lang="es">Shinji, un adolescente que fue reclutado por su padre para la misteriosa organización (Nerv) para pilotear un robot gigante de bio-máquina llamado "Evangelion" en combate con seres alienígenas llamado "Angeles".</desc>
+    <date>1995</date>
+    <icon src="http://epg.locomotiontv.com/imgs/eva.png" />
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261114003000 +0000" channel="Locomotion">
+    <title lang="es">Los Cazadores de Duendes</title>
+    <desc lang="es">Una actriz, un peleador de artes marciales, una estudiante de secundaria loca por las armas, y su tanque son transportados desde la tierra a un mundo de duendes y magia. Sin embargo, el hechizo para devolverlos a casa se estropeó y los fragmentos del hechizo se imprimieron mágicamente en la piel de duendes.</desc>
+    <date>1997</date>
+    <icon src="http://epg.locomotiontv.com/imgs/duendes.jpg" />
+  </programme>
+  <programme start="20261114003000 +0000" stop="20261114010000 +0000" channel="Locomotion">
+    <title lang="es">Soul Hunter</title>
+    <desc lang="es">Hace miles de años, era una época de brujería y magia oscura. Una malvada hechicera ha hechizado al emperador de la poderosa dinastía y se ha convertido en un títere sin sentido. El país está en ruinas, y los espíritus malignos acechan en todas partes.</desc>
+    <date>1999</date>
+    <icon src="http://epg.locomotiontv.com/imgs/soul.jpg" />
+  </programme>
+  <programme start="20261114010000 +0000" stop="20261114013000 +0000" channel="Locomotion">
+    <title lang="es">Bubblegum Crisis Tokyo 2040</title>
+    <desc lang="es">Después de un misterioso terremoto sacude Tokio, Genom se convierte en una poderosa influencia proporcionando sus formas de vida orgánicas artificiales llamados Boomers para reconstruir y actuar como una clase de trabajo para la humanidad. Sin embargo, algunos de ellos ocasionalmente se vuelven locos, e incluso la Policía Antidroga especialmente creada no puede detenerlos.</desc>
+    <date>1998</date>
+    <icon src="http://epg.locomotiontv.com/imgs/bubble.jpg" />
+  </programme>
+  <programme start="20261114013000 +0000" stop="20261114020000 +0000" channel="Locomotion">
+    <title lang="es">Chica Marioneta J</title>
+    <desc lang="es">En un planeta solo de hombres, Terra II que está poblado por clones de los seis hombres que fueron abandonados allí 300 años antes. Las únicas hembras son robots llamados "marionetas", que sirven como trabajadoras y soldados. Lima, Cereza y Zarzamora son diferentes de la mayoría de las demás, ya que cada uno posee un circuito especial que les da emociones humanas.</desc>
+    <date>1996</date>
+    <icon src="http://epg.locomotiontv.com/imgs/saberj.jpg" />
+  </programme>
+  <programme start="20261114020000 +0000" stop="20261114023000 +0000" channel="Locomotion">
+    <title lang="es">The Vision of Escaflowne</title>
+    <desc lang="es">Hitomi Kanzaki es una estudiante de secundaria promedio. Además de ser una excelente atleta, también es portadora de un poder excepcional para vislumbrar el futuro de los demás a través de una baraja del tarot y últimamente ha tenido visiones extrañas de personas y seres fantasticos.</desc>
+    <date>1996</date>
+    <icon src="http://epg.locomotiontv.com/imgs/escaflowne.jpg" />
+  </programme>
+  <programme start="20261114023000 +0000" stop="20261114030000 +0000" channel="Locomotion">
+    <title lang="es">Blue Seed</title>
+    <desc lang="es">Momiji es una niña promedio hasta el día en que descubre que es descendiente de la gran familia Kushinada. Solo ella, con su sangre Kushinada, puede detener a los Aragami, monstruos parecidos a plantas demoníacas que amenazan con destruir Japón.</desc>
+    <date>1994</date>
+    <icon src="http://epg.locomotiontv.com/imgs/blue.jpg" />
+  </programme>
+  <programme start="20261114030000 +0000" stop="20261114033000 +0000" channel="Locomotion">
+    <title lang="es">Cowboy Bebop</title>
+    <desc lang="es">El esbelto y despreocupado Spike Spiegel se equilibra con su bullicioso y pragmático compañero Jet Black mientras la pareja se gana la vida persiguiendo recompensas y recogiendo recompensas.</desc>
+    <date>1998</date>
+    <icon src="http://epg.locomotiontv.com/imgs/bebop.jpg" />
+  </programme>
+  <programme start="20261114033000 +0000" stop="20261114040000 +0000" channel="Locomotion">
+    <title lang="es">Ranma ½</title>
+    <desc lang="es">Ranma Saotome es una artista y prodigio marcial de primera clase en la escuela de artes marciales Saotome "Anything-Goes". Mientras entrena en China, él y su padre enfrentan un destino terrible cuando caen accidentalmente en una maldita primavera.</desc>
+    <date>1989</date>
+    <icon src="http://epg.locomotiontv.com/imgs/ranma.jpg" />
+  </programme>
+  <programme start="20261114040000 +0000" stop="20261114043000 +0000" channel="Locomotion">
+    <title lang="es">Duckman</title>
+    <desc lang="es">Duckman, un pato políticamente incorrecto, fumador enviciado, que siempre está quejándose de la vida.</desc>
+    <date>1994</date>
+    <icon src="http://epg.locomotiontv.com/imgs/duckman.jpg" />
+  </programme>
+  <programme start="20261114043000 +0000" stop="20261114050000 +0000" channel="Locomotion">
     <title lang="es">South Park</title>
     <desc lang="es">Sigue el desventuras de cuatro irreverente niños en la no tan tranquila y disfuncional ciudad de South Park, Colorado.</desc>
     <date>1997</date>
