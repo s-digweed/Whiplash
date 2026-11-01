@@ -1260,7 +1260,70 @@ SYN_ALIAS = {
     "Hellsing": "Hellsing (2001)",   # disambiguate to the 2001 series for lookup; title stays "Hellsing"
 }
 
-def _show_overview(title, cache):
+# ── OMDb (IMDb plots) — first choice for CCN + RetroBlast ─────────────────
+# Free OMDb keys allow ~1,000 calls/day and the same key may be shared with other
+# repos, so calls are capped per run; results (hits AND misses) live in
+# desc_cache.json["omdb_syn"] and are re-checked after OMDB_TTL_DAYS.
+OMDB_KEY        = os.environ.get("OMDB_API_KEY", "").strip()
+OMDB_RUN_BUDGET = int(os.environ.get("OMDB_BUDGET", "150"))
+OMDB_TTL_DAYS   = 60
+OMDB_CHANNELS   = {"CartoonCartoonsNetwork", "RetroBlast"}
+_omdb_left      = OMDB_RUN_BUDGET
+_omdb_stats     = {"calls": 0, "hits": 0}
+
+def _omdb_get(**params):
+    global _omdb_left
+    if not OMDB_KEY or _omdb_left <= 0:
+        return None
+    _omdb_left -= 1; _omdb_stats["calls"] += 1
+    try:
+        r = requests.get("https://www.omdbapi.com/", params={"apikey": OMDB_KEY, **params}, timeout=20)
+        j = r.json()
+        if str(j.get("Error", "")).lower().startswith("request limit"):
+            _omdb_left = 0; return None
+        return j
+    except Exception:
+        return None
+
+def _omdb_plot(title, cache, kind="series"):
+    """IMDb short plot for a show (kind='series') or film (kind='movie') via OMDb.
+    Returns the plot, "" if OMDb has none, or None if not looked up this run."""
+    store = cache.setdefault("omdb_syn", {})
+    key = f"{kind}|{title}"
+    ent = store.get(key)
+    if ent and time.time() - ent.get("t", 0) < OMDB_TTL_DAYS * 86400:
+        return ent.get("p", "")
+    lookup = SYN_ALIAS.get(title, title)
+    ym = re.search(r"\((19|20)\d\d\)", lookup)
+    year = ym.group(0)[1:-1] if ym else None
+    clean = re.sub(r"\s*\([^)]*\)\s*", " ", lookup).strip() or lookup   # drop (YYYY) / (Detective Conan) etc.
+    q = {"t": clean, "type": kind, "plot": "short"}
+    if year: q["y"] = year
+    j = _omdb_get(**q)
+    if j is None:
+        return None                                   # out of budget / no key: try again next run
+    if j.get("Response") != "True":                   # exact title missed -> search, take the best match
+        s = _omdb_get(s=clean, type=kind, **({"y": year} if year else {}))
+        if s is None:
+            return None
+        hits = s.get("Search") or []
+        if hits:
+            j = _omdb_get(i=hits[0]["imdbID"], plot="short") or {}
+    plot = (j.get("Plot") or "").strip()
+    if plot in ("N/A", ""):
+        plot = ""
+    store[key] = {"t": time.time(), "p": plot, "id": j.get("imdbID", "")}
+    if plot: _omdb_stats["hits"] += 1
+    return plot
+
+def _show_overview(title, cache, prefer_omdb=False):
+    if prefer_omdb and title not in FIXED_DESC:
+        p = _omdb_plot(title, cache, "series")
+        if p:
+            return p
+    return _show_overview_db(title, cache)
+
+def _show_overview_db(title, cache):
     """SHOW-level synopsis: TMDB -> TVmaze -> TVDB, cached. (YYYY) in title disambiguates."""
     if title in FIXED_DESC:                    # fixed override (no metadata lookup)
         return FIXED_DESC[title]
@@ -1338,7 +1401,13 @@ def build_weekly(ch_id, name, logo, sched, cache, end, start=None, tz=_central_t
             subt = row[4] if len(row) > 4 else None
             st = tz(day + timedelta(minutes=start_m))
             sp = tz(day + timedelta(minutes=stop_m))
-            desc = inline if inline is not None else _show_overview(title, cache)
+            if inline is not None:
+                desc = inline
+                # one-off films on CCN/RetroBlast: prefer the IMDb plot when OMDb has it
+                if ch_id in OMDB_CHANNELS and re.search(r"\((19|20)\d\d\)$", title) and not subt:
+                    desc = _omdb_plot(title, cache, "movie") or inline
+            else:
+                desc = _show_overview(title, cache, prefer_omdb=ch_id in OMDB_CHANNELS)
             p = ET.SubElement(tv, "programme", {
                 "start": st.strftime("%Y%m%d%H%M%S") + " +0000",
                 "stop":  sp.strftime("%Y%m%d%H%M%S") + " +0000",
@@ -1351,6 +1420,9 @@ def build_weekly(ch_id, name, logo, sched, cache, end, start=None, tz=_central_t
             n += 1
         day += timedelta(days=1)
     print(f"  programmes: {n}")
+    if ch_id in OMDB_CHANNELS:
+        print(f"  OMDb: {'key set' if OMDB_KEY else 'no OMDB_API_KEY - using TMDB/TVmaze/TVDB'}; "
+              f"calls so far this run {_omdb_stats['calls']}, new IMDb plots {_omdb_stats['hits']}")
     if TMDB_KEY: print(f"  synopses attached: {got}")
     return tv
 
