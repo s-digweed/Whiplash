@@ -22,6 +22,7 @@ import unicodedata
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 # ───────────────────────── Whiplash (single feed) ─────────────────────────
 WL_URL = "https://whiplash.cc/scheds/schedule.xml"
@@ -1075,21 +1076,49 @@ CCN_ID         = "CartoonCartoonsNetwork"
 CCN_NAME       = "Cartoon Cartoons Network"
 CCN_LOGO       = "https://i.imgur.com/CaeVZxd.png"
 CCN_SCHED_FILE = "ccn_schedule.json"
-CCN_END        = datetime(2026, 11, 1)  # all of October
+CCN_DAYS       = 30                     # rolling: yesterday -> +30 days, rebuilt every run
+# The CCN website keeps its weekly lineup inside its Owncast custom script, as a plain
+# {Day: {"HH:MM": "Show"}} object (US Central, 30-min slots). We read it every run, so
+# the guide follows the site; ccn_schedule.json is refreshed from it and is the fallback.
+CCN_LIVE_URL   = "https://cartooncartoons.thatsoretro.com/customjavascript"
+CCN_RENAMES    = {                       # site title -> our guide title
+    "Cartoon Theatre": "Cartoon Theater",
+    "DragonBall": "Dragon Ball",
+    "DragonBall Z": "Dragon Ball Z",
+    "Fullmetal Alchemist Brotherhood": "Fullmetal Alchemist: Brotherhood",
+    "G Gundam": "Mobile Fighter G Gundam",
+    "Gundam Series": "Mobile Fighter G Gundam",
+    "G.I. Joe: American Hero ('89)": "G.I. Joe: American Hero (1989)",
+    "G.I. Joe: Real American Hero ('83)": "G.I. Joe: Real American Hero (1983)",
+    "Justice League/Unlimited": "Justice League Unlimited",
+    "Mobile Suit Gundam series": "Mobile Suit Gundam",
+    "New Scooby-Doo Movies": "The New Scooby-Doo Movies",
+    "Scooby-Doo Movies": "The New Scooby-Doo Movies",
+    "Real Advs of Jonny Quest": "Real Adventures of Jonny Quest",
+    "Scooby and Scrappy": "Scooby and Scrappy-Doo",
+    "Scooby-Doo! Mystery Inc.": "Scooby-Doo! Mystery Incorporated",
+    "Superman: Animated Series": "Superman: The Animated Series",
+    "TMNT 2K3": "Teenage Mutant Ninja Turtles (2003)",
+    "Teenage Mutant Ninja Turtles 2K3": "Teenage Mutant Ninja Turtles (2003)",
+    "The Batman": "The Batman (2004)",
+    "Transformers '84": "Transformers (1984)",
+    "Transformers ('01)": "Transformers (2001)",
+    "Voltron Series": "Voltron (1984)",
+}
 
 NICK_OUTPUT     = "NickPicks.xml"
 NICK_ID         = "NickPicks"
 NICK_NAME       = "Nick Picks"
 NICK_LOGO       = "https://i.imgur.com/6is9eGi.png"
 NICK_SCHED_FILE = "nickpicks_schedule.json"
-NICK_END        = datetime(2026, 12, 30)  # ~90 days (perpetual weekly loop)
+NICK_DAYS       = 60                     # rolling window (perpetual weekly loop)
 
 TSD_OUTPUT     = "ThatsSoDisney.xml"
 TSD_ID         = "ThatsSoDisney"
 TSD_NAME       = "That's So Disney"
 TSD_LOGO       = ""                        # no logo
 TSD_SCHED_FILE = "thatssodisney_schedule.json"
-TSD_END        = datetime(2026, 12, 30)   # ~90 days (perpetual weekly loop)
+TSD_DAYS       = 60                     # rolling window (perpetual weekly loop)
 
 RB_OUTPUT     = "RetroBlast.xml"
 RB_ID         = "RetroBlast"
@@ -1099,15 +1128,61 @@ RB_SCHED_FILE = "retroblast_schedule.json"
 RB_START      = datetime(2026, 10, 1)   # all of October, from Oct 1
 RB_END        = datetime(2026, 11, 1)
 
+def fetch_ccn_live():
+    """Read CCN's weekly lineup from the site's custom script. Returns the same
+    {weekday: [[start_m, stop_m, title], ...]} shape as ccn_schedule.json, or None."""
+    WD = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+    try:
+        r = requests.get(CCN_LIVE_URL, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+        r.raise_for_status()
+        m = re.search(r"const\s+schedule\s*=\s*(\{.*?\n\s*\});", r.text, re.S)
+        if not m:
+            print("  CCN live: schedule object not found in the site script - using ccn_schedule.json"); return None
+        lit = re.sub(r'(^|[{,]\s*)([A-Za-z_]\w*)\s*:', lambda x: f'{x.group(1)}"{x.group(2)}":', m.group(1), flags=re.M)
+        lit = re.sub(r",(\s*[}\]])", r"\1", lit)
+        raw = json.loads(lit)
+    except Exception as e:
+        print(f"  CCN live: unavailable ({e}) - using ccn_schedule.json"); return None
+    out, new_titles = {}, set()
+    for d in WD:
+        slots = raw.get(d) or {}
+        runs = []
+        for hhmm in sorted(slots):
+            try:
+                h, mi = map(int, hhmm.split(":"))
+            except ValueError:
+                continue
+            title = html.unescape(str(slots[hhmm])).strip()
+            if not title:
+                continue
+            title = CCN_RENAMES.get(title, title)
+            st = h * 60 + mi
+            if runs and runs[-1][2] == title and runs[-1][1] == st:
+                runs[-1][1] = st + 30                  # same show continues: one longer programme
+            else:
+                runs.append([st, st + 30, title])
+        out[d] = runs
+    covered = sum(b - a for runs in out.values() for a, b, _ in runs)
+    if covered < 7 * 1440 * 0.9:                       # sanity: a broken/partial read keeps the fallback
+        print(f"  CCN live: only {covered // 60}h of 168h parsed - using ccn_schedule.json"); return None
+    return out
+
+def _local_to_utc(dt, zone):
+    """Naive local wall time -> naive UTC, with real DST rules for any year."""
+    return dt.replace(tzinfo=ZoneInfo(zone)).astimezone(timezone.utc).replace(tzinfo=None)
+
 def _central_to_utc(dt):
-    """US Central -> UTC: CDT (-5) through 2026-11-01 02:00 local, then CST (-6)."""
-    off = 5 if dt < datetime(2026, 11, 1, 2, 0) else 6
-    return dt + timedelta(hours=off)
+    """US Central -> UTC (CDT -5 / CST -6, switches automatically every year)."""
+    return _local_to_utc(dt, "America/Chicago")
 
 def _eastern_to_utc(dt):
-    """US Eastern -> UTC: EDT (-4) through 2026-11-01 02:00 local, then EST (-5)."""
-    off = 4 if dt < datetime(2026, 11, 1, 2, 0) else 5
-    return dt + timedelta(hours=off)
+    """US Eastern -> UTC (EDT -4 / EST -5, switches automatically every year)."""
+    return _local_to_utc(dt, "America/New_York")
+
+def _rolling(days, zone="America/Chicago"):
+    """(start, end) local dates: yesterday through +days, so the guide never runs out."""
+    today = datetime.now(ZoneInfo(zone)).replace(tzinfo=None, hour=0, minute=0, second=0, microsecond=0)
+    return today - timedelta(days=1), today + timedelta(days=days)
 
 # Display title -> name to search when the schedule's title is abbreviated/non-canonical
 SYN_ALIAS = {
@@ -1531,10 +1606,30 @@ def main():
     else:
         print(f"MistLive feed empty/unavailable - keeping existing {MIST_OUTPUT} unchanged")
 
+    ccn_s, ccn_e   = _rolling(CCN_DAYS)
+    nick_s, nick_e = _rolling(NICK_DAYS)
+    tsd_s, tsd_e   = _rolling(TSD_DAYS)
+    # CCN: prefer the live site lineup; keep ccn_schedule.json in step as the fallback
+    ccn_live = fetch_ccn_live()
+    if ccn_live:
+        try:
+            old = load_weekly_schedule(CCN_SCHED_FILE) or {}
+        except Exception:
+            old = {}
+        changed = sum(1 for d in ccn_live for row in ccn_live[d] if row not in (old.get(d) or []))
+        if changed:
+            with open(CCN_SCHED_FILE, "w", encoding="utf-8") as f:
+                json.dump(ccn_live, f, ensure_ascii=False, indent=1)
+            print(f"  CCN live: lineup CHANGED on the site ({changed} programme slots) - ccn_schedule.json updated")
+        else:
+            print("  CCN live: lineup read from the site, no change")
+        unmapped = sorted({t for d in ccn_live for _, _, t in ccn_live[d]} - {t for d in old for _, _, t in old[d]})
+        if unmapped:
+            print("  CCN live: new titles (add to CCN_RENAMES if they need a cleaner name): " + "; ".join(unmapped))
     for out, cid, nm, logo, sfile, end, start, tz in (
-        (CCN_OUTPUT,  CCN_ID,  CCN_NAME,  CCN_LOGO,  CCN_SCHED_FILE,  CCN_END,  None,     _central_to_utc),
-        (NICK_OUTPUT, NICK_ID, NICK_NAME, NICK_LOGO, NICK_SCHED_FILE, NICK_END, None,     _central_to_utc),
-        (TSD_OUTPUT,  TSD_ID,  TSD_NAME,  TSD_LOGO,  TSD_SCHED_FILE,  TSD_END,  None,     _central_to_utc),
+        (CCN_OUTPUT,  CCN_ID,  CCN_NAME,  CCN_LOGO,  CCN_SCHED_FILE,  ccn_e,  ccn_s,  _central_to_utc),
+        (NICK_OUTPUT, NICK_ID, NICK_NAME, NICK_LOGO, NICK_SCHED_FILE, nick_e, nick_s, _central_to_utc),
+        (TSD_OUTPUT,  TSD_ID,  TSD_NAME,  TSD_LOGO,  TSD_SCHED_FILE,  tsd_e,  tsd_s,  _central_to_utc),
         (RB_OUTPUT,   RB_ID,   RB_NAME,   RB_LOGO,   RB_SCHED_FILE,   RB_END,   RB_START, _eastern_to_utc)):
         sched = load_weekly_schedule(sfile)
         if not sched:
