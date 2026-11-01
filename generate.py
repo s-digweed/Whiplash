@@ -1260,14 +1260,14 @@ SYN_ALIAS = {
     "Hellsing": "Hellsing (2001)",   # disambiguate to the 2001 series for lookup; title stays "Hellsing"
 }
 
-# ── OMDb (IMDb plots) — first choice for CCN + RetroBlast ─────────────────
+# ── OMDb (IMDb plots) — first choice for CCN, RetroBlast, NickPicks, TSD ─────────────────
 # Free OMDb keys allow ~1,000 calls/day and the same key may be shared with other
 # repos, so calls are capped per run; results (hits AND misses) live in
 # desc_cache.json["omdb_syn"] and are re-checked after OMDB_TTL_DAYS.
 OMDB_KEY        = os.environ.get("OMDB_API_KEY", "").strip()
 OMDB_RUN_BUDGET = int(os.environ.get("OMDB_BUDGET", "150"))
 OMDB_TTL_DAYS   = 60
-OMDB_CHANNELS   = {"CartoonCartoonsNetwork", "RetroBlast"}
+OMDB_CHANNELS   = {"CartoonCartoonsNetwork", "RetroBlast", "NickPicks", "ThatsSoDisney"}
 _omdb_left      = OMDB_RUN_BUDGET
 _omdb_stats     = {"calls": 0, "hits": 0}
 
