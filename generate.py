@@ -1125,8 +1125,78 @@ RB_ID         = "RetroBlast"
 RB_NAME       = "RetroBlast"
 RB_LOGO       = "https://i.imgur.com/m9GHMe9.png"
 RB_SCHED_FILE = "retroblast_schedule.json"
-RB_START      = datetime(2026, 10, 1)   # all of October, from Oct 1
-RB_END        = datetime(2026, 11, 1)
+RB_DAYS       = 30                      # rolling window (Fall weekly grid, US Eastern)
+# One-off airings on specific (Eastern) dates, laid over the weekly grid. Rows are
+# [start_min, stop_min, title, desc, sub-title(optional)]; any grid show they overlap
+# is trimmed or dropped. Times are minutes from local midnight of that date.
+RB_SPECIALS = {
+    # Mon Nov 2, from 7 PM: Looney Tunes Cartoons mini marathon, then X-Men (2000)
+    "2026-11-02": [
+        [1140, 1200, "Looney Tunes Cartoons",
+         "A special mini marathon of Looney Tunes Cartoons, shown in honor of Eric Bauza."],
+        [1200, 1305, "X-Men (2000)",
+         "Wolverine and Rogue are drawn into the war between Professor X's X-Men and Magneto's "
+         "Brotherhood of Mutants. Shown in honor of Patrick Stewart."],
+    ],
+    # Cartoon Theater (Sat/Sun 12:10-2:15 PM)
+    "2026-11-01": [[730, 855, "The Nightmare Before Christmas (1993)",
+        "Jack Skellington, the Pumpkin King of Halloween Town, stumbles into Christmas Town and "
+        "decides to take over the holiday."]],
+    "2026-11-07": [
+        [730, 775, "Class of 3000",
+         "In the series premiere, music star Sunny Bridges comes home to Atlanta and becomes a "
+         "music teacher at the Westley School of Performing Arts.", "Home"],
+        [775, 855, "Foster's Home for Imaginary Friends",
+         "In this feature-length special, Wilt suddenly leaves Foster's, and Mac and the gang set "
+         "out to find him and uncover the story of his past.", "Good Wilt Hunting"],
+    ],
+    "2026-11-08": [
+        [0, 100, "The Wizard of Oz (1939)",
+         "Swept away by a tornado to the land of Oz, Dorothy follows the yellow brick road to find "
+         "the Wizard who can send her home."],
+        [730, 855, "Beauty and the Beast (1991)",
+         "A bright young woman named Belle takes her father's place as the prisoner of a cursed "
+         "Beast, and finds the kind heart hidden beneath."],
+    ],
+    "2026-11-14": [[730, 855, "An American Tail (1986)",
+        "Fievel Mousekewitz, a young Russian mouse, is separated from his family on the voyage to "
+        "America and sets out to find them in New York City."]],
+    "2026-11-15": [
+        [0, 100, "Wicked: Slime Tutorial with the Original Broadway Cast",
+         "The original Broadway cast recording of Wicked, presented in its famous slime tutorial "
+         "form, as part of an Oz-themed month of late night movies."],
+        [730, 855, "The Prince of Egypt (1998)",
+         "The animated story of Moses, raised as a prince of Egypt, who discovers his true "
+         "heritage and leads the Hebrew people to freedom."],
+    ],
+    "2026-11-21": [
+        [730, 790, "Tom and Jerry & the Wizard of Oz (2011)",
+         "Tom and Jerry join Dorothy and Toto on the yellow brick road to the Emerald City."],
+        [790, 855, "Camp Lazlo",
+         "Camp Lazlo's feature-length special, starring Lazlo, Raj, Clam and the rest of Camp "
+         "Kidney.", "Where's Lazlo?"],
+    ],
+    "2026-11-22": [
+        [0, 100, "Return to Oz (1985)",
+         "Dorothy returns to a ruined Oz and, with a band of new friends, must save it from the "
+         "Nome King and the wicked Princess Mombi."],
+        [730, 810, "Tom & Jerry: Back to Oz (2016)",
+         "Tom and Jerry return to Oz with Dorothy to stop the Gnome King from taking over the land."],
+        [810, 855, "Samurai Jack",
+         "How the evil Aku first came to Earth, and how Jack's father defeated him, setting the "
+         "stage for Jack's quest.", "The Birth of Evil"],
+    ],
+    "2026-11-28": [[730, 855, "Mobile Suit Gundam Wing: Endless Waltz (1998)",
+        "A year after the war, the Gundam pilots are drawn back into battle when a new rebellion "
+        "threatens the fragile peace between Earth and the colonies."]],
+    "2026-11-29": [
+        [0, 100, "The Rocky Horror Picture Show (1975)",
+         "Newly engaged Brad and Janet seek help at a strange castle on a stormy night and meet "
+         "the outrageous Dr. Frank-N-Furter."],
+        [730, 855, "The Polar Express (2004)",
+         "On Christmas Eve, a young boy boards a mysterious train bound for the North Pole."],
+    ],
+}
 
 def fetch_ccn_live():
     """Read CCN's weekly lineup from the site's custom script. Returns the same
@@ -1226,7 +1296,27 @@ def load_weekly_schedule(path):
     except Exception as e:
         print(f"WARNING: cannot read {path} ({e}) - skipping"); return None
 
-def build_weekly(ch_id, name, logo, sched, cache, end, start=None, tz=_central_to_utc):
+def _overlay(rows, specials):
+    """Lay date-specific airings over a day's grid rows: trim/drop what they cover."""
+    if not specials:
+        return rows
+    out = []
+    for r in rows:
+        segs = [(r[0], r[1])]
+        for sp in specials:
+            nxt = []
+            for a, b in segs:
+                if sp[1] <= a or sp[0] >= b:
+                    nxt.append((a, b)); continue
+                if a < sp[0]: nxt.append((a, sp[0]))
+                if sp[1] < b: nxt.append((sp[1], b))
+            segs = nxt
+        for a, b in segs:
+            if b - a >= 5:                       # drop slivers under 5 minutes
+                out.append([a, b] + list(r[2:]))
+    return sorted(out + [list(s) for s in specials], key=lambda r: r[0])
+
+def build_weekly(ch_id, name, logo, sched, cache, end, start=None, tz=_central_to_utc, specials=None):
     """Expand a source-local weekly grid forward over [start, end), convert to
     UTC via tz() (DST-aware), attach show-level synopses.
 
@@ -1241,9 +1331,11 @@ def build_weekly(ch_id, name, logo, sched, cache, end, start=None, tz=_central_t
     n = got = 0
     day = start or WEEKLY_START
     while day < end:
-        for row in sched.get(WD[day.weekday()], []):
+        rows = _overlay(sched.get(WD[day.weekday()], []), (specials or {}).get(day.strftime("%Y-%m-%d")))
+        for row in rows:
             start_m, stop_m, title = row[0], row[1], row[2]
             inline = row[3] if len(row) > 3 else None
+            subt = row[4] if len(row) > 4 else None
             st = tz(day + timedelta(minutes=start_m))
             sp = tz(day + timedelta(minutes=stop_m))
             desc = inline if inline is not None else _show_overview(title, cache)
@@ -1252,6 +1344,8 @@ def build_weekly(ch_id, name, logo, sched, cache, end, start=None, tz=_central_t
                 "stop":  sp.strftime("%Y%m%d%H%M%S") + " +0000",
                 "channel": ch_id})
             ET.SubElement(p, "title", {"lang": "en"}).text = title
+            if subt:
+                ET.SubElement(p, "sub-title", {"lang": "en"}).text = subt
             if desc:
                 ET.SubElement(p, "desc", {"lang": "en"}).text = desc; got += 1
             n += 1
@@ -1609,6 +1703,7 @@ def main():
     ccn_s, ccn_e   = _rolling(CCN_DAYS)
     nick_s, nick_e = _rolling(NICK_DAYS)
     tsd_s, tsd_e   = _rolling(TSD_DAYS)
+    rb_s, rb_e     = _rolling(RB_DAYS, "America/New_York")
     # CCN: prefer the live site lineup; keep ccn_schedule.json in step as the fallback
     ccn_live = fetch_ccn_live()
     if ccn_live:
@@ -1630,11 +1725,12 @@ def main():
         (CCN_OUTPUT,  CCN_ID,  CCN_NAME,  CCN_LOGO,  CCN_SCHED_FILE,  ccn_e,  ccn_s,  _central_to_utc),
         (NICK_OUTPUT, NICK_ID, NICK_NAME, NICK_LOGO, NICK_SCHED_FILE, nick_e, nick_s, _central_to_utc),
         (TSD_OUTPUT,  TSD_ID,  TSD_NAME,  TSD_LOGO,  TSD_SCHED_FILE,  tsd_e,  tsd_s,  _central_to_utc),
-        (RB_OUTPUT,   RB_ID,   RB_NAME,   RB_LOGO,   RB_SCHED_FILE,   RB_END,   RB_START, _eastern_to_utc)):
+        (RB_OUTPUT,   RB_ID,   RB_NAME,   RB_LOGO,   RB_SCHED_FILE,   rb_e,   rb_s,   _eastern_to_utc)):
         sched = load_weekly_schedule(sfile)
         if not sched:
             continue
-        print(f"{nm}:"); wtv = build_weekly(cid, nm, logo, sched, cache, end, start, tz)
+        print(f"{nm}:"); wtv = build_weekly(cid, nm, logo, sched, cache, end, start, tz,
+                                            specials=RB_SPECIALS if cid == RB_ID else None)
         indent(wtv)
         ET.ElementTree(wtv).write(out, encoding="UTF-8", xml_declaration=True)
         print(f"Wrote {out}")
