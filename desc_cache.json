@@ -21848,6 +21848,16 @@
 }
 },
 "omdb_syn": {
+"series|100 Deeds for Eddie McDowd": {
+"id": "tt0218744",
+"p": "A bully is transformed into a dog that must perform one hundred good deeds with the help of a shy classmate.",
+"t": 1793577613.0023122
+},
+"series|100 Things to Do Before High School": {
+"id": "tt3904078",
+"p": "Three best friends navigate the highs and lows of middle school, with help from a series of adventures that help them overcome cliques, terrifying bullies, and clueless teachers.",
+"t": 1793577613.4923546
+},
 "series|13 Ghosts of Scooby-Doo": {
 "id": "tt0088628",
 "p": "Shaggy and Scooby and friends must return 13 ghosts to a magic chest which they inadvertently released.",
@@ -21858,20 +21868,75 @@
 "p": "A not-too-bright canine duo get into all sorts of mischief and trouble.",
 "t": 1793570074.9485178
 },
+"series|6teen": {
+"id": "tt0439341",
+"p": "Set in a giant shopping mall, this show follows the after-school lives of six 16-year-olds.",
+"t": 1793577611.1286118
+},
+"series|A Different World": {
+"id": "tt0092339",
+"p": "A group of students at a historically Black university struggle to make it through college.",
+"t": 1793577617.1142113
+},
 "series|A Pup Named Scooby-Doo": {
 "id": "tt0094531",
 "p": "A pre-teen version of Scooby Doo, with a pint-sized version of the title character.",
 "t": 1793570073.3351977
+},
+"series|Aaahh!!! Real Monsters": {
+"id": "tt0108684",
+"p": "The show takes us through the struggles of life as a child monster. Three monster friends are studying how to scare humans in school. Often, their attempts don't work out as planned.",
+"t": 1793577619.690513
+},
+"series|Action League Now!": {
+"id": "tt0475182",
+"p": "This KaBlam spinoff combines the original shorts into a half-hour program, while being connected to each other thematically.",
+"t": 1793577609.7658923
+},
+"series|All Grown Up!": {
+"id": "tt0387714",
+"p": "Follows the adventures of an older Rugrats gang.",
+"t": 1793577611.7524095
+},
+"series|All That": {
+"id": "tt0111875",
+"p": "A zany sketch comedy featuring many wacky characters hosted for kids and by kids.",
+"t": 1793577612.259968
+},
+"series|All in the Family": {
+"id": "tt0066626",
+"p": "A working class man constantly squabbles with his family over the important issues of the day.",
+"t": 1793577620.4676108
+},
+"series|Angela Anaconda": {
+"id": "tt0224455",
+"p": "A rambunctious girl and her friends' adventures in school and their community.",
+"t": 1793577609.88077
 },
 "series|Animaniacs": {
 "id": "tt0105941",
 "p": "The zany adventures of a trio of 1930s animated characters in the modern world.",
 "t": 1793570067.0675406
 },
+"series|Animorphs": {
+"id": "tt0154147",
+"p": "Five teenagers and an alien with the ability to turn into any beast they touch vs. an army of parasitic aliens who are slowly infiltrating Earth.",
+"t": 1793577613.399235
+},
 "series|Aqua Teen Hunger Force": {
 "id": "tt0297494",
 "p": "The misadventures of a milkshake, an order of fries, a meatball, and their retired next door neighbor in the suburbs of New Jersey.",
 "t": 1793570072.2242503
+},
+"series|Are You Afraid of the Dark": {
+"id": "tt0103352",
+"p": "A group of teenagers meet in the woods, and tell scary stories.",
+"t": 1793577612.849235
+},
+"series|As Told by Ginger": {
+"id": "tt0235911",
+"p": "The TV cartoon follows a preteen girl named Ginger Foutley, along with two friends, as they try to fit in social life as well in school and try to avoid any embarrassments.",
+"t": 1793577611.2218797
 },
 "series|Astro Boy (2003)": {
 "id": "tt0387719",
@@ -21888,6 +21953,11 @@
 "p": "In a world where humanity shelters behind towering walls from man-eating Titans, a determined teen joins the elite Survey Corps to fight the giants and uncover the secrets of their origin.",
 "t": 1793570070.4945319
 },
+"series|Avatar: The Last Airbender": {
+"id": "tt0417299",
+"p": "After a century frozen in ice, young Avatar Aang journeys with friends to master the four elements and bring balance to a world at war with the Fire Nation.",
+"t": 1793577611.6772056
+},
 "series|Baby Looney Tunes": {
 "id": "tt0338580",
 "p": "The characters of Looney Tunes are all babies and live with Granny.",
@@ -21903,10 +21973,20 @@
 "p": "Billionaire Bruce Wayne leads a double life as Batman, defending Gotham City from ruthless mobsters and costumed villains with help from Robin and a small circle of trusted allies.",
 "t": 1793570074.3073332
 },
+"series|Beetlejuice": {
+"id": "tt0096543",
+"p": "Adventures of the ghostly con-artist and his 12-year-old pal, Lydia.",
+"t": 1793577618.2768564
+},
 "series|Ben 10": {
 "id": "tt0760437",
 "p": "The story of Ben Tennyson, a typical kid who becomes very atypical after he discovers the Omnitrix, a mysterious alien device with the power to transform the wearer into ten different alien species.",
 "t": 1793570068.2013671
+},
+"series|Big Time Rush": {
+"id": "tt1131746",
+"p": "Four hockey-playing teens from Minnesota try their luck at becoming a band. Hilarity ensues as they navigate the pressures of school, relationships, and fame in Los Angeles.",
+"t": 1793577616.566916
 },
 "series|Birdman and the Galaxy Trio": {
 "id": "",
@@ -21933,6 +22013,21 @@
 "p": "High school student Ichigo Kurosaki, who has the ability to see ghosts, gains soul reaper powers from Rukia Kuchiki and sets out to save the world from \"Hollows\".",
 "t": 1793570069.955904
 },
+"series|Buffy the Vampire Slayer": {
+"id": "tt0118276",
+"p": "A young woman, destined to slay vampires, demons and other infernal creatures, deals with her life fighting evil, with the help of her friends.",
+"t": 1793577616.882147
+},
+"series|Butt-Ugly Martians": {
+"id": "tt0293725",
+"p": "Three aliens came to Earth to become addicted to American culture. They are shown around by their Earthling friends: Mike, Cedric, and Angela. The Butt-Ugly Martians stay on Earth as long as Emperor Bog never finds them.",
+"t": 1793577610.587435
+},
+"series|Caitlin's Way": {
+"id": "tt0209665",
+"p": "After a run-in with the law, a spoiled, rebellious teenager moves to a quaint Montana town with a rural culture that she's unaccustomed to living.",
+"t": 1793577615.6012797
+},
 "series|Camp Lazlo": {
 "id": "tt0419315",
 "p": "Bean Scout Lazlo, a fun-loving, free-spirited monkey, and his two bunkmates Raj and Clam, wreak havoc on a very structured summer camp.",
@@ -21948,6 +22043,26 @@
 "p": "Following success as a late night talk show host, Space Ghost recruits Brak (now somewhat brain-damaged) to his cast for his very own variety show. Zorak (from Coast to Coast) serves as the third host.",
 "t": 1793570072.7017202
 },
+"series|CatDog": {
+"id": "tt0154061",
+"p": "The life and times of a cat and a dog with a unique twist: they're connected, literally. Adding to their dilemma is Cat's annoyance with Dog, mainly caused by Dog's stupidity and Cat's up-tight personality.",
+"t": 1793577619.0815728
+},
+"series|ChalkZone": {
+"id": "tt0235916",
+"p": "The adventures of a boy with a magic chalk stick that enables him to enter a world of chalk drawings and alter its reality at will.",
+"t": 1793577610.9645472
+},
+"series|Charmed": {
+"id": "tt0158552",
+"p": "Three sisters discover that they are descendants of a line of good female witches and are destined to fight against the forces of evil.",
+"t": 1793577616.9613655
+},
+"series|Cheers": {
+"id": "tt0083399",
+"p": "The regulars of the Boston bar \"Cheers\" share their experiences and lives with each other while drinking or working at the bar where everybody knows your name.",
+"t": 1793577621.0490391
+},
 "series|Childrens Hospital": {
 "id": "tt1325113",
 "p": "Explores the emotional struggles and sexual politics of a group of doctors charged with healthy libidos. Their dedication to their personal lives is relentless, interrupted only by the occasional need to treat sick children.",
@@ -21958,10 +22073,25 @@
 "p": "In Marzipan City, excitable young food-loving Chowder is the apprentice of Mung Daal, a very old chef who runs a catering company with his wife Truffles and assistant Shnitzel.",
 "t": 1793570068.9623945
 },
+"series|Clarissa Explains It All": {
+"id": "tt0101065",
+"p": "As events unfold in her life, Clarissa explains to the viewer the motivations behind people's actions.",
+"t": 1793577618.8298354
+},
 "series|Class of 3000": {
 "id": "tt0767914",
 "p": "Animated series about an Atlanta performing arts school grad who ditches a successful music career to become a music teacher.",
 "t": 1793570068.8883605
+},
+"series|Clueless": {
+"id": "tt0115137",
+"p": "A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.",
+"t": 1793577615.5070436
+},
+"series|Coach": {
+"id": "tt0096560",
+"p": "Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.",
+"t": 1793577620.2912238
 },
 "series|Code Lyoko": {
 "id": "tt0417311",
@@ -21973,10 +22103,25 @@
 "p": "The adventures of a group of ten-year-old friends who fight for the right to do everything that adults restrict from them.",
 "t": 1793570073.8542695
 },
+"series|Corneil & Bernie": {
+"id": "tt0446208",
+"p": "This show contains numerous adventures about just a guy and his talking dog",
+"t": 1793577610.204683
+},
+"series|Count Duckula": {
+"id": "tt0088500",
+"p": "The misadventures of a vegetarian vampire duck and his servants.",
+"t": 1793577618.1973279
+},
 "series|Courage the Cowardly Dog": {
 "id": "tt0220880",
 "p": "The offbeat adventures of Courage, a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers, paranormal events and menaces that appear around their land.",
 "t": 1793570073.9298458
+},
+"series|Cousin Skeeter": {
+"id": "tt0167567",
+"p": "Follows a boy who has come to live with his cousin and his family. Both of them get into all sorts of funny situations.",
+"t": 1793577612.0273597
 },
 "series|Cow and Chicken": {
 "id": "tt0118289",
@@ -21993,6 +22138,36 @@
 "p": "On the 25th anniversary of the start of the animated series Shinchan was presented in a new style for four seasons. Available now in Japanese and English dubbing on Amazon's Prime Video.",
 "t": 1793570079.482367
 },
+"series|Danny Phantom": {
+"id": "tt0366005",
+"p": "A 14-year-old receives ghost powers and uses them to save the world.",
+"t": 1793577611.5956938
+},
+"series|Daria": {
+"id": "tt0118298",
+"p": "A smart and cynical girl goes through teenage life as a proud outsider in a world of mainly idiotic adolescents and condescending adults.",
+"t": 1793577615.4167757
+},
+"series|Dawson's Creek": {
+"id": "tt0118300",
+"p": "In a rapidly changing world, four teenagers come of age in a small Massachusetts coastal town.",
+"t": 1793577617.0378046
+},
+"series|Degrassi Junior High/Degrassi High": {
+"id": "",
+"p": "",
+"t": 1793577614.1093616
+},
+"series|Degrassi The Next Generation": {
+"id": "tt0288937",
+"p": "The lives of the kids at Degrassi Community School deal with the serious and sometimes taboo issues that plague teenagers.",
+"t": 1793577616.0679493
+},
+"series|Dennis the Menace ('86)": {
+"id": "tt0166910",
+"p": "Good-natured, 6 y.o. Dennis is a menace to his parents and especially to his neighbor, Mr. Wilson. He has adventures with his friends and dog, Ruff. Each episode has 3 6-10 min. stories.",
+"t": 1793577618.3592246
+},
 "series|Detention": {
 "id": "tt13175760",
 "p": "A tormented student uncovers unsettling secrets at her remote high school as betrayal and a paranormal encounter upend her life.",
@@ -22002,6 +22177,21 @@
 "id": "tt0115157",
 "p": "The misadventures of a boy genius and his annoying sister.",
 "t": 1793570073.7871532
+},
+"series|Diff'rent Strokes": {
+"id": "tt0077003",
+"p": "Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...",
+"t": 1793577620.6924582
+},
+"series|Double Dare (2018)": {
+"id": "tt8451992",
+"p": "Get ready for the all-new Double Dare. Liza Koshy hosts as contestants take on tough trivia, fierce physical challenges, and the ultimate obstacle course in the messiest game show on TV.",
+"t": 1793577615.2482975
+},
+"series|Doug": {
+"id": "tt0101084",
+"p": "The life of a young boy as he meets friends, falls in love, maneuvers his way through grade 6 and writes all about it in his journal.",
+"t": 1793577618.9996634
 },
 "series|Dragon Ball": {
 "id": "tt0280249",
@@ -22018,6 +22208,11 @@
 "p": "With the help of the powerful Dragonballs, a team of fighters led by the saiyan warrior Goku defend the planet earth from extraterrestrial enemies.",
 "t": 1793570066.014268
 },
+"series|Drake & Josh": {
+"id": "tt0363328",
+"p": "Two teenage boys with clashing personalities - one is a slick musician, the other a clumsy nerd - must navigate high school and family life together after becoming step-brothers.",
+"t": 1793577612.4151964
+},
 "series|Duck Dodgers": {
 "id": "tt0376390",
 "p": "Animated science fiction series based on the alter ego of Looney Tunes star Daffy Duck, the semi-heroic, yet incompetent, space captain Duck Dodgers.",
@@ -22027,6 +22222,11 @@
 "id": "tt0184111",
 "p": "The off-the-wall, day-to-day life of three friends who have exactly the same name.",
 "t": 1793570074.0508528
+},
+"series|Edgar & Ellen": {
+"id": "tt1133691",
+"p": "Twin pranksters Edgar and Ellen play jokes on each other and Nod's Limbs residents. Despite backfiring pranks, they torment one another, their pet, and Ellen's nemesis Stephanie.",
+"t": 1793577609.6028059
 },
 "series|Evil Con Carne": {
 "id": "tt0419322",
@@ -22038,6 +22238,36 @@
 "p": "In a wacky Rhode Island town, a dysfunctional family strives to cope with everyday life as they are thrown from one crazy scenario to another.",
 "t": 1793570072.019255
 },
+"series|Family Matters": {
+"id": "tt0096579",
+"p": "The Winslow family deals with various misadventures, many of them caused by their pesky next-door neighbor, ultra-nerd Steve Urkel.",
+"t": 1793577620.135825
+},
+"series|Family Ties": {
+"id": "tt0083413",
+"p": "Chronicles liberal ex-hippies Steven and Elyse Keaton, their conservative son Alex, daughters Mallory and Jennifer, and later, youngest child Andrew.",
+"t": 1793577617.6949794
+},
+"series|Fatherhood": {
+"id": "tt0415424",
+"p": "Scientist Dr. Arthur Bindlebeep is the head of the family and a high school teacher. He and his wife, Norma, try to be model parents while learning a few things from their three children: Angie, Roy and Katherine and their dog Gui...",
+"t": 1793577609.2018456
+},
+"series|Fifteen": {
+"id": "tt0101099",
+"p": "Students at the fictional Hillside School deal with a variety of issues, such as friendship, dating, divorce, and alcohol abuse.",
+"t": 1793577613.9367752
+},
+"series|Figure It Out": {
+"id": "tt0127994",
+"p": "A group of four different panelists popular on Nickelodeon programs try to figure out the talents of different guests. They are given clues that they can feel, see, taste, and also given to them though charades.",
+"t": 1793577615.006114
+},
+"series|Finders Keepers": {
+"id": "tt27656056",
+"p": "Keen detectorist Martin and his wheeler dealer soon to be son-in-law Ashley who, while on a boys bonding trip in the idyllic fields of rural Somerset, discover a hoard of buried Saxon treasure worth millions.",
+"t": 1793577614.6174846
+},
 "series|Foster's Home for Imaginary Friends": {
 "id": "tt0419326",
 "p": "A boy and his beloved imaginary friend are able to stay together at an orphanage of sorts for imaginary friends that children have outgrown to be adopted by new children.",
@@ -22047,6 +22277,11 @@
 "id": "tt0111970",
 "p": "Washington, D.C. has a new defender: Freakazoid. The comedy and insanity never stop when he's around, and he's only one of the weird heroes of the series. It's better than a nice tub of good things.",
 "t": 1793570067.0027251
+},
+"series|Full House": {
+"id": "tt0092359",
+"p": "A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.",
+"t": 1793577620.2144105
 },
 "series|Fullmetal Alchemist: Brotherhood": {
 "id": "tt1355642",
@@ -22068,10 +22303,25 @@
 "p": "The GI Joe Special Missions force must battle to build a counterweapon to Cobra's teleportation device.",
 "t": 1793570071.2344797
 },
+"series|Garfield and Friends": {
+"id": "tt0094469",
+"p": "Stories about Garfield the cat, Odie the dog, their owner Jon and the trouble they get into, and Orson the Pig and his adventures on a farm with fellow farm animals.",
+"t": 1793577617.863747
+},
+"series|Get the Picture": {
+"id": "tt0215416",
+"p": "Known as \"The Great Frame Game.\" Get the Picture was a great game show, hosted by Mike O'Malley, that aired from March 18, 1991 to December 6, 1991 on Nickelodeon. Two separate teams were tasked with answering questions and playin...",
+"t": 1793577614.5203195
+},
 "series|Ghost in the Shell": {
 "id": "tt0346314",
 "p": "The futuristic adventures of a female cyborg counter intelligence agent and her support team.",
 "t": 1793570070.0927696
+},
+"series|Glenn Martin, DDS": {
+"id": "tt1355237",
+"p": "A dentist and father of two decides to take his family across country after their house burns down. With their old beat up Winnebago, the Martin family will encounter the best that America has to offer.",
+"t": 1793577609.3336272
 },
 "series|Grim & Evil": {
 "id": "tt32269091",
@@ -22088,6 +22338,16 @@
 "p": "The story of hamsters who get together at meetings to talk about their adventures.",
 "t": 1793570066.8112671
 },
+"series|Hangin' with Mr. Cooper": {
+"id": "tt0103435",
+"p": "American comedy with a larger-than-life teacher and his housemates.",
+"t": 1793577617.2087548
+},
+"series|Happy Days": {
+"id": "tt0070992",
+"p": "In Milwaukee Wisconsin, hardware store owner Howard Cunningham, his wife Marion, and their children Richard and Joanie live through the 1950s with help and guidance from lovable and almost superhuman greaser Fonzie.",
+"t": 1793577621.1264198
+},
 "series|Harvey Birdman, Attorney at Law": {
 "id": "tt0294097",
 "p": "Third-rate superhero Harvey Birdman gets a new lease on life when he becomes a lawyer.",
@@ -22097,6 +22357,21 @@
 "id": "tt0331744",
 "p": "On the planet Eternia, a young prince gains the ability to become a powerful warrior to defend Castle Grayskull against the dark lord Skeletor.",
 "t": 1793570075.6742878
+},
+"series|Heathcliff": {
+"id": "tt0173556",
+"p": "A scruffy alley cat rules his neighborhood. Rejected monsters drive about doing odd jobs. A clumsy, lovable great Dane gets into mischief without meaning to.",
+"t": 1793577617.939497
+},
+"series|Hey Arnold!": {
+"id": "tt0115200",
+"p": "The everyday life of Arnold, a fourth-grader in the city of Hillwood, Washington, who lives in a multi-racial boarding house with his grandparents and a motley assortment of friends and neighbors.",
+"t": 1793577619.4584422
+},
+"series|Hey Dude": {
+"id": "tt0096610",
+"p": "A group of friends work together with their boss at a dude ranch and go through many fun moments and mishaps along the way.",
+"t": 1793577618.7588487
 },
 "series|Hi Hi Puffy AmiYumi": {
 "id": "tt0407398",
@@ -22108,25 +22383,65 @@
 "p": "Edutainment animated series that parodies and satirizes history, pop culture and edutainment concept itself.",
 "t": 1793570076.3727229
 },
+"series|Home Improvement": {
+"id": "tt0101120",
+"p": "The daily trials and tribulations of Tim \"The Tool Man\" Taylor, a television show host raising three mischievous boys with help from his loyal co-host, loving wife, and eccentric neighbor.",
+"t": 1793577608.2844586
+},
 "series|Home Movies": {
 "id": "tt0197159",
 "p": "Brendon Small, an ambitious eight-year-old filmmaker, shoots movies with his two best friends, while coming to terms with adolescence, life, and relationships.",
 "t": 1793570074.6282644
+},
+"series|House of Anubis": {
+"id": "tt1638319",
+"p": "When one of their number disappears on the same day that an American girl joins their ranks, a group of English boarding school students embarks on solving a mystery.",
+"t": 1793577613.743285
 },
 "series|I Am Weasel": {
 "id": "tt0218769",
 "p": "The adventures of a highly intelligent, talented and rather generous weasel and a stupid baboon who has no talent at most things.",
 "t": 1793570073.550397
 },
+"series|I Love Lucy": {
+"id": "tt0043208",
+"p": "The wife of a band leader constantly tries to become a star - in spite of her having no talent, and gets herself (along with her best friend) into the funniest predicaments.",
+"t": 1793577620.8799984
+},
+"series|Inspector Gadget": {
+"id": "tt0085033",
+"p": "A bumbling cyborg inspector outfitted with an array of bizarre gadgets pursues the criminal organization M.A.D., all while his precocious niece and dog do the real investigative work.",
+"t": 1793577618.1209872
+},
+"series|Instant Mom": {
+"id": "tt2545498",
+"p": "A 25-year-old party girl becomes an instant mom when she marries an older man with three children.",
+"t": 1793577608.789713
+},
+"series|Instant Star": {
+"id": "tt0420416",
+"p": "Based on a song she wrote and performed, a young girl wins a national contest for a recording contract. Now she must balance the life of a normal teenager with that of a rising star in the music industry.",
+"t": 1793577615.985743
+},
 "series|Inuyasha": {
 "id": "tt0290223",
 "p": "A teenage girl periodically travels back in time to feudal Japan to help a young half-demon recover the shards of a jewel of great power.",
 "t": 1793570070.3130505
 },
+"series|Invader Zim": {
+"id": "tt0235923",
+"p": "An alien named Zim from the planet Irk is sent on a secret mission to conquer Earth, not realising that his leaders were just trying to get rid of him and hoped that he would die. Once there, Zim manages to disguise himself as a h...",
+"t": 1793577610.8810337
+},
 "series|Jackie Chan Adventures": {
 "id": "tt0259141",
 "p": "Jackie Chan teams up with his 11-year-old niece, Jade, traveling the globe to locate a dozen magical talismans before the sinister Dark Hand does. Helping Jackie and Jade is Uncle, a cantankerous but wise antiquities expert.",
 "t": 1793570067.4989455
+},
+"series|Jimmy Neutron": {
+"id": "tt0320808",
+"p": "A young boy, who happens to be a genius, lives in a small town with his family and friends and often gets into crazy adventures with them involving the things he invents.",
+"t": 1793577611.4099402
 },
 "series|Johnny Bravo": {
 "id": "tt0118360",
@@ -22143,15 +22458,45 @@
 "p": "An up-and-coming pop-music group and its entourage get involved with strange mysteries while touring the world.",
 "t": 1793570070.73506
 },
+"series|Journey of Allen Strange": {
+"id": "tt0143325",
+"p": "An alien child has been left behind on Earth. He befriends two human children and it is up to them to find a way to get him back home while they try to keep him secret.",
+"t": 1793577613.1897407
+},
+"series|Just Jordan": {
+"id": "tt0486935",
+"p": "A young man rises to stardom under the tutelage of his teacher-turned-manager.",
+"t": 1793577612.494736
+},
 "series|Justice League Unlimited": {
 "id": "tt6025022",
 "p": "A continuation of the Justice League animated series finds the original members of the team joined in their battle against crime and evil by dozens of other heroes from the DC comics universe.",
 "t": 1793570074.3622596
 },
+"series|KaBlam!": {
+"id": "tt0122353",
+"p": "An animated anthology show hosted by two kids who live in a comic book.",
+"t": 1793577619.231681
+},
+"series|Kappa Mikey": {
+"id": "tt0457246",
+"p": "Parody of Japanese anime, featuring a guy named Mikey who travels to Japan to star in an anime, where he discovers his new co-stars are all basically walking anime clichés.",
+"t": 1793577610.286319
+},
+"series|Kenan & Kel": {
+"id": "tt0115231",
+"p": "Kenan and Kel, best friends who live in Chicago, are always dragged down by Kenan's get-rich-quick schemes; orange-soda-loving buddy Kel is dragged along but tends to mess things up.",
+"t": 1793577612.104816
+},
 "series|Krypto the Superdog": {
 "id": "tt0437018",
 "p": "The adventures of the Kryptonian superhero dog and his friends.",
 "t": 1793570066.9440703
+},
+"series|Legends of the Hidden Temple": {
+"id": "tt0310482",
+"p": "Six teams compete for the chance to search for the treasure inside the titular temple.",
+"t": 1793577615.0894616
 },
 "series|Looney Tunes": {
 "id": "tt21241746",
@@ -22163,6 +22508,31 @@
 "p": "",
 "t": 1793570075.802715
 },
+"series|Mad About You": {
+"id": "tt0103484",
+"p": "Mad About You centers on the trials and tribulations of a married couple living in New York.",
+"t": 1793577617.3759725
+},
+"series|Make the Grade": {
+"id": "tt0255741",
+"p": "Kids attempt to test their knowledge in a matter of mixed learning.",
+"t": 1793577614.3214989
+},
+"series|Making Fiends": {
+"id": "tt1170236",
+"p": "An evil little girl's plans to control her town with homemade monsters becomes uprooted by another little girl that sees happiness in everything, and sees her as her best friend.",
+"t": 1793577609.4202018
+},
+"series|Married... with Children": {
+"id": "tt0092400",
+"p": "Al is the quintessential working class dad. Peggy, his wife, always wants more from him. With their children, they go through the highs and lows of ordinary life.",
+"t": 1793577608.4071457
+},
+"series|Martin Mystery": {
+"id": "tt0374419",
+"p": "Martin and Diana, two mismatched teenagers, and Java, a massive caveman lost in time, work for an undercover bureau specializing in mysterious phenomena.",
+"t": 1793577610.7048502
+},
 "series|Marvelous Misadvs of Flapjack": {
 "id": "",
 "p": "",
@@ -22172,6 +22542,11 @@
 "id": "tt0361201",
 "p": "Two teenage slackers find a mecha from the future that had been lying in a New Jersey junkyard for nearly 60 years and make modifications much to the dismay of the robot's attractive creator.",
 "t": 1793570068.1094203
+},
+"series|Men in Black: The Series": {
+"id": "tt0127385",
+"p": "The continuing adventures of Agents K and J as they deal with problems with extraterrestrials in New York City.",
+"t": 1793577610.7911818
 },
 "series|Metalocalypse": {
 "id": "tt0839188",
@@ -22203,15 +22578,50 @@
 "p": "In the war between the Earth Federation and Zeon, a young and inexperienced crew find themselves on a new spaceship. Their best hope of making it through the conflict is the Gundam, a giant humanoid robot, and its gifted teenage p...",
 "t": 1793570070.172461
 },
+"series|Moesha": {
+"id": "tt0115275",
+"p": "A teenager struggles to come to terms with everything life throws at her.",
+"t": 1793577615.8025322
+},
 "series|Moral Orel": {
 "id": "tt0476922",
 "p": "A parody of past religious-geared animated shows starring Orel, an optimistic God-fearing young boy in a world of cynicism.",
 "t": 1793570072.6288302
 },
+"series|Mr. Wizard's World": {
+"id": "tt0085060",
+"p": "Mr. Wizard and his young friends conduct a variety of science experiments.",
+"t": 1793577621.4391675
+},
+"series|Muppet Babies": {
+"id": "tt0086764",
+"p": "The Muppets, as babies, have adventures with their imaginations inside their nursery.",
+"t": 1793577618.0428793
+},
+"series|Murphy Brown": {
+"id": "tt0094514",
+"p": "The personal and professional misadventures of an opinionated but beloved woman working as a television journalist.",
+"t": 1793577617.2929263
+},
+"series|My Dad the Rock Star": {
+"id": "tt0388625",
+"p": "The straightlaced son of a flamboyantly eccentric heavy metal rock star tries to lead a normal life.",
+"t": 1793577609.9534547
+},
 "series|My Gym Partner's a Monkey": {
 "id": "tt0451461",
 "p": "A clerical error sends 12-year-old Adam Lyon to a middle school for zoo animals, but his best friend, Jake the Monkey, is standing by him every step of the way to help him adjust.",
 "t": 1793570068.8255184
+},
+"series|My Life as a Teenage Robot": {
+"id": "tt0318233",
+"p": "The escapades of a super-powered robot who happens to resemble a teenage girl that tries to balance high school and teen problems while trying to save the world from danger.",
+"t": 1793577611.3181303
+},
+"series|Mystery Files of Shelby Woo": {
+"id": "tt0115283",
+"p": "The adventures of an aspiring detective girl who solves crime in her spare time.",
+"t": 1793577613.0999086
 },
 "series|NTSF:SD:SUV::": {
 "id": "tt1783495",
@@ -22223,10 +22633,45 @@
 "p": "Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.",
 "t": 1793570069.812826
 },
+"series|Ned's Declassified School": {
+"id": "tt0405576",
+"p": "Ned Bigby shares his advice on how to survive middle school.",
+"t": 1793577616.3200855
+},
+"series|NewsRadio": {
+"id": "tt0112095",
+"p": "The workplace sitcom \"NewsRadio\" explores the office politics and interpersonal relationships among the staff of WNYX NewsRadio, New York's #2 news radio station.",
+"t": 1793577617.542868
+},
+"series|Nick Arcade": {
+"id": "",
+"p": "",
+"t": 1793577614.9260461
+},
+"series|Nickelodeon Guts": {
+"id": "tt0210723",
+"p": "Three kids dawning the different colors blue, red, and purple compete in relatively cool-looking olympic-style games to achieve as many points as they can. At the end of every episode, they climb a big fake mountain, braving tumbl...",
+"t": 1793577615.1675732
+},
+"series|Noah Knows Best": {
+"id": "tt0235938",
+"p": "Noah Beznick and his sister Megan deal with sibling rivalry.",
+"t": 1793577612.7567837
+},
+"series|Oh Yeah! Cartoons": {
+"id": "tt0177455",
+"p": "A TV series that shows a collection of cartoon shorts. This show helped to launch cartoons shows of \"The Fairly Oddparents\", \"Chalkzone\" and \"My Life as a Teenage Robot.\"",
+"t": 1793577609.6916375
+},
 "series|One Piece": {
 "id": "tt0388629",
 "p": "A spirited young pirate sets sail with a growing crew in search of the legendary One Piece, facing dangerous seas and powerful rivals on his quest to become King of the Pirates.",
 "t": 1793570070.392535
+},
+"series|Out of Control": {
+"id": "tt0145627",
+"p": "Dave and his friends host this zany sketch-comedy variety show for kids.",
+"t": 1793577621.3609416
 },
 "series|Ozzy & Drix": {
 "id": "tt0306371",
@@ -22243,6 +22688,11 @@
 "p": "On his 10th birthday, Ash starts his Pokémon journey with an unexpected Pikachu. He faces tough Gym battles but finds support in Brock, Misty, and new Pokémon companions Bulbasaur, Squirtle, and Charmander.",
 "t": 1793570065.879942
 },
+"series|Radio Free Roscoe": {
+"id": "tt0377248",
+"p": "Robbie, Ray, Lily and Travis have had enough with the lame crap on the radio. So they decide to take over and give Roscoe High what it needs: an underground radio station. Can they find their voice while keeping their identities a...",
+"t": 1793577615.896855
+},
 "series|Real Adventures of Jonny Quest": {
 "id": "tt0115226",
 "p": "A teenager and his extended family investigate the supernatural and other mysteries around the world.",
@@ -22258,25 +22708,70 @@
 "p": "Robotboy is a cute, cutting-edge, butt-kicking battle-robot, who dreams of becoming a real boy. Created by world-renowned scientist Professor Moshimo.",
 "t": 1793570067.703229
 },
+"series|Rocket Power": {
+"id": "tt0244926",
+"p": "Four friends and their daily lives of playing extreme sports, surfing, and getting into some crazy situations.",
+"t": 1793577611.8288698
+},
+"series|Rocko's Modern Life": {
+"id": "tt0106115",
+"p": "The wacky misadventures of an Australian wallaby and his friends as he finishes his transition to American life.",
+"t": 1793577619.308053
+},
+"series|Romeo!": {
+"id": "tt0367403",
+"p": "Romeo finds out what it means to be a good friend, even if it means breaking the law.",
+"t": 1793577612.342194
+},
 "series|Ronin Warriors": {
 "id": "tt0159933",
 "p": "After a thousand years of exile, Talpa, ruler of the Netherworld, returns to claim the Earth as his own. The only thing that can stop him and his minions are five young men and their mystical suits of armor.",
 "t": 1793570073.6097834
+},
+"series|Roseanne": {
+"id": "tt0094540",
+"p": "A revival of the popular 1990s sitcom \"Roseanne,\" which centered on the everyday life of an American working-class family.",
+"t": 1793577619.950598
+},
+"series|Roundhouse": {
+"id": "tt0103530",
+"p": "Sketch Comedy show for adolescents with skits revolving around a central theme to teach a lesson.",
+"t": 1793577612.9224315
+},
+"series|Rugrats": {
+"id": "tt0101188",
+"p": "Tommy, Chuckie, Angelica, Phil and Lil and Susie find themselves in a slew of adventures - both real and imaginary. Baldly go where no baby's every gone before as the Rugrats turn the ordinary into the extraordinary every day.",
+"t": 1793577619.5584006
 },
 "series|SWAT Kats": {
 "id": "tt0126173",
 "p": "In a world of anthropomorphic felines, two demoted fighter pilots battle evil as high flying masked vigilantes.",
 "t": 1793570073.2208586
 },
+"series|Sabrina the Teenage Witch": {
+"id": "tt0115341",
+"p": "Sabrina is a normal teenager, except for one thing - she's a witch. Guided by her aunts, who come from a long line of witches, and Salem, a mischievous warlock doing penance as a cat, Sabrina continually struggles to harness her p...",
+"t": 1793577616.6475239
+},
 "series|Sailor Moon": {
 "id": "tt0114327",
 "p": "The magical action-adventures of a teenage girl who learns of her destiny as the legendary warrior Sailor Moon and must band together with the other Sailor Scouts to defend the Earth and Galaxy.",
 "t": 1793570066.2863317
 },
+"series|Salute Your Shorts": {
+"id": "tt0101190",
+"p": "A group of kids at a summer camp, run by the heard-but-never-seen Dr. Kahn, form friendships as they spend time harassing buffoonish camp counselor Kevin \"Ug\" Lee.",
+"t": 1793577618.6746988
+},
 "series|Samurai Jack": {
 "id": "tt0278238",
 "p": "A samurai, sent through time, fights to return home and save the world.",
 "t": 1793570074.189084
+},
+"series|Saved by the Bell": {
+"id": "tt0096694",
+"p": "A close-knit group of six friends get through their teens together while attending Bayside High School in Palisades, California.",
+"t": 1793577615.3259969
 },
 "series|Scooby and Scrappy-Doo": {
 "id": "tt0084970",
@@ -22303,10 +22798,35 @@
 "p": "The drama of an oft-doomed aquatic colony and its personnel, who hate each other.",
 "t": 1793570074.8904831
 },
+"series|Secret World of Alex Mack": {
+"id": "tt0108921",
+"p": "Alexandra \"Alex\" Mack develops powerful abilities after a chemical factory accident. She struggles to balance her ordinary life with extraordinary misadventures as a result.",
+"t": 1793577619.7634306
+},
+"series|See Dad Run": {
+"id": "tt2382108",
+"p": "An actor becomes a stay-at-home father so his wife can pursue her career.",
+"t": 1793577608.8687859
+},
 "series|Sheep in the Big City": {
 "id": "tt0260653",
 "p": "A military base builds a ray gun to take over and/or destory the world. What is needed to power this gun is a sheep, when a sheep of a small country farm is chosen it escapes to a nearby city and the chase is on...",
 "t": 1793570076.0227466
+},
+"series|Shuriken School": {
+"id": "tt0835241",
+"p": "Shuriken School follows the extraordinary adventures of 10 year old hero Eizan Kaburagi and his friends during their first year at an under-funded ninja school.",
+"t": 1793577610.3805258
+},
+"series|So Little Time": {
+"id": "tt0278245",
+"p": "Twin teenagers Riley and Chloe are subject to the trials and tribulations of school, family, friends, and boys.",
+"t": 1793577616.1515582
+},
+"series|Space Cases": {
+"id": "tt0115366",
+"p": "A group of students from a space academy and two of their teachers find themselves lost in space aboard a mysterious ship of alien origin.",
+"t": 1793577613.2705164
 },
 "series|Space Ghost": {
 "id": "tt0060026",
@@ -22318,6 +22838,11 @@
 "p": "Space Ghost, a superhero from a 1960s Hanna-Barbera cartoon, hosts his own talk show.",
 "t": 1793570074.4927263
 },
+"series|SpongeBob SquarePants": {
+"id": "tt0206512",
+"p": "The misadventures of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in an underwater pineapple.",
+"t": 1793577611.9432106
+},
 "series|Squidbillies": {
 "id": "tt0457146",
 "p": "Follows the adventures of the Cuylers, an impoverished and dysfunctional family of anthropomorphic, air-breathing, redneck squids who live in a rural Appalachian community in the state of Georgia.",
@@ -22327,6 +22852,11 @@
 "id": "tt0247729",
 "p": "In the city of Dakota, a teenage boy with electricity based powers, with the help of his inventive friend, fights crime as a superhero.",
 "t": 1793570068.348833
+},
+"series|Supah Ninjas": {
+"id": "tt1615925",
+"p": "Three high school students - Mike Fukanaga, Owen Reynolds, and Amanda McKay - become ninjas with the help of Mike's grandpa.",
+"t": 1793577613.5780838
 },
 "series|Super Friends": {
 "id": "tt0069641",
@@ -22348,6 +22878,11 @@
 "p": "Three young alien beings with the ability to form a giant robotic warrior attempt to blend into suburbia, all while battling the tyrannical forces that ravaged their home world.",
 "t": 1793570071.6873689
 },
+"series|Taina": {
+"id": "tt0235947",
+"p": "Fifteen-year-old Taina Morales dreams of being a singer and actor, and must juggle family values and friends while attending the Manhattan School for the Performing Arts.",
+"t": 1793577612.5774302
+},
 "series|Teen Titans": {
 "id": "tt0343314",
 "p": "A team of five teenaged superheroes save the world from many villains around their city while experiencing things normal teens face.",
@@ -22357,6 +22892,26 @@
 "id": "tt0318913",
 "p": "Follows the adventures of the Teenage Mutant Ninja Turtles, with this iteration being based on the stories from the original mirage comic books.",
 "t": 1793570068.4781718
+},
+"series|That '70s Show": {
+"id": "tt0165598",
+"p": "A comedy revolving around a group of teenage friends, their mishaps, and their coming of age, set in 1970s Wisconsin.",
+"t": 1793577616.716535
+},
+"series|The Adventures of Pete & Pete": {
+"id": "tt0105933",
+"p": "This delightfully quirky show looks at the lives and adventures of two red-headed brothers with the same name.",
+"t": 1793577618.5995326
+},
+"series|The Amanda Show": {
+"id": "tt0217910",
+"p": "A comedy sketch show centered around All That (1994) alum Amanda Bynes.",
+"t": 1793577612.1789522
+},
+"series|The Angry Beavers": {
+"id": "tt0131664",
+"p": "Brothers Daggett and Norbert Beaver have left home to gain independence by living on their own. Their goal is to live a wild bachelor lifestyle but, as might be expected from young brothers, they get into some weird situations.",
+"t": 1793577619.3800848
 },
 "series|The Batman (2004)": {
 "id": "tt0398417",
@@ -22373,15 +22928,40 @@
 "p": "Brothers Huey and Riley Freeman experience a culture clash when they leave Chicago to move in with their grandfather in the suburbs.",
 "t": 1793570071.88961
 },
+"series|The Brady Bunch": {
+"id": "tt0063878",
+"p": "The misadventures of a large family united when a widower and a widow marry.",
+"t": 1793577620.784849
+},
 "series|The Brak Show": {
 "id": "tt0297512",
 "p": "Former 'Space Ghost' villains Brak and Zorak live their lives in sitcom form.",
 "t": 1793570072.769379
 },
+"series|The Brothers García": {
+"id": "tt0235913",
+"p": "The comic foibles of a Mexican-American family in San Antonio, Texas, US.",
+"t": 1793577612.6836495
+},
+"series|The Cosby Show": {
+"id": "tt0086687",
+"p": "The goings-on in the life of a successful African-American family.",
+"t": 1793577619.849666
+},
 "series|The Eric Andre Show": {
 "id": "tt2244495",
 "p": "Eric Andre tries to host a talk show in a bizarre environment, where he is sometimes the player of pranks and sometimes the victim.",
 "t": 1793570079.225289
+},
+"series|The Facts of Life": {
+"id": "tt0078610",
+"p": "Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.",
+"t": 1793577620.6087995
+},
+"series|The Fairly OddParents": {
+"id": "tt0235918",
+"p": "After being tortured and humiliated by his babysitter, a ten year old boy is put under the care of two fairy godparents, who can grant him almost any wish, which leads to dire consequences.",
+"t": 1793577611.512054
 },
 "series|The Flintstone Kids": {
 "id": "tt0240265",
@@ -22393,15 +22973,35 @@
 "p": "The misadventures of two modern-day Stone Age families, the Flintstones and the Rubbles.",
 "t": 1793570066.5409443
 },
+"series|The Fresh Prince of Bel-Air": {
+"id": "tt0098800",
+"p": "After getting into a fight, a streetwise teenager from a poor neighborhood in West Philadelphia, Pennsylvania is sent by his mother to live with his wealthy aunt, uncle, and cousins at their mansion in Bel-Air, Los Angeles in Cali...",
+"t": 1793577620.0400808
+},
+"series|The Jeffersons": {
+"id": "tt0072519",
+"p": "Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.",
+"t": 1793577620.36325
+},
 "series|The Jetsons": {
 "id": "tt0055683",
 "p": "The misadventures of a futuristic family.",
 "t": 1793570066.604313
 },
+"series|The King of Queens": {
+"id": "tt0165581",
+"p": "Deliveryman Doug Heffernan has a good life: He has a pretty wife (Carrie), a big television, and friends with which to watch it. Then Carrie's goofy, annoying father Arthur moves in with them.",
+"t": 1793577608.5104449
+},
 "series|The Life and Times of Juniper Lee": {
 "id": "tt0419348",
 "p": "Juniper Lee is an 11 year old girl who can fight the force of chaos and curses. One day she skipped one of her friends' birthdays and fights the chaos again.",
 "t": 1793570067.9692476
+},
+"series|The Nanny": {
+"id": "tt0106080",
+"p": "After being fired from her job and dumped by her boyfriend, a cosmetics saleswoman becomes the nanny to the three children of a rich English widower. As time passes, the two fall for each other.",
+"t": 1793577608.6149948
 },
 "series|The New Scooby-Doo Movies": {
 "id": "tt0068112",
@@ -22423,6 +23023,11 @@
 "p": "Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things.",
 "t": 1793570074.118765
 },
+"series|The Ren & Stimpy Show": {
+"id": "tt0101178",
+"p": "Ren, a psychotic Chihuahua, and Stimpson J. Cat, a dimwitted Manx cat who goes by the nickname Stimpy, have a host of unusual adventures.",
+"t": 1793577618.9186018
+},
 "series|The Secret Saturdays": {
 "id": "tt1291662",
 "p": "An adventuresome family of experts in the field of creatures known as cryptids attempts to protect their secrets and powers from the forces of evil.",
@@ -22433,15 +23038,50 @@
 "p": "The Smurfs are tiny blue creatures that live in mushroom houses in a peaceful forest. They repeatedly try to outwit Gargamel, an evil sorcerer, his apprentice, Scruple, and his mangy cat, Azrael.",
 "t": 1793570066.672242
 },
+"series|The TOMORROW People": {
+"id": "tt2660734",
+"p": "Stephen helps genetically advanced teenagers hide from a paramilitary group hunting them down.",
+"t": 1793577613.8328047
+},
 "series|The Tex Avery Show": {
 "id": "tt0346415",
 "p": "A Cartoon Network segment showcasing animated shorts directed by Tex Avery.",
 "t": 1793570071.3165655
 },
+"series|The Troop": {
+"id": "tt1131750",
+"p": "A troop of kids protect the world from supernatural creatures.",
+"t": 1793577613.6676228
+},
 "series|The Venture Bros.": {
 "id": "tt0417373",
 "p": "The bizarre escapades of pseudo-heroic scientist Dr. Rusty Venture, his competent, high-strung bodyguard, and his two overenthusiastic sons.",
 "t": 1793570072.2906544
+},
+"series|The Wild Thornberrys": {
+"id": "tt0167743",
+"p": "Eliza Thornberry is not your ordinary kid. It's not just because she travels the world in an RV with her parents: famous nature show hosts. Eliza also happened to be granted the magical ability to talk with and understand animals.",
+"t": 1793577611.0442374
+},
+"series|The Wonder Years": {
+"id": "tt0094582",
+"p": "Kevin Arnold recalls growing up during the late 60s and early 70s; the turbulent social times make the transition from child to adult unusually interesting.",
+"t": 1793577617.4631312
+},
+"series|Think Fast": {
+"id": "tt0387786",
+"p": "Two teams battle it out based on their knowledge and physical skills.",
+"t": 1793577614.4386816
+},
+"series|Three Delivery": {
+"id": "tt1227695",
+"p": "Three orphaned siblings in Chinatown attempt to locate missing recipes with mystical powers, all while doubling as Chinese food delivery couriers.",
+"t": 1793577610.47768
+},
+"series|Three's Company": {
+"id": "tt0075596",
+"p": "The misadventures of two women and one man living in one apartment and their neighbors.",
+"t": 1793577620.9543016
 },
 "series|ThunderCats (1985)": {
 "id": "tt0088631",
@@ -22462,6 +23102,11 @@
 "id": "tt0291672",
 "p": "The adventures of the Time Squad, a team of dysfunctional characters who travel through time to rectify any deviations in history.",
 "t": 1793570076.175871
+},
+"series|Tiny Toon Adventures": {
+"id": "tt0098929",
+"p": "The wacky adventures of the new young hip generation of Warner Brothers Looney Tunes characters, most of them descendants of the original classic toon cast.",
+"t": 1793577619.1515322
 },
 "series|Tom & Jerry Kids": {
 "id": "tt0198254",
@@ -22493,6 +23138,11 @@
 "p": "",
 "t": 1793570066.223816
 },
+"series|Unfabulous": {
+"id": "tt0416435",
+"p": "Addie is a teenage middle school student. She has two BFFs and an annoying big brother.",
+"t": 1793577616.2366953
+},
 "series|Voltron (1984)": {
 "id": "tt0086824",
 "p": "This series focuses on five lion robots and their pilots as they fight the evil forces of King Zarkon and Prince Lotor.",
@@ -22502,6 +23152,31 @@
 "id": "tt0278882",
 "p": "A 10-year-old boy tries to deal with the problems of pre-adolescence in his lower-Manhattan neighborhood.",
 "t": 1793570076.23356
+},
+"series|Weinerville": {
+"id": "tt0313146",
+"p": "A mostly one man show in which a guy (Marc Weiner) interacted with his puppet selves (his head on the body of puppets) to solve their silly problems in a cardboard town. Included games with audience participation.",
+"t": 1793577618.5225065
+},
+"series|Welcome Freshman": {
+"id": "",
+"p": "",
+"t": 1793577621.280432
+},
+"series|Wendell & Vinnie": {
+"id": "tt2477858",
+"p": "A loveable goofball uncle becomes the guardian of his nephew, a 12-year-old genius.",
+"t": 1793577609.1241806
+},
+"series|What I Like About You": {
+"id": "tt0321018",
+"p": "When Holly's father is transferred to Japan, she is sent to live with her big sister Valerie in New York City, turning Valerie's life upside down.",
+"t": 1793577616.8047137
+},
+"series|What Would You Do?": {
+"id": "tt1361787",
+"p": "A social experiment show which takes controversial situations to the streets of America to see how everyday citizens will react.",
+"t": 1793577614.6975348
 },
 "series|What a Cartoon!": {
 "id": "tt0181266",
@@ -22518,6 +23193,21 @@
 "p": "In a town set in the retro 1980's, a young robot must collect data on humans and do whatever he can to fit in with them.",
 "t": 1793570076.569884
 },
+"series|Who's the Boss?": {
+"id": "tt0086827",
+"p": "Tony Micelli, a retired baseball player, becomes the housekeeper of Angela Bower, an advertising executive in New York. Together they raise their kids, Samantha Micelli and Jonathan Bower, with help from Mona Robinson, Angela's ma...",
+"t": 1793577617.6254866
+},
+"series|Wild & Crazy Kids": {
+"id": "tt0121967",
+"p": "Teams of kids compete against each other in a variety of physical competitions and sports.",
+"t": 1793577614.770207
+},
+"series|Wings": {
+"id": "tt0098948",
+"p": "Brothers Joe and Brian Hackett run a one-plane commuter service from a small Nantucket airport.",
+"t": 1793577617.783685
+},
 "series|X-Men: Evolution": {
 "id": "tt0247827",
 "p": "This rendition of X-Men features Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat and Spike as teenagers as they fight for a world that fears and hates them.",
@@ -22528,10 +23218,25 @@
 "p": "A young Xiaolin monk named Omi with a giant yellow head leads a trio of other students to collect powerful items known as Shen Gong Wu while battling the evil Jack Spicer who is also after the artifacts",
 "t": 1793570068.2725425
 },
+"series|Yes, Dear": {
+"id": "tt0247144",
+"p": "Yes, Dear is a comedy about two young couples and their outrageously contrasting views on parenting.",
+"t": 1793577608.6930757
+},
 "series|Yogi Bear": {
 "id": "tt0255768",
 "p": "Yogi, a smooth, talkative forest bear looks to raid park goers' picnic baskets, while Park Ranger Smith tries to stop him.",
 "t": 1793570072.9614506
+},
+"series|You Can't Do That on Television": {
+"id": "tt0078714",
+"p": "Sketch-TV by young amateur actors in true classic Nick-style. Whatever you do, never ask for water or admit that you don't know.",
+"t": 1793577618.4378061
+},
+"series|You're On!": {
+"id": "tt37678311",
+"p": "An OB-GYN learns her husband's affair during surgery on his mistress. While expecting herself, she unleashes a viral revenge that shatters their facades and restores her dignity.",
+"t": 1793577614.1913114
 },
 "series|Young Justice": {
 "id": "tt1641384",
@@ -22542,6 +23247,16 @@
 "id": "tt0249327",
 "p": "Yugi Moto solves an Ancient Egyptian Puzzle and brings forth a dark and powerful alter ego. Whenever he and his friends are threatened by evil in Duel Monster Card Game, this alter ego breaks out to save them.",
 "t": 1793570065.945537
+},
+"series|Zoey 101": {
+"id": "tt0415463",
+"p": "Zoey Brooks and her brother Dustin attend their first day at Pacific Coast Academy, a private boarding school that is enrolling girls for the first time in its history.",
+"t": 1793577616.3993492
+},
+"series|iCarly": {
+"id": "tt0972534",
+"p": "Carly hosts her own home-grown web show, iCarly, Carly and sidekick Sam's regular webcasts ultimately feature everything from comedy sketches and talent contests to interviews, recipes, and problem-solving.",
+"t": 1793577616.4818192
 },
 "series|¡Mucha Lucha!": {
 "id": "tt0353115",
