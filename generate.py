@@ -148,6 +148,16 @@ _LATE_NIGHT_MIX_DESC = ("Your hand-picked midnight refill of Looney Tunes, Tom a
                         "rest of the world sleeps.")
 _TOON_DISNEY_DESC = "Timeless theatrical animated shorts from Disney's golden age."
 FIXED_DESC = {
+    # our own write-ups (same text on CN Classic + Jpuffle5 in DyrecTV boom_enrich.py)
+    "Tom and Jerry": "Tom the cat and Jerry the mouse are frenemies whose small squabbles spiral into "
+                     "traps, crashes and all-out cartoon mayhem. Sometimes they team up against a common "
+                     "enemy; other times one of them sides with the enemy against the other.",
+    "Dexter's Laboratory": "Dexter, a boy-genius with a secret laboratory, constantly battles his sister "
+                           "Dee Dee, who always gains access despite his best efforts to keep her out, as well "
+                           "as his arch-rival and neighbor, Mandark.",
+    "The Jetsons": "Meet George Jetson and his quirky family: wife Jane, son Elroy and daughter Judy. "
+                   "Living in the automated, push-button world of the future hasn't made life any easier "
+                   "for the harried husband and father, who gets into one comical misadventure after another!",
     "Late Night Mix":     _LATE_NIGHT_MIX_DESC,
     "Evening Mix":        _FIZZ_MIX_DESC,
     "Toon Disney Shorts": _TOON_DISNEY_DESC,   # parked: old feed title for the block
