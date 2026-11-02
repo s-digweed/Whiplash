@@ -1644,17 +1644,18 @@ def build_40media(now=None):
 # ── Locomotion (fan-revived Latin American anime channel) ────────────────────
 # Source: the channel's own XMLTV guide. It went stale in Jan 2026 (3 identical
 # days), but the channel still plays that same 24h schedule every day - verified
-# Oct 25 2026 on air (Duckman, then South Park on the half hour). The file says
-# -0400 but the stream actually runs at UTC-5, so its wall-clock times are re-read
-# at LOCO_UTC_OFFSET_H. If the feed ever covers "now" again, its real dates are
-# used (same offset fix); otherwise its latest full day is looped forward.
+# Oct 25 2026 on air (Duckman, then South Park on the half hour). Its wall-clock
+# times are re-read at LOCO_UTC_OFFSET_H: the stream ran at UTC-5 on Oct 25, then
+# moved to UTC-4 (= the file's own -0400) by Nov 2 2026 - verified on air (Los
+# Cazadores de Duendes after Evangelion). If the feed ever covers "now" again, its
+# real dates are used (same offset); otherwise its latest full day is looped forward.
 LOCO_URL          = "http://epg.locomotiontv.com/guia.xml"
 LOCO_OUTPUT       = "Locomotion.xml"
 LOCO_ID           = "Locomotion"
 LOCO_NAME         = "Locomotion"
 LOCO_LOGO         = "https://i.imgur.com/g5psxlY.png"
 LOCO_SRC_CHANNEL  = "Locomotion"
-LOCO_UTC_OFFSET_H = -5        # channel's real clock; change if the guide drifts an hour
+LOCO_UTC_OFFSET_H = -4        # channel's real clock (UTC-4 since Nov 2026); change if it drifts an hour
 LOCO_DAYS         = 14        # loop this many days ahead
 
 def _loco_wallclock(ts):
