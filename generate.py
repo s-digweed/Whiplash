@@ -158,6 +158,8 @@ FIXED_DESC = {
     "The Jetsons": "Meet George Jetson and his quirky family: wife Jane, son Elroy and daughter Judy. "
                    "Living in the automated, push-button world of the future hasn't made life any easier "
                    "for the harried husband and father, who gets into one comical misadventure after another!",
+    "Classic Wrestling":  "Old-school grappling, larger-than-life legends and matches from wrestling's "
+                          "golden era when every week felt like a pay-per-view.",   # Eel Channel block
     "Late Night Mix":     _LATE_NIGHT_MIX_DESC,
     "Evening Mix":        _FIZZ_MIX_DESC,
     "Toon Disney Shorts": _TOON_DISNEY_DESC,   # parked: old feed title for the block
