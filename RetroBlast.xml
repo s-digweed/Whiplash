@@ -4,250 +4,6 @@
     <display-name>RetroBlast</display-name>
     <icon src="https://i.imgur.com/m9GHMe9.png" />
   </channel>
-  <programme start="20261104050000 +0000" stop="20261104051300 +0000" channel="RetroBlast">
-    <title lang="en">Aqua Teen Hunger Force</title>
-    <desc lang="en">The misadventures of a milkshake, an order of fries, a meatball, and their retired next door neighbor in the suburbs of New Jersey.</desc>
-  </programme>
-  <programme start="20261104051300 +0000" stop="20261104052500 +0000" channel="RetroBlast">
-    <title lang="en">Tim &amp; Eric Awesome Show, Great Job!</title>
-    <desc lang="en">Two comedians, average nobodies, and celebrity guest stars perform bizarre low-budget comedy sketches.</desc>
-  </programme>
-  <programme start="20261104052500 +0000" stop="20261104055000 +0000" channel="RetroBlast">
-    <title lang="en">King of the Hill</title>
-    <desc lang="en">A straight-laced propane salesman in Arlen, Texas tries to deal with the wacky antics of his family and friends, while also trying to keep his son in line.</desc>
-  </programme>
-  <programme start="20261104055000 +0000" stop="20261104061500 +0000" channel="RetroBlast">
-    <title lang="en">Bleach: Thousand-Year Blood War</title>
-    <desc lang="en">The peace is suddenly broken when warning sirens blare through the Soul Society. Residents are disappearing without a trace and nobody knows who's behind it. Meanwhile, a darkness is approaching Ichigo and his friends in Karakura ...</desc>
-  </programme>
-  <programme start="20261104061500 +0000" stop="20261104064000 +0000" channel="RetroBlast">
-    <title lang="en">Fullmetal Alchemist: Brotherhood</title>
-    <desc lang="en">Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.</desc>
-  </programme>
-  <programme start="20261104064000 +0000" stop="20261104070500 +0000" channel="RetroBlast">
-    <title lang="en">Cowboy Bebop</title>
-    <desc lang="en">Intergalactic loners team up to track down fugitives and turn them in for cold hard cash.</desc>
-  </programme>
-  <programme start="20261104070500 +0000" stop="20261104073000 +0000" channel="RetroBlast">
-    <title lang="en">Futurama</title>
-    <desc lang="en">Philip J. Fry, a pizza delivery boy, is accidentally frozen in 1999 and thawed out on New Year's Eve 2999.</desc>
-  </programme>
-  <programme start="20261104073000 +0000" stop="20261104074900 +0000" channel="RetroBlast">
-    <title lang="en">Family Guy</title>
-    <desc lang="en">In a wacky Rhode Island town, a dysfunctional family strives to cope with everyday life as they are thrown from one crazy scenario to another.</desc>
-  </programme>
-  <programme start="20261104074900 +0000" stop="20261104080000 +0000" channel="RetroBlast">
-    <title lang="en">On Cinema at the Cinema</title>
-    <desc lang="en">Tim Heidecker reviews the latest movies in theaters with a special guest.</desc>
-  </programme>
-  <programme start="20261104080000 +0000" stop="20261104081300 +0000" channel="RetroBlast">
-    <title lang="en">Robot Chicken</title>
-    <desc lang="en">Pop culture references fly thick and fast as stop-motion animation is featured in sketches lampooning everything from entertainment.</desc>
-  </programme>
-  <programme start="20261104081300 +0000" stop="20261104082500 +0000" channel="RetroBlast">
-    <title lang="en">Aqua Teen Hunger Force</title>
-    <desc lang="en">The misadventures of a milkshake, an order of fries, a meatball, and their retired next door neighbor in the suburbs of New Jersey.</desc>
-  </programme>
-  <programme start="20261104082500 +0000" stop="20261104085000 +0000" channel="RetroBlast">
-    <title lang="en">King of the Hill</title>
-    <desc lang="en">A straight-laced propane salesman in Arlen, Texas tries to deal with the wacky antics of his family and friends, while also trying to keep his son in line.</desc>
-  </programme>
-  <programme start="20261104085000 +0000" stop="20261104091500 +0000" channel="RetroBlast">
-    <title lang="en">Bleach: Thousand-Year Blood War</title>
-    <desc lang="en">The peace is suddenly broken when warning sirens blare through the Soul Society. Residents are disappearing without a trace and nobody knows who's behind it. Meanwhile, a darkness is approaching Ichigo and his friends in Karakura ...</desc>
-  </programme>
-  <programme start="20261104091500 +0000" stop="20261104094000 +0000" channel="RetroBlast">
-    <title lang="en">JoJo's Bizarre Adventure</title>
-    <desc lang="en">The story of the Joestar family, who are possessed with intense psychic strength, and the adventures each member encounters throughout their lives.</desc>
-  </programme>
-  <programme start="20261104094000 +0000" stop="20261104100500 +0000" channel="RetroBlast">
-    <title lang="en">Inuyasha</title>
-    <desc lang="en">A teenage girl periodically travels back in time to feudal Japan to help a young half-demon recover the shards of a jewel of great power.</desc>
-  </programme>
-  <programme start="20261104100500 +0000" stop="20261104103000 +0000" channel="RetroBlast">
-    <title lang="en">Lupin the 3rd Part II</title>
-    <desc lang="en">Follow the exciting adventures of Arsene Lupin III, the grandson of the world's greatest thief, Arsene Lupin. Together with Daisuke Jigen, Goemon Ishikawa and his love interest Fujiko Mine, he carries out the greatest robberies of all time, all the while evading the control of Inspector Koichi Zenigata.</desc>
-  </programme>
-  <programme start="20261104103000 +0000" stop="20261104105500 +0000" channel="RetroBlast">
-    <title lang="en">Case Closed (Detective Conan)</title>
-    <desc lang="en">A reality television series involving real life cases occurring during it's time on the air. Many different cases are showcased on the show, ranging from stalking cases to finding missing people. Each episode has a different case ...</desc>
-  </programme>
-  <programme start="20261104105500 +0000" stop="20261104112000 +0000" channel="RetroBlast">
-    <title lang="en">Animaniacs</title>
-    <desc lang="en">The zany adventures of a trio of 1930s animated characters in the modern world.</desc>
-  </programme>
-  <programme start="20261104112000 +0000" stop="20261104114500 +0000" channel="RetroBlast">
-    <title lang="en">Mighty Morphin Power Rangers</title>
-    <desc lang="en">A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd, Emperor of all he sees, and their hordes of different monsters whom they use to try to conquer the earth.</desc>
-  </programme>
-  <programme start="20261104114500 +0000" stop="20261104121000 +0000" channel="RetroBlast">
-    <title lang="en">Batman: The Animated Series</title>
-    <desc lang="en">Billionaire Bruce Wayne leads a double life as Batman, defending Gotham City from ruthless mobsters and costumed villains with help from Robin and a small circle of trusted allies.</desc>
-  </programme>
-  <programme start="20261104121000 +0000" stop="20261104123500 +0000" channel="RetroBlast">
-    <title lang="en">X-Men: The Animated Series</title>
-    <desc lang="en">The X-Men are an elite team of mutants, genetically gifted human beings with superpowers, sworn to fight for mutant rights against hostile Government agencies, whilst at the same time protecting mankind from mutant supremacist Magneto who seeks to destroy the human race in return for the atrocities committed against mutant kind.</desc>
-  </programme>
-  <programme start="20261104123500 +0000" stop="20261104130000 +0000" channel="RetroBlast">
-    <title lang="en">Totally Spies!</title>
-    <desc lang="en">A trio of boy-crazy, fashionista teen girls from Beverly Hills balance their personal and school lives with their work as super-spies.</desc>
-  </programme>
-  <programme start="20261104130000 +0000" stop="20261104132500 +0000" channel="RetroBlast">
-    <title lang="en">Code Lyoko</title>
-    <desc lang="en">When a group of four boarding school students discover a supercomputer housed inside an abandoned factory, they find a virtual world called Lyoko and awaken a sentient multi-agent system virus that tries to take over the real world.</desc>
-  </programme>
-  <programme start="20261104132500 +0000" stop="20261104135000 +0000" channel="RetroBlast">
-    <title lang="en">Teenage Mutant Ninja Turtles (2003)</title>
-    <desc lang="en">Follows the adventures of the Teenage Mutant Ninja Turtles, with this iteration being based on the stories from the original mirage comic books.</desc>
-  </programme>
-  <programme start="20261104135000 +0000" stop="20261104141500 +0000" channel="RetroBlast">
-    <title lang="en">Teen Titans</title>
-    <desc lang="en">A team of five teenaged superheroes save the world from many villains around their city while experiencing things normal teens face.</desc>
-  </programme>
-  <programme start="20261104141500 +0000" stop="20261104144000 +0000" channel="RetroBlast">
-    <title lang="en">Pokémon the Series: Advanced</title>
-    <desc lang="en">Join Ash accompanied by his partner Pikachu, as he travels through many regions, meets new friends and faces new challenges on his quest to become a Pokémon Master.</desc>
-  </programme>
-  <programme start="20261104144000 +0000" stop="20261104150500 +0000" channel="RetroBlast">
-    <title lang="en">Yu-Gi-Oh! GX</title>
-    <desc lang="en">A semi-spinoff of the popular Yu-Gi-Oh anime series, focusing on a boy named Jaden and his misadventures as a student at an esteemed Duel Monsters academy.</desc>
-  </programme>
-  <programme start="20261104150500 +0000" stop="20261104153000 +0000" channel="RetroBlast">
-    <title lang="en">The Cartoon Cartoon Show</title>
-    <desc lang="en">A showcase of animated shorts by Disney.</desc>
-  </programme>
-  <programme start="20261104153000 +0000" stop="20261104155500 +0000" channel="RetroBlast">
-    <title lang="en">Ben 10</title>
-    <desc lang="en">The story of Ben Tennyson, a typical kid who becomes very atypical after he discovers the Omnitrix, a mysterious alien device with the power to transform the wearer into ten different alien species.</desc>
-  </programme>
-  <programme start="20261104155500 +0000" stop="20261104162000 +0000" channel="RetroBlast">
-    <title lang="en">Xiaolin Showdown</title>
-    <desc lang="en">A young Xiaolin monk named Omi with a giant yellow head leads a trio of other students to collect powerful items known as Shen Gong Wu while battling the evil Jack Spicer who is also after the artifacts</desc>
-  </programme>
-  <programme start="20261104162000 +0000" stop="20261104164500 +0000" channel="RetroBlast">
-    <title lang="en">Codename: Kids Next Door</title>
-    <desc lang="en">The adventures of a group of ten-year-old friends who fight for the right to do everything that adults restrict from them.</desc>
-  </programme>
-  <programme start="20261104164500 +0000" stop="20261104171000 +0000" channel="RetroBlast">
-    <title lang="en">The Grim Adventures of Billy &amp; Mandy</title>
-    <desc lang="en">The ill-tempered Grim Reaper gets into a wager that forces him to become the life-long companions of two scheming youngsters after he loses.</desc>
-  </programme>
-  <programme start="20261104171000 +0000" stop="20261104173500 +0000" channel="RetroBlast">
-    <title lang="en">Ed, Edd n Eddy</title>
-    <desc lang="en">The off-the-wall, day-to-day life of three friends who have exactly the same name.</desc>
-  </programme>
-  <programme start="20261104173500 +0000" stop="20261104180000 +0000" channel="RetroBlast">
-    <title lang="en">The Life and Times of Juniper Lee</title>
-    <desc lang="en">Juniper Lee is an 11 year old girl who can fight the force of chaos and curses. One day she skipped one of her friends' birthdays and fights the chaos again.</desc>
-  </programme>
-  <programme start="20261104180000 +0000" stop="20261104182500 +0000" channel="RetroBlast">
-    <title lang="en">Foster's Home for Imaginary Friends</title>
-    <desc lang="en">A boy and his beloved imaginary friend are able to stay together at an orphanage of sorts for imaginary friends that children have outgrown to be adopted by new children.</desc>
-  </programme>
-  <programme start="20261104182500 +0000" stop="20261104185000 +0000" channel="RetroBlast">
-    <title lang="en">Samurai Jack</title>
-    <desc lang="en">A samurai, sent through time, fights to return home and save the world.</desc>
-  </programme>
-  <programme start="20261104185000 +0000" stop="20261104191500 +0000" channel="RetroBlast">
-    <title lang="en">Camp Lazlo</title>
-    <desc lang="en">Bean Scout Lazlo, a fun-loving, free-spirited monkey, and his two bunkmates Raj and Clam, wreak havoc on a very structured summer camp.</desc>
-  </programme>
-  <programme start="20261104191500 +0000" stop="20261104194000 +0000" channel="RetroBlast">
-    <title lang="en">The Powerpuff Girls</title>
-    <desc lang="en">Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things.</desc>
-  </programme>
-  <programme start="20261104194000 +0000" stop="20261104200500 +0000" channel="RetroBlast">
-    <title lang="en">Star Wars: The Clone Wars</title>
-    <desc lang="en">Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists.</desc>
-  </programme>
-  <programme start="20261104200500 +0000" stop="20261104203000 +0000" channel="RetroBlast">
-    <title lang="en">Hi Hi Puffy AmiYumi</title>
-    <desc lang="en">Hi Hi Puffy AmiYumi follows two famous Japanese rock stars reacting to event their lives, their fans, and the adventures they go on.</desc>
-  </programme>
-  <programme start="20261104203000 +0000" stop="20261104205500 +0000" channel="RetroBlast">
-    <title lang="en">Justice League</title>
-    <desc lang="en">Seven of the most formidable heroes form arguably the most powerful team ever.</desc>
-  </programme>
-  <programme start="20261104205500 +0000" stop="20261104212000 +0000" channel="RetroBlast">
-    <title lang="en">Sailor Moon</title>
-    <desc lang="en">The magical action-adventures of a teenage girl who learns of her destiny as the legendary warrior Sailor Moon and must band together with the other Sailor Scouts to defend the Earth and Galaxy.</desc>
-  </programme>
-  <programme start="20261104212000 +0000" stop="20261104214500 +0000" channel="RetroBlast">
-    <title lang="en">YuYu Hakusho</title>
-    <desc lang="en">After dying to save a boy, delinquent tough guy Yusuke Urameshi is granted another chance at life by redeeming himself as a "Spirit Detective."</desc>
-  </programme>
-  <programme start="20261104214500 +0000" stop="20261104221000 +0000" channel="RetroBlast">
-    <title lang="en">Dragon Ball</title>
-    <desc lang="en">Dragon Ball tells the tale of a young warrior by the name of Son Goku, a young peculiar boy with a tail who embarks on a quest to become stronger and learns of the Dragon Balls, when, once all 7 are gathered, grant any wish of cho...</desc>
-  </programme>
-  <programme start="20261104221000 +0000" stop="20261104223500 +0000" channel="RetroBlast">
-    <title lang="en">Bobobo-bo Bo-bobo</title>
-    <desc lang="en">The impossible adventures of Bobobo-bo Bo-bobo, a warrior who fights using his nose hairs to defeat an evil empire that wants to turn the human race bald.</desc>
-  </programme>
-  <programme start="20261104223500 +0000" stop="20261104230000 +0000" channel="RetroBlast">
-    <title lang="en">Outlaw Star</title>
-    <desc lang="en">Gene gets his dream outlaw job, but complications leave him with a stolen advanced spaceship. With partner Jim and Melfina, he fights pirates and assassins while uncovering the ship's mysteries.</desc>
-  </programme>
-  <programme start="20261104230000 +0000" stop="20261104232500 +0000" channel="RetroBlast">
-    <title lang="en">Dragon Ball Z</title>
-    <desc lang="en">With the help of the powerful Dragonballs, a team of fighters led by the saiyan warrior Goku defend the planet earth from extraterrestrial enemies.</desc>
-  </programme>
-  <programme start="20261104232500 +0000" stop="20261104235000 +0000" channel="RetroBlast">
-    <title lang="en">One Piece</title>
-    <desc lang="en">A spirited young pirate sets sail with a growing crew in search of the legendary One Piece, facing dangerous seas and powerful rivals on his quest to become King of the Pirates.</desc>
-  </programme>
-  <programme start="20261104235000 +0000" stop="20261105001500 +0000" channel="RetroBlast">
-    <title lang="en">Naruto: Shippuden</title>
-    <desc lang="en">Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.</desc>
-  </programme>
-  <programme start="20261105001500 +0000" stop="20261105004000 +0000" channel="RetroBlast">
-    <title lang="en">Foster's Home for Imaginary Friends</title>
-    <desc lang="en">A boy and his beloved imaginary friend are able to stay together at an orphanage of sorts for imaginary friends that children have outgrown to be adopted by new children.</desc>
-  </programme>
-  <programme start="20261105004000 +0000" stop="20261105010500 +0000" channel="RetroBlast">
-    <title lang="en">Codename: Kids Next Door</title>
-    <desc lang="en">The adventures of a group of ten-year-old friends who fight for the right to do everything that adults restrict from them.</desc>
-  </programme>
-  <programme start="20261105010500 +0000" stop="20261105013000 +0000" channel="RetroBlast">
-    <title lang="en">The Grim Adventures of Billy &amp; Mandy</title>
-    <desc lang="en">The ill-tempered Grim Reaper gets into a wager that forces him to become the life-long companions of two scheming youngsters after he loses.</desc>
-  </programme>
-  <programme start="20261105013000 +0000" stop="20261105015500 +0000" channel="RetroBlast">
-    <title lang="en">Pokémon the Series: Advanced</title>
-    <desc lang="en">Join Ash accompanied by his partner Pikachu, as he travels through many regions, meets new friends and faces new challenges on his quest to become a Pokémon Master.</desc>
-  </programme>
-  <programme start="20261105015500 +0000" stop="20261105022000 +0000" channel="RetroBlast">
-    <title lang="en">Courage the Cowardly Dog</title>
-    <desc lang="en">The offbeat adventures of Courage, a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers, paranormal events and menaces that appear around their land.</desc>
-  </programme>
-  <programme start="20261105022000 +0000" stop="20261105024500 +0000" channel="RetroBlast">
-    <title lang="en">Yu-Gi-Oh! Duel Monsters</title>
-    <desc lang="en">Yu-Gi-Oh! follows the adventures of high school student Yugi, who has a magical secret that comes to life when he plays his favorite card game: 'Duel Monsters.</desc>
-  </programme>
-  <programme start="20261105024500 +0000" stop="20261105031000 +0000" channel="RetroBlast">
-    <title lang="en">Teen Titans</title>
-    <desc lang="en">A team of five teenaged superheroes save the world from many villains around their city while experiencing things normal teens face.</desc>
-  </programme>
-  <programme start="20261105031000 +0000" stop="20261105033500 +0000" channel="RetroBlast">
-    <title lang="en">Dragon Ball Z</title>
-    <desc lang="en">With the help of the powerful Dragonballs, a team of fighters led by the saiyan warrior Goku defend the planet earth from extraterrestrial enemies.</desc>
-  </programme>
-  <programme start="20261105033500 +0000" stop="20261105040000 +0000" channel="RetroBlast">
-    <title lang="en">Naruto</title>
-    <desc lang="en">Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.</desc>
-  </programme>
-  <programme start="20261105040000 +0000" stop="20261105042500 +0000" channel="RetroBlast">
-    <title lang="en">Futurama</title>
-    <desc lang="en">Philip J. Fry, a pizza delivery boy, is accidentally frozen in 1999 and thawed out on New Year's Eve 2999.</desc>
-  </programme>
-  <programme start="20261105042500 +0000" stop="20261105044700 +0000" channel="RetroBlast">
-    <title lang="en">Family Guy</title>
-    <desc lang="en">In a wacky Rhode Island town, a dysfunctional family strives to cope with everyday life as they are thrown from one crazy scenario to another.</desc>
-  </programme>
-  <programme start="20261105044700 +0000" stop="20261105050000 +0000" channel="RetroBlast">
-    <title lang="en">Robot Chicken</title>
-    <desc lang="en">Pop culture references fly thick and fast as stop-motion animation is featured in sketches lampooning everything from entertainment.</desc>
-  </programme>
   <programme start="20261105050000 +0000" stop="20261105051300 +0000" channel="RetroBlast">
     <title lang="en">Aqua Teen Hunger Force</title>
     <desc lang="en">The misadventures of a milkshake, an order of fries, a meatball, and their retired next door neighbor in the suburbs of New Jersey.</desc>
@@ -7135,5 +6891,205 @@
   <programme start="20261205044700 +0000" stop="20261205050000 +0000" channel="RetroBlast">
     <title lang="en">Harvey Birdman, Attorney at Law</title>
     <desc lang="en">Third-rate superhero Harvey Birdman gets a new lease on life when he becomes a lawyer.</desc>
+  </programme>
+  <programme start="20261205050000 +0000" stop="20261205051300 +0000" channel="RetroBlast">
+    <title lang="en">Harvey Birdman, Attorney at Law</title>
+    <desc lang="en">Third-rate superhero Harvey Birdman gets a new lease on life when he becomes a lawyer.</desc>
+  </programme>
+  <programme start="20261205051300 +0000" stop="20261205052500 +0000" channel="RetroBlast">
+    <title lang="en">Metalocalypse</title>
+    <desc lang="en">The epic and over-the-top adventures of Dethklok, the world's most successful death metal band.</desc>
+  </programme>
+  <programme start="20261205052500 +0000" stop="20261205055000 +0000" channel="RetroBlast">
+    <title lang="en">The Boondocks</title>
+    <desc lang="en">Brothers Huey and Riley Freeman experience a culture clash when they leave Chicago to move in with their grandfather in the suburbs.</desc>
+  </programme>
+  <programme start="20261205055000 +0000" stop="20261205061500 +0000" channel="RetroBlast">
+    <title lang="en">Home Movies</title>
+    <desc lang="en">Brendon Small, an ambitious eight-year-old filmmaker, shoots movies with his two best friends, while coming to terms with adolescence, life, and relationships.</desc>
+  </programme>
+  <programme start="20261205061500 +0000" stop="20261205064000 +0000" channel="RetroBlast">
+    <title lang="en">Robot Chicken</title>
+    <desc lang="en">Pop culture references fly thick and fast as stop-motion animation is featured in sketches lampooning everything from entertainment.</desc>
+  </programme>
+  <programme start="20261205064000 +0000" stop="20261205070500 +0000" channel="RetroBlast">
+    <title lang="en">Aqua Teen Hunger Force</title>
+    <desc lang="en">The misadventures of a milkshake, an order of fries, a meatball, and their retired next door neighbor in the suburbs of New Jersey.</desc>
+  </programme>
+  <programme start="20261205070500 +0000" stop="20261205073000 +0000" channel="RetroBlast">
+    <title lang="en">Harvey Birdman, Attorney at Law</title>
+    <desc lang="en">Third-rate superhero Harvey Birdman gets a new lease on life when he becomes a lawyer.</desc>
+  </programme>
+  <programme start="20261205073000 +0000" stop="20261205074900 +0000" channel="RetroBlast">
+    <title lang="en">Metalocalypse</title>
+    <desc lang="en">The epic and over-the-top adventures of Dethklok, the world's most successful death metal band.</desc>
+  </programme>
+  <programme start="20261205074900 +0000" stop="20261205080000 +0000" channel="RetroBlast">
+    <title lang="en">Space Ghost</title>
+    <desc lang="en">The adventures of a space superhero who can become invisible and his sidekicks.</desc>
+  </programme>
+  <programme start="20261205080000 +0000" stop="20261205082500 +0000" channel="RetroBlast">
+    <title lang="en">The Eric Andre Show</title>
+    <desc lang="en">Eric Andre tries to host a talk show in a bizarre environment, where he is sometimes the player of pranks and sometimes the victim.</desc>
+  </programme>
+  <programme start="20261205082500 +0000" stop="20261205091500 +0000" channel="RetroBlast">
+    <title lang="en">Tim &amp; Eric Awesome Show, Great Job!</title>
+    <desc lang="en">Two comedians, average nobodies, and celebrity guest stars perform bizarre low-budget comedy sketches.</desc>
+  </programme>
+  <programme start="20261205091500 +0000" stop="20261205100500 +0000" channel="RetroBlast">
+    <title lang="en">Crayon Shin-chan</title>
+    <desc lang="en">On the 25th anniversary of the start of the animated series Shinchan was presented in a new style for four seasons. Available now in Japanese and English dubbing on Amazon's Prime Video.</desc>
+  </programme>
+  <programme start="20261205100500 +0000" stop="20261205103000 +0000" channel="RetroBlast">
+    <title lang="en">The Boondocks</title>
+    <desc lang="en">Brothers Huey and Riley Freeman experience a culture clash when they leave Chicago to move in with their grandfather in the suburbs.</desc>
+  </programme>
+  <programme start="20261205103000 +0000" stop="20261205105500 +0000" channel="RetroBlast">
+    <title lang="en">Home Movies</title>
+    <desc lang="en">Brendon Small, an ambitious eight-year-old filmmaker, shoots movies with his two best friends, while coming to terms with adolescence, life, and relationships.</desc>
+  </programme>
+  <programme start="20261205105500 +0000" stop="20261205115500 +0000" channel="RetroBlast">
+    <title lang="en">Boomerang</title>
+    <desc lang="en">Looney Tunes, The Flintstones, The Smurfs</desc>
+  </programme>
+  <programme start="20261205115500 +0000" stop="20261205125500 +0000" channel="RetroBlast">
+    <title lang="en">Boomerang</title>
+    <desc lang="en">Yogi Bear, Huckleberry Hound, Hong Kong Phooey, The Jetsons</desc>
+  </programme>
+  <programme start="20261205125500 +0000" stop="20261205132500 +0000" channel="RetroBlast">
+    <title lang="en">Boomerang</title>
+    <desc lang="en">Birdman and the Galaxy Trio, Jonny Quest, Josie and the Pussycats</desc>
+  </programme>
+  <programme start="20261205132500 +0000" stop="20261205135000 +0000" channel="RetroBlast">
+    <title lang="en">Scooby-Doo</title>
+    <desc lang="en">This incarnation finds Scooby and the gang living in Crystal Cove, a small town with a long history of ghost sightings, monster tales and other mysteries ripe for the sleuths to solve once and for all.</desc>
+  </programme>
+  <programme start="20261205135000 +0000" stop="20261205141500 +0000" channel="RetroBlast">
+    <title lang="en">Tom and Jerry</title>
+    <desc lang="en">Tom the cat and Jerry the mouse are frenemies whose small squabbles spiral into traps, crashes and all-out cartoon mayhem. Sometimes they team up against a common enemy; other times one of them sides with the enemy against the other.</desc>
+  </programme>
+  <programme start="20261205141500 +0000" stop="20261205144000 +0000" channel="RetroBlast">
+    <title lang="en">The Cartoon Cartoon Show</title>
+    <desc lang="en">A showcase of animated shorts by Disney.</desc>
+  </programme>
+  <programme start="20261205144000 +0000" stop="20261205150500 +0000" channel="RetroBlast">
+    <title lang="en">Scooby-Doo</title>
+    <desc lang="en">This incarnation finds Scooby and the gang living in Crystal Cove, a small town with a long history of ghost sightings, monster tales and other mysteries ripe for the sleuths to solve once and for all.</desc>
+  </programme>
+  <programme start="20261205150500 +0000" stop="20261205153000 +0000" channel="RetroBlast">
+    <title lang="en">Foster's Home for Imaginary Friends</title>
+    <desc lang="en">A boy and his beloved imaginary friend are able to stay together at an orphanage of sorts for imaginary friends that children have outgrown to be adopted by new children.</desc>
+  </programme>
+  <programme start="20261205153000 +0000" stop="20261205155500 +0000" channel="RetroBlast">
+    <title lang="en">Hi Hi Puffy AmiYumi</title>
+    <desc lang="en">Hi Hi Puffy AmiYumi follows two famous Japanese rock stars reacting to event their lives, their fans, and the adventures they go on.</desc>
+  </programme>
+  <programme start="20261205155500 +0000" stop="20261205162000 +0000" channel="RetroBlast">
+    <title lang="en">Batman: The Animated Series</title>
+    <desc lang="en">Billionaire Bruce Wayne leads a double life as Batman, defending Gotham City from ruthless mobsters and costumed villains with help from Robin and a small circle of trusted allies.</desc>
+  </programme>
+  <programme start="20261205162000 +0000" stop="20261205171000 +0000" channel="RetroBlast">
+    <title lang="en">Avatar: The Last Airbender</title>
+    <desc lang="en">After a century frozen in ice, young Avatar Aang journeys with friends to master the four elements and bring balance to a world at war with the Fire Nation.</desc>
+  </programme>
+  <programme start="20261205171000 +0000" stop="20261205191500 +0000" channel="RetroBlast">
+    <title lang="en">Cartoon Theater</title>
+    <desc lang="en">Feature-length animated movies, theatrical releases, and television specials distributed by Hanna-Barbera Studios, Warner Bros., Disney, 20th Century Fox, Universal, Columbia, Paramount, DreamWorks, and MGM.</desc>
+  </programme>
+  <programme start="20261205191500 +0000" stop="20261205194000 +0000" channel="RetroBlast">
+    <title lang="en">¡Mucha Lucha!</title>
+    <desc lang="en">The story of three masked wrestlers in wrestling school.</desc>
+  </programme>
+  <programme start="20261205194000 +0000" stop="20261205200500 +0000" channel="RetroBlast">
+    <title lang="en">Yu-Gi-Oh! 5D's</title>
+    <desc lang="en">This Yu-Gi-Oh spinoff explores more serious themes. The story takes place in a dystopian future where Domino City has been divided into Neo Domino and the Satellite sector after a tragic incident. Satellite residents are looked do...</desc>
+  </programme>
+  <programme start="20261205200500 +0000" stop="20261205203000 +0000" channel="RetroBlast">
+    <title lang="en">Digimon Adventure</title>
+    <desc lang="en">A group of young teens is unexpectedly sent to the mysterious Digital World and paired up with their own powerful, morphing monster called the Digimon. Together the entire group set out on an adventure to fight evil and save the w...</desc>
+  </programme>
+  <programme start="20261205203000 +0000" stop="20261205205500 +0000" channel="RetroBlast">
+    <title lang="en">Totally Spies!</title>
+    <desc lang="en">A trio of boy-crazy, fashionista teen girls from Beverly Hills balance their personal and school lives with their work as super-spies.</desc>
+  </programme>
+  <programme start="20261205205500 +0000" stop="20261205212000 +0000" channel="RetroBlast">
+    <title lang="en">Static Shock</title>
+    <desc lang="en">In the city of Dakota, a teenage boy with electricity based powers, with the help of his inventive friend, fights crime as a superhero.</desc>
+  </programme>
+  <programme start="20261205212000 +0000" stop="20261205214500 +0000" channel="RetroBlast">
+    <title lang="en">Codename: Kids Next Door</title>
+    <desc lang="en">The adventures of a group of ten-year-old friends who fight for the right to do everything that adults restrict from them.</desc>
+  </programme>
+  <programme start="20261205214500 +0000" stop="20261205221000 +0000" channel="RetroBlast">
+    <title lang="en">Megas XLR</title>
+    <desc lang="en">Two teenage slackers find a mecha from the future that had been lying in a New Jersey junkyard for nearly 60 years and make modifications much to the dismay of the robot's attractive creator.</desc>
+  </programme>
+  <programme start="20261205221000 +0000" stop="20261205223500 +0000" channel="RetroBlast">
+    <title lang="en">The Grim Adventures of Billy &amp; Mandy</title>
+    <desc lang="en">The ill-tempered Grim Reaper gets into a wager that forces him to become the life-long companions of two scheming youngsters after he loses.</desc>
+  </programme>
+  <programme start="20261205223500 +0000" stop="20261205230000 +0000" channel="RetroBlast">
+    <title lang="en">The Powerpuff Girls</title>
+    <desc lang="en">Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things.</desc>
+  </programme>
+  <programme start="20261205230000 +0000" stop="20261205232500 +0000" channel="RetroBlast">
+    <title lang="en">Courage the Cowardly Dog</title>
+    <desc lang="en">The offbeat adventures of Courage, a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers, paranormal events and menaces that appear around their land.</desc>
+  </programme>
+  <programme start="20261205232500 +0000" stop="20261205235000 +0000" channel="RetroBlast">
+    <title lang="en">Ed, Edd n Eddy</title>
+    <desc lang="en">The off-the-wall, day-to-day life of three friends who have exactly the same name.</desc>
+  </programme>
+  <programme start="20261205235000 +0000" stop="20261206001500 +0000" channel="RetroBlast">
+    <title lang="en">Batman Beyond</title>
+    <desc lang="en">Fuelled by remorse and vengeance, a high schooler named Terry McGinnis revives the mantle of Batman and fights crime in a futuristic Gotham under the supervision of an elderly Bruce Wayne.</desc>
+  </programme>
+  <programme start="20261206001500 +0000" stop="20261206004000 +0000" channel="RetroBlast">
+    <title lang="en">Jackie Chan Adventures</title>
+    <desc lang="en">Jackie Chan teams up with his 11-year-old niece, Jade, traveling the globe to locate a dozen magical talismans before the sinister Dark Hand does. Helping Jackie and Jade is Uncle, a cantankerous but wise antiquities expert.</desc>
+  </programme>
+  <programme start="20261206004000 +0000" stop="20261206010500 +0000" channel="RetroBlast">
+    <title lang="en">Teen Titans</title>
+    <desc lang="en">A team of five teenaged superheroes save the world from many villains around their city while experiencing things normal teens face.</desc>
+  </programme>
+  <programme start="20261206010500 +0000" stop="20261206013000 +0000" channel="RetroBlast">
+    <title lang="en">Star Wars: Maul - Shadow Lord</title>
+    <desc lang="en">After the Clone Wars, Maul plots to rebuild his criminal syndicate on a planet untouched by the Empire.</desc>
+  </programme>
+  <programme start="20261206013000 +0000" stop="20261206015500 +0000" channel="RetroBlast">
+    <title lang="en">X-Men '97</title>
+    <desc lang="en">A band of mutants use their uncanny gifts to protect a world that hates and fears them; they're challenged like never before, forced to face a dangerous and unexpected new future.</desc>
+  </programme>
+  <programme start="20261206015500 +0000" stop="20261206022000 +0000" channel="RetroBlast">
+    <title lang="en">Zatch Bell!</title>
+    <desc lang="en">Kiyo Takamine meets a momoto (demons from another world) boy zatch bell and set out to compete in the momoto games held every 1000 years to become their king.</desc>
+  </programme>
+  <programme start="20261206022000 +0000" stop="20261206024500 +0000" channel="RetroBlast">
+    <title lang="en">Dragon Ball Z</title>
+    <desc lang="en">With the help of the powerful Dragonballs, a team of fighters led by the saiyan warrior Goku defend the planet earth from extraterrestrial enemies.</desc>
+  </programme>
+  <programme start="20261206024500 +0000" stop="20261206031000 +0000" channel="RetroBlast">
+    <title lang="en">One Piece</title>
+    <desc lang="en">A spirited young pirate sets sail with a growing crew in search of the legendary One Piece, facing dangerous seas and powerful rivals on his quest to become King of the Pirates.</desc>
+  </programme>
+  <programme start="20261206031000 +0000" stop="20261206033500 +0000" channel="RetroBlast">
+    <title lang="en">Naruto</title>
+    <desc lang="en">Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.</desc>
+  </programme>
+  <programme start="20261206033500 +0000" stop="20261206040000 +0000" channel="RetroBlast">
+    <title lang="en">Justice League</title>
+    <desc lang="en">Seven of the most formidable heroes form arguably the most powerful team ever.</desc>
+  </programme>
+  <programme start="20261206040000 +0000" stop="20261206042500 +0000" channel="RetroBlast">
+    <title lang="en">Futurama</title>
+    <desc lang="en">Philip J. Fry, a pizza delivery boy, is accidentally frozen in 1999 and thawed out on New Year's Eve 2999.</desc>
+  </programme>
+  <programme start="20261206042500 +0000" stop="20261206044700 +0000" channel="RetroBlast">
+    <title lang="en">King of the Hill</title>
+    <desc lang="en">A straight-laced propane salesman in Arlen, Texas tries to deal with the wacky antics of his family and friends, while also trying to keep his son in line.</desc>
+  </programme>
+  <programme start="20261206044700 +0000" stop="20261206050000 +0000" channel="RetroBlast">
+    <title lang="en">Aqua Teen Hunger Force</title>
+    <desc lang="en">The misadventures of a milkshake, an order of fries, a meatball, and their retired next door neighbor in the suburbs of New Jersey.</desc>
   </programme>
 </tv>
