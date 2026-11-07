@@ -40,6 +40,30 @@
     <display-name>Toon Diggity</display-name>
     <icon src="https://i.imgur.com/GhzJMF9.png" />
   </channel>
+  <channel id="SEP.Webchnl">
+    <display-name>##### WEBCHNL #####</display-name>
+    <icon src="https://i.imgur.com/SGcDJuQ.png" />
+  </channel>
+  <channel id="SEP.Vueue">
+    <display-name>##### VUEUE #####</display-name>
+    <icon src="https://i.imgur.com/EPyPPzh.png" />
+  </channel>
+  <channel id="SEP.RetroTV">
+    <display-name>##### RETRO TV #####</display-name>
+    <icon src="https://i.imgur.com/LT3nBqW.png" />
+  </channel>
+  <channel id="SEP.MistLive">
+    <display-name>##### MIST LIVE #####</display-name>
+    <icon src="https://i.imgur.com/vZhDOlD.png" />
+  </channel>
+  <channel id="SEP.40Media">
+    <display-name>##### 40MEDIA GROUP #####</display-name>
+    <icon src="https://i.imgur.com/Q9lOrSk.png" />
+  </channel>
+  <channel id="SEP.Others">
+    <display-name>##### OTHERS #######</display-name>
+    <icon src="https://i.imgur.com/SGcDJuQ.png" />
+  </channel>
   <programme start="20261106190000 -0500" stop="20261106193000 -0500" channel="whiplash">
     <title lang="en">Bob's Burgers</title>
     <sub-title lang="en">House of 1000 Bounces</sub-title>
@@ -14929,5 +14953,275 @@ Closing Theme</desc>
     <desc lang="en">Andy is first pressured to go to Kevin's parent/teacher conferences, then is pressured to join the PTA by Toby's mother. During the whole ordeal, Andy has the hots for Kevin's teacher.</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
   </programme>
 </tv>
