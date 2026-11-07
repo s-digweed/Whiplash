@@ -4,27 +4,6 @@
     <display-name>Placid</display-name>
     <icon src="https://i.imgur.com/0PCSYdW.png" />
   </channel>
-  <programme start="20261017180000 -0400" stop="20261017183000 -0400" channel="Placid">
-    <title lang="en">Aria the Animation</title>
-    <sub-title lang="en">On That Special Day...</sub-title>
-    <desc lang="en">One morning, Akari wakes up to find the entire city flooded with water! It's the Acqua Alta, a once-a-year phenomenon where the water levels rise, causing all of Neo-Venezia to shut down for a day. But while most people spend the day relaxing, Aika's mentor Akira is as strict as ever, and yells at her to get back to training. Aika has just the solution to get her mentor off her back: she's running away to the Aria Company!</desc>
-    <episode-num system="xmltv_ns">0.1.</episode-num>
-    <new />
-  </programme>
-  <programme start="20261017183000 -0400" stop="20261017190000 -0400" channel="Placid">
-    <title lang="en">Keep Your Hands Off Eizouken!</title>
-    <sub-title lang="en">Shibahama UFO Wars!</sub-title>
-    <desc lang="en">At the last possible second, the eizouken runs into a snag with their short film for the upcoming Comet A convention. With time running out, can they manage to salvage their new film in time?</desc>
-    <episode-num system="xmltv_ns">0.11.</episode-num>
-    <new />
-  </programme>
-  <programme start="20261017190000 -0400" stop="20261017193000 -0400" channel="Placid">
-    <title lang="en">JUJUTSU KAISEN</title>
-    <sub-title lang="en">Hidden Inventory 2</sub-title>
-    <desc lang="en">Gojo and Geto are assigned to the mission of escorting and erasing the young girl compatible with the Tengen - the Star Plasma Vessel. Amanai Riko is being targeted by the Curse User Group Q, and the religious cult the Star Religious Group.</desc>
-    <episode-num system="xmltv_ns">0.25.</episode-num>
-    <new />
-  </programme>
   <programme start="20261017193000 -0400" stop="20261017200000 -0400" channel="Placid">
     <title lang="en">Zom 100: Bucket List of the Dead</title>
     <sub-title lang="en">Bucket List of the Dead</sub-title>
@@ -670,7 +649,7 @@ Placid is live every Saturday at 5:00 PM EST.</desc>
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261121120000 +0000" stop="20261121213800 +0000" channel="Placid">
+  <programme start="20261121120000 +0000" stop="20261121230327 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 

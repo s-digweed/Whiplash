@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv generator-info-name="webchnl-dummies">
+  <channel id="SEP.Webchnl">
+    <display-name>##### WEBCHNL #####</display-name>
+    <icon src="https://i.imgur.com/SGcDJuQ.png" />
+  </channel>
+  <channel id="SEP.Vueue">
+    <display-name>##### VUEUE #####</display-name>
+    <icon src="https://i.imgur.com/EPyPPzh.png" />
+  </channel>
+  <channel id="SEP.RetroTV">
+    <display-name>##### RETRO TV #####</display-name>
+    <icon src="https://i.imgur.com/LT3nBqW.png" />
+  </channel>
+  <channel id="SEP.MistLive">
+    <display-name>##### MIST LIVE #####</display-name>
+    <icon src="https://i.imgur.com/vZhDOlD.png" />
+  </channel>
+  <channel id="SEP.40Media">
+    <display-name>##### 40MEDIA GROUP #####</display-name>
+    <icon src="https://i.imgur.com/Q9lOrSk.png" />
+  </channel>
+  <channel id="SEP.Others">
+    <display-name>##### OTHERS #######</display-name>
+    <icon src="https://i.imgur.com/6UZEDRL.png" />
+  </channel>
+  <channel id="SEP.Kift">
+    <display-name>##### KIFT #####</display-name>
+    <icon src="https://i.imgur.com/TZQU11E.png" />
+  </channel>
+  <channel id="Aurora">
+    <display-name>Aurora</display-name>
+    <icon src="https://i.imgur.com/KHHOX8e.png" />
+  </channel>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261107000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261109000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261110000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261111000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261112000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261115000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261116000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261117000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261118000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261119000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261120000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261121000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261106120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261106120000 +0000" stop="20261107000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261107120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261107120000 +0000" stop="20261108000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261108120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261108120000 +0000" stop="20261109000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261109120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261110000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261110120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261110120000 +0000" stop="20261111000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261111120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261111120000 +0000" stop="20261112000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261113120000 +0000" stop="20261114000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261114120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261114120000 +0000" stop="20261115000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261115120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261115120000 +0000" stop="20261116000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261116120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261116120000 +0000" stop="20261117000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261117120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261117120000 +0000" stop="20261118000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261118120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261118120000 +0000" stop="20261119000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261119120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261119120000 +0000" stop="20261120000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261120120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+  <programme start="20261120120000 +0000" stop="20261121000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  </programme>
+</tv>
