@@ -1753,12 +1753,43 @@ EPG_OUTPUT = "Whiplash.xml"          # renamed from epg.xml (same tvg-ids)
 M3U_OUTPUT = "playlist.m3u"
 EPG_RAW_URL = "https://raw.githubusercontent.com/s-digweed/Whiplash/main/Whiplash.xml"
 
+# ── Separator "channels" for the Webchnl playlist ─────────────────────────────
+# Dummy entries that head each group in TiviMate; their guide row just repeats the
+# name. tvg-id here = tvg-id in webchnl.m3u.
+SEPARATORS = [
+    ("SEP.Webchnl",   "##### WEBCHNL #####",       "https://i.imgur.com/SGcDJuQ.png"),
+    ("SEP.Vueue",     "##### VUEUE #####",         "https://i.imgur.com/EPyPPzh.png"),
+    ("SEP.RetroTV",   "##### RETRO TV #####",      "https://i.imgur.com/LT3nBqW.png"),
+    ("SEP.MistLive",  "##### MIST LIVE #####",     "https://i.imgur.com/vZhDOlD.png"),
+    ("SEP.40Media",   "##### 40MEDIA GROUP #####", "https://i.imgur.com/Q9lOrSk.png"),
+    ("SEP.Others",    "##### OTHERS #######",      "https://i.imgur.com/SGcDJuQ.png"),
+]
+SEP_DAYS = 14
+
+def add_separators(tv):
+    day0 = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=1)
+    pos = len(tv.findall("channel"))                 # keep <channel>s ahead of <programme>s
+    for i, (cid, name, logo) in enumerate(SEPARATORS):
+        ch = ET.Element("channel", {"id": cid})
+        ET.SubElement(ch, "display-name").text = name
+        ET.SubElement(ch, "icon", {"src": logo})
+        tv.insert(pos + i, ch)
+    for cid, name, _ in SEPARATORS:
+        for d in range(SEP_DAYS + 1):
+            a = day0 + timedelta(days=d)
+            pr = ET.SubElement(tv, "programme", {"start": a.strftime("%Y%m%d%H%M%S +0000"),
+                                                 "stop": (a + timedelta(days=1)).strftime("%Y%m%d%H%M%S +0000"),
+                                                 "channel": cid})
+            ET.SubElement(pr, "title", {"lang": "en"}).text = name
+
 def build_all(wl_root, eel_root, cache):
     tv = ET.Element("tv", {"generator-info-name": "whiplash-eel-epg-generator"})
     add_channels(tv, WL_CHANNEL_MAP, WL_LOGOS)
     add_channels(tv, EEL_CHANNEL_MAP, EEL_LOGOS)
     print("Whiplash:"); copy_whiplash(tv, wl_root)
     print("Eel:");      build_eel(tv, eel_root, cache)
+    add_separators(tv)
+    print(f"Separators: {len(SEPARATORS)} channels")
     return tv
 
 def main():
