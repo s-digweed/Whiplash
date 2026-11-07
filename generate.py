@@ -1753,34 +1753,47 @@ EPG_OUTPUT = "Whiplash.xml"          # renamed from epg.xml (same tvg-ids)
 M3U_OUTPUT = "playlist.m3u"
 EPG_RAW_URL = "https://raw.githubusercontent.com/s-digweed/Whiplash/main/Whiplash.xml"
 
-# ── Separator "channels" for the Webchnl playlist ─────────────────────────────
-# Dummy entries that head each group in TiviMate; their guide row just repeats the
-# name. tvg-id here = tvg-id in webchnl.m3u.
+# ── Webchnl dummies (webchnldummies.xml) ──────────────────────────────────────
+# Guide for the Webchnl playlist's dummy channels: the "##### GROUP #####" separators
+# that head each group in TiviMate (guide row just repeats the name) plus simple
+# filler channels like Aurora. tvg-id here = tvg-id in webchnl.m3u.
+DUMMIES_OUTPUT = "webchnldummies.xml"
 SEPARATORS = [
     ("SEP.Webchnl",   "##### WEBCHNL #####",       "https://i.imgur.com/SGcDJuQ.png"),
     ("SEP.Vueue",     "##### VUEUE #####",         "https://i.imgur.com/EPyPPzh.png"),
     ("SEP.RetroTV",   "##### RETRO TV #####",      "https://i.imgur.com/LT3nBqW.png"),
     ("SEP.MistLive",  "##### MIST LIVE #####",     "https://i.imgur.com/vZhDOlD.png"),
     ("SEP.40Media",   "##### 40MEDIA GROUP #####", "https://i.imgur.com/Q9lOrSk.png"),
-    ("SEP.Others",    "##### OTHERS #######",      "https://i.imgur.com/SGcDJuQ.png"),
+    ("SEP.Others",    "##### OTHERS #######",      "https://i.imgur.com/6UZEDRL.png"),
+    ("SEP.Kift",      "##### KIFT #####",          "https://i.imgur.com/TZQU11E.png"),
 ]
-SEP_DAYS = 14
+# (tvg-id, display name, logo, title, description, block hours)
+DUMMY_CHANNELS = [
+    ("Aurora", "Aurora", "https://i.imgur.com/KHHOX8e.png", "Aurora",
+     "Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.", 12),
+]
+DUMMY_DAYS = 14
 
-def add_separators(tv):
+def build_dummies():
+    tv = ET.Element("tv", {"generator-info-name": "webchnl-dummies"})
     day0 = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=1)
-    pos = len(tv.findall("channel"))                 # keep <channel>s ahead of <programme>s
-    for i, (cid, name, logo) in enumerate(SEPARATORS):
-        ch = ET.Element("channel", {"id": cid})
+    rows = [(cid, name, logo, name, None, 24) for cid, name, logo in SEPARATORS] + DUMMY_CHANNELS
+    for cid, name, logo, *_ in rows:
+        ch = ET.SubElement(tv, "channel", {"id": cid})
         ET.SubElement(ch, "display-name").text = name
-        ET.SubElement(ch, "icon", {"src": logo})
-        tv.insert(pos + i, ch)
-    for cid, name, _ in SEPARATORS:
-        for d in range(SEP_DAYS + 1):
-            a = day0 + timedelta(days=d)
-            pr = ET.SubElement(tv, "programme", {"start": a.strftime("%Y%m%d%H%M%S +0000"),
-                                                 "stop": (a + timedelta(days=1)).strftime("%Y%m%d%H%M%S +0000"),
+        if logo:
+            ET.SubElement(ch, "icon", {"src": logo})
+    for cid, _, _, title, desc, hours in rows:
+        t, end = day0, day0 + timedelta(days=DUMMY_DAYS + 1)
+        while t < end:
+            pr = ET.SubElement(tv, "programme", {"start": t.strftime("%Y%m%d%H%M%S +0000"),
+                                                 "stop": (t + timedelta(hours=hours)).strftime("%Y%m%d%H%M%S +0000"),
                                                  "channel": cid})
-            ET.SubElement(pr, "title", {"lang": "en"}).text = name
+            ET.SubElement(pr, "title", {"lang": "en"}).text = title
+            if desc:
+                ET.SubElement(pr, "desc", {"lang": "en"}).text = desc
+            t += timedelta(hours=hours)
+    return tv
 
 def build_all(wl_root, eel_root, cache):
     tv = ET.Element("tv", {"generator-info-name": "whiplash-eel-epg-generator"})
@@ -1788,8 +1801,6 @@ def build_all(wl_root, eel_root, cache):
     add_channels(tv, EEL_CHANNEL_MAP, EEL_LOGOS)
     print("Whiplash:"); copy_whiplash(tv, wl_root)
     print("Eel:");      build_eel(tv, eel_root, cache)
-    add_separators(tv)
-    print(f"Separators: {len(SEPARATORS)} channels")
     return tv
 
 def main():
@@ -1877,6 +1888,12 @@ def main():
         print(f"Wrote {LOCO_OUTPUT} ({len(ltv.findall('programme'))} programmes)")
     else:
         print(f"  Locomotion feed empty/unavailable - keeping existing {LOCO_OUTPUT}")
+
+    print("Webchnl dummies:")
+    dtv = build_dummies()
+    indent(dtv)
+    ET.ElementTree(dtv).write(DUMMIES_OUTPUT, encoding="UTF-8", xml_declaration=True)
+    print(f"Wrote {DUMMIES_OUTPUT} ({len(dtv.findall('channel'))} channels, {len(dtv.findall('programme'))} programmes)")
 
     save_desc_cache(cache)
 
