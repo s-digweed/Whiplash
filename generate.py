@@ -1791,6 +1791,12 @@ DUMMY_CHANNELS = [
      "WYLP, also known as Channel 5, is an independent low-power analog television station in York, Pennsylvania.\n\nThe station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and movies, in the structure of a mid-to-late 90s independent TV station.", 12),
     ("OTVN", "OTVN", "https://i.imgur.com/Tx28h4X.png", "OTVN",
      "When the other toon channels weren't enough for some reason, you find yourself buried so deep in video tapes that you'd have to get someone to do some shoveling to get you out.", 12),
+    ("EnerGeek", "EnerGeek", "https://i.imgur.com/clbbkA3.png", "EnerGeek",
+     "El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.", 12),
+    ("EnerGeekRadio", "EnerGeek Radio", "https://i.imgur.com/2PQ1wFT.png", "EnerGeek Radio",
+     "Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!", 12),
+    ("EnerGeekFan", "EnerGeek Fan", "https://i.imgur.com/spdqBo8.png", "EnerGeek Fan",
+     "Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.", 12),
 ]
 DUMMY_DAYS = 14
 
