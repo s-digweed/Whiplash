@@ -72,6 +72,18 @@
     <display-name>OTVN</display-name>
     <icon src="https://i.imgur.com/Tx28h4X.png" />
   </channel>
+  <channel id="EnerGeek">
+    <display-name>EnerGeek</display-name>
+    <icon src="https://i.imgur.com/clbbkA3.png" />
+  </channel>
+  <channel id="EnerGeekRadio">
+    <display-name>EnerGeek Radio</display-name>
+    <icon src="https://i.imgur.com/2PQ1wFT.png" />
+  </channel>
+  <channel id="EnerGeekFan">
+    <display-name>EnerGeek Fan</display-name>
+    <icon src="https://i.imgur.com/spdqBo8.png" />
+  </channel>
   <programme start="20261107000000 +0000" stop="20261108000000 +0000" channel="SEP.Webchnl">
     <title lang="en">##### WEBCHNL #####</title>
   </programme>
@@ -1826,5 +1838,365 @@ The station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and 
   <programme start="20261121120000 +0000" stop="20261122000000 +0000" channel="OTVN">
     <title lang="en">OTVN</title>
     <desc lang="en">When the other toon channels weren't enough for some reason, you find yourself buried so deep in video tapes that you'd have to get someone to do some shoveling to get you out.</desc>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261107120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261107120000 +0000" stop="20261108000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261108120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261108120000 +0000" stop="20261109000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261109120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261110000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261110120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261110120000 +0000" stop="20261111000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261111120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261111120000 +0000" stop="20261112000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261113120000 +0000" stop="20261114000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261114120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261114120000 +0000" stop="20261115000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261115120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261115120000 +0000" stop="20261116000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261116120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261116120000 +0000" stop="20261117000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261117120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261117120000 +0000" stop="20261118000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261118120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261118120000 +0000" stop="20261119000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261119120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261119120000 +0000" stop="20261120000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261120120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261120120000 +0000" stop="20261121000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261121000000 +0000" stop="20261121120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261121120000 +0000" stop="20261122000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261107120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261107120000 +0000" stop="20261108000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261108120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261108120000 +0000" stop="20261109000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261109120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261110000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261110120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261110120000 +0000" stop="20261111000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261111120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261111120000 +0000" stop="20261112000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261113120000 +0000" stop="20261114000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261114120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261114120000 +0000" stop="20261115000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261115120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261115120000 +0000" stop="20261116000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261116120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261116120000 +0000" stop="20261117000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261117120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261117120000 +0000" stop="20261118000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261118120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261118120000 +0000" stop="20261119000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261119120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261119120000 +0000" stop="20261120000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261120120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261120120000 +0000" stop="20261121000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261121000000 +0000" stop="20261121120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261121120000 +0000" stop="20261122000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261107120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261107120000 +0000" stop="20261108000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261108120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261108120000 +0000" stop="20261109000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261109120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261110000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261110120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261110120000 +0000" stop="20261111000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261111120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261111120000 +0000" stop="20261112000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261113120000 +0000" stop="20261114000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261114120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261114120000 +0000" stop="20261115000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261115120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261115120000 +0000" stop="20261116000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261116120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261116120000 +0000" stop="20261117000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261117120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261117120000 +0000" stop="20261118000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261118120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261118120000 +0000" stop="20261119000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261119120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261119120000 +0000" stop="20261120000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261120120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261120120000 +0000" stop="20261121000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261121000000 +0000" stop="20261121120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261121120000 +0000" stop="20261122000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
   </programme>
 </tv>
