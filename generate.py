@@ -1771,6 +1771,22 @@ SEPARATORS = [
 DUMMY_CHANNELS = [
     ("Aurora", "Aurora", "https://i.imgur.com/KHHOX8e.png", "Aurora",
      "Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.", 12),
+    ("flashBAK", "flashBAK", "https://i.imgur.com/AWzw5cX.png", "flashBAK",
+     "Take a break from the modern world. Come say hello again to the shows, movies, and songs that defined your childhood.", 12),
+    ("TLPlus", "TL+", "https://i.imgur.com/TbL9E10.png", "TL+",
+     "Somos un canal de Televisión online de origen salvadoreño con programación de contenido anime para toda América Latina.", 12),
+    ("Magical", "Magical", "https://i.imgur.com/NhU22Zs.png", "Magical",
+     "Magical celebrates several anime genres from magical girl to idol culture.", 12),
+    ("OptiradioTV", "Optiradio TV", "https://i.imgur.com/7BSz9wO.png", "Optiradio TV",
+     "Optiradio TV", 12),
+    ("DIJIT", "DIJIT", "https://i.imgur.com/7h0QRo9.png", "DIJIT",
+     "Accept no imitation.", 12),
+    ("Dotwave", "Dotwave", "https://i.imgur.com/GpmmAxf.png", "Dotwave",
+     "Canada's spot for comedy. From sitcoms like Fresh Prince to reality comedies like Kenny vs. Spenny.\n\nWe're comedy on the dot.", 12),
+    ("NICAPlus", "NICA+", "https://i.imgur.com/05LqN3Q.png", "NICA+",
+     "El primer canal online en Nicaragua trayendo la mejor programación Geek hacia los chavalos nicaragüenses con un gran orgullo pinolero.", 12),
+    ("JNIME", "JNIME", "https://i.imgur.com/kVC9ASD.png", "JNIME",
+     "it feels right at home.", 12),
 ]
 DUMMY_DAYS = 14
 
