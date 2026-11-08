@@ -1787,6 +1787,10 @@ DUMMY_CHANNELS = [
      "El primer canal online en Nicaragua trayendo la mejor programación Geek hacia los chavalos nicaragüenses con un gran orgullo pinolero.", 12),
     ("JNIME", "JNIME", "https://i.imgur.com/kVC9ASD.png", "JNIME",
      "it feels right at home.", 12),
+    ("WYLP", "WYLP", "https://i.imgur.com/yzydOWR.png", "WYLP",
+     "WYLP, also known as Channel 5, is an independent low-power analog television station in York, Pennsylvania.\n\nThe station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and movies, in the structure of a mid-to-late 90s independent TV station.", 12),
+    ("OTVN", "OTVN", "https://i.imgur.com/Tx28h4X.png", "OTVN",
+     "When the other toon channels weren't enough for some reason, you find yourself buried so deep in video tapes that you'd have to get someone to do some shoveling to get you out.", 12),
 ]
 DUMMY_DAYS = 14
 
