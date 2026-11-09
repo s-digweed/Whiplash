@@ -234,7 +234,7 @@ FIXED_DESC = {
         "An after-school reel of theatrical shorts: Looney Tunes, Tex Avery, Walter Lantz "
         "Cartunes and Fleischer classics, cut with international gems from Zagreb Film."
         "\n\n"
-        "Some you'll adore, some you'll revile.",
+        "Homework can wait.",
     # ── one-off specials ──
     "Bad Religion: Live at the Palladium (2006)":
         "Live at the Palladium is a live concert DVD by the punk band Bad Religion, released in "
