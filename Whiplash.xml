@@ -12705,8 +12705,8 @@ Jade puts on the other half and summons the other half, which don't have heads).
   </programme>
   <programme start="20261108162500 -0500" stop="20261108165000 -0500" channel="fizz">
     <title lang="en">Dexter's Laboratory</title>
-    <sub-title lang="en">Picture Day / Now That's a Stretch / Dexter Detention</sub-title>
-    <desc lang="en">It's picture day at school and Dexter must face the truth: he is not photogenic. Using Dee Dee's Teen magazine as a guide for restructuring his physical appearance, Dexter becomes grotesquely handsome.</desc>
+    <sub-title lang="en">Labels / Game Show / Fantastic Boyage</sub-title>
+    <desc lang="en">During a fight with his sister over the chair in front of the TV, Dexter gets the idea to start labeling his things.</desc>
     <episode-num system="onscreen">S02 E19</episode-num>
     <episode-num system="xmltv_ns">1.18.</episode-num>
   </programme>
@@ -12799,8 +12799,8 @@ Jade puts on the other half and summons the other half, which don't have heads).
   </programme>
   <programme start="20261108234000 -0500" stop="20261109000500 -0500" channel="fizz">
     <title lang="en">Rocko's Modern Life</title>
-    <sub-title lang="en">Keeping Up with the Bigheads / Skid Marks</sub-title>
-    <desc lang="en">Rocko and Heffer try to makeover Rocko's house after Ed tries to tip his nephew, a city home inspector in a scheme to get rid of Rocko; After Rocko is pulled over because his gas cap is missing, he has to go back to driving school.</desc>
+    <sub-title lang="en">Leap Frogs / Bedfellows</sub-title>
+    <desc lang="en">Mrs. Bighead tries to seduce Rocko./Heffer is kicked out of his parents' house, forcing him to live with Rocko.</desc>
     <episode-num system="onscreen">S01 E04</episode-num>
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
@@ -13076,8 +13076,8 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261109162500 -0500" stop="20261109165000 -0500" channel="fizz">
     <title lang="en">Dexter's Laboratory</title>
-    <sub-title lang="en">Big Bots / Gooey Aliens That Control Your Mind / Misplaced in Space</sub-title>
-    <desc lang="en">Dexter builds Dee Dee a huge robot after she tells him he can't. The problem begins when they use their robots to try to save a volcanic island from eruption.</desc>
+    <sub-title lang="en">The Bus Boy / The Justice Friends: Things That Go Bonk in the Night / Ol' McDexter</sub-title>
+    <desc lang="en">When Dexter is harassed by two bullies and forced to go into the back of a school bus chasing his #2 writing implement, he must brave the legend of little Billy Blumberg who disappeared back there years ago.</desc>
     <episode-num system="onscreen">S02 E34</episode-num>
     <episode-num system="xmltv_ns">1.33.</episode-num>
   </programme>
@@ -13160,8 +13160,8 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261109212500 -0500" stop="20261109215000 -0500" channel="fizz">
     <title lang="en">Rocko's Modern Life</title>
-    <sub-title lang="en">The Big Question / The Big Answer</sub-title>
-    <desc lang="en">The moment we've all been waiting for: Filbert overcomes his fear and decides to ask Doctor Hutchison to marry him. /Dr. Hutchinson beats Filbert to the punch and asks him to marry her.</desc>
+    <sub-title lang="en">Manic Mechanic / Rocko's Happy Vermin</sub-title>
+    <desc lang="en">Rocko's car dies, but is recusitated to win the O-Town rally with Heffer piloting the car in reverse./Rocko finds himself in the middle of a plan to get Ed Bighead's private stock of bugs off the menu and into the good life.</desc>
     <episode-num system="onscreen">S03 E11</episode-num>
     <episode-num system="xmltv_ns">2.10.</episode-num>
   </programme>
@@ -13456,8 +13456,8 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261110162500 -0500" stop="20261110165000 -0500" channel="fizz">
     <title lang="en">Dexter's Laboratory</title>
-    <sub-title lang="en">That Magic Moment / A Silent Cartoon / Opposites Attract</sub-title>
-    <desc lang="en">"That Magic Moment" (9 minutes) Uncle Magic comes to visit the family and promises to make Dee Dee disappear in a trick. Dexter poo-poos his Uncle's world of illusion and makes Dee Dee disappear via science.</desc>
+    <sub-title lang="en">Copping an Aptitude / A Failed Lab Experiment / The Grand-Daddy of All Inventions</sub-title>
+    <desc lang="en">"Copping an Attitude" (9 minutes) Dexter goes to college ready to learn only to discover it's party central. But when Dexter fries out by over-studying, he's ready to party and creates the biggest party ever.</desc>
     <episode-num system="onscreen">S03 E08</episode-num>
     <episode-num system="xmltv_ns">2.7.</episode-num>
   </programme>
@@ -13542,8 +13542,8 @@ Ned teams up with Missy to battle Loomer in a Social Studies competition; Moze m
   </programme>
   <programme start="20261110212500 -0500" stop="20261110215000 -0500" channel="fizz">
     <title lang="en">Rocko's Modern Life</title>
-    <sub-title lang="en">Cabin Fever / Rinse and Spit</sub-title>
-    <desc lang="en">An avalanche traps Rocko, Heffer and the Bigheads in a cabin./Filburt takes his final exam at dental school, and Rocko is his patient.</desc>
+    <sub-title lang="en">Power Trip / To Heck and Back</sub-title>
+    <desc lang="en">When his boss goes out of town, Rocko is left in charge of the store./Heffer chokes on a chicken rib cage at a Chokey Chicken restaurant and has an after-death experience with Peaches in "Heck".</desc>
     <episode-num system="onscreen">S01 E10</episode-num>
     <episode-num system="xmltv_ns">0.9.</episode-num>
   </programme>
@@ -13774,7 +13774,7 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   <programme start="20261108124000 -0500" stop="20261108130500 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
     <sub-title lang="en">Garfield's Moving Experience / Wade: You're Afraid / Good Mousekeeping</sub-title>
-    <desc lang="en">Garfield presses his luck with Jon too much and gets thrown out of the house. He decides to go live somewhere else and gets adopted by a rich girl. / Orson is fed up with Wade cowering over every little thing and hypnotizes him to be brave. / A mouse, Floyd, encounters Garfield and takes for granted living with a cat who doesn't chase mice.</desc>
+    <desc lang="en">Garfield presses his luck with Jon too much and gets thrown out of the house. He decides to go live somewhere else and gets adopted by a rich girl. / Orson is fed up with Wade cowering over every little thing and hypnotizes him to be brave. / A mouse, Floyd, encounters Garfield and takes for granted living with a cat who doesn't chase mice. 7.4 / 10 ( 100 )</desc>
     <episode-num system="onscreen">S01 E05</episode-num>
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
@@ -13816,7 +13816,7 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   <programme start="20261108151000 -0500" stop="20261108153500 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
     <sub-title lang="en">Identity Crisis / The Bad Sport / Up a Tree</sub-title>
-    <desc lang="en">A dogcatcher thinks Garfield's a dog, Floyd starts meowing and the dog chasing Garfield works on his mouse impersonation. / Orson convinces everybody to try a new sport called pig ball, unaware that Roy has put a bunch of fake rules in the game book. / Garfield gets thrown out of the house when Nermal comes to visit; hears a tree calling to him and jumps up it, but then can't get down.</desc>
+    <desc lang="en">A dogcatcher thinks Garfield's a dog, Floyd starts meowing and the dog chasing Garfield works on his mouse impersonation. / Orson convinces everybody to try a new sport called pig ball, unaware that Roy has put a bunch of fake rules in the game book. / Garfield gets thrown out of the house when Nermal comes to visit; hears a tree calling to him and jumps up it, but then can't get down. 7.6 / 10 ( 90 )</desc>
     <episode-num system="onscreen">S01 E06</episode-num>
     <episode-num system="xmltv_ns">0.5.</episode-num>
   </programme>
@@ -14109,7 +14109,7 @@ Witch Tricks: Scrappy helps a sick tooth fairy, but is pursued by a wicked witch
   <programme start="20261109111000 -0500" stop="20261109113500 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
     <sub-title lang="en">Weighty Problem / The Worm Turns / Good Cat, Bad Cat</sub-title>
-    <desc lang="en">Garfield tampers with a new scale leading Jon to believe he's 50 pounds overweight. / Orson tells a story about how Booker gave up hunting worms. / Garfield is at war with himself when his good and bad sides tell him what to do.</desc>
+    <desc lang="en">Garfield tampers with a new scale leading Jon to believe he's 50 pounds overweight. / Orson tells a story about how Booker gave up hunting worms. / Garfield is at war with himself when his good and bad sides tell him what to do. 7.4 / 10 ( 84 )</desc>
     <episode-num system="onscreen">S01 E07</episode-num>
     <episode-num system="xmltv_ns">0.6.</episode-num>
   </programme>
@@ -14144,7 +14144,7 @@ Witch Tricks: Scrappy helps a sick tooth fairy, but is pursued by a wicked witch
   <programme start="20261109131500 -0500" stop="20261109134000 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
     <sub-title lang="en">Cabin Fever / Return of Power Pig / Fair Exchange</sub-title>
-    <desc lang="en">Garfield and Odie are stuck in a cabin during a blizzard with no food. / A rumor says there's a monster on the farm; calling for Orson to make his return as Power Pig to destroy the monster. / Garfield and Jon both dream about what it's like to be the other.</desc>
+    <desc lang="en">Garfield and Odie are stuck in a cabin during a blizzard with no food. / A rumor says there's a monster on the farm; calling for Orson to make his return as Power Pig to destroy the monster. / Garfield and Jon both dream about what it's like to be the other. 7.7 / 10 ( 84 )</desc>
     <episode-num system="onscreen">S01 E08</episode-num>
     <episode-num system="xmltv_ns">0.7.</episode-num>
   </programme>
@@ -14172,7 +14172,7 @@ Witch Tricks: Scrappy helps a sick tooth fairy, but is pursued by a wicked witch
   <programme start="20261109145500 -0500" stop="20261109152000 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
     <sub-title lang="en">The Binky Show / Keeping Cool / Don't Move!</sub-title>
-    <desc lang="en">The Binky Show: Garfield goes on the Binky show to win presents for Jon's birthday. Keeping Cool: Bo tries to teach Orson how to keep his cool even though his brothers are coming. Don't Move! Garfield tells Odie not to move from his spot but due to events beyond his controls, goes on a long adventure.</desc>
+    <desc lang="en">The Binky Show: Garfield goes on the Binky show to win presents for Jon's birthday. Keeping Cool: Bo tries to teach Orson how to keep his cool even though his brothers are coming. Don't Move! Garfield tells Odie not to move from his spot but due to events beyond his controls, goes on a long adventure. 7.4 / 10 ( 79 )</desc>
     <episode-num system="onscreen">S01 E09</episode-num>
     <episode-num system="xmltv_ns">0.8.</episode-num>
   </programme>
@@ -14507,7 +14507,7 @@ Spoon in one hand, remote in the other.</desc>
   <programme start="20261110142000 -0500" stop="20261110144500 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
     <sub-title lang="en">Magic Mutt / Short Story / Monday Misery</sub-title>
-    <desc lang="en">Jon and Garfield go to a magic shop and Garfield gets into a battle with the magician's dog. / Booker's anxious to prove to everybody on the farm he's not too small to help. / Garfield is so desperate to escape Monday that he mails himself to Samoa.</desc>
+    <desc lang="en">Jon and Garfield go to a magic shop and Garfield gets into a battle with the magician's dog. / Booker's anxious to prove to everybody on the farm he's not too small to help. / Garfield is so desperate to escape Monday that he mails himself to Samoa. 7.4 / 10 ( 76 )</desc>
     <episode-num system="onscreen">S01 E10</episode-num>
     <episode-num system="xmltv_ns">0.9.</episode-num>
   </programme>
@@ -14787,7 +14787,7 @@ Spoon in one hand, remote in the other.</desc>
   <programme start="20261111093000 -0500" stop="20261111095500 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
     <sub-title lang="en">Best of Breed / National Tapioca Pudding Day / All About Odie</sub-title>
-    <desc lang="en">After seeing how many medals Nermal has won, pushes Jon to put him in a cat show. / Roy gives a box of booby trapped tapioca pudding to Orson telling him it's a national holiday, not counting on Orson to pass his gift along to his friends. / Garfield puts together a presentation on Odie.</desc>
+    <desc lang="en">After seeing how many medals Nermal has won, pushes Jon to put him in a cat show. / Roy gives a box of booby trapped tapioca pudding to Orson telling him it's a national holiday, not counting on Orson to pass his gift along to his friends. / Garfield puts together a presentation on Odie. 7.3 / 10 ( 80 )</desc>
     <episode-num system="onscreen">S01 E11</episode-num>
     <episode-num system="xmltv_ns">0.10.</episode-num>
   </programme>
