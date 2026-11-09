@@ -79,6 +79,7 @@ EEL_NAME_ALIASES = {
     "toon disney shuffle": "toon-diggity",
     "toon disney":         "toon-diggity",
     "toon disney shorts":  "toon-diggity",
+    "cartoon shuffle":     "toon-diggity",   # Nov 2026 rebrand; our guide keeps "Toon Diggity"
 }
 def _norm_chan_name(s):
     s = re.sub(r"^\s*\d+\s*", "", (s or "").strip())      # drop the feed's leading channel number
@@ -129,6 +130,13 @@ RENAMES = {
     "Eerie, Indiana: Other": "Eerie, Indiana: The Other Dimension",
     "Mighty Mouse '87": "Mighty Mouse: The New Adventures (1987)",
     "SRMTHFG!": "Super Robot Monkey Team Hyperforce Go!",
+    # Toon Diggity (Cartoon Shuffle) feed spellings, Nov 2026
+    "Mighty Mouse TNA": "Mighty Mouse: The New Adventures (1987)",
+    "Oblongs": "The Oblongs",
+    "FUNKY COPS": "Funky Cops",
+    "Charlie Brown and Snoopy Show": "The Charlie Brown and Snoopy Show",
+    "Ping Pong Club": "The Ping Pong Club",
+    "Super Milk Chan USA": "The Super Milk-Chan Show",   # TMDB/Netflix name
 }
 
 # Fuzzy renames: (pattern, canonical) applied when the exact table misses.
@@ -212,6 +220,30 @@ FIXED_DESC = {
     "Fizz Vidz":
         "Three decades of rock and pop on tap, with music videos from the 80s to the 00s, "
         "fizzing you through the small hours.",
+    # ── Toon Diggity (Cartoon Shuffle) shorts blocks ──
+    "Breakfast Shorts":                       # feed: "Morning Shuffle"
+        "Pour the cereal, the projector's already running."
+        "\n\n"
+        "Disney Cartoons, Tom and Jerry and MGM shorts, with Terrytoons and George Pal's "
+        "Puppetoons rolling out of the vault."
+        "\n\n"
+        "Spoon in one hand, remote in the other.",
+    "Afternoon Shuffle":
+        "An after-school reel of theatrical shorts: Looney Tunes, Tex Avery, Walter Lantz "
+        "Cartunes and Fleischer classics, cut with international gems from Zagreb Film."
+        "\n\n"
+        "Some you'll adore, some you'll revile.",
+    # ── shows the metadata lookups can't describe ──
+    "Nickelodeon GUTS":                       # IMDb show blurb
+        "Three kids donning the different colors blue, red, and purple compete in relatively "
+        "cool-looking olympic-style games to achieve as many points as they can.",
+    "Homeless in Denton":
+        "A local documentary-style comedy series that follows two \"homeless\" guys wandering "
+        "around Denton, Texas.",
+    "Dude, What Would Happen":                # fallback for episodes not in fizz_guide.json
+        "Three teens, C.J., Jackson and Ali, wonder what would happen if some wild event, scheme "
+        "or experiment were to occur, then set out to create it themselves, consulting experts "
+        "when needed.",
     # ── Eel Channel blocks (blank lines between paragraphs render as line breaks) ──
     "The Late Shift":
         "The office's shuttered, the takeout's gone cold, and the tubes are still warm. "
@@ -228,7 +260,14 @@ FIXED_DESC = {
         "carry you clean through to clock-out."
         "\n\n"
         "Pull up a folding chair.",
-    "Nightwave":
+    "The Morning Shift":                      # feed: "Morning Videos" (~11 AM)
+        "Badge on, inbox filling, the copier warming up somewhere down the hall."
+        "\n\n"
+        "A wake-up reel of music videos: chart hits, cult cuts and VHS-worn favorites you "
+        "swore you'd forgotten."
+        "\n\n"
+        "Look busy.",
+    "Nightwave":                              # retired Nov 2026 (no late-night video block); kept for reuse
         "Half past eleven and the signal goes molten."
         "\n\n"
         "A neon loop of music videos: new drops, deep cuts, and signal-bent classics bleeding "
@@ -246,6 +285,13 @@ def _eel_segment_rename(title, start, channel=None):
     # Fizz's nightly classic-shorts block is titled just "Cartoons" in the feed.
     if channel == "fizz" and title == "Cartoons":
         return "Fizz Cartoons"
+    # Nov 2026 grid: Eel's video blocks got their own feed titles.
+    if title == "Morning Videos":
+        return "The Morning Shift"
+    if title == "Afternoon Videos":
+        return "The Break Room"
+    if channel == "toon-diggity" and title == "Morning Shuffle":
+        return "Breakfast Shorts"
     if title == "Music Videos":
         try:
             hr = int((start or "")[8:10])
@@ -256,6 +302,18 @@ def _eel_segment_rename(title, start, channel=None):
 
 # Renamed titles that should NOT carry the source's trailing (YYYY)
 DROP_YEAR = {"Batman: The Animated Series"}
+
+# Per-episode sub-titles the feed doesn't carry: (show, season, episode) -> sub-title
+EPISODE_SUBS = {
+    ("Homeless in Denton", 2, 5): "Fry St. Fair '06",
+}
+
+# Eel shows the feed sends with no episode number: fetch a SHOW-level synopsis
+# (TMDB -> TVmaze -> TVDB, then OMDb). Value = the name to try on OMDb/IMDb if it differs.
+EEL_SHOW_LOOKUP = {
+    "The Super Milk-Chan Show": "The Super Milk Chan Show",      # IMDb spelling
+    "Mighty Mouse: The New Adventures (1987)": None,
+}
 
 # ── Part-marker standardization (guardrail across all 3 Eel channels) ──────
 # Normalize two-parter markers to "Title: Part N": "(1)/(2)", "(Part One)",
@@ -409,7 +467,17 @@ def parse_title(raw):
             subtitle = segs[-1].strip()
             c = peel(" - ".join(segs[:-1]))
             if c: title, season, ep = _clean(c[0]), c[1], c[2]
-            else: title = _clean(" - ".join(segs[:-1]))
+            else:
+                # the episode name itself may contain " - " ("SOUTH PARK 316 - Are you there
+                # God - It's me, Jesus"): find the earliest "<Show> <3-4 digits>" prefix.
+                for i in range(1, len(segs) - 1):
+                    mm = re.search(r'^(.*\S)\s+(\d{3,4})$', " - ".join(segs[:i]).strip())
+                    if mm:
+                        season, ep = _digits_to_se(mm.group(2), mm.group(1))
+                        title = _clean(mm.group(1)); subtitle = " - ".join(segs[i:]).strip()
+                        break
+                else:
+                    title = _clean(" - ".join(segs[:-1]))
     else:
         c = peel(t)
         if c: title, season, ep = _clean(c[0]), c[1], c[2]
@@ -917,11 +985,15 @@ def build_eel(tv, root, cache):
                         gentry = gdef["eps"].get(_guide_norm(look))
                         if gentry:
                             sub = gentry.get("title") or sub   # S/E left as the feed's
+                            if gdef.get("renumber") and gentry.get("se"):
+                                season, ep = gentry["se"]       # feed numbering unreliable -> guide's
             elif gdef and gdef.get("mode") == "name" and ep is None and sub:
                 # name-mode show with no parsed number but a feed sub-title -> match on it
                 gentry = gdef["eps"].get(_guide_norm(sub))
                 if gentry:
                     sub = gentry.get("title") or sub
+                    if gdef.get("renumber") and gentry.get("se"):
+                        season, ep = gentry["se"]
             if gentry is not None:
                 desc = gentry.get("desc") or None
             elif season is None and sub:                # have episode name, no number -> match it
@@ -930,8 +1002,14 @@ def build_eel(tv, root, cache):
                 desc, epname = episode_meta(title, season, ep, cache)
                 if not sub and epname:                 # fill missing episode name from metadata
                     sub = epname; got_sub += 1
+            if season is not None and (title, season, ep) in EPISODE_SUBS:
+                sub = EPISODE_SUBS[(title, season, ep)]
             if desc is None and title in FIXED_DESC:    # fixed desc for block/filler programmes
                 desc = FIXED_DESC[title]
+            if desc is None and title in EEL_SHOW_LOOKUP:   # show-level synopsis, IMDb spelling as backup
+                desc = _show_overview_db(title, cache) or None
+                if not desc and OMDB_KEY:
+                    desc = _omdb_plot(EEL_SHOW_LOOKUP[title] or title, cache, "series") or None
             # Movie fallback: non-episodic entries carrying a (YYYY) in the title or
             # sub-title are films (e.g. "American History X (1998)", or "Teen Titans" +
             # "Trouble in Tokyo (2006)"). Look them up as MOVIES on TMDB. Display title
