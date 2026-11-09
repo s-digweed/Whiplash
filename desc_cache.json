@@ -1922,6 +1922,10 @@
 "n": "Late Night with Butt-Head",
 "o": "After watching \"that Letter-Dude\" on TV, Beavis and Butt-Head make a similar show for their class project."
 },
+"13943|4|13": {
+"n": "The Final Judgment of Beavis",
+"o": "After playing \"Iron Justice,\" Beavis has a near death experience, and dreams of meeting St. Peter and Butt-Head trying to bury him."
+},
 "13943|4|14": {
 "n": "Pool Toys",
 "o": "\"Buff-coat and Beaver\" help Mr. Anderson build a swimming pool."
@@ -2069,6 +2073,10 @@
 "13943|6|16": {
 "n": "Yard Sale",
 "o": "Mr. Anderson leaves his yard sale to run the local bar for a friend, so Beavis and Butt-Head take over and sell everything."
+},
+"13943|6|17": {
+"n": "P.T.A.",
+"o": "Beavis and Butt-Head attend a Parent-Teacher Association meeting and make a few suggestions on how to improve their education."
 },
 "13943|6|18": {
 "n": "Substitute",
@@ -27603,6 +27611,10 @@
 "y": "1993"
 },
 "digital dance|1982": null,
+"dragon ball z: the tree of might|1990|v2": {
+"o": "Goku and friends must stop a band of space pirates from consuming fruit from the Tree of Might before it's destructive powers drain Earth's energy.",
+"y": "1990"
+},
 "dumbo|1941|v2": {
 "o": "Dumbo is a baby elephant born with over-sized ears and a supreme lack of confidence. But thanks to his even more diminutive buddy Timothy the Mouse,  the pint-sized pachyderm learns to surmount all obstacles.",
 "y": "1941"

@@ -11641,10 +11641,8 @@ Games include: Wall of Hidden Blistering Death; Blind-Sided Date; Sinkers and Fl
     <episode-num system="xmltv_ns">5.7.</episode-num>
   </programme>
   <programme start="20261108203500 -0500" stop="20261108214000 -0500" channel="eel-channel">
-    <title lang="en">Dragon Ball Z Movie</title>
-    <sub-title lang="en">Tree of Might (1990)</sub-title>
-    <episode-num system="onscreen">S01 E03</episode-num>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <title lang="en">Dragon Ball Z: The Tree of Might (1990)</title>
+    <desc lang="en">Goku and friends must stop a band of space pirates from consuming fruit from the Tree of Might before it's destructive powers drain Earth's energy.</desc>
   </programme>
   <programme start="20261108214000 -0500" stop="20261108220500 -0500" channel="eel-channel">
     <title lang="en">It's Always Sunny in Philadelphia</title>
@@ -12430,10 +12428,16 @@ Pull up a folding chair.</desc>
   <programme start="20261111002500 -0500" stop="20261111004000 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">PTA</sub-title>
+    <desc lang="en">Beavis and Butt-Head attend a Parent-Teacher Association meeting and make a few suggestions on how to improve their education.</desc>
+    <episode-num system="onscreen">S06 E17</episode-num>
+    <episode-num system="xmltv_ns">5.16.</episode-num>
   </programme>
   <programme start="20261111004000 -0500" stop="20261111005500 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">The Final Judgment of Beavis</sub-title>
+    <desc lang="en">After playing "Iron Justice," Beavis has a near death experience, and dreams of meeting St. Peter and Butt-Head trying to bury him.</desc>
+    <episode-num system="onscreen">S04 E13</episode-num>
+    <episode-num system="xmltv_ns">3.12.</episode-num>
   </programme>
   <programme start="20261111005500 -0500" stop="20261111011000 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
