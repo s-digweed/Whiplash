@@ -232,7 +232,7 @@ FIXED_DESC = {
         "Spoon in one hand, remote in the other.",
     "Afternoon Shuffle":
         "An after-school reel of theatrical shorts: Looney Tunes, Tex Avery, Walter Lantz "
-        "Cartunes and Fleischer classics, cut with international gems from Zagreb Film."
+        "Cartunes and Fleischer classics, cut with international gems from NFB/ONF Canada and Zagreb Film."
         "\n\n"
         "Homework can wait.",
     # ── one-off specials ──
