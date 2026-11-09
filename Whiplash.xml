@@ -11552,6 +11552,8 @@ Pull up a folding chair.</desc>
   </programme>
   <programme start="20261108143500 -0500" stop="20261108145500 -0500" channel="eel-channel">
     <title lang="en">Homeless in Denton</title>
+    <sub-title lang="en">Fry St. Fair '06</sub-title>
+    <desc lang="en">A local documentary-style comedy series that follows two "homeless" guys wandering around Denton, Texas.</desc>
     <episode-num system="onscreen">S02 E05</episode-num>
     <episode-num system="xmltv_ns">1.4.</episode-num>
   </programme>
@@ -11750,8 +11752,11 @@ Games include: Wall of Hidden Blistering Death; Blind-Sided Date; Sinkers and Fl
     <episode-num system="xmltv_ns">8.4.</episode-num>
   </programme>
   <programme start="20261109024500 -0500" stop="20261109031000 -0500" channel="eel-channel">
-    <title lang="en">SOUTH PARK 316 - Are you there God</title>
-    <sub-title lang="en">It's me, Jesus</sub-title>
+    <title lang="en">South Park</title>
+    <sub-title lang="en">Are you there God - It's me, Jesus</sub-title>
+    <desc lang="en">Cartman is convinced he is going through puberty since he started bleeding out of his ass. Dr. Mephisto gives Stan some hormones and he takes the entire bottle. Stan gets facial hair, boobs and his voice starts changing. People are waiting outside of Jesus' home to see what kind of miracle he offers which ends up involving a comeback performance of a very old Rod Stewart and eventually an appearance by God.</desc>
+    <episode-num system="onscreen">S03 E16</episode-num>
+    <episode-num system="xmltv_ns">2.15.</episode-num>
   </programme>
   <programme start="20261109031000 -0500" stop="20261109032500 -0500" channel="eel-channel">
     <title lang="en">Space Ghost Coast to Coast</title>
@@ -11876,7 +11881,12 @@ Skits:  - Police Department: 10:00 a.m. Precinct House - "conclusion" of "Did yo
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
   <programme start="20261109110000 -0500" stop="20261109120000 -0500" channel="eel-channel">
-    <title lang="en">Morning Videos</title>
+    <title lang="en">The Morning Shift</title>
+    <desc lang="en">Badge on, inbox filling, the copier warming up somewhere down the hall.
+
+A wake-up reel of music videos: chart hits, cult cuts and VHS-worn favorites you swore you'd forgotten.
+
+Look busy.</desc>
   </programme>
   <programme start="20261109120000 -0500" stop="20261109122500 -0500" channel="eel-channel">
     <title lang="en">Trailer Park Boys</title>
@@ -11971,7 +11981,12 @@ Games include: Slippery Slope of Slanted Death; Foul Balls; Little Man in the Bo
     <episode-num system="xmltv_ns">2.11.</episode-num>
   </programme>
   <programme start="20261109170000 -0500" stop="20261109181500 -0500" channel="eel-channel">
-    <title lang="en">Afternoon Videos</title>
+    <title lang="en">The Break Room</title>
+    <desc lang="en">Your midday jolt, no talk, no ads.
+
+Back-to-back music videos: fresh, forgotten, and gloriously scuffed — enough to carry you clean through to clock-out.
+
+Pull up a folding chair.</desc>
   </programme>
   <programme start="20261109181500 -0500" stop="20261109191500 -0500" channel="eel-channel">
     <title lang="en">Classic Wrestling</title>
@@ -12236,7 +12251,12 @@ Sketches:
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
   <programme start="20261110105500 -0500" stop="20261110120000 -0500" channel="eel-channel">
-    <title lang="en">Morning Videos</title>
+    <title lang="en">The Morning Shift</title>
+    <desc lang="en">Badge on, inbox filling, the copier warming up somewhere down the hall.
+
+A wake-up reel of music videos: chart hits, cult cuts and VHS-worn favorites you swore you'd forgotten.
+
+Look busy.</desc>
   </programme>
   <programme start="20261110120000 -0500" stop="20261110122500 -0500" channel="eel-channel">
     <title lang="en">Trailer Park Boys</title>
@@ -12329,7 +12349,12 @@ Games include: Yankers Away; The Poisonous Horny Toad; Shroom Zoom; Runaway Stum
     <episode-num system="xmltv_ns">2.13.</episode-num>
   </programme>
   <programme start="20261110170000 -0500" stop="20261110181500 -0500" channel="eel-channel">
-    <title lang="en">Afternoon Videos</title>
+    <title lang="en">The Break Room</title>
+    <desc lang="en">Your midday jolt, no talk, no ads.
+
+Back-to-back music videos: fresh, forgotten, and gloriously scuffed — enough to carry you clean through to clock-out.
+
+Pull up a folding chair.</desc>
   </programme>
   <programme start="20261110181500 -0500" stop="20261110191500 -0500" channel="eel-channel">
     <title lang="en">Classic Wrestling</title>
@@ -12474,8 +12499,11 @@ Games include: Yankers Away; The Poisonous Horny Toad; Shroom Zoom; Runaway Stum
     <episode-num system="xmltv_ns">7.2.</episode-num>
   </programme>
   <programme start="20261111033000 -0500" stop="20261111035500 -0500" channel="eel-channel">
-    <title lang="en">SOUTH PARK 505 - Terrance &amp; Phillip</title>
-    <sub-title lang="en">Behind the Blow</sub-title>
+    <title lang="en">South Park</title>
+    <sub-title lang="en">Terrance &amp; Phillip - Behind the Blow</sub-title>
+    <desc lang="en">In the grand tradition of Wham UK, flatulant Canadian superstars, Terrance and Phillip, have broken up over creative differences. The clock is ticking as the boys struggle to reunite the fartastic duo, and recruit them in time for South Park's Earth Day festivities.</desc>
+    <episode-num system="onscreen">S05 E05</episode-num>
+    <episode-num system="xmltv_ns">4.4.</episode-num>
   </programme>
   <programme start="20261111035500 -0500" stop="20261111042000 -0500" channel="eel-channel">
     <title lang="en">RENO 911!</title>
@@ -12608,12 +12636,14 @@ Jade puts on the other half and summons the other half, which don't have heads).
   <programme start="20261108121500 -0500" stop="20261108124000 -0500" channel="fizz">
     <title lang="en">Nickelodeon GUTS</title>
     <sub-title lang="en">Tony - Jessie - Holly</sub-title>
+    <desc lang="en">Three kids donning the different colors blue, red, and purple compete in relatively cool-looking olympic-style games to achieve as many points as they can.</desc>
     <episode-num system="onscreen">S03 E29</episode-num>
     <episode-num system="xmltv_ns">2.28.</episode-num>
   </programme>
   <programme start="20261108124000 -0500" stop="20261108130500 -0500" channel="fizz">
     <title lang="en">Nickelodeon GUTS</title>
     <sub-title lang="en">Jason - Sara - Jeremiah</sub-title>
+    <desc lang="en">Three kids donning the different colors blue, red, and purple compete in relatively cool-looking olympic-style games to achieve as many points as they can.</desc>
     <episode-num system="onscreen">S03 E30</episode-num>
     <episode-num system="xmltv_ns">2.29.</episode-num>
   </programme>
@@ -12977,12 +13007,14 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   <programme start="20261109121500 -0500" stop="20261109124000 -0500" channel="fizz">
     <title lang="en">Nickelodeon GUTS</title>
     <sub-title lang="en">Angela - Keith - Pat</sub-title>
+    <desc lang="en">Three kids donning the different colors blue, red, and purple compete in relatively cool-looking olympic-style games to achieve as many points as they can.</desc>
     <episode-num system="onscreen">S03 E31</episode-num>
     <episode-num system="xmltv_ns">2.30.</episode-num>
   </programme>
   <programme start="20261109124000 -0500" stop="20261109130500 -0500" channel="fizz">
     <title lang="en">Nickelodeon GUTS</title>
     <sub-title lang="en">Blake - Leigh - Drew</sub-title>
+    <desc lang="en">Three kids donning the different colors blue, red, and purple compete in relatively cool-looking olympic-style games to achieve as many points as they can.</desc>
     <episode-num system="onscreen">S03 E32</episode-num>
     <episode-num system="xmltv_ns">2.31.</episode-num>
   </programme>
@@ -13051,9 +13083,10 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261109165000 -0500" stop="20261109171500 -0500" channel="fizz">
     <title lang="en">Dude, What Would Happen</title>
-    <sub-title lang="en">Underwater Roll/Defying Gravity/Pirates vs. Vikings</sub-title>
-    <episode-num system="onscreen">S01 E23</episode-num>
-    <episode-num system="xmltv_ns">0.22.</episode-num>
+    <sub-title lang="en">Underwater Roll / Defying Gravity / Pirates vs. Vikings</sub-title>
+    <desc lang="en">C.J., Jackson and Ali try to cool off on a hot day, lift a sumo, and have a battle between pirates and Vikings.</desc>
+    <episode-num system="onscreen">S01 E01</episode-num>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
   <programme start="20261109171500 -0500" stop="20261109174000 -0500" channel="fizz">
     <title lang="en">The Adventures of Pete &amp; Pete</title>
@@ -13354,12 +13387,14 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   <programme start="20261110121500 -0500" stop="20261110124000 -0500" channel="fizz">
     <title lang="en">Nickelodeon GUTS</title>
     <sub-title lang="en">Jonny - Ryan - Lindsay</sub-title>
+    <desc lang="en">Three kids donning the different colors blue, red, and purple compete in relatively cool-looking olympic-style games to achieve as many points as they can.</desc>
     <episode-num system="onscreen">S03 E33</episode-num>
     <episode-num system="xmltv_ns">2.32.</episode-num>
   </programme>
   <programme start="20261110124000 -0500" stop="20261110130500 -0500" channel="fizz">
     <title lang="en">Nickelodeon GUTS</title>
     <sub-title lang="en">Bret - Abi - Jessica</sub-title>
+    <desc lang="en">Three kids donning the different colors blue, red, and purple compete in relatively cool-looking olympic-style games to achieve as many points as they can.</desc>
     <episode-num system="onscreen">S03 E34</episode-num>
     <episode-num system="xmltv_ns">2.33.</episode-num>
   </programme>
@@ -13428,7 +13463,8 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261110165000 -0500" stop="20261110171500 -0500" channel="fizz">
     <title lang="en">Dude, What Would Happen</title>
-    <sub-title lang="en">New Brakes / Water Sports without Water / Superheroes</sub-title>
+    <sub-title lang="en">New Brakes / Water Sports Without Water / Superheroes</sub-title>
+    <desc lang="en">C.J., Jackson and Ali take brakes to new heights, try water sports without the water, and try to emulate superheroes.</desc>
     <episode-num system="onscreen">S01 E05</episode-num>
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
@@ -13786,6 +13822,9 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261108153500 -0500" stop="20261108173500 -0500" channel="toon-diggity">
     <title lang="en">Afternoon Shuffle</title>
+    <desc lang="en">An after-school reel of theatrical shorts: Looney Tunes, Tex Avery, Walter Lantz Cartunes and Fleischer classics, cut with international gems from Zagreb Film.
+
+Some you'll adore, some you'll revile.</desc>
   </programme>
   <programme start="20261108173500 -0500" stop="20261108190000 -0500" channel="toon-diggity">
     <title lang="en">Wizards (1977)</title>
@@ -14019,17 +14058,22 @@ Closing Theme</desc>
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
   <programme start="20261109054000 -0500" stop="20261109060500 -0500" channel="toon-diggity">
-    <title lang="en">Ping Pong Club</title>
+    <title lang="en">The Ping Pong Club</title>
     <sub-title lang="en">The Maeno Germ/A Seductive Snob</sub-title>
     <desc lang="en">The boys without a training room of their own, end up picking up trash in the schoolyard. Takeda and Kinoshita get invited to play with the girls but the other boys are left out. In the end Mr Tachikawa takes pity on them and lets the boys club play a match against the girl to win back their training room.</desc>
     <episode-num system="onscreen">S01 E03</episode-num>
     <episode-num system="xmltv_ns">0.2.</episode-num>
   </programme>
   <programme start="20261109060500 -0500" stop="20261109090500 -0500" channel="toon-diggity">
-    <title lang="en">Morning Shuffle</title>
+    <title lang="en">Breakfast Shorts</title>
+    <desc lang="en">Pour the cereal, the projector's already running.
+
+Disney Cartoons, Tom and Jerry and MGM shorts, with Terrytoons and George Pal's Puppetoons rolling out of the vault.
+
+Spoon in one hand, remote in the other.</desc>
   </programme>
   <programme start="20261109090500 -0500" stop="20261109093000 -0500" channel="toon-diggity">
-    <title lang="en">FUNKY COPS</title>
+    <title lang="en">Funky Cops</title>
     <sub-title lang="en">Jill Roy was here</sub-title>
     <desc lang="en">Ace tombe amoureux de la délicieuse Jill Roy, passionnée par les pierres précieuses. Lorsque de nombreux et mystérieux vols de bijoux surviennent, Dick commence sérieusement à suspecter Jill d'en être l'auteur, ce qui déplaît fortement à Ace...</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
@@ -14043,7 +14087,11 @@ Closing Theme</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
   <programme start="20261109095500 -0500" stop="20261109102000 -0500" channel="toon-diggity">
-    <title lang="en">Mighty Mouse TNA</title>
+    <title lang="en">Mighty Mouse: The New Adventures (1987)</title>
+    <sub-title lang="en">Me-Yowww! / Witch Tricks</sub-title>
+    <desc lang="en">Me-Yowww!: Mighty's new pal Durf tries to fit in with mouse society but is rejected, forcing them to go to Cat Town where Durf finds a new friend.
+
+Witch Tricks: Scrappy helps a sick tooth fairy, but is pursued by a wicked witch. Mighty Mouse comes to the rescue and calms the witch down.</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
@@ -14073,7 +14121,7 @@ Closing Theme</desc>
     <episode-num system="xmltv_ns">0.2.</episode-num>
   </programme>
   <programme start="20261109120000 -0500" stop="20261109122500 -0500" channel="toon-diggity">
-    <title lang="en">Charlie Brown and Snoopy Show</title>
+    <title lang="en">The Charlie Brown and Snoopy Show</title>
     <sub-title lang="en">Snoopy: Team Manager</sub-title>
     <desc lang="en">Lucy's garden, Re-Run's life, Linus looses his blanket, and Snoopy manages the baseball team.</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
@@ -14130,6 +14178,9 @@ Closing Theme</desc>
   </programme>
   <programme start="20261109152000 -0500" stop="20261109172000 -0500" channel="toon-diggity">
     <title lang="en">Afternoon Shuffle</title>
+    <desc lang="en">An after-school reel of theatrical shorts: Looney Tunes, Tex Avery, Walter Lantz Cartunes and Fleischer classics, cut with international gems from Zagreb Film.
+
+Some you'll adore, some you'll revile.</desc>
   </programme>
   <programme start="20261109172000 -0500" stop="20261109184500 -0500" channel="toon-diggity">
     <title lang="en">Snoopy, Come Home! (1972)</title>
@@ -14337,7 +14388,7 @@ Almost The End: "Just What I Needed"</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
   <programme start="20261110043500 -0500" stop="20261110050000 -0500" channel="toon-diggity">
-    <title lang="en">Oblongs</title>
+    <title lang="en">The Oblongs</title>
     <sub-title lang="en">– Narcoleptic Scottie</sub-title>
     <desc lang="en">Milo soon grows attached to a stray Scottie dog the Oblongs take in, but the pet brings out the animal in the hyperactive boy, and the family gives the pooch away to Bob's boss, George, thinking he'll have a good home.  But when his new owners soon tire of him, Scottie finds himself in an animal testing lab, sniffing perfume with narcoleptic side effects.  So the Oblongs set out to rescue Scottie before it's too late.</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
@@ -14365,7 +14416,12 @@ Almost The End: "Just What I Needed"</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
   <programme start="20261110061500 -0500" stop="20261110091500 -0500" channel="toon-diggity">
-    <title lang="en">Morning Shuffle</title>
+    <title lang="en">Breakfast Shorts</title>
+    <desc lang="en">Pour the cereal, the projector's already running.
+
+Disney Cartoons, Tom and Jerry and MGM shorts, with Terrytoons and George Pal's Puppetoons rolling out of the vault.
+
+Spoon in one hand, remote in the other.</desc>
   </programme>
   <programme start="20261110091500 -0500" stop="20261110094000 -0500" channel="toon-diggity">
     <title lang="en">Dungeons &amp; Dragons</title>
@@ -14471,6 +14527,9 @@ Almost The End: "Just What I Needed"</desc>
   </programme>
   <programme start="20261110153500 -0500" stop="20261110173500 -0500" channel="toon-diggity">
     <title lang="en">Afternoon Shuffle</title>
+    <desc lang="en">An after-school reel of theatrical shorts: Looney Tunes, Tex Avery, Walter Lantz Cartunes and Fleischer classics, cut with international gems from Zagreb Film.
+
+Some you'll adore, some you'll revile.</desc>
   </programme>
   <programme start="20261110173500 -0500" stop="20261110190000 -0500" channel="toon-diggity">
     <title lang="en">The Fox and the Hound (1981)</title>
@@ -14641,7 +14700,9 @@ Closing Theme</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
   <programme start="20261111014500 -0500" stop="20261111021000 -0500" channel="toon-diggity">
-    <title lang="en">Super Milk Chan USA</title>
+    <title lang="en">The Super Milk-Chan Show</title>
+    <sub-title lang="en">Something Like a Tokarev</sub-title>
+    <desc lang="en">Something Like a Tokarev (Japanese: トカレフの、ようなものの巻), also known as "The High Price of Fame" in the Americanized dub, is the second episode of the 1998 series.</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
@@ -14688,7 +14749,7 @@ Closing Theme</desc>
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
   <programme start="20261111044000 -0500" stop="20261111051000 -0500" channel="toon-diggity">
-    <title lang="en">Ping Pong Club</title>
+    <title lang="en">The Ping Pong Club</title>
     <sub-title lang="en">The Purchase/Hot Summer</sub-title>
     <desc lang="en">After losing the game to win back their training room, the boys go about to find Mr. Tachikawa's weakness. After finding out that he has a crush on Miss Tachibana, the boys plan to make a sexy video of her so they can strike a deal with Mr. Tachikawa.</desc>
     <episode-num system="onscreen">S01 E04</episode-num>
@@ -14716,7 +14777,12 @@ Closing Theme</desc>
     <episode-num system="xmltv_ns">5.3.</episode-num>
   </programme>
   <programme start="20261111063000 -0500" stop="20261111093000 -0500" channel="toon-diggity">
-    <title lang="en">Morning Shuffle</title>
+    <title lang="en">Breakfast Shorts</title>
+    <desc lang="en">Pour the cereal, the projector's already running.
+
+Disney Cartoons, Tom and Jerry and MGM shorts, with Terrytoons and George Pal's Puppetoons rolling out of the vault.
+
+Spoon in one hand, remote in the other.</desc>
   </programme>
   <programme start="20261111093000 -0500" stop="20261111095500 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
