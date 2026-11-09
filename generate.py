@@ -142,6 +142,8 @@ RENAMES = {
 # Fuzzy renames: (pattern, canonical) applied when the exact table misses.
 # Catches truncated / variant titles, e.g. a bare "It's Always Sunny".
 REGEX_RENAMES = [
+    (re.compile(r"^Bad Religion:?\s+Live at the Palladium$", re.I),
+     "Bad Religion: Live at the Palladium (2006)"),
     (re.compile(r"^It[\u2019']?s\s+Always\s+Sunny\b.*$", re.I),
      "It's Always Sunny in Philadelphia"),
 ]
@@ -233,6 +235,11 @@ FIXED_DESC = {
         "Cartunes and Fleischer classics, cut with international gems from Zagreb Film."
         "\n\n"
         "Some you'll adore, some you'll revile.",
+    # ── one-off specials ──
+    "Bad Religion: Live at the Palladium (2006)":
+        "Live at the Palladium is a live concert DVD by the punk band Bad Religion, released in "
+        "March 2006. It features footage from two nights at the Palladium in Hollywood, "
+        "California, on November 21 and 22, 2004.",
     # ── shows the metadata lookups can't describe ──
     "Nickelodeon GUTS":                       # IMDb show blurb
         "Three kids donning the different colors blue, red, and purple compete in relatively "
@@ -310,6 +317,21 @@ EPISODE_SUBS = {
 
 # Eel shows the feed sends with no episode number: fetch a SHOW-level synopsis
 # (TMDB -> TVmaze -> TVDB, then OMDb). Value = the name to try on OMDb/IMDb if it differs.
+# The feed sends films as "<Franchise> Movie" + sub-title "<Film> (YYYY)" + a fake S/E.
+# Shown film-style instead: "<Franchise>: <Film> (YYYY)", no S/E, TMDB movie lookup.
+# FILM_CANON fixes known films to TMDB's exact title (keyword in the sub-title -> canonical).
+_FILM_FRANCHISE = re.compile(r"^(.*\S)\s+Movie$", re.I)
+FILM_CANON = {
+    "tree of might": "Dragon Ball Z: The Tree of Might (1990)",
+    "bardock":       "Dragon Ball Z: Bardock \u2013 The Father of Goku (1990)",
+}
+
+# Episode names the feed spells differently from TVmaze/TVDB: (show, feed name) -> lookup name
+EP_NAME_ALIAS = {
+    ("Beavis and Butt-Head", "PTA"): "P.T.A.",
+    ("Beavis and Butt-Head", "The Final Judgment of Beavis"): "The Final Judgement of Beavis",
+}
+
 EEL_SHOW_LOOKUP = {
     "The Super Milk-Chan Show": "The Super Milk Chan Show",      # IMDb spelling
     "Mighty Mouse: The New Adventures (1987)": None,
@@ -957,6 +979,14 @@ def build_eel(tv, root, cache):
             raw_title = (prog.findtext("title") or "").strip()
             title, sub, season, ep, ep_end = parse_title(raw_title)
             title = _eel_segment_rename(title, prog.get("start"), local_id)   # time/channel-based renames
+            fm = _FILM_FRANCHISE.match(title)
+            if fm and sub:
+                yr = re.search(r"\((?:19|20)\d\d\)", sub) or re.search(r"\((?:19|20)\d\d\)", raw_title)
+                if yr:
+                    film = re.sub(r"\s*\((?:19|20)\d\d\)\s*", " ", sub).strip()
+                    canon = next((v for k, v in FILM_CANON.items() if k in film.lower()), None)
+                    title = canon or f"{fm.group(1)}: {film} {yr.group(0)}"
+                    sub, season, ep, ep_end = None, None, None, None
             desc = None
             # Per-show override guide (feed numbers the show in an order the DBs don't share).
             #   mode "absolute": index by the feed's absolute episode number (Batman).
@@ -997,7 +1027,7 @@ def build_eel(tv, root, cache):
             if gentry is not None:
                 desc = gentry.get("desc") or None
             elif season is None and sub:                # have episode name, no number -> match it
-                season, ep = _name_to_se(title, sub, cache)
+                season, ep = _name_to_se(title, EP_NAME_ALIAS.get((title, sub), sub), cache)
             if gentry is None and season is not None:
                 desc, epname = episode_meta(title, season, ep, cache)
                 if not sub and epname:                 # fill missing episode name from metadata
