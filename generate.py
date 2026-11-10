@@ -216,7 +216,7 @@ FIXED_DESC = {
         "and entirely captivating.",
     # ── Fizz blocks ──
     "Fizz Cartoons":
-        "Vintage fizz from the golden age of animation: Looney Tunes, MGM shorts, Walter Lantz "
+        "Vintage fizz from the golden age of animation: Tom and Jerry, Looney Tunes, MGM shorts, Walter Lantz "
         "Cartunes and Fleischer classics, mixed with international gems from the NFB/ONF, "
         "Zagreb Film and beyond.",
     "Fizz Vidz":
