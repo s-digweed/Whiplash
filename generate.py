@@ -1903,6 +1903,8 @@ DUMMY_CHANNELS = [
      "CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. "
      "Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming "
      "through Terra.\n\nSurfing through the Obscure.", 12),
+    ("TelePosadas", "Tele Posadas", "https://i.imgur.com/XJD65oi.png", "Tele Posadas",
+     "Entretenimiento y películas en vivo desde Posadas, Misiones.", 12),
     ("EnerGeek", "EnerGeek", "https://i.imgur.com/clbbkA3.png", "EnerGeek",
      "El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.", 12),
     ("EnerGeekRadio", "EnerGeek Radio", "https://i.imgur.com/2PQ1wFT.png", "EnerGeek Radio",
