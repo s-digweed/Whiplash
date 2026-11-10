@@ -72,6 +72,10 @@
     <display-name>OTVN</display-name>
     <icon src="https://i.imgur.com/Tx28h4X.png" />
   </channel>
+  <channel id="CrossRift">
+    <display-name>CrossRift</display-name>
+    <icon src="https://i.imgur.com/bLuLNHs.png" />
+  </channel>
   <channel id="EnerGeek">
     <display-name>EnerGeek</display-name>
     <icon src="https://i.imgur.com/clbbkA3.png" />
@@ -1838,6 +1842,186 @@ The station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and 
   <programme start="20261123120000 +0000" stop="20261124000000 +0000" channel="OTVN">
     <title lang="en">OTVN</title>
     <desc lang="en">When the other toon channels weren't enough for some reason, you find yourself buried so deep in video tapes that you'd have to get someone to do some shoveling to get you out.</desc>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261109120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261110000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261110000000 +0000" stop="20261110120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261110120000 +0000" stop="20261111000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261111120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261111120000 +0000" stop="20261112000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261113120000 +0000" stop="20261114000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261114000000 +0000" stop="20261114120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261114120000 +0000" stop="20261115000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261115120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261115120000 +0000" stop="20261116000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261116120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261116120000 +0000" stop="20261117000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261117000000 +0000" stop="20261117120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261117120000 +0000" stop="20261118000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261118000000 +0000" stop="20261118120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261118120000 +0000" stop="20261119000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261119000000 +0000" stop="20261119120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261119120000 +0000" stop="20261120000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261120000000 +0000" stop="20261120120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261120120000 +0000" stop="20261121000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261121000000 +0000" stop="20261121120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261121120000 +0000" stop="20261122000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261122000000 +0000" stop="20261122120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261122120000 +0000" stop="20261123000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261123000000 +0000" stop="20261123120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
+  </programme>
+  <programme start="20261123120000 +0000" stop="20261124000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
   </programme>
   <programme start="20261109000000 +0000" stop="20261109120000 +0000" channel="EnerGeek">
     <title lang="en">EnerGeek</title>
