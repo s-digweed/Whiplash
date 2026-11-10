@@ -1899,6 +1899,10 @@ DUMMY_CHANNELS = [
      "WYLP, also known as Channel 5, is an independent low-power analog television station in York, Pennsylvania.\n\nThe station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and movies, in the structure of a mid-to-late 90s independent TV station.", 12),
     ("OTVN", "OTVN", "https://i.imgur.com/Tx28h4X.png", "OTVN",
      "When the other toon channels weren't enough for some reason, you find yourself buried so deep in video tapes that you'd have to get someone to do some shoveling to get you out.", 12),
+    ("CrossRift", "CrossRift", "https://i.imgur.com/bLuLNHs.png", "CROSSRIFT IS OFFLINE. PLEASE STAND BY.",
+     "CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. "
+     "Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming "
+     "through Terra.\n\nSurfing through the Obscure.", 12),
     ("EnerGeek", "EnerGeek", "https://i.imgur.com/clbbkA3.png", "EnerGeek",
      "El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.", 12),
     ("EnerGeekRadio", "EnerGeek Radio", "https://i.imgur.com/2PQ1wFT.png", "EnerGeek Radio",
