@@ -267,7 +267,7 @@ FIXED_DESC = {
         "carry you clean through to clock-out."
         "\n\n"
         "Pull up a folding chair.",
-    "The Morning Shift":                      # feed: "Morning Videos" (~11 AM)
+    "The Desk Jockey":                      # feed: "Morning Videos" (~11 AM)
         "Badge on, inbox filling, the copier warming up somewhere down the hall."
         "\n\n"
         "A wake-up reel of music videos: chart hits, cult cuts and VHS-worn favorites you "
@@ -294,7 +294,7 @@ def _eel_segment_rename(title, start, channel=None):
         return "Fizz Cartoons"
     # Nov 2026 grid: Eel's video blocks got their own feed titles.
     if title == "Morning Videos":
-        return "The Morning Shift"
+        return "The Desk Jockey"
     if title == "Afternoon Videos":
         return "The Break Room"
     if channel == "toon-diggity" and title == "Morning Shuffle":
