@@ -4,186 +4,6 @@
     <display-name>Cartoon Cartoons Network</display-name>
     <icon src="https://i.imgur.com/CaeVZxd.png" />
   </channel>
-  <programme start="20261109060000 +0000" stop="20261109063000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Robot Chicken</title>
-    <desc lang="en">Pop culture references fly thick and fast as stop-motion animation is featured in sketches lampooning everything from entertainment.</desc>
-  </programme>
-  <programme start="20261109063000 +0000" stop="20261109070000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Aqua Teen Hunger Force</title>
-    <desc lang="en">The misadventures of a milkshake, an order of fries, a meatball, and their retired next door neighbor in the suburbs of New Jersey.</desc>
-  </programme>
-  <programme start="20261109070000 +0000" stop="20261109073000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">The Venture Bros.</title>
-    <desc lang="en">The bizarre escapades of pseudo-heroic scientist Dr. Rusty Venture, his competent, high-strung bodyguard, and his two overenthusiastic sons.</desc>
-  </programme>
-  <programme start="20261109073000 +0000" stop="20261109080000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Squidbillies</title>
-    <desc lang="en">Follows the adventures of the Cuylers, an impoverished and dysfunctional family of anthropomorphic, air-breathing, redneck squids who live in a rural Appalachian community in the state of Georgia.</desc>
-  </programme>
-  <programme start="20261109080000 +0000" stop="20261109083000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Metalocalypse</title>
-    <desc lang="en">The epic and over-the-top adventures of Dethklok, the world's most successful death metal band.</desc>
-  </programme>
-  <programme start="20261109083000 +0000" stop="20261109090000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Mike Tyson Mysteries</title>
-    <desc lang="en">In this macabre comedy, retired boxing champion Mike Tyson, his brainy adopted Asian-American daughter, a friendly but wimpy gay gentleman ghost and a cursed perverse mean-spirited talking pigeon solve weird mysteries together.</desc>
-  </programme>
-  <programme start="20261109090000 +0000" stop="20261109093000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Black Jesus</title>
-    <desc lang="en">The hijinks of a street-smart savior living in modern-day Compton, on a mission to spread love and kindness throughout the crime-ridden L.A. neighborhood with his small group of followers.</desc>
-  </programme>
-  <programme start="20261109093000 +0000" stop="20261109100000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Moral Orel</title>
-    <desc lang="en">A parody of past religious-geared animated shows starring Orel, an optimistic God-fearing young boy in a world of cynicism.</desc>
-  </programme>
-  <programme start="20261109100000 +0000" stop="20261109103000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Cartoon Planet</title>
-    <desc lang="en">Following success as a late night talk show host, Space Ghost recruits Brak (now somewhat brain-damaged) to his cast for his very own variety show. Zorak (from Coast to Coast) serves as the third host.</desc>
-  </programme>
-  <programme start="20261109103000 +0000" stop="20261109110000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">The Brak Show</title>
-    <desc lang="en">Former 'Space Ghost' villains Brak and Zorak live their lives in sitcom form.</desc>
-  </programme>
-  <programme start="20261109110000 +0000" stop="20261109113000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">NTSF:SD:SUV::</title>
-    <desc lang="en">Never forget? Terrorism hasn't, and neither will the NTSF:SD:SUV. In a world where threatening danger looms large and Homeland Security won't secure itself, San Diego's citizens can't afford not to trust in the NTSF.</desc>
-  </programme>
-  <programme start="20261109113000 +0000" stop="20261109120000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Childrens Hospital</title>
-    <desc lang="en">Explores the emotional struggles and sexual politics of a group of doctors charged with healthy libidos. Their dedication to their personal lives is relentless, interrupted only by the occasional need to treat sick children.</desc>
-  </programme>
-  <programme start="20261109120000 +0000" stop="20261109123000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Yogi Bear</title>
-    <desc lang="en">Yogi, a smooth, talkative forest bear looks to raid park goers' picnic baskets, while Park Ranger Smith tries to stop him.</desc>
-  </programme>
-  <programme start="20261109123000 +0000" stop="20261109130000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Sealab 2020</title>
-    <desc lang="en">Cartoon adventure series that focused on a group of Oceanauts in their experimental complex on the ocean floor.</desc>
-  </programme>
-  <programme start="20261109130000 +0000" stop="20261109133000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Captain Planet</title>
-    <desc lang="en">Five teenagers from across the globe unite to fight pollution and protect the planet. With their elemental powers combined, they summon the Eco-hero Captain Planet to battle environmental disasters and villains threatening Earth's...</desc>
-  </programme>
-  <programme start="20261109133000 +0000" stop="20261109140000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Real Adventures of Jonny Quest</title>
-    <desc lang="en">A teenager and his extended family investigate the supernatural and other mysteries around the world.</desc>
-  </programme>
-  <programme start="20261109140000 +0000" stop="20261109143000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">SWAT Kats</title>
-    <desc lang="en">In a world of anthropomorphic felines, two demoted fighter pilots battle evil as high flying masked vigilantes.</desc>
-  </programme>
-  <programme start="20261109143000 +0000" stop="20261109150000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">ThunderCats (1985)</title>
-    <desc lang="en">Follows a group of feline humanoids called the Thundercats, who have fled their destroyed home planet, Thundera, to seek refuge on the distant planet Third Earth (our earth in the far future) as they make new friends and enemies.</desc>
-  </programme>
-  <programme start="20261109150000 +0000" stop="20261109153000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">A Pup Named Scooby-Doo</title>
-    <desc lang="en">A pre-teen version of Scooby Doo, with a pint-sized version of the title character.</desc>
-  </programme>
-  <programme start="20261109153000 +0000" stop="20261109160000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">The Smurfs</title>
-    <desc lang="en">The Smurfs are tiny blue creatures that live in mushroom houses in a peaceful forest. They repeatedly try to outwit Gargamel, an evil sorcerer, his apprentice, Scruple, and his mangy cat, Azrael.</desc>
-  </programme>
-  <programme start="20261109160000 +0000" stop="20261109163000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">The Jetsons</title>
-    <desc lang="en">Meet George Jetson and his quirky family: wife Jane, son Elroy and daughter Judy. Living in the automated, push-button world of the future hasn't made life any easier for the harried husband and father, who gets into one comical misadventure after another!</desc>
-  </programme>
-  <programme start="20261109163000 +0000" stop="20261109170000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">The Flintstones</title>
-    <desc lang="en">The misadventures of two modern-day Stone Age families, the Flintstones and the Rubbles.</desc>
-  </programme>
-  <programme start="20261109170000 +0000" stop="20261109180000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Scooby-Doo Where Are You?</title>
-    <desc lang="en">Four teenage friends, (Fred Jones, Daphne Blake, Velma Dinkley, and Norville "Shaggy" Rogers), and their talking dog, (Scooby-Doo), travel around in their van, The Mystery Machine, solving strange, spooky, and hilariously kooky my...</desc>
-  </programme>
-  <programme start="20261109180000 +0000" stop="20261109190000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Tom and Jerry</title>
-    <desc lang="en">Tom the cat and Jerry the mouse are frenemies whose small squabbles spiral into traps, crashes and all-out cartoon mayhem. Sometimes they team up against a common enemy; other times one of them sides with the enemy against the other.</desc>
-  </programme>
-  <programme start="20261109190000 +0000" stop="20261109200000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Looney Tunes</title>
-    <desc lang="en">The classic 1,034-short collection features Road Runner, Bugs Bunny, Daffy Duck, Porky Pig, Tweety, Speedy Gonzales, and much, much, much more. P.S. much, much, much more.</desc>
-  </programme>
-  <programme start="20261109200000 +0000" stop="20261109203000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Cow and Chicken</title>
-    <desc lang="en">The program focuses on the misadventures of two unlikely yet somehow biological siblings: Cow and Chicken.</desc>
-  </programme>
-  <programme start="20261109203000 +0000" stop="20261109210000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">I Am Weasel</title>
-    <desc lang="en">The adventures of a highly intelligent, talented and rather generous weasel and a stupid baboon who has no talent at most things.</desc>
-  </programme>
-  <programme start="20261109210000 +0000" stop="20261109213000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Ronin Warriors</title>
-    <desc lang="en">After a thousand years of exile, Talpa, ruler of the Netherworld, returns to claim the Earth as his own. The only thing that can stop him and his minions are five young men and their mystical suits of armor.</desc>
-  </programme>
-  <programme start="20261109213000 +0000" stop="20261109220000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Sailor Moon</title>
-    <desc lang="en">The magical action-adventures of a teenage girl who learns of her destiny as the legendary warrior Sailor Moon and must band together with the other Sailor Scouts to defend the Earth and Galaxy.</desc>
-  </programme>
-  <programme start="20261109220000 +0000" stop="20261109223000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Dragon Ball</title>
-    <desc lang="en">Dragon Ball tells the tale of a young warrior by the name of Son Goku, a young peculiar boy with a tail who embarks on a quest to become stronger and learns of the Dragon Balls, when, once all 7 are gathered, grant any wish of cho...</desc>
-  </programme>
-  <programme start="20261109223000 +0000" stop="20261109230000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Dragon Ball Z</title>
-    <desc lang="en">With the help of the powerful Dragonballs, a team of fighters led by the saiyan warrior Goku defend the planet earth from extraterrestrial enemies.</desc>
-  </programme>
-  <programme start="20261109230000 +0000" stop="20261109233000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Pokémon</title>
-    <desc lang="en">On his 10th birthday, Ash starts his Pokémon journey with an unexpected Pikachu. He faces tough Gym battles but finds support in Brock, Misty, and new Pokémon companions Bulbasaur, Squirtle, and Charmander.</desc>
-  </programme>
-  <programme start="20261109233000 +0000" stop="20261110000000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Yu-Gi-Oh!</title>
-    <desc lang="en">Yugi Moto solves an Ancient Egyptian Puzzle and brings forth a dark and powerful alter ego. Whenever he and his friends are threatened by evil in Duel Monster Card Game, this alter ego breaks out to save them.</desc>
-  </programme>
-  <programme start="20261110000000 +0000" stop="20261110003000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Johnny Bravo</title>
-    <desc lang="en">The misadventures of a dumb blond egomaniac who severely overestimates his own manliness and his supposed "success" with women.</desc>
-  </programme>
-  <programme start="20261110003000 +0000" stop="20261110010000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Dexter's Laboratory</title>
-    <desc lang="en">Dexter, a boy-genius with a secret laboratory, constantly battles his sister Dee Dee, who always gains access despite his best efforts to keep her out, as well as his arch-rival and neighbor, Mandark.</desc>
-  </programme>
-  <programme start="20261110010000 +0000" stop="20261110013000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Codename: Kids Next Door</title>
-    <desc lang="en">The adventures of a group of ten-year-old friends who fight for the right to do everything that adults restrict from them.</desc>
-  </programme>
-  <programme start="20261110013000 +0000" stop="20261110020000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Courage the Cowardly Dog</title>
-    <desc lang="en">The offbeat adventures of Courage, a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers, paranormal events and menaces that appear around their land.</desc>
-  </programme>
-  <programme start="20261110020000 +0000" stop="20261110023000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">What's New, Scooby-Doo?</title>
-    <desc lang="en">Mystery Inc. teammates Shaggy, Scooby, Velma, Daphne and Fred have creepy adventures and new mysteries to solve. Always meeting some monster or ghost, the band of teens have gadgets and inventions that help on their detective adve...</desc>
-  </programme>
-  <programme start="20261110023000 +0000" stop="20261110030000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Ed, Edd n Eddy</title>
-    <desc lang="en">The off-the-wall, day-to-day life of three friends who have exactly the same name.</desc>
-  </programme>
-  <programme start="20261110030000 +0000" stop="20261110033000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">The Powerpuff Girls</title>
-    <desc lang="en">Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things.</desc>
-  </programme>
-  <programme start="20261110033000 +0000" stop="20261110040000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Samurai Jack</title>
-    <desc lang="en">A samurai, sent through time, fights to return home and save the world.</desc>
-  </programme>
-  <programme start="20261110040000 +0000" stop="20261110043000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Superman: The Animated Series</title>
-    <desc lang="en">The last son of the planet Krypton protects his adoptive home of Earth as the greatest of the superheroes.</desc>
-  </programme>
-  <programme start="20261110043000 +0000" stop="20261110050000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Batman: The Animated Series</title>
-    <desc lang="en">Billionaire Bruce Wayne leads a double life as Batman, defending Gotham City from ruthless mobsters and costumed villains with help from Robin and a small circle of trusted allies.</desc>
-  </programme>
-  <programme start="20261110050000 +0000" stop="20261110053000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">Justice League Unlimited</title>
-    <desc lang="en">A continuation of the Justice League animated series finds the original members of the team joined in their battle against crime and evil by dozens of other heroes from the DC comics universe.</desc>
-  </programme>
-  <programme start="20261110053000 +0000" stop="20261110060000 +0000" channel="CartoonCartoonsNetwork">
-    <title lang="en">X-Men: Evolution</title>
-    <desc lang="en">This rendition of X-Men features Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat and Spike as teenagers as they fight for a world that fears and hates them.</desc>
-  </programme>
   <programme start="20261110060000 +0000" stop="20261110063000 +0000" channel="CartoonCartoonsNetwork">
     <title lang="en">Futurama</title>
     <desc lang="en">Philip J. Fry, a pizza delivery boy, is accidentally frozen in 1999 and thawed out on New Year's Eve 2999.</desc>
@@ -5757,6 +5577,190 @@
     <desc lang="en">A continuation of the Justice League animated series finds the original members of the team joined in their battle against crime and evil by dozens of other heroes from the DC comics universe.</desc>
   </programme>
   <programme start="20261210053000 +0000" stop="20261210060000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">X-Men: Evolution</title>
+    <desc lang="en">This rendition of X-Men features Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat and Spike as teenagers as they fight for a world that fears and hates them.</desc>
+  </programme>
+  <programme start="20261210060000 +0000" stop="20261210063000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Futurama</title>
+    <desc lang="en">Philip J. Fry, a pizza delivery boy, is accidentally frozen in 1999 and thawed out on New Year's Eve 2999.</desc>
+  </programme>
+  <programme start="20261210063000 +0000" stop="20261210070000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Family Guy</title>
+    <desc lang="en">In a wacky Rhode Island town, a dysfunctional family strives to cope with everyday life as they are thrown from one crazy scenario to another.</desc>
+  </programme>
+  <programme start="20261210070000 +0000" stop="20261210073000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Robot Chicken</title>
+    <desc lang="en">Pop culture references fly thick and fast as stop-motion animation is featured in sketches lampooning everything from entertainment.</desc>
+  </programme>
+  <programme start="20261210073000 +0000" stop="20261210080000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Aqua Teen Hunger Force</title>
+    <desc lang="en">The misadventures of a milkshake, an order of fries, a meatball, and their retired next door neighbor in the suburbs of New Jersey.</desc>
+  </programme>
+  <programme start="20261210080000 +0000" stop="20261210083000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Space Ghost Coast to Coast</title>
+    <desc lang="en">Space Ghost, a superhero from a 1960s Hanna-Barbera cartoon, hosts his own talk show.</desc>
+  </programme>
+  <programme start="20261210083000 +0000" stop="20261210090000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">The PJs</title>
+    <desc lang="en">The lives of occupants of an inner-city housing project.</desc>
+  </programme>
+  <programme start="20261210090000 +0000" stop="20261210093000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Home Movies</title>
+    <desc lang="en">Brendon Small, an ambitious eight-year-old filmmaker, shoots movies with his two best friends, while coming to terms with adolescence, life, and relationships.</desc>
+  </programme>
+  <programme start="20261210093000 +0000" stop="20261210100000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">The Venture Bros.</title>
+    <desc lang="en">The bizarre escapades of pseudo-heroic scientist Dr. Rusty Venture, his competent, high-strung bodyguard, and his two overenthusiastic sons.</desc>
+  </programme>
+  <programme start="20261210100000 +0000" stop="20261210103000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Harvey Birdman, Attorney at Law</title>
+    <desc lang="en">Third-rate superhero Harvey Birdman gets a new lease on life when he becomes a lawyer.</desc>
+  </programme>
+  <programme start="20261210103000 +0000" stop="20261210110000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Mission Hill</title>
+    <desc lang="en">The misadventures of a group of disparate roommates who live in a hip neighborhood in a major city.</desc>
+  </programme>
+  <programme start="20261210110000 +0000" stop="20261210113000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">The Oblongs</title>
+    <desc lang="en">The misadventures of a goofy family deformed by toxic waste.</desc>
+  </programme>
+  <programme start="20261210113000 +0000" stop="20261210120000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Sealab 2021</title>
+    <desc lang="en">The drama of an oft-doomed aquatic colony and its personnel, who hate each other.</desc>
+  </programme>
+  <programme start="20261210120000 +0000" stop="20261210123000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">SWAT Kats</title>
+    <desc lang="en">In a world of anthropomorphic felines, two demoted fighter pilots battle evil as high flying masked vigilantes.</desc>
+  </programme>
+  <programme start="20261210123000 +0000" stop="20261210130000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">ThunderCats (1985)</title>
+    <desc lang="en">Follows a group of feline humanoids called the Thundercats, who have fled their destroyed home planet, Thundera, to seek refuge on the distant planet Third Earth (our earth in the far future) as they make new friends and enemies.</desc>
+  </programme>
+  <programme start="20261210130000 +0000" stop="20261210133000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">ToonHeads</title>
+    <desc lang="en">Anthology series focusing on the golden age of American Animation. Each episode features full cartoons with commentary and the history behind some of the greatest cartoon shorts ever.</desc>
+  </programme>
+  <programme start="20261210133000 +0000" stop="20261210143000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Looney Tunes Show (2001)</title>
+    <desc lang="en">An updated iteration of the Looney Tunes characters focusing on their satirical misadventures living in suburbia.</desc>
+  </programme>
+  <programme start="20261210143000 +0000" stop="20261210153000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Tom and Jerry</title>
+    <desc lang="en">Tom the cat and Jerry the mouse are frenemies whose small squabbles spiral into traps, crashes and all-out cartoon mayhem. Sometimes they team up against a common enemy; other times one of them sides with the enemy against the other.</desc>
+  </programme>
+  <programme start="20261210153000 +0000" stop="20261210160000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Tom &amp; Jerry Kids</title>
+    <desc lang="en">An updated version of the classic Tom &amp;amp; Jerry cartoons from 1940s/ 1950s. The 'kids' in these cartoons are far less violent than their parents were, but still find ways to cause plenty of trouble for each other and everyone else a...</desc>
+  </programme>
+  <programme start="20261210160000 +0000" stop="20261210163000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">The Flintstones</title>
+    <desc lang="en">The misadventures of two modern-day Stone Age families, the Flintstones and the Rubbles.</desc>
+  </programme>
+  <programme start="20261210163000 +0000" stop="20261210170000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">The Flintstone Kids</title>
+    <desc lang="en">The antics of Fred, Barney, Wilma and Betty as children who live in Bedrock.</desc>
+  </programme>
+  <programme start="20261210170000 +0000" stop="20261210173000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">A Pup Named Scooby-Doo</title>
+    <desc lang="en">A pre-teen version of Scooby Doo, with a pint-sized version of the title character.</desc>
+  </programme>
+  <programme start="20261210173000 +0000" stop="20261210180000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Scooby and Scrappy-Doo</title>
+    <desc lang="en">Reporter Daphne hires Scooby, Scrappy and Shaggy as her assistants to solve spooky mysteries.</desc>
+  </programme>
+  <programme start="20261210180000 +0000" stop="20261210183000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Sheep in the Big City</title>
+    <desc lang="en">A military base builds a ray gun to take over and/or destory the world. What is needed to power this gun is a sheep, when a sheep of a small country farm is chosen it escapes to a nearby city and the chase is on...</desc>
+  </programme>
+  <programme start="20261210183000 +0000" stop="20261210190000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Mike, Lu &amp; Og</title>
+    <desc lang="en">A foreign exchange student interacts with the inhabitants of a deserted island.</desc>
+  </programme>
+  <programme start="20261210190000 +0000" stop="20261210193000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Time Squad</title>
+    <desc lang="en">The adventures of the Time Squad, a team of dysfunctional characters who travel through time to rectify any deviations in history.</desc>
+  </programme>
+  <programme start="20261210193000 +0000" stop="20261210200000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">I Am Weasel</title>
+    <desc lang="en">The adventures of a highly intelligent, talented and rather generous weasel and a stupid baboon who has no talent at most things.</desc>
+  </programme>
+  <programme start="20261210200000 +0000" stop="20261210203000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Cow and Chicken</title>
+    <desc lang="en">The program focuses on the misadventures of two unlikely yet somehow biological siblings: Cow and Chicken.</desc>
+  </programme>
+  <programme start="20261210203000 +0000" stop="20261210210000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Courage the Cowardly Dog</title>
+    <desc lang="en">The offbeat adventures of Courage, a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers, paranormal events and menaces that appear around their land.</desc>
+  </programme>
+  <programme start="20261210210000 +0000" stop="20261210213000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Teenage Mutant Ninja Turtles (2003)</title>
+    <desc lang="en">Follows the adventures of the Teenage Mutant Ninja Turtles, with this iteration being based on the stories from the original mirage comic books.</desc>
+  </programme>
+  <programme start="20261210213000 +0000" stop="20261210220000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Jackie Chan Adventures</title>
+    <desc lang="en">Jackie Chan teams up with his 11-year-old niece, Jade, traveling the globe to locate a dozen magical talismans before the sinister Dark Hand does. Helping Jackie and Jade is Uncle, a cantankerous but wise antiquities expert.</desc>
+  </programme>
+  <programme start="20261210220000 +0000" stop="20261210223000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Totally Spies!</title>
+    <desc lang="en">A trio of boy-crazy, fashionista teen girls from Beverly Hills balance their personal and school lives with their work as super-spies.</desc>
+  </programme>
+  <programme start="20261210223000 +0000" stop="20261210230000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Teen Titans</title>
+    <desc lang="en">A team of five teenaged superheroes save the world from many villains around their city while experiencing things normal teens face.</desc>
+  </programme>
+  <programme start="20261210230000 +0000" stop="20261210233000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">What's New, Scooby-Doo?</title>
+    <desc lang="en">Mystery Inc. teammates Shaggy, Scooby, Velma, Daphne and Fred have creepy adventures and new mysteries to solve. Always meeting some monster or ghost, the band of teens have gadgets and inventions that help on their detective adve...</desc>
+  </programme>
+  <programme start="20261210233000 +0000" stop="20261211000000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Johnny Bravo</title>
+    <desc lang="en">The misadventures of a dumb blond egomaniac who severely overestimates his own manliness and his supposed "success" with women.</desc>
+  </programme>
+  <programme start="20261211000000 +0000" stop="20261211003000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Grim Adventures of Billy &amp; Mandy</title>
+    <desc lang="en">The ill-tempered Grim Reaper gets into a wager that forces him to become the life-long companions of two scheming youngsters after he loses.</desc>
+  </programme>
+  <programme start="20261211003000 +0000" stop="20261211010000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Ed, Edd n Eddy</title>
+    <desc lang="en">The off-the-wall, day-to-day life of three friends who have exactly the same name.</desc>
+  </programme>
+  <programme start="20261211010000 +0000" stop="20261211013000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Dexter's Laboratory</title>
+    <desc lang="en">Dexter, a boy-genius with a secret laboratory, constantly battles his sister Dee Dee, who always gains access despite his best efforts to keep her out, as well as his arch-rival and neighbor, Mandark.</desc>
+  </programme>
+  <programme start="20261211013000 +0000" stop="20261211020000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Samurai Jack</title>
+    <desc lang="en">A samurai, sent through time, fights to return home and save the world.</desc>
+  </programme>
+  <programme start="20261211020000 +0000" stop="20261211023000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">The Powerpuff Girls</title>
+    <desc lang="en">Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things.</desc>
+  </programme>
+  <programme start="20261211023000 +0000" stop="20261211030000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Codename: Kids Next Door</title>
+    <desc lang="en">The adventures of a group of ten-year-old friends who fight for the right to do everything that adults restrict from them.</desc>
+  </programme>
+  <programme start="20261211030000 +0000" stop="20261211033000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Pokémon</title>
+    <desc lang="en">On his 10th birthday, Ash starts his Pokémon journey with an unexpected Pikachu. He faces tough Gym battles but finds support in Brock, Misty, and new Pokémon companions Bulbasaur, Squirtle, and Charmander.</desc>
+  </programme>
+  <programme start="20261211033000 +0000" stop="20261211040000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Yu-Gi-Oh!</title>
+    <desc lang="en">Yugi Moto solves an Ancient Egyptian Puzzle and brings forth a dark and powerful alter ego. Whenever he and his friends are threatened by evil in Duel Monster Card Game, this alter ego breaks out to save them.</desc>
+  </programme>
+  <programme start="20261211040000 +0000" stop="20261211043000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Superman: The Animated Series</title>
+    <desc lang="en">The last son of the planet Krypton protects his adoptive home of Earth as the greatest of the superheroes.</desc>
+  </programme>
+  <programme start="20261211043000 +0000" stop="20261211050000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Batman: The Animated Series</title>
+    <desc lang="en">Billionaire Bruce Wayne leads a double life as Batman, defending Gotham City from ruthless mobsters and costumed villains with help from Robin and a small circle of trusted allies.</desc>
+  </programme>
+  <programme start="20261211050000 +0000" stop="20261211053000 +0000" channel="CartoonCartoonsNetwork">
+    <title lang="en">Justice League Unlimited</title>
+    <desc lang="en">A continuation of the Justice League animated series finds the original members of the team joined in their battle against crime and evil by dozens of other heroes from the DC comics universe.</desc>
+  </programme>
+  <programme start="20261211053000 +0000" stop="20261211060000 +0000" channel="CartoonCartoonsNetwork">
     <title lang="en">X-Men: Evolution</title>
     <desc lang="en">This rendition of X-Men features Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat and Spike as teenagers as they fight for a world that fears and hates them.</desc>
   </programme>
