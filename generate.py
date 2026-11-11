@@ -1887,7 +1887,7 @@ DUMMY_CHANNELS = [
      "Magical celebrates several anime genres from magical girl to idol culture.", 12),
     ("OptiradioTV", "Optiradio TV", "https://i.imgur.com/7BSz9wO.png", "Optiradio TV",
      "Optiradio TV", 12),
-    ("DIJIT", "DIJIT", "https://i.imgur.com/7h0QRo9.png", "DIJIT",
+    ("DIJIT", "DIJIT", "https://i.imgur.com/7h0QRo9.png", "DIJIT / Joy.Rebel",
      "Accept no imitation.", 12),
     ("Dotwave", "Dotwave", "https://i.imgur.com/GpmmAxf.png", "Dotwave",
      "Canada's spot for comedy. From sitcoms like Fresh Prince to reality comedies like Kenny vs. Spenny.\n\nWe're comedy on the dot.", 12),
