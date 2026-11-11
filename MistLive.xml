@@ -513,54 +513,54 @@
     <icon src="https://api.mistlive.tv/api/v1.5/image/3015d100-f612-46ac-b4f0-fe8bc4d428a0?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <url system="MistLive">https://mistlive.tv/channels/wtkz</url>
   </channel>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="mist-info.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="mist-info.iptv.mistlive.tv">
     <title>Mist Live Information Channel</title>
     <desc>This is the ***mist live*** information channel.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Information</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/d953785e-c1c2-4ef3-b52c-fcf05a6a67eb?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/cc507052-3e22-47c9-939c-c3ff851f0cc1?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/59c5ada8-7755-45bb-bbd8-6f30c4fa3081?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="mist.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="mist.iptv.mistlive.tv">
     <title>Mist Creative Team Stream</title>
     <desc># Welcome!
 This is the official stream for the Mist Creative Team!</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <icon src="https://api.mistlive.tv/api/v1.5/image/fcf9e56f-cb27-414d-85f1-95c2ab7030c6?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/e3f5d112-f5fd-44b6-be95-dffc89127214?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/9a8d4e40-1a7b-4250-96a6-178aa022ea6e?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="wilb.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="wilb.iptv.mistlive.tv">
     <title>ichigoleite broadcasting - Zap2It Guide</title>
     <desc>## Welcome!
 This is a stream of our Zap2It guide, using ***mist live***'s data as the source.
 
 To submit an ad, go to https://forms.gle/8uFrDrH1ZT9Tf82AA.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Information</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/47f705f9-65bf-4221-8227-2892ea8e2f53?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/50b0f932-115a-4ac8-bbdd-52b7641fb2eb?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/d60e3e03-2253-4d34-857a-2a77a8212a2e?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="magicaltv.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="magicaltv.iptv.mistlive.tv">
     <title>Magical</title>
     <desc>Since 2025, Magical has celebrated several genres from magical girl (which was originally what the channel was mainly dedicated towards) to idol culture.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <icon src="https://api.mistlive.tv/api/v1.5/image/18e66fa7-34c7-4ee8-9c4c-74397d936664?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/4846b690-f734-4ffd-8957-cb8f617e712b?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/b119a84e-caf1-4e9a-8520-6ce935406ef3?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="thebbchnl-ch01.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="thebbchnl-ch01.iptv.mistlive.tv">
     <title>The Birdbrain Channel - Channel 1</title>
     <desc>Weather that covers the Orlando area!</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/a5598938-80c6-46d0-8cc1-9b9576ae90ca?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/c2176df0-9cee-44dc-8338-7478ded77cbe?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/c2176df0-9cee-44dc-8338-7478ded77cbe?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="blitz.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="blitz.iptv.mistlive.tv">
     <title>Blitz</title>
     <desc>## Game On!
 (this is in a pre-launch phase so dont expect anything complete...yet.)
@@ -571,35 +571,35 @@ Airing from Friday @ 4:00p - Sunday @ 12:00a.
 All times in EST.
 
 [Discord Server](https://discord.gg/ZPRGyBwqn5)</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Entertainment</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/1e94ff66-3b60-4faf-ad29-891688e42007?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/873192a7-6652-4a09-8827-84cabaeb628a?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/1f3dbbe2-a30c-4b7c-b6cc-ada3ec2baea0?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="wmg8.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="wmg8.iptv.mistlive.tv">
     <title>WMG8 Atlanta - Retro Weather for Metro Atlanta</title>
     <desc>Welcome to WMG8 Atlanta - the cleanest way to get local weather information for the Metro Atlanta area and surrounding major cities. Currently featured is local weather data via the WeatherSTAR 3000. 
 
 For support, requests, or other inquiries, please contact zach@windev.media.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <icon src="https://api.mistlive.tv/api/v1.5/image/f80210a4-1f7f-4654-b40a-c58932142de0?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/e2a8de93-1c46-4c58-ab45-acf49aa85598?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/7114c291-229f-40b3-b86a-396cbd8b5571?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="wbtv.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="wbtv.iptv.mistlive.tv">
     <title>Butterfly Channel</title>
     <desc>This channel has no description.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Comedy</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/e5034101-97f6-4326-ad95-9e52f3c17ed9?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/55599dd4-65cb-41a7-a439-57c5c2b7f4b7?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/b041bc46-550f-4054-94bb-92f2d0a5a3b7?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="rfnet.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="rfnet.iptv.mistlive.tv">
     <title>WeatherNow HD - New Orleans, LA | RFNet</title>
     <desc>The Greater New Orleans area's best weather network! Enjoy!</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <category>Development</category>
     <category>Local</category>
@@ -611,10 +611,10 @@ For support, requests, or other inquiries, please contact zach@windev.media.</de
     <icon src="https://api.mistlive.tv/api/v1.5/image/1b55e475-2fd3-4f09-8800-45435d3826e8?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/1edb60c8-7223-47c0-8eb4-51f102bf9d9f?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="rfnet-2.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="rfnet-2.iptv.mistlive.tv">
     <title>WeatherNow SD - New Orleans, LA | RFNet 2</title>
     <desc>The GNO area's best weather network; continued! Usually testing goes down on this stream. Note that when not on air, this channel will fallback to RFNet 1. Enjoy!</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <category>Development</category>
     <category>Other</category>
@@ -622,23 +622,23 @@ For support, requests, or other inquiries, please contact zach@windev.media.</de
     <icon src="https://api.mistlive.tv/api/v1.5/image/bfa2ba5c-f8d5-4d5f-ad85-ba1ad4be904a?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/15c2b407-0644-4024-9b5c-e4cb6b9d80a3?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="ctrlplusgeek.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="ctrlplusgeek.iptv.mistlive.tv">
     <title>Cilly Channel</title>
     <desc>Haiiii :3</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <category>Local</category>
     <category>Varied</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/c70f0b63-f27c-4cc9-9452-b8d1484c80e1?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/194ca4cf-3600-4afc-902c-9b76aefeff13?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="meteo.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="meteo.iptv.mistlive.tv">
     <title>METEOchannel in SD: 24/7 Canadian Weather</title>
     <desc>This channel has no description.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <icon src="https://api.mistlive.tv/api/v1.5/image/fe8b6d7f-df60-4eaa-9ba5-d4c0b9786c06?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="spcplainfieldtv.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="spcplainfieldtv.iptv.mistlive.tv">
     <title>Plainfield TV</title>
     <desc>Welcome to Plainfield TV. We showcase programs produced in-house by Jeslinfield Productions.
 
@@ -705,13 +705,13 @@ Storage 3 TB (1 TB SSD &amp; 2 TB HDD (Stores programming)
 OS: Windows 11 Pro 25H2
 
 </desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Entertainment</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/a65af081-cdbb-4335-90be-51e8d4087c4e?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/8211cc3a-402d-4d05-aee5-d15a636fee42?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/06d90145-f853-4076-8c4e-87f7e3fd325c?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="spcplainfieldtv-2.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="spcplainfieldtv-2.iptv.mistlive.tv">
     <title>Plainfield TV Weatherscan Network</title>
     <desc>The weatherscan revival brought to you by Jeslinfield Productions. Also used to run live programs from the main station while away from home.
 
@@ -726,51 +726,51 @@ RAM: 20 GB (1x16 GB &amp; 1x4 GB @ 2666 MHz)
 Storage 1.16 TB (256 GB SSD &amp; 2 512 GB SATA SSD's (Used for file storage)
 
 OS: Windows 11 Pro 25H2</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <category>Information</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/d5278ef8-8111-4fd4-aa4a-57e8c6b19eeb?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/70b975b1-1d16-4ede-acd0-0582e98b75be?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/45643edd-5b74-4be5-acac-cd9d6e8f84e4?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="nermal_ch01.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="nermal_ch01.iptv.mistlive.tv">
     <title>NermalTheCat77's New Weatherscan</title>
     <desc>this is V3 of NermalTheCat2026's Weatherscan stream airing in northeastern Pennsylvania. Get you local forecast in less than 10 minutes. And, it features 3 special music tracks from the short "Here Comes Garfield" (1982).</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <icon src="https://api.mistlive.tv/api/v1.5/image/1c2cd9fd-7c34-4483-a3df-35b3ab8e1797?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="twckodster.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="twckodster.iptv.mistlive.tv">
     <title>IntelliSTAR 2 xD | Greenville, SC | WKOD-TV/DT 4.1</title>
     <desc>This channel has no description.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/d4f2eb5e-ae10-4b72-8756-c89f68b90edc?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/0e6eaff1-ca2b-4b3b-bacd-6980661a6f88?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="zonexero-vent01.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="zonexero-vent01.iptv.mistlive.tv">
     <title>WeatherZone | Tampa Bay</title>
     <desc>This channel has no description.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Local</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/a3a624c7-9f30-4194-8ec8-848e538141ef?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/c017d45e-402a-4ecd-844d-ada15e31db6a?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="zonexero-vent02.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="zonexero-vent02.iptv.mistlive.tv">
     <title>WeatherZone | Chattanooga</title>
     <desc>This channel has no description.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Local</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/aa2cdf24-e077-4801-8a14-aba0c3d2a840?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/7b044c26-d7c9-4a0f-bc01-b219739a8ff1?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="spc-aei.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="spc-aei.iptv.mistlive.tv">
     <title>St. Petersburg College | Information and Weather</title>
     <desc>This channel has no description.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Local</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/356bb8ce-3eb3-4a22-94c9-d3464bd952dc?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="highland-networks-ch1.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="highland-networks-ch1.iptv.mistlive.tv">
     <title>Highland Weather 24/7 Monitoring - LIVE Forecasts &amp; Alerts</title>
     <desc>HIGHLAND WEATHER - 24/7 LIVE SEVERE WEATHER MONITORING:
 Welcome to your 24/7 watch on severe weather across the Western Carolina's, Northeast Georgia, and 3 counties in East TN. Our automated system keeps you ahead of the storm with real-time tracking, and instant warning notifications.
@@ -820,7 +820,7 @@ FOLLOW HIGHLAND WEATHER ON SOCIAL MEDIA:
 • Twitch: https://www.twitch.tv/highlandweather
 • National Weather Network: https://nationalweathernetwork.com/organization/highland-weather-television-network
 • Website: https://sites.google.com/view/highlandwx/home</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <category>Information</category>
     <category>News</category>
@@ -833,10 +833,10 @@ FOLLOW HIGHLAND WEATHER ON SOCIAL MEDIA:
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/1b042a78-bc2b-4a55-8b3a-8de64b14ebac?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/78183dc9-0b74-44b6-84db-1244410a7699?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="highland-networks-ch4.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="highland-networks-ch4.iptv.mistlive.tv">
     <title>🔴 LIVE - Downtown Asheville EXCLUSIVE </title>
     <desc />
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <category>News</category>
     <category>Talk</category>
@@ -848,14 +848,14 @@ FOLLOW HIGHLAND WEATHER ON SOCIAL MEDIA:
     <category>Varied</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/920e7db9-71fb-40ee-8741-fa2b01aaa9eb?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="highland-networks-ch2.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="highland-networks-ch2.iptv.mistlive.tv">
     <title>AFN Feed 1 (Ground Tower) | Asheville Flight Network</title>
     <desc>You are watching the LIVE AIR TRAFFIC CONTROL FEED from Asheville Regional Airport (KAVL), featuring Ground Control, Tower Control, and Approach Control for expanded coverage of aircraft arrivals, departures, and ground operations.
 
 Asheville Flight Network (AFN) broadcasts live audio from available air traffic control frequencies, alongside live weather information from Highland Weather and an EXCLUSIVE live flight-tracking map from Webb Media Group.
 
 Watch aircraft arrive, depart, and taxi at Asheville Regional Airport, all in one place on AFN!</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <category>News</category>
     <category>Talk</category>
@@ -870,110 +870,97 @@ Watch aircraft arrive, depart, and taxi at Asheville Regional Airport, all in on
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/980994cb-0f71-46c3-8981-ec51f6c854d3?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/3669404b-1e1a-4db2-98ab-8e7ed28e099e?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="lcn01.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="lcn01.iptv.mistlive.tv">
     <title>Layne Cox Network </title>
     <desc>The best of television and the finest in news and information.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Entertainment</category>
     <category>Weather</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/96e37eeb-bee5-47cc-bc26-735ac6c5f7f1?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/05c2dd08-3579-4eea-803e-1616cbd2717d?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/cc28db53-2cac-4e58-b665-1f14ec7b4428?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="nj247.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="nj247.iptv.mistlive.tv">
     <title>New Jersey 24/7 - Live Weather, Traffic, Headlines, and Cams</title>
     <desc>Weather, Traffic, and Live Headlines for New Jersey</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <category>Local</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/4f456bba-8193-4b0a-9269-89042235757d?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="meteohd.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="meteohd.iptv.mistlive.tv">
     <title>meteochannel: 🍂🪾 24/7 Canadian Weather Channel</title>
     <desc>**meteochannel** in HD is the flagship feed for the **meteochannel** network.
 
 Broadcasting from Saskatoon, it's primary service area includes areas throughout southern Saskatchewan.
 
 Graphics are generated with **[WeatherHDS](https://github.com/kokoraii/weatherhds1)**, an open-source HTML-based weather graphics system created in-house specifically for **meteochannel**.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="wilb-jr.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="wilb-jr.iptv.mistlive.tv">
     <title>ichigoleite broadcasting - WeatherStar Jr Sim (London, UK)</title>
     <desc>A test of a WeatherStar Jr simulator.
 Input is WILB.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <category>Information</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/fd26e36f-0546-4eca-9e88-3e171e1edee5?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/4b035d2c-e8b5-4054-b650-8984176c18a7?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/63bf8b03-d984-4a58-b13f-9eb4741dc71a?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="wren-tv.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="wren-tv.iptv.mistlive.tv">
     <title>IntelliSTAR 2 xD - WREN TV</title>
     <desc>WREN-TV. Broadcasting from Jackson, TN for the Memphis area.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/d00b3d13-74c1-4410-b227-3d3e3ab21ee3?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/d00b3d13-74c1-4410-b227-3d3e3ab21ee3?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="ultra.iptv.mistlive.tv">
-    <title>ULTRA!</title>
-    <desc>ITS ALL HERE FOR YA! 
-©2026 ULTRAMEDIAWORKS</desc>
-    <date>20261111003636 +0000</date>
-    <category>Gaming</category>
-    <category>Other</category>
-    <category>Movie</category>
-    <category>Entertainment</category>
-    <icon src="https://api.mistlive.tv/api/v1.5/image/7e818550-b494-47af-b3d2-1929fbc5c283?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
-    <image type="poster">https://api.mistlive.tv/api/v1.5/image/32d44f08-132d-4dcb-af27-b329a6a6670c?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
-    <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/fd650ceb-205e-4650-9b57-1ea83684670a?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
-  </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="wags01.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="wags01.iptv.mistlive.tv">
     <title>WAGS-IPTV</title>
     <desc>WAGS-IPTV with SAGE 3644/XBOB-4 CG</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <category>Radio</category>
     <category>Information</category>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="idea.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="idea.iptv.mistlive.tv">
     <title>Warp - Object Shows for everyone</title>
     <desc>Warp is a channel that has the best entertainment. come and find out!</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <icon src="https://api.mistlive.tv/api/v1.5/image/950df2b2-fdbb-4249-8ee7-06dddbb993c8?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/15aa924c-f82c-4731-8fe1-249c6ff123a3?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/10e36b2d-990e-4710-a986-f2bc21228bd5?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="idea2.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="idea2.iptv.mistlive.tv">
     <title> idea channel 2 - Welcome!</title>
     <desc>its coming NEVER trust me</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <icon src="https://api.mistlive.tv/api/v1.5/image/bd28d17d-30cf-49e2-9c15-713df86f9995?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="zip-ch.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="zip-ch.iptv.mistlive.tv">
     <title>&gt;zip. </title>
     <desc />
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Entertainment</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/db6a2eb3-d49b-4c22-b67c-d1b5fef06eca?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/538a8e68-70c0-4cb8-bb4f-e0d7c4e19243?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/ee6d9b4e-2f7a-4001-9eee-08087163b04a?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="arn.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="arn.iptv.mistlive.tv">
     <title>ARN National</title>
     <desc>Continuous stream of tv shows and movies for ARN affiliates to tap into. </desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>News</category>
     <category>Varied</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/d81fa522-29b9-434a-b35c-0887bba5d268?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="twojuice.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="twojuice.iptv.mistlive.tv">
     <title>Weatherscan for DFW + Viewer requested cities</title>
     <desc>This is ***The TwoJuice Channel!*** As of now, we only provide Weatherscan from North Central Texas plus viewer requested cities. But do expect some special live gaming programming from time to time!
 
 The TwoJuice Channel will typically run Weatherscan programming in the evening/overnight hours (Central Time) or whenever else convenient. And in the near future, expect other content from TwoJuice to play 24/7!</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Varied</category>
     <category>Weather</category>
     <category>Information</category>
@@ -981,45 +968,39 @@ The TwoJuice Channel will typically run Weatherscan programming in the evening/o
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/12efdfc5-a2ca-4a68-8c88-1e9939c35b36?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/c79e8773-70d5-4642-9366-ad01ea5a931a?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="rtwcr01.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="rtwcr01.iptv.mistlive.tv">
     <title>Live Weather Information -  Lakeland, FL on the STAR4</title>
     <desc>Conditions will be from Lakeland Linder International Airport. If the weather criteria isn't met, it will get conditions from Tampa International Airport. ALL MUSIC BELONGS TO RIGHTFUL COPYRIGHT OWNERS</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/5b860700-1d85-4f90-8344-120e4b0a00af?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/1b0e757e-b628-4b4d-be3e-92f1f6a6df5d?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/c3077509-d1b6-43ae-a69b-28878c21ef13?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="rtwcr02.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="rtwcr02.iptv.mistlive.tv">
     <title>Live Weather Information - Reno, NV on the STAR Jr.</title>
     <desc>ALL MUSIC BELONGS TO RIGHTFUL COPYRIGHT OWNERS</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
     <icon src="https://api.mistlive.tv/api/v1.5/image/40b90dc1-63d5-409f-af3b-b52f61383aad?width=256&amp;height=256&amp;fit=inside&amp;format=png" width="256" height="256" />
     <image type="poster">https://api.mistlive.tv/api/v1.5/image/e80f97a7-ebe4-4713-b008-6ae9e53c8877?width=854&amp;height=480&amp;fit=inside&amp;format=png</image>
     <image type="backdrop">https://api.mistlive.tv/api/v1.5/image/294c7399-3640-4f29-8c19-6d86f7eb6217?width=1920&amp;height=1080&amp;fit=inside&amp;format=png</image>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="wtwtb.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="wtwtb.iptv.mistlive.tv">
     <title>WatchingTheWeather Thunder Bay</title>
     <desc>This channel has no description.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
     <category>Weather</category>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="wtwnm.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="wtwnm.iptv.mistlive.tv">
     <title>Watching The Weather Newmarket</title>
     <desc>This channel has no description.</desc>
-    <date>20261111003636 +0000</date>
+    <date>20261111003811 +0000</date>
   </programme>
-  <programme start="20261111003636 +0000" stop="20261122031636 +0000" channel="wtwsk.iptv.mistlive.tv">
+  <programme start="20261111003811 +0000" stop="20261122031811 +0000" channel="wtwsk.iptv.mistlive.tv">
     <title>WTWSK - Saskatoon</title>
     <desc>This channel has no description.</desc>
-    <date>20261111003636 +0000</date>
-  </programme>
-  <programme start="20260801230000 -0400" stop="20360812000000 -0400" channel="localscope_weather.iptv.mistlive.tv">
-    <title lang="en">LocalScope Pittsburgh Weather</title>
-    <desc lang="en">Get some basic weather information while listening to some groovy music.</desc>
-    <category lang="en">Weather</category>
-    <new />
+    <date>20261111003811 +0000</date>
   </programme>
   <programme start="20261102000000 -0400" stop="20261103000000 -0400" channel="prism.iptv.mistlive.tv">
     <title>kanye west</title>
@@ -1153,38 +1134,6 @@ The TwoJuice Channel will typically run Weatherscan programming in the evening/o
     <desc>67</desc>
     <category>67</category>
   </programme>
-  <programme start="20261031120000 -0300" stop="20261031140000 -0300" channel="julianochannel.iptv.mistlive.tv">
-    <title lang="en">Fuera del Aire</title>
-    <desc lang="en">Fuera del Aire</desc>
-  </programme>
-  <programme start="20261031143000 -0300" stop="20261031145300 -0300" channel="julianochannel.iptv.mistlive.tv">
-    <title lang="en">South Park</title>
-    <sub-title lang="en">Pinkeye</sub-title>
-    <desc lang="en">The first Halloween episode starts off with the failure of the Mir Space Station, which crashes right on Kenny. An ambulance comes and takes his body off to the morgue. The boys start to brag about their Halloween costumes. At the morgue, a freak accident involving a bottle of Worcestershire sauce occurs, and next thing you know Kenny is a member of the undead. Kenny breaks free and wanders off into the night.</desc>
-    <episode-num system="xmltv_ns">0.6.</episode-num>
-  </programme>
-  <programme start="20261031145300 -0300" stop="20261031151500 -0300" channel="julianochannel.iptv.mistlive.tv">
-    <title lang="en">Regular Show</title>
-    <sub-title lang="en">Historias de terror del parque</sub-title>
-    <desc lang="en">The gang sits around trying to tell the scariest Halloween story.</desc>
-    <episode-num system="xmltv_ns">2.3.</episode-num>
-  </programme>
-  <programme start="20261031151500 -0300" stop="20261031153700 -0300" channel="julianochannel.iptv.mistlive.tv">
-    <title lang="en">Regular Show</title>
-    <sub-title lang="en">Historias de terror del parque II</sub-title>
-    <desc lang="en">While on their drive to a Halloween party, Mordecai and Rigby tells scary stories to Benson, Pops, Skips, Muscle Man, High Five Ghost and Thomas.</desc>
-    <episode-num system="xmltv_ns">3.2.</episode-num>
-  </programme>
-  <programme start="20261031153700 -0300" stop="20261031154900 -0300" channel="julianochannel.iptv.mistlive.tv">
-    <title lang="en">Wow! Wow! Wubbzy!</title>
-    <sub-title lang="en">El fantasma de Wuzzleburgo</sub-title>
-    <episode-num system="xmltv_ns">1.8.</episode-num>
-  </programme>
-  <programme start="20261031154900 -0300" stop="20261031160100 -0300" channel="julianochannel.iptv.mistlive.tv">
-    <title lang="en">Wow! Wow! Wubbzy!</title>
-    <sub-title lang="en">La Marcha de las Calabazas</sub-title>
-    <episode-num system="xmltv_ns">1.8.</episode-num>
-  </programme>
   <programme start="20261102000000 -0400" stop="20261102230000 -0400" channel="prism2.iptv.mistlive.tv">
     <title>Weatherscan (Fahrenheit)</title>
     <desc>Relive the classic Weatherscan with Prism! (on bad hardware but you know we ball)</desc>
@@ -1278,6 +1227,44 @@ The TwoJuice Channel will typically run Weatherscan programming in the evening/o
     <desc lang="en">KWSF is currently off the air.</desc>
     <category lang="en">Special</category>
     <length units="seconds">86400</length>
+  </programme>
+  <programme start="20261031120000 -0300" stop="20261031140000 -0300" channel="julianochannel.iptv.mistlive.tv">
+    <title lang="en">Fuera del Aire</title>
+    <desc lang="en">Fuera del Aire</desc>
+  </programme>
+  <programme start="20261031143000 -0300" stop="20261031145300 -0300" channel="julianochannel.iptv.mistlive.tv">
+    <title lang="en">South Park</title>
+    <sub-title lang="en">Pinkeye</sub-title>
+    <desc lang="en">The first Halloween episode starts off with the failure of the Mir Space Station, which crashes right on Kenny. An ambulance comes and takes his body off to the morgue. The boys start to brag about their Halloween costumes. At the morgue, a freak accident involving a bottle of Worcestershire sauce occurs, and next thing you know Kenny is a member of the undead. Kenny breaks free and wanders off into the night.</desc>
+    <episode-num system="xmltv_ns">0.6.</episode-num>
+  </programme>
+  <programme start="20261031145300 -0300" stop="20261031151500 -0300" channel="julianochannel.iptv.mistlive.tv">
+    <title lang="en">Regular Show</title>
+    <sub-title lang="en">Historias de terror del parque</sub-title>
+    <desc lang="en">The gang sits around trying to tell the scariest Halloween story.</desc>
+    <episode-num system="xmltv_ns">2.3.</episode-num>
+  </programme>
+  <programme start="20261031151500 -0300" stop="20261031153700 -0300" channel="julianochannel.iptv.mistlive.tv">
+    <title lang="en">Regular Show</title>
+    <sub-title lang="en">Historias de terror del parque II</sub-title>
+    <desc lang="en">While on their drive to a Halloween party, Mordecai and Rigby tells scary stories to Benson, Pops, Skips, Muscle Man, High Five Ghost and Thomas.</desc>
+    <episode-num system="xmltv_ns">3.2.</episode-num>
+  </programme>
+  <programme start="20261031153700 -0300" stop="20261031154900 -0300" channel="julianochannel.iptv.mistlive.tv">
+    <title lang="en">Wow! Wow! Wubbzy!</title>
+    <sub-title lang="en">El fantasma de Wuzzleburgo</sub-title>
+    <episode-num system="xmltv_ns">1.8.</episode-num>
+  </programme>
+  <programme start="20261031154900 -0300" stop="20261031160100 -0300" channel="julianochannel.iptv.mistlive.tv">
+    <title lang="en">Wow! Wow! Wubbzy!</title>
+    <sub-title lang="en">La Marcha de las Calabazas</sub-title>
+    <episode-num system="xmltv_ns">1.8.</episode-num>
+  </programme>
+  <programme start="20260801230000 -0400" stop="20360812000000 -0400" channel="localscope_weather.iptv.mistlive.tv">
+    <title lang="en">LocalScope Pittsburgh Weather</title>
+    <desc lang="en">Get some basic weather information while listening to some groovy music.</desc>
+    <category lang="en">Weather</category>
+    <new />
   </programme>
   <programme start="20261110185437 -0500" stop="20261110190030 -0500" channel="wilb-tv.iptv.mistlive.tv">
     <title lang="en">Azumanga Daioh: The Very Short Movie</title>
@@ -24533,33 +24520,6 @@ Enclosed with Nichijou Vol.10 Special Edition BD (KAXA-3210).</desc>
     <icon src="https://iptv.ichigoleite.com/iptv/artwork/thumbnails/48EB882B404E204DBA9AED26A1A08CB010523C3C.jpg?v=639299340185116040" />
     <previously-shown />
   </programme>
-  <programme start="20261110070000 +0100" stop="20261111070000 +0100" channel="ntnch01.iptv.mistlive.tv">
-    <title lang="en">ntn24: your local information channel</title>
-    <desc lang="en">ntn24 is your channel for relax and information.</desc>
-    <category lang="en">Information</category>
-    <icon src="https://cdn.watchntn.net.eu.org/p/D.png" width="960" height="540" />
-    <rating system="JSO">
-      <value>U</value>
-    </rating>
-  </programme>
-  <programme start="20261111070000 +0100" stop="20261112070000 +0100" channel="ntnch01.iptv.mistlive.tv">
-    <title lang="en">ntn24: your local information channel</title>
-    <desc lang="en">ntn24 is your channel for relax and information.</desc>
-    <category lang="en">Information</category>
-    <icon src="https://cdn.watchntn.net.eu.org/p/D.png" width="960" height="540" />
-    <rating system="JSO">
-      <value>U</value>
-    </rating>
-  </programme>
-  <programme start="20261112070000 +0100" stop="20261113070000 +0100" channel="ntnch01.iptv.mistlive.tv">
-    <title lang="en">ntn24: your local information channel</title>
-    <desc lang="en">ntn24 is your channel for relax and information.</desc>
-    <category lang="en">Information</category>
-    <icon src="https://cdn.watchntn.net.eu.org/p/D.png" width="960" height="540" />
-    <rating system="JSO">
-      <value>U</value>
-    </rating>
-  </programme>
   <programme start="20261106080000 +1000" stop="20261106180000 +1000" channel="wxscan-au.iptv.mistlive.tv">
     <title lang="en">Weatherscan Australia</title>
     <desc lang="en">Come and watch Weatherscan Australia's weekday broadcast!
@@ -25174,6 +25134,33 @@ For TEIO Digital Cable Notices, click TEIO Digital Cable Notice Board on our web
     <category lang="en">Weather</category>
     <rating>
       <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20261110070000 +0100" stop="20261111070000 +0100" channel="ntnch01.iptv.mistlive.tv">
+    <title lang="en">ntn24: your local information channel</title>
+    <desc lang="en">ntn24 is your channel for relax and information.</desc>
+    <category lang="en">Information</category>
+    <icon src="https://cdn.watchntn.net.eu.org/p/D.png" width="960" height="540" />
+    <rating system="JSO">
+      <value>U</value>
+    </rating>
+  </programme>
+  <programme start="20261111070000 +0100" stop="20261112070000 +0100" channel="ntnch01.iptv.mistlive.tv">
+    <title lang="en">ntn24: your local information channel</title>
+    <desc lang="en">ntn24 is your channel for relax and information.</desc>
+    <category lang="en">Information</category>
+    <icon src="https://cdn.watchntn.net.eu.org/p/D.png" width="960" height="540" />
+    <rating system="JSO">
+      <value>U</value>
+    </rating>
+  </programme>
+  <programme start="20261112070000 +0100" stop="20261113070000 +0100" channel="ntnch01.iptv.mistlive.tv">
+    <title lang="en">ntn24: your local information channel</title>
+    <desc lang="en">ntn24 is your channel for relax and information.</desc>
+    <category lang="en">Information</category>
+    <icon src="https://cdn.watchntn.net.eu.org/p/D.png" width="960" height="540" />
+    <rating system="JSO">
+      <value>U</value>
     </rating>
   </programme>
   <programme start="20261111060000 +0800" stop="20261112000000 +0800" channel="aurora.iptv.mistlive.tv">
