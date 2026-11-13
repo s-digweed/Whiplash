@@ -14080,9 +14080,17 @@ Ned tries to confess to Moze that he likes her; Moze must decide between Ned and
   </programme>
   <programme start="20261113052500 -0500" stop="20261113060000 -0500" channel="toon-diggity">
     <title lang="en">Secret Stash</title>
+    <desc lang="en">The dark corner of the animation shelf. Magnus Carlsson's Robin, Joe Cartoon's Flash-era weirdness, trippy experiments and surreal shorts, all handpicked for the hours nobody's watching.
+
+Don't tell the kids.</desc>
   </programme>
   <programme start="20261113060000 -0500" stop="20261113080000 -0500" channel="toon-diggity">
-    <title lang="en">Early Morning Shuffle</title>
+    <title lang="en">Breakfast Shorts</title>
+    <desc lang="en">Pour the cereal, the projector's already running.
+
+Disney Cartoons, Tom and Jerry, MGM and UPA shorts, with Terrytoons, George Pal's Puppetoons and Zagreb Film rolling out of the vault.
+
+Spoon in one hand, remote in the other.</desc>
   </programme>
   <programme start="20261113080000 -0500" stop="20261113082500 -0500" channel="toon-diggity">
     <title lang="en">Crayon Shin-chan</title>
@@ -14123,7 +14131,12 @@ Ned tries to confess to Moze that he likes her; Moze must decide between Ned and
     <episode-num system="xmltv_ns">0.5.</episode-num>
   </programme>
   <programme start="20261113103500 -0500" stop="20261113120500 -0500" channel="toon-diggity">
-    <title lang="en">Late Morning Shuffle</title>
+    <title lang="en">Technicolor Toybox</title>
+    <desc lang="en">The late-morning matinee, served in Technicolor.
+
+Disney's timeless classics, Looney Tunes in full Merrie Melodies swing and Puppetoons built one carved figure at a time, all shuffled in with Woody Woodpecker, Droopy and whatever else tumbles out.
+
+Everything back in the box by noon.</desc>
   </programme>
   <programme start="20261113120500 -0500" stop="20261113123000 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
@@ -14437,9 +14450,17 @@ Closing Theme</desc>
   </programme>
   <programme start="20261114053000 -0500" stop="20261114060000 -0500" channel="toon-diggity">
     <title lang="en">Secret Stash</title>
+    <desc lang="en">The dark corner of the animation shelf. Magnus Carlsson's Robin, Joe Cartoon's Flash-era weirdness, trippy experiments and surreal shorts, all handpicked for the hours nobody's watching.
+
+Don't tell the kids.</desc>
   </programme>
   <programme start="20261114060000 -0500" stop="20261114080000 -0500" channel="toon-diggity">
-    <title lang="en">Early Morning Shuffle</title>
+    <title lang="en">Breakfast Shorts</title>
+    <desc lang="en">Pour the cereal, the projector's already running.
+
+Disney Cartoons, Tom and Jerry, MGM and UPA shorts, with Terrytoons, George Pal's Puppetoons and Zagreb Film rolling out of the vault.
+
+Spoon in one hand, remote in the other.</desc>
   </programme>
   <programme start="20261114080000 -0500" stop="20261114082500 -0500" channel="toon-diggity">
     <title lang="en">Adventures of Sonic the Hedgehog</title>
@@ -14484,7 +14505,12 @@ Closing Theme</desc>
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
   <programme start="20261114103000 -0500" stop="20261114120000 -0500" channel="toon-diggity">
-    <title lang="en">Late Morning Shuffle</title>
+    <title lang="en">Technicolor Toybox</title>
+    <desc lang="en">The late-morning matinee, served in Technicolor.
+
+Disney's timeless classics, Looney Tunes in full Merrie Melodies swing and Puppetoons built one carved figure at a time, all shuffled in with Woody Woodpecker, Droopy and whatever else tumbles out.
+
+Everything back in the box by noon.</desc>
   </programme>
   <programme start="20261114120000 -0500" stop="20261114122500 -0500" channel="toon-diggity">
     <title lang="en">Goof Troop</title>
@@ -14741,9 +14767,17 @@ Homework can wait.</desc>
   </programme>
   <programme start="20261115053500 -0500" stop="20261115060000 -0500" channel="toon-diggity">
     <title lang="en">Secret Stash</title>
+    <desc lang="en">The dark corner of the animation shelf. Magnus Carlsson's Robin, Joe Cartoon's Flash-era weirdness, trippy experiments and surreal shorts, all handpicked for the hours nobody's watching.
+
+Don't tell the kids.</desc>
   </programme>
   <programme start="20261115060000 -0500" stop="20261115080000 -0500" channel="toon-diggity">
-    <title lang="en">Early Morning Shuffle</title>
+    <title lang="en">Breakfast Shorts</title>
+    <desc lang="en">Pour the cereal, the projector's already running.
+
+Disney Cartoons, Tom and Jerry, MGM and UPA shorts, with Terrytoons, George Pal's Puppetoons and Zagreb Film rolling out of the vault.
+
+Spoon in one hand, remote in the other.</desc>
   </programme>
   <programme start="20261115080000 -0500" stop="20261115082500 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
@@ -14788,7 +14822,12 @@ Homework can wait.</desc>
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
   <programme start="20261115103000 -0500" stop="20261115120000 -0500" channel="toon-diggity">
-    <title lang="en">Late Morning Shuffle</title>
+    <title lang="en">Technicolor Toybox</title>
+    <desc lang="en">The late-morning matinee, served in Technicolor.
+
+Disney's timeless classics, Looney Tunes in full Merrie Melodies swing and Puppetoons built one carved figure at a time, all shuffled in with Woody Woodpecker, Droopy and whatever else tumbles out.
+
+Everything back in the box by noon.</desc>
   </programme>
   <programme start="20261115120000 -0500" stop="20261115122500 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
