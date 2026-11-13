@@ -223,13 +223,27 @@ FIXED_DESC = {
         "Three decades of rock and pop on tap, with music videos from the 80s to the 00s, "
         "fizzing you through the small hours.",
     # ── Toon Diggity (Cartoon Shuffle) shorts blocks ──
-    "Breakfast Shorts":                       # feed: "Morning Shuffle"
+    "Secret Stash":                           # feed title kept (~5:20-6 AM ET)
+        "The dark corner of the animation shelf. Magnus Carlsson's Robin, Joe Cartoon's "
+        "Flash-era weirdness, trippy experiments and surreal shorts, all handpicked for the "
+        "hours nobody's watching."
+        "\n\n"
+        "Don't tell the kids.",
+    "Breakfast Shorts":                       # feed: "Early Morning Shuffle" (~6-8 AM ET)
         "Pour the cereal, the projector's already running."
         "\n\n"
-        "Disney Cartoons, Tom and Jerry and MGM shorts, with Terrytoons and George Pal's "
-        "Puppetoons rolling out of the vault."
+        "Disney Cartoons, Tom and Jerry, MGM and UPA shorts, with Terrytoons, George Pal's "
+        "Puppetoons and Zagreb Film rolling out of the vault."
         "\n\n"
         "Spoon in one hand, remote in the other.",
+    "Technicolor Toybox":                     # feed: "Late Morning Shuffle" (~10:30 AM-noon ET)
+        "The late-morning matinee, served in Technicolor."
+        "\n\n"
+        "Disney's timeless classics, Looney Tunes in full Merrie Melodies swing and Puppetoons "
+        "built one carved figure at a time, all shuffled in with Woody Woodpecker, Droopy and "
+        "whatever else tumbles out."
+        "\n\n"
+        "Everything back in the box by noon.",
     "Afternoon Shuffle":
         "An after-school reel of theatrical shorts: Tom and Jerry, Looney Tunes, Tex Avery, Walter Lantz "
         "Cartunes and Fleischer classics, cut with international gems from NFB/ONF Canada and Zagreb Film."
@@ -297,8 +311,11 @@ def _eel_segment_rename(title, start, channel=None):
         return "The Desk Jockey"
     if title == "Afternoon Videos":
         return "The Break Room"
-    if channel == "toon-diggity" and title == "Morning Shuffle":
+    # Nov 13 2026 grid: Toon Diggity split its morning shorts into two blocks.
+    if channel == "toon-diggity" and title in ("Early Morning Shuffle", "Morning Shuffle"):
         return "Breakfast Shorts"
+    if channel == "toon-diggity" and title == "Late Morning Shuffle":
+        return "Technicolor Toybox"
     if title == "Music Videos":
         try:
             hr = int((start or "")[8:10])
