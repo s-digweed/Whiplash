@@ -148,9 +148,6 @@
     <display-name>EnerGeek Fan</display-name>
     <icon src="https://i.imgur.com/spdqBo8.png" />
   </channel>
-  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.Webchnl">
-    <title lang="en">##### WEBCHNL #####</title>
-  </programme>
   <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.Webchnl">
     <title lang="en">##### WEBCHNL #####</title>
   </programme>
@@ -193,8 +190,8 @@
   <programme start="20261126000000 +0000" stop="20261127000000 +0000" channel="SEP.Webchnl">
     <title lang="en">##### WEBCHNL #####</title>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.Vueue">
-    <title lang="en">##### VUEUE #####</title>
+  <programme start="20261127000000 +0000" stop="20261128000000 +0000" channel="SEP.Webchnl">
+    <title lang="en">##### WEBCHNL #####</title>
   </programme>
   <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.Vueue">
     <title lang="en">##### VUEUE #####</title>
@@ -238,8 +235,8 @@
   <programme start="20261126000000 +0000" stop="20261127000000 +0000" channel="SEP.Vueue">
     <title lang="en">##### VUEUE #####</title>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.RetroTV">
-    <title lang="en">##### RETRO TV #####</title>
+  <programme start="20261127000000 +0000" stop="20261128000000 +0000" channel="SEP.Vueue">
+    <title lang="en">##### VUEUE #####</title>
   </programme>
   <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.RetroTV">
     <title lang="en">##### RETRO TV #####</title>
@@ -283,8 +280,8 @@
   <programme start="20261126000000 +0000" stop="20261127000000 +0000" channel="SEP.RetroTV">
     <title lang="en">##### RETRO TV #####</title>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.MistLive">
-    <title lang="en">##### MIST LIVE #####</title>
+  <programme start="20261127000000 +0000" stop="20261128000000 +0000" channel="SEP.RetroTV">
+    <title lang="en">##### RETRO TV #####</title>
   </programme>
   <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.MistLive">
     <title lang="en">##### MIST LIVE #####</title>
@@ -328,8 +325,8 @@
   <programme start="20261126000000 +0000" stop="20261127000000 +0000" channel="SEP.MistLive">
     <title lang="en">##### MIST LIVE #####</title>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.40Media">
-    <title lang="en">##### 40MEDIA GROUP #####</title>
+  <programme start="20261127000000 +0000" stop="20261128000000 +0000" channel="SEP.MistLive">
+    <title lang="en">##### MIST LIVE #####</title>
   </programme>
   <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.40Media">
     <title lang="en">##### 40MEDIA GROUP #####</title>
@@ -373,8 +370,8 @@
   <programme start="20261126000000 +0000" stop="20261127000000 +0000" channel="SEP.40Media">
     <title lang="en">##### 40MEDIA GROUP #####</title>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.Others">
-    <title lang="en">##### OTHERS #######</title>
+  <programme start="20261127000000 +0000" stop="20261128000000 +0000" channel="SEP.40Media">
+    <title lang="en">##### 40MEDIA GROUP #####</title>
   </programme>
   <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.Others">
     <title lang="en">##### OTHERS #######</title>
@@ -418,8 +415,8 @@
   <programme start="20261126000000 +0000" stop="20261127000000 +0000" channel="SEP.Others">
     <title lang="en">##### OTHERS #######</title>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261113000000 +0000" channel="SEP.Kift">
-    <title lang="en">##### KIFT #####</title>
+  <programme start="20261127000000 +0000" stop="20261128000000 +0000" channel="SEP.Others">
+    <title lang="en">##### OTHERS #######</title>
   </programme>
   <programme start="20261113000000 +0000" stop="20261114000000 +0000" channel="SEP.Kift">
     <title lang="en">##### KIFT #####</title>
@@ -463,13 +460,8 @@
   <programme start="20261126000000 +0000" stop="20261127000000 +0000" channel="SEP.Kift">
     <title lang="en">##### KIFT #####</title>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="Aurora">
-    <title lang="en">Aurora</title>
-    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
-  </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="Aurora">
-    <title lang="en">Aurora</title>
-    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
+  <programme start="20261127000000 +0000" stop="20261128000000 +0000" channel="SEP.Kift">
+    <title lang="en">##### KIFT #####</title>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="Aurora">
     <title lang="en">Aurora</title>
@@ -583,13 +575,13 @@
     <title lang="en">Aurora</title>
     <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="flashBAK">
-    <title lang="en">flashBAK</title>
-    <desc lang="en">Take a break from the modern world. Come say hello again to the shows, movies, and songs that defined your childhood.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="flashBAK">
-    <title lang="en">flashBAK</title>
-    <desc lang="en">Take a break from the modern world. Come say hello again to the shows, movies, and songs that defined your childhood.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="Aurora">
+    <title lang="en">Aurora</title>
+    <desc lang="en">Aurora is a family channel broadcasting cartoons, anime and live-action films every weekend.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="flashBAK">
     <title lang="en">flashBAK</title>
@@ -703,13 +695,13 @@
     <title lang="en">flashBAK</title>
     <desc lang="en">Take a break from the modern world. Come say hello again to the shows, movies, and songs that defined your childhood.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="TLPlus">
-    <title lang="en">TL+</title>
-    <desc lang="en">Somos un canal de Televisión online de origen salvadoreño con programación de contenido anime para toda América Latina.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="flashBAK">
+    <title lang="en">flashBAK</title>
+    <desc lang="en">Take a break from the modern world. Come say hello again to the shows, movies, and songs that defined your childhood.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="TLPlus">
-    <title lang="en">TL+</title>
-    <desc lang="en">Somos un canal de Televisión online de origen salvadoreño con programación de contenido anime para toda América Latina.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="flashBAK">
+    <title lang="en">flashBAK</title>
+    <desc lang="en">Take a break from the modern world. Come say hello again to the shows, movies, and songs that defined your childhood.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="TLPlus">
     <title lang="en">TL+</title>
@@ -823,13 +815,13 @@
     <title lang="en">TL+</title>
     <desc lang="en">Somos un canal de Televisión online de origen salvadoreño con programación de contenido anime para toda América Latina.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="Magical">
-    <title lang="en">Magical</title>
-    <desc lang="en">Magical celebrates several anime genres from magical girl to idol culture.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="TLPlus">
+    <title lang="en">TL+</title>
+    <desc lang="en">Somos un canal de Televisión online de origen salvadoreño con programación de contenido anime para toda América Latina.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="Magical">
-    <title lang="en">Magical</title>
-    <desc lang="en">Magical celebrates several anime genres from magical girl to idol culture.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="TLPlus">
+    <title lang="en">TL+</title>
+    <desc lang="en">Somos un canal de Televisión online de origen salvadoreño con programación de contenido anime para toda América Latina.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="Magical">
     <title lang="en">Magical</title>
@@ -943,13 +935,13 @@
     <title lang="en">Magical</title>
     <desc lang="en">Magical celebrates several anime genres from magical girl to idol culture.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="OptiradioTV">
-    <title lang="en">Optiradio TV</title>
-    <desc lang="en">Optiradio TV</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="Magical">
+    <title lang="en">Magical</title>
+    <desc lang="en">Magical celebrates several anime genres from magical girl to idol culture.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="OptiradioTV">
-    <title lang="en">Optiradio TV</title>
-    <desc lang="en">Optiradio TV</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="Magical">
+    <title lang="en">Magical</title>
+    <desc lang="en">Magical celebrates several anime genres from magical girl to idol culture.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="OptiradioTV">
     <title lang="en">Optiradio TV</title>
@@ -1063,13 +1055,13 @@
     <title lang="en">Optiradio TV</title>
     <desc lang="en">Optiradio TV</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="DIJIT">
-    <title lang="en">DIJIT / Joy.Rebel</title>
-    <desc lang="en">Accept no imitation.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="OptiradioTV">
+    <title lang="en">Optiradio TV</title>
+    <desc lang="en">Optiradio TV</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="DIJIT">
-    <title lang="en">DIJIT / Joy.Rebel</title>
-    <desc lang="en">Accept no imitation.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="OptiradioTV">
+    <title lang="en">Optiradio TV</title>
+    <desc lang="en">Optiradio TV</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="DIJIT">
     <title lang="en">DIJIT / Joy.Rebel</title>
@@ -1183,17 +1175,13 @@
     <title lang="en">DIJIT / Joy.Rebel</title>
     <desc lang="en">Accept no imitation.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="Dotwave">
-    <title lang="en">Dotwave</title>
-    <desc lang="en">Canada's spot for comedy. From sitcoms like Fresh Prince to reality comedies like Kenny vs. Spenny.
-
-We're comedy on the dot.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="DIJIT">
+    <title lang="en">DIJIT / Joy.Rebel</title>
+    <desc lang="en">Accept no imitation.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="Dotwave">
-    <title lang="en">Dotwave</title>
-    <desc lang="en">Canada's spot for comedy. From sitcoms like Fresh Prince to reality comedies like Kenny vs. Spenny.
-
-We're comedy on the dot.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="DIJIT">
+    <title lang="en">DIJIT / Joy.Rebel</title>
+    <desc lang="en">Accept no imitation.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="Dotwave">
     <title lang="en">Dotwave</title>
@@ -1363,13 +1351,17 @@ We're comedy on the dot.</desc>
 
 We're comedy on the dot.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="NICAPlus">
-    <title lang="en">NICA+</title>
-    <desc lang="en">El primer canal online en Nicaragua trayendo la mejor programación Geek hacia los chavalos nicaragüenses con un gran orgullo pinolero.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="Dotwave">
+    <title lang="en">Dotwave</title>
+    <desc lang="en">Canada's spot for comedy. From sitcoms like Fresh Prince to reality comedies like Kenny vs. Spenny.
+
+We're comedy on the dot.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="NICAPlus">
-    <title lang="en">NICA+</title>
-    <desc lang="en">El primer canal online en Nicaragua trayendo la mejor programación Geek hacia los chavalos nicaragüenses con un gran orgullo pinolero.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="Dotwave">
+    <title lang="en">Dotwave</title>
+    <desc lang="en">Canada's spot for comedy. From sitcoms like Fresh Prince to reality comedies like Kenny vs. Spenny.
+
+We're comedy on the dot.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="NICAPlus">
     <title lang="en">NICA+</title>
@@ -1483,13 +1475,13 @@ We're comedy on the dot.</desc>
     <title lang="en">NICA+</title>
     <desc lang="en">El primer canal online en Nicaragua trayendo la mejor programación Geek hacia los chavalos nicaragüenses con un gran orgullo pinolero.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="JNIME">
-    <title lang="en">JNIME</title>
-    <desc lang="en">it feels right at home.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="NICAPlus">
+    <title lang="en">NICA+</title>
+    <desc lang="en">El primer canal online en Nicaragua trayendo la mejor programación Geek hacia los chavalos nicaragüenses con un gran orgullo pinolero.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="JNIME">
-    <title lang="en">JNIME</title>
-    <desc lang="en">it feels right at home.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="NICAPlus">
+    <title lang="en">NICA+</title>
+    <desc lang="en">El primer canal online en Nicaragua trayendo la mejor programación Geek hacia los chavalos nicaragüenses con un gran orgullo pinolero.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="JNIME">
     <title lang="en">JNIME</title>
@@ -1603,17 +1595,13 @@ We're comedy on the dot.</desc>
     <title lang="en">JNIME</title>
     <desc lang="en">it feels right at home.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="WYLP">
-    <title lang="en">WYLP 5</title>
-    <desc lang="en">WYLP, also known as Channel 5, is an independent low-power analog television station in York, Pennsylvania.
-
-The station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and movies, in the structure of a mid-to-late 90s independent TV station.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="JNIME">
+    <title lang="en">JNIME</title>
+    <desc lang="en">it feels right at home.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="WYLP">
-    <title lang="en">WYLP 5</title>
-    <desc lang="en">WYLP, also known as Channel 5, is an independent low-power analog television station in York, Pennsylvania.
-
-The station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and movies, in the structure of a mid-to-late 90s independent TV station.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="JNIME">
+    <title lang="en">JNIME</title>
+    <desc lang="en">it feels right at home.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="WYLP">
     <title lang="en">WYLP 5</title>
@@ -1783,13 +1771,17 @@ The station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and 
 
 The station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and movies, in the structure of a mid-to-late 90s independent TV station.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="OTVN">
-    <title lang="en">OTVN</title>
-    <desc lang="en">When the other toon channels weren't enough for some reason, you find yourself buried so deep in video tapes that you'd have to get someone to do some shoveling to get you out.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="WYLP">
+    <title lang="en">WYLP 5</title>
+    <desc lang="en">WYLP, also known as Channel 5, is an independent low-power analog television station in York, Pennsylvania.
+
+The station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and movies, in the structure of a mid-to-late 90s independent TV station.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="OTVN">
-    <title lang="en">OTVN</title>
-    <desc lang="en">When the other toon channels weren't enough for some reason, you find yourself buried so deep in video tapes that you'd have to get someone to do some shoveling to get you out.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="WYLP">
+    <title lang="en">WYLP 5</title>
+    <desc lang="en">WYLP, also known as Channel 5, is an independent low-power analog television station in York, Pennsylvania.
+
+The station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and movies, in the structure of a mid-to-late 90s independent TV station.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="OTVN">
     <title lang="en">OTVN</title>
@@ -1903,17 +1895,13 @@ The station primarily broadcasts sitcoms from the 1980s and 1990s, cartoons and 
     <title lang="en">OTVN</title>
     <desc lang="en">When the other toon channels weren't enough for some reason, you find yourself buried so deep in video tapes that you'd have to get someone to do some shoveling to get you out.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="CrossRift">
-    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
-    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
-
-Surfing through the Obscure.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="OTVN">
+    <title lang="en">OTVN</title>
+    <desc lang="en">When the other toon channels weren't enough for some reason, you find yourself buried so deep in video tapes that you'd have to get someone to do some shoveling to get you out.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="CrossRift">
-    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
-    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
-
-Surfing through the Obscure.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="OTVN">
+    <title lang="en">OTVN</title>
+    <desc lang="en">When the other toon channels weren't enough for some reason, you find yourself buried so deep in video tapes that you'd have to get someone to do some shoveling to get you out.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="CrossRift">
     <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
@@ -2083,13 +2071,17 @@ Surfing through the Obscure.</desc>
 
 Surfing through the Obscure.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="TelePosadas">
-    <title lang="en">Tele Posadas</title>
-    <desc lang="en">Entretenimiento y películas en vivo desde Posadas, Misiones.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="TelePosadas">
-    <title lang="en">Tele Posadas</title>
-    <desc lang="en">Entretenimiento y películas en vivo desde Posadas, Misiones.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="CrossRift">
+    <title lang="en">CROSSRIFT IS OFFLINE. PLEASE STAND BY.</title>
+    <desc lang="en">CrossRift is an animation channel all about serving obscure cartoons by day and obscure anime by night. Comes with morning video game music through V.G.R (Video Game Radio) and nightly live action programming through Terra.
+
+Surfing through the Obscure.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="TelePosadas">
     <title lang="en">Tele Posadas</title>
@@ -2203,13 +2195,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">Tele Posadas</title>
     <desc lang="en">Entretenimiento y películas en vivo desde Posadas, Misiones.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="ObjectCentral">
-    <title lang="en">Object Central</title>
-    <desc lang="en">A TV Channel for the osc!</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="TelePosadas">
+    <title lang="en">Tele Posadas</title>
+    <desc lang="en">Entretenimiento y películas en vivo desde Posadas, Misiones.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="ObjectCentral">
-    <title lang="en">Object Central</title>
-    <desc lang="en">A TV Channel for the osc!</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="TelePosadas">
+    <title lang="en">Tele Posadas</title>
+    <desc lang="en">Entretenimiento y películas en vivo desde Posadas, Misiones.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="ObjectCentral">
     <title lang="en">Object Central</title>
@@ -2323,13 +2315,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">Object Central</title>
     <desc lang="en">A TV Channel for the osc!</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="Collective">
-    <title lang="en">Collective</title>
-    <desc lang="en">Tune in every day for the best dance tunes and chart topping hits.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="ObjectCentral">
+    <title lang="en">Object Central</title>
+    <desc lang="en">A TV Channel for the osc!</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="Collective">
-    <title lang="en">Collective</title>
-    <desc lang="en">Tune in every day for the best dance tunes and chart topping hits.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="ObjectCentral">
+    <title lang="en">Object Central</title>
+    <desc lang="en">A TV Channel for the osc!</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="Collective">
     <title lang="en">Collective</title>
@@ -2443,13 +2435,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">Collective</title>
     <desc lang="en">Tune in every day for the best dance tunes and chart topping hits.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="HubNetwork">
-    <title lang="en">Hub Network</title>
-    <desc lang="en">Hub Network</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="Collective">
+    <title lang="en">Collective</title>
+    <desc lang="en">Tune in every day for the best dance tunes and chart topping hits.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="HubNetwork">
-    <title lang="en">Hub Network</title>
-    <desc lang="en">Hub Network</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="Collective">
+    <title lang="en">Collective</title>
+    <desc lang="en">Tune in every day for the best dance tunes and chart topping hits.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="HubNetwork">
     <title lang="en">Hub Network</title>
@@ -2563,13 +2555,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">Hub Network</title>
     <desc lang="en">Hub Network</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="NFKTV">
-    <title lang="en">NFKTV: Not your childhood network</title>
-    <desc lang="en">NFKTV (not for kids) is a mature channel that focuses on adult animation.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="HubNetwork">
+    <title lang="en">Hub Network</title>
+    <desc lang="en">Hub Network</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="NFKTV">
-    <title lang="en">NFKTV: Not your childhood network</title>
-    <desc lang="en">NFKTV (not for kids) is a mature channel that focuses on adult animation.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="HubNetwork">
+    <title lang="en">Hub Network</title>
+    <desc lang="en">Hub Network</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="NFKTV">
     <title lang="en">NFKTV: Not your childhood network</title>
@@ -2683,13 +2675,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">NFKTV: Not your childhood network</title>
     <desc lang="en">NFKTV (not for kids) is a mature channel that focuses on adult animation.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="Zip">
-    <title lang="en">&gt;zip.</title>
-    <desc lang="en">&gt;zip. is an entertainment television station launched in 2022.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="NFKTV">
+    <title lang="en">NFKTV: Not your childhood network</title>
+    <desc lang="en">NFKTV (not for kids) is a mature channel that focuses on adult animation.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="Zip">
-    <title lang="en">&gt;zip.</title>
-    <desc lang="en">&gt;zip. is an entertainment television station launched in 2022.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="NFKTV">
+    <title lang="en">NFKTV: Not your childhood network</title>
+    <desc lang="en">NFKTV (not for kids) is a mature channel that focuses on adult animation.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="Zip">
     <title lang="en">&gt;zip.</title>
@@ -2803,13 +2795,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">&gt;zip.</title>
     <desc lang="en">&gt;zip. is an entertainment television station launched in 2022.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="Ultra">
-    <title lang="en">ULTRA!</title>
-    <desc lang="en">ITS ALL HERE FOR YA!</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="Zip">
+    <title lang="en">&gt;zip.</title>
+    <desc lang="en">&gt;zip. is an entertainment television station launched in 2022.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="Ultra">
-    <title lang="en">ULTRA!</title>
-    <desc lang="en">ITS ALL HERE FOR YA!</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="Zip">
+    <title lang="en">&gt;zip.</title>
+    <desc lang="en">&gt;zip. is an entertainment television station launched in 2022.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="Ultra">
     <title lang="en">ULTRA!</title>
@@ -2923,13 +2915,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">ULTRA!</title>
     <desc lang="en">ITS ALL HERE FOR YA!</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="Vortex2">
-    <title lang="en">VORTEX2</title>
-    <desc lang="en">VORTEX2</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="Ultra">
+    <title lang="en">ULTRA!</title>
+    <desc lang="en">ITS ALL HERE FOR YA!</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="Vortex2">
-    <title lang="en">VORTEX2</title>
-    <desc lang="en">VORTEX2</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="Ultra">
+    <title lang="en">ULTRA!</title>
+    <desc lang="en">ITS ALL HERE FOR YA!</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="Vortex2">
     <title lang="en">VORTEX2</title>
@@ -3043,13 +3035,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">VORTEX2</title>
     <desc lang="en">VORTEX2</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="AfterSwim">
-    <title lang="en">[after swim]</title>
-    <desc lang="en">[after swim]</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="Vortex2">
+    <title lang="en">VORTEX2</title>
+    <desc lang="en">VORTEX2</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="AfterSwim">
-    <title lang="en">[after swim]</title>
-    <desc lang="en">[after swim]</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="Vortex2">
+    <title lang="en">VORTEX2</title>
+    <desc lang="en">VORTEX2</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="AfterSwim">
     <title lang="en">[after swim]</title>
@@ -3163,13 +3155,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">[after swim]</title>
     <desc lang="en">[after swim]</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="NNRetro">
-    <title lang="en">Nicktoons Network Retro</title>
-    <desc lang="en">Nicktoons Network Retro</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="AfterSwim">
+    <title lang="en">[after swim]</title>
+    <desc lang="en">[after swim]</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="NNRetro">
-    <title lang="en">Nicktoons Network Retro</title>
-    <desc lang="en">Nicktoons Network Retro</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="AfterSwim">
+    <title lang="en">[after swim]</title>
+    <desc lang="en">[after swim]</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="NNRetro">
     <title lang="en">Nicktoons Network Retro</title>
@@ -3283,13 +3275,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">Nicktoons Network Retro</title>
     <desc lang="en">Nicktoons Network Retro</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="WhiplashFM">
-    <title lang="en">Whiplash FM</title>
-    <desc lang="en">Nothing but beats.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="NNRetro">
+    <title lang="en">Nicktoons Network Retro</title>
+    <desc lang="en">Nicktoons Network Retro</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="WhiplashFM">
-    <title lang="en">Whiplash FM</title>
-    <desc lang="en">Nothing but beats.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="NNRetro">
+    <title lang="en">Nicktoons Network Retro</title>
+    <desc lang="en">Nicktoons Network Retro</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="WhiplashFM">
     <title lang="en">Whiplash FM</title>
@@ -3403,13 +3395,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">Whiplash FM</title>
     <desc lang="en">Nothing but beats.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="SwimRewind">
-    <title lang="en">Swim Rewind</title>
-    <desc lang="en">THIS STREAM IS OFFLINE.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="WhiplashFM">
+    <title lang="en">Whiplash FM</title>
+    <desc lang="en">Nothing but beats.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="SwimRewind">
-    <title lang="en">Swim Rewind</title>
-    <desc lang="en">THIS STREAM IS OFFLINE.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="WhiplashFM">
+    <title lang="en">Whiplash FM</title>
+    <desc lang="en">Nothing but beats.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="SwimRewind">
     <title lang="en">Swim Rewind</title>
@@ -3523,13 +3515,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">Swim Rewind</title>
     <desc lang="en">THIS STREAM IS OFFLINE.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="CNExtras">
-    <title lang="en">CN Extras</title>
-    <desc lang="en">CNEX is a webchannel based on the CHECK it 3.0 era and Toonami's 2014 era. All your favorite programming from 2013-2015, brought in an era-accurate package. With custom GIFs and Promotional Material, we make sure to bring back your nostalgia!</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="SwimRewind">
+    <title lang="en">Swim Rewind</title>
+    <desc lang="en">THIS STREAM IS OFFLINE.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="CNExtras">
-    <title lang="en">CN Extras</title>
-    <desc lang="en">CNEX is a webchannel based on the CHECK it 3.0 era and Toonami's 2014 era. All your favorite programming from 2013-2015, brought in an era-accurate package. With custom GIFs and Promotional Material, we make sure to bring back your nostalgia!</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="SwimRewind">
+    <title lang="en">Swim Rewind</title>
+    <desc lang="en">THIS STREAM IS OFFLINE.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="CNExtras">
     <title lang="en">CN Extras</title>
@@ -3643,13 +3635,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">CN Extras</title>
     <desc lang="en">CNEX is a webchannel based on the CHECK it 3.0 era and Toonami's 2014 era. All your favorite programming from 2013-2015, brought in an era-accurate package. With custom GIFs and Promotional Material, we make sure to bring back your nostalgia!</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="ThrowbackTube">
-    <title lang="en">ThrowbackTube</title>
-    <desc lang="en">ThrowbackTube</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="CNExtras">
+    <title lang="en">CN Extras</title>
+    <desc lang="en">CNEX is a webchannel based on the CHECK it 3.0 era and Toonami's 2014 era. All your favorite programming from 2013-2015, brought in an era-accurate package. With custom GIFs and Promotional Material, we make sure to bring back your nostalgia!</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="ThrowbackTube">
-    <title lang="en">ThrowbackTube</title>
-    <desc lang="en">ThrowbackTube</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="CNExtras">
+    <title lang="en">CN Extras</title>
+    <desc lang="en">CNEX is a webchannel based on the CHECK it 3.0 era and Toonami's 2014 era. All your favorite programming from 2013-2015, brought in an era-accurate package. With custom GIFs and Promotional Material, we make sure to bring back your nostalgia!</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="ThrowbackTube">
     <title lang="en">ThrowbackTube</title>
@@ -3763,13 +3755,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">ThrowbackTube</title>
     <desc lang="en">ThrowbackTube</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="RetroNick">
-    <title lang="en">RetroNick</title>
-    <desc lang="en">RetroNick</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="ThrowbackTube">
+    <title lang="en">ThrowbackTube</title>
+    <desc lang="en">ThrowbackTube</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="RetroNick">
-    <title lang="en">RetroNick</title>
-    <desc lang="en">RetroNick</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="ThrowbackTube">
+    <title lang="en">ThrowbackTube</title>
+    <desc lang="en">ThrowbackTube</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="RetroNick">
     <title lang="en">RetroNick</title>
@@ -3883,13 +3875,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">RetroNick</title>
     <desc lang="en">RetroNick</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="EnerGeek">
-    <title lang="en">EnerGeek</title>
-    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="RetroNick">
+    <title lang="en">RetroNick</title>
+    <desc lang="en">RetroNick</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="EnerGeek">
-    <title lang="en">EnerGeek</title>
-    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="RetroNick">
+    <title lang="en">RetroNick</title>
+    <desc lang="en">RetroNick</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="EnerGeek">
     <title lang="en">EnerGeek</title>
@@ -4003,13 +3995,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">EnerGeek</title>
     <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="EnerGeekRadio">
-    <title lang="en">EnerGeek Radio</title>
-    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="EnerGeekRadio">
-    <title lang="en">EnerGeek Radio</title>
-    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="EnerGeek">
+    <title lang="en">EnerGeek</title>
+    <desc lang="en">El canal insignia de la familia EnerGeek te transporta a través de un viaje nostálgico con una cuidadosa selección de series y películas icónicas de las décadas de los 80, 90 y 2000. Además, ofrece un contenido original producido por su talentoso equipo, garantizando una experiencia única. Prepárate para sumergirte en una emocionante programación que te hará revivir momentos inolvidables y despertarán una nostalgia inigualable.</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="EnerGeekRadio">
     <title lang="en">EnerGeek Radio</title>
@@ -4123,13 +4115,13 @@ Surfing through the Obscure.</desc>
     <title lang="en">EnerGeek Radio</title>
     <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
   </programme>
-  <programme start="20261112000000 +0000" stop="20261112120000 +0000" channel="EnerGeekFan">
-    <title lang="en">EnerGeek Fan</title>
-    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
   </programme>
-  <programme start="20261112120000 +0000" stop="20261113000000 +0000" channel="EnerGeekFan">
-    <title lang="en">EnerGeek Fan</title>
-    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="EnerGeekRadio">
+    <title lang="en">EnerGeek Radio</title>
+    <desc lang="en">Canal parte de la familia EnerGeek, donde podrás explorar un poco de la cultura chilena mientras te deleitas con las mejores melodías de K-Pop, J-Pop y J-Rock. Además, no te pierdas la oportunidad de disfrutar de la producción de algunos de nuestros programas originales. ¡Una experiencia única que combina lo mejor de la música y la diversidad cultural!</desc>
   </programme>
   <programme start="20261113000000 +0000" stop="20261113120000 +0000" channel="EnerGeekFan">
     <title lang="en">EnerGeek Fan</title>
@@ -4240,6 +4232,14 @@ Surfing through the Obscure.</desc>
     <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
   </programme>
   <programme start="20261126120000 +0000" stop="20261127000000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261127000000 +0000" stop="20261127120000 +0000" channel="EnerGeekFan">
+    <title lang="en">EnerGeek Fan</title>
+    <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
+  </programme>
+  <programme start="20261127120000 +0000" stop="20261128000000 +0000" channel="EnerGeekFan">
     <title lang="en">EnerGeek Fan</title>
     <desc lang="en">Este canal, parte de la familia EnerGeek, ofrece una programación diversa las 24 horas del día. Desde emocionantes caricaturas hasta cautivadoras series de animación japonesa, pasando por vibrantes series live-action y divertidas sitcoms, es el destino perfecto para todos los amantes del entretenimiento.</desc>
   </programme>
