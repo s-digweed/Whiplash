@@ -4,194 +4,6 @@
     <display-name>Nick Picks</display-name>
     <icon src="https://i.imgur.com/6is9eGi.png" />
   </channel>
-  <programme start="20261112060000 +0000" stop="20261112063000 +0000" channel="NickPicks">
-    <title lang="en">Full House</title>
-    <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
-  </programme>
-  <programme start="20261112063000 +0000" stop="20261112070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261112070000 +0000" stop="20261112073000 +0000" channel="NickPicks">
-    <title lang="en">All in the Family</title>
-    <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
-  </programme>
-  <programme start="20261112073000 +0000" stop="20261112080000 +0000" channel="NickPicks">
-    <title lang="en">The Jeffersons</title>
-    <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
-  </programme>
-  <programme start="20261112080000 +0000" stop="20261112083000 +0000" channel="NickPicks">
-    <title lang="en">The Facts of Life</title>
-    <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
-  </programme>
-  <programme start="20261112083000 +0000" stop="20261112090000 +0000" channel="NickPicks">
-    <title lang="en">Diff'rent Strokes</title>
-    <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
-  </programme>
-  <programme start="20261112090000 +0000" stop="20261112093000 +0000" channel="NickPicks">
-    <title lang="en">The Brady Bunch</title>
-    <desc lang="en">The misadventures of a large family united when a widower and a widow marry.</desc>
-  </programme>
-  <programme start="20261112093000 +0000" stop="20261112100000 +0000" channel="NickPicks">
-    <title lang="en">I Love Lucy</title>
-    <desc lang="en">The wife of a band leader constantly tries to become a star - in spite of her having no talent, and gets herself (along with her best friend) into the funniest predicaments.</desc>
-  </programme>
-  <programme start="20261112100000 +0000" stop="20261112103000 +0000" channel="NickPicks">
-    <title lang="en">Three's Company</title>
-    <desc lang="en">The misadventures of two women and one man living in one apartment and their neighbors.</desc>
-  </programme>
-  <programme start="20261112103000 +0000" stop="20261112110000 +0000" channel="NickPicks">
-    <title lang="en">Cheers</title>
-    <desc lang="en">The regulars of the Boston bar "Cheers" share their experiences and lives with each other while drinking or working at the bar where everybody knows your name.</desc>
-  </programme>
-  <programme start="20261112110000 +0000" stop="20261112120000 +0000" channel="NickPicks">
-    <title lang="en">Happy Days</title>
-    <desc lang="en">In Milwaukee Wisconsin, hardware store owner Howard Cunningham, his wife Marion, and their children Richard and Joanie live through the 1950s with help and guidance from lovable and almost superhuman greaser Fonzie.</desc>
-  </programme>
-  <programme start="20261112120000 +0000" stop="20261112123000 +0000" channel="NickPicks">
-    <title lang="en">Out of Control</title>
-    <desc lang="en">Dave and his friends host this zany sketch-comedy variety show for kids.</desc>
-  </programme>
-  <programme start="20261112123000 +0000" stop="20261112130000 +0000" channel="NickPicks">
-    <title lang="en">Mr. Wizard's World</title>
-    <desc lang="en">Mr. Wizard and his young friends conduct a variety of science experiments.</desc>
-  </programme>
-  <programme start="20261112130000 +0000" stop="20261112133000 +0000" channel="NickPicks">
-    <title lang="en">Fifteen</title>
-    <desc lang="en">Students at the fictional Hillside School deal with a variety of issues, such as friendship, dating, divorce, and alcohol abuse.</desc>
-  </programme>
-  <programme start="20261112133000 +0000" stop="20261112140000 +0000" channel="NickPicks">
-    <title lang="en">My Brother and Me</title>
-    <desc lang="en">Alfie and Dee-Dee experience how life affects them with different aspects each day, such as learning life lessons.</desc>
-  </programme>
-  <programme start="20261112140000 +0000" stop="20261112143000 +0000" channel="NickPicks">
-    <title lang="en">Heathcliff</title>
-    <desc lang="en">A scruffy alley cat rules his neighborhood. Rejected monsters drive about doing odd jobs. A clumsy, lovable great Dane gets into mischief without meaning to.</desc>
-  </programme>
-  <programme start="20261112143000 +0000" stop="20261112150000 +0000" channel="NickPicks">
-    <title lang="en">Muppet Babies</title>
-    <desc lang="en">The Muppets, as babies, have adventures with their imaginations inside their nursery.</desc>
-  </programme>
-  <programme start="20261112150000 +0000" stop="20261112153000 +0000" channel="NickPicks">
-    <title lang="en">Little Bear</title>
-    <desc lang="en">Based upon a series of children's books, a grizzly cub has many misadventures with his friends.</desc>
-  </programme>
-  <programme start="20261112153000 +0000" stop="20261112160000 +0000" channel="NickPicks">
-    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
-    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
-  </programme>
-  <programme start="20261112160000 +0000" stop="20261112163000 +0000" channel="NickPicks">
-    <title lang="en">Double Dare (1986)</title>
-    <desc lang="en">One in a long-running series of game shows, where two-member teams of children compete to answer questions and complete stunts.</desc>
-  </programme>
-  <programme start="20261112163000 +0000" stop="20261112170000 +0000" channel="NickPicks">
-    <title lang="en">Legends of the Hidden Temple</title>
-    <desc lang="en">Six teams compete for the chance to search for the treasure inside the titular temple.</desc>
-  </programme>
-  <programme start="20261112170000 +0000" stop="20261112173000 +0000" channel="NickPicks">
-    <title lang="en">Nickelodeon Guts</title>
-    <desc lang="en">Three kids dawning the different colors blue, red, and purple compete in relatively cool-looking olympic-style games to achieve as many points as they can. At the end of every episode, they climb a big fake mountain, braving tumbl...</desc>
-  </programme>
-  <programme start="20261112173000 +0000" stop="20261112180000 +0000" channel="NickPicks">
-    <title lang="en">Figure It Out</title>
-    <desc lang="en">A group of four different panelists popular on Nickelodeon programs try to figure out the talents of different guests. They are given clues that they can feel, see, taste, and also given to them though charades.</desc>
-  </programme>
-  <programme start="20261112180000 +0000" stop="20261112183000 +0000" channel="NickPicks">
-    <title lang="en">You Can't Do That on Television</title>
-    <desc lang="en">Sketch-TV by young amateur actors in true classic Nick-style. Whatever you do, never ask for water or admit that you don't know.</desc>
-  </programme>
-  <programme start="20261112183000 +0000" stop="20261112190000 +0000" channel="NickPicks">
-    <title lang="en">The Adventures of Pete &amp; Pete</title>
-    <desc lang="en">This delightfully quirky show looks at the lives and adventures of two red-headed brothers with the same name.</desc>
-  </programme>
-  <programme start="20261112190000 +0000" stop="20261112193000 +0000" channel="NickPicks">
-    <title lang="en">Hey Dude</title>
-    <desc lang="en">A group of friends work together with their boss at a dude ranch and go through many fun moments and mishaps along the way.</desc>
-  </programme>
-  <programme start="20261112193000 +0000" stop="20261112200000 +0000" channel="NickPicks">
-    <title lang="en">Clarissa Explains It All</title>
-    <desc lang="en">As events unfold in her life, Clarissa explains to the viewer the motivations behind people's actions.</desc>
-  </programme>
-  <programme start="20261112200000 +0000" stop="20261112203000 +0000" channel="NickPicks">
-    <title lang="en">Doug</title>
-    <desc lang="en">The life of a young boy as he meets friends, falls in love, maneuvers his way through grade 6 and writes all about it in his journal.</desc>
-  </programme>
-  <programme start="20261112203000 +0000" stop="20261112210000 +0000" channel="NickPicks">
-    <title lang="en">The Ren &amp; Stimpy Show</title>
-    <desc lang="en">Ren, a psychotic Chihuahua, and Stimpson J. Cat, a dimwitted Manx cat who goes by the nickname Stimpy, have a host of unusual adventures.</desc>
-  </programme>
-  <programme start="20261112210000 +0000" stop="20261112213000 +0000" channel="NickPicks">
-    <title lang="en">Oh Yeah! Cartoons</title>
-    <desc lang="en">A TV series that shows a collection of cartoon shorts. This show helped to launch cartoons shows of "The Fairly Oddparents", "Chalkzone" and "My Life as a Teenage Robot."</desc>
-  </programme>
-  <programme start="20261112213000 +0000" stop="20261112220000 +0000" channel="NickPicks">
-    <title lang="en">Tiny Toon Adventures</title>
-    <desc lang="en">The wacky adventures of the new young hip generation of Warner Brothers Looney Tunes characters, most of them descendants of the original classic toon cast.</desc>
-  </programme>
-  <programme start="20261112220000 +0000" stop="20261112223000 +0000" channel="NickPicks">
-    <title lang="en">CatDog</title>
-    <desc lang="en">The life and times of a cat and a dog with a unique twist: they're connected, literally. Adding to their dilemma is Cat's annoyance with Dog, mainly caused by Dog's stupidity and Cat's up-tight personality.</desc>
-  </programme>
-  <programme start="20261112223000 +0000" stop="20261112230000 +0000" channel="NickPicks">
-    <title lang="en">The Angry Beavers</title>
-    <desc lang="en">Brothers Daggett and Norbert Beaver have left home to gain independence by living on their own. Their goal is to live a wild bachelor lifestyle but, as might be expected from young brothers, they get into some weird situations.</desc>
-  </programme>
-  <programme start="20261112230000 +0000" stop="20261112233000 +0000" channel="NickPicks">
-    <title lang="en">KaBlam!</title>
-    <desc lang="en">An animated anthology show hosted by two kids who live in a comic book.</desc>
-  </programme>
-  <programme start="20261112233000 +0000" stop="20261113000000 +0000" channel="NickPicks">
-    <title lang="en">The Wild Thornberrys</title>
-    <desc lang="en">Eliza Thornberry is not your ordinary kid. It's not just because she travels the world in an RV with her parents: famous nature show hosts. Eliza also happened to be granted the magical ability to talk with and understand animals.</desc>
-  </programme>
-  <programme start="20261113000000 +0000" stop="20261113003000 +0000" channel="NickPicks">
-    <title lang="en">Rocko's Modern Life</title>
-    <desc lang="en">The wacky misadventures of an Australian wallaby and his friends as he finishes his transition to American life.</desc>
-  </programme>
-  <programme start="20261113003000 +0000" stop="20261113010000 +0000" channel="NickPicks">
-    <title lang="en">Aaahh!!! Real Monsters</title>
-    <desc lang="en">The show takes us through the struggles of life as a child monster. Three monster friends are studying how to scare humans in school. Often, their attempts don't work out as planned.</desc>
-  </programme>
-  <programme start="20261113010000 +0000" stop="20261113013000 +0000" channel="NickPicks">
-    <title lang="en">Rugrats</title>
-    <desc lang="en">Tommy, Chuckie, Angelica, Phil and Lil and Susie find themselves in a slew of adventures - both real and imaginary. Baldly go where no baby's every gone before as the Rugrats turn the ordinary into the extraordinary every day.</desc>
-  </programme>
-  <programme start="20261113013000 +0000" stop="20261113020000 +0000" channel="NickPicks">
-    <title lang="en">Hey Arnold!</title>
-    <desc lang="en">The everyday life of Arnold, a fourth-grader in the city of Hillwood, Washington, who lives in a multi-racial boarding house with his grandparents and a motley assortment of friends and neighbors.</desc>
-  </programme>
-  <programme start="20261113020000 +0000" stop="20261113023000 +0000" channel="NickPicks">
-    <title lang="en">Are You Afraid of the Dark</title>
-    <desc lang="en">A group of teenagers meet in the woods, and tell scary stories.</desc>
-  </programme>
-  <programme start="20261113023000 +0000" stop="20261113030000 +0000" channel="NickPicks">
-    <title lang="en">Mystery Files of Shelby Woo</title>
-    <desc lang="en">The adventures of an aspiring detective girl who solves crime in her spare time.</desc>
-  </programme>
-  <programme start="20261113030000 +0000" stop="20261113033000 +0000" channel="NickPicks">
-    <title lang="en">Kenan &amp; Kel</title>
-    <desc lang="en">Kenan and Kel, best friends who live in Chicago, are always dragged down by Kenan's get-rich-quick schemes; orange-soda-loving buddy Kel is dragged along but tends to mess things up.</desc>
-  </programme>
-  <programme start="20261113033000 +0000" stop="20261113040000 +0000" channel="NickPicks">
-    <title lang="en">All That</title>
-    <desc lang="en">A zany sketch comedy featuring many wacky characters hosted for kids and by kids.</desc>
-  </programme>
-  <programme start="20261113040000 +0000" stop="20261113043000 +0000" channel="NickPicks">
-    <title lang="en">The Fresh Prince of Bel-Air</title>
-    <desc lang="en">After getting into a fight, a streetwise teenager from a poor neighborhood in West Philadelphia, Pennsylvania is sent by his mother to live with his wealthy aunt, uncle, and cousins at their mansion in Bel-Air, Los Angeles in Cali...</desc>
-  </programme>
-  <programme start="20261113043000 +0000" stop="20261113050000 +0000" channel="NickPicks">
-    <title lang="en">The Cosby Show</title>
-    <desc lang="en">The goings-on in the life of a successful African-American family.</desc>
-  </programme>
-  <programme start="20261113050000 +0000" stop="20261113053000 +0000" channel="NickPicks">
-    <title lang="en">Family Matters</title>
-    <desc lang="en">The Winslow family deals with various misadventures, many of them caused by their pesky next-door neighbor, ultra-nerd Steve Urkel.</desc>
-  </programme>
-  <programme start="20261113053000 +0000" stop="20261113060000 +0000" channel="NickPicks">
-    <title lang="en">Hangin' with Mr. Cooper</title>
-    <desc lang="en">American comedy with a larger-than-life teacher and his housemates.</desc>
-  </programme>
   <programme start="20261113060000 +0000" stop="20261113063000 +0000" channel="NickPicks">
     <title lang="en">A Different World</title>
     <desc lang="en">A group of students at a historically Black university struggle to make it through college.</desc>
@@ -681,12 +493,12 @@
     <desc lang="en">A smart and cynical girl goes through teenage life as a proud outsider in a world of mainly idiotic adolescents and condescending adults.</desc>
   </programme>
   <programme start="20261115190000 +0000" stop="20261115193000 +0000" channel="NickPicks">
-    <title lang="en">Clueless</title>
-    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
-  </programme>
-  <programme start="20261115193000 +0000" stop="20261115200000 +0000" channel="NickPicks">
     <title lang="en">Caitlin's Way</title>
     <desc lang="en">After a run-in with the law, a spoiled, rebellious teenager moves to a quaint Montana town with a rural culture that she's unaccustomed to living.</desc>
+  </programme>
+  <programme start="20261115193000 +0000" stop="20261115200000 +0000" channel="NickPicks">
+    <title lang="en">Clueless</title>
+    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
   </programme>
   <programme start="20261115200000 +0000" stop="20261115203000 +0000" channel="NickPicks">
     <title lang="en">Moesha</title>
@@ -961,24 +773,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261117063000 +0000" stop="20261117070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261117070000 +0000" stop="20261117073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261117073000 +0000" stop="20261117080000 +0000" channel="NickPicks">
+  <programme start="20261117070000 +0000" stop="20261117073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261117080000 +0000" stop="20261117083000 +0000" channel="NickPicks">
+  <programme start="20261117073000 +0000" stop="20261117080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261117083000 +0000" stop="20261117090000 +0000" channel="NickPicks">
+  <programme start="20261117080000 +0000" stop="20261117083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261117083000 +0000" stop="20261117090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261117090000 +0000" stop="20261117093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -1161,12 +973,12 @@
     <desc lang="en">A revival of the popular 1990s sitcom "Roseanne," which centered on the everyday life of an American working-class family.</desc>
   </programme>
   <programme start="20261118080000 +0000" stop="20261118083000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261118083000 +0000" stop="20261118090000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
+  </programme>
+  <programme start="20261118083000 +0000" stop="20261118090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261118090000 +0000" stop="20261118093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -1337,24 +1149,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261119063000 +0000" stop="20261119070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261119070000 +0000" stop="20261119073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261119073000 +0000" stop="20261119080000 +0000" channel="NickPicks">
+  <programme start="20261119070000 +0000" stop="20261119073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261119080000 +0000" stop="20261119083000 +0000" channel="NickPicks">
+  <programme start="20261119073000 +0000" stop="20261119080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261119083000 +0000" stop="20261119090000 +0000" channel="NickPicks">
+  <programme start="20261119080000 +0000" stop="20261119083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261119083000 +0000" stop="20261119090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261119090000 +0000" stop="20261119093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -2009,12 +1821,12 @@
     <desc lang="en">A smart and cynical girl goes through teenage life as a proud outsider in a world of mainly idiotic adolescents and condescending adults.</desc>
   </programme>
   <programme start="20261122190000 +0000" stop="20261122193000 +0000" channel="NickPicks">
-    <title lang="en">Clueless</title>
-    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
-  </programme>
-  <programme start="20261122193000 +0000" stop="20261122200000 +0000" channel="NickPicks">
     <title lang="en">Caitlin's Way</title>
     <desc lang="en">After a run-in with the law, a spoiled, rebellious teenager moves to a quaint Montana town with a rural culture that she's unaccustomed to living.</desc>
+  </programme>
+  <programme start="20261122193000 +0000" stop="20261122200000 +0000" channel="NickPicks">
+    <title lang="en">Clueless</title>
+    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
   </programme>
   <programme start="20261122200000 +0000" stop="20261122203000 +0000" channel="NickPicks">
     <title lang="en">Moesha</title>
@@ -2289,24 +2101,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261124063000 +0000" stop="20261124070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261124070000 +0000" stop="20261124073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261124073000 +0000" stop="20261124080000 +0000" channel="NickPicks">
+  <programme start="20261124070000 +0000" stop="20261124073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261124080000 +0000" stop="20261124083000 +0000" channel="NickPicks">
+  <programme start="20261124073000 +0000" stop="20261124080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261124083000 +0000" stop="20261124090000 +0000" channel="NickPicks">
+  <programme start="20261124080000 +0000" stop="20261124083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261124083000 +0000" stop="20261124090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261124090000 +0000" stop="20261124093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -2489,12 +2301,12 @@
     <desc lang="en">A revival of the popular 1990s sitcom "Roseanne," which centered on the everyday life of an American working-class family.</desc>
   </programme>
   <programme start="20261125080000 +0000" stop="20261125083000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261125083000 +0000" stop="20261125090000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
+  </programme>
+  <programme start="20261125083000 +0000" stop="20261125090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261125090000 +0000" stop="20261125093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -2665,24 +2477,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261126063000 +0000" stop="20261126070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261126070000 +0000" stop="20261126073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261126073000 +0000" stop="20261126080000 +0000" channel="NickPicks">
+  <programme start="20261126070000 +0000" stop="20261126073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261126080000 +0000" stop="20261126083000 +0000" channel="NickPicks">
+  <programme start="20261126073000 +0000" stop="20261126080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261126083000 +0000" stop="20261126090000 +0000" channel="NickPicks">
+  <programme start="20261126080000 +0000" stop="20261126083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261126083000 +0000" stop="20261126090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261126090000 +0000" stop="20261126093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -3337,12 +3149,12 @@
     <desc lang="en">A smart and cynical girl goes through teenage life as a proud outsider in a world of mainly idiotic adolescents and condescending adults.</desc>
   </programme>
   <programme start="20261129190000 +0000" stop="20261129193000 +0000" channel="NickPicks">
-    <title lang="en">Clueless</title>
-    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
-  </programme>
-  <programme start="20261129193000 +0000" stop="20261129200000 +0000" channel="NickPicks">
     <title lang="en">Caitlin's Way</title>
     <desc lang="en">After a run-in with the law, a spoiled, rebellious teenager moves to a quaint Montana town with a rural culture that she's unaccustomed to living.</desc>
+  </programme>
+  <programme start="20261129193000 +0000" stop="20261129200000 +0000" channel="NickPicks">
+    <title lang="en">Clueless</title>
+    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
   </programme>
   <programme start="20261129200000 +0000" stop="20261129203000 +0000" channel="NickPicks">
     <title lang="en">Moesha</title>
@@ -3617,24 +3429,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261201063000 +0000" stop="20261201070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261201070000 +0000" stop="20261201073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261201073000 +0000" stop="20261201080000 +0000" channel="NickPicks">
+  <programme start="20261201070000 +0000" stop="20261201073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261201080000 +0000" stop="20261201083000 +0000" channel="NickPicks">
+  <programme start="20261201073000 +0000" stop="20261201080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261201083000 +0000" stop="20261201090000 +0000" channel="NickPicks">
+  <programme start="20261201080000 +0000" stop="20261201083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261201083000 +0000" stop="20261201090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261201090000 +0000" stop="20261201093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -3817,12 +3629,12 @@
     <desc lang="en">A revival of the popular 1990s sitcom "Roseanne," which centered on the everyday life of an American working-class family.</desc>
   </programme>
   <programme start="20261202080000 +0000" stop="20261202083000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261202083000 +0000" stop="20261202090000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
+  </programme>
+  <programme start="20261202083000 +0000" stop="20261202090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261202090000 +0000" stop="20261202093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -3993,24 +3805,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261203063000 +0000" stop="20261203070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261203070000 +0000" stop="20261203073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261203073000 +0000" stop="20261203080000 +0000" channel="NickPicks">
+  <programme start="20261203070000 +0000" stop="20261203073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261203080000 +0000" stop="20261203083000 +0000" channel="NickPicks">
+  <programme start="20261203073000 +0000" stop="20261203080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261203083000 +0000" stop="20261203090000 +0000" channel="NickPicks">
+  <programme start="20261203080000 +0000" stop="20261203083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261203083000 +0000" stop="20261203090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261203090000 +0000" stop="20261203093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -4665,12 +4477,12 @@
     <desc lang="en">A smart and cynical girl goes through teenage life as a proud outsider in a world of mainly idiotic adolescents and condescending adults.</desc>
   </programme>
   <programme start="20261206190000 +0000" stop="20261206193000 +0000" channel="NickPicks">
-    <title lang="en">Clueless</title>
-    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
-  </programme>
-  <programme start="20261206193000 +0000" stop="20261206200000 +0000" channel="NickPicks">
     <title lang="en">Caitlin's Way</title>
     <desc lang="en">After a run-in with the law, a spoiled, rebellious teenager moves to a quaint Montana town with a rural culture that she's unaccustomed to living.</desc>
+  </programme>
+  <programme start="20261206193000 +0000" stop="20261206200000 +0000" channel="NickPicks">
+    <title lang="en">Clueless</title>
+    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
   </programme>
   <programme start="20261206200000 +0000" stop="20261206203000 +0000" channel="NickPicks">
     <title lang="en">Moesha</title>
@@ -4945,24 +4757,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261208063000 +0000" stop="20261208070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261208070000 +0000" stop="20261208073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261208073000 +0000" stop="20261208080000 +0000" channel="NickPicks">
+  <programme start="20261208070000 +0000" stop="20261208073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261208080000 +0000" stop="20261208083000 +0000" channel="NickPicks">
+  <programme start="20261208073000 +0000" stop="20261208080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261208083000 +0000" stop="20261208090000 +0000" channel="NickPicks">
+  <programme start="20261208080000 +0000" stop="20261208083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261208083000 +0000" stop="20261208090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261208090000 +0000" stop="20261208093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -5145,12 +4957,12 @@
     <desc lang="en">A revival of the popular 1990s sitcom "Roseanne," which centered on the everyday life of an American working-class family.</desc>
   </programme>
   <programme start="20261209080000 +0000" stop="20261209083000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261209083000 +0000" stop="20261209090000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
+  </programme>
+  <programme start="20261209083000 +0000" stop="20261209090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261209090000 +0000" stop="20261209093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -5321,24 +5133,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261210063000 +0000" stop="20261210070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261210070000 +0000" stop="20261210073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261210073000 +0000" stop="20261210080000 +0000" channel="NickPicks">
+  <programme start="20261210070000 +0000" stop="20261210073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261210080000 +0000" stop="20261210083000 +0000" channel="NickPicks">
+  <programme start="20261210073000 +0000" stop="20261210080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261210083000 +0000" stop="20261210090000 +0000" channel="NickPicks">
+  <programme start="20261210080000 +0000" stop="20261210083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261210083000 +0000" stop="20261210090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261210090000 +0000" stop="20261210093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -5993,12 +5805,12 @@
     <desc lang="en">A smart and cynical girl goes through teenage life as a proud outsider in a world of mainly idiotic adolescents and condescending adults.</desc>
   </programme>
   <programme start="20261213190000 +0000" stop="20261213193000 +0000" channel="NickPicks">
-    <title lang="en">Clueless</title>
-    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
-  </programme>
-  <programme start="20261213193000 +0000" stop="20261213200000 +0000" channel="NickPicks">
     <title lang="en">Caitlin's Way</title>
     <desc lang="en">After a run-in with the law, a spoiled, rebellious teenager moves to a quaint Montana town with a rural culture that she's unaccustomed to living.</desc>
+  </programme>
+  <programme start="20261213193000 +0000" stop="20261213200000 +0000" channel="NickPicks">
+    <title lang="en">Clueless</title>
+    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
   </programme>
   <programme start="20261213200000 +0000" stop="20261213203000 +0000" channel="NickPicks">
     <title lang="en">Moesha</title>
@@ -6273,24 +6085,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261215063000 +0000" stop="20261215070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261215070000 +0000" stop="20261215073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261215073000 +0000" stop="20261215080000 +0000" channel="NickPicks">
+  <programme start="20261215070000 +0000" stop="20261215073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261215080000 +0000" stop="20261215083000 +0000" channel="NickPicks">
+  <programme start="20261215073000 +0000" stop="20261215080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261215083000 +0000" stop="20261215090000 +0000" channel="NickPicks">
+  <programme start="20261215080000 +0000" stop="20261215083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261215083000 +0000" stop="20261215090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261215090000 +0000" stop="20261215093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -6473,12 +6285,12 @@
     <desc lang="en">A revival of the popular 1990s sitcom "Roseanne," which centered on the everyday life of an American working-class family.</desc>
   </programme>
   <programme start="20261216080000 +0000" stop="20261216083000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261216083000 +0000" stop="20261216090000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
+  </programme>
+  <programme start="20261216083000 +0000" stop="20261216090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261216090000 +0000" stop="20261216093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -6649,24 +6461,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261217063000 +0000" stop="20261217070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261217070000 +0000" stop="20261217073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261217073000 +0000" stop="20261217080000 +0000" channel="NickPicks">
+  <programme start="20261217070000 +0000" stop="20261217073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261217080000 +0000" stop="20261217083000 +0000" channel="NickPicks">
+  <programme start="20261217073000 +0000" stop="20261217080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261217083000 +0000" stop="20261217090000 +0000" channel="NickPicks">
+  <programme start="20261217080000 +0000" stop="20261217083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261217083000 +0000" stop="20261217090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261217090000 +0000" stop="20261217093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -7321,12 +7133,12 @@
     <desc lang="en">A smart and cynical girl goes through teenage life as a proud outsider in a world of mainly idiotic adolescents and condescending adults.</desc>
   </programme>
   <programme start="20261220190000 +0000" stop="20261220193000 +0000" channel="NickPicks">
-    <title lang="en">Clueless</title>
-    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
-  </programme>
-  <programme start="20261220193000 +0000" stop="20261220200000 +0000" channel="NickPicks">
     <title lang="en">Caitlin's Way</title>
     <desc lang="en">After a run-in with the law, a spoiled, rebellious teenager moves to a quaint Montana town with a rural culture that she's unaccustomed to living.</desc>
+  </programme>
+  <programme start="20261220193000 +0000" stop="20261220200000 +0000" channel="NickPicks">
+    <title lang="en">Clueless</title>
+    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
   </programme>
   <programme start="20261220200000 +0000" stop="20261220203000 +0000" channel="NickPicks">
     <title lang="en">Moesha</title>
@@ -7601,24 +7413,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261222063000 +0000" stop="20261222070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261222070000 +0000" stop="20261222073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261222073000 +0000" stop="20261222080000 +0000" channel="NickPicks">
+  <programme start="20261222070000 +0000" stop="20261222073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261222080000 +0000" stop="20261222083000 +0000" channel="NickPicks">
+  <programme start="20261222073000 +0000" stop="20261222080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261222083000 +0000" stop="20261222090000 +0000" channel="NickPicks">
+  <programme start="20261222080000 +0000" stop="20261222083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261222083000 +0000" stop="20261222090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261222090000 +0000" stop="20261222093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -7801,12 +7613,12 @@
     <desc lang="en">A revival of the popular 1990s sitcom "Roseanne," which centered on the everyday life of an American working-class family.</desc>
   </programme>
   <programme start="20261223080000 +0000" stop="20261223083000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261223083000 +0000" stop="20261223090000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
+  </programme>
+  <programme start="20261223083000 +0000" stop="20261223090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261223090000 +0000" stop="20261223093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -7977,24 +7789,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261224063000 +0000" stop="20261224070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261224070000 +0000" stop="20261224073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261224073000 +0000" stop="20261224080000 +0000" channel="NickPicks">
+  <programme start="20261224070000 +0000" stop="20261224073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261224080000 +0000" stop="20261224083000 +0000" channel="NickPicks">
+  <programme start="20261224073000 +0000" stop="20261224080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261224083000 +0000" stop="20261224090000 +0000" channel="NickPicks">
+  <programme start="20261224080000 +0000" stop="20261224083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261224083000 +0000" stop="20261224090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261224090000 +0000" stop="20261224093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -8649,12 +8461,12 @@
     <desc lang="en">A smart and cynical girl goes through teenage life as a proud outsider in a world of mainly idiotic adolescents and condescending adults.</desc>
   </programme>
   <programme start="20261227190000 +0000" stop="20261227193000 +0000" channel="NickPicks">
-    <title lang="en">Clueless</title>
-    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
-  </programme>
-  <programme start="20261227193000 +0000" stop="20261227200000 +0000" channel="NickPicks">
     <title lang="en">Caitlin's Way</title>
     <desc lang="en">After a run-in with the law, a spoiled, rebellious teenager moves to a quaint Montana town with a rural culture that she's unaccustomed to living.</desc>
+  </programme>
+  <programme start="20261227193000 +0000" stop="20261227200000 +0000" channel="NickPicks">
+    <title lang="en">Clueless</title>
+    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
   </programme>
   <programme start="20261227200000 +0000" stop="20261227203000 +0000" channel="NickPicks">
     <title lang="en">Moesha</title>
@@ -8929,24 +8741,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261229063000 +0000" stop="20261229070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261229070000 +0000" stop="20261229073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261229073000 +0000" stop="20261229080000 +0000" channel="NickPicks">
+  <programme start="20261229070000 +0000" stop="20261229073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261229080000 +0000" stop="20261229083000 +0000" channel="NickPicks">
+  <programme start="20261229073000 +0000" stop="20261229080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261229083000 +0000" stop="20261229090000 +0000" channel="NickPicks">
+  <programme start="20261229080000 +0000" stop="20261229083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261229083000 +0000" stop="20261229090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261229090000 +0000" stop="20261229093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -9129,12 +8941,12 @@
     <desc lang="en">A revival of the popular 1990s sitcom "Roseanne," which centered on the everyday life of an American working-class family.</desc>
   </programme>
   <programme start="20261230080000 +0000" stop="20261230083000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261230083000 +0000" stop="20261230090000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
+  </programme>
+  <programme start="20261230083000 +0000" stop="20261230090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261230090000 +0000" stop="20261230093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -9305,24 +9117,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20261231063000 +0000" stop="20261231070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20261231070000 +0000" stop="20261231073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20261231073000 +0000" stop="20261231080000 +0000" channel="NickPicks">
+  <programme start="20261231070000 +0000" stop="20261231073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20261231080000 +0000" stop="20261231083000 +0000" channel="NickPicks">
+  <programme start="20261231073000 +0000" stop="20261231080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20261231083000 +0000" stop="20261231090000 +0000" channel="NickPicks">
+  <programme start="20261231080000 +0000" stop="20261231083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20261231083000 +0000" stop="20261231090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20261231090000 +0000" stop="20261231093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -9977,12 +9789,12 @@
     <desc lang="en">A smart and cynical girl goes through teenage life as a proud outsider in a world of mainly idiotic adolescents and condescending adults.</desc>
   </programme>
   <programme start="20270103190000 +0000" stop="20270103193000 +0000" channel="NickPicks">
-    <title lang="en">Clueless</title>
-    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
-  </programme>
-  <programme start="20270103193000 +0000" stop="20270103200000 +0000" channel="NickPicks">
     <title lang="en">Caitlin's Way</title>
     <desc lang="en">After a run-in with the law, a spoiled, rebellious teenager moves to a quaint Montana town with a rural culture that she's unaccustomed to living.</desc>
+  </programme>
+  <programme start="20270103193000 +0000" stop="20270103200000 +0000" channel="NickPicks">
+    <title lang="en">Clueless</title>
+    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
   </programme>
   <programme start="20270103200000 +0000" stop="20270103203000 +0000" channel="NickPicks">
     <title lang="en">Moesha</title>
@@ -10257,24 +10069,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20270105063000 +0000" stop="20270105070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20270105070000 +0000" stop="20270105073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20270105073000 +0000" stop="20270105080000 +0000" channel="NickPicks">
+  <programme start="20270105070000 +0000" stop="20270105073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20270105080000 +0000" stop="20270105083000 +0000" channel="NickPicks">
+  <programme start="20270105073000 +0000" stop="20270105080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20270105083000 +0000" stop="20270105090000 +0000" channel="NickPicks">
+  <programme start="20270105080000 +0000" stop="20270105083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20270105083000 +0000" stop="20270105090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20270105090000 +0000" stop="20270105093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -10457,12 +10269,12 @@
     <desc lang="en">A revival of the popular 1990s sitcom "Roseanne," which centered on the everyday life of an American working-class family.</desc>
   </programme>
   <programme start="20270106080000 +0000" stop="20270106083000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20270106083000 +0000" stop="20270106090000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
+  </programme>
+  <programme start="20270106083000 +0000" stop="20270106090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20270106090000 +0000" stop="20270106093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -10633,24 +10445,24 @@
     <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
   <programme start="20270107063000 +0000" stop="20270107070000 +0000" channel="NickPicks">
-    <title lang="en">Coach</title>
-    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
-  </programme>
-  <programme start="20270107070000 +0000" stop="20270107073000 +0000" channel="NickPicks">
     <title lang="en">All in the Family</title>
     <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
   </programme>
-  <programme start="20270107073000 +0000" stop="20270107080000 +0000" channel="NickPicks">
+  <programme start="20270107070000 +0000" stop="20270107073000 +0000" channel="NickPicks">
     <title lang="en">The Jeffersons</title>
     <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
   </programme>
-  <programme start="20270107080000 +0000" stop="20270107083000 +0000" channel="NickPicks">
+  <programme start="20270107073000 +0000" stop="20270107080000 +0000" channel="NickPicks">
     <title lang="en">The Facts of Life</title>
     <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
   </programme>
-  <programme start="20270107083000 +0000" stop="20270107090000 +0000" channel="NickPicks">
+  <programme start="20270107080000 +0000" stop="20270107083000 +0000" channel="NickPicks">
     <title lang="en">Diff'rent Strokes</title>
     <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20270107083000 +0000" stop="20270107090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
   </programme>
   <programme start="20270107090000 +0000" stop="20270107093000 +0000" channel="NickPicks">
     <title lang="en">The Brady Bunch</title>
@@ -11305,12 +11117,12 @@
     <desc lang="en">A smart and cynical girl goes through teenage life as a proud outsider in a world of mainly idiotic adolescents and condescending adults.</desc>
   </programme>
   <programme start="20270110190000 +0000" stop="20270110193000 +0000" channel="NickPicks">
-    <title lang="en">Clueless</title>
-    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
-  </programme>
-  <programme start="20270110193000 +0000" stop="20270110200000 +0000" channel="NickPicks">
     <title lang="en">Caitlin's Way</title>
     <desc lang="en">After a run-in with the law, a spoiled, rebellious teenager moves to a quaint Montana town with a rural culture that she's unaccustomed to living.</desc>
+  </programme>
+  <programme start="20270110193000 +0000" stop="20270110200000 +0000" channel="NickPicks">
+    <title lang="en">Clueless</title>
+    <desc lang="en">A follow-up to the blockbuster movie of the same name, following rich teenager Cher and her friends as they attend high school in Beverly Hills. Many of the actors from the film appear.</desc>
   </programme>
   <programme start="20270110200000 +0000" stop="20270110203000 +0000" channel="NickPicks">
     <title lang="en">Moesha</title>
@@ -11579,5 +11391,193 @@
   <programme start="20270112053000 +0000" stop="20270112060000 +0000" channel="NickPicks">
     <title lang="en">Family Matters</title>
     <desc lang="en">The Winslow family deals with various misadventures, many of them caused by their pesky next-door neighbor, ultra-nerd Steve Urkel.</desc>
+  </programme>
+  <programme start="20270112060000 +0000" stop="20270112063000 +0000" channel="NickPicks">
+    <title lang="en">Full House</title>
+    <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
+  </programme>
+  <programme start="20270112063000 +0000" stop="20270112070000 +0000" channel="NickPicks">
+    <title lang="en">The Jeffersons</title>
+    <desc lang="en">Wealthy African American dry cleaner George Jefferson, his wife Louise, and son Lionel move into a luxury apartment building and develop occasionally fractious relations with other tenants, including their sassy maid Florence.</desc>
+  </programme>
+  <programme start="20270112070000 +0000" stop="20270112073000 +0000" channel="NickPicks">
+    <title lang="en">All in the Family</title>
+    <desc lang="en">A working class man constantly squabbles with his family over the important issues of the day.</desc>
+  </programme>
+  <programme start="20270112073000 +0000" stop="20270112080000 +0000" channel="NickPicks">
+    <title lang="en">The Facts of Life</title>
+    <desc lang="en">Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.</desc>
+  </programme>
+  <programme start="20270112080000 +0000" stop="20270112083000 +0000" channel="NickPicks">
+    <title lang="en">Diff'rent Strokes</title>
+    <desc lang="en">Follows millionaire Phillip Drummond, his daughter Kimberly, their current housekeeper Edna and Arnold and Willis, the two pre-teenage sons of their late African American housekeeper from Harlem, whom he adopted and raised as his ...</desc>
+  </programme>
+  <programme start="20270112083000 +0000" stop="20270112090000 +0000" channel="NickPicks">
+    <title lang="en">Coach</title>
+    <desc lang="en">Hayden Fox is the head coach of a university football team, and eats, sleeps and lives football.</desc>
+  </programme>
+  <programme start="20270112090000 +0000" stop="20270112093000 +0000" channel="NickPicks">
+    <title lang="en">The Brady Bunch</title>
+    <desc lang="en">The misadventures of a large family united when a widower and a widow marry.</desc>
+  </programme>
+  <programme start="20270112093000 +0000" stop="20270112100000 +0000" channel="NickPicks">
+    <title lang="en">I Love Lucy</title>
+    <desc lang="en">The wife of a band leader constantly tries to become a star - in spite of her having no talent, and gets herself (along with her best friend) into the funniest predicaments.</desc>
+  </programme>
+  <programme start="20270112100000 +0000" stop="20270112103000 +0000" channel="NickPicks">
+    <title lang="en">Three's Company</title>
+    <desc lang="en">The misadventures of two women and one man living in one apartment and their neighbors.</desc>
+  </programme>
+  <programme start="20270112103000 +0000" stop="20270112110000 +0000" channel="NickPicks">
+    <title lang="en">Cheers</title>
+    <desc lang="en">The regulars of the Boston bar "Cheers" share their experiences and lives with each other while drinking or working at the bar where everybody knows your name.</desc>
+  </programme>
+  <programme start="20270112110000 +0000" stop="20270112120000 +0000" channel="NickPicks">
+    <title lang="en">Happy Days</title>
+    <desc lang="en">In Milwaukee Wisconsin, hardware store owner Howard Cunningham, his wife Marion, and their children Richard and Joanie live through the 1950s with help and guidance from lovable and almost superhuman greaser Fonzie.</desc>
+  </programme>
+  <programme start="20270112120000 +0000" stop="20270112123000 +0000" channel="NickPicks">
+    <title lang="en">Garfield and Friends</title>
+    <desc lang="en">Stories about Garfield the cat, Odie the dog, their owner Jon and the trouble they get into, and Orson the Pig and his adventures on a farm with fellow farm animals.</desc>
+  </programme>
+  <programme start="20270112123000 +0000" stop="20270112130000 +0000" channel="NickPicks">
+    <title lang="en">Heathcliff</title>
+    <desc lang="en">A scruffy alley cat rules his neighborhood. Rejected monsters drive about doing odd jobs. A clumsy, lovable great Dane gets into mischief without meaning to.</desc>
+  </programme>
+  <programme start="20270112130000 +0000" stop="20270112133000 +0000" channel="NickPicks">
+    <title lang="en">Muppet Babies</title>
+    <desc lang="en">The Muppets, as babies, have adventures with their imaginations inside their nursery.</desc>
+  </programme>
+  <programme start="20270112133000 +0000" stop="20270112140000 +0000" channel="NickPicks">
+    <title lang="en">Inspector Gadget</title>
+    <desc lang="en">A bumbling cyborg inspector outfitted with an array of bizarre gadgets pursues the criminal organization M.A.D., all while his precocious niece and dog do the real investigative work.</desc>
+  </programme>
+  <programme start="20270112140000 +0000" stop="20270112143000 +0000" channel="NickPicks">
+    <title lang="en">Count Duckula</title>
+    <desc lang="en">The misadventures of a vegetarian vampire duck and his servants.</desc>
+  </programme>
+  <programme start="20270112143000 +0000" stop="20270112150000 +0000" channel="NickPicks">
+    <title lang="en">Beetlejuice</title>
+    <desc lang="en">Adventures of the ghostly con-artist and his 12-year-old pal, Lydia.</desc>
+  </programme>
+  <programme start="20270112150000 +0000" stop="20270112153000 +0000" channel="NickPicks">
+    <title lang="en">Dennis the Menace (1986)</title>
+    <desc lang="en">Good-natured, 6 y.o. Dennis is a menace to his parents and especially to his neighbor, Mr. Wilson. He has adventures with his friends and dog, Ruff. Each episode has 3 6-10 min. stories.</desc>
+  </programme>
+  <programme start="20270112153000 +0000" stop="20270112160000 +0000" channel="NickPicks">
+    <title lang="en">You're on Nickelodeon, Charlie Brown</title>
+    <desc lang="en">The animated adventures of Charlie Brown, Snoopy and the rest of the Peanuts gang.</desc>
+  </programme>
+  <programme start="20270112160000 +0000" stop="20270112163000 +0000" channel="NickPicks">
+    <title lang="en">Double Dare (1986)</title>
+    <desc lang="en">One in a long-running series of game shows, where two-member teams of children compete to answer questions and complete stunts.</desc>
+  </programme>
+  <programme start="20270112163000 +0000" stop="20270112170000 +0000" channel="NickPicks">
+    <title lang="en">Legends of the Hidden Temple</title>
+    <desc lang="en">Six teams compete for the chance to search for the treasure inside the titular temple.</desc>
+  </programme>
+  <programme start="20270112170000 +0000" stop="20270112173000 +0000" channel="NickPicks">
+    <title lang="en">Nickelodeon Guts</title>
+    <desc lang="en">Three kids dawning the different colors blue, red, and purple compete in relatively cool-looking olympic-style games to achieve as many points as they can. At the end of every episode, they climb a big fake mountain, braving tumbl...</desc>
+  </programme>
+  <programme start="20270112173000 +0000" stop="20270112180000 +0000" channel="NickPicks">
+    <title lang="en">Figure It Out</title>
+    <desc lang="en">A group of four different panelists popular on Nickelodeon programs try to figure out the talents of different guests. They are given clues that they can feel, see, taste, and also given to them though charades.</desc>
+  </programme>
+  <programme start="20270112180000 +0000" stop="20270112183000 +0000" channel="NickPicks">
+    <title lang="en">You Can't Do That on Television</title>
+    <desc lang="en">Sketch-TV by young amateur actors in true classic Nick-style. Whatever you do, never ask for water or admit that you don't know.</desc>
+  </programme>
+  <programme start="20270112183000 +0000" stop="20270112190000 +0000" channel="NickPicks">
+    <title lang="en">Weinerville</title>
+    <desc lang="en">A mostly one man show in which a guy (Marc Weiner) interacted with his puppet selves (his head on the body of puppets) to solve their silly problems in a cardboard town. Included games with audience participation.</desc>
+  </programme>
+  <programme start="20270112190000 +0000" stop="20270112193000 +0000" channel="NickPicks">
+    <title lang="en">Salute Your Shorts</title>
+    <desc lang="en">A group of kids at a summer camp, run by the heard-but-never-seen Dr. Kahn, form friendships as they spend time harassing buffoonish camp counselor Kevin "Ug" Lee.</desc>
+  </programme>
+  <programme start="20270112193000 +0000" stop="20270112200000 +0000" channel="NickPicks">
+    <title lang="en">Welcome Freshman</title>
+    <desc lang="en">Misadventures of a group of high school students and their bumbling vice principal, who hates freshmen.</desc>
+  </programme>
+  <programme start="20270112200000 +0000" stop="20270112203000 +0000" channel="NickPicks">
+    <title lang="en">Hey Dude</title>
+    <desc lang="en">A group of friends work together with their boss at a dude ranch and go through many fun moments and mishaps along the way.</desc>
+  </programme>
+  <programme start="20270112203000 +0000" stop="20270112210000 +0000" channel="NickPicks">
+    <title lang="en">Clarissa Explains It All</title>
+    <desc lang="en">As events unfold in her life, Clarissa explains to the viewer the motivations behind people's actions.</desc>
+  </programme>
+  <programme start="20270112210000 +0000" stop="20270112213000 +0000" channel="NickPicks">
+    <title lang="en">The Ren &amp; Stimpy Show</title>
+    <desc lang="en">Ren, a psychotic Chihuahua, and Stimpson J. Cat, a dimwitted Manx cat who goes by the nickname Stimpy, have a host of unusual adventures.</desc>
+  </programme>
+  <programme start="20270112213000 +0000" stop="20270112220000 +0000" channel="NickPicks">
+    <title lang="en">Doug</title>
+    <desc lang="en">The life of a young boy as he meets friends, falls in love, maneuvers his way through grade 6 and writes all about it in his journal.</desc>
+  </programme>
+  <programme start="20270112220000 +0000" stop="20270112223000 +0000" channel="NickPicks">
+    <title lang="en">Tiny Toon Adventures</title>
+    <desc lang="en">The wacky adventures of the new young hip generation of Warner Brothers Looney Tunes characters, most of them descendants of the original classic toon cast.</desc>
+  </programme>
+  <programme start="20270112223000 +0000" stop="20270112230000 +0000" channel="NickPicks">
+    <title lang="en">CatDog</title>
+    <desc lang="en">The life and times of a cat and a dog with a unique twist: they're connected, literally. Adding to their dilemma is Cat's annoyance with Dog, mainly caused by Dog's stupidity and Cat's up-tight personality.</desc>
+  </programme>
+  <programme start="20270112230000 +0000" stop="20270112233000 +0000" channel="NickPicks">
+    <title lang="en">KaBlam!</title>
+    <desc lang="en">An animated anthology show hosted by two kids who live in a comic book.</desc>
+  </programme>
+  <programme start="20270112233000 +0000" stop="20270113000000 +0000" channel="NickPicks">
+    <title lang="en">Rocko's Modern Life</title>
+    <desc lang="en">The wacky misadventures of an Australian wallaby and his friends as he finishes his transition to American life.</desc>
+  </programme>
+  <programme start="20270113000000 +0000" stop="20270113003000 +0000" channel="NickPicks">
+    <title lang="en">The Angry Beavers</title>
+    <desc lang="en">Brothers Daggett and Norbert Beaver have left home to gain independence by living on their own. Their goal is to live a wild bachelor lifestyle but, as might be expected from young brothers, they get into some weird situations.</desc>
+  </programme>
+  <programme start="20270113003000 +0000" stop="20270113010000 +0000" channel="NickPicks">
+    <title lang="en">Hey Arnold!</title>
+    <desc lang="en">The everyday life of Arnold, a fourth-grader in the city of Hillwood, Washington, who lives in a multi-racial boarding house with his grandparents and a motley assortment of friends and neighbors.</desc>
+  </programme>
+  <programme start="20270113010000 +0000" stop="20270113013000 +0000" channel="NickPicks">
+    <title lang="en">Aaahh!!! Real Monsters</title>
+    <desc lang="en">The show takes us through the struggles of life as a child monster. Three monster friends are studying how to scare humans in school. Often, their attempts don't work out as planned.</desc>
+  </programme>
+  <programme start="20270113013000 +0000" stop="20270113020000 +0000" channel="NickPicks">
+    <title lang="en">Rugrats</title>
+    <desc lang="en">Tommy, Chuckie, Angelica, Phil and Lil and Susie find themselves in a slew of adventures - both real and imaginary. Baldly go where no baby's every gone before as the Rugrats turn the ordinary into the extraordinary every day.</desc>
+  </programme>
+  <programme start="20270113020000 +0000" stop="20270113023000 +0000" channel="NickPicks">
+    <title lang="en">Are You Afraid of the Dark</title>
+    <desc lang="en">A group of teenagers meet in the woods, and tell scary stories.</desc>
+  </programme>
+  <programme start="20270113023000 +0000" stop="20270113030000 +0000" channel="NickPicks">
+    <title lang="en">Mystery Files of Shelby Woo</title>
+    <desc lang="en">The adventures of an aspiring detective girl who solves crime in her spare time.</desc>
+  </programme>
+  <programme start="20270113030000 +0000" stop="20270113033000 +0000" channel="NickPicks">
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Kenan and Kel, best friends who live in Chicago, are always dragged down by Kenan's get-rich-quick schemes; orange-soda-loving buddy Kel is dragged along but tends to mess things up.</desc>
+  </programme>
+  <programme start="20270113033000 +0000" stop="20270113040000 +0000" channel="NickPicks">
+    <title lang="en">All That</title>
+    <desc lang="en">A zany sketch comedy featuring many wacky characters hosted for kids and by kids.</desc>
+  </programme>
+  <programme start="20270113040000 +0000" stop="20270113043000 +0000" channel="NickPicks">
+    <title lang="en">The Fresh Prince of Bel-Air</title>
+    <desc lang="en">After getting into a fight, a streetwise teenager from a poor neighborhood in West Philadelphia, Pennsylvania is sent by his mother to live with his wealthy aunt, uncle, and cousins at their mansion in Bel-Air, Los Angeles in Cali...</desc>
+  </programme>
+  <programme start="20270113043000 +0000" stop="20270113050000 +0000" channel="NickPicks">
+    <title lang="en">The Cosby Show</title>
+    <desc lang="en">The goings-on in the life of a successful African-American family.</desc>
+  </programme>
+  <programme start="20270113050000 +0000" stop="20270113053000 +0000" channel="NickPicks">
+    <title lang="en">Family Matters</title>
+    <desc lang="en">The Winslow family deals with various misadventures, many of them caused by their pesky next-door neighbor, ultra-nerd Steve Urkel.</desc>
+  </programme>
+  <programme start="20270113053000 +0000" stop="20270113060000 +0000" channel="NickPicks">
+    <title lang="en">Full House</title>
+    <desc lang="en">A widowed sportscaster raises his three daughters with assistance from his rock and roll brother-in-law and madcap best friend.</desc>
   </programme>
 </tv>
