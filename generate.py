@@ -1257,6 +1257,30 @@ TSD_LOGO       = ""                        # no logo
 TSD_SCHED_FILE = "thatssodisney_schedule.json"
 TSD_DAYS       = 60                     # rolling window (perpetual weekly loop)
 
+# ── November 2026 marathon month (Nick Picks + That's So Disney) ──
+# Both channels run marathons/specials all November instead of their normal week
+# (the .ics calendars are the NORMAL week). Every Central date below is covered by
+# two 12h filler blocks; the normal weekly grid takes over again at 12:00 AM
+# Central on Dec 1. To end/extend early, change the date range.
+def _month_filler(first, last, title, desc):
+    d, last = datetime.strptime(first, "%Y-%m-%d"), datetime.strptime(last, "%Y-%m-%d")
+    out = {}
+    while d <= last:
+        out[d.strftime("%Y-%m-%d")] = [[0, 720, title, desc], [720, 1440, title, desc]]
+        d += timedelta(days=1)
+    return out
+
+NICK_SPECIALS = _month_filler("2026-11-01", "2026-11-30", "Non-Stop Nick",
+    "No schedule, just streaks."
+    "\n\n"
+    "All November, Nick Picks runs back-to-back marathons and specials: Nicktoons, TeenNick "
+    "favorites and Nick at Nite late-night sitcoms, stacked episode after episode.")
+TSD_SPECIALS = _month_filler("2026-11-01", "2026-11-30", "That's So Marathon",
+    "November's one long bonanza. Back-to-back marathons of Disney Channel favorites, "
+    "Zoog-era classics and Disney Afternoon toons."
+    "\n\n"
+    "Pick a show. Stay a while.")
+
 RB_OUTPUT     = "RetroBlast.xml"
 RB_ID         = "RetroBlast"
 RB_NAME       = "RetroBlast"
@@ -1512,8 +1536,11 @@ def _overlay(rows, specials):
                 if sp[1] < b: nxt.append((sp[1], b))
             segs = nxt
         for a, b in segs:
-            if b - a >= 5:                       # drop slivers under 5 minutes
-                out.append([a, b] + list(r[2:]))
+            if b - a < 5:                        # drop slivers under 5 minutes
+                continue
+            if a >= 1440 and any(sp[1] >= 1440 for sp in specials):
+                continue                         # day replaced to midnight: no grid tail past it
+            out.append([a, b] + list(r[2:]))
     return sorted(out + [list(s) for s in specials], key=lambda r: r[0])
 
 def build_weekly(ch_id, name, logo, sched, cache, end, start=None, tz=_central_to_utc, specials=None):
@@ -2042,7 +2069,8 @@ def main():
         if not sched:
             continue
         print(f"{nm}:"); wtv = build_weekly(cid, nm, logo, sched, cache, end, start, tz,
-                                            specials=RB_SPECIALS if cid == RB_ID else None)
+                                            specials={RB_ID: RB_SPECIALS, NICK_ID: NICK_SPECIALS,
+                                                      TSD_ID: TSD_SPECIALS}.get(cid))
         indent(wtv)
         ET.ElementTree(wtv).write(out, encoding="UTF-8", xml_declaration=True)
         print(f"Wrote {out}")
