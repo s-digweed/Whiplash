@@ -956,13 +956,35 @@ def _space_onscreen(prog):
         if en.get("system") == "onscreen" and en.text:
             en.text = _ONSCR_SPACE.sub(r"S\1 E\2", en.text)
 
+# Fixed descriptions for Whiplash-feed programmes that arrive without one (by title).
+WL_FIXED_DESC = {
+    # nightly off-air gap on the whiplash channel
+    "OFF-AIR": "I AM NOT AWAKE RIGHT NOW"
+               "\n\n"
+               "I AM GETTING SOME BEAUTY SLEEP"
+               "\n\n"
+               "I'LL BE BACK SOON",
+}
+
+def _add_fixed_desc(prog):
+    """Give a feed programme a fixed <desc> (placed right after title/sub-title) if it has none."""
+    text = WL_FIXED_DESC.get((prog.findtext("title") or "").strip())
+    if not text or prog.find("desc") is not None:
+        return
+    d = ET.Element("desc", {"lang": "en"}); d.text = text
+    pos = 0
+    for i, ch in enumerate(list(prog)):
+        if ch.tag in ("title", "sub-title"): pos = i + 1
+    prog.insert(pos, d)
+
 def copy_whiplash(tv, root):
     for src_id, (local_id, _) in WL_CHANNEL_MAP.items():
         n = 0
         for prog in root.findall("programme"):
             if prog.get("channel") != src_id: continue
             np = ET.fromstring(ET.tostring(prog)); np.set("channel", local_id)
-            _strip_local_images(np); _space_onscreen(np); tv.append(np); n += 1
+            _strip_local_images(np); _space_onscreen(np); _add_fixed_desc(np)
+            tv.append(np); n += 1
         if n: print(f"  {local_id}: {n} programmes")
 
 def build_eel(tv, root, cache):
