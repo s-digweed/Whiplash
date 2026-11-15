@@ -977,15 +977,68 @@ def _add_fixed_desc(prog):
         if ch.tag in ("title", "sub-title"): pos = i + 1
     prog.insert(pos, d)
 
+# Off-air fillers in the Whiplash feed: consecutive filler slots are merged, then
+# retitled / described. "block_h" splits the merged run into blocks of that many hours
+# (aligned to 00:00/12:00 UTC for 12); None keeps one block per run.
+WL_FILLER_MERGE = {
+    "whiplashwindowtv": {"match": "programmes start at 6am",
+                         "title": "Programmes start at 6AM",       # British channel: British spelling
+                         "desc":  "We'll be back at 6AM.",
+                         "block_h": None},
+    "whiplashcinema":   {"match": "programming has been suspended",
+                         "title": None,                     # keep feed title
+                         "desc":  "Programming on Whiplash Cinema is currently suspended."
+                                  "\n\n"
+                                  "We hope to return in a hopefully much improved state soon.",
+                         "block_h": 12},
+}
+
+def _wl_t(s):  return datetime.strptime(s[:14], "%Y%m%d%H%M%S")
+def _wl_s(dt): return dt.strftime("%Y%m%d%H%M%S") + " +0000"
+
+def _merge_fillers(local_id, progs):
+    cfg = WL_FILLER_MERGE.get(local_id)
+    if not cfg:
+        return progs
+    is_fill = lambda p: cfg["match"] in (p.findtext("title") or "").lower()
+    out, i = [], 0
+    while i < len(progs):
+        if not is_fill(progs[i]):
+            out.append(progs[i]); i += 1; continue
+        j = i
+        while j + 1 < len(progs) and is_fill(progs[j + 1]) and progs[j + 1].get("start") == progs[j].get("stop"):
+            j += 1
+        a, b = _wl_t(progs[i].get("start")), _wl_t(progs[j].get("stop"))
+        title = cfg["title"] or (progs[i].findtext("title") or "").strip()
+        cuts = [a]
+        if cfg["block_h"]:
+            step = timedelta(hours=cfg["block_h"])
+            nxt = a.replace(hour=0, minute=0, second=0) + step
+            while nxt <= a: nxt += step
+            while nxt < b: cuts.append(nxt); nxt += step
+        cuts.append(b)
+        for x, y in zip(cuts, cuts[1:]):
+            np = ET.Element("programme", {"start": _wl_s(x), "stop": _wl_s(y), "channel": local_id})
+            ET.SubElement(np, "title", {"lang": "en"}).text = title
+            ET.SubElement(np, "desc", {"lang": "en"}).text = cfg["desc"]
+            out.append(np)
+        i = j + 1
+    return out
+
 def copy_whiplash(tv, root):
     for src_id, (local_id, _) in WL_CHANNEL_MAP.items():
-        n = 0
+        progs = []
         for prog in root.findall("programme"):
             if prog.get("channel") != src_id: continue
             np = ET.fromstring(ET.tostring(prog)); np.set("channel", local_id)
             _strip_local_images(np); _space_onscreen(np); _add_fixed_desc(np)
-            tv.append(np); n += 1
-        if n: print(f"  {local_id}: {n} programmes")
+            progs.append(np)
+        n0 = len(progs)
+        progs = _merge_fillers(local_id, progs)
+        for np in progs: tv.append(np)
+        if progs:
+            extra = f" (fillers merged from {n0})" if len(progs) != n0 else ""
+            print(f"  {local_id}: {len(progs)} programmes{extra}")
 
 def build_eel(tv, root, cache):
     got_desc = got_sub = 0
