@@ -1245,7 +1245,7 @@ CCN_RENAMES    = {                       # site title -> our guide title
 
 NICK_OUTPUT     = "NickPicks.xml"
 NICK_ID         = "NickPicks"
-NICK_NAME       = "Nick Picks"
+NICK_NAME       = "NickPicks"
 NICK_LOGO       = "https://i.imgur.com/6is9eGi.png"
 NICK_SCHED_FILE = "nickpicks_schedule.json"
 NICK_DAYS       = 60                     # rolling window (perpetual weekly loop)
@@ -1273,8 +1273,11 @@ def _month_filler(first, last, title, desc):
 NICK_SPECIALS = _month_filler("2026-11-01", "2026-11-30", "Non-Stop Nick",
     "No schedule, just streaks."
     "\n\n"
-    "All November, Nick Picks runs back-to-back marathons and specials: Nicktoons, TeenNick "
-    "favorites and Nick at Nite late-night sitcoms, stacked episode after episode.")
+    "All November, NickPicks runs back-to-back marathons and specials, from SNICK-era classics "
+    "and Nicktoons to TeenNick favorites and Nick at Nite late-night sitcoms, stacked episode "
+    "after episode."
+    "\n\n"
+    "Grab the remote and settle in.")
 TSD_SPECIALS = _month_filler("2026-11-01", "2026-11-30", "That's So Marathon",
     "November's one long bonanza. Back-to-back marathons of Disney Channel favorites, "
     "Zoog-era classics and Disney Afternoon toons."
