@@ -2041,6 +2041,8 @@ SEPARATORS = [
     ("SEP.40Media",   "##### 40MEDIA GROUP #####", "https://i.imgur.com/Q9lOrSk.png"),
     ("SEP.Others",    "##### OTHERS #######",      "https://i.imgur.com/6UZEDRL.png"),
     ("SEP.Kift",      "##### KIFT #####",          "https://i.imgur.com/TZQU11E.png"),
+    ("SEP.USWebchnl", "##### US - WEBCHNL #####",  "https://i.imgur.com/SGcDJuQ.png",
+     "##### US - WEBCHNL #####"),               # optional 4th field = description
 ]
 # (tvg-id, display name, logo, title, description, block hours)
 DUMMY_CHANNELS = [
@@ -2112,7 +2114,8 @@ DUMMY_DAYS = 14
 def build_dummies():
     tv = ET.Element("tv", {"generator-info-name": "webchnl-dummies"})
     day0 = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=1)
-    rows = [(cid, name, logo, name, None, 24) for cid, name, logo in SEPARATORS] + DUMMY_CHANNELS
+    rows = [(sep[0], sep[1], sep[2], sep[1], (sep[3] if len(sep) > 3 else None), 24)
+            for sep in SEPARATORS] + DUMMY_CHANNELS
     for cid, name, logo, *_ in rows:
         ch = ET.SubElement(tv, "channel", {"id": cid})
         ET.SubElement(ch, "display-name").text = name
