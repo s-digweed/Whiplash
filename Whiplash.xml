@@ -10822,18 +10822,21 @@ Scapegoating Karen for his years of failures to steal the formula, Plankton repl
   <programme start="20261115003500 -0500" stop="20261115005000 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Yard Sale</sub-title>
-    <desc lang="en">Mr. Anderson leaves his yard sale to run the local bar for a friend, so Beavis and Butt-Head take over and sell everything.</desc>
-    <episode-num system="onscreen">S06 E16</episode-num>
-    <episode-num system="xmltv_ns">5.15.</episode-num>
+    <desc lang="en">Mr. Anderson puts Beavis and Butt-Head in charge of his yard sale, with predictable results.</desc>
+    <episode-num system="onscreen">S06 E15</episode-num>
+    <episode-num system="xmltv_ns">5.14.</episode-num>
   </programme>
   <programme start="20261115005000 -0500" stop="20261115011000 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
-    <sub-title lang="en">A Great Day; Follow Me</sub-title>
+    <sub-title lang="en">A Great Day / Follow Me</sub-title>
+    <desc lang="en">Beavis and Butt-Head experience good fortune in the form of a day full of things that are cool. / Beavis starts copying everything Butt-Head says, much to Butt-Head's annoyance.</desc>
+    <episode-num system="onscreen">S07 E14+E16</episode-num>
+    <episode-num system="xmltv_ns">6.13.</episode-num>
   </programme>
   <programme start="20261115011000 -0500" stop="20261115012500 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Whiplash</sub-title>
-    <desc lang="en">Beavis and Butt-Head plan to fake getting injured so they can get insurance money; real injuries follow.</desc>
+    <desc lang="en">Beavis and Butt-Head attempt to feign an injury so they can win compensation money.</desc>
     <episode-num system="onscreen">S05 E42</episode-num>
     <episode-num system="xmltv_ns">4.41.</episode-num>
   </programme>
@@ -10958,37 +10961,16 @@ Don't adjust your set; that hum is on purpose.</desc>
     <episode-num system="xmltv_ns">0.81.</episode-num>
   </programme>
   <programme start="20261115083000 -0500" stop="20261115085000 -0500" channel="eel-channel">
-    <title lang="en">The State</title>
-    <sub-title lang="en">Episode 2</sub-title>
-    <desc lang="en">This episode contains the following sketches:
-
-* I'm Watching
-
-* Pre-School Narc
-
-* Get a Job
-
-* Jurassic Park
-
-* Norwegian Cruise
-
-* Battleship I
-
-* Copy Shop
-
-* Battleship II
-
-* Superfriends
-
-* Eating Muppets
-
-* Hi Brow / Low Brow.</desc>
+    <title lang="en">The State (1994)</title>
+    <sub-title lang="en">#2.2</sub-title>
+    <desc lang="en">Features the sketches: "I'm Watching", "Pre-school Narc", "Get a Job", "Jurassic Park", "Norwegian Cruise", "Battleship I", "Copy Shop", "Battleship II", "Superfriends", "Eating Muppets", and "Hi Brow / Low Brow".</desc>
     <episode-num system="onscreen">S02 E02</episode-num>
     <episode-num system="xmltv_ns">1.1.</episode-num>
   </programme>
   <programme start="20261115085000 -0500" stop="20261115091500 -0500" channel="eel-channel">
-    <title lang="en">The State</title>
-    <sub-title lang="en">Pilot</sub-title>
+    <title lang="en">The State (1994)</title>
+    <sub-title lang="en">#4.7</sub-title>
+    <desc lang="en">Sketches include: "L.A. Open", "Dixon: Jedi Talent Agency", "Tough Choices", "Gas Station", "Gunter Brothers", "Desert Extras", "Real Estate Broker", "Adventures Of Young God", "Farewell", and "Hi-lite Reel".</desc>
     <episode-num system="onscreen">S04 E07</episode-num>
     <episode-num system="xmltv_ns">3.6.</episode-num>
   </programme>
@@ -11186,8 +11168,8 @@ Pull up a folding chair.</desc>
     <episode-num system="xmltv_ns">5.4.</episode-num>
   </programme>
   <programme start="20261115203000 -0500" stop="20261115224500 -0500" channel="eel-channel">
-    <title lang="en">Bad Religion</title>
-    <sub-title lang="en">Live at the Palladium</sub-title>
+    <title lang="en">Bad Religion: Live at the Palladium (2006)</title>
+    <desc lang="en">Live at the Palladium is a live concert DVD by the punk band Bad Religion, released in March 2006. It features footage from two nights at the Palladium in Hollywood, California, on November 21 and 22, 2004.</desc>
   </programme>
   <programme start="20261115224500 -0500" stop="20261115231000 -0500" channel="eel-channel">
     <title lang="en">It's Always Sunny in Philadelphia</title>
@@ -11220,21 +11202,21 @@ Pull up a folding chair.</desc>
   <programme start="20261116002500 -0500" stop="20261116004000 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Shopping List</sub-title>
-    <desc lang="en">Mr. Anderson asks Beavis and Butt-Head to go shopping for him at the drug store; they buy everything except what was on his list.</desc>
-    <episode-num system="onscreen">S06 E19</episode-num>
-    <episode-num system="xmltv_ns">5.18.</episode-num>
+    <desc lang="en">Tom Anderson, recovering from an injury, asks Beavis and Butt-Head to do his shopping for him.</desc>
+    <episode-num system="onscreen">S06 E18</episode-num>
+    <episode-num system="xmltv_ns">5.17.</episode-num>
   </programme>
   <programme start="20261116004000 -0500" stop="20261116005500 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">1-900-BEAVIS</sub-title>
-    <desc lang="en">After calling a phone sex number, Beavis &amp; Butt-Head decide to get their own 900 number.</desc>
+    <desc lang="en">Beavis and Butt-Head discover the joys of a phone sex hotline.</desc>
     <episode-num system="onscreen">S04 E09</episode-num>
     <episode-num system="xmltv_ns">3.8.</episode-num>
   </programme>
   <programme start="20261116005500 -0500" stop="20261116011000 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Here Comes the Bride's Butt</sub-title>
-    <desc lang="en">Beavis and Butt-Head go to a wedding in hopes that they can make out with the bride.</desc>
+    <desc lang="en">Beavis and Butt-Head invite themselves to two strangers' wedding, thinking they'll be able to make out with the bride.</desc>
     <episode-num system="onscreen">S05 E30</episode-num>
     <episode-num system="xmltv_ns">4.29.</episode-num>
   </programme>
@@ -11580,21 +11562,21 @@ Pull up a folding chair.</desc>
   <programme start="20261117003500 -0500" stop="20261117005000 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Heroes</sub-title>
-    <desc lang="en">The boys go skeet shooting and Butt-head downs a jumbo jet.</desc>
+    <desc lang="en">During a skeet shoot, Butt-Head takes down an airplane.</desc>
     <episode-num system="onscreen">S02 E22</episode-num>
     <episode-num system="xmltv_ns">1.21.</episode-num>
   </programme>
   <programme start="20261117005000 -0500" stop="20261117010500 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Cow Tipping</sub-title>
-    <desc lang="en">Beavis and Butt-Head see a milk commercial on TV that reminds them that cow tipping is cool,  so they set out to try it.</desc>
+    <desc lang="en">After the duo watches a milk commercial, they set off in an attempt to tip over a cow. However, the cow ends up crushing Beavis.</desc>
     <episode-num system="onscreen">S04 E02</episode-num>
     <episode-num system="xmltv_ns">3.1.</episode-num>
   </programme>
   <programme start="20261117010500 -0500" stop="20261117012000 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Killing Time</sub-title>
-    <desc lang="en">Beavis and Butt-Head try to figure out things to do during a two hour period when there is nothing on TV.</desc>
+    <desc lang="en">Butthead turns off the TV because there is nothing good on TV for two hours. Beavis and Butt-head then try to do loads of things to fill in the time.</desc>
     <episode-num system="onscreen">S05 E02</episode-num>
     <episode-num system="xmltv_ns">4.1.</episode-num>
   </programme>
