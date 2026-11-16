@@ -118,6 +118,10 @@ RENAMES = {
     "Secret World Of Alex Mack": "The Secret World of Alex Mack",
     "Bill Nye The Science Guy": "Bill Nye the Science Guy",
     "Homeless In Denton": "Homeless in Denton",
+    "Homeless in Japan": "Homeless in Japan (2011)",
+    "Homeless In Japan": "Homeless in Japan (2011)",
+    "The State": "The State (1994)",
+    "Beavis And Butt-Head": "Beavis and Butt-Head",   # disambiguate from the other series of the same name
     "Shin-Chan": "Crayon Shin-chan",
     "Chip n' Dale Rescue Rangers": "Chip 'n Dale Rescue Rangers",
     "Oban Star-Racers": "Ōban Star-Racers",
@@ -144,6 +148,8 @@ RENAMES = {
 REGEX_RENAMES = [
     (re.compile(r"^Bad Religion:?\s+Live at the Palladium$", re.I),
      "Bad Religion: Live at the Palladium (2006)"),
+    (re.compile(r"^Dead Kennedys:?\s+Live at (?:the )?Wust Radio Music Hall$", re.I),
+     "Dead Kennedys: Live at Wust Radio Music Hall (1985)"),
     (re.compile(r"^It[\u2019']?s\s+Always\s+Sunny\b.*$", re.I),
      "It's Always Sunny in Philadelphia"),
 ]
@@ -254,7 +260,15 @@ FIXED_DESC = {
         "Live at the Palladium is a live concert DVD by the punk band Bad Religion, released in "
         "March 2006. It features footage from two nights at the Palladium in Hollywood, "
         "California, on November 21 and 22, 2004.",
+    "Dead Kennedys: Live at Wust Radio Music Hall (1985)":
+        "Dead Kennedys perform live at Wust Radio Music Hall in Washington, D.C., on November 18, "
+        "1985. Lead singer Jello Biafra delivers a politically charged speech criticizing 'phony "
+        "patriotic pigs' and 'Nazi rednecks' before the band begins a high-energy punk rock "
+        "performance.",
     # ── shows the metadata lookups can't describe ──
+    "Homeless in Japan (2011)":
+        "From camping out in the park, to capsule hotels and cyber cafes, we dive into the weird "
+        "and wonderful world of the homeless in Japan.",
     "Nickelodeon GUTS":                       # IMDb show blurb
         "Three kids donning the different colors blue, red, and purple compete in relatively "
         "cool-looking olympic-style games to achieve as many points as they can.",
@@ -368,7 +382,7 @@ def norm_parts(title):
         return title
     t = title.rstrip()
     def mk(base, n):
-        return base.rstrip().rstrip(":").rstrip() + f": Part {n}"
+        return base.rstrip().rstrip(":,").rstrip() + f": Part {n}"
     m = re.search(r'\s*\(\s*Part\s+([A-Za-z]+|\d{1,2})\s*\)\s*$', t, re.I)   # "(Part One)"/"(Part 1)"
     if m and _wordnum(m.group(1)): return mk(t[:m.start()], _wordnum(m.group(1)))
     m = re.search(r'\s*\(\s*(\d{1,2})\s*\)\s*$', t)                          # "(1)"/"(2)"
@@ -1040,6 +1054,25 @@ def copy_whiplash(tv, root):
             extra = f" (fillers merged from {n0})" if len(progs) != n0 else ""
             print(f"  {local_id}: {len(progs)} programmes{extra}")
 
+def _guide_get(gdef, name):
+    """Look a feed episode name up in a name-mode guide. A sub-title that packs several
+    segments ("A Great Day; Follow Me") is split on ';' and each part looked up; the
+    result joins titles and descriptions with " / " and takes the first segment's S/E."""
+    eps = gdef["eps"]
+    hit = eps.get(_guide_norm(name))
+    if hit or ";" not in name:
+        return hit
+    parts = [x.strip() for x in name.split(";") if x.strip()]
+    found = [eps.get(_guide_norm(x)) for x in parts]
+    if not all(found):
+        return None
+    out = {"title": " / ".join(f.get("title") or x for f, x in zip(found, parts)),
+           "desc": " / ".join(f["desc"] for f in found if f.get("desc")) or None}
+    if found[0].get("se"):
+        out["se"] = found[0]["se"]
+        out["se_all"] = [f.get("se") for f in found]   # every segment's S/E -> "E14+E16"
+    return out
+
 def build_eel(tv, root, cache):
     got_desc = got_sub = 0
     # Resolve each configured Eel channel to the source id present in THIS feed.
@@ -1071,6 +1104,11 @@ def build_eel(tv, root, cache):
             raw_title = (prog.findtext("title") or "").strip()
             title, sub, season, ep, ep_end = parse_title(raw_title)
             title = _eel_segment_rename(title, prog.get("start"), local_id)   # time/channel-based renames
+            if sub and season is None:            # "Show" + "Special" split by the feed -> one known title
+                _j = f"{title}: {sub}"
+                _r = _rename(_j)
+                if _r != _j or _r in FIXED_DESC:
+                    title, sub = _r, None
             fm = _FILM_FRANCHISE.match(title)
             if fm and sub:
                 yr = re.search(r"\((?:19|20)\d\d\)", sub) or re.search(r"\((?:19|20)\d\d\)", raw_title)
@@ -1080,6 +1118,7 @@ def build_eel(tv, root, cache):
                     title = canon or f"{fm.group(1)}: {film} {yr.group(0)}"
                     sub, season, ep, ep_end = None, None, None, None
             desc = None
+            joint_se = None          # [[s,e],...] for a joint (multi-segment) episode
             # Per-show override guide (feed numbers the show in an order the DBs don't share).
             #   mode "absolute": index by the feed's absolute episode number (Batman).
             #   mode "se":       key by the feed's season.episode (Garfield; feed S/E == guide S/E).
@@ -1104,20 +1143,22 @@ def build_eel(tv, root, cache):
                     if not look and season is not None:
                         _d, look = episode_meta(title, season, ep, cache)
                     if look:
-                        gentry = gdef["eps"].get(_guide_norm(look))
+                        gentry = _guide_get(gdef, look)
                         if gentry:
                             sub = gentry.get("title") or sub   # S/E left as the feed's
                             if gdef.get("renumber") and gentry.get("se"):
                                 season, ep = gentry["se"]       # feed numbering unreliable -> guide's
             elif gdef and gdef.get("mode") == "name" and ep is None and sub:
                 # name-mode show with no parsed number but a feed sub-title -> match on it
-                gentry = gdef["eps"].get(_guide_norm(sub))
+                gentry = _guide_get(gdef, sub)
                 if gentry:
                     sub = gentry.get("title") or sub
                     if gdef.get("renumber") and gentry.get("se"):
                         season, ep = gentry["se"]
             if gentry is not None:
                 desc = gentry.get("desc") or None
+                if gdef.get("renumber") and gentry.get("se_all") and all(gentry["se_all"]):
+                    joint_se = gentry["se_all"]
             elif season is None and sub:                # have episode name, no number -> match it
                 season, ep = _name_to_se(title, EP_NAME_ALIAS.get((title, sub), sub), cache)
             if gentry is None and season is not None:
@@ -1136,7 +1177,7 @@ def build_eel(tv, root, cache):
             # sub-title are films (e.g. "American History X (1998)", or "Teen Titans" +
             # "Trouble in Tokyo (2006)"). Look them up as MOVIES on TMDB. Display title
             # and sub-title are left exactly as-is; only the description is filled.
-            if desc is None and season is None and title not in FIXED_DESC and TMDB_KEY:
+            if desc is None and season is None and title not in FIXED_DESC and not gdef and TMDB_KEY:
                 mq = f"{title}: {sub}" if sub else title
                 if re.search(r"\((?:19|20)\d\d\)", mq):
                     _my, _mov = _movie_meta(mq, cache)
@@ -1155,6 +1196,10 @@ def build_eel(tv, root, cache):
                 got_desc += 1
             if season is not None:
                 onscr = f"S{season:02d} E{ep:02d}" + (f"-E{ep_end:02d}" if ep_end else "")
+                if joint_se and len(joint_se) > 1:     # joint episode: "S07 E14+E16"
+                    onscr = f"S{joint_se[0][0]:02d} E{joint_se[0][1]:02d}" + "".join(
+                        f"+E{e:02d}" if s_ == joint_se[0][0] else f"+S{s_:02d} E{e:02d}"
+                        for s_, e in joint_se[1:])
                 ET.SubElement(np, "episode-num", {"system": "onscreen"}).text = onscr
                 ET.SubElement(np, "episode-num", {"system": "xmltv_ns"}).text = f"{season-1}.{ep-1}."
             tv.append(np); n += 1
