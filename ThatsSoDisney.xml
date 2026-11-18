@@ -3,18 +3,6 @@
   <channel id="ThatsSoDisney">
     <display-name>That's So Disney</display-name>
   </channel>
-  <programme start="20261116060000 +0000" stop="20261116180000 +0000" channel="ThatsSoDisney">
-    <title lang="en">That's So Marathon</title>
-    <desc lang="en">November's one long bonanza. Back-to-back marathons of Disney Channel favorites, Zoog-era classics and Disney Afternoon toons.
-
-Pick a show. Stay a while.</desc>
-  </programme>
-  <programme start="20261116180000 +0000" stop="20261117060000 +0000" channel="ThatsSoDisney">
-    <title lang="en">That's So Marathon</title>
-    <desc lang="en">November's one long bonanza. Back-to-back marathons of Disney Channel favorites, Zoog-era classics and Disney Afternoon toons.
-
-Pick a show. Stay a while.</desc>
-  </programme>
   <programme start="20261117060000 +0000" stop="20261117180000 +0000" channel="ThatsSoDisney">
     <title lang="en">That's So Marathon</title>
     <desc lang="en">November's one long bonanza. Back-to-back marathons of Disney Channel favorites, Zoog-era classics and Disney Afternoon toons.
@@ -8814,5 +8802,185 @@ Pick a show. Stay a while.</desc>
   <programme start="20270116053500 +0000" stop="20270116060000 +0000" channel="ThatsSoDisney">
     <title lang="en">Phil of the Future</title>
     <desc lang="en">A family from 2121 is stuck in 2004, trying desperately to fit in.</desc>
+  </programme>
+  <programme start="20270116060000 +0000" stop="20270116063000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Life With Derek</title>
+    <desc lang="en">Comedy tracing the constant feud between Casey and her stepbrother Derek as they vie for control of their household.</desc>
+  </programme>
+  <programme start="20270116063000 +0000" stop="20270116070000 +0000" channel="ThatsSoDisney">
+    <title lang="en">American Dragon Jake Long</title>
+    <desc lang="en">A teenage slacker is given the ability to turn into the American Dragon and defend all mythical creatures that secretly reside in the human world.</desc>
+  </programme>
+  <programme start="20270116070000 +0000" stop="20270116073000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Naturally, Sadie</title>
+    <desc lang="en">Fourteen-year-old Sadie Hawthorne is a bright girl who is interested in nature and animal behavior. Reaching beyond the limits of studying animals, she attempts to analyze humans.</desc>
+  </programme>
+  <programme start="20270116073000 +0000" stop="20270116080000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Cory in the House</title>
+    <desc lang="en">Cory Baxter moves to the White House in Washington, DC when his father Victor, is named the new personal White House chef of the President.</desc>
+  </programme>
+  <programme start="20270116080000 +0000" stop="20270116083000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Jersey</title>
+    <desc lang="en">A group of friends become famous athletes thanks to a magic jersey.</desc>
+  </programme>
+  <programme start="20270116083000 +0000" stop="20270116090000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Famous Jett Jackson</title>
+    <desc lang="en">After spending years in California working as the TV action hero Silverstone, Jett Jackson decides to move the show to his hometown hoping to pursue a more normal life.</desc>
+  </programme>
+  <programme start="20270116090000 +0000" stop="20270116093000 +0000" channel="ThatsSoDisney">
+    <title lang="en">So Weird</title>
+    <desc lang="en">A preteen girl travels around the country continually stumbling over supernatural occurrences. Since nobody believes her, she posts her finds on her website, "So Weird."</desc>
+  </programme>
+  <programme start="20270116093000 +0000" stop="20270116100000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Emperor's New School</title>
+    <desc lang="en">Continuation of 2000's The Emperor's New Groove, showcasing Kuzco's attempts to graduate from his kingdom's school, and his former advisor Yzma's evil attempts to keep him from his goal.</desc>
+  </programme>
+  <programme start="20270116100000 +0000" stop="20270116103000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Brandy &amp; Mr. Whiskers</title>
+    <desc lang="en">A snobbish dog named Brandy Harrington and a dim-witted rabbit named Mr. Whiskers try to make the best of things when they get stranded in the Amazon rainforest together.</desc>
+  </programme>
+  <programme start="20270116103000 +0000" stop="20270116110000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Replacements</title>
+    <desc lang="en">Two orphans are given access to a super foster agency that enables them to replace people in their life with aces and superhumans.</desc>
+  </programme>
+  <programme start="20270116110000 +0000" stop="20270116113000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Bill Nye: The Science Guy</title>
+    <desc lang="en">Scientist/comedian Bill Nye explores various aspects of science for young viewers.</desc>
+  </programme>
+  <programme start="20270116113000 +0000" stop="20270116120000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Mickey Mouse Works</title>
+    <desc lang="en">The continuing adventures of Mickey and friends.</desc>
+  </programme>
+  <programme start="20270116120000 +0000" stop="20270116123000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Disney's Doug</title>
+    <desc lang="en">Continuing where Doug (1991) left off, Doug Funnie faces new challenges in his life as he turns 12 and starts middle school.</desc>
+  </programme>
+  <programme start="20270116123000 +0000" stop="20270116130000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The New Adventures of Winnie the Pooh</title>
+    <desc lang="en">Follow Winnie the Pooh's adventures in the Hundred Acre Wood.</desc>
+  </programme>
+  <programme start="20270116130000 +0000" stop="20270116133000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Teacher's Pet</title>
+    <desc lang="en">Envying the life of his eight-year-old master, a talking dog disguises himself as a human boy in order to go to school with him, and he becomes the big mutt on campus.</desc>
+  </programme>
+  <programme start="20270116133000 +0000" stop="20270116140000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Lloyd in Space</title>
+    <desc lang="en">A Disney show centered around Lloyd, an alien, living in space and going through "ordinary" life with family and friends as a 12 year old.</desc>
+  </programme>
+  <programme start="20270116140000 +0000" stop="20270116143000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Pepper Ann</title>
+    <desc lang="en">The quirky adventures of a 12-year-old girl trying to get through life with her family and friends.</desc>
+  </programme>
+  <programme start="20270116143000 +0000" stop="20270116150000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Mary-Kate and Ashley in Action</title>
+    <desc lang="en">Animated television series, featuring the voices and likeness of Mary-Kate and Ashley Olsen.</desc>
+  </programme>
+  <programme start="20270116150000 +0000" stop="20270116153000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Teamo Supremo</title>
+    <desc lang="en">Three superhero children - Captain Crandall, Skate Lad, and Rope Girl - protect their state from supervillains.</desc>
+  </programme>
+  <programme start="20270116153000 +0000" stop="20270116160000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Fillmore!</title>
+    <desc lang="en">Former delinquent now fights for the good guys at X Middle School.</desc>
+  </programme>
+  <programme start="20270116160000 +0000" stop="20270116163000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Hercules: The Animated Series</title>
+    <desc lang="en">Follow Herc's many labors during the years he spent training on how to be a hero under the tutelage of satyr Phil. Many of the Olympian Gods and Goddesses pay visit to the young hero-to-be and help or hinder him in his new adventures.</desc>
+  </programme>
+  <programme start="20270116163000 +0000" stop="20270116170000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Legend of Tarzan</title>
+    <desc lang="en">The further adventures of the jungle hero Tarzan (1999) and his friends.</desc>
+  </programme>
+  <programme start="20270116170000 +0000" stop="20270116173000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Buzz Lightyear of Star Command</title>
+    <desc lang="en">The further adventures of Buzz Lightyear as a Space Ranger of Star Command and his comrades.</desc>
+  </programme>
+  <programme start="20270116173000 +0000" stop="20270116183000 +0000" channel="ThatsSoDisney">
+    <title lang="en">AfterToon Movie</title>
+    <desc lang="en">An afternoon feature presentation, a family or animated film capping off the cartoon lineup.</desc>
+  </programme>
+  <programme start="20270116183000 +0000" stop="20270116190000 +0000" channel="ThatsSoDisney">
+    <title lang="en">W.I.T.C.H.</title>
+    <desc lang="en">Five teenage girls learn that they have been chosen to guard the walls between parallel universes. For this purpose, they have been given the powers of the elements.</desc>
+  </programme>
+  <programme start="20270116190000 +0000" stop="20270116193000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Phil of the Future</title>
+    <desc lang="en">A family from 2121 is stuck in 2004, trying desperately to fit in.</desc>
+  </programme>
+  <programme start="20270116193000 +0000" stop="20270116200000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Braceface</title>
+    <desc lang="en">An 8th grader with preteenage problems on her mind and magical braces in her mouth tries to survive 8th grade and later, high school.</desc>
+  </programme>
+  <programme start="20270116200000 +0000" stop="20270116203000 +0000" channel="ThatsSoDisney">
+    <title lang="en">House of Mouse</title>
+    <desc lang="en">Collections of short cartoons hosted by Mickey and his Disney pals at his club, The House of Mouse.</desc>
+  </programme>
+  <programme start="20270116203000 +0000" stop="20270116210000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Weekenders</title>
+    <desc lang="en">The humorous Friday through Sunday misadventures of four best friends.</desc>
+  </programme>
+  <programme start="20270116210000 +0000" stop="20270116213000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Recess</title>
+    <desc lang="en">Comic tales of a group of good friends, four boys and two girls, during breaks in primary school, as they grow up, relate to each other, and have brushes with authority.</desc>
+  </programme>
+  <programme start="20270116213000 +0000" stop="20270116220000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Kim Possible</title>
+    <desc lang="en">A high school cheerleader and her clumsy best friend balance their duties as global crime-fighters with the typical challenges of adolescence.</desc>
+  </programme>
+  <programme start="20270116220000 +0000" stop="20270116223000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Proud Family</title>
+    <desc lang="en">Follow the adventures and misadventures of Penny Proud as she does her best to navigate through the early years of teend-dom.</desc>
+  </programme>
+  <programme start="20270116223000 +0000" stop="20270116230000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Lizzie McGuire</title>
+    <desc lang="en">Clumsy middle-schooler Lizzie McGuire navigates through teenage issues while enjoying her tween years with genuine friends, an annoying younger brother, and loving parents.</desc>
+  </programme>
+  <programme start="20270116230000 +0000" stop="20270116233000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Even Stevens</title>
+    <desc lang="en">The Stevens family live in Sacramento, California, where the two younger children in the family, Ren and Louis, who have opposing personalities, often clash.</desc>
+  </programme>
+  <programme start="20270116233000 +0000" stop="20270117000000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Suite Life of Zack &amp; Cody</title>
+    <desc lang="en">Comedy about identical twins living at the Tipton Hotel with their single mother who is a lounge singer at the hotel.</desc>
+  </programme>
+  <programme start="20270117000000 +0000" stop="20270117003000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Hannah Montana</title>
+    <desc lang="en">Adventures of a teenage pop star who keeps her identity secret from even her closest friends by using a disguise on-stage.</desc>
+  </programme>
+  <programme start="20270117003000 +0000" stop="20270117010000 +0000" channel="ThatsSoDisney">
+    <title lang="en">That's So Raven</title>
+    <desc lang="en">A teenage girl periodically receives brief psychic visions of the near future. Trying to make these visions come true results in trouble, and hilarious situations, for the girl and her friends.</desc>
+  </programme>
+  <programme start="20270117010000 +0000" stop="20270117023000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Saturday Night Movie</title>
+    <desc lang="en">A Saturday night feature presentation, a family film to round out the night.</desc>
+  </programme>
+  <programme start="20270117023000 +0000" stop="20270117030000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Suite Life on Deck</title>
+    <desc lang="en">Spinoff of the hit Disney Channel series "The Suite Life of Zack &amp;amp; Cody," in which twin brothers Zack and Cody Martin and hotel heiress London Tipton enroll in a semester-at-sea program aboard a ship called the S.S. Tipton.</desc>
+  </programme>
+  <programme start="20270117030000 +0000" stop="20270117033000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Phineas &amp; Ferb</title>
+    <desc lang="en">Phineas and Ferb invent, scheme, and stay one step ahead of their bratty sister. Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz.</desc>
+  </programme>
+  <programme start="20270117033000 +0000" stop="20270117040000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Good Luck Charlie</title>
+    <desc lang="en">The Duncan family is adjusting to the surprise birth of their fourth child, Charlie. When parents Amy and Bob return to work they put their latest addition in the care of her three older siblings, PJ, Teddy, and Gabe.</desc>
+  </programme>
+  <programme start="20270117040000 +0000" stop="20270117043000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Wizards of Waverly Place</title>
+    <desc lang="en">The Russo family may be an ordinary family with an average restaurant, but behind closed doors, all three children must compete to be the next family wizard.</desc>
+  </programme>
+  <programme start="20270117043000 +0000" stop="20270117050000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Lilo &amp; Stitch: The Series</title>
+    <desc lang="en">The rambunctious human and alien duo must hunt down Dr. Jumba Jookiba's 625 other experimental creatures infesting Hawaii.</desc>
+  </programme>
+  <programme start="20270117050000 +0000" stop="20270117053000 +0000" channel="ThatsSoDisney">
+    <title lang="en">American Dragon Jake Long</title>
+    <desc lang="en">A teenage slacker is given the ability to turn into the American Dragon and defend all mythical creatures that secretly reside in the human world.</desc>
+  </programme>
+  <programme start="20270117053000 +0000" stop="20270117060000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Life With Derek</title>
+    <desc lang="en">Comedy tracing the constant feud between Casey and her stepbrother Derek as they vie for control of their household.</desc>
   </programme>
 </tv>
