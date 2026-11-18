@@ -6075,6 +6075,19 @@
   },
   "mode": "name"
  },
+ "Nightmare Ned": {
+  "eps": {
+   "1.4": {
+    "desc": "In his nightmare, Ned is stuck at school completely exposed. He begs bullies Conrad and Vernon to help keep him out of sight while the principal hunts for him to present the \"Dapper Dan\" award in front of the entire school.",
+    "se": [
+     1,
+     4
+    ],
+    "title": "Dapper Dan"
+   }
+  },
+  "mode": "se"
+ },
  "Rocko's Modern Life": {
   "eps": {
    "anelkforheffer": {

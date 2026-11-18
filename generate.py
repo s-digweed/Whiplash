@@ -151,7 +151,9 @@ REGEX_RENAMES = [
     (re.compile(r"^Dead Kennedys:?\s+Live at (?:the )?Wust Radio Music Hall$", re.I),
      "Dead Kennedys: Live at Wust Radio Music Hall (1985)"),
     (re.compile(r"^It[\u2019']?s\s+Always\s+Sunny\b.*$", re.I),
-     "It's Always Sunny in Philadelphia"),
+     "It's Always Sunny in Philadelphia"),    # Toon Diggity one-off: Mickey's birthday (Nov 18) themed Afternoon Shuffle
+    (re.compile(r"^Afternoon Shuffle:\s*Mickey[\u2019']?s Birthday(?: Party)?$", re.I),
+     "Mickey's Birthday Party (1942)"),
 ]
 
 # Fixed descriptions for block/filler programmes with no episode data (keyed by title).
@@ -265,6 +267,19 @@ FIXED_DESC = {
         "1985. Lead singer Jello Biafra delivers a politically charged speech criticizing 'phony "
         "patriotic pigs' and 'Nazi rednecks' before the band begins a high-energy punk rock "
         "performance.",
+    "Mickey's Birthday Party (1942)":         # feed: "Afternoon Shuffle: Mickey's Birthday"
+        "The gang throws Mickey a surprise birthday party; his present is an electric organ, which "
+        "Minnie plays while Mickey does a jazzy dance. Goofy bakes the cake, but keeps having trouble "
+        "with it falling. The gang does a conga line to a Latin tune.",
+    # ── Toon Diggity films (feed: "Lupin III" + sub-title film; joined to one title) ──
+    "Lupin III: The Legend of the Gold of Babylon (1985)":
+        "In New York, ancient tablets point to the lost gold of Babylon. Lupin races two rival crime "
+        "families, Zenigata's new all-female police squad and a mysterious old woman named Rosetta to "
+        "find the treasure, while Halley's Comet holds the key to its secret.",
+    "Lupin III: The Fuma Conspiracy (1987)":
+        "Goemon's wedding to Murasaki is crashed by the Fuma ninja clan, who kidnap the bride and "
+        "demand her family's ancient treasure as ransom. Lupin, Jigen and Fujiko join Goemon to rescue "
+        "her and beat the Fuma to the treasure, with Zenigata hot on their trail.",
     # ── shows the metadata lookups can't describe ──
     "Homeless in Japan (2011)":
         "From camping out in the park, to capsule hotels and cyber cafes, we dive into the weird "
