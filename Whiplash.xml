@@ -14037,7 +14037,8 @@ Cartoons: Pluto vs The Watchdog; Bird Brained Donald</desc>
     <episode-num system="xmltv_ns">2.7.</episode-num>
   </programme>
   <programme start="20261118161000 -0500" stop="20261118180000 -0500" channel="toon-diggity">
-    <title lang="en">Afternoon Shuffle: Mickey's Birthday</title>
+    <title lang="en">Mickey's Birthday Party (1942)</title>
+    <desc lang="en">The gang throws Mickey a surprise birthday party; his present is an electric organ, which Minnie plays while Mickey does a jazzy dance. Goofy bakes the cake, but keeps having trouble with it falling. The gang does a conga line to a Latin tune.</desc>
   </programme>
   <programme start="20261118180000 -0500" stop="20261118191000 -0500" channel="toon-diggity">
     <title lang="en">Mickey, Donald, Goofy</title>
@@ -14399,8 +14400,8 @@ The Offbeats  Tommy's Coat: Tommy goes insane due to his lack of coat.</desc>
 Homework can wait.</desc>
   </programme>
   <programme start="20261119180000 -0500" stop="20261119194500 -0500" channel="toon-diggity">
-    <title lang="en">Lupin III</title>
-    <sub-title lang="en">The Legend of the Gold of Babylon (1985)</sub-title>
+    <title lang="en">Lupin III: The Legend of the Gold of Babylon (1985)</title>
+    <desc lang="en">In New York, ancient tablets point to the lost gold of Babylon. Lupin races two rival crime families, Zenigata's new all-female police squad and a mysterious old woman named Rosetta to find the treasure, while Halley's Comet holds the key to its secret.</desc>
   </programme>
   <programme start="20261119194500 -0500" stop="20261119201000 -0500" channel="toon-diggity">
     <title lang="en">Undergrads</title>
@@ -14666,6 +14667,7 @@ Henry and June Theme  Staplethon</desc>
   <programme start="20261120091500 -0500" stop="20261120094000 -0500" channel="toon-diggity">
     <title lang="en">Nightmare Ned</title>
     <sub-title lang="en">Dapper Dan</sub-title>
+    <desc lang="en">In his nightmare, Ned is stuck at school completely exposed. He begs bullies Conrad and Vernon to help keep him out of sight while the principal hunts for him to present the "Dapper Dan" award in front of the entire school.</desc>
     <episode-num system="onscreen">S01 E04</episode-num>
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
@@ -14777,8 +14779,8 @@ Henry and June Theme  Kabloopers!: Henry isn't amused with June, who is displayi
 Homework can wait.</desc>
   </programme>
   <programme start="20261120180000 -0500" stop="20261120191500 -0500" channel="toon-diggity">
-    <title lang="en">Lupin III</title>
-    <sub-title lang="en">The Fuma Conspiracy (1987)</sub-title>
+    <title lang="en">Lupin III: The Fuma Conspiracy (1987)</title>
+    <desc lang="en">Goemon's wedding to Murasaki is crashed by the Fuma ninja clan, who kidnap the bride and demand her family's ancient treasure as ransom. Lupin, Jigen and Fujiko join Goemon to rescue her and beat the Fuma to the treasure, with Zenigata hot on their trail.</desc>
   </programme>
   <programme start="20261120191500 -0500" stop="20261120194000 -0500" channel="toon-diggity">
     <title lang="en">Duckman</title>
