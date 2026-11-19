@@ -14673,7 +14673,8 @@ Henry and June Theme  Staplethon</desc>
   </programme>
   <programme start="20261120094000 -0500" stop="20261120100500 -0500" channel="toon-diggity">
     <title lang="en">Crayon Shin-chan</title>
-    <sub-title lang="en">Episode 7</sub-title>
+    <sub-title lang="en">I Get Recycled / Mom Killed the TV / Lucky Gets Lucky</sub-title>
+    <desc lang="en">Mitsy gives away Shin-chan's books in exchange for tissue papers, but Shin-chan brings it back and promises to take care of it. / As the TV stops working, Shin-chan gets upset, so Mitsy prepares some delicious dessert for him. / When Lucky goes out alone for a stroll, he finds a stuffed toy and brings it home. The next day, he sees a girl searching for her toy, and returns it.</desc>
     <episode-num system="onscreen">S01 E07</episode-num>
     <episode-num system="xmltv_ns">0.6.</episode-num>
   </programme>
