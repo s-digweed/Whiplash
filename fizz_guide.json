@@ -7079,6 +7079,115 @@
   },
   "mode": "name"
  },
+ "Serial Experiments Lain": {
+  "eps": {
+   "1.1": {
+    "desc": "People are getting emails from a girl that killed herself last week (Chisa Yomoda), which claim that she only gave up her body, but is actually still alive inside the Wired, and that God is also there. After getting one of these emails, the introverted Lain becomes interested in computers and she asks her father for a new NAVI.",
+    "se": [
+     1,
+     1
+    ],
+    "title": "Weird"
+   },
+   "1.10": {
+    "desc": "Lain encounters a man who calls himself the \"god of the wired\", and members of the Knights all across the world log on to participate in a cryptic mass suicide.",
+    "se": [
+     1,
+     10
+    ],
+    "title": "Love"
+   },
+   "1.11": {
+    "desc": "Lain risks a meltdown by uploading a Navi clone into her own brain. Later, the border between reality and the wired is threatened when Lain forces the world to forget a secret that never should have been revealed.",
+    "se": [
+     1,
+     11
+    ],
+    "title": "Infornography"
+   },
+   "1.12": {
+    "desc": "\"God\" preaches that our bodies are simply an obstacle preventing the evolution of mankind. An exhausted Lain appears willing to sacrifice her own flesh and blood until Alice convinces her to take a stand against the digitalized deity.",
+    "se": [
+     1,
+     12
+    ],
+    "title": "Landscape"
+   },
+   "1.13": {
+    "desc": "Lain's guilt over the havoc caused by her interaction within the wired provokes her to take drastic – and irreversible – action.",
+    "se": [
+     1,
+     13
+    ],
+    "title": "Ego"
+   },
+   "1.2": {
+    "desc": "Accela – a designer drug born of nanotechnology – is a big hit with the club kids, but what's that got to do with Lain? Only a madman who painted the dance floor with blood can answer that question – and he's dead.",
+    "se": [
+     1,
+     2
+    ],
+    "title": "Girls"
+   },
+   "1.3": {
+    "desc": "Lain has questions about a computer chip someone left in her locker, and her Dad's not talking. Some kids at the club say they know all about it – but they want a piece of Lain's wired wild side.",
+    "se": [
+     1,
+     3
+    ],
+    "title": "Psyche"
+   },
+   "1.4": {
+    "desc": "The more involved with computers she becomes, the more Lain begins to transform. In the cybernetic cocoon that was once her room, she's hard at work blurring the lines between reality and the wired.",
+    "se": [
+     1,
+     4
+    ],
+    "title": "Religion"
+   },
+   "1.5": {
+    "desc": "Lain's friends suspect her involvement in a series of computer errors that caused a lethal traffic accident. Meanwhile, her sister is haunted by mysterious messages demanding that she \"fulfill the prophecy\".",
+    "se": [
+     1,
+     5
+    ],
+    "title": "Distortion"
+   },
+   "1.6": {
+    "desc": "When an image of herself appears in the clouds, the real Lain enters the wired on a search for answers. Her quest leads to a \"child-killer\" scientist whose devious work is being exploited by the Knights.",
+    "se": [
+     1,
+     6
+    ],
+    "title": "Kids"
+   },
+   "1.7": {
+    "desc": "Covert agents in black suits take Lain in for questioning. When the interrogation hits too close to home, Lain flips from real to wired in the blink of an eye.",
+    "se": [
+     1,
+     7
+    ],
+    "title": "Society"
+   },
+   "1.8": {
+    "desc": "Lain's unsavory behavior within the wired turns her into an outcast at school. Confused and alone, Lain investigates her own cyber-lifestyle only to be shocked by a voyeuristic incarnation of herself.",
+    "se": [
+     1,
+     8
+    ],
+    "title": "Rumors"
+   },
+   "1.9": {
+    "desc": "A DJ at the club passes Lain a plain brown envelope containing a computer chip of unknown origins. Hoping to learn more about the clandestine technology, Lain abducts a young boy for a \"date.\"",
+    "se": [
+     1,
+     9
+    ],
+    "title": "Protocol"
+   }
+  },
+  "mode": "se"
+ },
  "The State (1994)": {
   "eps": {
    "1.0": {
