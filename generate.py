@@ -284,6 +284,10 @@ FIXED_DESC = {
     "Homeless in Japan (2011)":
         "From camping out in the park, to capsule hotels and cyber cafes, we dive into the weird "
         "and wonderful world of the homeless in Japan.",
+    "Crayon Shin-chan":                       # fallback for episodes not in fizz_guide.json (Vitello dub)
+        "Five-year-old Shinnosuke \"Shin-chan\" Nohara turns everyday life in Kasukabe, Japan, into chaos. "
+        "Armed with blunt remarks, absurd logic and endless cheek, he drives his parents, teachers and "
+        "neighbors up the wall, but there's always room for a warm moment with his family and friends.",
     "Nickelodeon GUTS":                       # IMDb show blurb
         "Three kids donning the different colors blue, red, and purple compete in relatively "
         "cool-looking olympic-style games to achieve as many points as they can.",
