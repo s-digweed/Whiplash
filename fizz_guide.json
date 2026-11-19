@@ -2410,6 +2410,171 @@
   "mode": "name",
   "renumber": true
  },
+ "Crapston Villas": {
+  "eps": {
+   "1.1": {
+    "desc": "Sophie and Jonathan make paltry preparations for the arrival of their new lodger, Flossie. Well, to be honest, Sophie hoovers and Jonathan daydreams.",
+    "se": [
+     1,
+     1
+    ],
+    "title": "Episode 1"
+   },
+   "1.10": {
+    "desc": "Sophie plans her revenge.",
+    "se": [
+     1,
+     10
+    ],
+    "title": "Episode 10"
+   },
+   "1.2": {
+    "desc": "Marge collapses. Jonathan loses his dope. Flossie runs home after being chased by a man.",
+    "se": [
+     1,
+     2
+    ],
+    "title": "Episode 2"
+   },
+   "1.3": {
+    "desc": "Flossie bursts in, having been mugged - well, maybe she's stretching the truth a bit.",
+    "se": [
+     1,
+     3
+    ],
+    "title": "Episode 3"
+   },
+   "1.4": {
+    "desc": "Marge has pulled big-time with the Adonis-like Brad.",
+    "se": [
+     1,
+     4
+    ],
+    "title": "Episode 4"
+   },
+   "1.5": {
+    "desc": "Squatters move into the basement of Crapston Villas but they may not want to stay long.",
+    "se": [
+     1,
+     5
+    ],
+    "title": "Episode 5"
+   },
+   "1.6": {
+    "desc": "Woody reckons he's been snogging his nan. Robbie's sure his mum will discover his secret.",
+    "se": [
+     1,
+     6
+    ],
+    "title": "Episode 6"
+   },
+   "1.7": {
+    "desc": "Delia is convinced that Larry is the devil. Marge places a singles ad.",
+    "se": [
+     1,
+     7
+    ],
+    "title": "Episode 7"
+   },
+   "1.8": {
+    "desc": "Woody leaves home via the window but Marge doesn't notice.",
+    "se": [
+     1,
+     8
+    ],
+    "title": "Episode 8"
+   },
+   "1.9": {
+    "desc": "Woody finally meets his female match.",
+    "se": [
+     1,
+     9
+    ],
+    "title": "Episode 9"
+   },
+   "2.1": {
+    "desc": "Sophie is so miserable it would take a mountain of Prozac just to make her mouth twitch.",
+    "se": [
+     2,
+     1
+    ],
+    "title": "Episode 1"
+   },
+   "2.10": {
+    "desc": "Sophie arrives at the wedding late, covered in mud, and gets horrendously drunk.",
+    "se": [
+     2,
+     10
+    ],
+    "title": "Episode 10"
+   },
+   "2.2": {
+    "desc": "Enid's sentenced to community service at the old people's home.",
+    "se": [
+     2,
+     2
+    ],
+    "title": "Episode 2"
+   },
+   "2.3": {
+    "desc": "Hoody has second thoughts about leaving Woody.",
+    "se": [
+     2,
+     3
+    ],
+    "title": "Episode 3"
+   },
+   "2.4": {
+    "desc": "Sophie has to pretend that repulsive Malcolm is the hottest date in town.",
+    "se": [
+     2,
+     4
+    ],
+    "title": "Episode 4"
+   },
+   "2.5": {
+    "desc": "Denis invites Marge to a strip club; she doesn't need much persuasion.",
+    "se": [
+     2,
+     5
+    ],
+    "title": "Episode 5"
+   },
+   "2.6": {
+    "desc": "How will Marge react when she discovers her masked stripper's identity?",
+    "se": [
+     2,
+     6
+    ],
+    "title": "Episode 6"
+   },
+   "2.7": {
+    "desc": "Francis and Marge share a drink back at her place, which inevitably leads to other things.",
+    "se": [
+     2,
+     7
+    ],
+    "title": "Episode 7"
+   },
+   "2.8": {
+    "desc": "Hoody takes too many mushrooms. Flossie lies back and thinks of England.",
+    "se": [
+     2,
+     8
+    ],
+    "title": "Episode 8"
+   },
+   "2.9": {
+    "desc": "Jonathan loses his job; a Hare Krishna offers him free food and lodging and hopefully more.",
+    "se": [
+     2,
+     9
+    ],
+    "title": "Episode 9"
+   }
+  },
+  "mode": "se"
+ },
  "Crayon Shin-chan": {
   "eps": {
    "1.1": {

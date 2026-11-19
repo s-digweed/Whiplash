@@ -284,6 +284,9 @@ FIXED_DESC = {
     "Homeless in Japan (2011)":
         "From camping out in the park, to capsule hotels and cyber cafes, we dive into the weird "
         "and wonderful world of the homeless in Japan.",
+    "Crapston Villas":                        # Channel 4 show blurb (fallback for unlisted episodes)
+        "This animated soap opens up the glamorous world of Crapston Villas. We see the hilarious antics "
+        "of the inhabitants of this much sought-after residential property.",
     "Crayon Shin-chan":                       # fallback for episodes not in fizz_guide.json (Vitello dub)
         "Five-year-old Shinnosuke \"Shin-chan\" Nohara turns everyday life in Kasukabe, Japan, into chaos. "
         "Armed with blunt remarks, absurd logic and endless cheek, he drives his parents, teachers and "
@@ -335,6 +338,28 @@ FIXED_DESC = {
 #    ~11:25-11:30 PM late-night block (2x/week). Split them by local start hour.
 # ("The Late Shift" keeps its feed title; its description is handled via FIXED_DESC.)
 # Feed start attr looks like "20260927131000 -0400"; digits [8:10] are the local hour.
+# Some Eel-feed titles arrive in BLOCK CAPITALS ("CRAPSTON VILLAS", "RENO 911!").
+# Title-case them so they match the guide, renames and the rest of the grid.
+_KEEP_CAPS = {"TV", "MTV", "USA", "UK", "US", "NYPD", "CSI", "SNL", "UFO", "BBC", "ITV", "ABC", "NBC",
+              "CBS", "WWE", "WWF", "DC", "II", "III", "IV", "VI", "VII", "VIII", "IX", "XL", "AM", "PM", "DJ"}
+_SMALL = {"a", "an", "and", "the", "of", "in", "on", "at", "to", "for", "or", "but", "nor", "vs", "vs.", "by", "with"}
+def _decap(title):
+    letters = re.sub(r"[^A-Za-z]", "", title or "")
+    if len(letters) < 4 or letters != letters.upper():
+        return title                                   # not shouting -> leave alone
+    words = title.split(" "); out = []
+    for i, w in enumerate(words):
+        core = re.sub(r"[^A-Za-z0-9']", "", w)
+        stem = re.sub(r"'S$", "", core.upper()).replace("'", "")
+        if stem in _KEEP_CAPS or re.search(r"\d", core):
+            out.append(re.sub(r"'S\b", "'s", w)); continue     # MTV'S -> MTV's
+        lw = w.lower()
+        if 0 < i < len(words) - 1 and lw in _SMALL:
+            out.append(lw); continue
+        # capitalise each hyphen/slash part: SPIDER-MAN -> Spider-Man; IT'S -> It's
+        out.append(re.sub(r"[A-Za-z]+(?:'[A-Za-z]+)?", lambda m: m.group(0)[0].upper() + m.group(0)[1:].lower(), lw))
+    return " ".join(out)
+
 def _eel_segment_rename(title, start, channel=None):
     # Fizz's nightly classic-shorts block is titled just "Cartoons" in the feed.
     if channel == "fizz" and title == "Cartoons":
@@ -1122,6 +1147,7 @@ def build_eel(tv, root, cache):
             if prog.get("channel") != src_id: continue
             raw_title = (prog.findtext("title") or "").strip()
             title, sub, season, ep, ep_end = parse_title(raw_title)
+            title = _rename(_decap(title))                                    # BLOCK CAPS -> Title Case
             title = _eel_segment_rename(title, prog.get("start"), local_id)   # time/channel-based renames
             if sub and season is None:            # "Show" + "Special" split by the feed -> one known title
                 _j = f"{title}: {sub}"
