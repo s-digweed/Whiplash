@@ -1,4 +1,6 @@
 name: Update Whiplash EPG
+
+on:
   workflow_dispatch: {}
   push:
     paths:
