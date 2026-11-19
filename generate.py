@@ -158,7 +158,7 @@ REGEX_RENAMES = [
 
 # Fixed descriptions for block/filler programmes with no episode data (keyed by title).
 _FIZZ_MIX_DESC = ("Classic cartoons like Looney Tunes, Tom and Jerry, Woody Woodpecker, "
-                  "Droopy, NFB Canada and Zagreb Film animated shorts plus some "
+                  "Droopy, Hubley Studio, NFB Canada and Zagreb Film animated shorts plus some "
                   "Pop and Rock music videos.")
 _LATE_NIGHT_MIX_DESC = ("Your hand-picked midnight refill of Looney Tunes, Tom and Jerry, "
                         "Woody Woodpecker, Droopy, and animated shorts from NFB Canada and "
