@@ -4,96 +4,6 @@
     <display-name>Placid</display-name>
     <icon src="https://i.imgur.com/0PCSYdW.png" />
   </channel>
-  <programme start="20261031233000 -0400" stop="20261101000000 -0400" channel="Placid">
-    <title lang="en">Soul Eater</title>
-    <sub-title lang="en">The Battle of the Gods - Death City on the Verge of Collapse?</sub-title>
-    <desc lang="en">Free from his underground prison, Asura unleashes his terrible powers on Death City! High in the air, above the destruction, Death himself engages the Kishin in battle.</desc>
-    <episode-num system="xmltv_ns">0.23.</episode-num>
-  </programme>
-  <programme start="20261101040000 +0000" stop="20261101120000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261101120000 +0000" stop="20261102000000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261102000000 +0000" stop="20261102120000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261102120000 +0000" stop="20261103000000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261103000000 +0000" stop="20261103120000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261103120000 +0000" stop="20261104000000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261104000000 +0000" stop="20261104120000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261104120000 +0000" stop="20261105000000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261105000000 +0000" stop="20261105120000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261105120000 +0000" stop="20261106000000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261106000000 +0000" stop="20261106120000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261106120000 +0000" stop="20261107000000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261107000000 +0000" stop="20261107120000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
-  <programme start="20261107120000 +0000" stop="20261107220000 +0000" channel="Placid">
-    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
-    <desc lang="en">Only the best in anime(tion).
-
-Placid is live every Saturday at 5:00 PM EST.</desc>
-  </programme>
   <programme start="20261107170000 -0500" stop="20261107173000 -0500" channel="Placid">
     <title lang="en">Girls' Last Tour</title>
     <sub-title lang="en">Starry Sky / War</sub-title>
@@ -602,7 +512,7 @@ Placid is live every Saturday at 5:00 PM EST.</desc>
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261206000000 +0000" stop="20261206031544 +0000" channel="Placid">
+  <programme start="20261206000000 +0000" stop="20261206041553 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 
