@@ -4,18 +4,6 @@
     <display-name>Placid</display-name>
     <icon src="https://i.imgur.com/0PCSYdW.png" />
   </channel>
-  <programme start="20261031203000 -0400" stop="20261031210000 -0400" channel="Placid">
-    <title lang="en">Soul Eater</title>
-    <sub-title lang="en">The Soul Eating Black Dragon - Scaredy-cat Liz and Her Merry Friends?</sub-title>
-    <desc lang="en">Death the Kid and the Thompson sisters board a ghost ship full of human souls. After facing the vessel’s demented captain, true evil unfurls its wings.</desc>
-    <episode-num system="xmltv_ns">0.14.</episode-num>
-  </programme>
-  <programme start="20261031210000 -0400" stop="20261031213000 -0400" channel="Placid">
-    <title lang="en">Soul Eater</title>
-    <sub-title lang="en">Fierce Battle Aboard the Ghost Ship - The Hell Inside My Head?</sub-title>
-    <desc lang="en">Unsettled by something he heard on the ghost ship, Kid asks his father an unimaginable question. Dr. Stein has his own questions regarding Medusa’s qualifications as a nurse.</desc>
-    <episode-num system="xmltv_ns">0.15.</episode-num>
-  </programme>
   <programme start="20261031213000 -0400" stop="20261031220000 -0400" channel="Placid">
     <title lang="en">Soul Eater</title>
     <sub-title lang="en">The Black Blood Resonance Battle! A Small Soul's Grand Struggle Against Fear?</sub-title>
@@ -638,7 +626,7 @@ Placid is live every Saturday at 5:00 PM EST.</desc>
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261206000000 +0000" stop="20261206001545 +0000" channel="Placid">
+  <programme start="20261206000000 +0000" stop="20261206011542 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 
