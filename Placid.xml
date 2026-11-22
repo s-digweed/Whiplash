@@ -4,18 +4,6 @@
     <display-name>Placid</display-name>
     <icon src="https://i.imgur.com/0PCSYdW.png" />
   </channel>
-  <programme start="20261031193000 -0400" stop="20261031200000 -0400" channel="Placid">
-    <title lang="en">Soul Eater</title>
-    <sub-title lang="en">The Enchanted Sword Masamune - Break the Soul Possession: A Heart Sings in the Rain?</sub-title>
-    <desc lang="en">Black☆Star and Tsubaki face Masamune, and as the battle against the dark Weapon escalates, it becomes clear that Tsubaki must finish the fight alone.</desc>
-    <episode-num system="xmltv_ns">0.9.</episode-num>
-  </programme>
-  <programme start="20261031200000 -0400" stop="20261031203000 -0400" channel="Placid">
-    <title lang="en">Soul Eater</title>
-    <sub-title lang="en">Tsubaki the Camellia Blossom - What Lies Beyond the Grief?</sub-title>
-    <desc lang="en">Black☆Star and Tsubaki will claim their first soul if they defeat Masamune - but if Tsubaki falls, she will be absorbed forever by her powerful and bitter brother.</desc>
-    <episode-num system="xmltv_ns">0.10.</episode-num>
-  </programme>
   <programme start="20261031203000 -0400" stop="20261031210000 -0400" channel="Placid">
     <title lang="en">Soul Eater</title>
     <sub-title lang="en">The Soul Eating Black Dragon - Scaredy-cat Liz and Her Merry Friends?</sub-title>
@@ -644,7 +632,13 @@ Placid is live every Saturday at 5:00 PM EST.</desc>
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261205120000 +0000" stop="20261205231542 +0000" channel="Placid">
+  <programme start="20261205120000 +0000" stop="20261206000000 +0000" channel="Placid">
+    <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
+    <desc lang="en">Only the best in anime(tion).
+
+Placid is live every Saturday at 5:00 PM EST.</desc>
+  </programme>
+  <programme start="20261206000000 +0000" stop="20261206001545 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 
