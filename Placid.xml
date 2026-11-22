@@ -4,18 +4,6 @@
     <display-name>Placid</display-name>
     <icon src="https://i.imgur.com/0PCSYdW.png" />
   </channel>
-  <programme start="20261031223000 -0400" stop="20261031230000 -0400" channel="Placid">
-    <title lang="en">Soul Eater</title>
-    <sub-title lang="en">The Seal Shrine - The Immortal Man's Tricks?</sub-title>
-    <desc lang="en">Free and Eruka are perilously close to releasing Asura - close enough to witness a terrifying display of the Kishin’s madness and power.</desc>
-    <episode-num system="xmltv_ns">0.21.</episode-num>
-  </programme>
-  <programme start="20261031230000 -0400" stop="20261031233000 -0400" channel="Placid">
-    <title lang="en">Soul Eater</title>
-    <sub-title lang="en">Dead or Alive - In the Rift between Revival and Dazzlement?</sub-title>
-    <desc lang="en">Dr. Stein and Medusa’s fight reaches a deadly climax, but the battle still rages in Asura’s chamber - if Black☆Star and Kid can’t defeat Eruka and Free, the Kishin will be unsealed.</desc>
-    <episode-num system="xmltv_ns">0.22.</episode-num>
-  </programme>
   <programme start="20261031233000 -0400" stop="20261101000000 -0400" channel="Placid">
     <title lang="en">Soul Eater</title>
     <sub-title lang="en">The Battle of the Gods - Death City on the Verge of Collapse?</sub-title>
@@ -614,7 +602,7 @@ Placid is live every Saturday at 5:00 PM EST.</desc>
 
 Placid is live every Saturday at 5:00 PM EST.</desc>
   </programme>
-  <programme start="20261206000000 +0000" stop="20261206021542 +0000" channel="Placid">
+  <programme start="20261206000000 +0000" stop="20261206031544 +0000" channel="Placid">
     <title lang="en">PLACID IS OFFLINE FOR THE WEEK</title>
     <desc lang="en">Only the best in anime(tion).
 
