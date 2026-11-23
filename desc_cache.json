@@ -9014,6 +9014,10 @@
 "n": "Pre-School",
 "o": "For five long years, Stan, Kyle, Kenny, Cartman and Butters have kept a secret about a horrible incident that happened back in pre-school. Now, the kid who took the fall for the group, Trent Boyett, is getting out of juvie and his first order of business is revenge."
 },
+"2190|8|11": {
+"n": "Quest for Ratings",
+"o": "The boys of South Park produce their own morning news show on the school’s closed-circuit television station and are immediately caught up in the intense competition for ratings."
+},
 "2190|8|13": {
 "n": "Cartman's Incredible Gift",
 "o": "After sustaining a severe head injury, Cartman appears to have the power to see into the future. South Park detectives are quick to enlist his help in cracking unsolved murder cases and Cartman is more than willing to help, for a price. In the meantime, a group of licensed psychics cry foul when Cartman refuses to join their ranks."
@@ -20322,6 +20326,10 @@
 "n": "D²",
 "o": "Dexter and Dee Dee realise when they work together, they make a pretty good team."
 },
+"4229|4|3": {
+"n": "Overlabbing",
+"o": "Dexter and Mandark drill underground to expand their labs, but end up overlapping each other's work. They secretly devise a plan to destroy each other."
+},
 "4229|4|6": {
 "n": "Dexter's Library",
 "o": "When Dexter becomes the head of a library, he inforces the rules really hard, driving everyone crazy."
@@ -24146,6 +24154,10 @@
 "n": "Bass Masters",
 "o": "Ren & Stimpy are the hosts of a popular fishing show. They set out on a mission to catch the legendary foul mouth Bass, Albert, and Wilbur Cobb escapes from prison to come along with them."
 },
+"504|3|2": {
+"n": "A Yard Too Far",
+"o": "Ren and Stimpy try to get food from a house (Yogi Bear-style) with a baboon guarding it."
+},
 "504|3|3": {
 "n": "Circus Midgets",
 "o": "Ren & Stimpy have been hitch hiking for three years. They finally get a ride... from crazed circus midgets who kidnap various people, because they are in desperate need of an audience."
@@ -24214,9 +24226,17 @@
 "n": "Farm Hands",
 "o": "Famished, Ren & Stimpy pretend to be long lost children of two Farmers."
 },
+"504|4|9": {
+"n": "A Hard Days Luck",
+"o": "Haggis McHaggis finds a leprechaun in his breakfast cereal, but before he can get a wish from the wee man, he has to prove he's even-tempered, generous, and brave (or at least one of the three). Like that's going to happen..."
+},
 "504|5|1": {
 "n": "Space Dogged",
 "o": "Ren and Stimpy are going to be the first dog and cat sent up to space in the Russian space program"
+},
+"504|5|10": {
+"n": "Who's Stupid Now?",
+"o": "When Ren and Stimpy find out they are about to be cancelled, Ren comments that they'll do anything to keep the show on going, so the producer makes \"a twist in chemistry\" by making Stimpy the skinny jerk and Ren as the fat idiot."
 },
 "504|5|2": {
 "n": "Feud For Sale",
@@ -32292,6 +32312,10 @@
 "y": "1972"
 },
 "you're the greatest, charlie brown|1979": null,
+"you're the greatest, charlie brown|1979|v2": {
+"o": "Charlie Brown, Marcie and Snoopy compete in the Junior Olympics' decathlon event.",
+"y": "1979"
+},
 "zoolander|2001": {
 "o": "Clear the runway for Derek Zoolander, VH1's three-time male model of the year. His face falls when hippie-chic Hansel scooters in to steal this year's award. The evil fashion guru Mugatu seizes the opportunity to turn Derek into a killing machine. It's a well-designed conspiracy and only with the help of Hansel and a few well-chosen accessories like Matilda can Derek make the world safe for male models everywhere.",
 "y": "2001"
@@ -33413,6 +33437,10 @@
 "435020|3|52": {
 "n": "X",
 "o": "Bird Kazami is an amateur blader who came to \"X City\" to become a professional beyblader."
+},
+"458836|1|1": {
+"n": "A Meeting of Two Worlds",
+"o": "An introduction to the themes of increasing American power, indigenous political aspirations, conflicting interests and goals, and growing mutual antagonism sets the stage for World War I."
 },
 "458836|3|4": {
 "n": "A Meeting of Two Worlds",
