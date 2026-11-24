@@ -10984,64 +10984,6 @@ Squidward tries to compose a symphony, but is distracted by SpongeBob and Patric
   <programme start="20261219000000 +0100" stop="20261220000000 +0100" channel="whiplashzenith">
     <title>La télé qui ne fait pas télé (mais un peu quand même avec ces rediffs)</title>
   </programme>
-  <programme start="20261123232500 -0500" stop="20261123235500 -0500" channel="eel-channel">
-    <title lang="en">15 Storeys High</title>
-    <sub-title lang="en">Sofa</sub-title>
-    <desc lang="en">A man, his lodger, a two-seater sofa and a supermarket loyalty card conspire to cause misery.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-  </programme>
-  <programme start="20261123235500 -0500" stop="20261124002000 -0500" channel="eel-channel">
-    <title lang="en">The Whitest Kids U'Know</title>
-    <sub-title lang="en">Episode 1</sub-title>
-    <desc lang="en">Pregnancy Test
-
-Hitler Rap
-
-Timmy Poops His Pants
-
-Alcoholics Anonymous
-
-Lincoln
-
-Pizza Bagels
-
-Sexy Fawn
-
-The New Thing
-
-Get a New Daddy</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-  </programme>
-  <programme start="20261124002000 -0500" stop="20261124004500 -0500" channel="eel-channel">
-    <title lang="en">South Park</title>
-    <sub-title lang="en">Goobacks</sub-title>
-    <desc lang="en">All the children of South Park are attracted to Mr. Jefferson, his son and their home filled with games, toys and animals. Cartman goes out of his way to get Mr. Jefferson to love him while the local police force resent him for being black and wealthy and decide to bring him down.</desc>
-    <episode-num system="onscreen">S08 E06</episode-num>
-    <episode-num system="xmltv_ns">7.5.</episode-num>
-  </programme>
-  <programme start="20261124004500 -0500" stop="20261124011000 -0500" channel="eel-channel">
-    <title lang="en">South Park</title>
-    <sub-title lang="en">The Jeffersons</sub-title>
-    <desc lang="en">Humans from the year 4035 are arriving in droves in South Park! Everything gets a little too crowded when people from the future arrive through a recently discovered time portal. When the boys try to earn some extra money, the time immigrants, who are willing to do the same work for next to nothing, take their jobs.</desc>
-    <episode-num system="onscreen">S08 E07</episode-num>
-    <episode-num system="xmltv_ns">7.6.</episode-num>
-  </programme>
-  <programme start="20261124011000 -0500" stop="20261124013500 -0500" channel="eel-channel">
-    <title lang="en">The Boondocks</title>
-    <sub-title lang="en">The Fundraiser</sub-title>
-    <desc lang="en">Riley organizes a fundraiser with Cindy McPhearson and other kids from Woodcrest.</desc>
-    <episode-num system="onscreen">S03 E07</episode-num>
-    <episode-num system="xmltv_ns">2.6.</episode-num>
-  </programme>
-  <programme start="20261124013500 -0500" stop="20261124015000 -0500" channel="eel-channel">
-    <title lang="en">Beavis and Butt-Head</title>
-    <sub-title lang="en">Take a Number</sub-title>
-    <desc lang="en">While on their way to a rock concert, Beavis and Butt-Head wait in a long line to use the bathroom.</desc>
-    <episode-num system="onscreen">S05 E13</episode-num>
-    <episode-num system="xmltv_ns">4.12.</episode-num>
-  </programme>
   <programme start="20261124015000 -0500" stop="20261124020500 -0500" channel="eel-channel">
     <title lang="en">Beavis and Butt-Head</title>
     <sub-title lang="en">Stewart's House</sub-title>
@@ -12048,48 +11990,65 @@ Classroom</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
-  <programme start="20261123230500 -0500" stop="20261123233500 -0500" channel="fizz">
-    <title lang="en">Looney Tunes</title>
+  <programme start="20261126231500 -0500" stop="20261126234000 -0500" channel="eel-channel">
+    <title lang="en">The Adam and Joe Show</title>
+    <sub-title lang="en">Toytrainspotting</sub-title>
+    <desc lang="en">Join Adam Buxton and Joe Cornish in their Brixton bedsit for more home made television and DIY comedy inspired by popular culture. This show features the much talked about cuddly toy version of Trainspotting.</desc>
+    <episode-num system="onscreen">S01 E01</episode-num>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
-  <programme start="20261123233500 -0500" stop="20261124000500 -0500" channel="fizz">
-    <title lang="en">D'Isigny Cartoons</title>
+  <programme start="20261126234000 -0500" stop="20261127000500 -0500" channel="eel-channel">
+    <title lang="en">The Tom Green Show</title>
+    <sub-title lang="en">Episode 1</sub-title>
+    <desc lang="en">-Guarding the pee (skiing equipment)
+-intro
+-buying condoms
+-Glenn Humplik is hiding
+-Tom talks with some striking Ontario teachers.
+-The clam digger skiff
+-Gas engine in the mall
+-blind date with David bowie
+-interview with Aliea Hewert from express connections-
+-NYPD GREEN (greasy cop)
+-bowling trophy (your the champ!)
+-band: local rabbits</desc>
+    <episode-num system="onscreen">S01 E01</episode-num>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
-  <programme start="20261124000500 -0500" stop="20261124003000 -0500" channel="fizz">
-    <title lang="en">Gargoyles</title>
-    <sub-title lang="en">Metamorphosis</sub-title>
-    <desc lang="en">A number of victims, including Elisa's brother, are turned into winged animal people by Dr. Anton Sevarius and they think the Manhattan Clan shares responsibility.</desc>
-    <episode-num system="onscreen">S02 E02</episode-num>
-    <episode-num system="xmltv_ns">1.1.</episode-num>
+  <programme start="20261127000500 -0500" stop="20261127003000 -0500" channel="eel-channel">
+    <title lang="en">South Park</title>
+    <sub-title lang="en">Stupid Spoiled Whore Video Playset</sub-title>
+    <desc lang="en">All the fourth grade girls idolize a rich, famous and spoiled socialite. They even have her brand new toy set that comes complete with video camera, night vision filter, play money and losable cell phone. In an effort to impress their idol, the girls pursue the boys to make their own videos.</desc>
+    <episode-num system="onscreen">S08 E12</episode-num>
+    <episode-num system="xmltv_ns">7.11.</episode-num>
   </programme>
-  <programme start="20261124003000 -0500" stop="20261124005500 -0500" channel="fizz">
-    <title lang="en">Superman: The Animated Series</title>
-    <sub-title lang="en">Apokolips... Now!: Part 1</sub-title>
-    <desc lang="en">Superman teams up with Orion, an escapee from Apokolips, to take on Darkseid as he prepares to attack Earth.</desc>
-    <episode-num system="onscreen">S02 E25</episode-num>
-    <episode-num system="xmltv_ns">1.24.</episode-num>
+  <programme start="20261127003000 -0500" stop="20261127005500 -0500" channel="eel-channel">
+    <title lang="en">South Park</title>
+    <sub-title lang="en">Cartman's Incredible Gift</sub-title>
+    <desc lang="en">After sustaining a severe head injury, Cartman appears to have the power to see into the future. South Park detectives are quick to enlist his help in cracking unsolved murder cases and Cartman is more than willing to help, for a price. In the meantime, a group of licensed psychics cry foul when Cartman refuses to join their ranks.</desc>
+    <episode-num system="onscreen">S08 E13</episode-num>
+    <episode-num system="xmltv_ns">7.12.</episode-num>
   </programme>
-  <programme start="20261124005500 -0500" stop="20261124012000 -0500" channel="fizz">
-    <title lang="en">X-Men: The Animated Series</title>
-    <sub-title lang="en">Pryde of the X-Men (Pilot)</sub-title>
-    <desc lang="en">The story begins with the voice of Stan Lee: "Look around you... you never know who could be a mutant, a person born with strange and wondrous powers..." It is the desert. The X-Men’s archenemy Magneto is being transported by a military convoy, unable to use his powers, trapped in a force field. That is, until the White Queen appears. A member of his "Brotherhood of Mutant Terrorists", she scatters the escort and dismantles the field restricting Magneto, allowing him to use his magnetic powers to tear apart his portable prison.</desc>
-    <episode-num system="onscreen">S01 E15</episode-num>
-    <episode-num system="xmltv_ns">0.14.</episode-num>
+  <programme start="20261127005500 -0500" stop="20261127012000 -0500" channel="eel-channel">
+    <title lang="en">The Boondocks</title>
+    <sub-title lang="en">Pause</sub-title>
+    <desc lang="en">Granddad is cast as the leading man by mega-superstar of stage and screen, Winston Jerome. But when the theater group turns out to be a homoerotic evangelical cult, it's up to Huey and Riley to put a pause to it.</desc>
+    <episode-num system="onscreen">S03 E08</episode-num>
+    <episode-num system="xmltv_ns">2.7.</episode-num>
   </programme>
-  <programme start="20261124012000 -0500" stop="20261124014000 -0500" channel="fizz">
-    <title lang="en">Spider-Man: The Animated Series</title>
-    <sub-title lang="en">Battle of the Insidious Six</sub-title>
-    <desc lang="en">The six supervillains can't believe their eyes when Spider-Man walks into their trap at the warehouse. But it's obvious why, when they easily overcome and unmask the fraud. Meanwhile, Silvermane and the Crime Lords grow more disenchanted with The Kingpin and want to put him out of business. Kingpin beats them to the punch, kidnapping Silvermane. Can Spider-Man save the day?</desc>
-    <episode-num system="onscreen">S02 E02</episode-num>
-    <episode-num system="xmltv_ns">1.1.</episode-num>
+  <programme start="20261127012000 -0500" stop="20261127013500 -0500" channel="eel-channel">
+    <title lang="en">Beavis and Butt-Head</title>
+    <sub-title lang="en">Manners Suck</sub-title>
+    <desc lang="en">A guest speaker tries to educate the students in Van Driessen's class about the importance of manners and finds himself in over his head when dealing with Beavis and Butt-Head.</desc>
+    <episode-num system="onscreen">S04 E21</episode-num>
+    <episode-num system="xmltv_ns">3.20.</episode-num>
   </programme>
-  <programme start="20261124014000 -0500" stop="20261124020500 -0500" channel="fizz">
-    <title lang="en">Super Robot Monkey Team Hyperforce Go!</title>
-    <sub-title lang="en">World of Giants</sub-title>
-    <desc lang="en">When Sparx says that Tolomac 3 is just another piece of rock floating in space, he couldn't be more wrong. It turns out that there's an entire kingdom of giants living there, and they've mistaken the Super Robot for one of their own. Sparx decides to take advantage of the situation and pose as a knight, but the Robot is losing power, and unless the team can find the nearby energy source, they'll be stuck there for good! But there's one who doesn't want them to leave - he wants to get rid of this "square-headed knight" himself... But don't forget the new "girlfriend" Sparx gets while he's there.
-
-Guest appearance: Rip Taylor as King of Giants</desc>
-    <episode-num system="onscreen">S02 E02</episode-num>
-    <episode-num system="xmltv_ns">1.1.</episode-num>
+  <programme start="20261127013500 -0500" stop="20261127015000 -0500" channel="eel-channel">
+    <title lang="en">Beavis and Butt-Head</title>
+    <sub-title lang="en">At the Sideshow</sub-title>
+    <desc lang="en">The freak show is in town and Beavis and Butt-Head can't wait to check it out.</desc>
+    <episode-num system="onscreen">S02 E06</episode-num>
+    <episode-num system="xmltv_ns">1.5.</episode-num>
   </programme>
   <programme start="20261124020500 -0500" stop="20261124023000 -0500" channel="fizz">
     <title lang="en">Storm Hawks</title>
@@ -13224,117 +13183,102 @@ Best Friends: Moze continues her search for a new best friend with a quiz and wh
     <episode-num system="onscreen">S04 E08</episode-num>
     <episode-num system="xmltv_ns">3.7.</episode-num>
   </programme>
-  <programme start="20261123232500 -0500" stop="20261123235000 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
-    <episode-num system="onscreen">S01 E66</episode-num>
-    <episode-num system="xmltv_ns">0.65.</episode-num>
+  <programme start="20261126230500 -0500" stop="20261126233500 -0500" channel="fizz">
+    <title lang="en">Looney Tunes</title>
   </programme>
-  <programme start="20261123235000 -0500" stop="20261124001500 -0500" channel="toon-diggity">
-    <title lang="en">Duckman</title>
-    <sub-title lang="en">Papa Oom M.O.W. M.O.W.</sub-title>
-    <desc lang="en">While trying to grab a couple of women in the ass, Duckman saves the president's life. When this fact is later revealed, Duckman tries to capitalize on his sleazy image.</desc>
-    <episode-num system="onscreen">S02 E01</episode-num>
-    <episode-num system="xmltv_ns">1.0.</episode-num>
+  <programme start="20261126233500 -0500" stop="20261127000500 -0500" channel="fizz">
+    <title lang="en">D'Isigny Cartoons</title>
   </programme>
-  <programme start="20261124001500 -0500" stop="20261124003000 -0500" channel="toon-diggity">
-    <title lang="en">Space Ghost Coast to Coast</title>
-    <sub-title lang="en">Surprise</sub-title>
-    <desc lang="en">While Space Ghost is out, Zorak and Moltar recruit the Council of Doom to plan a surprise party for Space Ghost's birthday. But by the looks of it, the Council is hoping it'll be the unpleasant kind of surprise...</desc>
-    <episode-num system="onscreen">S03 E09</episode-num>
-    <episode-num system="xmltv_ns">2.8.</episode-num>
+  <programme start="20261127000500 -0500" stop="20261127003000 -0500" channel="fizz">
+    <title lang="en">Gargoyles</title>
+    <sub-title lang="en">The Mirror</sub-title>
+    <desc lang="en">Demona gets a hold of Titania's mirror. She uses it to summon Puck, one of Oberon's children, who's also a trickster and grants her wishes but not in the way she expects.</desc>
+    <episode-num system="onscreen">S02 E05</episode-num>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
   </programme>
-  <programme start="20261124003000 -0500" stop="20261124004500 -0500" channel="toon-diggity">
-    <title lang="en">Xavier Renegade Angel</title>
-    <sub-title lang="en">Braingea's Final Cranny</sub-title>
-    <desc lang="en">When Xavier runs out of desert across which to ramble, he drowns in a sea of completion.</desc>
-    <episode-num system="onscreen">S02 E10</episode-num>
-    <episode-num system="xmltv_ns">1.9.</episode-num>
+  <programme start="20261127003000 -0500" stop="20261127005500 -0500" channel="fizz">
+    <title lang="en">Superman: The Animated Series</title>
+    <sub-title lang="en">Little Girl Lost: Part 2</sub-title>
+    <desc lang="en">When Superman is captured by Granny Goodness and her Female Furies, Supergirl follows them to the planet Apokolips to rescue him.</desc>
+    <episode-num system="onscreen">S02 E28</episode-num>
+    <episode-num system="xmltv_ns">1.27.</episode-num>
   </programme>
-  <programme start="20261124004500 -0500" stop="20261124010000 -0500" channel="toon-diggity">
-    <title lang="en">Sealab 2021</title>
-    <sub-title lang="en">Splitsville</sub-title>
-    <desc lang="en">Debbie and Quinn break up, while Dr. Virjay gets his old rock band back together.</desc>
-    <episode-num system="onscreen">S03 E06</episode-num>
-    <episode-num system="xmltv_ns">2.5.</episode-num>
+  <programme start="20261127005500 -0500" stop="20261127012000 -0500" channel="fizz">
+    <title lang="en">X-Men: The Animated Series</title>
+    <sub-title lang="en">Pryde of the X-Men (Pilot)</sub-title>
+    <desc lang="en">The story begins with the voice of Stan Lee: "Look around you... you never know who could be a mutant, a person born with strange and wondrous powers..." It is the desert. The X-Men’s archenemy Magneto is being transported by a military convoy, unable to use his powers, trapped in a force field. That is, until the White Queen appears. A member of his "Brotherhood of Mutant Terrorists", she scatters the escort and dismantles the field restricting Magneto, allowing him to use his magnetic powers to tear apart his portable prison.</desc>
+    <episode-num system="onscreen">S01 E18</episode-num>
+    <episode-num system="xmltv_ns">0.17.</episode-num>
   </programme>
-  <programme start="20261124010000 -0500" stop="20261124011500 -0500" channel="toon-diggity">
-    <title lang="en">Xavier Renegade Angel</title>
-    <sub-title lang="en">Chief Beef Loco</sub-title>
-    <desc lang="en">When a boy named Percy wishes he could impress the Loco's with his mascot outfit, he has Xavier pretend to be him in a costume. The Loco's decide to let Xavier lead them for a while and things get a bit out of hand.</desc>
-    <episode-num system="onscreen">S01 E02</episode-num>
-    <episode-num system="xmltv_ns">0.1.</episode-num>
+  <programme start="20261127012000 -0500" stop="20261127014500 -0500" channel="fizz">
+    <title lang="en">Spider-Man: The Animated Series</title>
+    <sub-title lang="en">Mutants' Revenge</sub-title>
+    <desc lang="en">Wolverine catches up with Spider-Man, hot on the trail of the missing Hank McCoy. Discovering his location and the plot to destroy all mutantkind the two team up and rescue Beast in the nick of time just as he was about to become the first test subject of Landon's horrendous plan. But when Landon accidentally falls victim to his own experiment he is changed into a giant monster that feeds on electrical energy. Can Spider-Man and the X-Men succeed in stopping this 50-foot tall, ohm-eating monster?</desc>
+    <episode-num system="onscreen">S02 E05</episode-num>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
   </programme>
-  <programme start="20261124011500 -0500" stop="20261124014000 -0500" channel="toon-diggity">
-    <title lang="en">Dr. Katz, Professional Therapist</title>
-    <sub-title lang="en">ESP</sub-title>
-    <desc lang="en">Ben prognosticates all over the place after watching a show on paranormal activity.</desc>
-    <episode-num system="onscreen">S02 E13</episode-num>
-    <episode-num system="xmltv_ns">1.12.</episode-num>
+  <programme start="20261127014500 -0500" stop="20261127021000 -0500" channel="fizz">
+    <title lang="en">Super Robot Monkey Team Hyperforce Go!</title>
+    <sub-title lang="en">Versus Chiro</sub-title>
+    <desc lang="en">It was just an ordinary day of training - until Chiro's head blew off! It turns out to be a Formless clone, and the monkeys are on a wild chase around the city to find the real one. Meanwhile, the real Chiro is held hostage at Mandarin's fortress. It won't be easy to escape - there are deformed clones at every corner! Can the monkeys rescue Chiro in time?</desc>
+    <episode-num system="onscreen">S02 E05</episode-num>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
   </programme>
-  <programme start="20261124014000 -0500" stop="20261124020500 -0500" channel="toon-diggity">
+  <programme start="20261124020500 -0500" stop="20261124023000 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball</title>
+    <sub-title lang="en">Nursing Wounds</sub-title>
+    <desc lang="en">Goku, Krillin, and Gohan prepare for the return of the Saiyans. Meanwhile, Bulma and Mr. Popo search for a second spaceship capable of transporting her to Planet Namek.</desc>
+    <episode-num system="onscreen">S01 E38</episode-num>
+    <episode-num system="xmltv_ns">0.37.</episode-num>
+  </programme>
+  <programme start="20261124023000 -0500" stop="20261124025500 -0500" channel="toon-diggity">
+    <title lang="en">Kevin Spencer</title>
+    <sub-title lang="en">A Day in School</sub-title>
+    <desc lang="en">Mom winds up in the joint after Percy frames her for breaking into a welfare office and (among other things) defecating on the branch Manager's desk. Kevin is bored and decides to break tradition and go to school where he ends up questioning authority until they throw him out.</desc>
+    <episode-num system="onscreen">S03 E18</episode-num>
+    <episode-num system="xmltv_ns">2.17.</episode-num>
+  </programme>
+  <programme start="20261124025500 -0500" stop="20261124032500 -0500" channel="toon-diggity">
+    <title lang="en">The Ping Pong Club</title>
+    <sub-title lang="en">Love &amp; Comedy (Part 1)/Love &amp; Comedy: Part 2</sub-title>
+    <desc lang="en">It's the height of summer, and very hot. The club decides to go for a swim in the school pool. The captain of the girls swimming team lets them in, but has ulterior motives.</desc>
+    <episode-num system="onscreen">S01 E08</episode-num>
+    <episode-num system="xmltv_ns">0.7.</episode-num>
+  </programme>
+  <programme start="20261124032500 -0500" stop="20261124035000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball</title>
     <sub-title lang="en">Friends or Foes?</sub-title>
     <desc lang="en">Gohan, Bulma, and Krillin blast off for Planet Namek in search of the magic Dragon Balls, but their journey quickly turns chaotic when they encounter a bizarre situation in the vacuum of space!</desc>
     <episode-num system="onscreen">S01 E39</episode-num>
     <episode-num system="xmltv_ns">0.38.</episode-num>
   </programme>
-  <programme start="20261124020500 -0500" stop="20261124023000 -0500" channel="toon-diggity">
+  <programme start="20261124035000 -0500" stop="20261124041500 -0500" channel="toon-diggity">
     <title lang="en">Kevin Spencer</title>
     <sub-title lang="en">Fang</sub-title>
     <desc lang="en">After a tooth extraction, Kevin develops a bizarre snakelike fang in the back of his mouth. Percy meanwhile has been arrested for saying â€˜BOMB"" at the airport. He cops a deal to become a snitch on the Quebec Mafia, but makes all the shit up, and uses his newfound stoolie immunity to drive on sidewalks and act like a jackass. When Percy's handler, Gruff Cop gets upset, Kevin bites him and they discover his new fang contains paralyzing neurotoxins.</desc>
     <episode-num system="onscreen">S04 E05</episode-num>
     <episode-num system="xmltv_ns">3.4.</episode-num>
   </programme>
-  <programme start="20261124023000 -0500" stop="20261124025500 -0500" channel="toon-diggity">
+  <programme start="20261124041500 -0500" stop="20261124044000 -0500" channel="toon-diggity">
     <title lang="en">Dr. Katz, Professional Therapist</title>
     <sub-title lang="en">Monte Carlo</sub-title>
     <desc lang="en">Ben decides to go into the celebrity limo business. He moves into Katz's office to do this, which of course annoys Laura.</desc>
     <episode-num system="onscreen">S03 E01</episode-num>
     <episode-num system="xmltv_ns">2.0.</episode-num>
   </programme>
-  <programme start="20261124025500 -0500" stop="20261124032000 -0500" channel="toon-diggity">
+  <programme start="20261124044000 -0500" stop="20261124050500 -0500" channel="toon-diggity">
     <title lang="en">The Sifl &amp; Olly Show</title>
     <sub-title lang="en">Champs 1 &amp; Crackers</sub-title>
     <desc lang="en">Interview: Champs 1 (Crackers) / Rock Fact: What Do Bill Cosby &amp; Female Rock Star Bjork Share In Common? / Song: "The Haunted Spaceship" / Precious Roy's Miracle Dirt / Interview: 102yr Old Centerfold, Magic Mushroom / News: Extreme Cooking (Dynamite Mac &amp; Cheeze) / Calls: Bears Attack, Mexican Jumping Bean Bag, IRS / Chester's Language of Love / Rock Fact: Stay Tuned For A Strange But True Fact About Michael Nesmiths Mother / Sifl plays Vegas / Song: "Rock Stars"</desc>
     <episode-num system="onscreen">S01 E14</episode-num>
     <episode-num system="xmltv_ns">0.13.</episode-num>
   </programme>
-  <programme start="20261124032000 -0500" stop="20261124034500 -0500" channel="toon-diggity">
-    <title lang="en">The PJs</title>
-    <sub-title lang="en">How The Super Stoled Christmas</sub-title>
-    <desc lang="en">Thurgood takes a job as a repo man to raise money for the computer Muriel wants for Christmas.</desc>
-    <episode-num system="onscreen">S01 E14</episode-num>
-    <episode-num system="xmltv_ns">0.13.</episode-num>
-  </programme>
-  <programme start="20261124034500 -0500" stop="20261124041500 -0500" channel="toon-diggity">
-    <title lang="en">The Ricky Gervais Show</title>
-    <sub-title lang="en">Noises</sub-title>
-    <desc lang="en">Stephen asks Karl questions posed to guests on "Inside the Actors Studio, leading to a discussion of organ donation. From Karl's diary: A news report from India about an elephant who had a giant pair of slippers, and Karl's belief that scientists should give up trying to kill germs because it will only make them stronger and bigger.</desc>
-    <episode-num system="onscreen">S01 E12</episode-num>
-    <episode-num system="xmltv_ns">0.11.</episode-num>
-  </programme>
-  <programme start="20261124041500 -0500" stop="20261124044000 -0500" channel="toon-diggity">
+  <programme start="20261124050500 -0500" stop="20261124053000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball</title>
     <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
     <desc lang="en">Gohan turns into Grand mystic form.</desc>
     <episode-num system="onscreen">S01 E40</episode-num>
     <episode-num system="xmltv_ns">0.39.</episode-num>
-  </programme>
-  <programme start="20261124044000 -0500" stop="20261124050500 -0500" channel="toon-diggity">
-    <title lang="en">Dilbert</title>
-    <sub-title lang="en">The Knack</sub-title>
-    <desc lang="en">Dilbert loses "the knack" for technology when he gets management DNA from accidentally drinking from the Boss's cup. His resulting mis-steps send the world back to the Dark Ages.</desc>
-    <episode-num system="onscreen">S01 E09</episode-num>
-    <episode-num system="xmltv_ns">0.8.</episode-num>
-  </programme>
-  <programme start="20261124050500 -0500" stop="20261124053000 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
-    <desc lang="en">Gohan turns into Grand mystic form.</desc>
-    <episode-num system="onscreen">S01 E41</episode-num>
-    <episode-num system="xmltv_ns">0.40.</episode-num>
   </programme>
   <programme start="20261124053000 -0500" stop="20261124060000 -0500" channel="toon-diggity">
     <title lang="en">Secret Stash</title>
@@ -13342,7 +13286,7 @@ Best Friends: Moze continues her search for a new best friend with a quiz and wh
 
 Don't tell the kids.</desc>
   </programme>
-  <programme start="20261124060000 -0500" stop="20261124080000 -0500" channel="toon-diggity">
+  <programme start="20261124060000 -0500" stop="20261124093000 -0500" channel="toon-diggity">
     <title lang="en">Breakfast Shorts</title>
     <desc lang="en">Pour the cereal, the projector's already running.
 
@@ -13350,263 +13294,297 @@ Disney Cartoons, Tom and Jerry, MGM and UPA shorts, with Terrytoons, George Pal'
 
 Spoon in one hand, remote in the other.</desc>
   </programme>
-  <programme start="20261124080000 -0500" stop="20261124082500 -0500" channel="toon-diggity">
-    <title lang="en">Dexter's Laboratory</title>
-    <sub-title lang="en">Beau Tie / Remember Me? / Over-Labbing</sub-title>
-    <desc lang="en">"Beau tie" (7 minutes) Dee Dee brings home a boy who's not only cute-he's smart. Soon Dexter and Dee Dee are fighting for his attention.</desc>
-    <episode-num system="onscreen">S04 E01</episode-num>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
+  <programme start="20261124093000 -0500" stop="20261124095500 -0500" channel="toon-diggity">
+    <title lang="en">Garfield and Friends</title>
+    <sub-title lang="en">Return of the Buddy Bears / Much Ado About Lanolin / Reigning Cats and Dogs</sub-title>
+    <desc lang="en">Garfield has a fun time with swiss cheese, gets some help to clean the house, and hosts a debate about why cats are better than dogs.</desc>
+    <episode-num system="onscreen">S03 E07</episode-num>
+    <episode-num system="xmltv_ns">2.6.</episode-num>
   </programme>
-  <programme start="20261124082500 -0500" stop="20261124085000 -0500" channel="toon-diggity">
+  <programme start="20261124095500 -0500" stop="20261124102000 -0500" channel="toon-diggity">
+    <title lang="en">Timon &amp; Pumbaa</title>
+    <sub-title lang="en">Don't Break the China</sub-title>
+    <desc lang="en">Timon and Pumbaa help a lost kid panda find his parents, expecting a big reward when they return him home.</desc>
+    <episode-num system="onscreen">S02 E13</episode-num>
+    <episode-num system="xmltv_ns">1.12.</episode-num>
+  </programme>
+  <programme start="20261124102000 -0500" stop="20261124104500 -0500" channel="toon-diggity">
+    <title lang="en">Adventures of Sonic the Hedgehog</title>
+    <sub-title lang="en">Attack on Pinball Fortress</sub-title>
+    <desc lang="en">Robotnik has unleashed his Stupidity Ray on Mobius, knowing that the newly-stupefied Mobians will be too brain dead to stop him.</desc>
+    <episode-num system="onscreen">S01 E29</episode-num>
+    <episode-num system="xmltv_ns">0.28.</episode-num>
+  </programme>
+  <programme start="20261124104500 -0500" stop="20261124111000 -0500" channel="toon-diggity">
+    <title lang="en">Adventures of Sonic the Hedgehog</title>
+    <sub-title lang="en">Over the Hill Hero</sub-title>
+    <desc lang="en">Robotnik fools Captain Rescue into capturing Sonic after the aging superhero lets his guard down, so Tails must convince Rescue to be his old self again in order to save Sonic.</desc>
+    <episode-num system="onscreen">S01 E06</episode-num>
+    <episode-num system="xmltv_ns">0.5.</episode-num>
+  </programme>
+  <programme start="20261124111000 -0500" stop="20261124113500 -0500" channel="toon-diggity">
+    <title lang="en">Garfield and Friends</title>
+    <sub-title lang="en">The Guy of Her Dreams / The Discount of Monte Cristo / The Fairy Dogmother</sub-title>
+    <desc lang="en">Penelope is back singing why she loves Garfield. / "the Guy of My Dreams." Discount Of Monty Cristo: Aloysius Pig is back trying to cut the budget of the show. / Esmeralda is sent from doggy wish Central to fulfill Odie's wish to go to the Doggie Ball.</desc>
+    <episode-num system="onscreen">S07 E07</episode-num>
+    <episode-num system="xmltv_ns">6.6.</episode-num>
+  </programme>
+  <programme start="20261124113500 -0500" stop="20261124120000 -0500" channel="toon-diggity">
+    <title lang="en">Goof Troop</title>
+    <sub-title lang="en">Tub Be or Not Tub Be</sub-title>
+    <desc lang="en">A bathtub race pits PJ and Pete together.</desc>
+    <episode-num system="onscreen">S01 E31</episode-num>
+    <episode-num system="xmltv_ns">0.30.</episode-num>
+  </programme>
+  <programme start="20261124120000 -0500" stop="20261124122500 -0500" channel="toon-diggity">
+    <title lang="en">Adventures of Sonic the Hedgehog</title>
+    <sub-title lang="en">Magnificent Sonic</sub-title>
+    <desc lang="en">Sonic becomes the sheriff of Tranquil Gulch, in hopes of keeping Robotnik's robots from harassing the locals.</desc>
+    <episode-num system="onscreen">S01 E24</episode-num>
+    <episode-num system="xmltv_ns">0.23.</episode-num>
+  </programme>
+  <programme start="20261124122500 -0500" stop="20261124125000 -0500" channel="toon-diggity">
     <title lang="en">The Ren &amp; Stimpy Show</title>
-    <sub-title lang="en">The Big Shot</sub-title>
-    <desc lang="en">While Stimpy enjoys his new found success in show business, Ren sits at home missing his brainless buddy. Will Stimpy give up his fame and fortune to return home?</desc>
+    <sub-title lang="en">Dog Tags</sub-title>
+    <desc lang="en">Ren is getting ready for the annual Dog Lodge meeting and Stimpy begs to come along (due to the fact that the lodge is for dogs only since he's a cat) in which Ren agrees to bring him to the Dog Lodge.</desc>
+    <episode-num system="onscreen">S05 E08</episode-num>
+    <episode-num system="xmltv_ns">4.7.</episode-num>
+  </programme>
+  <programme start="20261124125000 -0500" stop="20261124131500 -0500" channel="toon-diggity">
+    <title lang="en">Invader Zim</title>
+    <sub-title lang="en">Parent-Teacher Night</sub-title>
+    <desc lang="en">After another day at the Earth skool, Ms. Bitters reminds the children that it’s Parent Teacher Night and that all the parents must come to the skool at the end of the day.  Zim becomes worried because his robotic parents aren’t programmed for such a task yet and he cannot permit them to blow his cover, so he attempts to help them become the parents they should be, but Gir’s carefree nature soon puts his plans in jeopardy.</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
-  <programme start="20261124085000 -0500" stop="20261124091500 -0500" channel="toon-diggity">
-    <title lang="en">Eek! The Cat</title>
-    <sub-title lang="en">The Great Eekscape</sub-title>
-    <desc lang="en">Eek has lost his and Sharky's licenses and they go to the pound. They try to find a way to escape.</desc>
-    <episode-num system="onscreen">S02 E12</episode-num>
-    <episode-num system="xmltv_ns">1.11.</episode-num>
-  </programme>
-  <programme start="20261124091500 -0500" stop="20261124094000 -0500" channel="toon-diggity">
-    <title lang="en">Goof Troop</title>
-    <sub-title lang="en">Leader of the Pack</sub-title>
-    <desc lang="en">A gang tries to takes over the popular hangout, and Max, PJ and his cousin Debbie tries his best to stop them.</desc>
-    <episode-num system="onscreen">S01 E20</episode-num>
-    <episode-num system="xmltv_ns">0.19.</episode-num>
-  </programme>
-  <programme start="20261124094000 -0500" stop="20261124100500 -0500" channel="toon-diggity">
+  <programme start="20261124131500 -0500" stop="20261124134000 -0500" channel="toon-diggity">
     <title lang="en">KaBlam!</title>
-    <sub-title lang="en">Your Real Best Friend</sub-title>
-    <desc lang="en">Sniz &amp; Fondue - "A Toxic Tail": Fondue buys a scorpion to keep Sniz out of his room, but the scorpion escapes.  Action League NOW! - "Road to Ruin": the League must stop the Mayor from littering.  Life with Loopy - "Hi-Fi Frankenstein": Loopy literally makes a new friend, who is great at first...  Prometheus and Bob - "Art and Bowling": Prometheus tries to teach Bob art and bowling.</desc>
+    <sub-title lang="en">Comics for Tomorrow Today</sub-title>
+    <desc lang="en">Sniz &amp; Fondue - "Mod Stylin'": Sniz accidentally goes bald while using a new hair product, and after all of the treatments fail, Fondue shaves his head and goes bald to cheer Sniz up.  Action League NOW! - "The Wrath of Spotzilla, Part 1": the League accidentally releases "Spot-Zilla", that eats Stinky Diver.  Prometheus and Bob - "Music": Prometheus tries to teach Bob how to play music.  Life with Loopy - "Egghead": Loopy turns into an egg and a chicken comes to take her. After she burps, the chicken leaves and Loopy turns back to normal.</desc>
+    <episode-num system="onscreen">S01 E03</episode-num>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme start="20261124134000 -0500" stop="20261124140500 -0500" channel="toon-diggity">
+    <title lang="en">Space Goofs</title>
+    <sub-title lang="en">We Robot</sub-title>
+    <desc lang="en">A sneaky salesman tricks Candy into purchasing a useless tool named the "Housewife's Friend". The salesman then causes a series of events to make the aliens buy more obsolete products, including an anteater and a garden elf, until Etno finally confronts him.</desc>
+    <episode-num system="onscreen">S01 E23</episode-num>
+    <episode-num system="xmltv_ns">0.22.</episode-num>
+  </programme>
+  <programme start="20261124140500 -0500" stop="20261124143000 -0500" channel="toon-diggity">
+    <title lang="en">Mr. Meaty</title>
+    <sub-title lang="en">Buffalo Burrito</sub-title>
+    <desc lang="en">Parker has very bad body odor, but Josh won't tell him for fear of his reaction. Meanwhile, Mr. Meaty is getting ready to introduce their new Buffalo Burrito, and Wink hires two actors to be Bucky Buffalo for the big intro, but they are zapped by the Mr. Meaty Security Bot, who is lurking around the mall. Parker volunteers Josh and himself to be the buffalo, and Josh is forced to get inside the buffalo costume with a very smelly Parker.</desc>
     <episode-num system="onscreen">S01 E01</episode-num>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
-  <programme start="20261124100500 -0500" stop="20261124103000 -0500" channel="toon-diggity">
-    <title lang="en">Timon &amp; Pumbaa</title>
-    <sub-title lang="en">South Sea Sick</sub-title>
-    <desc lang="en">Pumbaa gets sick so Timon jumps at the opportunity to cure his bestest best friend.</desc>
-    <episode-num system="onscreen">S02 E02</episode-num>
-    <episode-num system="xmltv_ns">1.1.</episode-num>
-  </programme>
-  <programme start="20261124103000 -0500" stop="20261124120000 -0500" channel="toon-diggity">
-    <title lang="en">Technicolor Toybox</title>
-    <desc lang="en">The late-morning matinee, served in Technicolor.
-
-Disney's timeless classics, Looney Tunes in full Merrie Melodies swing and Puppetoons built one carved figure at a time, all shuffled in with Woody Woodpecker, Droopy and whatever else tumbles out.
-
-Everything back in the box by noon.</desc>
-  </programme>
-  <programme start="20261124120000 -0500" stop="20261124122500 -0500" channel="toon-diggity">
-    <title lang="en">Timon &amp; Pumbaa</title>
-    <sub-title lang="en">Rafiki Fables: Rafiki's Apprentice</sub-title>
-    <desc lang="en">Rafiki's nephew uses the Magic Stick to help him gather gourds for his uncle. But he gets in over his head</desc>
-    <episode-num system="onscreen">S02 E16</episode-num>
-    <episode-num system="xmltv_ns">1.15.</episode-num>
-  </programme>
-  <programme start="20261124122500 -0500" stop="20261124125000 -0500" channel="toon-diggity">
-    <title lang="en">Space Goofs</title>
-    <sub-title lang="en">One Minor Technicality</sub-title>
-    <desc lang="en">A gang of bats takes over the house. Candy thinks they are disgusting, and the other aliens attempt to take them out but fail every time. Candy finally snaps after being treated with underwear and chases them away; he then also acts annoyingly to the others.</desc>
-    <episode-num system="onscreen">S01 E10</episode-num>
-    <episode-num system="xmltv_ns">0.9.</episode-num>
-  </programme>
-  <programme start="20261124125000 -0500" stop="20261124131500 -0500" channel="toon-diggity">
-    <title lang="en">Garfield and Friends</title>
-    <sub-title lang="en">Horror Hostess / Newsworthy Wade</sub-title>
-    <desc lang="en">Garfield and Odie help John meet his dream girl, the television horror host Vivacia. Unfortunately, Vivacia has more sinister plans for John; with Garfield and Odie now having to rescue their owner.</desc>
-    <episode-num system="onscreen">S07 E15</episode-num>
-    <episode-num system="xmltv_ns">6.14.</episode-num>
-  </programme>
-  <programme start="20261124131500 -0500" stop="20261124134000 -0500" channel="toon-diggity">
-    <title lang="en">Goof Troop</title>
-    <sub-title lang="en">Goodbye Mr. Goofy</sub-title>
-    <desc lang="en">One of Pete's plan might cost Goofy his beloved home.</desc>
-    <episode-num system="onscreen">S01 E35</episode-num>
-    <episode-num system="xmltv_ns">0.34.</episode-num>
-  </programme>
-  <programme start="20261124134000 -0500" stop="20261124140500 -0500" channel="toon-diggity">
-    <title lang="en">Courage the Cowardly Dog</title>
-    <sub-title lang="en">1000 Years of Courage</sub-title>
-    <desc lang="en">The family is buried under a thousand years of sediment.</desc>
-    <episode-num system="onscreen">S02 E06</episode-num>
-    <episode-num system="xmltv_ns">1.5.</episode-num>
-  </programme>
-  <programme start="20261124140500 -0500" stop="20261124143000 -0500" channel="toon-diggity">
-    <title lang="en">Space Goofs</title>
-    <sub-title lang="en">Episode 10</sub-title>
-    <desc lang="en">Son robot crash-testeur ayant rendu l'âme suite à de trop systématiques incidents, Etno passe une petite annonce pour recruter un pilote d'essai de soucoupe volante. Un vrai extraterrestre se présente et annonce aux aliens, déguisés en humains, que grâce à ses pouvoirs, il n'aura pas de mal à piloter une soucoupe volante. Les aliens, morts de rire, renvoient cet individu, qu'ils prennent pour un terrien déguisé. Mais le vrai extraterrestre est aussi très tenace.</desc>
-    <episode-num system="onscreen">S02 E10</episode-num>
-    <episode-num system="xmltv_ns">1.9.</episode-num>
-  </programme>
   <programme start="20261124143000 -0500" stop="20261124145500 -0500" channel="toon-diggity">
-    <title lang="en">The Tick</title>
-    <sub-title lang="en">Risky Bismuth</sub-title>
-    <desc lang="en">The Tick and Arthur harbor an out of commission Superian. Dot gathers more intel on the Pyramid Gang, and Overkill confronts Miss Lint.</desc>
-    <episode-num system="onscreen">S01 E10</episode-num>
-    <episode-num system="xmltv_ns">0.9.</episode-num>
+    <title lang="en">Megas XLR</title>
+    <sub-title lang="en">Battle Royale</sub-title>
+    <desc lang="en">A floating alien head invites Coop to participate in a tournament; Coop is asked to take a dive during one of his fights for a windfall.</desc>
+    <episode-num system="onscreen">S01 E02</episode-num>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
   <programme start="20261124145500 -0500" stop="20261124152000 -0500" channel="toon-diggity">
-    <title lang="en">Invader Zim</title>
-    <sub-title lang="en">The Nightmare Begins</sub-title>
-    <desc lang="en">Dedicated Irken soldier Zim is sent on a secret mission to Earth, where he disguises himself as an elementary-school student and gathers information about human beings. His plan is moving smoothly until an extraterrestrial-obsessed classmate named Dib takes notice of Zim's green skin and missing ears.</desc>
+    <title lang="en">Funky Cops</title>
+    <sub-title lang="en">All the cars in San Fransisco</sub-title>
+    <desc lang="en">La police de San Francisco souffre d'un déficit de confiance. À la veille des élections, le Maire de la ville demande un reportage sur le SFPD afin de redorer son blason.</desc>
     <episode-num system="onscreen">S01 E01</episode-num>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
   <programme start="20261124152000 -0500" stop="20261124154500 -0500" channel="toon-diggity">
-    <title lang="en">The Mouse and the Monster</title>
-    <sub-title lang="en">Ches Meets Mo</sub-title>
-    <desc lang="en">The heart-burning origin of how Ches and Mo meet, develop a friendship and flee the insane clutches of mad Doctor Wackerstein, the brain of Doc's late favorite pianist, Flatnoteski, and Doc's avant-garde wife, Olga.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <title lang="en">Time Squad</title>
+    <sub-title lang="en">Never Look a Trojan in the Gift Horse</sub-title>
+    <desc lang="en">Tuddrussel is showing Otto some outrageous souvenirs from the past when they get a mission to the time of the Trojan War, where the Greeks sneaked a giant, wooden horse into Troy's kingdom, filling it with solders to attack when the horse is opened, to win the war. Instead, they're filling it with candy for the king of Troy's birthday!</desc>
+    <episode-num system="onscreen">S01 E02</episode-num>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
   <programme start="20261124154500 -0500" stop="20261124161000 -0500" channel="toon-diggity">
-    <title lang="en">The Ripping Friends</title>
-    <sub-title lang="en">The Indigestible Wad</sub-title>
-    <desc lang="en">A young girl's wad of chewing gum that she has been chewing since before she was born – the one her mother swallowed – is granted sentience/sapience from a dentist's x-ray machine that is powered by cosmic rays. The wad wanders the streets at night, sucking up people's moisture to sustain himself, turning them into "flavorless" zombies.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <title lang="en">Courage the Cowardly Dog</title>
+    <sub-title lang="en">Campsite of Terror</sub-title>
+    <desc lang="en">Muriel is kidnapped by two raccoons.</desc>
+    <episode-num system="onscreen">S03 E03</episode-num>
+    <episode-num system="xmltv_ns">2.2.</episode-num>
   </programme>
-  <programme start="20261124161000 -0500" stop="20261124180000 -0500" channel="toon-diggity">
+  <programme start="20261124161000 -0500" stop="20261124163500 -0500" channel="toon-diggity">
+    <title lang="en">Courage the Cowardly Dog</title>
+    <sub-title lang="en">Muriel Blows Up</sub-title>
+    <desc lang="en">When Muriel eats a carrot covered in a mysterious residue, she begins to grow.</desc>
+    <episode-num system="onscreen">S04 E11</episode-num>
+    <episode-num system="xmltv_ns">3.10.</episode-num>
+  </programme>
+  <programme start="20261124163500 -0500" stop="20261124180500 -0500" channel="toon-diggity">
     <title lang="en">Afternoon Shuffle</title>
     <desc lang="en">An after-school reel of theatrical shorts: Tom and Jerry, Looney Tunes, Tex Avery, Walter Lantz Cartunes and Fleischer classics, cut with international gems from NFB/ONF Canada and Zagreb Film.
 
 Homework can wait.</desc>
   </programme>
-  <programme start="20261124180000 -0500" stop="20261124192000 -0500" channel="toon-diggity">
+  <programme start="20261124180500 -0500" stop="20261124192500 -0500" channel="toon-diggity">
     <title lang="en">Gulliver's Travels (1939)</title>
     <desc lang="en">Gulliver washes ashore on Lilliput and attempts to prevent war between that tiny kingdom and its equally-miniscule rival, Blefiscu, as well as smooth the way for the romance between the Princess and Prince of the opposing lands. In this he is alternately aided and hampered by the Lilliputian town crier and general fussbudget, Gabby. A life-threatening situation develops when the bumbling trio of Blefiscu spies, Sneak, Snoop, and Snitch, manage to steal Gulliver's pistol.</desc>
   </programme>
-  <programme start="20261124192000 -0500" stop="20261124194500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
-    <episode-num system="onscreen">S01 E67</episode-num>
-    <episode-num system="xmltv_ns">0.66.</episode-num>
-  </programme>
-  <programme start="20261124194500 -0500" stop="20261124201000 -0500" channel="toon-diggity">
-    <title lang="en">Lupin The Third Part II</title>
-    <sub-title lang="en">The Great Gold Showdown!</sub-title>
-    <desc lang="en">A disputed horde of recently discovered ancient gold coins draws the attention of Lupin and company. As the ownership of the coins is disputed, Lupin decides to settle the matter on his own by stealing them from the Dai Nippon Bank. This time, Zenigata decides not to wait for Lupin to carry out the hit but to counterattack by locating and raiding his hideout. After a dispute with his chief, he also offers him a letter of resignation in case of a further failure, and vows to stop Lupin on his own in one final showdown.</desc>
-    <episode-num system="onscreen">S01 E23</episode-num>
-    <episode-num system="xmltv_ns">0.22.</episode-num>
-  </programme>
-  <programme start="20261124201000 -0500" stop="20261124203500 -0500" channel="toon-diggity">
-    <title lang="en">Undergrads</title>
-    <sub-title lang="en">New Friends</sub-title>
-    <desc lang="en">When the Click spaces out on his first birthday away from home, Nitz starts hanging with a new group of friends. Spud usurps Gimpy as "number one" of the Tekerson nerds. Gimpy, with the help of the Click, must retake the leader crown by winning a video game deathmatch against Spud and his crack team of gamers. But Gimpy has no help from Nitz, who has drifted away from the Click.</desc>
-    <episode-num system="onscreen">S01 E04</episode-num>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
-  </programme>
-  <programme start="20261124203500 -0500" stop="20261124210000 -0500" channel="toon-diggity">
-    <title lang="en">Mission Hill</title>
-    <sub-title lang="en">The Big Ass Viacom Lawsuit</sub-title>
-    <desc lang="en">Andy signs up for The Real World, planning to play the Puck character to show Mission Hill what a crock it all is, but once in the house, he finds himself under MTV's spell.</desc>
-    <episode-num system="onscreen">S01 E04</episode-num>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
-  </programme>
-  <programme start="20261124210000 -0500" stop="20261124212500 -0500" channel="toon-diggity">
-    <title lang="en">Clone High</title>
-    <sub-title lang="en">Film Fest: Tears of a Clone</sub-title>
-    <desc lang="en">After a riot breaks out at Clone High, Abe organizes a film festival to help students express themselves, while Principal Scudworth appeases the Secret Board of Shadowy Figures over dinner.</desc>
-    <episode-num system="onscreen">S01 E04</episode-num>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
-  </programme>
-  <programme start="20261124212500 -0500" stop="20261124215000 -0500" channel="toon-diggity">
-    <title lang="en">The Oblongs</title>
-    <sub-title lang="en">Bucketheads</sub-title>
-    <desc lang="en">To keep dry in the rain, Pickles puts a bucket on Milo's head and sends him off to school.  Funzie, the cool guy, thinks Milo's bucket is hip, so the next day, everyone's wearing a bucket on their heads.  Milo finds himself running with the in-crowd, so he sets out to launch a strange new line of apparel -- with disastrous results.</desc>
-    <episode-num system="onscreen">S01 E04</episode-num>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
-  </programme>
-  <programme start="20261124215000 -0500" stop="20261124221500 -0500" channel="toon-diggity">
-    <title lang="en">Berserk</title>
-    <sub-title lang="en">The Sword`s Owner</sub-title>
-    <desc lang="en">Princess Charlotte of Midland strikes up a friendship with Griffith.</desc>
-    <episode-num system="onscreen">S01 E07</episode-num>
-    <episode-num system="xmltv_ns">0.6.</episode-num>
-  </programme>
-  <programme start="20261124221500 -0500" stop="20261124224500 -0500" channel="toon-diggity">
-    <title lang="en">Miami Guns</title>
-    <sub-title lang="en">Miami Mountain Pass GO GO GO!</sub-title>
-    <desc lang="en">Maiami City is a city surrounded by a beautiful sea and a balmy climate. Beautiful police officers Sakurakoji Yo and Amano Ruu are trying to keep the peace today as well. Late at night, a series of street racer hunts occur at Maiami Pass. Yo, Ruu, closes in on the criminals and challenges them to a life-or-death car battle.</desc>
-    <episode-num system="onscreen">S01 E04</episode-num>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
-  </programme>
-  <programme start="20261124224500 -0500" stop="20261124231000 -0500" channel="toon-diggity">
+  <programme start="20261124192500 -0500" stop="20261124195000 -0500" channel="toon-diggity">
     <title lang="en">Serial Experiments Lain</title>
     <sub-title lang="en">Religion</sub-title>
     <desc lang="en">The more involved with computers she becomes, the more Lain begins to transform. In the cybernetic cocoon that was once her room, she's hard at work blurring the lines between reality and the wired.</desc>
     <episode-num system="onscreen">S01 E04</episode-num>
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
-  <programme start="20261124231000 -0500" stop="20261124233500 -0500" channel="toon-diggity">
+  <programme start="20261124195000 -0500" stop="20261124201500 -0500" channel="toon-diggity">
+    <title lang="en">The Oblongs</title>
+    <sub-title lang="en">Bucketheads</sub-title>
+    <desc lang="en">To keep dry in the rain, Pickles puts a bucket on Milo's head and sends him off to school.  Funzie, the cool guy, thinks Milo's bucket is hip, so the next day, everyone's wearing a bucket on their heads.  Milo finds himself running with the in-crowd, so he sets out to launch a strange new line of apparel -- with disastrous results.</desc>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20261124201500 -0500" stop="20261124204500 -0500" channel="toon-diggity">
+    <title lang="en">Miami Guns</title>
+    <sub-title lang="en">Miami Mountain Pass GO GO GO!</sub-title>
+    <desc lang="en">Maiami City is a city surrounded by a beautiful sea and a balmy climate. Beautiful police officers Sakurakoji Yo and Amano Ruu are trying to keep the peace today as well. Late at night, a series of street racer hunts occur at Maiami Pass. Yo, Ruu, closes in on the criminals and challenges them to a life-or-death car battle.</desc>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20261124204500 -0500" stop="20261124211000 -0500" channel="toon-diggity">
+    <title lang="en">Mission Hill</title>
+    <sub-title lang="en">The Big Ass Viacom Lawsuit</sub-title>
+    <desc lang="en">Andy signs up for The Real World, planning to play the Puck character to show Mission Hill what a crock it all is, but once in the house, he finds himself under MTV's spell.</desc>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20261124211000 -0500" stop="20261124213500 -0500" channel="toon-diggity">
     <title lang="en">MTV's Downtown</title>
     <sub-title lang="en">Insomnia</sub-title>
     <desc lang="en">Chaka arranges for Alex to share a dinner of slugs with the exotic Goth girl, Serena. Alex's overwhelming anxiety leads to night after night of insomnia. In the end, it's all worth it when he has an unexpected late-night encounter with his dream girl.</desc>
     <episode-num system="onscreen">S01 E04</episode-num>
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
-  <programme start="20261124233500 -0500" stop="20261125000000 -0500" channel="toon-diggity">
+  <programme start="20261124213500 -0500" stop="20261124220000 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball Z</title>
+    <sub-title lang="en">Christmas Tree of Might</sub-title>
+    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <episode-num system="onscreen">S01 E67</episode-num>
+    <episode-num system="xmltv_ns">0.66.</episode-num>
+  </programme>
+  <programme start="20261124220000 -0500" stop="20261124222500 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball Z</title>
+    <sub-title lang="en">Christmas Tree of Might</sub-title>
+    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <episode-num system="onscreen">S01 E68</episode-num>
+    <episode-num system="xmltv_ns">0.67.</episode-num>
+  </programme>
+  <programme start="20261124222500 -0500" stop="20261124225000 -0500" channel="toon-diggity">
     <title lang="en">Tenchi Universe</title>
     <sub-title lang="en">Tenchi Muyo! in Love</sub-title>
     <desc lang="en">The demonic space criminal Kain has escaped from prison and destroyed the Galaxy Police headquarters. To ensure that the Jurai will not stop him, Kain travels back to 1970 to eliminate Tenchi's mother before he is even born. Now, Tenchi and the gang must travel to the past to stop him before he ceases to exist.</desc>
     <episode-num system="onscreen">S02 E23</episode-num>
     <episode-num system="xmltv_ns">1.22.</episode-num>
   </programme>
-  <programme start="20261125000000 -0500" stop="20261125001500 -0500" channel="toon-diggity">
+  <programme start="20261124225000 -0500" stop="20261124231500 -0500" channel="toon-diggity">
+    <title lang="en">Samurai Jack</title>
+    <sub-title lang="en">XVIII</sub-title>
+    <desc lang="en">Jack goes from destroyed village to another looking for those responsible, only to find the destruction was commissioned by Aku.</desc>
+    <episode-num system="onscreen">S02 E05</episode-num>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+  </programme>
+  <programme start="20261124231500 -0500" stop="20261124234000 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball Z</title>
+    <sub-title lang="en">Christmas Tree of Might</sub-title>
+    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <episode-num system="onscreen">S01 E69</episode-num>
+    <episode-num system="xmltv_ns">0.68.</episode-num>
+  </programme>
+  <programme start="20261124234000 -0500" stop="20261125000500 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball Z</title>
+    <sub-title lang="en">Christmas Tree of Might</sub-title>
+    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <episode-num system="onscreen">S01 E70</episode-num>
+    <episode-num system="xmltv_ns">0.69.</episode-num>
+  </programme>
+  <programme start="20261125000500 -0500" stop="20261125002000 -0500" channel="toon-diggity">
     <title lang="en">Crapston Villas</title>
     <sub-title lang="en">Episode 7</sub-title>
     <desc lang="en">Delia is convinced that Larry is the devil. Marge places a singles ad.</desc>
     <episode-num system="onscreen">S01 E07</episode-num>
     <episode-num system="xmltv_ns">0.6.</episode-num>
   </programme>
-  <programme start="20261125001500 -0500" stop="20261125003000 -0500" channel="toon-diggity">
+  <programme start="20261125002000 -0500" stop="20261125003500 -0500" channel="toon-diggity">
     <title lang="en">Cromartie High School</title>
     <sub-title lang="en">Reboot</sub-title>
     <desc lang="en">Mechazawa introduces everyone to his little brother, Mini Mechazawa. But, when Gorilla accidentally crushes him, can Mechazawa cope with it? And what will happen when he comes to pick his bother up, but finds out that he’s been crushed again!</desc>
     <episode-num system="onscreen">S01 E09</episode-num>
     <episode-num system="xmltv_ns">0.8.</episode-num>
   </programme>
-  <programme start="20261125003000 -0500" stop="20261125004500 -0500" channel="toon-diggity">
+  <programme start="20261125003500 -0500" stop="20261125005000 -0500" channel="toon-diggity">
     <title lang="en">Minoriteam</title>
     <sub-title lang="en">Illegal Aliens!</sub-title>
     <desc lang="en">Minoriteam has a close encounter of the backward kind when they are taken to another planet by aliens and forced into a battery of challenges that incorporate the aliens' intimate knowledge of American minority stereotypes. Back on Earth, White Shadow and company find that racist charades can only hold their interest for so long.</desc>
     <episode-num system="onscreen">S01 E07</episode-num>
     <episode-num system="xmltv_ns">0.6.</episode-num>
   </programme>
-  <programme start="20261125004500 -0500" stop="20261125010000 -0500" channel="toon-diggity">
+  <programme start="20261125005000 -0500" stop="20261125010500 -0500" channel="toon-diggity">
     <title lang="en">Stone Quackers</title>
     <sub-title lang="en">Stone Quackers V</sub-title>
     <desc lang="en">The ducks try to survive a hurricane. Meanwhile, Officer Barry deals with his family as the storm brings out the worst in them.</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
-  <programme start="20261125010000 -0500" stop="20261125012500 -0500" channel="toon-diggity">
+  <programme start="20261125010500 -0500" stop="20261125013500 -0500" channel="toon-diggity">
+    <title lang="en">The Ricky Gervais Show</title>
+    <sub-title lang="en">Noises</sub-title>
+    <desc lang="en">Stephen asks Karl questions posed to guests on "Inside the Actors Studio, leading to a discussion of organ donation. From Karl's diary: A news report from India about an elephant who had a giant pair of slippers, and Karl's belief that scientists should give up trying to kill germs because it will only make them stronger and bigger.</desc>
+    <episode-num system="onscreen">S01 E12</episode-num>
+    <episode-num system="xmltv_ns">0.11.</episode-num>
+  </programme>
+  <programme start="20261125013500 -0500" stop="20261125020000 -0500" channel="toon-diggity">
+    <title lang="en">The PJs</title>
+    <sub-title lang="en">How The Super Stoled Christmas</sub-title>
+    <desc lang="en">Thurgood takes a job as a repo man to raise money for the computer Muriel wants for Christmas.</desc>
+    <episode-num system="onscreen">S01 E14</episode-num>
+    <episode-num system="xmltv_ns">0.13.</episode-num>
+  </programme>
+  <programme start="20261125020000 -0500" stop="20261125022500 -0500" channel="toon-diggity">
+    <title lang="en">Dilbert</title>
+    <sub-title lang="en">The Knack</sub-title>
+    <desc lang="en">Dilbert loses "the knack" for technology when he gets management DNA from accidentally drinking from the Boss's cup. His resulting mis-steps send the world back to the Dark Ages.</desc>
+    <episode-num system="onscreen">S01 E09</episode-num>
+    <episode-num system="xmltv_ns">0.8.</episode-num>
+  </programme>
+  <programme start="20261125022500 -0500" stop="20261125025000 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball</title>
+    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
+    <desc lang="en">Gohan turns into Grand mystic form.</desc>
+    <episode-num system="onscreen">S01 E41</episode-num>
+    <episode-num system="xmltv_ns">0.40.</episode-num>
+  </programme>
+  <programme start="20261125025000 -0500" stop="20261125031500 -0500" channel="toon-diggity">
     <title lang="en">Kevin Spencer</title>
     <sub-title lang="en">Blackout</sub-title>
     <desc lang="en">Kevin is responsible for a power outage in his neighborhood and steels a crane from a construction site to set things straight. Percy is desperate to find a clean urine sample when a law is passed forcing welfare recipients to take a mandatory drug test.</desc>
     <episode-num system="onscreen">S03 E17</episode-num>
     <episode-num system="xmltv_ns">2.16.</episode-num>
   </programme>
-  <programme start="20261125012500 -0500" stop="20261125015000 -0500" channel="toon-diggity">
+  <programme start="20261125031500 -0500" stop="20261125034000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball</title>
     <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
     <desc lang="en">Gohan turns into Grand mystic form.</desc>
     <episode-num system="onscreen">S01 E42</episode-num>
     <episode-num system="xmltv_ns">0.41.</episode-num>
   </programme>
-  <programme start="20261125015000 -0500" stop="20261125021500 -0500" channel="toon-diggity">
+  <programme start="20261125034000 -0500" stop="20261125040500 -0500" channel="toon-diggity">
     <title lang="en">Dr. Katz, Professional Therapist</title>
     <sub-title lang="en">Blind Date</sub-title>
     <desc lang="en">Julie sets Katz up on a blind date with her friend Beth, who makes her own clothes. Stan put in a good word for Katz, telling Beth that Katz's nickname was ""Scootch.""</desc>
     <episode-num system="onscreen">S03 E02</episode-num>
     <episode-num system="xmltv_ns">2.1.</episode-num>
   </programme>
-  <programme start="20261125021500 -0500" stop="20261125024000 -0500" channel="toon-diggity">
+  <programme start="20261125040500 -0500" stop="20261125043000 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball</title>
+    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
+    <desc lang="en">Gohan turns into Grand mystic form.</desc>
+    <episode-num system="onscreen">S01 E43</episode-num>
+    <episode-num system="xmltv_ns">0.42.</episode-num>
+  </programme>
+  <programme start="20261125043000 -0500" stop="20261125045500 -0500" channel="toon-diggity">
     <title lang="en">The Sifl &amp; Olly Show</title>
     <sub-title lang="en">Déjà Vu</sub-title>
     <desc lang="en">Intro: Déjà Vu
@@ -13639,55 +13617,20 @@ Almost The End: ""Rock &amp; Roll Friends"</desc>
     <episode-num system="onscreen">S01 E15</episode-num>
     <episode-num system="xmltv_ns">0.14.</episode-num>
   </programme>
-  <programme start="20261125024000 -0500" stop="20261125030500 -0500" channel="toon-diggity">
+  <programme start="20261125045500 -0500" stop="20261125052000 -0500" channel="toon-diggity">
     <title lang="en">Desert Punk</title>
     <sub-title lang="en">A Dog in Heat</sub-title>
     <desc lang="en">After Desert Punk and Kosuna are hired to blow up the supposedly cursed Inumeiwa Rock, they begin to think the curse might be real. Everything that could go wrong goes wrong. Sometimes twice.</desc>
     <episode-num system="onscreen">S01 E08</episode-num>
     <episode-num system="xmltv_ns">0.7.</episode-num>
   </programme>
-  <programme start="20261125030500 -0500" stop="20261125033000 -0500" channel="toon-diggity">
-    <title lang="en">bro'Town</title>
-    <sub-title lang="en">Half Caste</sub-title>
-    <desc lang="en">The boys find a baby in the creek and try to bring it up , but struggle from sleep deprivation and the ordeal of nappy-changing until they have to search elsewhere for parents for the baby.</desc>
-    <episode-num system="onscreen">S02 E05</episode-num>
-    <episode-num system="xmltv_ns">1.4.</episode-num>
-  </programme>
-  <programme start="20261125033000 -0500" stop="20261125035500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
-    <desc lang="en">Gohan turns into Grand mystic form.</desc>
-    <episode-num system="onscreen">S01 E43</episode-num>
-    <episode-num system="xmltv_ns">0.42.</episode-num>
-  </programme>
-  <programme start="20261125035500 -0500" stop="20261125042000 -0500" channel="toon-diggity">
-    <title lang="en">The Ping Pong Club</title>
-    <sub-title lang="en">First Love/Loser's Community</sub-title>
-    <desc lang="en">The underfunded ping pong club was forced to join the baseball team's training camp last year, but ended up being ball boys. This year, Mr. Shibazaki tries to make amends by bringing the boys to an inn in the mountains for their training camp. The inn is owned by Mr. Shibazaki's friend, Mr. Uehara, who happens to be a monkey. However, the inn seems to have more facilities for baths than ping pong.</desc>
-    <episode-num system="onscreen">S01 E09</episode-num>
-    <episode-num system="xmltv_ns">0.8.</episode-num>
-  </programme>
-  <programme start="20261125042000 -0500" stop="20261125044500 -0500" channel="toon-diggity">
-    <title lang="en">Kevin Spencer</title>
-    <sub-title lang="en">Sore Throats</sub-title>
-    <desc lang="en">Percy and Anastasia declare a war of the pranksters on each other.</desc>
-    <episode-num system="onscreen">S05 E08</episode-num>
-    <episode-num system="xmltv_ns">4.7.</episode-num>
-  </programme>
-  <programme start="20261125044500 -0500" stop="20261125051000 -0500" channel="toon-diggity">
-    <title lang="en">Dr. Katz, Professional Therapist</title>
-    <sub-title lang="en">Fructose</sub-title>
-    <desc lang="en">Katz decides to keep a bowl of fruit at the office, but it goes rotten pretty fast. He talks about it at the bar, and Stanley pronounces ""fructose"" as ""fruck-tose."" Meanwhile, Ben considers a variety of career options, after being told by his dad that he's ""pissing his life away"". He tries cake decorating and makes a cake made purely of frosting; takes up roller-skating; considers being a truck driver; and asks if there's a job for what he used to do as a kid: put on a pair of dad's pants, pull them way over his head, and stumble around the house.</desc>
-    <episode-num system="onscreen">S03 E03</episode-num>
-    <episode-num system="xmltv_ns">2.2.</episode-num>
-  </programme>
-  <programme start="20261125051000 -0500" stop="20261125060000 -0500" channel="toon-diggity">
+  <programme start="20261125052000 -0500" stop="20261125060000 -0500" channel="toon-diggity">
     <title lang="en">Secret Stash</title>
     <desc lang="en">The dark corner of the animation shelf. Magnus Carlsson's Robin, Joe Cartoon's Flash-era weirdness, trippy experiments and surreal shorts, all handpicked for the hours nobody's watching.
 
 Don't tell the kids.</desc>
   </programme>
-  <programme start="20261125060000 -0500" stop="20261125080000 -0500" channel="toon-diggity">
+  <programme start="20261125060000 -0500" stop="20261125093000 -0500" channel="toon-diggity">
     <title lang="en">Breakfast Shorts</title>
     <desc lang="en">Pour the cereal, the projector's already running.
 
@@ -13695,108 +13638,84 @@ Disney Cartoons, Tom and Jerry, MGM and UPA shorts, with Terrytoons, George Pal'
 
 Spoon in one hand, remote in the other.</desc>
   </programme>
-  <programme start="20261125080000 -0500" stop="20261125082500 -0500" channel="toon-diggity">
+  <programme start="20261125093000 -0500" stop="20261125095500 -0500" channel="toon-diggity">
+    <title lang="en">Crayon Shin-chan</title>
+    <sub-title lang="en">The Late Great Me / Mom's a Shopaholic / I Can't Sleep</sub-title>
+    <desc lang="en">Shin-chan refuses to wake up to go to school, but Mitsy is determined to send him and hands over Shin-chan to Miss Dori in his night clothes. Even after reaching school, Shin-chan finds it difficult to open his eyes. / Mitsy takes a catalog from Kitamoto. However, the order list menu gets into Shin-chan's hands, and he orders his favorite things without letting Mitsy know about it. / A tragedy strikes Mitsy as she sleeps next to Shin-chan.</desc>
+    <episode-num system="onscreen">S01 E16</episode-num>
+    <episode-num system="xmltv_ns">0.15.</episode-num>
+  </programme>
+  <programme start="20261125095500 -0500" stop="20261125102000 -0500" channel="toon-diggity">
+    <title lang="en">Eek! The Cat</title>
+    <sub-title lang="en">Birth of a Notion</sub-title>
+    <desc lang="en">Scooter is busy working on a birthday surprise for Bill when Babs shows up and has them build her a shopping mall. When the Thunderlizards arrive, they encounter the malls security systems.</desc>
+    <episode-num system="onscreen">S03 E08</episode-num>
+    <episode-num system="xmltv_ns">2.7.</episode-num>
+  </programme>
+  <programme start="20261125102000 -0500" stop="20261125104500 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
-    <sub-title lang="en">Polecat Flats / Hogcules / Brain Boy</sub-title>
-    <desc lang="en">While visiting Cactus Jake's dude ranch, Garfield helps Jon survive Jake's horse riding lessons, and falls for a black and white cat. / Orson's brothers are coming to pay him a visit and he imagines himself as the eternally strong Hercules who could take on anything. / Jon, Garfield and Odie go out to visit some family, and while Jon's stuck looking at slides, Garfield's stuck in the garage with a bratty kid scientist.</desc>
-    <episode-num system="onscreen">S02 E10</episode-num>
-    <episode-num system="xmltv_ns">1.9.</episode-num>
+    <sub-title lang="en">The Suburban Jungle / The Thing in the Box / The Feline Philosopher</sub-title>
+    <desc lang="en">Garfield and Odie follow Jon's valley girl niece, Shannon, to the mall. / Bo receives a box with air holes and everybody goes crazy trying to guess what it is. / The feline philosopher gives Garfield speeches that inspire him to try stealing a pie from the bull dog next door.</desc>
+    <episode-num system="onscreen">S07 E10</episode-num>
+    <episode-num system="xmltv_ns">6.9.</episode-num>
   </programme>
-  <programme start="20261125082500 -0500" stop="20261125085000 -0500" channel="toon-diggity">
-    <title lang="en">Dexter's Laboratory</title>
-    <sub-title lang="en">Beau Tie / Remember Me? / Over-Labbing</sub-title>
-    <desc lang="en">"Beau tie" (7 minutes) Dee Dee brings home a boy who's not only cute-he's smart. Soon Dexter and Dee Dee are fighting for his attention.</desc>
-    <episode-num system="onscreen">S04 E03</episode-num>
-    <episode-num system="xmltv_ns">3.2.</episode-num>
+  <programme start="20261125104500 -0500" stop="20261125111000 -0500" channel="toon-diggity">
+    <title lang="en">Garfield and Friends</title>
+    <sub-title lang="en">Home Sweet Swindler / Forget-Me-Not Newton / The Great Inventor</sub-title>
+    <desc lang="en">Home Sweet Swindler: Mr. Swindler returns and gets Jon to sell the house for two cents. Heat Register: Odie runs into trouble. Forget-Me-Not-Newton: Wade's forgetful cousin, Newton, arrives. The Great Inventor: Garfield tells a story about how an ancient cook and his cat invented lasagna.</desc>
+    <episode-num system="onscreen">S05 E05</episode-num>
+    <episode-num system="xmltv_ns">4.4.</episode-num>
   </programme>
-  <programme start="20261125085000 -0500" stop="20261125091500 -0500" channel="toon-diggity">
-    <title lang="en">The Tick</title>
-    <sub-title lang="en">After Midnight</sub-title>
-    <desc lang="en">Arthur, Dot, and Overkill try to get a message to Superian, with the help of a retired hero.</desc>
-    <episode-num system="onscreen">S01 E08</episode-num>
-    <episode-num system="xmltv_ns">0.7.</episode-num>
+  <programme start="20261125111000 -0500" stop="20261125113500 -0500" channel="toon-diggity">
+    <title lang="en">Timon &amp; Pumbaa</title>
+    <sub-title lang="en">French Fried</sub-title>
+    <desc lang="en">Timon and Pumbaa try to save their new best friend Speedy the Snail from French chef Culinary Quint.</desc>
+    <episode-num system="onscreen">S01 E11</episode-num>
+    <episode-num system="xmltv_ns">0.10.</episode-num>
   </programme>
-  <programme start="20261125091500 -0500" stop="20261125094000 -0500" channel="toon-diggity">
-    <title lang="en">Dexter's Laboratory</title>
-    <sub-title lang="en">Snowdown / *Figure Not Included / Mock 5</sub-title>
-    <desc lang="en">Dee Dee keeps pelting Dexter with snowballs.</desc>
-    <episode-num system="onscreen">S02 E24</episode-num>
-    <episode-num system="xmltv_ns">1.23.</episode-num>
-  </programme>
-  <programme start="20261125094000 -0500" stop="20261125100500 -0500" channel="toon-diggity">
-    <title lang="en">Adventures of Sonic the Hedgehog</title>
-    <sub-title lang="en">Sonically Ever After</sub-title>
-    <desc lang="en">Scratch and Grounder use a ray gun Robotnik invented to transport Sonic, Tails, and Robotnik into a book of fairy tales.</desc>
-    <episode-num system="onscreen">S01 E43</episode-num>
-    <episode-num system="xmltv_ns">0.42.</episode-num>
-  </programme>
-  <programme start="20261125100500 -0500" stop="20261125103000 -0500" channel="toon-diggity">
-    <title lang="en">Adventures of Sonic the Hedgehog</title>
-    <sub-title lang="en">Lovesick Sonic</sub-title>
-    <desc lang="en">When Sonic saves a female hedgehog named Breezie, he falls in love. Sonic does not know that Breezie is a robot that Dr. Robotnik created to keep Sonic occupied while he floods a village near his fortress.</desc>
-    <episode-num system="onscreen">S01 E08</episode-num>
-    <episode-num system="xmltv_ns">0.7.</episode-num>
-  </programme>
-  <programme start="20261125103000 -0500" stop="20261125120000 -0500" channel="toon-diggity">
-    <title lang="en">Technicolor Toybox</title>
-    <desc lang="en">The late-morning matinee, served in Technicolor.
-
-Disney's timeless classics, Looney Tunes in full Merrie Melodies swing and Puppetoons built one carved figure at a time, all shuffled in with Woody Woodpecker, Droopy and whatever else tumbles out.
-
-Everything back in the box by noon.</desc>
+  <programme start="20261125113500 -0500" stop="20261125120000 -0500" channel="toon-diggity">
+    <title lang="en">Timon &amp; Pumbaa</title>
+    <sub-title lang="en">The Laughing Hyenas: Cooked Goose</sub-title>
+    <desc lang="en">The Cheetahs try to get rid of the Hyenas by sending them on various wild goose chases.</desc>
+    <episode-num system="onscreen">S01 E06</episode-num>
+    <episode-num system="xmltv_ns">0.5.</episode-num>
   </programme>
   <programme start="20261125120000 -0500" stop="20261125122500 -0500" channel="toon-diggity">
-    <title lang="en">Dexter's Laboratory</title>
-    <sub-title lang="en">Ewww That's Growth / Nuclear Confusion / Germ Warfare</sub-title>
-    <desc lang="en">When the whole family goes to the carnival, Dexter can't go on a ride because he's too short. Using his lab, he makes himself grow taller, but can't stop.</desc>
-    <episode-num system="onscreen">S02 E28</episode-num>
-    <episode-num system="xmltv_ns">1.27.</episode-num>
+    <title lang="en">Eek! The Cat</title>
+    <sub-title lang="en">Catsanova</sub-title>
+    <desc lang="en">Eek falls in love with Annabelle, a 200 pound cat that just moved into the neighborhood. However, a deadly shark dog (Sharky) lives with her and won't let Eek anywhere near her. Eek will need some help from a nerdy, one winged Cupid, who will get his other wing if Eek kisses Annabelle.</desc>
+    <episode-num system="onscreen">S01 E03</episode-num>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
   </programme>
   <programme start="20261125122500 -0500" stop="20261125125000 -0500" channel="toon-diggity">
-    <title lang="en">Adventures of Sonic the Hedgehog</title>
-    <sub-title lang="en">Submerged Sonic</sub-title>
-    <desc lang="en">Robotnik is after the Power Gems from the city of Submerbia and Sonic and Tails are hired to stop him.</desc>
+    <title lang="en">Dexter's Laboratory</title>
+    <sub-title lang="en">Sassy Come Home / Photo Finish</sub-title>
+    <desc lang="en">While vacationing in the woods with his family, Dexter finds Sasquatch tracks and hopes to photograph the mythical beast.</desc>
+    <episode-num system="onscreen">S02 E35</episode-num>
+    <episode-num system="xmltv_ns">1.34.</episode-num>
+  </programme>
+  <programme start="20261125125000 -0500" stop="20261125131500 -0500" channel="toon-diggity">
+    <title lang="en">Dexter's Laboratory</title>
+    <sub-title lang="en">Copping an Aptitude / A Failed Lab Experiment / The Grand-Daddy of All Inventions</sub-title>
+    <desc lang="en">"Copping an Attitude" (9 minutes) Dexter goes to college ready to learn only to discover it's party central. But when Dexter fries out by over-studying, he's ready to party and creates the biggest party ever.</desc>
+    <episode-num system="onscreen">S03 E09</episode-num>
+    <episode-num system="xmltv_ns">2.8.</episode-num>
+  </programme>
+  <programme start="20261125131500 -0500" stop="20261125134000 -0500" channel="toon-diggity">
+    <title lang="en">The Ren &amp; Stimpy Show</title>
+    <sub-title lang="en">Lumber-Jerks</sub-title>
+    <desc lang="en">Ren &amp; Stimpy get jobs as Paper Boys, but nobody is paying their bills.</desc>
+    <episode-num system="onscreen">S04 E05</episode-num>
+    <episode-num system="xmltv_ns">3.4.</episode-num>
+  </programme>
+  <programme start="20261125134000 -0500" stop="20261125140500 -0500" channel="toon-diggity">
+    <title lang="en">KaBlam!</title>
+    <sub-title lang="en">Not Just For People Anymore</sub-title>
+    <desc lang="en">Sniz and Fondue - "Fashionably Fondue": Unable to find pants that fit Sniz's small stature, Fondue becomes a fashion designer.  Action League Now! - "The Wrath of Spotzilla, Part 2": The League seem unable to stop Spotzilla, but Meltman might have the key.  Prometheus and Bob - "Fishing": Prometheus tries to teach Bob how to fish with a rod.  Surprising Shorts - "Lava!": One snail races another.  Life with Loopy - "Goop on the Loose!": Some strange goo in the family's medicine cabinet comes to life!</desc>
     <episode-num system="onscreen">S01 E04</episode-num>
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
-  <programme start="20261125125000 -0500" stop="20261125131500 -0500" channel="toon-diggity">
-    <title lang="en">Life Is a Circus, Charlie Brown (1980)</title>
-    <desc lang="en">When the circus comes to town, Snoopy naturally pays a visit. There he falls for a beautiful poodle performing there. He soon runs away to join it. While he quickly becomes a star performer, Charlie Brown is distraught by Snoopy's decision while Snoopy himself has to face some realities of show business himself.</desc>
-  </programme>
-  <programme start="20261125131500 -0500" stop="20261125134000 -0500" channel="toon-diggity">
-    <title lang="en">Timon &amp; Pumbaa</title>
-    <sub-title lang="en">The Pain in Spain</sub-title>
-    <desc lang="en">Carlos and Consuelo Quint mistake Pumbaa for a bull and capture him to replace the aging El Toro as their bullfighting star. But El Toro won't go away without a fight.</desc>
-    <episode-num system="onscreen">S01 E13</episode-num>
-    <episode-num system="xmltv_ns">0.12.</episode-num>
-  </programme>
-  <programme start="20261125134000 -0500" stop="20261125140500 -0500" channel="toon-diggity">
-    <title lang="en">Courage the Cowardly Dog</title>
-    <sub-title lang="en">Nowhere TV</sub-title>
-    <desc lang="en">The lottery is about to be announced, and Le Quack arrives.</desc>
-    <episode-num system="onscreen">S02 E13</episode-num>
-    <episode-num system="xmltv_ns">1.12.</episode-num>
-  </programme>
   <programme start="20261125140500 -0500" stop="20261125143000 -0500" channel="toon-diggity">
-    <title lang="en">KaBlam!</title>
-    <sub-title lang="en">Sasquatch-ercise</sub-title>
-    <desc lang="en">Action League Now : The Flesh fails his licence renewing test and is fired so the action League tries to make the Flesh Take the test again.
-
-Prometheus &amp; Bob  Softball: Bob plays softball.
-
-Life with Loopy  Alternative Hamsters: Larry uses loopy's hamster Edison in an energy project, but when Edison eats some growth pellets, Loopy faces a BIG problem.
-
-Emmett Freedy: Everyone thinks Emmett Has lice when he really has a piece of cereal on his head.
-
-Henry &amp; June theme  Henry and June as couch potatoes (overweight with no energy), call Richard Simmons to get them ready for a physical fitness test.</desc>
-    <episode-num system="onscreen">S04 E01</episode-num>
-    <episode-num system="xmltv_ns">3.0.</episode-num>
-  </programme>
-  <programme start="20261125143000 -0500" stop="20261125145500 -0500" channel="toon-diggity">
-    <title lang="en">You're the Greatest, Charlie Brown (1979)</title>
-    <desc lang="en">Charlie Brown, Marcie and Snoopy compete in the Junior Olympics' decathlon event.</desc>
-  </programme>
-  <programme start="20261125145500 -0500" stop="20261125152000 -0500" channel="toon-diggity">
     <title lang="en">Cartoon Planet</title>
     <sub-title lang="en">Planet of Doom</sub-title>
     <desc lang="en">Opening: Sleepy Ghost
@@ -13847,211 +13766,232 @@ Closing Theme</desc>
     <episode-num system="onscreen">S01 E01</episode-num>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
-  <programme start="20261125152000 -0500" stop="20261125154500 -0500" channel="toon-diggity">
-    <title lang="en">Invader Zim</title>
-    <sub-title lang="en">Parent-Teacher Night</sub-title>
-    <desc lang="en">After another day at the Earth skool, Ms. Bitters reminds the children that it’s Parent Teacher Night and that all the parents must come to the skool at the end of the day.  Zim becomes worried because his robotic parents aren’t programmed for such a task yet and he cannot permit them to blow his cover, so he attempts to help them become the parents they should be, but Gir’s carefree nature soon puts his plans in jeopardy.</desc>
-    <episode-num system="onscreen">S01 E02</episode-num>
-    <episode-num system="xmltv_ns">0.1.</episode-num>
-  </programme>
-  <programme start="20261125154500 -0500" stop="20261125161000 -0500" channel="toon-diggity">
-    <title lang="en">Three Delivery</title>
-    <sub-title lang="en">I Feel the Earth Move</sub-title>
-    <desc lang="en">Earthquakes are the result of the Di Xia dragon, which has been awakened by Kong Li in an effort to break the force field.</desc>
+  <programme start="20261125143000 -0500" stop="20261125145500 -0500" channel="toon-diggity">
+    <title lang="en">Dave the Barbarian</title>
+    <sub-title lang="en">The Maddening Sprite of The Stump</sub-title>
+    <desc lang="en">Lula gets stuck in a tree stump during Dave's attempt to guard the Enchanted Forest against a giant man-eating muffin. When the royal family is unable to free Lula, a tiny, winged sprite establishes himself as the ruler of Udrogoth.</desc>
     <episode-num system="onscreen">S01 E01</episode-num>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
-  <programme start="20261125161000 -0500" stop="20261125180000 -0500" channel="toon-diggity">
+  <programme start="20261125145500 -0500" stop="20261125152000 -0500" channel="toon-diggity">
+    <title lang="en">Cybersix</title>
+    <sub-title lang="en">Mysterious Shadow</sub-title>
+    <desc lang="en">High school biology teacher Lucas Amato finds a tube with a glowing green ooze and takes it home with him. The next night a woman named Cybersix visits Lucas to retrieve the ooze called Sustenance. But before she has a chance to get it, a big strange man breaks into Lucas's apartment.</desc>
+    <episode-num system="onscreen">S01 E01</episode-num>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme start="20261125152000 -0500" stop="20261125154500 -0500" channel="toon-diggity">
+    <title lang="en">Dexter's Laboratory</title>
+    <sub-title lang="en">Dexter Dodgeball / Dial M for Monkey: Rasslor / Dexter's Assistant</sub-title>
+    <desc lang="en">After repeated pummeling in the Gym class dodgeball game, Dexter arrives for class ready for action encased in an Armored Cyber-Sonic Exo-Jock Jumpsuit.</desc>
+    <episode-num system="onscreen">S01 E06</episode-num>
+    <episode-num system="xmltv_ns">0.5.</episode-num>
+  </programme>
+  <programme start="20261125154500 -0500" stop="20261125161000 -0500" channel="toon-diggity">
+    <title lang="en">Dexter's Laboratory</title>
+    <sub-title lang="en">Ewww That's Growth / Nuclear Confusion / Germ Warfare</sub-title>
+    <desc lang="en">When the whole family goes to the carnival, Dexter can't go on a ride because he's too short. Using his lab, he makes himself grow taller, but can't stop.</desc>
+    <episode-num system="onscreen">S02 E27</episode-num>
+    <episode-num system="xmltv_ns">1.26.</episode-num>
+  </programme>
+  <programme start="20261125161000 -0500" stop="20261125163500 -0500" channel="toon-diggity">
+    <title lang="en">Space Goofs</title>
+    <sub-title lang="en">Episode 19</sub-title>
+    <desc lang="en">Un trafiquant de bijoux extraterrestre se fait passer pour le cousin de Candy et fait de la maison des Zinzins la plaque tournante de son trafic. Transformés en larbins par le soi-disant cousin, les Zinzins n'ont qu'une idée en tête, lui piquer sa soucoupe volante pour rentrer chez eux. Mais cela ne va pas s'avérer simple.</desc>
+    <episode-num system="onscreen">S02 E19</episode-num>
+    <episode-num system="xmltv_ns">1.18.</episode-num>
+  </programme>
+  <programme start="20261125163500 -0500" stop="20261125180500 -0500" channel="toon-diggity">
     <title lang="en">Afternoon Shuffle</title>
     <desc lang="en">An after-school reel of theatrical shorts: Tom and Jerry, Looney Tunes, Tex Avery, Walter Lantz Cartunes and Fleischer classics, cut with international gems from NFB/ONF Canada and Zagreb Film.
 
 Homework can wait.</desc>
   </programme>
-  <programme start="20261125180000 -0500" stop="20261125193000 -0500" channel="toon-diggity">
+  <programme start="20261125180500 -0500" stop="20261125193500 -0500" channel="toon-diggity">
     <title lang="en">Gunsmith Cats</title>
   </programme>
-  <programme start="20261125193000 -0500" stop="20261125195500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
-    <episode-num system="onscreen">S01 E68</episode-num>
-    <episode-num system="xmltv_ns">0.67.</episode-num>
-  </programme>
-  <programme start="20261125195500 -0500" stop="20261125202000 -0500" channel="toon-diggity">
-    <title lang="en">Samurai Jack</title>
-    <sub-title lang="en">XVIII</sub-title>
-    <desc lang="en">Jack goes from destroyed village to another looking for those responsible, only to find the destruction was commissioned by Aku.</desc>
-    <episode-num system="onscreen">S02 E05</episode-num>
-    <episode-num system="xmltv_ns">1.4.</episode-num>
-  </programme>
-  <programme start="20261125202000 -0500" stop="20261125204500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
-    <episode-num system="onscreen">S01 E69</episode-num>
-    <episode-num system="xmltv_ns">0.68.</episode-num>
-  </programme>
-  <programme start="20261125204500 -0500" stop="20261125211000 -0500" channel="toon-diggity">
-    <title lang="en">Hajime no Ippo</title>
-    <sub-title lang="en">The End of the Death Match</sub-title>
-    <desc lang="en">Both Takamura and Eagle are bleeding from their eyes, the doctor is about to stop the match but Takamura tells him to continue the match. Takamura can hardly see, one eye is swollen, the other is covered in blood.</desc>
-    <episode-num system="onscreen">S01 E21</episode-num>
-    <episode-num system="xmltv_ns">0.20.</episode-num>
-  </programme>
-  <programme start="20261125211000 -0500" stop="20261125213500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
-    <episode-num system="onscreen">S01 E70</episode-num>
-    <episode-num system="xmltv_ns">0.69.</episode-num>
-  </programme>
-  <programme start="20261125213500 -0500" stop="20261125220000 -0500" channel="toon-diggity">
+  <programme start="20261125193500 -0500" stop="20261125200000 -0500" channel="toon-diggity">
     <title lang="en">Lupin The Third Part II</title>
     <sub-title lang="en">Pilot Film</sub-title>
     <desc lang="en">Two years after the birth of the manga a pilot film was realized. It was a brief film of only 15 minutes that had the purpose of assay the response to a possible future anime realization of Lupin III. The pilot opens with a challenge call from Lupin to Zenigata from a public phone.</desc>
     <episode-num system="onscreen">S01 E24</episode-num>
     <episode-num system="xmltv_ns">0.23.</episode-num>
   </programme>
-  <programme start="20261125220000 -0500" stop="20261125222500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
-    <episode-num system="onscreen">S01 E71</episode-num>
-    <episode-num system="xmltv_ns">0.70.</episode-num>
+  <programme start="20261125200000 -0500" stop="20261125202500 -0500" channel="toon-diggity">
+    <title lang="en">Hajime no Ippo</title>
+    <sub-title lang="en">The End of the Death Match</sub-title>
+    <desc lang="en">Both Takamura and Eagle are bleeding from their eyes, the doctor is about to stop the match but Takamura tells him to continue the match. Takamura can hardly see, one eye is swollen, the other is covered in blood.</desc>
+    <episode-num system="onscreen">S01 E21</episode-num>
+    <episode-num system="xmltv_ns">0.20.</episode-num>
   </programme>
-  <programme start="20261125222500 -0500" stop="20261125225000 -0500" channel="toon-diggity">
-    <title lang="en">Duckman</title>
-    <sub-title lang="en">Married Alive</sub-title>
-    <desc lang="en">Bernice returns home with news that she is getting married to a self-made billionaire who plans to take her and the kids away with him to Europe, leaving Duckman alone.</desc>
-    <episode-num system="onscreen">S02 E02</episode-num>
-    <episode-num system="xmltv_ns">1.1.</episode-num>
-  </programme>
-  <programme start="20261125225000 -0500" stop="20261125231500 -0500" channel="toon-diggity">
+  <programme start="20261125202500 -0500" stop="20261125205000 -0500" channel="toon-diggity">
     <title lang="en">Home Movies</title>
     <sub-title lang="en">Identifying a Body</sub-title>
     <desc lang="en">Brendon is doing a good job trying to raise money for the school walk-a-thon, but Coach McGuirk is doing a better job spending it. No worries! Coach's long-lost Uncle Pedro has died and left something for him in his will.</desc>
     <episode-num system="onscreen">S02 E02</episode-num>
     <episode-num system="xmltv_ns">1.1.</episode-num>
   </programme>
-  <programme start="20261125231500 -0500" stop="20261125234000 -0500" channel="toon-diggity">
+  <programme start="20261125205000 -0500" stop="20261125211500 -0500" channel="toon-diggity">
+    <title lang="en">Duckman</title>
+    <sub-title lang="en">Married Alive</sub-title>
+    <desc lang="en">Bernice returns home with news that she is getting married to a self-made billionaire who plans to take her and the kids away with him to Europe, leaving Duckman alone.</desc>
+    <episode-num system="onscreen">S02 E02</episode-num>
+    <episode-num system="xmltv_ns">1.1.</episode-num>
+  </programme>
+  <programme start="20261125211500 -0500" stop="20261125214000 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball Z</title>
+    <sub-title lang="en">Christmas Tree of Might</sub-title>
+    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <episode-num system="onscreen">S01 E71</episode-num>
+    <episode-num system="xmltv_ns">0.70.</episode-num>
+  </programme>
+  <programme start="20261125214000 -0500" stop="20261125220500 -0500" channel="toon-diggity">
     <title lang="en">Tenchi Universe</title>
     <sub-title lang="en">Tenchi Muyo! in Love</sub-title>
     <desc lang="en">The demonic space criminal Kain has escaped from prison and destroyed the Galaxy Police headquarters. To ensure that the Jurai will not stop him, Kain travels back to 1970 to eliminate Tenchi's mother before he is even born. Now, Tenchi and the gang must travel to the past to stop him before he ceases to exist.</desc>
     <episode-num system="onscreen">S02 E24</episode-num>
     <episode-num system="xmltv_ns">1.23.</episode-num>
   </programme>
-  <programme start="20261125234000 -0500" stop="20261126000500 -0500" channel="toon-diggity">
+  <programme start="20261125220500 -0500" stop="20261125223000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
     <sub-title lang="en">Christmas Tree of Might</sub-title>
     <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
     <episode-num system="onscreen">S01 E72</episode-num>
     <episode-num system="xmltv_ns">0.71.</episode-num>
   </programme>
-  <programme start="20261126000500 -0500" stop="20261126002000 -0500" channel="toon-diggity">
+  <programme start="20261125223000 -0500" stop="20261125225500 -0500" channel="toon-diggity">
+    <title lang="en">Samurai Jack</title>
+    <sub-title lang="en">XIX</sub-title>
+    <desc lang="en">Jack comes upon ruins of a village and realizes it is his home. He then reflects on the past when he was a young boy.</desc>
+    <episode-num system="onscreen">S02 E06</episode-num>
+    <episode-num system="xmltv_ns">1.5.</episode-num>
+  </programme>
+  <programme start="20261125225500 -0500" stop="20261125232000 -0500" channel="toon-diggity">
+    <title lang="en">Lupin The Third Part II</title>
+    <sub-title lang="en">Pilot Film</sub-title>
+    <desc lang="en">Two years after the birth of the manga a pilot film was realized. It was a brief film of only 15 minutes that had the purpose of assay the response to a possible future anime realization of Lupin III. The pilot opens with a challenge call from Lupin to Zenigata from a public phone.</desc>
+    <episode-num system="onscreen">S01 E25</episode-num>
+    <episode-num system="xmltv_ns">0.24.</episode-num>
+  </programme>
+  <programme start="20261125232000 -0500" stop="20261125234500 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball Z</title>
+    <sub-title lang="en">Christmas Tree of Might</sub-title>
+    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <episode-num system="onscreen">S01 E73</episode-num>
+    <episode-num system="xmltv_ns">0.72.</episode-num>
+  </programme>
+  <programme start="20261125234500 -0500" stop="20261126001000 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball Z</title>
+    <sub-title lang="en">Christmas Tree of Might</sub-title>
+    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <episode-num system="onscreen">S01 E74</episode-num>
+    <episode-num system="xmltv_ns">0.73.</episode-num>
+  </programme>
+  <programme start="20261126001000 -0500" stop="20261126002500 -0500" channel="toon-diggity">
     <title lang="en">Space Ghost Coast to Coast</title>
     <sub-title lang="en">Lawsuit</sub-title>
     <desc lang="en">Jace, Jan, and Blip from the original Space Ghost try to sue Space Ghost. Space Ghost gets out of it, and he blasts Blip. He also claims he destroyed Paris.</desc>
     <episode-num system="onscreen">S05 E03</episode-num>
     <episode-num system="xmltv_ns">4.2.</episode-num>
   </programme>
-  <programme start="20261126002000 -0500" stop="20261126003500 -0500" channel="toon-diggity">
+  <programme start="20261126002500 -0500" stop="20261126004000 -0500" channel="toon-diggity">
     <title lang="en">Space Ghost Coast to Coast</title>
     <sub-title lang="en">Fire Drill</sub-title>
     <desc lang="en">Donny Osmond comes prepared for Space Ghost...so does a woolly Panda.</desc>
     <episode-num system="onscreen">S02 E05</episode-num>
     <episode-num system="xmltv_ns">1.4.</episode-num>
   </programme>
-  <programme start="20261126003500 -0500" stop="20261126005000 -0500" channel="toon-diggity">
+  <programme start="20261126004000 -0500" stop="20261126005500 -0500" channel="toon-diggity">
     <title lang="en">Sealab 2021</title>
     <sub-title lang="en">Hail, Squishface</sub-title>
     <desc lang="en">A mysterious Asian visitor brings an irresistibly cute Gloop (reminiscent of shmoos) onto the station, which Murphy names Squishface. There are two problems, though: Gloops stink, and they multiply so fast that eventually Sealab is overrun with them. This episode parodies "The Trouble With Tribbles", Gremlins, and Aliens. There is also a reference to the popular fps shooter Return to Castle Wolfenstien when Debbie calls out "I need ammo!" and a bullet icon appears over her head.</desc>
     <episode-num system="onscreen">S02 E06</episode-num>
     <episode-num system="xmltv_ns">1.5.</episode-num>
   </programme>
-  <programme start="20261126005000 -0500" stop="20261126010500 -0500" channel="toon-diggity">
+  <programme start="20261126005500 -0500" stop="20261126011000 -0500" channel="toon-diggity">
     <title lang="en">Space Ghost Coast to Coast</title>
     <sub-title lang="en">Pal Joey</sub-title>
     <desc lang="en">Annoying intern Joey wreaks havoc on the set while trying to get a job. Meanwhile, Space Ghost reveals to Michael Moore that he doesn't pay his employees.</desc>
     <episode-num system="onscreen">S05 E08</episode-num>
     <episode-num system="xmltv_ns">4.7.</episode-num>
   </programme>
-  <programme start="20261126010500 -0500" stop="20261126013000 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
-    <desc lang="en">Gohan turns into Grand mystic form.</desc>
-    <episode-num system="onscreen">S01 E44</episode-num>
-    <episode-num system="xmltv_ns">0.43.</episode-num>
+  <programme start="20261126011000 -0500" stop="20261126013500 -0500" channel="toon-diggity">
+    <title lang="en">bro'Town</title>
+    <sub-title lang="en">Half Caste</sub-title>
+    <desc lang="en">The boys find a baby in the creek and try to bring it up , but struggle from sleep deprivation and the ordeal of nappy-changing until they have to search elsewhere for parents for the baby.</desc>
+    <episode-num system="onscreen">S02 E05</episode-num>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
   </programme>
-  <programme start="20261126013000 -0500" stop="20261126015500 -0500" channel="toon-diggity">
-    <title lang="en">The PJs</title>
-    <sub-title lang="en">Home School Dazed</sub-title>
-    <desc lang="en">During a teachers' strike, Thurgood joins Juicy and Calvin in home schooling after it's revealed he never got his diploma.</desc>
-    <episode-num system="onscreen">S02 E01</episode-num>
-    <episode-num system="xmltv_ns">1.0.</episode-num>
-  </programme>
-  <programme start="20261126015500 -0500" stop="20261126022000 -0500" channel="toon-diggity">
+  <programme start="20261126013500 -0500" stop="20261126020000 -0500" channel="toon-diggity">
     <title lang="en">Free for All</title>
     <sub-title lang="en">Sterile Angus</sub-title>
     <desc lang="en">Grandma wants a new stole, so she kidnaps Angus to breed him for more fur.</desc>
     <episode-num system="onscreen">S01 E03</episode-num>
     <episode-num system="xmltv_ns">0.2.</episode-num>
   </programme>
-  <programme start="20261126022000 -0500" stop="20261126024500 -0500" channel="toon-diggity">
+  <programme start="20261126020000 -0500" stop="20261126022500 -0500" channel="toon-diggity">
     <title lang="en">The Ricky Gervais Show</title>
     <sub-title lang="en">Freaks</sub-title>
     <desc lang="en">Another question for Karl from "Inside the Actors Studio": "If heaven exists, what would you like to hear God say when you enter the pearly gates?" From Karl's diary: A news report that humans will have spoken to aliens by the year 2025 leads him to worry that aliens will try to read his mind, while a story about a baby who looked like a frog makes Karl think life would be more interesting if there were different types of humans. Plus, Karl's top five freaks.</desc>
     <episode-num system="onscreen">S01 E13</episode-num>
     <episode-num system="xmltv_ns">0.12.</episode-num>
   </programme>
-  <programme start="20261126024500 -0500" stop="20261126031000 -0500" channel="toon-diggity">
-    <title lang="en">Sammy</title>
-    <sub-title lang="en">Malibu</sub-title>
-    <desc lang="en">James' plans to get some R&amp;R by renting a house in Malibu are foiled when his entire family shows up to hang out.</desc>
-    <episode-num system="onscreen">S01 E05</episode-num>
-    <episode-num system="xmltv_ns">0.4.</episode-num>
+  <programme start="20261126022500 -0500" stop="20261126025000 -0500" channel="toon-diggity">
+    <title lang="en">Dr. Katz, Professional Therapist</title>
+    <sub-title lang="en">Fructose</sub-title>
+    <desc lang="en">Katz decides to keep a bowl of fruit at the office, but it goes rotten pretty fast. He talks about it at the bar, and Stanley pronounces ""fructose"" as ""fruck-tose."" Meanwhile, Ben considers a variety of career options, after being told by his dad that he's ""pissing his life away"". He tries cake decorating and makes a cake made purely of frosting; takes up roller-skating; considers being a truck driver; and asks if there's a job for what he used to do as a kid: put on a pair of dad's pants, pull them way over his head, and stumble around the house.</desc>
+    <episode-num system="onscreen">S03 E03</episode-num>
+    <episode-num system="xmltv_ns">2.2.</episode-num>
   </programme>
-  <programme start="20261126031000 -0500" stop="20261126033500 -0500" channel="toon-diggity">
+  <programme start="20261126025000 -0500" stop="20261126031500 -0500" channel="toon-diggity">
+    <title lang="en">The PJs</title>
+    <sub-title lang="en">Home School Dazed</sub-title>
+    <desc lang="en">During a teachers' strike, Thurgood joins Juicy and Calvin in home schooling after it's revealed he never got his diploma.</desc>
+    <episode-num system="onscreen">S02 E01</episode-num>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+  </programme>
+  <programme start="20261126031500 -0500" stop="20261126034000 -0500" channel="toon-diggity">
+    <title lang="en">The Ping Pong Club</title>
+    <sub-title lang="en">First Love/Loser's Community</sub-title>
+    <desc lang="en">The underfunded ping pong club was forced to join the baseball team's training camp last year, but ended up being ball boys. This year, Mr. Shibazaki tries to make amends by bringing the boys to an inn in the mountains for their training camp. The inn is owned by Mr. Shibazaki's friend, Mr. Uehara, who happens to be a monkey. However, the inn seems to have more facilities for baths than ping pong.</desc>
+    <episode-num system="onscreen">S01 E09</episode-num>
+    <episode-num system="xmltv_ns">0.8.</episode-num>
+  </programme>
+  <programme start="20261126034000 -0500" stop="20261126040500 -0500" channel="toon-diggity">
+    <title lang="en">Kevin Spencer</title>
+    <sub-title lang="en">Sore Throats</sub-title>
+    <desc lang="en">Percy and Anastasia declare a war of the pranksters on each other.</desc>
+    <episode-num system="onscreen">S05 E08</episode-num>
+    <episode-num system="xmltv_ns">4.7.</episode-num>
+  </programme>
+  <programme start="20261126040500 -0500" stop="20261126043000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball</title>
     <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
     <desc lang="en">Gohan turns into Grand mystic form.</desc>
-    <episode-num system="onscreen">S01 E45</episode-num>
-    <episode-num system="xmltv_ns">0.44.</episode-num>
+    <episode-num system="onscreen">S01 E44</episode-num>
+    <episode-num system="xmltv_ns">0.43.</episode-num>
   </programme>
-  <programme start="20261126033500 -0500" stop="20261126040000 -0500" channel="toon-diggity">
+  <programme start="20261126043000 -0500" stop="20261126045500 -0500" channel="toon-diggity">
     <title lang="en">Magical Shopping Arcade Abenobashi</title>
     <sub-title lang="en">Extinction! Abenobashi Ancient Dinosaur Shopping Arcade</sub-title>
     <desc lang="en">Sasshi and Arumi thought for sure that they were going back home this time, but that`s just not to be. Instead, they find themselves in a prehistoric version of their home, complete with the usual cast of strange relatives that they have grown accustomed to seeing. But, they soon have more problems when they are on the run from the natives and trying to get a baby dinosaur back to his family.</desc>
     <episode-num system="onscreen">S01 E05</episode-num>
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
-  <programme start="20261126040000 -0500" stop="20261126042500 -0500" channel="toon-diggity">
-    <title lang="en">Spy Groove</title>
-    <sub-title lang="en">Greek Freaks</sub-title>
-    <desc lang="en">Xippo and Xappo Xerxes take over a vacation cruise ship to use the vacationers as labor workers to make their sneakers. The Agents, with the help of a sexy Traci Momandpopadopolis, must rescue the cruisers and stop the Pegasus Games, which are being held at the same time on the fake island Phreakonos, from going awry.</desc>
+  <programme start="20261126045500 -0500" stop="20261126052000 -0500" channel="toon-diggity">
+    <title lang="en">Undergrads</title>
+    <sub-title lang="en">Drunks</sub-title>
+    <desc lang="en">A rough night of drinking convinces Rocko to give up the booze, even despite the efforts of his alcohol-induced-hallucination-buddy, Bobby Whiskey. When Nitz is invited to hang out with Kimmy and her friends at a bar, he decides it's time to learn to drink. Gimpy provides the fake ID, but the newly sober Rocko refuses to help Nitz.</desc>
     <episode-num system="onscreen">S01 E05</episode-num>
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
-  <programme start="20261126042500 -0500" stop="20261126045000 -0500" channel="toon-diggity">
-    <title lang="en">The Sifl &amp; Olly Show</title>
-    <sub-title lang="en">Interview With The Orgasm &amp; G-Spot</sub-title>
-    <desc lang="en">Interview with The Orgasm &amp; G-Spot / Rock Fact: What Rapper Has The Most Costly Hair Style In The World? / Song: "Party at Dude's House" / Precious Roy's Scare-Hooker / Calls: Juan's Lover, Aftershave Drinker / Chester Interviews an Alien / Rock Fact: What Is The Shocking Inspiration Behind Pearl Jam's Name? / Interview: 102yr Old Centerfold, Magic Mushroom / Song: "Pico to Colorado (Llama School)"</desc>
-    <episode-num system="onscreen">S01 E16</episode-num>
-    <episode-num system="xmltv_ns">0.15.</episode-num>
-  </programme>
-  <programme start="20261126045000 -0500" stop="20261126051500 -0500" channel="toon-diggity">
-    <title lang="en">Dilbert</title>
-    <sub-title lang="en">Y2K</sub-title>
-    <desc lang="en">On the eve of the new millennium, everyone — except Dilbert — is making New Year's plans. While assuring everyone that the company is prepared for Y2K, Dilbert discovers that the computer mainframe's main processor isn't Y2K-compatible and all the company's systems will crash if it isn't fixed. Dilbert is rewarded for discovering this by being assigned to fix it, and he discovers that the system's original programmer was Wally. But have years of drudgework dulled his brain too much to be able to tackle this crucial task?</desc>
-    <episode-num system="onscreen">S01 E10</episode-num>
-    <episode-num system="xmltv_ns">0.9.</episode-num>
-  </programme>
-  <programme start="20261126051500 -0500" stop="20261126060000 -0500" channel="toon-diggity">
+  <programme start="20261126052000 -0500" stop="20261126060000 -0500" channel="toon-diggity">
     <title lang="en">Secret Stash</title>
     <desc lang="en">The dark corner of the animation shelf. Magnus Carlsson's Robin, Joe Cartoon's Flash-era weirdness, trippy experiments and surreal shorts, all handpicked for the hours nobody's watching.
 
 Don't tell the kids.</desc>
   </programme>
-  <programme start="20261126060000 -0500" stop="20261126080000 -0500" channel="toon-diggity">
+  <programme start="20261126060000 -0500" stop="20261126093000 -0500" channel="toon-diggity">
     <title lang="en">Breakfast Shorts</title>
     <desc lang="en">Pour the cereal, the projector's already running.
 
@@ -14059,135 +13999,126 @@ Disney Cartoons, Tom and Jerry, MGM and UPA shorts, with Terrytoons, George Pal'
 
 Spoon in one hand, remote in the other.</desc>
   </programme>
-  <programme start="20261126080000 -0500" stop="20261126082500 -0500" channel="toon-diggity">
-    <title lang="en">KaBlam!</title>
-    <sub-title lang="en">You May Already Be a... KaBlammer!</sub-title>
-    <desc lang="en">Action League Now  Hit of Horror: K-Podge creates a song which hypnotises people to destroy the Action League, so Bill The Lab Guy calls Lou Rawls to Help.  Prometheus &amp; Bob  Laundry:Prometheus and Bob sit in a hot spring while washing laundry, until an alien ruins the fun.
-
-Life with Loopy  In the Doghouse:Loopy gets aressted by the guad dog next door while looking for her frisbee.
-
-Hockey Monkey  Adults everywhere are looking for a Monkey and some kids who are playing hockey together. Music by Jimminy Kroekel and The Zambonis.
-
-Henry &amp; June Theme  Sidekick: A ""sidekick"" arrives, Jimmie McGee (an Ed McMahon type, blue tux), to laugh at Henry and June's jokes in case the audience doesn't get them.</desc>
-    <episode-num system="onscreen">S03 E10</episode-num>
-    <episode-num system="xmltv_ns">2.9.</episode-num>
+  <programme start="20261126093000 -0500" stop="20261126095500 -0500" channel="toon-diggity">
+    <title lang="en">Timon &amp; Pumbaa</title>
+    <sub-title lang="en">The Laughing Hyenas: Can't Take A Yolk</sub-title>
+    <desc lang="en">When morning comes, Shenzi, Banzai, and Ed try to steal an ostrich egg away from its mother but keep failing until they disguise themselves as birds.</desc>
+    <episode-num system="onscreen">S02 E14</episode-num>
+    <episode-num system="xmltv_ns">1.13.</episode-num>
   </programme>
-  <programme start="20261126082500 -0500" stop="20261126085000 -0500" channel="toon-diggity">
-    <title lang="en">Dexter's Laboratory</title>
-    <sub-title lang="en">The Scrying Game / Monstrosi-Dee Dee / Dad Man Walking</sub-title>
-    <desc lang="en">"The Scrying Game" (7 minutes) Dee Dee reads Dexter's fortune and, much to his shock, the things she predicted actually start happening.</desc>
-    <episode-num system="onscreen">S04 E08</episode-num>
-    <episode-num system="xmltv_ns">3.7.</episode-num>
+  <programme start="20261126095500 -0500" stop="20261126102000 -0500" channel="toon-diggity">
+    <title lang="en">Crayon Shin-chan</title>
+    <sub-title lang="en">We're Getting a Divorce?! / Play Ball: Part 1 / Play Ball: Part 2</sub-title>
+    <desc lang="en">A televised debate program prompts a quarrel between Mitsy and Harry, one that escalates quickly. Can this marriage be saved? What can Shin-chan do? Later, they patch up. / Principal Enzo proposes an inter-class softball game, but things start to go wrong during practice when a teacher breaks a window. / Shin-chan begins the baseball match by batting first. And later, he fields well and gets Kawamura out of the game.</desc>
+    <episode-num system="onscreen">S01 E06</episode-num>
+    <episode-num system="xmltv_ns">0.5.</episode-num>
   </programme>
-  <programme start="20261126085000 -0500" stop="20261126091500 -0500" channel="toon-diggity">
-    <title lang="en">Space Goofs</title>
-    <sub-title lang="en">Episode 2</sub-title>
-    <desc lang="en">Bud a recueilli un cochon d'Inde prénommé Jean-Jacques. L'animal s'avère un petit génie de la mécanique, prétendument échappé d'un laboratoire de recherches scientifiques. Voulant fuir la planète avec ses hôtes, Jean-Jacques propose d'achever la construction de la fusée qu'Etno peine à finaliser…</desc>
-    <episode-num system="onscreen">S02 E02</episode-num>
-    <episode-num system="xmltv_ns">1.1.</episode-num>
-  </programme>
-  <programme start="20261126091500 -0500" stop="20261126094000 -0500" channel="toon-diggity">
-    <title lang="en">Courage the Cowardly Dog</title>
-    <sub-title lang="en">Katz Kandy</sub-title>
-    <desc lang="en">Katz returns to eliminate Muriel.</desc>
-    <episode-num system="onscreen">S02 E12</episode-num>
-    <episode-num system="xmltv_ns">1.11.</episode-num>
-  </programme>
-  <programme start="20261126094000 -0500" stop="20261126100500 -0500" channel="toon-diggity">
+  <programme start="20261126102000 -0500" stop="20261126104500 -0500" channel="toon-diggity">
     <title lang="en">Garfield and Friends</title>
-    <sub-title lang="en">Hound of the Arbuckles / Read Alert / Urban Arbuckle</sub-title>
-    <desc lang="en">Garfield falls asleep watching a Sherlock Holmes movie and dreams he's assisting the famous detective. Orson's imagination brings things he is reading about to life.</desc>
-    <episode-num system="onscreen">S03 E09</episode-num>
-    <episode-num system="xmltv_ns">2.8.</episode-num>
+    <sub-title lang="en">Airborne Odie / Once Upon a Time Warp / Bride and Broom</sub-title>
+    <desc lang="en">Odie finds a magic lamp that grants his wish to fly. Wade is trying to collect a debt from Roy and Orson decides to help him to build the courage for the task by using his imagination. A witch is determined to get married and since her longtime boyfriend is dogging the subject, she picks Jon for her future husband.</desc>
+    <episode-num system="onscreen">S05 E09</episode-num>
+    <episode-num system="xmltv_ns">4.8.</episode-num>
   </programme>
-  <programme start="20261126100500 -0500" stop="20261126103000 -0500" channel="toon-diggity">
-    <title lang="en">Adventures of Sonic the Hedgehog</title>
-    <sub-title lang="en">The Magic Hassle</sub-title>
-    <desc lang="en">Coconuts acquires a magic wand and magical gadgets from Wes Weasley, and attempts to master them.</desc>
-    <episode-num system="onscreen">S01 E36</episode-num>
-    <episode-num system="xmltv_ns">0.35.</episode-num>
-  </programme>
-  <programme start="20261126103000 -0500" stop="20261126120000 -0500" channel="toon-diggity">
-    <title lang="en">Technicolor Toybox</title>
-    <desc lang="en">The late-morning matinee, served in Technicolor.
-
-Disney's timeless classics, Looney Tunes in full Merrie Melodies swing and Puppetoons built one carved figure at a time, all shuffled in with Woody Woodpecker, Droopy and whatever else tumbles out.
-
-Everything back in the box by noon.</desc>
-  </programme>
-  <programme start="20261126120000 -0500" stop="20261126122500 -0500" channel="toon-diggity">
-    <title lang="en">Goof Troop</title>
-    <sub-title lang="en">Axed by Addition</sub-title>
-    <desc lang="en">P.J. afraid of getting grounded big time by his dad for a bad report card, so he has fun like it's his last day on Earth.</desc>
-    <episode-num system="onscreen">S01 E03</episode-num>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
-  </programme>
-  <programme start="20261126122500 -0500" stop="20261126125000 -0500" channel="toon-diggity">
-    <title lang="en">Goof Troop</title>
-    <sub-title lang="en">Unreal Estate</sub-title>
-    <desc lang="en">Pete hires Goofy as a handyman for his getaway cottage.</desc>
-    <episode-num system="onscreen">S01 E04</episode-num>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
-  </programme>
-  <programme start="20261126125000 -0500" stop="20261126131500 -0500" channel="toon-diggity">
-    <title lang="en">Dexter's Laboratory</title>
-    <sub-title lang="en">Star Check Unconventional / Dexter Is Dirty / Ice Cream Scream</sub-title>
-    <desc lang="en">Dexter and his friends attend a Star Check convention dressed as their favorite characters; Dexter covers his body in plastic so that he doesn't have to wash his hands before dinner; Dexter creates a device to stop the ice cream van.</desc>
-    <episode-num system="onscreen">S02 E37</episode-num>
-    <episode-num system="xmltv_ns">1.36.</episode-num>
-  </programme>
-  <programme start="20261126131500 -0500" stop="20261126134000 -0500" channel="toon-diggity">
-    <title lang="en">Dexter's Laboratory</title>
-    <sub-title lang="en">A Hard Day's Day / Road Rash / Ocean Commotion</sub-title>
-    <desc lang="en">In "A HARD DAY'S DAY", every day is a fine day for science until things take a turn for the worse thanks to the position of the stars in the sky. In "ROAD RASH", Dexter's mom forces Dexter to go outside and ride a bike, with Dee Dee challenging him to catch her on her roller blades, resulting in a chase similar to one between Wile E. Coyote and the Road Runner. In "OCEAN COMMOTION", on a visit to the beach, Dee Dee (dressed in a mermaid bathing suit) gets kidnapped by some manic seafarin' sailors and Dexter vows to save her.</desc>
-    <episode-num system="onscreen">S02 E29</episode-num>
-    <episode-num system="xmltv_ns">1.28.</episode-num>
-  </programme>
-  <programme start="20261126134000 -0500" stop="20261126140500 -0500" channel="toon-diggity">
-    <title lang="en">Eek! The Cat</title>
-    <sub-title lang="en">Eekpocalypse Now!</sub-title>
-    <desc lang="en">Eek journeys up the McTropolis River to find Sharky, who has become the leader of a gang of dogs.</desc>
-    <episode-num system="onscreen">S02 E05</episode-num>
-    <episode-num system="xmltv_ns">1.4.</episode-num>
-  </programme>
-  <programme start="20261126140500 -0500" stop="20261126143000 -0500" channel="toon-diggity">
-    <title lang="en">Garfield and Friends</title>
-    <sub-title lang="en">Knights and Daze / Holiday Happening / Jailbird Jon</sub-title>
-    <desc lang="en">After a mix-up, Jon has to become a contestant in an aerial show and confront the Boulder. Wade receives too many pies in his face since it's a national holiday and he writes to the government, suggesting a new holiday. Jon gives a lecture in a prison about being a cartoonist and one of the convicts expresses a big interest in the profession.</desc>
-    <episode-num system="onscreen">S06 E15</episode-num>
-    <episode-num system="xmltv_ns">5.14.</episode-num>
-  </programme>
-  <programme start="20261126143000 -0500" stop="20261126145500 -0500" channel="toon-diggity">
-    <title lang="en">Garfield and Friends</title>
-    <sub-title lang="en">Cactus Makes Perfect / Hogcules II / Crime and Nourishment</sub-title>
-    <desc lang="en">READY FOR SNOW: Jon dresses Garfield and Odie for snow. CACTUS MAKES PERFECT: Jon, Garfield and Odie visit Cactus Jake at his home. HOGCULES II: When Roy and Wade have a fight, Orson wonders what Hogcules would do. Song: "Hogcules." CRIME AND NOURISHMENT: Garfield discovers a secret world inside a tree. BINK: BUILDING: Binky crashes a new building dedication.</desc>
-    <episode-num system="onscreen">S02 E19</episode-num>
-    <episode-num system="xmltv_ns">1.18.</episode-num>
-  </programme>
-  <programme start="20261126145500 -0500" stop="20261126152000 -0500" channel="toon-diggity">
-    <title lang="en">Mighty Mouse: The New Adventures (1987)</title>
-    <sub-title lang="en">Night on Bald Pate / Mouse from Another House</sub-title>
-    <desc lang="en">Night on Bald Pate: Ostracised for having a bald scalp, Petey Pate turns to villainy and kidnaps Pearl to make Mouseville take him seriously.
-
-Mouse from Another House: Lonely orphan Scrappy listens as Pearl describes Mighty Mouse's beginnings.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-  </programme>
-  <programme start="20261126152000 -0500" stop="20261126154500 -0500" channel="toon-diggity">
-    <title lang="en">The Ripping Friends</title>
-    <sub-title lang="en">The Infernal Wedding</sub-title>
-    <desc lang="en">Citracett, a villainous dictator from the fictional country of Euroslavia, decides to seduce He-Mom in an effort to get close to, and rid himself of, the Ripping Brothers, eventually asking He-Mom to marry him. The Ripping Brothers must now follow his orders "as if they were Citracett's own".</desc>
+  <programme start="20261126104500 -0500" stop="20261126111000 -0500" channel="toon-diggity">
+    <title lang="en">Crayon Shin-chan</title>
+    <sub-title lang="en">Mom's Getting Fat / I'm a Kiddie Commando / Dad Lost His Eyebrows</sub-title>
+    <desc lang="en">Mitsy tries hard to lose weight and plans a diet. But she fails to resist her food cravings and eats herself full. / The school organizes an athletic event for its students. At the end, all the students get a pack of snacks as a reward for completing the given task. / While Harry sleeps, Shin-chan trims Harry's eyebrows. Later, Mitsy and Shin-chan come up with ideas to rectify the problem.</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
-  <programme start="20261126154500 -0500" stop="20261126161000 -0500" channel="toon-diggity">
-    <title lang="en">Megas XLR</title>
-    <sub-title lang="en">Test Drive</sub-title>
-    <desc lang="en">Coop finds an alien robot in a Jersey City junkyard, and decides to soup it up with hot-rod parts and flame decals. What happens when the original owner of this robot sees Coop's improvements?</desc>
+  <programme start="20261126111000 -0500" stop="20261126113500 -0500" channel="toon-diggity">
+    <title lang="en">Adventures of Sonic the Hedgehog</title>
+    <sub-title lang="en">Subterranean Sonic</sub-title>
+    <desc lang="en">Sonic and Tails escape underground from Scratch and Grounder, but they are held captive there by a miserly mole named Spelunk.</desc>
+    <episode-num system="onscreen">S01 E09</episode-num>
+    <episode-num system="xmltv_ns">0.8.</episode-num>
+  </programme>
+  <programme start="20261126113500 -0500" stop="20261126120000 -0500" channel="toon-diggity">
+    <title lang="en">Adventures of Sonic the Hedgehog</title>
+    <sub-title lang="en">Robo-Ninjas</sub-title>
+    <desc lang="en">Robotnik captures Kwai Chang Crane, a martial arts master, and uses him to turn Scratch and Grounder into effective ninja to defeat Sonic.</desc>
+    <episode-num system="onscreen">S01 E61</episode-num>
+    <episode-num system="xmltv_ns">0.60.</episode-num>
+  </programme>
+  <programme start="20261126120000 -0500" stop="20261126122500 -0500" channel="toon-diggity">
+    <title lang="en">Garfield and Friends</title>
+    <sub-title lang="en">Maine Course / No Laughing Matter / Attack of the Mutant Guppies</sub-title>
+    <desc lang="en">Jon receives a lobster as a gift but it refuses to be cooked, so he and Garfield try to make a pet out of it. / Aliens come to Earth to drain it of all its humor, so Orson and his friends use Roy's joke books to try and defeat them. / Garfield tells Nermal a scary story about mutant guppies living in the sewer so he'll go to bed, but the story seems to take on a life of its own.</desc>
+    <episode-num system="onscreen">S02 E11</episode-num>
+    <episode-num system="xmltv_ns">1.10.</episode-num>
+  </programme>
+  <programme start="20261126122500 -0500" stop="20261126125000 -0500" channel="toon-diggity">
+    <title lang="en">Invader Zim</title>
+    <sub-title lang="en">Walk of Doom</sub-title>
+    <desc lang="en">Zim goes on an outing to the downtown area in order to test a new guidance chip he installed in GIR, but when GIR removes the chip before leaving in order to store a cupcake, Zim and GIR are left lost and have to resort to public transport to find their way back. Their journey home is complicated further by Zim temporarily losing his vision by looking at the sun, his disguise being mistaken for that of a bank robber, and his escape from the police being wrecked by GIR replacing his extra rocket fuel with tuna fish.</desc>
+    <episode-num system="onscreen">S01 E03</episode-num>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme start="20261126125000 -0500" stop="20261126131500 -0500" channel="toon-diggity">
+    <title lang="en">Space Goofs</title>
+    <sub-title lang="en">No Account Art</sub-title>
+    <desc lang="en">Tired of tenants trying to move in, the aliens try to make the house uninhabitable, but its farm look ends up attracting a farmer with his animals, and a pig named Sooee who behaves badly to the others. To sort things out, the aliens team up with the rest of the animals (they also use the SMTV to transform into five different types of animals themselves) to revolt against the farmer and Sooee.</desc>
+    <episode-num system="onscreen">S01 E09</episode-num>
+    <episode-num system="xmltv_ns">0.8.</episode-num>
+  </programme>
+  <programme start="20261126131500 -0500" stop="20261126134000 -0500" channel="toon-diggity">
+    <title lang="en">Time Squad</title>
+    <sub-title lang="en">Napoleon the Conquered</sub-title>
+    <desc lang="en">It's a mission to Napoleon, the conqueror. Tuddrussel upsets him, and they almost get their heads cut off. (When it comes to Larry, the word "almost" just doesn't fit!) Suddenly his wife comes along and drags him home! Can Time Squad help him get away to conquer again, away from his husband-conquering wife?</desc>
+    <episode-num system="onscreen">S01 E03</episode-num>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme start="20261126134000 -0500" stop="20261126140500 -0500" channel="toon-diggity">
+    <title lang="en">KaBlam!</title>
+    <sub-title lang="en">All Purpose KaBlam!</sub-title>
+    <desc lang="en">Sniz &amp; Fondue - "Second-Hand Sniz": Sniz refuses to learn how to tell time, so his house-mates go extremes to make see how important it is.  Action League Now! - "Nightmare on Memory Lane": While on a mission to learn the Mayor's secret formula, Meltman loses his memory.  Prometheus and Bob - "Bridge": Prometheus tries to show Bob how to make a bridge from a log.  Surprising Shorts - "Lava!": A creature takes a wild ride on a firecracker.  Life With Loopy - "Back to Nature": Loopy refuses to take a bath, accumulating so much dirt and growth that she becomes a massive forest!</desc>
+    <episode-num system="onscreen">S01 E05</episode-num>
+    <episode-num system="xmltv_ns">0.4.</episode-num>
+  </programme>
+  <programme start="20261126140500 -0500" stop="20261126143000 -0500" channel="toon-diggity">
+    <title lang="en">Three Delivery</title>
+    <sub-title lang="en">I Feel the Earth Move</sub-title>
+    <desc lang="en">Earthquakes are the result of the Di Xia dragon, which has been awakened by Kong Li in an effort to break the force field.</desc>
     <episode-num system="onscreen">S01 E01</episode-num>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
-  <programme start="20261126161000 -0500" stop="20261126180000 -0500" channel="toon-diggity">
+  <programme start="20261126143000 -0500" stop="20261126145500 -0500" channel="toon-diggity">
+    <title lang="en">Fillmore!</title>
+    <sub-title lang="en">Test of the Tested</sub-title>
+    <desc lang="en">The student body is in an uproar when the controversial S.A.T.T.Y. 9 tests are stolen by an assailant dressed as X's beloved mascot, Lobstee the Lobster. Fillmore and Ingrid are under pressure—they have only 48 hours to find the tests or Principal Folsom will have the entire school take the tests again.</desc>
+    <episode-num system="onscreen">S01 E02</episode-num>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+  </programme>
+  <programme start="20261126145500 -0500" stop="20261126152000 -0500" channel="toon-diggity">
+    <title lang="en">The Mouse and the Monster</title>
+    <sub-title lang="en">Ches Meets Mo</sub-title>
+    <desc lang="en">The heart-burning origin of how Ches and Mo meet, develop a friendship and flee the insane clutches of mad Doctor Wackerstein, the brain of Doc's late favorite pianist, Flatnoteski, and Doc's avant-garde wife, Olga.</desc>
+    <episode-num system="onscreen">S01 E01</episode-num>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme start="20261126152000 -0500" stop="20261126154000 -0500" channel="toon-diggity">
+    <title lang="en">The Tick</title>
+    <sub-title lang="en">Rising</sub-title>
+    <desc lang="en">Tick and Arthur try to use Ramses to prove that the Terror is alive and run into trouble. Miss Lint takes the advice of an old friend.</desc>
+    <episode-num system="onscreen">S01 E06</episode-num>
+    <episode-num system="xmltv_ns">0.5.</episode-num>
+  </programme>
+  <programme start="20261126154000 -0500" stop="20261126160500 -0500" channel="toon-diggity">
+    <title lang="en">Courage the Cowardly Dog</title>
+    <sub-title lang="en">Courage Meets the Mummy</sub-title>
+    <desc lang="en">A mummy seeks revenge on the two people who wrongfully entombed him.</desc>
+    <episode-num system="onscreen">S02 E07</episode-num>
+    <episode-num system="xmltv_ns">1.6.</episode-num>
+  </programme>
+  <programme start="20261126160500 -0500" stop="20261126163000 -0500" channel="toon-diggity">
+    <title lang="en">Courage the Cowardly Dog</title>
+    <sub-title lang="en">A Beaver's Tale</sub-title>
+    <desc lang="en">A beaver's huge dam forces water into the farmhouse.</desc>
+    <episode-num system="onscreen">S04 E01</episode-num>
+    <episode-num system="xmltv_ns">3.0.</episode-num>
+  </programme>
+  <programme start="20261126163000 -0500" stop="20261126180000 -0500" channel="toon-diggity">
     <title lang="en">Afternoon Shuffle</title>
     <desc lang="en">An after-school reel of theatrical shorts: Tom and Jerry, Looney Tunes, Tex Avery, Walter Lantz Cartunes and Fleischer classics, cut with international gems from NFB/ONF Canada and Zagreb Film.
 
@@ -14198,73 +14129,129 @@ Homework can wait.</desc>
     <desc lang="en">For Donald's birthday he receives a box with three gifts inside. The gifts, a movie projector, a pop-up book, and a pinata, each take Donald on wild adventures through Mexico and South America.</desc>
   </programme>
   <programme start="20261126191500 -0500" stop="20261126194000 -0500" channel="toon-diggity">
-    <title lang="en">Lupin The Third Part II</title>
-    <sub-title lang="en">Pilot Film</sub-title>
-    <desc lang="en">Two years after the birth of the manga a pilot film was realized. It was a brief film of only 15 minutes that had the purpose of assay the response to a possible future anime realization of Lupin III. The pilot opens with a challenge call from Lupin to Zenigata from a public phone.</desc>
-    <episode-num system="onscreen">S01 E25</episode-num>
-    <episode-num system="xmltv_ns">0.24.</episode-num>
-  </programme>
-  <programme start="20261126194000 -0500" stop="20261126200500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
-    <episode-num system="onscreen">S01 E73</episode-num>
-    <episode-num system="xmltv_ns">0.72.</episode-num>
-  </programme>
-  <programme start="20261126200500 -0500" stop="20261126203000 -0500" channel="toon-diggity">
-    <title lang="en">Tenchi Universe</title>
-    <sub-title lang="en">Tenchi Muyo! in Love</sub-title>
-    <desc lang="en">The demonic space criminal Kain has escaped from prison and destroyed the Galaxy Police headquarters. To ensure that the Jurai will not stop him, Kain travels back to 1970 to eliminate Tenchi's mother before he is even born. Now, Tenchi and the gang must travel to the past to stop him before he ceases to exist.</desc>
-    <episode-num system="onscreen">S02 E25</episode-num>
-    <episode-num system="xmltv_ns">1.24.</episode-num>
-  </programme>
-  <programme start="20261126203000 -0500" stop="20261126205500 -0500" channel="toon-diggity">
-    <title lang="en">Samurai Jack</title>
-    <sub-title lang="en">XIX</sub-title>
-    <desc lang="en">Jack comes upon ruins of a village and realizes it is his home. He then reflects on the past when he was a young boy.</desc>
-    <episode-num system="onscreen">S02 E06</episode-num>
-    <episode-num system="xmltv_ns">1.5.</episode-num>
-  </programme>
-  <programme start="20261126205500 -0500" stop="20261126212000 -0500" channel="toon-diggity">
     <title lang="en">Hajime no Ippo</title>
     <sub-title lang="en">Flower of Hope</sub-title>
     <desc lang="en">A look at the life of Kamogawa and Nekota after World War 2.</desc>
     <episode-num system="onscreen">S01 E22</episode-num>
     <episode-num system="xmltv_ns">0.21.</episode-num>
   </programme>
-  <programme start="20261126212000 -0500" stop="20261126214500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
-    <episode-num system="onscreen">S01 E74</episode-num>
-    <episode-num system="xmltv_ns">0.73.</episode-num>
+  <programme start="20261126194000 -0500" stop="20261126200500 -0500" channel="toon-diggity">
+    <title lang="en">Tenchi Universe</title>
+    <sub-title lang="en">Tenchi Muyo! in Love</sub-title>
+    <desc lang="en">The demonic space criminal Kain has escaped from prison and destroyed the Galaxy Police headquarters. To ensure that the Jurai will not stop him, Kain travels back to 1970 to eliminate Tenchi's mother before he is even born. Now, Tenchi and the gang must travel to the past to stop him before he ceases to exist.</desc>
+    <episode-num system="onscreen">S02 E25</episode-num>
+    <episode-num system="xmltv_ns">1.24.</episode-num>
   </programme>
-  <programme start="20261126214500 -0500" stop="20261126221000 -0500" channel="toon-diggity">
+  <programme start="20261126200500 -0500" stop="20261126203000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
     <sub-title lang="en">Christmas Tree of Might</sub-title>
     <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
     <episode-num system="onscreen">S01 E75</episode-num>
     <episode-num system="xmltv_ns">0.74.</episode-num>
   </programme>
-  <programme start="20261126221000 -0500" stop="20261126223500 -0500" channel="toon-diggity">
+  <programme start="20261126203000 -0500" stop="20261126205500 -0500" channel="toon-diggity">
     <title lang="en">Duckman</title>
     <sub-title lang="en">Days of Whining and Neurosis</sub-title>
     <desc lang="en">Duckman &amp; Cornfed go undercover into an exclusive celebrity-filled health spa to investigate one of the support groups.</desc>
     <episode-num system="onscreen">S02 E03</episode-num>
     <episode-num system="xmltv_ns">1.2.</episode-num>
   </programme>
-  <programme start="20261126223500 -0500" stop="20261126230000 -0500" channel="toon-diggity">
+  <programme start="20261126205500 -0500" stop="20261126212000 -0500" channel="toon-diggity">
     <title lang="en">Home Movies</title>
     <sub-title lang="en">Hiatus</sub-title>
     <desc lang="en">Believing they are in a creative rut, the kids agree to take a hiatus. Brendon reluctantly agrees to film Duane's band rehearsal and meets Cynthia, an older choreographer. Coach McGuirk and Mr. Lynch plan a trip to Cancun, while Paula is the victim of budget cuts at her school.</desc>
     <episode-num system="onscreen">S02 E03</episode-num>
     <episode-num system="xmltv_ns">1.2.</episode-num>
   </programme>
-  <programme start="20261126230000 -0500" stop="20261126232500 -0500" channel="toon-diggity">
+  <programme start="20261126212000 -0500" stop="20261126214500 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
     <sub-title lang="en">Christmas Tree of Might</sub-title>
     <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
     <episode-num system="onscreen">S01 E76</episode-num>
     <episode-num system="xmltv_ns">0.75.</episode-num>
+  </programme>
+  <programme start="20261126214500 -0500" stop="20261126221000 -0500" channel="toon-diggity">
+    <title lang="en">Lupin The Third Part II</title>
+    <sub-title lang="en">Pilot Film</sub-title>
+    <desc lang="en">Two years after the birth of the manga a pilot film was realized. It was a brief film of only 15 minutes that had the purpose of assay the response to a possible future anime realization of Lupin III. The pilot opens with a challenge call from Lupin to Zenigata from a public phone.</desc>
+    <episode-num system="onscreen">S01 E26</episode-num>
+    <episode-num system="xmltv_ns">0.25.</episode-num>
+  </programme>
+  <programme start="20261126221000 -0500" stop="20261126223500 -0500" channel="toon-diggity">
+    <title lang="en">Tenchi Universe</title>
+    <sub-title lang="en">Tenchi Muyo! in Love</sub-title>
+    <desc lang="en">The demonic space criminal Kain has escaped from prison and destroyed the Galaxy Police headquarters. To ensure that the Jurai will not stop him, Kain travels back to 1970 to eliminate Tenchi's mother before he is even born. Now, Tenchi and the gang must travel to the past to stop him before he ceases to exist.</desc>
+    <episode-num system="onscreen">S02 E26</episode-num>
+    <episode-num system="xmltv_ns">1.25.</episode-num>
+  </programme>
+  <programme start="20261126223500 -0500" stop="20261126230000 -0500" channel="toon-diggity">
+    <title lang="en">Samurai Jack</title>
+    <sub-title lang="en">XX</sub-title>
+    <desc lang="en">Jack travels vertically up a mountain with three monks to witness the magic of the mountain only to have the power of the mountain save his very life.</desc>
+    <episode-num system="onscreen">S02 E07</episode-num>
+    <episode-num system="xmltv_ns">1.6.</episode-num>
+  </programme>
+  <programme start="20261126230000 -0500" stop="20261126232500 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball Z</title>
+    <sub-title lang="en">Christmas Tree of Might</sub-title>
+    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <episode-num system="onscreen">S01 E77</episode-num>
+    <episode-num system="xmltv_ns">0.76.</episode-num>
+  </programme>
+  <programme start="20261126232500 -0500" stop="20261126235000 -0500" channel="toon-diggity">
+    <title lang="en">Berserk</title>
+    <sub-title lang="en">Conspiracy</sub-title>
+    <desc lang="en">Griffith and Guts continue their success in battle and Griffith is made a Count.</desc>
+    <episode-num system="onscreen">S01 E08</episode-num>
+    <episode-num system="xmltv_ns">0.7.</episode-num>
+  </programme>
+  <programme start="20261126235000 -0500" stop="20261127001500 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball Z</title>
+    <sub-title lang="en">Christmas Tree of Might</sub-title>
+    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <episode-num system="onscreen">S01 E78</episode-num>
+    <episode-num system="xmltv_ns">0.77.</episode-num>
+  </programme>
+  <programme start="20261127001500 -0500" stop="20261127003000 -0500" channel="toon-diggity">
+    <title lang="en">Sealab 2021</title>
+    <sub-title lang="en">Pitch Pilot</sub-title>
+    <desc lang="en">Two scientists are stuck on an iceberg in Antarctica. They call for Sealab's help, but they have other issues. For example, Marco thinks he is a salad, Sparks interrupting the call by watching porn, Turtle races.</desc>
+    <episode-num system="onscreen">S02 E13</episode-num>
+    <episode-num system="xmltv_ns">1.12.</episode-num>
+  </programme>
+  <programme start="20261127003000 -0500" stop="20261127004500 -0500" channel="toon-diggity">
+    <title lang="en">Cromartie High School</title>
+    <sub-title lang="en">Jackson</sub-title>
+    <desc lang="en">Cromartie High Vs. Bass High! The Bass High students infiltrate Cromartie High School in search of information, while Hayashida complains about their school being too "normal".</desc>
+    <episode-num system="onscreen">S01 E10</episode-num>
+    <episode-num system="xmltv_ns">0.9.</episode-num>
+  </programme>
+  <programme start="20261127004500 -0500" stop="20261127010000 -0500" channel="toon-diggity">
+    <title lang="en">Sealab 2021</title>
+    <sub-title lang="en">Feast of Alvis</sub-title>
+    <desc lang="en">Capt. Murphy's attempts at a happy Alvistide go awry thanks to non-Alvian crew members, an uncooperative electrician, and Alvis himself "crapping the buffet".</desc>
+    <episode-num system="onscreen">S02 E11</episode-num>
+    <episode-num system="xmltv_ns">1.10.</episode-num>
+  </programme>
+  <programme start="20261127010000 -0500" stop="20261127011500 -0500" channel="toon-diggity">
+    <title lang="en">Space Ghost Coast to Coast</title>
+    <sub-title lang="en">Terminal</sub-title>
+    <desc lang="en">Space Ghost is terminally ill and will die when the show ends, but no-one seems to care. Perhaps they see through Space Ghost's 'illness'.</desc>
+    <episode-num system="onscreen">S05 E01</episode-num>
+    <episode-num system="xmltv_ns">4.0.</episode-num>
+  </programme>
+  <programme start="20261127011500 -0500" stop="20261127014000 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball</title>
+    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
+    <desc lang="en">Gohan turns into Grand mystic form.</desc>
+    <episode-num system="onscreen">S01 E45</episode-num>
+    <episode-num system="xmltv_ns">0.44.</episode-num>
+  </programme>
+  <programme start="20261127014000 -0500" stop="20261127020500 -0500" channel="toon-diggity">
+    <title lang="en">Sammy</title>
+    <sub-title lang="en">Malibu</sub-title>
+    <desc lang="en">James' plans to get some R&amp;R by renting a house in Malibu are foiled when his entire family shows up to hang out.</desc>
+    <episode-num system="onscreen">S01 E05</episode-num>
+    <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
 </tv>
