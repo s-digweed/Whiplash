@@ -4,22 +4,6 @@
     <display-name>NickPicks</display-name>
     <icon src="https://i.imgur.com/6is9eGi.png" />
   </channel>
-  <programme start="20261123060000 +0000" stop="20261123180000 +0000" channel="NickPicks">
-    <title lang="en">Non-Stop Nick</title>
-    <desc lang="en">No schedule, just streaks.
-
-All November, NickPicks runs back-to-back marathons and specials, from SNICK-era classics and Nicktoons to TeenNick favorites and Nick at Nite late-night sitcoms, stacked episode after episode.
-
-Grab the remote and settle in.</desc>
-  </programme>
-  <programme start="20261123180000 +0000" stop="20261124060000 +0000" channel="NickPicks">
-    <title lang="en">Non-Stop Nick</title>
-    <desc lang="en">No schedule, just streaks.
-
-All November, NickPicks runs back-to-back marathons and specials, from SNICK-era classics and Nicktoons to TeenNick favorites and Nick at Nite late-night sitcoms, stacked episode after episode.
-
-Grab the remote and settle in.</desc>
-  </programme>
   <programme start="20261124060000 +0000" stop="20261124180000 +0000" channel="NickPicks">
     <title lang="en">Non-Stop Nick</title>
     <desc lang="en">No schedule, just streaks.
@@ -10183,5 +10167,197 @@ Grab the remote and settle in.</desc>
   <programme start="20270123053000 +0000" stop="20270123060000 +0000" channel="NickPicks">
     <title lang="en">My Wife and Kids</title>
     <desc lang="en">Michael Kyle longs for a traditional life, but his day-trader wife Janet, gangsta rap-worshipping son Michael Jr., and brooding daughters Claire and Kady make his dream just that ... a dream.</desc>
+  </programme>
+  <programme start="20270123060000 +0000" stop="20270123063000 +0000" channel="NickPicks">
+    <title lang="en">Home Improvement</title>
+    <desc lang="en">The daily trials and tribulations of Tim "The Tool Man" Taylor, a television show host raising three mischievous boys with help from his loyal co-host, loving wife, and eccentric neighbor.</desc>
+  </programme>
+  <programme start="20270123063000 +0000" stop="20270123070000 +0000" channel="NickPicks">
+    <title lang="en">Married... with Children</title>
+    <desc lang="en">Al is the quintessential working class dad. Peggy, his wife, always wants more from him. With their children, they go through the highs and lows of ordinary life.</desc>
+  </programme>
+  <programme start="20270123070000 +0000" stop="20270123073000 +0000" channel="NickPicks">
+    <title lang="en">The King of Queens</title>
+    <desc lang="en">Deliveryman Doug Heffernan has a good life: He has a pretty wife (Carrie), a big television, and friends with which to watch it. Then Carrie's goofy, annoying father Arthur moves in with them.</desc>
+  </programme>
+  <programme start="20270123073000 +0000" stop="20270123080000 +0000" channel="NickPicks">
+    <title lang="en">The Nanny</title>
+    <desc lang="en">After being fired from her job and dumped by her boyfriend, a cosmetics saleswoman becomes the nanny to the three children of a rich English widower. As time passes, the two fall for each other.</desc>
+  </programme>
+  <programme start="20270123080000 +0000" stop="20270123083000 +0000" channel="NickPicks">
+    <title lang="en">Yes, Dear</title>
+    <desc lang="en">Yes, Dear is a comedy about two young couples and their outrageously contrasting views on parenting.</desc>
+  </programme>
+  <programme start="20270123083000 +0000" stop="20270123090000 +0000" channel="NickPicks">
+    <title lang="en">Instant Mom</title>
+    <desc lang="en">A 25-year-old party girl becomes an instant mom when she marries an older man with three children.</desc>
+  </programme>
+  <programme start="20270123090000 +0000" stop="20270123093000 +0000" channel="NickPicks">
+    <title lang="en">See Dad Run</title>
+    <desc lang="en">An actor becomes a stay-at-home father so his wife can pursue her career.</desc>
+  </programme>
+  <programme start="20270123093000 +0000" stop="20270123100000 +0000" channel="NickPicks">
+    <title lang="en">Wendell &amp; Vinnie</title>
+    <desc lang="en">A loveable goofball uncle becomes the guardian of his nephew, a 12-year-old genius.</desc>
+  </programme>
+  <programme start="20270123100000 +0000" stop="20270123103000 +0000" channel="NickPicks">
+    <title lang="en">Fatherhood</title>
+    <desc lang="en">Scientist Dr. Arthur Bindlebeep is the head of the family and a high school teacher. He and his wife, Norma, try to be model parents while learning a few things from their three children: Angie, Roy and Katherine and their dog Gui...</desc>
+  </programme>
+  <programme start="20270123103000 +0000" stop="20270123110000 +0000" channel="NickPicks">
+    <title lang="en">Glenn Martin, DDS</title>
+    <desc lang="en">A dentist and father of two decides to take his family across country after their house burns down. With their old beat up Winnebago, the Martin family will encounter the best that America has to offer.</desc>
+  </programme>
+  <programme start="20270123110000 +0000" stop="20270123113000 +0000" channel="NickPicks">
+    <title lang="en">Making Fiends</title>
+    <desc lang="en">An evil little girl's plans to control her town with homemade monsters becomes uprooted by another little girl that sees happiness in everything, and sees her as her best friend.</desc>
+  </programme>
+  <programme start="20270123113000 +0000" stop="20270123120000 +0000" channel="NickPicks">
+    <title lang="en">Edgar &amp; Ellen</title>
+    <desc lang="en">Twin pranksters Edgar and Ellen play jokes on each other and Nod's Limbs residents. Despite backfiring pranks, they torment one another, their pet, and Ellen's nemesis Stephanie.</desc>
+  </programme>
+  <programme start="20270123120000 +0000" stop="20270123123000 +0000" channel="NickPicks">
+    <title lang="en">Oh Yeah! Cartoons</title>
+    <desc lang="en">A TV series that shows a collection of cartoon shorts. This show helped to launch cartoons shows of "The Fairly Oddparents", "Chalkzone" and "My Life as a Teenage Robot."</desc>
+  </programme>
+  <programme start="20270123123000 +0000" stop="20270123130000 +0000" channel="NickPicks">
+    <title lang="en">Action League Now!</title>
+    <desc lang="en">This KaBlam spinoff combines the original shorts into a half-hour program, while being connected to each other thematically.</desc>
+  </programme>
+  <programme start="20270123130000 +0000" stop="20270123133000 +0000" channel="NickPicks">
+    <title lang="en">Angela Anaconda</title>
+    <desc lang="en">A rambunctious girl and her friends' adventures in school and their community.</desc>
+  </programme>
+  <programme start="20270123133000 +0000" stop="20270123140000 +0000" channel="NickPicks">
+    <title lang="en">My Dad the Rock Star</title>
+    <desc lang="en">The straightlaced son of a flamboyantly eccentric heavy metal rock star tries to lead a normal life.</desc>
+  </programme>
+  <programme start="20270123140000 +0000" stop="20270123143000 +0000" channel="NickPicks">
+    <title lang="en">Corneil &amp; Bernie</title>
+    <desc lang="en">This show contains numerous adventures about just a guy and his talking dog</desc>
+  </programme>
+  <programme start="20270123143000 +0000" stop="20270123150000 +0000" channel="NickPicks">
+    <title lang="en">Kappa Mikey</title>
+    <desc lang="en">Parody of Japanese anime, featuring a guy named Mikey who travels to Japan to star in an anime, where he discovers his new co-stars are all basically walking anime clichés.</desc>
+  </programme>
+  <programme start="20270123150000 +0000" stop="20270123153000 +0000" channel="NickPicks">
+    <title lang="en">Shuriken School</title>
+    <desc lang="en">Shuriken School follows the extraordinary adventures of 10 year old hero Eizan Kaburagi and his friends during their first year at an under-funded ninja school.</desc>
+  </programme>
+  <programme start="20270123153000 +0000" stop="20270123160000 +0000" channel="NickPicks">
+    <title lang="en">Three Delivery</title>
+    <desc lang="en">Three orphaned siblings in Chinatown attempt to locate missing recipes with mystical powers, all while doubling as Chinese food delivery couriers.</desc>
+  </programme>
+  <programme start="20270123160000 +0000" stop="20270123163000 +0000" channel="NickPicks">
+    <title lang="en">Butt-Ugly Martians</title>
+    <desc lang="en">Three aliens came to Earth to become addicted to American culture. They are shown around by their Earthling friends: Mike, Cedric, and Angela. The Butt-Ugly Martians stay on Earth as long as Emperor Bog never finds them.</desc>
+  </programme>
+  <programme start="20270123163000 +0000" stop="20270123170000 +0000" channel="NickPicks">
+    <title lang="en">Martin Mystery</title>
+    <desc lang="en">Martin and Diana, two mismatched teenagers, and Java, a massive caveman lost in time, work for an undercover bureau specializing in mysterious phenomena.</desc>
+  </programme>
+  <programme start="20270123170000 +0000" stop="20270123173000 +0000" channel="NickPicks">
+    <title lang="en">Men in Black: The Series</title>
+    <desc lang="en">The continuing adventures of Agents K and J as they deal with problems with extraterrestrials in New York City.</desc>
+  </programme>
+  <programme start="20270123173000 +0000" stop="20270123180000 +0000" channel="NickPicks">
+    <title lang="en">Invader Zim</title>
+    <desc lang="en">An alien named Zim from the planet Irk is sent on a secret mission to conquer Earth, not realising that his leaders were just trying to get rid of him and hoped that he would die. Once there, Zim manages to disguise himself as a h...</desc>
+  </programme>
+  <programme start="20270123180000 +0000" stop="20270123183000 +0000" channel="NickPicks">
+    <title lang="en">ChalkZone</title>
+    <desc lang="en">The adventures of a boy with a magic chalk stick that enables him to enter a world of chalk drawings and alter its reality at will.</desc>
+  </programme>
+  <programme start="20270123183000 +0000" stop="20270123190000 +0000" channel="NickPicks">
+    <title lang="en">The Wild Thornberrys</title>
+    <desc lang="en">Eliza Thornberry is not your ordinary kid. It's not just because she travels the world in an RV with her parents: famous nature show hosts. Eliza also happened to be granted the magical ability to talk with and understand animals.</desc>
+  </programme>
+  <programme start="20270123190000 +0000" stop="20270123193000 +0000" channel="NickPicks">
+    <title lang="en">6teen</title>
+    <desc lang="en">Set in a giant shopping mall, this show follows the after-school lives of six 16-year-olds.</desc>
+  </programme>
+  <programme start="20270123193000 +0000" stop="20270123200000 +0000" channel="NickPicks">
+    <title lang="en">As Told by Ginger</title>
+    <desc lang="en">The TV cartoon follows a preteen girl named Ginger Foutley, along with two friends, as they try to fit in social life as well in school and try to avoid any embarrassments.</desc>
+  </programme>
+  <programme start="20270123200000 +0000" stop="20270123203000 +0000" channel="NickPicks">
+    <title lang="en">My Life as a Teenage Robot</title>
+    <desc lang="en">The escapades of a super-powered robot who happens to resemble a teenage girl that tries to balance high school and teen problems while trying to save the world from danger.</desc>
+  </programme>
+  <programme start="20270123203000 +0000" stop="20270123210000 +0000" channel="NickPicks">
+    <title lang="en">Jimmy Neutron</title>
+    <desc lang="en">A young boy, who happens to be a genius, lives in a small town with his family and friends and often gets into crazy adventures with them involving the things he invents.</desc>
+  </programme>
+  <programme start="20270123210000 +0000" stop="20270123213000 +0000" channel="NickPicks">
+    <title lang="en">The Fairly OddParents</title>
+    <desc lang="en">After being tortured and humiliated by his babysitter, a ten year old boy is put under the care of two fairy godparents, who can grant him almost any wish, which leads to dire consequences.</desc>
+  </programme>
+  <programme start="20270123213000 +0000" stop="20270123220000 +0000" channel="NickPicks">
+    <title lang="en">Danny Phantom</title>
+    <desc lang="en">A 14-year-old receives ghost powers and uses them to save the world.</desc>
+  </programme>
+  <programme start="20270123220000 +0000" stop="20270123223000 +0000" channel="NickPicks">
+    <title lang="en">Avatar: The Last Airbender</title>
+    <desc lang="en">After a century frozen in ice, young Avatar Aang journeys with friends to master the four elements and bring balance to a world at war with the Fire Nation.</desc>
+  </programme>
+  <programme start="20270123223000 +0000" stop="20270123230000 +0000" channel="NickPicks">
+    <title lang="en">All Grown Up!</title>
+    <desc lang="en">Follows the adventures of an older Rugrats gang.</desc>
+  </programme>
+  <programme start="20270123230000 +0000" stop="20270123233000 +0000" channel="NickPicks">
+    <title lang="en">Rocket Power</title>
+    <desc lang="en">Four friends and their daily lives of playing extreme sports, surfing, and getting into some crazy situations.</desc>
+  </programme>
+  <programme start="20270123233000 +0000" stop="20270124000000 +0000" channel="NickPicks">
+    <title lang="en">SpongeBob SquarePants</title>
+    <desc lang="en">The misadventures of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in an underwater pineapple.</desc>
+  </programme>
+  <programme start="20270124000000 +0000" stop="20270124003000 +0000" channel="NickPicks">
+    <title lang="en">Cousin Skeeter</title>
+    <desc lang="en">Follows a boy who has come to live with his cousin and his family. Both of them get into all sorts of funny situations.</desc>
+  </programme>
+  <programme start="20270124003000 +0000" stop="20270124010000 +0000" channel="NickPicks">
+    <title lang="en">Kenan &amp; Kel</title>
+    <desc lang="en">Kenan and Kel, best friends who live in Chicago, are always dragged down by Kenan's get-rich-quick schemes; orange-soda-loving buddy Kel is dragged along but tends to mess things up.</desc>
+  </programme>
+  <programme start="20270124010000 +0000" stop="20270124013000 +0000" channel="NickPicks">
+    <title lang="en">The Amanda Show</title>
+    <desc lang="en">A comedy sketch show centered around All That (1994) alum Amanda Bynes.</desc>
+  </programme>
+  <programme start="20270124013000 +0000" stop="20270124020000 +0000" channel="NickPicks">
+    <title lang="en">All That</title>
+    <desc lang="en">A zany sketch comedy featuring many wacky characters hosted for kids and by kids.</desc>
+  </programme>
+  <programme start="20270124020000 +0000" stop="20270124023000 +0000" channel="NickPicks">
+    <title lang="en">Romeo!</title>
+    <desc lang="en">Romeo finds out what it means to be a good friend, even if it means breaking the law.</desc>
+  </programme>
+  <programme start="20270124023000 +0000" stop="20270124030000 +0000" channel="NickPicks">
+    <title lang="en">Drake &amp; Josh</title>
+    <desc lang="en">Two teenage boys with clashing personalities - one is a slick musician, the other a clumsy nerd - must navigate high school and family life together after becoming step-brothers.</desc>
+  </programme>
+  <programme start="20270124030000 +0000" stop="20270124033000 +0000" channel="NickPicks">
+    <title lang="en">Just Jordan</title>
+    <desc lang="en">A young man rises to stardom under the tutelage of his teacher-turned-manager.</desc>
+  </programme>
+  <programme start="20270124033000 +0000" stop="20270124040000 +0000" channel="NickPicks">
+    <title lang="en">Taina</title>
+    <desc lang="en">Fifteen-year-old Taina Morales dreams of being a singer and actor, and must juggle family values and friends while attending the Manhattan School for the Performing Arts.</desc>
+  </programme>
+  <programme start="20270124040000 +0000" stop="20270124043000 +0000" channel="NickPicks">
+    <title lang="en">The Brothers García</title>
+    <desc lang="en">The comic foibles of a Mexican-American family in San Antonio, Texas, US.</desc>
+  </programme>
+  <programme start="20270124043000 +0000" stop="20270124050000 +0000" channel="NickPicks">
+    <title lang="en">Noah Knows Best</title>
+    <desc lang="en">Noah Beznick and his sister Megan deal with sibling rivalry.</desc>
+  </programme>
+  <programme start="20270124050000 +0000" stop="20270124053000 +0000" channel="NickPicks">
+    <title lang="en">Are You Afraid of the Dark</title>
+    <desc lang="en">A group of teenagers meet in the woods, and tell scary stories.</desc>
+  </programme>
+  <programme start="20270124053000 +0000" stop="20270124060000 +0000" channel="NickPicks">
+    <title lang="en">Roundhouse</title>
+    <desc lang="en">Sketch Comedy show for adolescents with skits revolving around a central theme to teach a lesson.</desc>
   </programme>
 </tv>
