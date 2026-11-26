@@ -64,6 +64,7 @@ EEL_CHANNEL_MAP = {
     "C1.145.ersatztv.org": ("eel-channel",  "Eel Channel"),
     "C2.146.ersatztv.org": ("fizz",         "Fizz"),
     "C121.244.ersatztv.org": ("toon-diggity", "Toon Diggity"),  # feed moved it off C3.147 (now an orphan/stale id)
+    "C122.245.ersatztv.org": ("toon-diggity", "Toon Diggity"),  # Nov 2026: feed moved it again (C121.244 kept in case it flips back)
 }
 EEL_LOGOS = {
     "eel-channel":  "https://i.imgur.com/YBZUFXs.png",
