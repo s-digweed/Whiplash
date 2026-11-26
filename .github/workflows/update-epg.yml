@@ -48,6 +48,8 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update EPG and playlist [skip ci]"
+            # newer run wins (same as PlexTV): rebase onto whatever landed meanwhile,
+            # then --force-with-lease (never plain --force)
             git pull --rebase origin main || git rebase --abort
-            git push
+            git push --force-with-lease
           fi
