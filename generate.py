@@ -81,6 +81,8 @@ EEL_NAME_ALIASES = {
     "toon disney":         "toon-diggity",
     "toon disney shorts":  "toon-diggity",
     "cartoon shuffle":     "toon-diggity",   # Nov 2026 rebrand; our guide keeps "Toon Diggity"
+    "e toons":             "toon-diggity",   # Nov 26 2026 rebrand ("122 E Toons"); guide keeps "Toon Diggity"
+    "etoons":              "toon-diggity",
 }
 def _norm_chan_name(s):
     s = re.sub(r"^\s*\d+\s*", "", (s or "").strip())      # drop the feed's leading channel number
@@ -142,6 +144,9 @@ RENAMES = {
     "Charlie Brown and Snoopy Show": "The Charlie Brown and Snoopy Show",
     "Ping Pong Club": "The Ping Pong Club",
     "Super Milk Chan USA": "The Super Milk-Chan Show",   # TMDB/Netflix name
+    "Lupin The Third Part II": "Lupin the Third Part II",
+    "Gay Pur-ee": "Gay Purr-ee",                          # real title (feed misspells it; TMDB match)
+    "Free for All": "Free for All (2003)",                # Showtime series; year disambiguates lookups
 }
 
 # Fuzzy renames: (pattern, canonical) applied when the exact table misses.
@@ -253,6 +258,58 @@ FIXED_DESC = {
         "whatever else tumbles out."
         "\n\n"
         "Everything back in the box by noon.",
+    # ── Toon Diggity (eToons) studio segments, Nov 26 2026 grid ──
+    "Terrytoons":                             # feed: "Terry Toons" (~6 AM ET)
+        "Sign-on, straight out of New Rochelle."
+        "\n\n"
+        "Paul Terry's barnyard opens the day: Farmer Al Falfa, Gandy Goose and Sourpuss, Kiko the "
+        "Kangaroo, Puddy the Pup, those magpie troublemakers Heckle and Jeckle, and a pint-sized "
+        "Mighty Mouse flying in before the coffee's done."
+        "\n\n"
+        "First reel of the morning.",
+    "Columbia Cavalcade":                     # ~6:30 AM ET
+        "Columbia's cartoon cabinet swings open."
+        "\n\n"
+        "Charles Mintz's Krazy Kat and Scrappy, the Technicolor Color Rhapsodies, The Fox and the "
+        "Crow trading wisecracks, and UPA's Jolly Frolics with Gerald McBoing-Boing and a nearsighted "
+        "Mr. Magoo squinting his way through it all."
+        "\n\n"
+        "The lady with the torch says good morning.",
+    "Universal Union":                        # ~7 AM ET
+        "Rise and peck."
+        "\n\n"
+        "Woody Woodpecker leads the morning crew with Andy Panda, Chilly Willy, Homer Pigeon, "
+        "Inspector Willoughby and Oswald the Lucky Rabbit, plus Cartune Classics and Oscar-nominated "
+        "shorts from the Lantz studio."
+        "\n\n"
+        "The union never strikes.",
+    "Paramount Potluck":                      # ~8 AM ET
+        "Paramount's cooking!"
+        "\n\n"
+        "Felix the Cat from the silent days, Fleischer's Koko the Clown, Betty Boop, Popeye and "
+        "Superman, Famous Studios' Casper, Little Audrey, Little Lulu, Baby Huey and Herman and "
+        "Katnip, plus George Pal's Puppetoons."
+        "\n\n"
+        "Come hungry, leave laughing.",
+    "MGM Gems":                               # ~12:10 PM ET
+        "Lunch break at the studio with the roaring lion."
+        "\n\n"
+        "Hanna and Barbera's Tom and Jerry, Tex Avery's Droopy and Screwy Squirrel, Barney Bear, "
+        "Spike and Tyke, George and Junior, The Captain and the Kids, plus Harman-Ising's Happy "
+        "Harmonies and Bosko, and Ub Iwerks' Flip the Frog and Willie Whopper."
+        "\n\n"
+        "Gems, every one.",
+    "Merrie Melodies Matinee":                # feed: "Looney Tunes" (~1:10 PM ET)
+        "One hour of the funniest cartoons ever made. Argue with us later."
+        "\n\n"
+        "Bugs Bunny, Daffy Duck, Porky Pig, Elmer Fudd, Sylvester, Tweety, Yosemite Sam, Speedy "
+        "Gonzales, Marvin the Martian, the Tasmanian Devil, and the Road Runner leaving Wile E. "
+        "Coyote in the dust."
+        "\n\n"
+        "Beep beep.",
+    "A Charlie Brown Thanksgiving (1973)":    # IMDb synopsis (in case the feed sends it)
+        "Peppermint Patty invites herself and her friends over to Charlie Brown's for Thanksgiving, "
+        "and with Linus, Snoopy, and Woodstock, he attempts to throw together a Thanksgiving dinner.",
     "Afternoon Shuffle":
         "An after-school reel of theatrical shorts: Tom and Jerry, Looney Tunes, Tex Avery, Walter Lantz "
         "Cartunes and Fleischer classics, cut with international gems from NFB/ONF Canada and Zagreb Film."
@@ -342,7 +399,8 @@ FIXED_DESC = {
 # Some Eel-feed titles arrive in BLOCK CAPITALS ("CRAPSTON VILLAS", "RENO 911!").
 # Title-case them so they match the guide, renames and the rest of the grid.
 _KEEP_CAPS = {"TV", "MTV", "USA", "UK", "US", "NYPD", "CSI", "SNL", "UFO", "BBC", "ITV", "ABC", "NBC",
-              "CBS", "WWE", "WWF", "DC", "II", "III", "IV", "VI", "VII", "VIII", "IX", "XL", "AM", "PM", "DJ"}
+              "CBS", "WWE", "WWF", "DC", "II", "III", "IV", "VI", "VII", "VIII", "IX", "XL", "AM", "PM", "DJ",
+              "FLCL"}
 _SMALL = {"a", "an", "and", "the", "of", "in", "on", "at", "to", "for", "or", "but", "nor", "vs", "vs.", "by", "with"}
 def _decap(title):
     letters = re.sub(r"[^A-Za-z]", "", title or "")
@@ -375,6 +433,11 @@ def _eel_segment_rename(title, start, channel=None):
         return "Breakfast Shorts"
     if channel == "toon-diggity" and title == "Late Morning Shuffle":
         return "Technicolor Toybox"
+    # Nov 26 2026 eToons grid: studio segments (blurbs in FIXED_DESC).
+    if channel == "toon-diggity" and title == "Terry Toons":
+        return "Terrytoons"
+    if channel == "toon-diggity" and title == "Looney Tunes":
+        return "Merrie Melodies Matinee"
     if title == "Music Videos":
         try:
             hr = int((start or "")[8:10])
@@ -386,6 +449,73 @@ def _eel_segment_rename(title, start, channel=None):
 # Renamed titles that should NOT carry the source's trailing (YYYY)
 DROP_YEAR = {"Batman: The Animated Series"}
 
+# Feed "T<series><ep>" codes read as season+episode ("T225 Tenchi Universe" -> S02 E25), but the
+# leading digit is the FRANCHISE series (Tenchi Universe = Tenchi's 2nd TV series, 26 eps, one
+# season). Remap that season per show: {show: {feed_season: real_season}}.
+SEASON_REMAP = {
+    "Tenchi Universe": {2: 1},
+}
+
+# ── Tenchi Universe (Wikipedia list of episodes) ─────────────────────────────
+# The feed codes it "T2NN Tenchi Universe" (franchise series 2, episode NN = absolute 1-26).
+# Shown per arc, as Taqi wants: "Tenchi Universe - <Arc>" + episode name; ONE season (S01 E01-E26),
+#   only the arc in the title changes: 1-10 Earth Adventure, 11-13 Time and Space Adventures, 14-26 Space Adventure.
+# Names + synopses straight from Wikipedia; no metadata lookups for this show.
+TENCHI_UNIVERSE = [  # index = absolute episode - 1: (arc, season, episode, name, synopsis)
+    ('Earth Adventure', 1, 1, 'No Need for Discussions!',
+     'Pursued by Galaxy Police Detective Mihoshi, Ryoko crash lands on Earth and interjects herself into the lives of the Masaki family, particularly the teenage son Tenchi.'),
+    ('Earth Adventure', 1, 2, 'No Need for a Princess!',
+     'Mihoshi activates a distress signal, to which Princess Ayeka responds. Rivalries between Ryoko and Ayeka ignite and all wind up stuck on Earth.'),
+    ('Earth Adventure', 1, 3, 'No Need for Worries!',
+     'Sasami goes in search of her older sister Ayeka and is caught up in the growing and conflicting household.'),
+    ('Earth Adventure', 1, 4, 'No Need for Monsters!',
+     'During local festivities, Ryoko becomes fascinated with the legend about a monster entombed in a cave shrine. Conflicts with Ayeka ensue and the monster is revealed to be Washu, a mad scientist.'),
+    ('Earth Adventure', 1, 5, 'No Need for Partners!',
+     'Kiyone gleefully celebrates the "passing" of her mismatched partner Mihoshi until superiors ask her to investigate the possibility that Mihoshi might be alive on the isolated planet Earth.'),
+    ('Earth Adventure', 1, 6, 'No Need for Resident Officers!',
+     "Mihoshi and Kiyone are reassigned to Earth, much to Kiyone's chagrin. Having to adjust to the high cost of living, both take a series of part-time jobs while still being on-call for galaxy police emergencies."),
+    ('Earth Adventure', 1, 7, 'No Need for a Carnival!',
+     'The extraterrestrial group participates at all levels when festivities are held at the Masaki Shrine.'),
+    ('Earth Adventure', 1, 8, 'No Need for a Genius!',
+     'Washu is determined to get back in the game with a series of inventions, starting with a mecha clone of herself; plans go awry when Mihoshi gets involved.'),
+    ('Earth Adventure', 1, 9, 'No Need for Memories!',
+     "A winter snowfall elicits various responses from the household, culminating in the annual observation of the death of Tenchi's mother."),
+    ('Earth Adventure', 1, 10, 'No Need for an Arch Rival!',
+     'Bounty hunter Nagi catches up with Ryoko and kidnaps Tenchi to lure her away from the safety of the group.'),
+    ('Time and Space Adventures', 1, 11, 'Time and Space Adventures: Part 1',
+     "Washu invents a machine capable of generating alternative realities to the specifics of the user. Curious and competing members of the extraterrestrial group overwhelm the machine and disappear into the new realities. In the First Part, the group participates in Ayeka's world in Heian period Japan where she and Tenchi are arranged to be married only after he defeats the Rashomon who is Ryoko."),
+    ('Time and Space Adventures', 1, 12, 'Time and Space Adventures: Part 2',
+     "Washu continues repairs and attempts to bring them back by eliminating worlds one at a time. In the second part, Kiyone imagines life as a drifter in a local inn after an abrupt career change. In Sasami's world, she becomes a magical girl heroine who interjects herself in the high school love triangle of Ayeka, Tenchi, and Ryoko."),
+    ('Time and Space Adventures', 1, 13, 'Time and Space Adventures: Part 3',
+     "Repairs and rescue by Washu are almost complete. In Mihoshi's world, she is a housewife married to Tenchi, while Ayeka and Ryoko are her critical sister-in-law and flirting neighbor, respectively. In Ryoko's world, Tenchi and she are Bonnie and Clyde characters on the run from FBI Agents Kiyone and Mihoshi."),
+    ('Space Adventure', 1, 14, 'No Need for a Rebellion!',
+     'Incredible events within the Jurai monarchy result in the arrest of Princess Ayeka, Sasami, and Ryoko by royal guards and Kiyone and Mihoshi are recalled to Galaxy Police headquarters. The Masaki family, Washu, and Ryo-ohki launch a rescue mission.'),
+    ('Space Adventure', 1, 15, 'No Need for an Escape!',
+     'The Masaki family, Washu, and now Mihoshi and Kiyone help the captives escape from Galaxy Police Headquarters.'),
+    ('Space Adventure', 1, 16, 'No Need for Hiding!',
+     'Determined to get to Jurai and low on resources, the group opens a bar with themselves as bartenders and hostesses. Nagi drops in determined to capture Ryoko.'),
+    ('Space Adventure', 1, 17, 'No Need for Hunger!',
+     'A combination of engine troubles and low supplies strands the group without any food. Ryoko takes last of the cash on hand and vows to return with food.'),
+    ('Space Adventure', 1, 18, 'No Need for a Ghost!',
+     "The group's space ship inexplicably breaks down in an unusual area of space. After encountering an abandoned passenger ship, Sasami disappears following an ethereal young girl."),
+    ('Space Adventure', 1, 19, 'No Need for Runaways!',
+     "The group's space ship is hijacked by juvenile delinquents during a rest stop."),
+    ('Space Adventure', 1, 20, 'No Need for Swimsuits!',
+     "Again low on cash, the group sets up a snack shop and takes part-time jobs on a beach resort. Rivalries ignite again during a swimsuit competition and are further exacerbated by Nagi's participation."),
+    ('Space Adventure', 1, 21, 'No Need for a Checkpoint!',
+     'To get to Jurai, the group attempt to cross a necessary checkpoint disguised as members of a school field trip.'),
+    ('Space Adventure', 1, 22, 'No Need for Knights!',
+     "The group inadvertently crash lands on a mysterious property within the Jurai galaxy at Grandfather Katsuhito's request. Such esoteric knowledge becomes a revelation about the Masaki family and grandfather enlists the help of fabled knights to restore the monarchy."),
+    ('Space Adventure', 1, 23, 'No Need for Karma!',
+     "Katsuhito recounts the enmity between himself and Kagato, who is trying to usurp Katsuhito's legitimate position within the Jurai monarchy. They confront one another and Ayeka is kidnapped."),
+    ('Space Adventure', 1, 24, 'No Need for Ryoko!',
+     'Motivated to rescue Ayeka and stop Kagato, the group initiates an assault on the Jurai Palace. Ryoko takes the lead in a diversionary plan against Jurai forces.'),
+    ('Space Adventure', 1, 25, 'No Need for a Showdown!',
+     'Tenchi and the fabled knights battle their way to the throne room, culminating in a face-off between Kagato and himself.'),
+    ('Space Adventure', 1, 26, 'No Need for a Conclusion!',
+     'In an epilogue, Tenchi discusses the fate of most of the group, all of whom have their reputations restored or rewarded. Despite such acknowledgements, all become fond of their experience on Earth and return to the Masaki household.'),
+]
+
 # Per-episode sub-titles the feed doesn't carry: (show, season, episode) -> sub-title
 EPISODE_SUBS = {
     ("Homeless in Denton", 2, 5): "Fry St. Fair '06",
@@ -396,7 +526,7 @@ EPISODE_SUBS = {
 # The feed sends films as "<Franchise> Movie" + sub-title "<Film> (YYYY)" + a fake S/E.
 # Shown film-style instead: "<Franchise>: <Film> (YYYY)", no S/E, TMDB movie lookup.
 # FILM_CANON fixes known films to TMDB's exact title (keyword in the sub-title -> canonical).
-_FILM_FRANCHISE = re.compile(r"^(.*\S)\s+Movie$", re.I)
+_FILM_FRANCHISE = re.compile(r"^(.*\S)\s+(?:Movie|OVA)$", re.I)   # "DBZ Movie"/"DBZ OVA" + "<Film> (YYYY)"
 FILM_CANON = {
     "tree of might": "Dragon Ball Z: The Tree of Might (1990)",
     "bardock":       "Dragon Ball Z: Bardock \u2013 The Father of Goku (1990)",
@@ -411,7 +541,28 @@ EP_NAME_ALIAS = {
 EEL_SHOW_LOOKUP = {
     "The Super Milk-Chan Show": "The Super Milk Chan Show",      # IMDb spelling
     "Mighty Mouse: The New Adventures (1987)": None,
+    # episodic shows whose episode text is missing or non-English in the DBs -> show synopsis
+    "Space Goofs": None,
+    "Funky Cops": None,
+    "Free for All (2003)": None,
 }
+
+# Multi-part specials the feed sends as "<Title>: Part N" / "<Title> (N)" with no S/E:
+# treat Part N as S01 E N so the episode name + synopsis come from the DBs.
+PART_AS_EPISODE = {"This Is America, Charlie Brown"}
+_PART_TAIL = re.compile(r"^(.*?)\s*(?::\s*Part\s+(\d{1,2})|\(\s*(?:Part\s+)?(\d{1,2})\s*\)|\s+Part\s+(\d{1,2}))\s*$", re.I)
+
+# Non-English overview guard: TMDB falls back to the original language (Space Goofs and
+# Funky Cops come back in French). Such text is skipped so the next source is tried.
+_FOREIGN_WORDS = {"le", "la", "les", "des", "du", "de", "une", "un", "est", "et", "dans", "pour",
+                  "qui", "sur", "pas", "avec", "sont", "au", "aux", "il", "elle", "ils", "leur",
+                  "en", "à", "ne", "se", "ce", "mais", "d", "l", "être", "très", "lui"}
+def _looks_foreign(text):
+    words = re.findall(r"[a-zà-ÿ]+", (text or "").lower())
+    if len(words) < 6:
+        return False
+    return sum(1 for w in words if w in _FOREIGN_WORDS) / len(words) > 0.15
+_PLACEHOLDER_EP = re.compile(r"^[ÉE]pisod[ei]o?\s*#?\d+(?:\.\d+)?$", re.I)   # also OMDb's "Episode #1.5"   # "Episode 23"/"Épisode 4" = no real name
 
 # ── Part-marker standardization (guardrail across all 3 Eel channels) ──────
 # Normalize two-parter markers to "Title: Part N": "(1)/(2)", "(Part One)",
@@ -503,7 +654,7 @@ def _digits_to_se(d, show):
     return 1, int(d)
 
 def _clean(s):
-    s = re.sub(r'^[\s_\-]+|[\s_\-]+$', '', s.strip())
+    s = re.sub(r'^[\s_\-–—]+|[\s_\-–—]+$', '', s.strip())   # incl. en/em dashes
     return re.sub(r'\s{2,}', ' ', s).strip()
 
 def _rename(title):
@@ -614,6 +765,8 @@ def load_desc_cache():
             if not c.get("_meta_v3"):                    # refresh episode caches once to capture episode NAMES
                 for _k in ("episodes","tvmaze_episodes","tvdb_episodes","tvmaze_eplist"): c[_k] = {}
                 c["_meta_v3"] = True
+            if not c.get("_tvdb_v3"):                    # drop TVDB "first episode" fallbacks (DBZ/Tenchi bug)
+                c["tvdb_episodes"] = {}; c["_tvdb_v3"] = True
             return c
     except Exception:
         return {"shows": {}, "episodes": {}, "tvmaze_shows": {}, "tvmaze_episodes": {},
@@ -854,7 +1007,11 @@ def _tvdb_meta(show, season, ep, cache):
         data = _tvdb_get(path, season=season, episodeNumber=ep, page=0)
         eps = data.get("episodes") if isinstance(data, dict) else None
         if isinstance(eps, list) and eps:
-            m = next((e for e in eps if e.get("seasonNumber") == season and e.get("number") == ep), eps[0])
+            # exact match only: falling back to eps[0] stamped one special's name/synopsis on
+            # every missing number (DBZ E40-45 "Christmas Tree of Might", Tenchi Universe S2)
+            m = next((e for e in eps if e.get("seasonNumber") == season and e.get("number") == ep), None)
+            if m is None:
+                continue
             ov = (m.get("overview") or "").strip()
             if not nm:
                 nm = (m.get("name") or "").strip()
@@ -926,10 +1083,11 @@ def episode_meta(show, season, ep, cache):
     def take(res):
         nonlocal ov, nm
         o, n = res
-        if o and not ov: ov = o
-        if n and not nm: nm = n
+        if o and not ov and not _looks_foreign(o): ov = o
+        if n and not nm and not _PLACEHOLDER_EP.match(n.strip()): nm = n
         return bool(ov and nm)
     if take(_tmdb_meta(show, season, ep, cache)):                 return ov, nm
+    if OMDB_KEY and take(_omdb_episode(show, season, ep, cache)):     return ov, nm   # IMDb, 2nd
     if ENABLE_TVMAZE and take(_tvmaze_meta(show, season, ep, cache)): return ov, nm
     if ENABLE_TVDB and take(_tvdb_meta(show, season, ep, cache)):     return ov, nm
     if season == 1: take(_absolute_meta(show, ep, cache))
@@ -1129,7 +1287,11 @@ def build_eel(tv, root, cache):
     for _alias, _loc in EEL_NAME_ALIASES.items():
         name2local[_norm_chan_name(_alias)] = _loc
     resolved = {}   # src_id_in_feed -> (local_id, display)
-    for want_id, (local_id, display) in EEL_CHANNEL_MAP.items():
+    # newest ids are listed last, so walk the map backwards: if the feed still declares an
+    # old id next to the new one, the newest wins and the channel is never doubled
+    for want_id, (local_id, display) in reversed(list(EEL_CHANNEL_MAP.items())):
+        if local_id in {loc for loc, _ in resolved.values()}:
+            continue
         if want_id in declared:
             resolved[want_id] = (local_id, display)
             continue
@@ -1139,17 +1301,45 @@ def build_eel(tv, root, cache):
             resolved[alt] = (local_id, display)
             print(f"  NOTE: Eel '{display}' source id changed {want_id} -> {alt} "
                   f"(auto-matched by display-name; update EEL_CHANNEL_MAP to silence)")
+        # (no match by id or name: handled by the last-resort pass below)
+    # Last resort for a rebrand we have no alias for yet: if a channel is still unresolved and
+    # exactly ONE declared feed channel is unclaimed, that must be it (the feed carries only
+    # Eel / Fizz / Toon Diggity). Logged loudly so the alias can be added.
+    got_local = {loc for loc, _ in resolved.values()}
+    for want_id, (local_id, display) in EEL_CHANNEL_MAP.items():
+        if local_id in got_local:
+            continue
+        got_local.add(local_id)          # one decision (and one log line) per channel
+        free = [cid for cid in declared if cid not in resolved]
+        if len(free) == 1:
+            resolved[free[0]] = (local_id, display); got_local.add(local_id)
+            print(f"  NOTE: Eel '{display}' not found by id or name; using the only unclaimed feed "
+                  f"channel {free[0]} ('{declared[free[0]]}'). Add its name to EEL_NAME_ALIASES.")
         else:
-            print(f"  WARNING: Eel '{display}' source id {want_id} not in feed and no "
-                  f"display-name match found -> this channel will be EMPTY this run")
+            print(f"  WARNING: Eel '{display}' not found by id or name ({len(free)} unclaimed feed "
+                  f"channels) -> this channel will be EMPTY this run")
+    _order = {loc: i for i, (loc, _) in enumerate(EEL_CHANNEL_MAP.values())}
+    resolved = dict(sorted(resolved.items(), key=lambda kv: _order.get(kv[1][0], 99)))   # Eel, Fizz, Toon Diggity
     for src_id, (local_id, _) in resolved.items():
         n = 0
         for prog in root.findall("programme"):
             if prog.get("channel") != src_id: continue
             raw_title = (prog.findtext("title") or "").strip()
             title, sub, season, ep, ep_end = parse_title(raw_title)
+            if sub: sub = _clean(sub) or None                                 # "– Misfit Love" -> "Misfit Love"
             title = _rename(_decap(title))                                    # BLOCK CAPS -> Title Case
+            if season is not None and season in SEASON_REMAP.get(title, {}):
+                season = SEASON_REMAP[title][season]                          # T225 Tenchi Universe -> S01 E25
+            pinned = False                       # title/sub/S-E/desc fully set from a built-in list
+            if title == "Tenchi Universe" and ep and 1 <= ep <= len(TENCHI_UNIVERSE):
+                _arc, season, ep, sub, _syn = TENCHI_UNIVERSE[ep - 1]
+                title, ep_end, pinned = f"Tenchi Universe - {_arc}", None, True
             title = _eel_segment_rename(title, prog.get("start"), local_id)   # time/channel-based renames
+            if season is None:                    # "This Is America, Charlie Brown: Part 2" -> S01 E02
+                pm = _PART_TAIL.match(f"{title}: {sub}" if sub else title)
+                if pm and pm.group(1) in PART_AS_EPISODE:
+                    title, sub = pm.group(1), None
+                    season, ep = 1, int(pm.group(2) or pm.group(3) or pm.group(4))
             if sub and season is None:            # "Show" + "Special" split by the feed -> one known title
                 _j = f"{title}: {sub}"
                 _r = _rename(_j)
@@ -1163,7 +1353,7 @@ def build_eel(tv, root, cache):
                     canon = next((v for k, v in FILM_CANON.items() if k in film.lower()), None)
                     title = canon or f"{fm.group(1)}: {film} {yr.group(0)}"
                     sub, season, ep, ep_end = None, None, None, None
-            desc = None
+            desc = _syn if pinned else None
             joint_se = None          # [[s,e],...] for a joint (multi-segment) episode
             # Per-show override guide (feed numbers the show in an order the DBs don't share).
             #   mode "absolute": index by the feed's absolute episode number (Batman).
@@ -1207,7 +1397,7 @@ def build_eel(tv, root, cache):
                     joint_se = gentry["se_all"]
             elif season is None and sub:                # have episode name, no number -> match it
                 season, ep = _name_to_se(title, EP_NAME_ALIAS.get((title, sub), sub), cache)
-            if gentry is None and season is not None:
+            if gentry is None and season is not None and not pinned:
                 desc, epname = episode_meta(title, season, ep, cache)
                 if not sub and epname:                 # fill missing episode name from metadata
                     sub = epname; got_sub += 1
@@ -1646,6 +1836,30 @@ def _omdb_plot(title, cache, kind="series"):
     if plot: _omdb_stats["hits"] += 1
     return plot
 
+def _omdb_episode(show, season, ep, cache):
+    """IMDb episode (plot, name) via OMDb. ("", "") if unknown/out of budget (retried next run)."""
+    store = cache.setdefault("omdb_syn", {})
+    key = f"ep|{show}|{season}|{ep}"
+    ent = store.get(key)
+    if ent and time.time() - ent.get("t", 0) < OMDB_TTL_DAYS * 86400:
+        return ent.get("p", ""), ent.get("n", "")
+    lookup = EEL_SHOW_LOOKUP.get(show) or SYN_ALIAS.get(show, show)
+    if re.search(r"\((19|20)\d\d\)", lookup):
+        return "", ""        # year-disambiguated shows (DuckTales (1987)...): OMDb's title match
+                             # can't take the year here, so leave them to TVmaze/TVDB
+    clean = re.sub(r"\s*\([^)]*\)\s*", " ", lookup).strip() or lookup
+    q = {"t": clean, "Season": season, "Episode": ep, "plot": "short"}   # no year: OMDb ignores/mis-reads it here
+    j = _omdb_get(**q)
+    if j is None:
+        return "", ""                                 # no budget left: try again next run
+    plot = (j.get("Plot") or "").strip() if j.get("Response") == "True" else ""
+    name = (j.get("Title") or "").strip() if j.get("Response") == "True" else ""
+    if plot == "N/A": plot = ""
+    if name == "N/A": name = ""
+    store[key] = {"t": time.time(), "p": plot, "n": name}
+    if plot: _omdb_stats["hits"] += 1
+    return plot, name
+
 def _show_overview(title, cache, prefer_omdb=False):
     if prefer_omdb and title not in FIXED_DESC:
         p = _omdb_plot(title, cache, "series")
@@ -1657,7 +1871,7 @@ def _show_overview_db(title, cache):
     """SHOW-level synopsis: TMDB -> TVmaze -> TVDB, cached. (YYYY) in title disambiguates."""
     if title in FIXED_DESC:                    # fixed override (no metadata lookup)
         return FIXED_DESC[title]
-    if title in cache["show_syn"] and cache["show_syn"][title]:
+    if title in cache["show_syn"] and cache["show_syn"][title] and not _looks_foreign(cache["show_syn"][title]):
         return cache["show_syn"][title]
     lookup = SYN_ALIAS.get(title, title)
     ym = re.search(r"\((19|20)\d\d\)", lookup)
@@ -1669,7 +1883,7 @@ def _show_overview_db(title, cache):
         if year: params["first_air_date_year"] = year
         data = _tmdb_get("/search/tv", **params) or {}
         for res in (data.get("results") or [])[:3]:
-            if res.get("overview"): ov = res["overview"].strip(); break
+            if res.get("overview") and not _looks_foreign(res["overview"]): ov = res["overview"].strip(); break
     if not ov and ENABLE_TVMAZE:
         d = _tvmaze_get("/singlesearch/shows", q=clean)
         if isinstance(d, dict) and d.get("summary"):
