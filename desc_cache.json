@@ -1043,6 +1043,10 @@
 "n": "",
 "o": ""
 },
+"11450|1|12": {
+"n": "",
+"o": ""
+},
 "11450|1|4": {
 "n": "Episode 4",
 "o": "For one fleeting moment, Sam and Betty repent their life of crime. But then the police car passes them by and it's back to delightful delinquency. Marge, meanwhile, has managed to pull big time with the Adonis-like Brad and Robbie's in a flat spin when he's told his mother's coming to stay."
@@ -1283,6 +1287,10 @@
 "n": "The Sea! Bikinis! Ghosts!",
 "o": "On a vacation-like visit to an island, the spirits were having fun. A suspicious gaze was watching them from the shadows. The place was famous as a haunted spot. The spirits were swept away from their ship and could not return home, so they spent a night of fear..."
 },
+"11936|1|11": {
+"n": "Universal World Games",
+"o": "White Shadow's implausible Book of Prophecies has predicted a cataclysmic event should The Bahamas win events in the undeniably Olympic-flavored Universal World Games. When White Shadow purchases the Bahamian team, Minoriteam must compete to keep the world, the summer events, and somehow even the winter events from falling to white dominance."
+},
 "11936|1|4": {
 "n": "Heaven Can Wait",
 "o": "A racist bomb has blown Fasto so far into heaven that he flew past the black exit and landed in Valhalla. Now it is up to El Jefe, with his 1/18th Viking blood, to save him. But Fasto's warm welcome from hot, dead Nordic women may keep El Jefe's rescue and any hopes of addressing the implications of a segregated heaven at bay."
@@ -1326,6 +1334,10 @@
 "12144|1|6": {
 "n": "In the Night Fog! Abenobashi Hard Boiled Shopping Arcade",
 "o": "Now, Sasshi and Arumi are in a new version of their home that has a vibe very similar to 1930's gangster films, but they both end up working on opposites sides, unintentionally of course. Just like everything else, things aren't always what them seem, especially when it comes to killing."
+},
+"12152|1|2": {
+"n": "The Birth of the Constitution",
+"o": "The second part of This Is America, Charlie Brown, starts out with Charlie Brown feeding Snoopy, gathering water, and doing other hard work. Charlie Brown then gets Sally and Linus and tells them they have to go the hall where the delegates are coming. Snoopy goes too but first he and Woodstock try on different wigs."
 },
 "12260|1|10": {
 "n": "Jackson",
@@ -11143,6 +11155,10 @@
 "n": "Mourning Person",
 "o": "92-year-old Aunt Estelle (wife of Uncle Morty) dies, and Katz is asked to give the eulogy."
 },
+"2513|4|12": {
+"n": "Ben-Centennial",
+"o": "Katz wants to do something big for Ben's 25th birthday, but Ben doesn't want any fuss."
+},
 "2513|4|3": {
 "n": "Electric Bike",
 "o": "Dr. Katz buys an Electric Bike because he always wanted one but never got it as a kid. They find that a $1,000 bicycle isn't all fun and games, when it breaks as Ben drove it down stairs. They soon learnm that some inventions just were never meant to be."
@@ -14871,6 +14887,10 @@
 "n": "Life Lessons",
 "o": "Grade 6 Kevin is sent to the dentist and discovers laughing gas. In prison, the prisoners form a union. Percy takes his young son hunting with the guys. Kevin brings Alan to show and tell."
 },
+"304565|1|4": {
+"n": "A Pillar of the Community",
+"o": "Kevin describes to the psychiatrist his experience with community service. On one occasion, Kevin failed miserably as a farm aid. Another time, while working as a greeter at a department store, Kevin attacked a man who he mistook for Allen. Later, Kevin convinces Pete to dig him a passage out of the detention center."
+},
 "304565|3|10": {
 "n": "Jacked In",
 "o": ""
@@ -16915,6 +16935,10 @@
 "n": "Rocketship to Jupiter",
 "o": "Eek gets hit on the head and finds himself in the land of Toodlesnook, saving the Bearz from various dangers."
 },
+"3370|2|4": {
+"n": "Eek's Funny Thing That He Does",
+"o": "J.B. and Wendy Elizabeth sell lemonade to get the money to buy a Sladamese language-o-matic tape for Mom. Eek, however, lets a mouse drink the lemonade and needs to get more lemons. Unfortunately, the only lemon tree is next to Sharky, who is watching his favorite show, Patriotic Warriors."
+},
 "3370|2|5": {
 "n": "Eekpocalypse Now!",
 "o": "Eek journeys up the McTropolis River to find Sharky, who has become the leader of a gang of dogs."
@@ -18050,6 +18074,10 @@
 "35305|3|6": {
 "n": "The English",
 "o": "Ricky, Stephen and Karl discuss the essence of Englishness, and what other nationality Karl would like to be."
+},
+"35305|3|7": {
+"n": "Law & Order",
+"o": "Ricky, Stephen and Karl discuss capital punishment, the Ten Commandments and hostage negotiation."
 },
 "3540|1|1": {
 "n": "Who Can Lose the Most Weight?",
@@ -25027,6 +25055,10 @@
 "n": "Feud For Sale",
 "o": "In the spirit of the Hatfields and McCoys, Ren and Stimpy present the Nitwits and the Dimwits."
 },
+"504|5|3": {
+"n": "Hair of the Cat",
+"o": "Ren is suffering from horrible allergies. Little does he know that he may be allergic to his best pal Stimpy."
+},
 "504|5|4": {
 "n": "City Hicks",
 "o": "Ren & Stimpy leave the country when it rains & their fields are ruined with fruits & vegetables."
@@ -29662,6 +29694,16 @@
 "p": "",
 "t": 1795735079.394095
 },
+"ep|Crapston Villas|1|11": {
+"n": "",
+"p": "",
+"t": 1795737568.488626
+},
+"ep|Crapston Villas|1|12": {
+"n": "",
+"p": "",
+"t": 1795737570.698992
+},
 "ep|Digimon|1|50": {
 "n": "Joe's Battle",
 "p": "The kids again split into two groups to prepare for battle with the final Dark Master. On Spiral Mountain, Tai and his group are attacked by LadyDevimon, a beautiful, ruthless, and powerful assassin sent by Piedmon who simultaneou...",
@@ -29681,6 +29723,36 @@
 "n": "Now Apocalymon",
 "p": "What is left of Spiral Mountain begains to fall apart and the kids soon find themselves floating in darkness. Gennai tells the kids that the evil force that made the DarkMasters came from the fire wall. This evil force walked acro...",
 "t": 1795735079.6502347
+},
+"ep|Dragon Ball Z|1|40": {
+"n": "",
+"p": "",
+"t": 1795737565.919533
+},
+"ep|Dragon Ball Z|1|41": {
+"n": "",
+"p": "",
+"t": 1795737566.3263657
+},
+"ep|Dragon Ball Z|1|42": {
+"n": "",
+"p": "",
+"t": 1795737568.0836341
+},
+"ep|Dragon Ball Z|1|43": {
+"n": "",
+"p": "",
+"t": 1795737568.2876124
+},
+"ep|Dragon Ball Z|1|44": {
+"n": "",
+"p": "",
+"t": 1795737569.5744486
+},
+"ep|Dragon Ball Z|1|45": {
+"n": "",
+"p": "",
+"t": 1795737569.78562
 },
 "ep|Dragon Ball Z|1|75": {
 "n": "",
@@ -29787,6 +29859,11 @@
 "p": "",
 "t": 1795735077.6261227
 },
+"ep|Funky Cops|1|1": {
+"n": "Un Duo d'Enfer",
+"p": "",
+"t": 1795737569.3679607
+},
 "ep|Funky Cops|1|2": {
 "n": "Les Diamants ne Sont pas Eternels",
 "p": "",
@@ -29877,6 +29954,16 @@
 "p": "",
 "t": 1795735083.2284093
 },
+"ep|Space Goofs|1|9": {
+"n": "",
+"p": "",
+"t": 1795737567.959783
+},
+"ep|Space Goofs|2|4": {
+"n": "Macho Kung-Fu",
+"p": "",
+"t": 1795737569.136146
+},
 "ep|Space Goofs|2|8": {
 "n": "Madame Zelza",
 "p": "",
@@ -29951,6 +30038,11 @@
 "n": "Episode #9/Episode #10",
 "p": "Sara discovers a mysterious block of talking clay while a growing and shrinking Maxx fights to protect Julie.",
 "t": 1795735085.0672874
+},
+"ep|The Maxx|1|9": {
+"n": "",
+"p": "",
+"t": 1795737566.5385282
 },
 "ep|The Tick|3|9": {
 "n": "",
@@ -32680,6 +32772,7 @@
 "Space Cases": "Space Cases is a science fiction television series. Its premise revolves around a group of misfit students and two adults who are stranded far from home aboard an alien ship. Their attempts at journeying back see many dangerous adventures and controversies, with some occasionally more mature themes.",
 "Space Ghost": "Space Ghost is an American Saturday-morning superhero animated television series produced by Hanna-Barbera Productions, first broadcast on CBS from September 10, 1966, to September 16, 1967, and continued reruns until September 7, 1968. The series was composed of two unrelated segments, Space Ghost and Dino Boy in the Lost Valley. The series was created by Alex Toth and produced and directed by William Hanna and Joseph Barbera. Sometimes, it is alternatively called Space Ghost & Dino Boy to acknowledge the presence of both shows",
 "Space Ghost Coast to Coast": "A cartoon superhero interacts with live guests via his television set in this parody talk show based on 1960s Hanna-Barbera cartoon character Space Ghost.",
+"Space Goofs": "Five peculiar monsters from a distant galaxy crash land on Earth. Quickly, realizing that if discovered by the government they will end up as laboratory experiments, they hide in the attic of an empty house. But the house is for rent! Our alien friends have a hard and hilarious time getting rid of each new tenant, as they discover that this world of \"strange earthlings\" is even more bizarre than the world they left behind.",
 "Spider-Man": "Bitten by a neogenetic spider, Peter Parker develops spider-like superpowers. He uses these to fight crime while trying to balance it with the struggles of his personal life.",
 "SpongeBob SquarePants": "Deep down in the Pacific Ocean in the subterranean city of Bikini Bottom lives a square yellow sponge named SpongeBob SquarePants. SpongeBob lives in a pineapple with his pet snail, Gary, loves his job as a fry cook at the Krusty Krab, and has a knack for getting into all kinds of trouble without really trying. When he's not getting on the nerves of his cranky next door neighbor Squidward, SpongeBob can usually be found smack in the middle of all sorts of strange situations with his best buddy, the simple yet lovable starfish, Patrick, or his thrill-seeking surfer-girl squirrel pal, Sandy Cheeks.",
 "Squidbillies": "Squidbillies is an animated television series about the Cuylers, an impoverished family of anthropomorphic hillbilly mud squids living in the Appalachian region of Georgia's mountains. The show is produced by Williams Street Studios for the Adult Swim programming block of Cartoon Network and premiered on October 16, 2005. It is written by Dave Willis, co-creator of Aqua Teen Hunger Force, and Jim Fortier, previously of The Brak Show, both of whom worked on the Adult Swim series Space Ghost Coast to Coast. The animation is done by Awesome Incorporated, with background design by Ben Prisk.",
@@ -32897,6 +32990,7 @@
 "fish hooks": 31499,
 "flcl": 5895,
 "free for all": 19797,
+"free for all (2003) (2003)": null,
 "funky cops": 17070,
 "futurama": 615,
 "garfield and friends": 4606,
@@ -33031,6 +33125,7 @@
 "the weekenders": 3288,
 "the weird al show": 1518,
 "the whitest kids u'know": 10420,
+"this is america, charlie brown": 12152,
 "three delivery": 7301,
 "time squad": 4314,
 "timon & pumbaa": 4429,
@@ -33788,6 +33883,30 @@
 ]
 },
 "tvdb_episodes": {
+"248580|1|40": {
+"n": "",
+"o": ""
+},
+"248580|1|41": {
+"n": "",
+"o": ""
+},
+"248580|1|42": {
+"n": "",
+"o": ""
+},
+"248580|1|43": {
+"n": "",
+"o": ""
+},
+"248580|1|44": {
+"n": "",
+"o": ""
+},
+"248580|1|45": {
+"n": "",
+"o": ""
+},
 "248580|1|75": {
 "n": "",
 "o": ""
@@ -33876,6 +33995,10 @@
 "n": "",
 "o": ""
 },
+"393053|1|1": {
+"n": "The Wrong Side of the Tracks",
+"o": "The Happy Tree Friends go to Lumpy's fun fair, but the roller coaster seems to be incomplete, troubling both the riders and Lumpy himself."
+},
 "435020|2|2": {
 "n": "",
 "o": ""
@@ -33915,6 +34038,10 @@
 "70625|4|32": {
 "n": "Roberto - Yelena - Georg",
 "o": "Roberto \"The Bold\" Valadez; Yelena \"The Enforcer\" Furmak; Georg \"The Shark\" Sandel"
+},
+"71839|1|9": {
+"n": "Episode 9",
+"o": "Julie's in the bathroom.  Maxx finally takes Julie to the Outback.  However, the scale is different and Maxx and Julie are the biggest things there.  Sarah finds a piece of talking clay at school.  Mr. Clay wants her to take him to Julie's apartment.  Mr.  Clay promises to show Sarah her spirit animal in exchange for taking him to Julie's apartment.  Mr.  Clay's voice is strangely familiar.  Maxx continues to battle the Isz.  Mr. Gone appears in Pangaea and watches Julie discovers a fort that she had built as a child.  She also remembers her pet rabbit.  Mr. Gone attempts to halt Julie's memories, for his own safety."
 },
 "71863|1|26": {
 "n": "",
@@ -33956,6 +34083,14 @@
 "n": "Once Upon A Time Part 1",
 "o": "The aliens go on vacation together in space (or, as Gorgious calls it, a picnic), but their spaceship breaks down after Candy crashes it into an asteroid and they are left stranded on Earth. Not knowing a way to fix the spaceship, Etno encourages the other aliens to take shelter in the attic of an abandoned house that is up for rent while he tries to fix the spaceship, lampshading the plot."
 },
+"73248|1|9": {
+"n": "Old MacDonald Had a House",
+"o": "Tired of tenants trying to move in, the aliens try to make the house uninhabitable, but its farm look ends up attracting a farmer with his animals, and a pig named Sooee who behaves badly to the others. To sort things out, the aliens team up with the rest of the animals (they also use the SMTV to transform into five different types of animals themselves) to revolt against the farmer and Sooee."
+},
+"73248|2|4": {
+"n": "Macho Kung Fu",
+"o": "La star d'un film de kung-fu, Frousse Li, vient s'installer dans la maison. Gorgious, qui est un grand fan, arrive à convaincre ses amis de le laisser passer une journée avec lui avant de le mettre à la porte. Il s'invente alors entraîneur sportif et propose ses services à Frousse Li. Celui-ci accepte, mais l'image qu'a Gorgious de son idole va s'en trouver radicalement changée."
+},
 "73248|2|8": {
 "n": "Madame Zelza",
 "o": "A fortune teller, Madame Zelza, moves in the aliens' house and tricks all the aliens except Etno into believing a superstition. Etno must then try to run Madame Zelza out of business."
@@ -33963,6 +34098,14 @@
 "74916|2|9": {
 "n": "Episode 22",
 "o": "Josh can't open a bag of chips so Amanda takes it and walks around looking for strong men who she thinks can open the bag. Amanda is doing the audience greeting when she feels a sharp pain in her side."
+},
+"75292|1|11": {
+"n": "",
+"o": ""
+},
+"75292|1|12": {
+"n": "",
+"o": ""
 },
 "75931|1|10": {
 "n": "Robot Robbers",
@@ -34031,6 +34174,10 @@
 "77625|1|15": {
 "n": "Wild Style",
 "o": "The cruise ship Juliet disappears in the Mediterranean Sea. Our heroines investigate and find out that the passengers, and even Clover, have been turned into human-animal hybrids by a famous fashion designer. In a B-story, Clover tries to impress a guy with some really tall shoes."
+},
+"80227|1|1": {
+"n": "All the cars in San Fransisco",
+"o": "La police de San Francisco souffre d'un déficit de confiance. À la veille des élections, le Maire de la ville demande un reportage sur le SFPD afin de redorer son blason."
 },
 "80227|1|2": {
 "n": "Jill Roy was here",
@@ -39804,6 +39951,7 @@
 "dude, what would happen": "302498",
 "fillmore!": "79910",
 "free for all": "79597",
+"free for all (2003) (2003)": "393053",
 "funky cops": "80227",
 "goof troop": "78250",
 "goosebumps": "78790",
@@ -39849,6 +39997,7 @@
 "the buzz on maggie": "75374",
 "the charlie brown and snoopy show": null,
 "the grim adventures of billy & mandy": "78980",
+"the maxx": "71839",
 "the nutshack": "299688",
 "the proud family": "76814",
 "the replacements": "84192",
@@ -40225,6 +40374,10 @@
 "18073|3|6": {
 "n": "Andy's Season Finale Extravaganza",
 "o": ""
+},
+"18163|1|9": {
+"n": "Episode 9",
+"o": "Sara discovers a mysterious block of talking clay while a growing and shrinking Maxx fights to protect Julie."
 },
 "18354|1|10": {
 "n": "Carnie Dearest",
@@ -41691,6 +41844,10 @@
 "o": ""
 },
 "32330|1|11": {
+"n": "",
+"o": ""
+},
+"32330|1|12": {
 "n": "",
 "o": ""
 },
@@ -44276,6 +44433,60 @@
 {
 "n": "Tall Tails",
 "o": ""
+}
+],
+"18163": [
+{
+"n": "Episode 1",
+"o": "In this series premiere episode we meet Maxx and Julie, and enter the gritty world they inhabit."
+},
+{
+"n": "Episode 2",
+"o": "Can Maxx stop Mr. Gone and his messengers from terrorizing the city?"
+},
+{
+"n": "Episode 3",
+"o": "Mr. Gone gets the upperhand against Maxx and Julie, but for how long?"
+},
+{
+"n": "Episode 4",
+"o": "Maxx uncovers Julie's backstory as he jumps between the real world and the Outback."
+},
+{
+"n": "Episode 5",
+"o": "We meet Sara, a struggling writer, who weaves a web of stories that link her to Maxx and Julie."
+},
+{
+"n": "Episode 6",
+"o": "Maxx and Julie do the best they can to talk Sara out of her gun-wielding confusion."
+},
+{
+"n": "Episode 7",
+"o": "Maxx becomes a cartoon version of himself, as he jumps between his and Julie's Outbacks."
+},
+{
+"n": "Episode 8",
+"o": "Maxx battles Hammerhead, a vicious shark-man, and Julie journeys into the deepest buried levels of her own mind."
+},
+{
+"n": "Episode 9",
+"o": "Sara discovers a mysterious block of talking clay while a growing and shrinking Maxx fights to protect Julie."
+},
+{
+"n": "Episode 10",
+"o": "Sara confronts her spirit animal and Julie is exposed to some new truths about Maxx and Mr. Gone."
+},
+{
+"n": "Episode 11",
+"o": "After Maxx tells Sara and some neighborhood kids an Outback story, Julie discovers Mr. Gone's rotting head in her apartment."
+},
+{
+"n": "Episode 12",
+"o": "Mr. Gone reveals the graphic series of events that made Julie what she is today."
+},
+{
+"n": "Episode 13",
+"o": "In the final episode of 'The Maxx,' Julie parts ways with Maxx, freeing him to discover his own Outback."
 }
 ],
 "19407": [
@@ -51496,6 +51707,88 @@
 "o": ""
 }
 ],
+"32330": [
+{
+"n": "Episode 1",
+"o": ""
+},
+{
+"n": "Episode 2",
+"o": ""
+},
+{
+"n": "Episode 3",
+"o": ""
+},
+{
+"n": "Episode 4",
+"o": ""
+},
+{
+"n": "Episode 5",
+"o": ""
+},
+{
+"n": "Episode 6",
+"o": ""
+},
+{
+"n": "Episode 7",
+"o": ""
+},
+{
+"n": "Episode 8",
+"o": ""
+},
+{
+"n": "Episode 9",
+"o": ""
+},
+{
+"n": "Episode 10",
+"o": ""
+},
+{
+"n": "Episode 1",
+"o": ""
+},
+{
+"n": "Episode 2",
+"o": ""
+},
+{
+"n": "Episode 3",
+"o": ""
+},
+{
+"n": "Episode 4",
+"o": ""
+},
+{
+"n": "Episode 5",
+"o": ""
+},
+{
+"n": "Episode 6",
+"o": ""
+},
+{
+"n": "Episode 7",
+"o": ""
+},
+{
+"n": "Episode 8",
+"o": ""
+},
+{
+"n": "Episode 9",
+"o": ""
+},
+{
+"n": "Episode 10",
+"o": ""
+}
+],
 "37991": [
 {
 "n": "Episode 1",
@@ -55006,6 +55299,7 @@
 "family guy": 84,
 "fillmore!": 17996,
 "free for all": 14114,
+"free for all (2003) (2003)": null,
 "funky cops": 52616,
 "goof troop": 12958,
 "goosebumps": 60343,
@@ -55050,6 +55344,7 @@
 "the buzz on maggie": 39510,
 "the charlie brown and snoopy show": 8206,
 "the grim adventures of billy & mandy": 7345,
+"the maxx": 18163,
 "the nutshack": 28161,
 "the proud family": 18458,
 "the replacements": 18354,
