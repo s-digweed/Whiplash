@@ -11043,7 +11043,6 @@ Squidward tries to compose a symphony, but is distracted by SpongeBob and Patric
   </programme>
   <programme start="20261126234500 -0500" stop="20261127001000 -0500" channel="eel-channel">
     <title lang="en">The Tom Green Show</title>
-    <sub-title lang="en">Episode 1</sub-title>
     <desc lang="en">-Guarding the pee (skiing equipment)
 -intro
 -buying condoms
@@ -11168,7 +11167,6 @@ Don't adjust your set; that hum is on purpose.</desc>
   <programme start="20261127062500 -0500" stop="20261127065000 -0500" channel="eel-channel">
     <title lang="en">1000 Ways To Die</title>
     <sub-title lang="en">Star Death - The Last Generation</sub-title>
-    <desc lang="en">Highlights of the goriest, sexiest and most delightfully horrible deaths.</desc>
     <episode-num system="onscreen">S05 E09</episode-num>
     <episode-num system="xmltv_ns">4.8.</episode-num>
   </programme>
@@ -11229,15 +11227,13 @@ Sketches:
   </programme>
   <programme start="20261127095000 -0500" stop="20261127101500 -0500" channel="eel-channel">
     <title lang="en">Starcade</title>
-    <sub-title lang="en">John Cantu vs. Heidi Starfield</sub-title>
-    <desc lang="en">Games: Blue Print, Burgertime, Swimmer, Time Pilot and Tutankam. Grand Prize: Eyes.</desc>
+    <sub-title lang="en">Rb5X Robot 12</sub-title>
     <episode-num system="onscreen">S01 E99</episode-num>
     <episode-num system="xmltv_ns">0.98.</episode-num>
   </programme>
   <programme start="20261127101500 -0500" stop="20261127104000 -0500" channel="eel-channel">
     <title lang="en">Starcade</title>
-    <sub-title lang="en">John Cantu vs. Heidi Starfield</sub-title>
-    <desc lang="en">Games: Blue Print, Burgertime, Swimmer, Time Pilot and Tutankam. Grand Prize: Eyes.</desc>
+    <sub-title lang="en">Qbert 2</sub-title>
     <episode-num system="onscreen">S01 E51</episode-num>
     <episode-num system="xmltv_ns">0.50.</episode-num>
   </programme>
@@ -11414,7 +11410,7 @@ Bam and company try to make most of their time on the island by building a makes
   </programme>
   <programme start="20261127225500 -0500" stop="20261127232000 -0500" channel="eel-channel">
     <title lang="en">The Whitest Kids U'Know</title>
-    <sub-title lang="en">Episode 2</sub-title>
+    <sub-title lang="en">Movie Pitching Guy, Whip Boy, Brothers in Arms</sub-title>
     <desc lang="en">Rock and Roll Indiana Jones
 
 Let's Wake Up the Neighbors
@@ -11551,7 +11547,6 @@ Don't adjust your set; that hum is on purpose.</desc>
   <programme start="20261128060000 -0500" stop="20261128062500 -0500" channel="eel-channel">
     <title lang="en">1000 Ways To Die</title>
     <sub-title lang="en">Today’s Special - Death</sub-title>
-    <desc lang="en">Highlights of the goriest, sexiest and most delightfully horrible deaths.</desc>
     <episode-num system="onscreen">S04 E12</episode-num>
     <episode-num system="xmltv_ns">3.11.</episode-num>
   </programme>
@@ -11613,15 +11608,13 @@ Don't adjust your set; that hum is on purpose.</desc>
   </programme>
   <programme start="20261128094500 -0500" stop="20261128101000 -0500" channel="eel-channel">
     <title lang="en">Starcade</title>
-    <sub-title lang="en">John Cantu vs. Heidi Starfield</sub-title>
-    <desc lang="en">Games: Blue Print, Burgertime, Swimmer, Time Pilot and Tutankam. Grand Prize: Eyes.</desc>
+    <sub-title lang="en">Munch Mobile 4</sub-title>
     <episode-num system="onscreen">S01 E90</episode-num>
     <episode-num system="xmltv_ns">0.89.</episode-num>
   </programme>
   <programme start="20261128101000 -0500" stop="20261128103500 -0500" channel="eel-channel">
     <title lang="en">Starcade</title>
-    <sub-title lang="en">John Cantu vs. Heidi Starfield</sub-title>
-    <desc lang="en">Games: Blue Print, Burgertime, Swimmer, Time Pilot and Tutankam. Grand Prize: Eyes.</desc>
+    <sub-title lang="en">Wacko 3</sub-title>
     <episode-num system="onscreen">S01 E79</episode-num>
     <episode-num system="xmltv_ns">0.78.</episode-num>
   </programme>
@@ -11877,7 +11870,6 @@ Don't adjust your set; that hum is on purpose.</desc>
   <programme start="20261129060000 -0500" stop="20261129062500 -0500" channel="eel-channel">
     <title lang="en">1000 Ways To Die</title>
     <sub-title lang="en">Tweets From The Dead</sub-title>
-    <desc lang="en">Highlights of the goriest, sexiest and most delightfully horrible deaths.</desc>
     <episode-num system="onscreen">S06 E03</episode-num>
     <episode-num system="xmltv_ns">5.2.</episode-num>
   </programme>
@@ -11945,8 +11937,7 @@ Sketches:
   </programme>
   <programme start="20261129094500 -0500" stop="20261129101000 -0500" channel="eel-channel">
     <title lang="en">Starcade</title>
-    <sub-title lang="en">John Cantu vs. Heidi Starfield</sub-title>
-    <desc lang="en">Games: Blue Print, Burgertime, Swimmer, Time Pilot and Tutankam. Grand Prize: Eyes.</desc>
+    <sub-title lang="en">Pooyan</sub-title>
     <episode-num system="onscreen">S01 E78</episode-num>
     <episode-num system="xmltv_ns">0.77.</episode-num>
   </programme>
@@ -12169,15 +12160,15 @@ Best Friends: Moze continues her search for a new best friend with a quiz and wh
   </programme>
   <programme start="20261127005500 -0500" stop="20261127012000 -0500" channel="fizz">
     <title lang="en">X-Men: The Animated Series</title>
-    <sub-title lang="en">Pryde of the X-Men (Pilot)</sub-title>
-    <desc lang="en">The story begins with the voice of Stan Lee: "Look around you... you never know who could be a mutant, a person born with strange and wondrous powers..." It is the desert. The X-Men’s archenemy Magneto is being transported by a military convoy, unable to use his powers, trapped in a force field. That is, until the White Queen appears. A member of his "Brotherhood of Mutant Terrorists", she scatters the escort and dismantles the field restricting Magneto, allowing him to use his magnetic powers to tear apart his portable prison.</desc>
+    <sub-title lang="en">Repo Man</sub-title>
+    <desc lang="en">Wolverine is led back to his homeland of Canada, and is attacked by his former teammates from the supergroup Alpha Flight. The government wants the secrets of his adamantium skeleton back, and are willing to take him apart to get it.</desc>
     <episode-num system="onscreen">S01 E18</episode-num>
     <episode-num system="xmltv_ns">0.17.</episode-num>
   </programme>
   <programme start="20261127012000 -0500" stop="20261127014500 -0500" channel="fizz">
     <title lang="en">Spider-Man: The Animated Series</title>
-    <sub-title lang="en">Mutants' Revenge</sub-title>
-    <desc lang="en">Wolverine catches up with Spider-Man, hot on the trail of the missing Hank McCoy. Discovering his location and the plot to destroy all mutantkind the two team up and rescue Beast in the nick of time just as he was about to become the first test subject of Landon's horrendous plan. But when Landon accidentally falls victim to his own experiment he is changed into a giant monster that feeds on electrical energy. Can Spider-Man and the X-Men succeed in stopping this 50-foot tall, ohm-eating monster?</desc>
+    <sub-title lang="en">Neogenic Nightmare Chapter 5: Mutants Revenge</sub-title>
+    <desc lang="en">Landon kidnaps Beast and plans to use him for his experiments. Wolverine believes that Spider-Man was involved in the kidnapping.</desc>
     <episode-num system="onscreen">S02 E05</episode-num>
     <episode-num system="xmltv_ns">1.4.</episode-num>
   </programme>
@@ -12190,10 +12181,7 @@ Best Friends: Moze continues her search for a new best friend with a quiz and wh
   </programme>
   <programme start="20261127021000 -0500" stop="20261127023500 -0500" channel="fizz">
     <title lang="en">Storm Hawks</title>
-    <sub-title lang="en">Home Movies Night</sub-title>
-    <desc lang="en">This episode is essentially a recap of all adventures which the Storm Hawks have encountered so far, in the perspective of each member.
-
-With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch movies on their adventures. Each of the Storm Hawks get a chance to show a video about them. Finn makes a movie about himself, Piper makes two videos (one about crystals and the other about places in the Atmos), Junko shows a movie about each of their Air Skimmer III's and a few weapons, Stork shows his top ten fears (things to avoid in the Atmos), and Aerrow shows what it's like to be a Sky Knight. Everyone bails at the last minute when Junko suggests to watch his experimental film where he sleeps for hours.</desc>
+    <sub-title lang="en">The Ultra Dudes</sub-title>
     <episode-num system="onscreen">S01 E47</episode-num>
     <episode-num system="xmltv_ns">0.46.</episode-num>
   </programme>
@@ -12368,7 +12356,6 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261127130500 -0500" stop="20261127133000 -0500" channel="fizz">
     <title lang="en">The Amanda Show</title>
-    <sub-title lang="en">Episode 22</sub-title>
     <desc lang="en">Today Amanda is searching for someone to open Josh's bag of crisps, but there's a painful moment when she feels a little unwell and needs some medical advice. There's a commercial message for the Little Crazy Hatman, and we go shopping at Cookie Dooper. Then, some serious factual documentary programming, Penelope swaps clothes with Barney, and Kyle talks about his cousin in Jersey - until he realises that he has no cousin in Jersey. And finally, Penelope gets to meet Amanda at long last - but is it really Amanda, or just an incredible simulation?</desc>
     <episode-num system="onscreen">S02 E09</episode-num>
     <episode-num system="xmltv_ns">1.8.</episode-num>
@@ -12431,10 +12418,10 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261127165000 -0500" stop="20261127171500 -0500" channel="fizz">
     <title lang="en">Dude, What Would Happen</title>
-    <sub-title lang="en">Underwater Roll / Defying Gravity / Pirates vs. Vikings</sub-title>
-    <desc lang="en">C.J., Jackson and Ali try to cool off on a hot day, lift a sumo, and have a battle between pirates and Vikings.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <sub-title lang="en">Animal Snacks / Pop a Giant Zit / Rodeo a Slug</sub-title>
+    <desc lang="en">Three teens, C.J., Jackson and Ali, wonder what would happen if some wild event, scheme or experiment were to occur, then set out to create it themselves, consulting experts when needed.</desc>
+    <episode-num system="onscreen">S01 E32</episode-num>
+    <episode-num system="xmltv_ns">0.31.</episode-num>
   </programme>
   <programme start="20261127171500 -0500" stop="20261127174000 -0500" channel="fizz">
     <title lang="en">The Adventures of Pete &amp; Pete</title>
@@ -12558,15 +12545,15 @@ Gym:  Moze and Ned spar in martial arts and Ned gets thrown for a loop. So now N
   </programme>
   <programme start="20261128005500 -0500" stop="20261128012000 -0500" channel="fizz">
     <title lang="en">X-Men: The Animated Series</title>
-    <sub-title lang="en">Pryde of the X-Men (Pilot)</sub-title>
-    <desc lang="en">The story begins with the voice of Stan Lee: "Look around you... you never know who could be a mutant, a person born with strange and wondrous powers..." It is the desert. The X-Men’s archenemy Magneto is being transported by a military convoy, unable to use his powers, trapped in a force field. That is, until the White Queen appears. A member of his "Brotherhood of Mutant Terrorists", she scatters the escort and dismantles the field restricting Magneto, allowing him to use his magnetic powers to tear apart his portable prison.</desc>
+    <sub-title lang="en">X-Ternally Yours</sub-title>
+    <desc lang="en">Gambit must come face to face with the past he's been running from for years, as he returns to Louisiana to save his brother from the woman he left at the altar.</desc>
     <episode-num system="onscreen">S01 E19</episode-num>
     <episode-num system="xmltv_ns">0.18.</episode-num>
   </programme>
   <programme start="20261128012000 -0500" stop="20261128014500 -0500" channel="fizz">
     <title lang="en">Spider-Man: The Animated Series</title>
-    <sub-title lang="en">Morbius</sub-title>
-    <desc lang="en">Dr. Mariah Crawford has developed a cure for Spidey's disease, but she's reluctant to give an untested serum to Spider-Man that may result in permanent loss of his powers or worse. But after an angry outburst from Spider-Man, she hands it over. Peter, at the ESU lab, is secretly observed by Michael Morbius, who then swipes the infected blood sample after Peter leaves for the night. Working alone in the campus bell tower with borrowed equipment, Morbius has an accident which will change him forever...</desc>
+    <sub-title lang="en">Neogenic Nightmare Chapter 6: Morbius</sub-title>
+    <desc lang="en">As Peter tries to find a cure for his new mutation, his fellow classmate believes it is part of Peter's assignment and is planning to steal it for himself.</desc>
     <episode-num system="onscreen">S02 E06</episode-num>
     <episode-num system="xmltv_ns">1.5.</episode-num>
   </programme>
@@ -12579,10 +12566,7 @@ Gym:  Moze and Ned spar in martial arts and Ned gets thrown for a loop. So now N
   </programme>
   <programme start="20261128021000 -0500" stop="20261128023500 -0500" channel="fizz">
     <title lang="en">Storm Hawks</title>
-    <sub-title lang="en">Home Movies Night</sub-title>
-    <desc lang="en">This episode is essentially a recap of all adventures which the Storm Hawks have encountered so far, in the perspective of each member.
-
-With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch movies on their adventures. Each of the Storm Hawks get a chance to show a video about them. Finn makes a movie about himself, Piper makes two videos (one about crystals and the other about places in the Atmos), Junko shows a movie about each of their Air Skimmer III's and a few weapons, Stork shows his top ten fears (things to avoid in the Atmos), and Aerrow shows what it's like to be a Sky Knight. Everyone bails at the last minute when Junko suggests to watch his experimental film where he sleeps for hours.</desc>
+    <sub-title lang="en">A Wallop For All Season</sub-title>
     <episode-num system="onscreen">S01 E48</episode-num>
     <episode-num system="xmltv_ns">0.47.</episode-num>
   </programme>
@@ -12708,15 +12692,15 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261128101500 -0500" stop="20261128103444 -0500" channel="fizz">
     <title lang="en">Digimon</title>
-    <sub-title lang="en">Conclusion The Ultimate Holy War</sub-title>
-    <desc lang="en">An ideal society managed by Sapotamas. Underneath, terrifying creatures called Digimon appear. After a classmate is attacked, Tomoro Tenma's emotions explode. Suddenly his Sapotama shines and Gekkomon is born.</desc>
+    <sub-title lang="en">Joe's Battle</sub-title>
+    <desc lang="en">The kids again split into two groups to prepare for battle with the final Dark Master. On Spiral Mountain, Tai and his group are attacked by LadyDevimon, a beautiful, ruthless, and powerful assassin sent by Piedmon who simultaneou...</desc>
     <episode-num system="onscreen">S01 E50</episode-num>
     <episode-num system="xmltv_ns">0.49.</episode-num>
   </programme>
   <programme start="20261128103444 -0500" stop="20261128110000 -0500" channel="fizz">
     <title lang="en">Digimon</title>
-    <sub-title lang="en">The Mystery Hidden in the Crests</sub-title>
-    <desc lang="en">An ideal society managed by Sapotamas. Underneath, terrifying creatures called Digimon appear. After a classmate is attacked, Tomoro Tenma's emotions explode. Suddenly his Sapotama shines and Gekkomon is born.</desc>
+    <sub-title lang="en">The Crest of Friendship</sub-title>
+    <desc lang="en">Joe and Gomamon are on a beach away from everything and everyone else, they start looking for Matt and after a while they do find his boat. Matt is now where around. Meanwhile, WarGreymon fights Piedmon but he needs the help of th...</desc>
     <episode-num system="onscreen">S01 E51</episode-num>
     <episode-num system="xmltv_ns">0.50.</episode-num>
   </programme>
@@ -12938,15 +12922,15 @@ Bullies:  Loomer is looking for Ned and Cookie, they decide to make a stand.  Mo
   </programme>
   <programme start="20261129010000 -0500" stop="20261129012500 -0500" channel="fizz">
     <title lang="en">X-Men: The Animated Series</title>
-    <sub-title lang="en">Pryde of the X-Men (Pilot)</sub-title>
-    <desc lang="en">The story begins with the voice of Stan Lee: "Look around you... you never know who could be a mutant, a person born with strange and wondrous powers..." It is the desert. The X-Men’s archenemy Magneto is being transported by a military convoy, unable to use his powers, trapped in a force field. That is, until the White Queen appears. A member of his "Brotherhood of Mutant Terrorists", she scatters the escort and dismantles the field restricting Magneto, allowing him to use his magnetic powers to tear apart his portable prison.</desc>
+    <sub-title lang="en">Time Fugitives: Part 1</sub-title>
+    <desc lang="en">Bishop returns from the future to again attempt to fix his world, this time trying to stop a plague from infecting mutants. But his noble actions lead to a far greater tragedy.</desc>
     <episode-num system="onscreen">S01 E20</episode-num>
     <episode-num system="xmltv_ns">0.19.</episode-num>
   </programme>
   <programme start="20261129012500 -0500" stop="20261129015000 -0500" channel="fizz">
     <title lang="en">Spider-Man: The Animated Series</title>
-    <sub-title lang="en">Enter the Punisher</sub-title>
-    <desc lang="en">The Punisher comes to New York to deal with the mutating Spider-Man, who has just grown four extra arms, and is in search for also mutated Morbius who is killing (eating) innocent people, and the people of New York blame Spider-Man for all that is happening.</desc>
+    <sub-title lang="en">Neogenic Nightmare Chapter 7: Enter the Punisher</sub-title>
+    <desc lang="en">Spider-Man ends up being chased a man known as the Punisher when he is accused of kidnapping Michael Morbius.</desc>
     <episode-num system="onscreen">S02 E07</episode-num>
     <episode-num system="xmltv_ns">1.6.</episode-num>
   </programme>
@@ -12959,10 +12943,7 @@ Bullies:  Loomer is looking for Ned and Cookie, they decide to make a stand.  Mo
   </programme>
   <programme start="20261129021500 -0500" stop="20261129024000 -0500" channel="fizz">
     <title lang="en">Storm Hawks</title>
-    <sub-title lang="en">Home Movies Night</sub-title>
-    <desc lang="en">This episode is essentially a recap of all adventures which the Storm Hawks have encountered so far, in the perspective of each member.
-
-With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch movies on their adventures. Each of the Storm Hawks get a chance to show a video about them. Finn makes a movie about himself, Piper makes two videos (one about crystals and the other about places in the Atmos), Junko shows a movie about each of their Air Skimmer III's and a few weapons, Stork shows his top ten fears (things to avoid in the Atmos), and Aerrow shows what it's like to be a Sky Knight. Everyone bails at the last minute when Junko suggests to watch his experimental film where he sleeps for hours.</desc>
+    <sub-title lang="en">Payback</sub-title>
     <episode-num system="onscreen">S01 E49</episode-num>
     <episode-num system="xmltv_ns">0.48.</episode-num>
   </programme>
@@ -13075,28 +13056,27 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   <programme start="20261129092500 -0500" stop="20261129095000 -0500" channel="fizz">
     <title lang="en">Beyblade</title>
     <sub-title lang="en">Shot Down in Flames!</sub-title>
-    <desc lang="en">Bird Kazami is an amateur blader who came to "X City" to become a professional beyblader.</desc>
+    <desc lang="en">Tyson is back home from just winning the World Beyblade Championships and he thinks he's one hot dude!! But after disrupting his homeroom at school, he's punished with a detention which makes him late for a local tournament. When ...</desc>
     <episode-num system="onscreen">S02 E01</episode-num>
     <episode-num system="xmltv_ns">1.0.</episode-num>
   </programme>
   <programme start="20261129095000 -0500" stop="20261129101500 -0500" channel="fizz">
     <title lang="en">Beyblade</title>
     <sub-title lang="en">The Search for Mr. X</sub-title>
-    <desc lang="en">Bird Kazami is an amateur blader who came to "X City" to become a professional beyblader.</desc>
     <episode-num system="onscreen">S02 E02</episode-num>
     <episode-num system="xmltv_ns">1.1.</episode-num>
   </programme>
   <programme start="20261129101500 -0500" stop="20261129103501 -0500" channel="fizz">
     <title lang="en">Digimon</title>
-    <sub-title lang="en">Dance of the Heavens, Hououmon</sub-title>
-    <desc lang="en">An ideal society managed by Sapotamas. Underneath, terrifying creatures called Digimon appear. After a classmate is attacked, Tomoro Tenma's emotions explode. Suddenly his Sapotama shines and Gekkomon is born.</desc>
+    <sub-title lang="en">Piedmon's Last Jest</sub-title>
+    <desc lang="en">Piedmon turns all of the kids into dolls, until only TK, Kari, and Patamon are left. Realizing that he has to look after Kari, TK refuses to give up the battle. The Crest of Hope finally gives Patamon the power to digivolve into h...</desc>
     <episode-num system="onscreen">S01 E52</episode-num>
     <episode-num system="xmltv_ns">0.51.</episode-num>
   </programme>
   <programme start="20261129103501 -0500" stop="20261129110000 -0500" channel="fizz">
     <title lang="en">Digimon</title>
-    <sub-title lang="en">The Geko Hot Springs' Revolt</sub-title>
-    <desc lang="en">An ideal society managed by Sapotamas. Underneath, terrifying creatures called Digimon appear. After a classmate is attacked, Tomoro Tenma's emotions explode. Suddenly his Sapotama shines and Gekkomon is born.</desc>
+    <sub-title lang="en">Now Apocalymon</sub-title>
+    <desc lang="en">What is left of Spiral Mountain begains to fall apart and the kids soon find themselves floating in darkness. Gennai tells the kids that the evil force that made the DarkMasters came from the fire wall. This evil force walked acro...</desc>
     <episode-num system="onscreen">S01 E53</episode-num>
     <episode-num system="xmltv_ns">0.52.</episode-num>
   </programme>
@@ -13231,16 +13211,15 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
     <episode-num system="xmltv_ns">0.21.</episode-num>
   </programme>
   <programme start="20261126194000 -0500" stop="20261126200500 -0500" channel="toon-diggity">
-    <title lang="en">Tenchi Universe</title>
-    <sub-title lang="en">Tenchi Muyo! in Love</sub-title>
-    <desc lang="en">The demonic space criminal Kain has escaped from prison and destroyed the Galaxy Police headquarters. To ensure that the Jurai will not stop him, Kain travels back to 1970 to eliminate Tenchi's mother before he is even born. Now, Tenchi and the gang must travel to the past to stop him before he ceases to exist.</desc>
-    <episode-num system="onscreen">S02 E25</episode-num>
-    <episode-num system="xmltv_ns">1.24.</episode-num>
+    <title lang="en">Tenchi Universe - Space Adventure</title>
+    <sub-title lang="en">No Need for a Showdown!</sub-title>
+    <desc lang="en">Tenchi and the fabled knights battle their way to the throne room, culminating in a face-off between Kagato and himself.</desc>
+    <episode-num system="onscreen">S01 E25</episode-num>
+    <episode-num system="xmltv_ns">0.24.</episode-num>
   </programme>
   <programme start="20261126200500 -0500" stop="20261126203000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">Password is Porunga</sub-title>
     <episode-num system="onscreen">S01 E75</episode-num>
     <episode-num system="xmltv_ns">0.74.</episode-num>
   </programme>
@@ -13260,24 +13239,23 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261126212000 -0500" stop="20261126214500 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">Piccolo's Return</sub-title>
     <episode-num system="onscreen">S01 E76</episode-num>
     <episode-num system="xmltv_ns">0.75.</episode-num>
   </programme>
   <programme start="20261126214500 -0500" stop="20261126221000 -0500" channel="toon-diggity">
-    <title lang="en">Lupin The Third Part II</title>
-    <sub-title lang="en">Pilot Film</sub-title>
-    <desc lang="en">Two years after the birth of the manga a pilot film was realized. It was a brief film of only 15 minutes that had the purpose of assay the response to a possible future anime realization of Lupin III. The pilot opens with a challenge call from Lupin to Zenigata from a public phone.</desc>
+    <title lang="en">Lupin the Third Part II</title>
+    <sub-title lang="en">To Be or Nazi Be</sub-title>
+    <desc lang="en">Supposedly, an old man who knows the secret of the legacy of Hitler is living on the other side of the Berlin Wall. Walls are no problem, and taking Genhardt, the old man, to the West is easy enough, but he is absolutely senile and recalls nothing about any legacy. Therefore, the plan is to reenact a scene from the period, but... What has happened to the legacy, anyway?</desc>
     <episode-num system="onscreen">S01 E26</episode-num>
     <episode-num system="xmltv_ns">0.25.</episode-num>
   </programme>
   <programme start="20261126221000 -0500" stop="20261126223500 -0500" channel="toon-diggity">
-    <title lang="en">Tenchi Universe</title>
-    <sub-title lang="en">Tenchi Muyo! in Love</sub-title>
-    <desc lang="en">The demonic space criminal Kain has escaped from prison and destroyed the Galaxy Police headquarters. To ensure that the Jurai will not stop him, Kain travels back to 1970 to eliminate Tenchi's mother before he is even born. Now, Tenchi and the gang must travel to the past to stop him before he ceases to exist.</desc>
-    <episode-num system="onscreen">S02 E26</episode-num>
-    <episode-num system="xmltv_ns">1.25.</episode-num>
+    <title lang="en">Tenchi Universe - Space Adventure</title>
+    <sub-title lang="en">No Need for a Conclusion!</sub-title>
+    <desc lang="en">In an epilogue, Tenchi discusses the fate of most of the group, all of whom have their reputations restored or rewarded. Despite such acknowledgements, all become fond of their experience on Earth and return to the Masaki household.</desc>
+    <episode-num system="onscreen">S01 E26</episode-num>
+    <episode-num system="xmltv_ns">0.25.</episode-num>
   </programme>
   <programme start="20261126223500 -0500" stop="20261126230000 -0500" channel="toon-diggity">
     <title lang="en">Samurai Jack</title>
@@ -13288,8 +13266,7 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261126230000 -0500" stop="20261126232500 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">The Fusion</sub-title>
     <episode-num system="onscreen">S01 E77</episode-num>
     <episode-num system="xmltv_ns">0.76.</episode-num>
   </programme>
@@ -13302,15 +13279,12 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261126235000 -0500" stop="20261127001500 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">Fighting Power: One Million??</sub-title>
     <episode-num system="onscreen">S01 E78</episode-num>
     <episode-num system="xmltv_ns">0.77.</episode-num>
   </programme>
   <programme start="20261127001500 -0500" stop="20261127003000 -0500" channel="toon-diggity">
     <title lang="en">Sealab 2021</title>
-    <sub-title lang="en">Pitch Pilot</sub-title>
-    <desc lang="en">Two scientists are stuck on an iceberg in Antarctica. They call for Sealab's help, but they have other issues. For example, Marco thinks he is a salad, Sparks interrupting the call by watching porn, Turtle races.</desc>
     <episode-num system="onscreen">S02 E13</episode-num>
     <episode-num system="xmltv_ns">1.12.</episode-num>
   </programme>
@@ -13337,22 +13311,22 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   </programme>
   <programme start="20261127011500 -0500" stop="20261127014000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
-    <desc lang="en">Gohan turns into Grand mystic form.</desc>
+    <sub-title lang="en">Danger in the Air</sub-title>
+    <desc lang="en">Goku and his friends celebrate by going to a spectacular amusement park. But the beautiful bounty hunter, Hasky, has Goku and his two Dragon Balls in her sights, and she intends to turn their day at Dream Land into a tragic nightmare!</desc>
     <episode-num system="onscreen">S01 E45</episode-num>
     <episode-num system="xmltv_ns">0.44.</episode-num>
   </programme>
   <programme start="20261127014000 -0500" stop="20261127020500 -0500" channel="toon-diggity">
     <title lang="en">Sammy</title>
-    <sub-title lang="en">Malibu</sub-title>
-    <desc lang="en">James' plans to get some R&amp;R by renting a house in Malibu are foiled when his entire family shows up to hang out.</desc>
+    <sub-title lang="en">Fair</sub-title>
+    <desc lang="en">James is looking forward to a relaxing weekend at home, until he finds out his agent, Mark has booked him to appear as "Mongo Man" at the county fair. He invites his family to come along.</desc>
     <episode-num system="onscreen">S01 E05</episode-num>
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
   <programme start="20261127020500 -0500" stop="20261127023000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
-    <desc lang="en">Gohan turns into Grand mystic form.</desc>
+    <sub-title lang="en">Bulma's Bad Day</sub-title>
+    <desc lang="en">Goku and Bulma find themselves on a uncharted desert. When Goku dives into the ocean waters to search for the magic ball, Bulma finds herself in deep trouble!</desc>
     <episode-num system="onscreen">S01 E46</episode-num>
     <episode-num system="xmltv_ns">0.45.</episode-num>
   </programme>
@@ -13366,7 +13340,7 @@ With the Condor docked in Terra Amazonia, The Storm Hawks have a night to watch 
   <programme start="20261127025500 -0500" stop="20261127032000 -0500" channel="toon-diggity">
     <title lang="en">Kevin Spencer</title>
     <sub-title lang="en">Festival of Flowers</sub-title>
-    <desc lang="en">Kevin raids the remains of a burnt down house searching for parts to build himself a robotic friend. He finds a Gameboy, which is possessed by the ghost of a creepy handicapped kid who died in the house fire. When Kevin's robotic spider friend eats the possessed gameboy, the giant spider reeks havoc during the city's annual Festival of Flowers.</desc>
+    <desc lang="en">Kevin raids the remnants of a burned house looking for parts to build himself a robot companion. He finds a possessed Gameboy.</desc>
     <episode-num system="onscreen">S03 E05</episode-num>
     <episode-num system="xmltv_ns">2.4.</episode-num>
   </programme>
@@ -13467,8 +13441,6 @@ Spoon in one hand, remote in the other.</desc>
   </programme>
   <programme start="20261127122500 -0500" stop="20261127125000 -0500" channel="toon-diggity">
     <title lang="en">The Tick</title>
-    <sub-title lang="en">Pre-Pilot</sub-title>
-    <desc lang="en">In a world where superheroes and villains are very real, unassuming office temp Arthur becomes obsessed with a sinister conspiracy he believes has taken over his City. Everyone thinks he's crazy, except his mysterious new ally, The Tick, a bizarre blue superhero who might just be a figment of Arthur's imagination...</desc>
     <episode-num system="onscreen">S03 E09</episode-num>
     <episode-num system="xmltv_ns">2.8.</episode-num>
   </programme>
@@ -13544,7 +13516,8 @@ Mouse from Another House: Lonely orphan Scrappy listens as Pearl describes Might
 Homework can wait.</desc>
   </programme>
   <programme start="20261127180500 -0500" stop="20261127193500 -0500" channel="toon-diggity">
-    <title lang="en">Gay Pur-ee (1962)</title>
+    <title lang="en">Gay Purr-ee (1962)</title>
+    <desc lang="en">Mewsette is a starry-eyed cat who grows weary of life on a French farm and heads for the excitement of 1890s Paris. Her tomcat suitor, Jaune-Tom, and his furry cohort, Robespierre, chase after Mewsette, but she's already fallen under the spell of a feline modeling-school racket run by Madame Rubens-Chatte and her slimy assistant, Meowrice.</desc>
   </programme>
   <programme start="20261127193500 -0500" stop="20261127200000 -0500" channel="toon-diggity">
     <title lang="en">Hajime no Ippo</title>
@@ -13555,22 +13528,20 @@ Homework can wait.</desc>
   </programme>
   <programme start="20261127200000 -0500" stop="20261127202500 -0500" channel="toon-diggity">
     <title lang="en">Liquid Television</title>
-    <sub-title lang="en">Episode #2.1</sub-title>
     <desc lang="en">Segments: Uncle Louie's Travels, Æon Flux: Gravity, The Adventures of Thomas and Nardo, Beavis and Butt-Head: Frog Baseball, The Specialists, Winter Steele: Soft Heart, Hard Alcohol, Stick Figure Theatre: Night of the Living Dead, Dog-Boy.</desc>
     <episode-num system="onscreen">S02 E01</episode-num>
     <episode-num system="xmltv_ns">1.0.</episode-num>
   </programme>
   <programme start="20261127202500 -0500" stop="20261127205000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">Gohan Attacks</sub-title>
     <episode-num system="onscreen">S01 E79</episode-num>
     <episode-num system="xmltv_ns">0.78.</episode-num>
   </programme>
   <programme start="20261127205000 -0500" stop="20261127211500 -0500" channel="toon-diggity">
-    <title lang="en">Lupin The Third Part II</title>
-    <sub-title lang="en">Pilot Film</sub-title>
-    <desc lang="en">Two years after the birth of the manga a pilot film was realized. It was a brief film of only 15 minutes that had the purpose of assay the response to a possible future anime realization of Lupin III. The pilot opens with a challenge call from Lupin to Zenigata from a public phone.</desc>
+    <title lang="en">Lupin the Third Part II</title>
+    <sub-title lang="en">50 Ways to Leave Your 50-Foot Lover</sub-title>
+    <desc lang="en">At Loch Ness, Scotland, the mysterious monster Nessie shows itself charmed by Fujiko's singing. Doctor Oz, seeing this, decides to use Fujiko to draw out Nessie so that he can capture it and show it all over the world. There is also revenge involved. It's a fight to the death between Nessie and Oz's dinosaur robot. Will Lupin let Oz get away with his scheme?</desc>
     <episode-num system="onscreen">S01 E27</episode-num>
     <episode-num system="xmltv_ns">0.26.</episode-num>
   </programme>
@@ -13579,8 +13550,8 @@ Homework can wait.</desc>
   </programme>
   <programme start="20261127214500 -0500" stop="20261127221000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">Piccolo the Super-Namek</sub-title>
+    <desc lang="en">The Tide Suddenly Turns!! Piccolo, the Warrior Who Came LateVegeta witnesses Gohan's attack, but is unable to do anything due to the vast difference in strength. Just as Frieza is about to finish off Gohan, Krillin's Kienzan cuts Frieza's tail. Frieza is puzzled, and Krillin provokes him, running away. Dende takes advantage of the opportunity to rush over to Gohan. What power does Dende possess?</desc>
     <episode-num system="onscreen">S01 E80</episode-num>
     <episode-num system="xmltv_ns">0.79.</episode-num>
   </programme>
@@ -13593,8 +13564,8 @@ Homework can wait.</desc>
   </programme>
   <programme start="20261127223500 -0500" stop="20261127230000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">Déjà vu</sub-title>
+    <desc lang="en">Piccolo's Self-Confidence! I Will Be the One to Defeat FreezaPiccolo quickly takes control of the battle with Frieza, and the putrid purple monster is shocked to learn the secret behind his opponent's powers!</desc>
     <episode-num system="onscreen">S01 E81</episode-num>
     <episode-num system="xmltv_ns">0.80.</episode-num>
   </programme>
@@ -13621,7 +13592,7 @@ Homework can wait.</desc>
   </programme>
   <programme start="20261128001500 -0500" stop="20261128003000 -0500" channel="toon-diggity">
     <title lang="en">The Maxx</title>
-    <sub-title lang="en">Episode 5</sub-title>
+    <sub-title lang="en">Episode #9/Episode #10</sub-title>
     <desc lang="en">We meet Sara, a struggling writer, who weaves a web of stories that link her to Maxx and Julie.</desc>
     <episode-num system="onscreen">S01 E05</episode-num>
     <episode-num system="xmltv_ns">0.4.</episode-num>
@@ -13663,8 +13634,8 @@ Homework can wait.</desc>
   </programme>
   <programme start="20261128020500 -0500" stop="20261128023000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
-    <desc lang="en">Gohan turns into Grand mystic form.</desc>
+    <sub-title lang="en">Kame House: Found!</sub-title>
+    <desc lang="en">Goku and Bulma have located another Dragon Ball and travel to Master Roshi's island in hopes of finding some assistance.</desc>
     <episode-num system="onscreen">S01 E47</episode-num>
     <episode-num system="xmltv_ns">0.46.</episode-num>
   </programme>
@@ -13691,8 +13662,8 @@ Homework can wait.</desc>
   </programme>
   <programme start="20261128034500 -0500" stop="20261128041000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
-    <desc lang="en">Gohan turns into Grand mystic form.</desc>
+    <sub-title lang="en">Deep Blue Sea</sub-title>
+    <desc lang="en">Goku, Bulma and Krillin comb the depths of the deep blue sea, where a third Dragon Ball waits to be claimed.</desc>
     <episode-num system="onscreen">S01 E48</episode-num>
     <episode-num system="xmltv_ns">0.47.</episode-num>
   </programme>
@@ -13712,8 +13683,8 @@ Homework can wait.</desc>
   </programme>
   <programme start="20261128050000 -0500" stop="20261128052500 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
-    <desc lang="en">Gohan turns into Grand mystic form.</desc>
+    <sub-title lang="en">Roshi's Surprise</sub-title>
+    <desc lang="en">Goku, Bulma and Krillin discover an ancient secret that promises great wealth, and even greater danger! The Red Ribbon Army is also on the prowl!</desc>
     <episode-num system="onscreen">S01 E49</episode-num>
     <episode-num system="xmltv_ns">0.48.</episode-num>
   </programme>
@@ -13862,7 +13833,7 @@ Closing Theme</desc>
   <programme start="20261128145500 -0500" stop="20261128152000 -0500" channel="toon-diggity">
     <title lang="en">Funky Cops</title>
     <sub-title lang="en">Jill Roy was here</sub-title>
-    <desc lang="en">Ace tombe amoureux de la délicieuse Jill Roy, passionnée par les pierres précieuses. Lorsque de nombreux et mystérieux vols de bijoux surviennent, Dick commence sérieusement à suspecter Jill d'en être l'auteur, ce qui déplaît fortement à Ace...</desc>
+    <desc lang="en">Ace Anderson and Dick Kowalski are two semi-competent cops in San Francisco during the late 1970s. They show more attention towards appearing cool and disco dancing, but finish the cases by the end of the day. They are assisted by their disgruntled police chief Captain Dobbs, plucky reporter Miss Lee, and fellow disco lover Boogaloo.</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
@@ -13894,43 +13865,39 @@ Closing Theme</desc>
 Homework can wait.</desc>
   </programme>
   <programme start="20261128180500 -0500" stop="20261128185500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z OVA</title>
-    <sub-title lang="en">Bardock, The Father Of Goku (1990)</sub-title>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <title lang="en">Dragon Ball Z: Bardock – The Father of Goku (1990)</title>
+    <desc lang="en">Bardock, Son Goku's father, is a low-ranking Saiyan soldier who was given the power to see into the future by the last remaining alien on a planet he just destroyed. He witnesses the destruction of his race and must now do his best to stop Frieza's impending massacre.</desc>
   </programme>
   <programme start="20261128185500 -0500" stop="20261128192000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">Freeza's Second Transformation?</sub-title>
+    <desc lang="en">Sally Forth, Goku!! A Furious Freeza's 2nd TransformationJust as it appears that Piccolo has gained the upper hand, Frieza quickly dashes all hopes for victory by revealing his second monstrous transformation!</desc>
     <episode-num system="onscreen">S01 E82</episode-num>
     <episode-num system="xmltv_ns">0.81.</episode-num>
   </programme>
   <programme start="20261128192000 -0500" stop="20261128194500 -0500" channel="toon-diggity">
-    <title lang="en">Lupin The Third Part II</title>
-    <sub-title lang="en">Pilot Film</sub-title>
-    <desc lang="en">Two years after the birth of the manga a pilot film was realized. It was a brief film of only 15 minutes that had the purpose of assay the response to a possible future anime realization of Lupin III. The pilot opens with a challenge call from Lupin to Zenigata from a public phone.</desc>
+    <title lang="en">Lupin the Third Part II</title>
+    <sub-title lang="en">Gold Smuggling 101</sub-title>
+    <desc lang="en">Fujiko and a mystery man come bringing a request that Lupin steal a mountain of gold bullion from a Swiss bank, which is renowned throughout the world for the strength of its security. The man's idea, for them to join forces, steal the gold from underneath the vault, melt it down, and remold it so as to look like the body of a truck, is carried out to that point. What is the man's true identity? Who will have the last betrayal?</desc>
     <episode-num system="onscreen">S01 E28</episode-num>
     <episode-num system="xmltv_ns">0.27.</episode-num>
   </programme>
   <programme start="20261128194500 -0500" stop="20261128201000 -0500" channel="toon-diggity">
     <title lang="en">Tenchi in Tokyo</title>
-    <sub-title lang="en">Omake 1: Stop Tenchi's Abduction With Dummies: Part 1</sub-title>
-    <desc lang="en">In a dark room with a single candle, Ayeka, Ryoko, Washu, Sasami, Mihoshi, Kiyone, and even Ryo-Ohki hold a meeting about a secret sinister plot; Meanwhile, Tenchi’s classmates are goofing off on a train during a school trip to Okayama, his home area.</desc>
     <episode-num system="onscreen">S03 E01</episode-num>
     <episode-num system="xmltv_ns">2.0.</episode-num>
   </programme>
   <programme start="20261128201000 -0500" stop="20261128203500 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">Another Transformation?</sub-title>
+    <desc lang="en">Fear Me!! Freeza Does Battle With a 3rd TransformationUnable to watch as Piccolo is overwhelmed by Frieza, Gohan springs into action! Meanwhile, Vegeta devises a risky plan.</desc>
     <episode-num system="onscreen">S01 E83</episode-num>
     <episode-num system="xmltv_ns">0.82.</episode-num>
   </programme>
   <programme start="20261128203500 -0500" stop="20261128210000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">Dende's Demise</sub-title>
+    <desc lang="en">The Death of Dende... Come Forth! Intense, Full-Force PowerHaving reached his ultimate form, Frieza is determined to destroy the remaining Z-fighters one by one, but Vegeta boldly announces the end of Frieza's reign.</desc>
     <episode-num system="onscreen">S01 E84</episode-num>
     <episode-num system="xmltv_ns">0.83.</episode-num>
   </programme>
@@ -13943,8 +13910,8 @@ Homework can wait.</desc>
   </programme>
   <programme start="20261128212500 -0500" stop="20261128215000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">The Renewed Goku</sub-title>
+    <desc lang="en">The Moment We've Waited For!!! Son Goku is RevivedVegeta, who firmly believes himself to be a Super Saiyan, fires off a full-power energy blast at Frieza, but it is easily deflected with a kick. He despairs at the overwhelming difference in power. Shedding tears, he experiences failure for the first time in his life... Vegeta has completely lost the will to fight, and just as death draws nearer, Goku's wounds finally heal.</desc>
     <episode-num system="onscreen">S01 E85</episode-num>
     <episode-num system="xmltv_ns">0.84.</episode-num>
   </programme>
@@ -13971,22 +13938,22 @@ Homework can wait.</desc>
   </programme>
   <programme start="20261128230500 -0500" stop="20261128233000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">The End of Vegeta</sub-title>
+    <desc lang="en">Such Regret…!! The Proud Saiyan, Vegeta DiesGoku rejoins his friends on the battlefield, but not before Vegeta is defeated by Frieza!</desc>
     <episode-num system="onscreen">S01 E86</episode-num>
     <episode-num system="xmltv_ns">0.85.</episode-num>
   </programme>
   <programme start="20261128233000 -0500" stop="20261128235500 -0500" channel="toon-diggity">
-    <title lang="en">Lupin The Third Part II</title>
-    <sub-title lang="en">Pilot Film</sub-title>
-    <desc lang="en">Two years after the birth of the manga a pilot film was realized. It was a brief film of only 15 minutes that had the purpose of assay the response to a possible future anime realization of Lupin III. The pilot opens with a challenge call from Lupin to Zenigata from a public phone.</desc>
+    <title lang="en">Lupin the Third Part II</title>
+    <sub-title lang="en">Shaky Pisa</sub-title>
+    <desc lang="en">Someone comes along and demands that the Italian government pay him a ransom if they don't want the Leaning Tower of Pisa destroyed by an earthquake. It seems he really does have a device for generating artificial earthquakes. The government meets his demands, but Lupin has it in mind to take the money for himself. The chase scene with Zenigata leads right to the enemy's lair, and the maddened criminal hits the switch, determined to teach everyone a lesson! What will become of the Leaning Tower?</desc>
     <episode-num system="onscreen">S01 E29</episode-num>
     <episode-num system="xmltv_ns">0.28.</episode-num>
   </programme>
   <programme start="20261128235500 -0500" stop="20261129002000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Christmas Tree of Might</sub-title>
-    <desc lang="en">A group of misfit minion aliens visit Earth to plant the Christmas Tree of Might and destroy Christmas once and for all.</desc>
+    <sub-title lang="en">The Ultimate Battle</sub-title>
+    <desc lang="en">The Curtain Opens on the Super Decisive Battle!! I Am Going to Defeat YouGoku wages war on the monstrous Frieza! As the fight intensifies, Frieza directs his energy blasts at Namek itself, turning the planet into a lava-spewing warzone.</desc>
     <episode-num system="onscreen">S01 E87</episode-num>
     <episode-num system="xmltv_ns">0.86.</episode-num>
   </programme>
@@ -14061,14 +14028,14 @@ Almost The End: "Laser Eyes"</desc>
   <programme start="20261129021000 -0500" stop="20261129023500 -0500" channel="toon-diggity">
     <title lang="en">Kevin Spencer</title>
     <sub-title lang="en">Pat-riot-ism</sub-title>
-    <desc lang="en">After Percy photocopies Kevin's diary and posts it around the neighborhood, the insulted victims of his criticism bully Kevin out of town. Percy wins the family a houseboat trip to Ottawa to celebrate Canada Day where the Spencer's take part in the wildest party in the country.</desc>
+    <desc lang="en">After Percy photocopies Kevin's diary and posts it around the neighbourhood, the insulted victims of his criticism bully Kevin out of town.</desc>
     <episode-num system="onscreen">S03 E16</episode-num>
     <episode-num system="xmltv_ns">2.15.</episode-num>
   </programme>
   <programme start="20261129023500 -0500" stop="20261129030000 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
-    <desc lang="en">Gohan turns into Grand mystic form.</desc>
+    <sub-title lang="en">The Trap is Sprung</sub-title>
+    <desc lang="en">The Red Ribbon Army is in hot pursuit of Goku through the corridors of the Pirate Cave, where danger lurks around every corner in the form of booby-traps!</desc>
     <episode-num system="onscreen">S01 E50</episode-num>
     <episode-num system="xmltv_ns">0.49.</episode-num>
   </programme>
@@ -14088,8 +14055,8 @@ Almost The End: "Laser Eyes"</desc>
   </programme>
   <programme start="20261129035000 -0500" stop="20261129041500 -0500" channel="toon-diggity">
     <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">SUPER Saiyan 4 GOHAN!! TURNS into GRAND ULTIMATE FORM!!</sub-title>
-    <desc lang="en">Gohan turns into Grand mystic form.</desc>
+    <sub-title lang="en">Beware of the Robot</sub-title>
+    <desc lang="en">Goku, Bulma and Krillin discover an underwater cave port at the heart of the Pirate Cave, where a sword-wielding robot lurks in the shadows!</desc>
     <episode-num system="onscreen">S01 E51</episode-num>
     <episode-num system="xmltv_ns">0.50.</episode-num>
   </programme>
@@ -14186,7 +14153,7 @@ Spoon in one hand, remote in the other.</desc>
   </programme>
   <programme start="20261129125000 -0500" stop="20261129131500 -0500" channel="toon-diggity">
     <title lang="en">Space Goofs</title>
-    <sub-title lang="en">Episode 8</sub-title>
+    <sub-title lang="en">Madame Zelza</sub-title>
     <desc lang="en">A fortune teller, Madame Zelza, moves in the aliens' house and tricks all the aliens except Etno into believing a superstition. Etno must then try to run Madame Zelza out of business.</desc>
     <episode-num system="onscreen">S02 E08</episode-num>
     <episode-num system="xmltv_ns">1.7.</episode-num>
