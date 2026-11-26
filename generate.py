@@ -147,6 +147,7 @@ RENAMES = {
     "Lupin The Third Part II": "Lupin the Third Part II",
     "Gay Pur-ee": "Gay Purr-ee",                          # real title (feed misspells it; TMDB match)
     "Free for All": "Free for All (2003)",                # Showtime series; year disambiguates lookups
+    "Tenchi Muyo! Mihoshi Special": "Tenchi Muyo!: Galaxy Police Mihoshi Space Adventure (1994)",  # feed "T107b ..."
 }
 
 # Fuzzy renames: (pattern, canonical) applied when the exact table misses.
@@ -310,6 +311,10 @@ FIXED_DESC = {
     "A Charlie Brown Thanksgiving (1973)":    # IMDb synopsis (in case the feed sends it)
         "Peppermint Patty invites herself and her friends over to Charlie Brown's for Thanksgiving, "
         "and with Linus, Snoopy, and Woodstock, he attempts to throw together a Thanksgiving dinner.",
+    "Tenchi Muyo!: Galaxy Police Mihoshi Space Adventure (1994)":
+        "A side story about Mihoshi's life as a Galaxy Police Officer. Mihoshi introduces her partner, "
+        "Kiyone, an up-and-coming officer who believes that having Mihoshi as her partner could be the "
+        "end of her career, and explains how they solved the case of the Missing Super Energy.",
     "Afternoon Shuffle":
         "An after-school reel of theatrical shorts: Tom and Jerry, Looney Tunes, Tex Avery, Walter Lantz "
         "Cartunes and Fleischer classics, cut with international gems from NFB/ONF Canada and Zagreb Film."
@@ -645,6 +650,7 @@ P_NdashN = re.compile(r'(?:^|\s)(\d{1,2})-(\d{2})$')
 P_EPISODE= re.compile(r'(?:^|\s)Episode\s+(\d+)$', re.I)
 P_DIGITS = re.compile(r'(?:^|\s)T?(\d{2,4})$')
 P_TFRONT = re.compile(r'^T(\d{2,4})\s+(\S.*)$')
+P_TFRONT_PART = re.compile(r'^T\d{2,4}[a-z]\s+(\S.*)$', re.I)   # "T107b Tenchi Muyo! Mihoshi Special": in-between special, no real S/E
 
 def _digits_to_se(d, show):
     if show.strip().lower() in ABSOLUTE_SHOWS: return 1, int(d)
@@ -731,8 +737,11 @@ def parse_title(raw):
         c = peel(t)
         if c: title, season, ep = _clean(c[0]), c[1], c[2]
         else:
+            fp = P_TFRONT_PART.match(t)
             fm = P_TFRONT.match(t)
-            if fm:
+            if fp:
+                title = _clean(fp.group(1))                     # drop the code, keep the title, no S/E
+            elif fm:
                 season, ep = _digits_to_se(fm.group(1), fm.group(2))
                 title = _clean(fm.group(2))
     return _rename(title), subtitle, season, ep, ep_end
