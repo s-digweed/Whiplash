@@ -3,18 +3,6 @@
   <channel id="ThatsSoDisney">
     <display-name>That's So Disney</display-name>
   </channel>
-  <programme start="20261124060000 +0000" stop="20261124180000 +0000" channel="ThatsSoDisney">
-    <title lang="en">That's So Marathon</title>
-    <desc lang="en">November's one long bonanza. Back-to-back marathons of Disney Channel favorites, Zoog-era classics and Disney Afternoon toons.
-
-Pick a show. Stay a while.</desc>
-  </programme>
-  <programme start="20261124180000 +0000" stop="20261125060000 +0000" channel="ThatsSoDisney">
-    <title lang="en">That's So Marathon</title>
-    <desc lang="en">November's one long bonanza. Back-to-back marathons of Disney Channel favorites, Zoog-era classics and Disney Afternoon toons.
-
-Pick a show. Stay a while.</desc>
-  </programme>
   <programme start="20261125060000 +0000" stop="20261125180000 +0000" channel="ThatsSoDisney">
     <title lang="en">That's So Marathon</title>
     <desc lang="en">November's one long bonanza. Back-to-back marathons of Disney Channel favorites, Zoog-era classics and Disney Afternoon toons.
@@ -10210,5 +10198,189 @@ Pick a show. Stay a while.</desc>
   <programme start="20270124053000 +0000" stop="20270124060000 +0000" channel="ThatsSoDisney">
     <title lang="en">Life With Derek</title>
     <desc lang="en">Comedy tracing the constant feud between Casey and her stepbrother Derek as they vie for control of their household.</desc>
+  </programme>
+  <programme start="20270124060000 +0000" stop="20270124063000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Naturally, Sadie</title>
+    <desc lang="en">Fourteen-year-old Sadie Hawthorne is a bright girl who is interested in nature and animal behavior. Reaching beyond the limits of studying animals, she attempts to analyze humans.</desc>
+  </programme>
+  <programme start="20270124063000 +0000" stop="20270124070000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Cory in the House</title>
+    <desc lang="en">Cory Baxter moves to the White House in Washington, DC when his father Victor, is named the new personal White House chef of the President.</desc>
+  </programme>
+  <programme start="20270124070000 +0000" stop="20270124073000 +0000" channel="ThatsSoDisney">
+    <title lang="en">My Babysitter's a Vampire</title>
+    <desc lang="en">Ethan Morgan, his half-vampire babysitter and pals battle against creatures from their nightmares.</desc>
+  </programme>
+  <programme start="20270124073000 +0000" stop="20270124080000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Buzz Lightyear of Star Command</title>
+    <desc lang="en">The further adventures of Buzz Lightyear as a Space Ranger of Star Command and his comrades.</desc>
+  </programme>
+  <programme start="20270124080000 +0000" stop="20270124083000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Emperor's New School</title>
+    <desc lang="en">Continuation of 2000's The Emperor's New Groove, showcasing Kuzco's attempts to graduate from his kingdom's school, and his former advisor Yzma's evil attempts to keep him from his goal.</desc>
+  </programme>
+  <programme start="20270124083000 +0000" stop="20270124090000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Brandy &amp; Mr. Whiskers</title>
+    <desc lang="en">A snobbish dog named Brandy Harrington and a dim-witted rabbit named Mr. Whiskers try to make the best of things when they get stranded in the Amazon rainforest together.</desc>
+  </programme>
+  <programme start="20270124090000 +0000" stop="20270124093000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Replacements</title>
+    <desc lang="en">Two orphans are given access to a super foster agency that enables them to replace people in their life with aces and superhumans.</desc>
+  </programme>
+  <programme start="20270124093000 +0000" stop="20270124100000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Dave the Barbarian</title>
+    <desc lang="en">Follow the adventures of Dave, one incredibly unusual barbarian, who's more interested in raising his family and cooking yummy gourmet meals than conquering new lands.</desc>
+  </programme>
+  <programme start="20270124100000 +0000" stop="20270124103000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Buzz on Maggie</title>
+    <desc lang="en">Maggie Pesky is a fun-loving, energetic, creative, and independent thinking tween fly from the metropolis of Stickyfeet, who often ruffles antennae with other insects caught up in conventional, hard-working everyday routines.</desc>
+  </programme>
+  <programme start="20270124103000 +0000" stop="20270124110000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Shaun the Sheep</title>
+    <desc lang="en">Shaun The Sheep is a cheeky and mischievous sheep at Mossy Bottom farm who's the leader of the flock and always plays slapstick jokes, pranks and causes trouble especially on Farmer X and his grumpy guide dog, Bitzer.</desc>
+  </programme>
+  <programme start="20270124110000 +0000" stop="20270124113000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Hello Kitty's Furry Tale Theater</title>
+    <desc lang="en">Join Hello Kitty in some fun adventures which are based off of popular children's fairy tales.</desc>
+  </programme>
+  <programme start="20270124113000 +0000" stop="20270124120000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The New Archies</title>
+    <desc lang="en">Updated prequel to "The Archies" of the 1960's follows the gang in Jr. High.</desc>
+  </programme>
+  <programme start="20270124120000 +0000" stop="20270124123000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Wizard of Oz (1990)</title>
+    <desc lang="en">Dorothy returns to Oz for more exciting adventures in this direct animated sequel to the beloved 1939 film.</desc>
+  </programme>
+  <programme start="20270124123000 +0000" stop="20270124130000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Fraggle Rock Animated Series</title>
+    <desc lang="en">Fraggle Rock: The Animated Series is an American animated television series based on the original live action version of the same name created by Jim Henson. NBC aired this spin-off program on Saturday mornings for one season during 1987.</desc>
+  </programme>
+  <programme start="20270124130000 +0000" stop="20270124133000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Silly Symphony</title>
+    <desc lang="en">Silly Symphony is a series of 75 animated musical short films produced by Walt Disney Productions from 1929 to 1939. As their name implies, the Silly Symphonies were originally intended as whimsical accompaniments to pieces of music.</desc>
+  </programme>
+  <programme start="20270124133000 +0000" stop="20270124140000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Good Morning, Mickey!</title>
+    <desc lang="en">Anthology series featuring classic Mickey Mouse and Friends cartoons.</desc>
+  </programme>
+  <programme start="20270124140000 +0000" stop="20270124143000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Hello Kitty and Friends</title>
+    <desc lang="en">Hello kitty is a little girl who loves her friends.</desc>
+  </programme>
+  <programme start="20270124143000 +0000" stop="20270124150000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Babar</title>
+    <desc lang="en">The adventures of the King of the elephants, his family, and friends.</desc>
+  </programme>
+  <programme start="20270124150000 +0000" stop="20270124153000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Care Bears (1986)</title>
+    <desc lang="en">The Care Bears live in a faraway place up in the clouds called Care-a-Lot. They travel around the world on Missions in Caring, whilst evil villains such as Lord No Heart, try to thwart their plans.</desc>
+  </programme>
+  <programme start="20270124153000 +0000" stop="20270124160000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Wuzzles</title>
+    <desc lang="en">This cartoon series followed the adventure of the Wuzzles, colorful and playful creatures that were part one animal, part another.</desc>
+  </programme>
+  <programme start="20270124160000 +0000" stop="20270124163000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Raccoons</title>
+    <desc lang="en">The adventures of a family of raccoons and their friends.</desc>
+  </programme>
+  <programme start="20270124163000 +0000" stop="20270124170000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Wild West C.O.W.-Boys of Moo Mesa</title>
+    <desc lang="en">In the 1800s, a mysterious comet hits the United States southwest, transforming the local cattle and animals into their own version of the old west called Moo Mesa, complete with several lawmen dealing with bizarre outlaws.</desc>
+  </programme>
+  <programme start="20270124170000 +0000" stop="20270124173000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Digimon</title>
+    <desc lang="en">A group of young teens is unexpectedly sent to the mysterious Digital World and paired up with their own powerful, morphing monster called the Digimon. Together the entire group set out on an adventure to fight evil and save the w...</desc>
+  </programme>
+  <programme start="20270124173000 +0000" stop="20270124180000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Beyblade</title>
+    <desc lang="en">Four Beybladers and their genius friend travel the world as team 'Bladebreakers' to win a championship, realizing there's much more at stake on the go.</desc>
+  </programme>
+  <programme start="20270124180000 +0000" stop="20270124183000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Kirby: Right Back at Ya!</title>
+    <desc lang="en">Kirby, a space-faring hero crashes his starship into the kingdom of Dream Land, where he stays in order to battle monsters summoned by the land's greedy and tyrannical King Dedede from evil intergalactic corporation Nightmare Ente...</desc>
+  </programme>
+  <programme start="20270124183000 +0000" stop="20270124190000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Sonic X</title>
+    <desc lang="en">A slight malfunction causes Chaos Control, and sends Sonic the Hedgehog to Earth. While there, Sonic meets Chris Thorndyke, who aids at collecting the Chaos Emeralds, so Sonic and friends can go home.</desc>
+  </programme>
+  <programme start="20270124190000 +0000" stop="20270124193000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Ōban Star-Racers</title>
+    <desc lang="en">Earth, 2082, twenty-five years after the failed invasion of the Crog forces. Young Eva (15) is determined to be reunited with her father, race manager Don Wei, who sent her off to a tough boarding school after the tragic death of ...</desc>
+  </programme>
+  <programme start="20270124193000 +0000" stop="20270124200000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Super Robot Monkey Team Hyperforce Go!</title>
+    <desc lang="en">A twelve-year-old boy named Chiro was exploring the outskirts of Shuggazoom City and discovered a giant and abandoned Super Robot.</desc>
+  </programme>
+  <programme start="20270124200000 +0000" stop="20270124203000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Power Rangers</title>
+    <desc lang="en">A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd, Emperor of all he sees, and their horde of monsters.</desc>
+  </programme>
+  <programme start="20270124203000 +0000" stop="20270124210000 +0000" channel="ThatsSoDisney">
+    <title lang="en">W.I.T.C.H.</title>
+    <desc lang="en">Five teenage girls learn that they have been chosen to guard the walls between parallel universes. For this purpose, they have been given the powers of the elements.</desc>
+  </programme>
+  <programme start="20270124210000 +0000" stop="20270124213000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Weekenders</title>
+    <desc lang="en">The humorous Friday through Sunday misadventures of four best friends.</desc>
+  </programme>
+  <programme start="20270124213000 +0000" stop="20270124220000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Even Stevens</title>
+    <desc lang="en">The Stevens family live in Sacramento, California, where the two younger children in the family, Ren and Louis, who have opposing personalities, often clash.</desc>
+  </programme>
+  <programme start="20270124220000 +0000" stop="20270124223000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Suite Life of Zack &amp; Cody</title>
+    <desc lang="en">Comedy about identical twins living at the Tipton Hotel with their single mother who is a lounge singer at the hotel.</desc>
+  </programme>
+  <programme start="20270124223000 +0000" stop="20270124230000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Proud Family</title>
+    <desc lang="en">Follow the adventures and misadventures of Penny Proud as she does her best to navigate through the early years of teend-dom.</desc>
+  </programme>
+  <programme start="20270124230000 +0000" stop="20270124233000 +0000" channel="ThatsSoDisney">
+    <title lang="en">That's So Raven</title>
+    <desc lang="en">A teenage girl periodically receives brief psychic visions of the near future. Trying to make these visions come true results in trouble, and hilarious situations, for the girl and her friends.</desc>
+  </programme>
+  <programme start="20270124233000 +0000" stop="20270125000000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Hannah Montana</title>
+    <desc lang="en">Adventures of a teenage pop star who keeps her identity secret from even her closest friends by using a disguise on-stage.</desc>
+  </programme>
+  <programme start="20270125000000 +0000" stop="20270125003000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Kim Possible</title>
+    <desc lang="en">A high school cheerleader and her clumsy best friend balance their duties as global crime-fighters with the typical challenges of adolescence.</desc>
+  </programme>
+  <programme start="20270125003000 +0000" stop="20270125010000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Lizzie McGuire</title>
+    <desc lang="en">Clumsy middle-schooler Lizzie McGuire navigates through teenage issues while enjoying her tween years with genuine friends, an annoying younger brother, and loving parents.</desc>
+  </programme>
+  <programme start="20270125010000 +0000" stop="20270125023000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Sunday Night Movie</title>
+    <desc lang="en">A Sunday night feature presentation, a family film to close out the weekend.</desc>
+  </programme>
+  <programme start="20270125023000 +0000" stop="20270125030000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Muppet Show</title>
+    <desc lang="en">Kermit the Frog and his fellow Muppets put on a vaudeville show at their theatre, bringing in a famous celebrity to help out for each episode.</desc>
+  </programme>
+  <programme start="20270125030000 +0000" stop="20270125033000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Muppets Tonight</title>
+    <desc lang="en">Kermit the Frog, Clifford and friends struggle to put on a weekly TV variety show.</desc>
+  </programme>
+  <programme start="20270125033000 +0000" stop="20270125040000 +0000" channel="ThatsSoDisney">
+    <title lang="en">The Jim Henson Hour</title>
+    <desc lang="en">An hour-long anthology series hosted by Jim Henson and generally included two segments. The first, MuppeTelevision, features comedy skits starring the Muppets, as well as frequent guest appearances by popular entertainers. The second often rebroadcasts original productions, primarily The StoryTeller.</desc>
+  </programme>
+  <programme start="20270125040000 +0000" stop="20270125043000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Fraggle Rock</title>
+    <desc lang="en">The adventures of the various inhabitants of an underground civilization.</desc>
+  </programme>
+  <programme start="20270125043000 +0000" stop="20270125050000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Welcome to Pooh Corner</title>
+    <desc lang="en">Winnie the Pooh's first live-action television series. The popular "Pooh Corner" consisted of a mix of full-body costumes and radio controlled 'puppetronics' that kept the mouths and eyes moving. For a cable series, the show was v...</desc>
+  </programme>
+  <programme start="20270125050000 +0000" stop="20270125053000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Dumbo's Circus</title>
+    <desc lang="en">Dumbo, the big eared flying elephant from the classic Disney film runs his own circus with the help of his friends.</desc>
+  </programme>
+  <programme start="20270125053000 +0000" stop="20270125060000 +0000" channel="ThatsSoDisney">
+    <title lang="en">Adventures in Wonderland</title>
+    <desc lang="en">A young girl named Alice has many zany adventures with her friends in a magical world on the other side of her looking glass.</desc>
   </programme>
 </tv>
