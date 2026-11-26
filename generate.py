@@ -1292,6 +1292,11 @@ def build_eel(tv, root, cache):
     # to whichever DECLARED channel now carries the matching display-name, keyed on
     # the stable tvg-id. Undeclared "orphan" programme ids are ignored.
     declared = {c.get("id"): (c.findtext("display-name") or "") for c in root.findall("channel")}
+    # ids that actually carry programmes. The feed's channel declarations flip between
+    # renumbered ids (Nov 27 2026: it declared the stale C121.244 "E Toons" while the live
+    # eToons grid sat under the UNdeclared C122.245), so a configured id counts as present
+    # if it has programmes, declared or not.
+    with_progs = {p.get("channel") for p in root.findall("programme")}
     name2local = {_norm_chan_name(disp): loc for loc, disp in EEL_CHANNEL_MAP.values()}
     for _alias, _loc in EEL_NAME_ALIASES.items():
         name2local[_norm_chan_name(_alias)] = _loc
@@ -1301,8 +1306,11 @@ def build_eel(tv, root, cache):
     for want_id, (local_id, display) in reversed(list(EEL_CHANNEL_MAP.items())):
         if local_id in {loc for loc, _ in resolved.values()}:
             continue
-        if want_id in declared:
+        if want_id in declared or want_id in with_progs:
             resolved[want_id] = (local_id, display)
+            if want_id not in declared:
+                print(f"  NOTE: Eel '{display}' using {want_id} (has programmes but the feed "
+                      f"doesn't declare it)")
             continue
         alt = next((cid for cid, cname in declared.items()
                     if cid not in EEL_CHANNEL_MAP and name2local.get(_norm_chan_name(cname)) == local_id), None)
@@ -1319,7 +1327,7 @@ def build_eel(tv, root, cache):
         if local_id in got_local:
             continue
         got_local.add(local_id)          # one decision (and one log line) per channel
-        free = [cid for cid in declared if cid not in resolved]
+        free = [cid for cid in declared if cid not in resolved and cid not in EEL_CHANNEL_MAP]
         if len(free) == 1:
             resolved[free[0]] = (local_id, display); got_local.add(local_id)
             print(f"  NOTE: Eel '{display}' not found by id or name; using the only unclaimed feed "
