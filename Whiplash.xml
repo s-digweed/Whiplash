@@ -10984,56 +10984,6 @@ Squidward tries to compose a symphony, but is distracted by SpongeBob and Patric
   <programme start="20261219000000 +0100" stop="20261220000000 +0100" channel="whiplashzenith">
     <title>La télé qui ne fait pas télé (mais un peu quand même avec ces rediffs)</title>
   </programme>
-  <programme start="20261126182000 -0500" stop="20261126184000 -0500" channel="eel-channel">
-    <title lang="en">Viva La Bam</title>
-    <sub-title lang="en">The Christmas Episode (a.k.a. A Very Merry Margera Christmas)</sub-title>
-    <desc lang="en">With twenty bucks and some duct tape, Bam brings the Christmas spirit to West Chester, Pennsylvania. Bam adorns the Margera house with ultra-bright festive lights, man-made snow, giant-sized Christmas ornaments, and an indoor ice-skating rink.</desc>
-    <episode-num system="onscreen">S01 E06</episode-num>
-    <episode-num system="xmltv_ns">0.5.</episode-num>
-  </programme>
-  <programme start="20261126184000 -0500" stop="20261126190500 -0500" channel="eel-channel">
-    <title lang="en">Wildboyz</title>
-    <sub-title lang="en">Brazil</sub-title>
-    <desc lang="en">Brazil... Home to the largest rainforest in the world, the Amazon river basin contains a staggering amount of plant and animal life found nowhere else on Earth. The Wildboyz go buck-wild in the rainforests of Brazil as they search out the Mee-Mee Indians to undergo a rite of passage known as the Glove of Ants - a really painful way to go from boys to men in 15 seconds. Further scientific research into the bizarre animals of the Amazon River Basin leads the boys to discover exactly how the electric eel earned its name, and how safely interact with a giant anaconda using a condom.</desc>
-    <episode-num system="onscreen">S02 E02</episode-num>
-    <episode-num system="xmltv_ns">1.1.</episode-num>
-  </programme>
-  <programme start="20261126190500 -0500" stop="20261126200500 -0500" channel="eel-channel">
-    <title lang="en">Classic Wrestling</title>
-    <desc lang="en">Old-school grappling, larger-than-life legends and matches from wrestling's golden era when every week felt like a pay-per-view.</desc>
-  </programme>
-  <programme start="20261126200500 -0500" stop="20261126214000 -0500" channel="eel-channel">
-    <title lang="en">Napoleon Dynamite (2004)</title>
-    <desc lang="en">A listless and alienated teenager decides to help his new friend win the class presidency in their small western high school, while he must deal with his bizarre family life back home.</desc>
-  </programme>
-  <programme start="20261126214000 -0500" stop="20261126220500 -0500" channel="eel-channel">
-    <title lang="en">It's Always Sunny in Philadelphia</title>
-    <sub-title lang="en">Flowers for Charlie</sub-title>
-    <desc lang="en">When an experiment successfully multiplies Charlie's intellect and takes him away from the bar, the rest of the gang find themselves struggling to complete the menial "Charlie Work" that has kept the bar running for so long.</desc>
-    <episode-num system="onscreen">S09 E08</episode-num>
-    <episode-num system="xmltv_ns">8.7.</episode-num>
-  </programme>
-  <programme start="20261126220500 -0500" stop="20261126222500 -0500" channel="eel-channel">
-    <title lang="en">It's Always Sunny in Philadelphia</title>
-    <sub-title lang="en">The Gang Makes Lethal Weapon 6</sub-title>
-    <desc lang="en">After creative differences over what constitutes tasteful nudity cause Frank to pull his money out of "Lethal Weapon 6" during filming, Mac, Dennis, and Charlie screen their rough footage for investors in hopes of raising enough capital to finish the production of their latest masterpiece.</desc>
-    <episode-num system="onscreen">S09 E09</episode-num>
-    <episode-num system="xmltv_ns">8.8.</episode-num>
-  </programme>
-  <programme start="20261126222500 -0500" stop="20261126225000 -0500" channel="eel-channel">
-    <title lang="en">Nirvanna the Band the Show</title>
-    <sub-title lang="en">The Banner</sub-title>
-    <desc lang="en">The guys drop a banner across from The Rivoli to raise awareness about the band.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-  </programme>
-  <programme start="20261126225000 -0500" stop="20261126231500 -0500" channel="eel-channel">
-    <title lang="en">The Andy Milonakis Show</title>
-    <sub-title lang="en">Lil' Jon</sub-title>
-    <desc lang="en">Join Andy as he makes his MTV debut featuring wacky home-movies starring his dog, his neighbors, and inanimate objects.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-  </programme>
   <programme start="20261126231500 -0500" stop="20261126234500 -0500" channel="eel-channel">
     <title lang="en">Da Ali G Show</title>
     <sub-title lang="en">Neil Hamilton</sub-title>
@@ -12052,91 +12002,41 @@ Games include: Spare Me; Sinkers and Floaters; Chum in the Mouth; Boulder Dash</
     <episode-num system="onscreen">S05 E08</episode-num>
     <episode-num system="xmltv_ns">4.7.</episode-num>
   </programme>
-  <programme start="20261126180500 -0500" stop="20261126183000 -0500" channel="fizz">
-    <title lang="en">Ned's Declassified School Survival Guide</title>
-    <sub-title lang="en">Guide to: Notes &amp; Best Friends</sub-title>
-    <desc lang="en">Notes: Bitsy has Ned pass a note and Sweeney catches him, now he must pay.  He has to write an essay along with everyone else so they plot revenge. Cookie finds joy in forging notes, but danger comes when he leads the teachers to the forgers "domain".
-
-Best Friends: Moze continues her search for a new best friend with a quiz and whoever matches up closely is meant for her. But Moze ends up joining the Huge Crew.  The Killer Bees recruit Cookie which puts Ned and Cookie's friendship to the test. Ned tries to find a new best friend in place of Cookie.</desc>
-    <episode-num system="onscreen">S01 E10</episode-num>
-    <episode-num system="xmltv_ns">0.9.</episode-num>
+  <programme start="20261129182000 -0500" stop="20261129184500 -0500" channel="eel-channel">
+    <title lang="en">Chappelle's Show</title>
+    <sub-title lang="en">Lost Episode 1</sub-title>
+    <desc lang="en">Dave looks to enact vengeance on everyone who has done him wrong in the past after signing a sweet new deal. Meanwhile, people suddenly charge him a lot more money for even the most trivial things that used to cost very little.</desc>
+    <episode-num system="onscreen">S03 E01</episode-num>
+    <episode-num system="xmltv_ns">2.0.</episode-num>
   </programme>
-  <programme start="20261126183000 -0500" stop="20261126185500 -0500" channel="fizz">
-    <title lang="en">Boy Meets World</title>
-    <sub-title lang="en">No Such Thing as a Sure Thing</sub-title>
-    <desc lang="en">On the eve of the big game, Eric gets Jack in over his head with a bookie, while Topanga decides to put her money on Cory after her mom visits.</desc>
-    <episode-num system="onscreen">S07 E04</episode-num>
-    <episode-num system="xmltv_ns">6.3.</episode-num>
+  <programme start="20261129184500 -0500" stop="20261129191500 -0500" channel="eel-channel">
+    <title lang="en">Chappelle's Show</title>
+    <sub-title lang="en">Lost Episode 2</sub-title>
+    <desc lang="en">Dave hits the campaign trail as yell-happy presidential candidate Howard Dean and assumes the role of an antagonistic Gary Coleman. He also attempts to elude a crop of persistent racial stereotype pixies.</desc>
+    <episode-num system="onscreen">S03 E02</episode-num>
+    <episode-num system="xmltv_ns">2.1.</episode-num>
   </programme>
-  <programme start="20261126185500 -0500" stop="20261126192000 -0500" channel="fizz">
-    <title lang="en">Boy Meets World</title>
-    <sub-title lang="en">You Light Up My Union</sub-title>
-    <desc lang="en">Jack and Eric learn the art of dealing with each other when they take over as managers of the student union. Meanwhile, Rachel reads the guys the riot act after Cory and Shawn pry into her diary.</desc>
-    <episode-num system="onscreen">S07 E05</episode-num>
-    <episode-num system="xmltv_ns">6.4.</episode-num>
+  <programme start="20261129191500 -0500" stop="20261129201500 -0500" channel="eel-channel">
+    <title lang="en">Classic Wrestling</title>
+    <desc lang="en">Old-school grappling, larger-than-life legends and matches from wrestling's golden era when every week felt like a pay-per-view.</desc>
   </programme>
-  <programme start="20261126192000 -0500" stop="20261126194500 -0500" channel="fizz">
-    <title lang="en">Batman: The Animated Series</title>
-    <sub-title lang="en">Perchance to Dream</sub-title>
-    <desc lang="en">Bruce Wayne awakens to a seemingly perfect life with his parents alive and Selina Kyle as his fiancée, but his memories of being Batman lead him to question what is real.</desc>
-    <episode-num system="onscreen">S01 E30</episode-num>
-    <episode-num system="xmltv_ns">0.29.</episode-num>
+  <programme start="20261129201500 -0500" stop="20261129222000 -0500" channel="eel-channel">
+    <title lang="en">Mystery Men (1999)</title>
+    <desc lang="en">When Champion City's hero Captain Amazing is kidnapped by the recently paroled supervillain Casanova Frankenstein, a trio of average, everyday superheroes -- Mr. Furious, the Shoveler and the Blue Raja -- assemble a new super team to save him.</desc>
   </programme>
-  <programme start="20261126194500 -0500" stop="20261126201000 -0500" channel="fizz">
-    <title lang="en">Batman: The Animated Series</title>
-    <sub-title lang="en">The Cape and Cowl Conspiracy</sub-title>
-    <desc lang="en">While investigating stolen bearer bonds, Batman must outwit a master of deadly traps hired to steal his cape and cowl.</desc>
-    <episode-num system="onscreen">S01 E31</episode-num>
-    <episode-num system="xmltv_ns">0.30.</episode-num>
+  <programme start="20261129222000 -0500" stop="20261129224500 -0500" channel="eel-channel">
+    <title lang="en">It's Always Sunny in Philadelphia</title>
+    <sub-title lang="en">The Gang Group Dates</sub-title>
+    <desc lang="en">The gang gets into the online dating scene to expand their matchmaking potential.</desc>
+    <episode-num system="onscreen">S10 E02</episode-num>
+    <episode-num system="xmltv_ns">9.1.</episode-num>
   </programme>
-  <programme start="20261126201000 -0500" stop="20261126203500 -0500" channel="fizz">
-    <title lang="en">Goosebumps</title>
-    <sub-title lang="en">Piano Lessons Can Be Murder</sub-title>
-    <desc lang="en">When Jerry finds a dusty old piano in the attic of his new house, his parents offer to pay for lessons. At first, taking piano seems like a cool idea. But there's something creepy about Jerry's piano teacher, Dr. Shreek. Something really creepy. Something Jerry can't quite put his finger on. Then Jerry hears the stories. Terrifying stories. About the students at Dr. Shreek's music school. Students who went in for a lesson... and never came out.</desc>
-    <episode-num system="onscreen">S01 E08</episode-num>
-    <episode-num system="xmltv_ns">0.7.</episode-num>
-  </programme>
-  <programme start="20261126203500 -0500" stop="20261126210000 -0500" channel="fizz">
-    <title lang="en">SpongeBob SquarePants</title>
-    <sub-title lang="en">Squeaky Boots</sub-title>
-    <desc lang="en">Mr. Krabs gives SpongeBob a pair of "special" boots because he bought them for Pearl, but she didn't want them. SpongeBob loves them, but the squeaking drives Mr. Krabs crazy.</desc>
-    <episode-num system="onscreen">S01 E17</episode-num>
-    <episode-num system="xmltv_ns">0.16.</episode-num>
-  </programme>
-  <programme start="20261126210000 -0500" stop="20261126212500 -0500" channel="fizz">
-    <title lang="en">SpongeBob SquarePants</title>
-    <sub-title lang="en">Squid's Day Off</sub-title>
-    <desc lang="en">Squidward is put in charge of the Krusty Krab when Mr. Krabs goes to the hospital and decides to take the day off, but can't help thinking SpongeBob will do something wrong.</desc>
-    <episode-num system="onscreen">S02 E04</episode-num>
-    <episode-num system="xmltv_ns">1.3.</episode-num>
-  </programme>
-  <programme start="20261126212500 -0500" stop="20261126215000 -0500" channel="fizz">
-    <title lang="en">The Grim Adventures of Billy &amp; Mandy</title>
-    <sub-title lang="en">The Secret Decoder Ring</sub-title>
-    <desc lang="en">An acquaintance from Grim’s past attempts to entice Endsville’s children to free her from an ancient high school curse.</desc>
-    <episode-num system="onscreen">S04 E07</episode-num>
-    <episode-num system="xmltv_ns">3.6.</episode-num>
-  </programme>
-  <programme start="20261126215000 -0500" stop="20261126221500 -0500" channel="fizz">
-    <title lang="en">The Grim Adventures of Billy &amp; Mandy</title>
-    <sub-title lang="en">The Taking Tree</sub-title>
-    <desc lang="en">When Billy, Mandy and Grim notice things have been disappearing in the house, they set out to investigate using a supernatural detector. They find the culprit is a talking "taking tree" in Billy's yard, who has been stealing objects since Billy's dad was a child. To make the tree happy, Mandy and Grim set out to trade the stolen belongings for a highly-valued Mickey Munchle baseball card, which is worth eleventy million dollars. Mandy and Grim return from the baseball shop with the real Mickey Munchle. The tree returns all of the stolen things, but keeps the player.</desc>
-    <episode-num system="onscreen">S05 E05</episode-num>
-    <episode-num system="xmltv_ns">4.4.</episode-num>
-  </programme>
-  <programme start="20261126221500 -0500" stop="20261126224000 -0500" channel="fizz">
-    <title lang="en">Rocko's Modern Life</title>
-    <sub-title lang="en">Wimp on the Barby</sub-title>
-    <desc lang="en">Rocko prepares for a visit from grade-school bully, Dingo.</desc>
-    <episode-num system="onscreen">S04 E07</episode-num>
-    <episode-num system="xmltv_ns">3.6.</episode-num>
-  </programme>
-  <programme start="20261126224000 -0500" stop="20261126230500 -0500" channel="fizz">
-    <title lang="en">Ed, Edd n Eddy</title>
-    <sub-title lang="en">One of Those Eds</sub-title>
-    <desc lang="en">Everyone in the neighborhood competes to be the first to remove a quarter that's stuck to the sidewalk.</desc>
-    <episode-num system="onscreen">S04 E08</episode-num>
-    <episode-num system="xmltv_ns">3.7.</episode-num>
+  <programme start="20261129224500 -0500" stop="20261129231000 -0500" channel="eel-channel">
+    <title lang="en">It's Always Sunny in Philadelphia</title>
+    <sub-title lang="en">Psycho Pete Returns</sub-title>
+    <desc lang="en">When Psycho Pete, long lost member of the freight train, is released from the mental hospital, Dennis and Dee rush to get him recommitted while Charlie and Mac attempt to restore him to his former hard-partying form.</desc>
+    <episode-num system="onscreen">S10 E03</episode-num>
+    <episode-num system="xmltv_ns">9.2.</episode-num>
   </programme>
   <programme start="20261126230500 -0500" stop="20261126233500 -0500" channel="fizz">
     <title lang="en">Looney Tunes</title>
@@ -13199,62 +13099,74 @@ Bullies:  Loomer is looking for Ned and Cookie, they decide to make a stand.  Mo
     <episode-num system="onscreen">S01 E08</episode-num>
     <episode-num system="xmltv_ns">0.7.</episode-num>
   </programme>
-  <programme start="20261126183000 -0500" stop="20261126185500 -0500" channel="toon-diggity">
-    <title lang="en">Samurai Jack</title>
-    <sub-title lang="en">I</sub-title>
-    <desc lang="en">When Aku is reborn to set forth his reign of terror, the Emperor's son is sent off to learn the ways of the samurai. That boy becomes a man and attempts to slay Aku with a mighty sword, but Aku banishes him to the future.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+  <programme start="20261129180500 -0500" stop="20261129183000 -0500" channel="fizz">
+    <title lang="en">Ned's Declassified School Survival Guide</title>
+    <sub-title lang="en">Guide to: Emergency Drills &amp; Late Bus</sub-title>
+    <desc lang="en">Emergency Drills:Every time Ned wants to ask Suzie to Chandra Taylor's party an emergency drill distracts him. Eventually, Ned gets to ask Suzie and she accepts. The only problem is Ned can't go to the party because he, Cookie, and Moze are trapped in Gordy's extra supply locker.
+
+Late Bus: When bus number 9 breaks down, all the kids are stuck waiting for another bus. Loomer makes a deal with Ned that he won't bully him for an entire year if Ned helps him get Moze's attention. Meanwhile, Cookie is leading a "Cookie's Late Bus After School Tour" in which he shows kids what teachers do after hours. We see Coach Dirga crying over a soap opera, and the worst possible thing ever, a teacher rap group taught by Lil' Romeo. Also, Moze makes friends with another Jennifer, but finds out it's her last day. And what we have seen, this may lead to a friendship between Moze and Suzie Crabgrass.</desc>
+    <episode-num system="onscreen">S01 E13</episode-num>
+    <episode-num system="xmltv_ns">0.12.</episode-num>
   </programme>
-  <programme start="20261126185500 -0500" stop="20261126192000 -0500" channel="toon-diggity">
-    <title lang="en">Lupin the Third Part II</title>
-    <sub-title lang="en">Is Lupin Burning...?!</sub-title>
-    <desc lang="en">The Hida Speedway has been completed and Lupin is looking to take top prize at the first race. The race is actually a trap designed by the Scorpion Gang who are intent on killing Lupin and eliminating all criminal competition.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+  <programme start="20261129183000 -0500" stop="20261129185500 -0500" channel="fizz">
+    <title lang="en">Boy Meets World</title>
+    <sub-title lang="en">Pickett Fences</sub-title>
+    <desc lang="en">Cory and Topanga realize that a house is not for them after Shawn sells them on working together to fix up their apartment. Meanwhile, Angela and Rachel play the roommate shuffle once again; and Jack and Eric get a new boss at the student union.</desc>
+    <episode-num system="onscreen">S07 E10</episode-num>
+    <episode-num system="xmltv_ns">6.9.</episode-num>
   </programme>
-  <programme start="20261126192000 -0500" stop="20261126194500 -0500" channel="toon-diggity">
-    <title lang="en">Tenchi Universe - Earth Adventure</title>
-    <sub-title lang="en">No Need for Discussions!</sub-title>
-    <desc lang="en">Pursued by Galaxy Police Detective Mihoshi, Ryoko crash lands on Earth and interjects herself into the lives of the Masaki family, particularly the teenage son Tenchi.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+  <programme start="20261129185500 -0500" stop="20261129191500 -0500" channel="fizz">
+    <title lang="en">Boy Meets World</title>
+    <sub-title lang="en">What A Drag!</sub-title>
+    <desc lang="en">Jack and Eric find life a drag when they pose as women-ugly women-to escape the clutches of a campus goon. Meanwhile, Topanga can't paint over her horror when Cory redecorates the apartment.</desc>
+    <episode-num system="onscreen">S07 E11</episode-num>
+    <episode-num system="xmltv_ns">6.10.</episode-num>
   </programme>
-  <programme start="20261126194500 -0500" stop="20261126201000 -0500" channel="toon-diggity">
-    <title lang="en">Hajime no Ippo</title>
-    <sub-title lang="en">The Strongest Challenger</sub-title>
-    <desc lang="en">A flashback tells the story about Ippo's father and what happened to him. Ippo's next title defenses match begins, Ippo's opponent is Shimabukuro Iwao, someone with a similar record to him.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+  <programme start="20261129191500 -0500" stop="20261129194000 -0500" channel="fizz">
+    <title lang="en">Batman: The Animated Series</title>
+    <sub-title lang="en">Cat Scratch Fever</sub-title>
+    <desc lang="en">While searching for her missing cat, Selina Kyle uncovers a plot to spread a deadly disease through Gotham's stray animals, drawing Batman into a race to stop an epidemic.</desc>
+    <episode-num system="onscreen">S01 E36</episode-num>
+    <episode-num system="xmltv_ns">0.35.</episode-num>
   </programme>
-  <programme start="20261126201000 -0500" stop="20261126203500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Held Captive</sub-title>
-    <desc lang="en">Really, for Real? There Lies Namek, Planet of HopeBulma, Gohan, and Krillin are mistaken for friends of Frieza and taken prisoner by an angry army of children! To regain their freedom and continue on their mission, the gang must convince the kids of their innocence.</desc>
-    <episode-num system="onscreen">S01 E40</episode-num>
-    <episode-num system="xmltv_ns">0.39.</episode-num>
+  <programme start="20261129194000 -0500" stop="20261129200500 -0500" channel="fizz">
+    <title lang="en">Batman: The Animated Series</title>
+    <sub-title lang="en">The Strange Secret of Bruce Wayne</sub-title>
+    <desc lang="en">A blackmail investigation leads Bruce Wayne to a health resort, where Hugo Strange's mind-reading machine threatens to expose his secret identity as Batman.</desc>
+    <episode-num system="onscreen">S01 E37</episode-num>
+    <episode-num system="xmltv_ns">0.36.</episode-num>
   </programme>
-  <programme start="20261126203500 -0500" stop="20261126210000 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Look Out Below</sub-title>
-    <desc lang="en">Kind-hearted Aliens — There's the Five-Star Ball AlreadyA near-fatal crash landing turns out to have a silver lining when Bulma, Gohan, and Krillin are rescued by two friendly Namekians who agree to help them locate the seven Dragon Balls.</desc>
-    <episode-num system="onscreen">S01 E41</episode-num>
-    <episode-num system="xmltv_ns">0.40.</episode-num>
+  <programme start="20261129200500 -0500" stop="20261129203000 -0500" channel="fizz">
+    <title lang="en">Goosebumps</title>
+    <sub-title lang="en">My Hairiest Adventure</sub-title>
+    <desc lang="en">When Margaret's dad gets fired from his job as a botanist, he begins acting weird and spending all his time down in the basement. But no one seems to notice his odd behavior or hear the strange noises coming from below-except Margaret. She's really scared. Has her father turned into a mad scientist? Her brother, Casey, thinks she's nuts-that is until he finds out that dad has been eating plant food! What is going on? Together Margaret and Casey venture down into the dark, creepy basement to unearth their father's spooky secret...</desc>
+    <episode-num system="onscreen">S01 E11</episode-num>
+    <episode-num system="xmltv_ns">0.10.</episode-num>
   </programme>
-  <programme start="20261126210000 -0500" stop="20261126213000 -0500" channel="toon-diggity">
-    <title lang="en">A Charlie Brown Thanksgiving (1973)</title>
-    <desc lang="en">Peppermint Patty invites herself and her friends over to Charlie Brown's for Thanksgiving, and with Linus, Snoopy, and Woodstock, he attempts to throw together a Thanksgiving dinner.</desc>
+  <programme start="20261129203000 -0500" stop="20261129220500 -0500" channel="fizz">
+    <title lang="en">Shrek (2001)</title>
+    <desc lang="en">It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.</desc>
   </programme>
-  <programme start="20261126213000 -0500" stop="20261126224500 -0500" channel="toon-diggity">
-    <title lang="en">The Three Caballeros (1944)</title>
-    <desc lang="en">For Donald's birthday he receives a box with three gifts inside. The gifts, a movie projector, a pop-up book, and a pinata, each take Donald on wild adventures through Mexico and South America.</desc>
+  <programme start="20261129220500 -0500" stop="20261129223000 -0500" channel="fizz">
+    <title lang="en">Wander Over Yonder</title>
+    <sub-title lang="en">The Breakfast</sub-title>
+    <desc lang="en">Wander and Hater each struggle in their own way when making breakfast.</desc>
+    <episode-num system="onscreen">S02 E03</episode-num>
+    <episode-num system="xmltv_ns">1.2.</episode-num>
   </programme>
-  <programme start="20261126224500 -0500" stop="20261126231000 -0500" channel="toon-diggity">
-    <title lang="en">FLCL</title>
-    <sub-title lang="en">Fooly Cooly</sub-title>
-    <desc lang="en">Naota is a detached sixth-grader afflicted by the pangs of puberty. When a crazed girl on a motor scooter runs him over and brains him with a bass guitar his life gets weird - giant-fighting-robots-shooting-from-his-skull weird.</desc>
-    <episode-num system="onscreen">S01 E01</episode-num>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
+  <programme start="20261129223000 -0500" stop="20261129225500 -0500" channel="fizz">
+    <title lang="en">Wander Over Yonder</title>
+    <sub-title lang="en">The Fremergency Fronfract</sub-title>
+    <desc lang="en">Wander picks up a loopy Lord Hater from the dentist.</desc>
+    <episode-num system="onscreen">S02 E04</episode-num>
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+  </programme>
+  <programme start="20261129225500 -0500" stop="20261129232000 -0500" channel="fizz">
+    <title lang="en">Kick Buttowski Suburban Daredevil</title>
+    <sub-title lang="en">Kick the Habit</sub-title>
+    <desc lang="en">Facing the risk of being sent to military school, Kick sets out to prove to his concerned parents (and the neighborhood), that he can refrain from performing any stunts for an entire day, despite Brad and the neighbors wanting to ensure Kick will succumb to temptation.</desc>
+    <episode-num system="onscreen">S01 E06</episode-num>
+    <episode-num system="xmltv_ns">0.5.</episode-num>
   </programme>
   <programme start="20261126231000 -0500" stop="20261126233500 -0500" channel="toon-diggity">
     <title lang="en">The Head</title>
@@ -14277,5 +14189,65 @@ Mouse from Another House: Lonely orphan Scrappy listens as Pearl describes Might
     <desc lang="en">An after-school reel of theatrical shorts: Tom and Jerry, Looney Tunes, Tex Avery, Walter Lantz Cartunes and Fleischer classics, cut with international gems from NFB/ONF Canada and Zagreb Film.
 
 Homework can wait.</desc>
+  </programme>
+  <programme start="20261129182500 -0500" stop="20261129185000 -0500" channel="toon-diggity">
+    <title lang="en">Samurai Jack</title>
+    <sub-title lang="en">IV</sub-title>
+    <desc lang="en">Jack helps free the Woolies from the tyrannical Chritchellites.</desc>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20261129185000 -0500" stop="20261129191500 -0500" channel="toon-diggity">
+    <title lang="en">Lupin the Third Part II</title>
+    <sub-title lang="en">One Chance for a Prison Break</sub-title>
+    <desc lang="en">Lupin and Fujiko successfully pull off a heist; that is, until Zenigata manages to shoot Lupin with a tranquilizer dart. Zenigata hauls Lupin off to jail. Despite Fujiko's best efforts, she cannot break Lupin out of prison, and Jigen provides no help, claiming that Lupin can leave whenever he wants. One year passes, and Lupin's still in jail with his execution date getting closer. Fujiko and the others try to help Lupin get out of jail.</desc>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20261129191500 -0500" stop="20261129194000 -0500" channel="toon-diggity">
+    <title lang="en">Tenchi Universe - Earth Adventure</title>
+    <sub-title lang="en">No Need for Monsters!</sub-title>
+    <desc lang="en">During local festivities, Ryoko becomes fascinated with the legend about a monster entombed in a cave shrine. Conflicts with Ayeka ensue and the monster is revealed to be Washu, a mad scientist.</desc>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20261129194000 -0500" stop="20261129200500 -0500" channel="toon-diggity">
+    <title lang="en">Hajime no Ippo</title>
+    <sub-title lang="en">The Goddess of Victory</sub-title>
+    <desc lang="en">Aoki and Imae have their weigh-in. Imae refuses to shake Aoki's hand at the weigh-in. Itagaki has an opening match before Aoki but struggles because he ate something the day before the match. Aoki's title match starts.</desc>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20261129200500 -0500" stop="20261129203000 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball Z</title>
+    <sub-title lang="en">Defying Orders</sub-title>
+    <desc lang="en">Goku's Power at Full-Force!! Six Days to the End of the GalaxyWith the odds rapidly mounting against them, Krillin and Gohan will need some serious help if they hope to recover the Dragon Balls from Frieza and his henchmen.</desc>
+    <episode-num system="onscreen">S01 E46</episode-num>
+    <episode-num system="xmltv_ns">0.45.</episode-num>
+  </programme>
+  <programme start="20261129203000 -0500" stop="20261129205500 -0500" channel="toon-diggity">
+    <title lang="en">Dragon Ball Z</title>
+    <sub-title lang="en">Namek's Defense</sub-title>
+    <desc lang="en">Surprise Attack!! The Elder's Target was the ScouterKrillin and Gohan get their first glimpse of Frieza's cruelty as the villain unleashes his henchmen upon an unsuspecting Namek village. Frieza wants the fifth Dragon Ball, and he is prepared to learn its location by any means necessary!</desc>
+    <episode-num system="onscreen">S01 E47</episode-num>
+    <episode-num system="xmltv_ns">0.46.</episode-num>
+  </programme>
+  <programme start="20261129205500 -0500" stop="20261129221000 -0500" channel="toon-diggity">
+    <title lang="en">Everybody Rides The Carousel (1976)</title>
+    <desc lang="en">"Everybody Rides the Carousel" invites the viewer along on eight "rides" through the different stages of life.  Based on the work by Erik Erikson, one of the most influential psychoanalytic theorists of this century, the film explores the inner feelings and conflicted emotions experienced during each stage of personality development.  With distinctive and poetic animation, John and Faith Hubley visualize the conflicts, joys, problems and delights we all experience on the carousel of life.</desc>
+  </programme>
+  <programme start="20261129221000 -0500" stop="20261129223500 -0500" channel="toon-diggity">
+    <title lang="en">The Oblongs</title>
+    <sub-title lang="en">Misfit Love</sub-title>
+    <desc lang="en">After learning that one more expense and the family will lose their medical coverage, Bob futilely urges the family to be extra careful. Milo finally manages to get himself enrolled in public school, where he meets and falls in love with a very unique student.</desc>
+    <episode-num system="onscreen">S01 E01</episode-num>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme start="20261129223500 -0500" stop="20261129230500 -0500" channel="toon-diggity">
+    <title lang="en">Golden Boy</title>
+    <sub-title lang="en">Computer Studies</sub-title>
+    <desc lang="en">Kintaro obtains a janitorial job at an all-woman software firm led by the Ferrari-driving, skimpily-clad Madame President. An electrical accident jeopardizes the firm's future, allowing Kintaro to put his newly acquired programming skills to the test.</desc>
+    <episode-num system="onscreen">S01 E01</episode-num>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
 </tv>
