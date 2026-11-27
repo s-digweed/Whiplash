@@ -11110,13 +11110,14 @@ Don't adjust your set; that hum is on purpose.</desc>
   <programme start="20261127060000 -0500" stop="20261127062500 -0500" channel="eel-channel">
     <title lang="en">1000 Ways to Die</title>
     <sub-title lang="en">Sudden Death</sub-title>
-    <desc lang="en">A geek has his revenge against a jock, the deadly results from a corset and a British torturer comes up with an idea for a man that's too tall for the rack.</desc>
+    <desc lang="en">A Japanese rocker dies onstage; prison escape blows up; a scorned roommate gets revenge; a vain dancer bites the dust; clueless terrorists melt down; a foolish hard hat falls; and a tall man squeezed out in Medieval England.</desc>
     <episode-num system="onscreen">S03 E12</episode-num>
     <episode-num system="xmltv_ns">2.11.</episode-num>
   </programme>
   <programme start="20261127062500 -0500" stop="20261127065000 -0500" channel="eel-channel">
-    <title lang="en">1000 Ways To Die</title>
-    <sub-title lang="en">Star Death - The Last Generation</sub-title>
+    <title lang="en">1000 Ways to Die</title>
+    <sub-title lang="en">Star Death: The Last Generation</sub-title>
+    <desc lang="en">A cat lady's love goes too fur; a burglar falls for his victim; a mob boss gets the finger; a nasty supermodel meets a dead eye; a customer is left breathless by great savings; a perfectionist overhydrates; and a man rolls over the point.</desc>
     <episode-num system="onscreen">S05 E09</episode-num>
     <episode-num system="xmltv_ns">4.8.</episode-num>
   </programme>
@@ -11177,15 +11178,11 @@ Sketches:
   </programme>
   <programme start="20261127095000 -0500" stop="20261127101500 -0500" channel="eel-channel">
     <title lang="en">Starcade</title>
-    <sub-title lang="en">Rb5X Robot 12</sub-title>
-    <episode-num system="onscreen">S01 E99</episode-num>
-    <episode-num system="xmltv_ns">0.98.</episode-num>
+    <desc lang="en">Contestants answer questions about video games and then play featured arcade games in order to earn enough points to beat the opponents.</desc>
   </programme>
   <programme start="20261127101500 -0500" stop="20261127104000 -0500" channel="eel-channel">
     <title lang="en">Starcade</title>
-    <sub-title lang="en">Qbert 2</sub-title>
-    <episode-num system="onscreen">S01 E51</episode-num>
-    <episode-num system="xmltv_ns">0.50.</episode-num>
+    <desc lang="en">Contestants answer questions about video games and then play featured arcade games in order to earn enough points to beat the opponents.</desc>
   </programme>
   <programme start="20261127104000 -0500" stop="20261127110500 -0500" channel="eel-channel">
     <title lang="en">In Living Color</title>
@@ -11382,16 +11379,16 @@ Classroom</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
   <programme start="20261127232000 -0500" stop="20261127234500 -0500" channel="eel-channel">
-    <title lang="en">The State (1994) (1994)</title>
-    <sub-title lang="en">A Meeting of Two Worlds</sub-title>
-    <desc lang="en">An introduction to the themes of increasing American power, indigenous political aspirations, conflicting interests and goals, and growing mutual antagonism sets the stage for World War I.</desc>
+    <title lang="en">The State (1994)</title>
+    <sub-title lang="en">#1.1</sub-title>
+    <desc lang="en">Features the sketches: "Boogeyman", "The Lenny Lipton Show", "Hormones", "Hops Plus", "Free Your Mind (Clown/Pirate)", "Chip's Party", "Hypothetical Question", "On-air Personality", "Mudwrestler", "Eating and Swimming", and "Forever".</desc>
     <episode-num system="onscreen">S01 E01</episode-num>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
   <programme start="20261127234500 -0500" stop="20261128000500 -0500" channel="eel-channel">
-    <title lang="en">The State (1994) (1994)</title>
-    <sub-title lang="en">Wilson &amp; the Breakup of the Ottoman Empire</sub-title>
-    <desc lang="en">An examination of wartime and postwar American policy shows how Wilson's commitment to an ethnocentrically defined view of national self-determination drove his efforts to shape the postwar settlement in the Middle East.</desc>
+    <title lang="en">The State (1994)</title>
+    <sub-title lang="en">#1.2</sub-title>
+    <desc lang="en">Features the sketches: "Cuddly Soft", "Gang Fight", "$7,000 Pyramid", "Old Fashioned Guy", "Cerialist Commercial", "Mouse Problem", "Doug &amp; Dad", "Captain Monterey Jack (lights)", "Old Fashioned Guy", "Bigfoot in Office", and "Louie".</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
@@ -11495,15 +11492,16 @@ Insomniac cartoons, vintage grapplers, music videos warped off a third-gen tape,
 Don't adjust your set; that hum is on purpose.</desc>
   </programme>
   <programme start="20261128060000 -0500" stop="20261128062500 -0500" channel="eel-channel">
-    <title lang="en">1000 Ways To Die</title>
-    <sub-title lang="en">Today’s Special - Death</sub-title>
+    <title lang="en">1000 Ways to Die</title>
+    <sub-title lang="en">Today's Special: Death</sub-title>
+    <desc lang="en">A hot welder goes down on the job; an unfaithful wife can't cheat death; a '20s gangster gets steamed; and a mother-in-law from hell goes back.</desc>
     <episode-num system="onscreen">S04 E12</episode-num>
     <episode-num system="xmltv_ns">3.11.</episode-num>
   </programme>
   <programme start="20261128062500 -0500" stop="20261128065000 -0500" channel="eel-channel">
     <title lang="en">1000 Ways to Die</title>
     <sub-title lang="en">Waking Up Dead</sub-title>
-    <desc lang="en">A clumsy salesman burns out, a phony priest sees the gets sent to Kingdom Come and a when man does his own version of "Man vs. Wild", wild wins.</desc>
+    <desc lang="en">An acupuncture patient misses the point; a construction worker takes a deadly bathroom break; a stowaway gets his ass-sets frozen; a nagging housewife blows her own fuse; and a cheating gambler gets squeezed.</desc>
     <episode-num system="onscreen">S02 E09</episode-num>
     <episode-num system="xmltv_ns">1.8.</episode-num>
   </programme>
@@ -11558,15 +11556,11 @@ Don't adjust your set; that hum is on purpose.</desc>
   </programme>
   <programme start="20261128094500 -0500" stop="20261128101000 -0500" channel="eel-channel">
     <title lang="en">Starcade</title>
-    <sub-title lang="en">Munch Mobile 4</sub-title>
-    <episode-num system="onscreen">S01 E90</episode-num>
-    <episode-num system="xmltv_ns">0.89.</episode-num>
+    <desc lang="en">Contestants answer questions about video games and then play featured arcade games in order to earn enough points to beat the opponents.</desc>
   </programme>
   <programme start="20261128101000 -0500" stop="20261128103500 -0500" channel="eel-channel">
     <title lang="en">Starcade</title>
-    <sub-title lang="en">Wacko 3</sub-title>
-    <episode-num system="onscreen">S01 E79</episode-num>
-    <episode-num system="xmltv_ns">0.78.</episode-num>
+    <desc lang="en">Contestants answer questions about video games and then play featured arcade games in order to earn enough points to beat the opponents.</desc>
   </programme>
   <programme start="20261128103500 -0500" stop="20261128110000 -0500" channel="eel-channel">
     <title lang="en">In Living Color</title>
@@ -11818,15 +11812,16 @@ Insomniac cartoons, vintage grapplers, music videos warped off a third-gen tape,
 Don't adjust your set; that hum is on purpose.</desc>
   </programme>
   <programme start="20261129060000 -0500" stop="20261129062500 -0500" channel="eel-channel">
-    <title lang="en">1000 Ways To Die</title>
-    <sub-title lang="en">Tweets From The Dead</sub-title>
+    <title lang="en">1000 Ways to Die</title>
+    <sub-title lang="en">Tweets From the Dead</sub-title>
+    <desc lang="en">An exterminator gets exterminated; a stockbroker turns magnetic in the stomach; a wedding crasher crashes through the glass; a thief meets a meathook; a black marketeer gets blown up; a hijacker is exploded by a semi; and a ghost buster gets busted.</desc>
     <episode-num system="onscreen">S06 E03</episode-num>
     <episode-num system="xmltv_ns">5.2.</episode-num>
   </programme>
   <programme start="20261129062500 -0500" stop="20261129065000 -0500" channel="eel-channel">
-    <title lang="en">1000 Ways To Die</title>
-    <sub-title lang="en">Ready Or Not, Here Comes Death</sub-title>
-    <desc lang="en">A bug hater bugs out; a wedding crasher cuts loose; a street vendor lights up; a hijacker fights inflation; a thief gets a meat beat down; a ghost hunter gets spooked.</desc>
+    <title lang="en">1000 Ways to Die</title>
+    <sub-title lang="en">Ready or Not, Here Comes Death</sub-title>
+    <desc lang="en">A Japanese game show contestant gets deep-sixed; a free runner runs out of time; a mean caretaker gets pickled; a stripper with big boobies meets her end; a softballer busts a gut; a murderer busts out of the nut house; and two hunters get dogged.</desc>
     <episode-num system="onscreen">S04 E03</episode-num>
     <episode-num system="xmltv_ns">3.2.</episode-num>
   </programme>
@@ -11887,18 +11882,11 @@ Sketches:
   </programme>
   <programme start="20261129094500 -0500" stop="20261129101000 -0500" channel="eel-channel">
     <title lang="en">Starcade</title>
-    <sub-title lang="en">Pooyan</sub-title>
-    <episode-num system="onscreen">S01 E78</episode-num>
-    <episode-num system="xmltv_ns">0.77.</episode-num>
+    <desc lang="en">Contestants answer questions about video games and then play featured arcade games in order to earn enough points to beat the opponents.</desc>
   </programme>
   <programme start="20261129101000 -0500" stop="20261129103500 -0500" channel="eel-channel">
     <title lang="en">Starcade</title>
-    <sub-title lang="en">Elie vs Zabor</sub-title>
-    <desc lang="en">Lisa Elie vs Sam Zabor
-
-Games: Lost Tomb, Donkey Kong Jr, Ms Pac Man, Lock &amp; Chase and Pac Man. Grand Prize: Q*Bert.</desc>
-    <episode-num system="onscreen">S01 E16</episode-num>
-    <episode-num system="xmltv_ns">0.15.</episode-num>
+    <desc lang="en">Contestants answer questions about video games and then play featured arcade games in order to earn enough points to beat the opponents.</desc>
   </programme>
   <programme start="20261129103500 -0500" stop="20261129110000 -0500" channel="eel-channel">
     <title lang="en">In Living Color</title>
@@ -12040,9 +12028,15 @@ Games include: Spare Me; Sinkers and Floaters; Chum in the Mouth; Boulder Dash</
   </programme>
   <programme start="20261126230500 -0500" stop="20261126233500 -0500" channel="fizz">
     <title lang="en">Looney Tunes</title>
+    <desc lang="en">A fizzy nightcap from the Warner Bros. cellar.
+
+Starring Bugs Bunny, Daffy Duck, Porky Pig, Elmer Fudd, Yosemite Sam, Sylvester and Tweety, Foghorn Leghorn, Wile E. Coyote and the Road Runner in full Technicolor chaos.
+
+Stay up, it's worth it.</desc>
   </programme>
   <programme start="20261126233500 -0500" stop="20261127000500 -0500" channel="fizz">
-    <title lang="en">D'Isigny Cartoons</title>
+    <title lang="en">Disney Cartoons</title>
+    <desc lang="en">Timeless theatrical animated shorts from Disney's golden age.</desc>
   </programme>
   <programme start="20261127000500 -0500" stop="20261127003000 -0500" channel="fizz">
     <title lang="en">Gargoyles</title>
@@ -12082,8 +12076,9 @@ Games include: Spare Me; Sinkers and Floaters; Chum in the Mouth; Boulder Dash</
   <programme start="20261127021000 -0500" stop="20261127023500 -0500" channel="fizz">
     <title lang="en">Storm Hawks</title>
     <sub-title lang="en">The Ultra Dudes</sub-title>
-    <episode-num system="onscreen">S01 E47</episode-num>
-    <episode-num system="xmltv_ns">0.46.</episode-num>
+    <desc lang="en">While on a Western-style terra, Finn scares away a bandit and becomes the new hero of the town. He even creates his own squad known as the Ultra Dudes, which might come in handy when the bandit returns with his own squad, the Murk Raiders. Meanwhile, the other Storm Hawks learn more about the gate that Master Cyclonis is looking for.</desc>
+    <episode-num system="onscreen">S02 E21</episode-num>
+    <episode-num system="xmltv_ns">1.20.</episode-num>
   </programme>
   <programme start="20261127023500 -0500" stop="20261127030000 -0500" channel="fizz">
     <title lang="en">Darkwing Duck</title>
@@ -12104,22 +12099,22 @@ Games include: Spare Me; Sinkers and Floaters; Chum in the Mouth; Boulder Dash</
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
   <programme start="20261127042500 -0500" stop="20261127045000 -0500" channel="fizz">
-    <title lang="en">DuckTales (1987) (1987)</title>
-    <sub-title lang="en">Sphinx for the Memories</sub-title>
-    <desc lang="en">An ancient Egyptian civilization abducts Donald so that he can host a spirit of a Pharaoh.</desc>
+    <title lang="en">DuckTales (1987)</title>
+    <sub-title lang="en">Luck o' the Ducks</sub-title>
+    <desc lang="en">Webigail befriends a leprechaun cast out by his people. Scrooge inadvertently saves the little man's life, and, knowing that his people have to grant him a wish, demands that he be given their legendary "Golden Caverns" in return. When the little people scheme to punish Scrooge for his greed, Webigail and her friend must save him.</desc>
     <episode-num system="onscreen">S01 E07</episode-num>
     <episode-num system="xmltv_ns">0.6.</episode-num>
   </programme>
   <programme start="20261127045000 -0500" stop="20261127051500 -0500" channel="fizz">
-    <title lang="en">DuckTales (1987) (1987)</title>
+    <title lang="en">DuckTales (1987)</title>
     <sub-title lang="en">Where No Duck Has Gone Before</sub-title>
-    <desc lang="en">Gyro's props for a science fiction television show accidentally launch the cast into space, and Launchpad becomes the hero when it is realized that he is the only real pilot on board.</desc>
+    <desc lang="en">Uncle Scrooge forecloses on a loan for a movie studio. To improve it, he instructs Gyro to make the set for a space show, as real as possible. When he does, Huey, Dewey, and Louie go to space with their hero 'Major Courage,' where they are captured by aliens. How will they defeat the aliens and return home? Does 'Major Courage' have 'what it takes' when it is not an act?</desc>
     <episode-num system="onscreen">S01 E08</episode-num>
     <episode-num system="xmltv_ns">0.7.</episode-num>
   </programme>
   <programme start="20261127051500 -0500" stop="20261127060000 -0500" channel="fizz">
     <title lang="en">Late Night Mix</title>
-    <desc lang="en">Your hand-picked midnight refill of Looney Tunes, Tom and Jerry, Woody Woodpecker, Droopy, and animated shorts from Hubley Studio, NFB Canada and Zagreb Film, with pop and rock music videos fizzing away while the rest of the world sleeps.</desc>
+    <desc lang="en">Your hand-picked midnight refill of Walt Disney Cartoon Classics, Looney Tunes, Tom and Jerry, Woody Woodpecker, Droopy, and animated shorts from Hubley Studio, NFB Canada and Zagreb Film, with pop and rock music videos fizzing away while the rest of the world sleeps.</desc>
   </programme>
   <programme start="20261127060000 -0500" stop="20261127062500 -0500" channel="fizz">
     <title lang="en">Pee-Wee's Playhouse</title>
@@ -12193,15 +12188,15 @@ Games include: Spare Me; Sinkers and Floaters; Chum in the Mouth; Boulder Dash</
   </programme>
   <programme start="20261127092500 -0500" stop="20261127095000 -0500" channel="fizz">
     <title lang="en">Beyblade</title>
-    <sub-title lang="en">The Nana-iro Showdown</sub-title>
-    <desc lang="en">Multi goes up against Sigrid Nana-iro in the first battle of the title match.</desc>
+    <sub-title lang="en">Victory in Defeat</sub-title>
+    <desc lang="en">Kai is given a tempting offer from his grandfather Voltaire, use dark Dranzer, or risk losing Dranzer forever. Will he give in?</desc>
     <episode-num system="onscreen">S01 E48</episode-num>
     <episode-num system="xmltv_ns">0.47.</episode-num>
   </programme>
   <programme start="20261127095000 -0500" stop="20261127101500 -0500" channel="fizz">
     <title lang="en">Beyblade</title>
-    <sub-title lang="en">Something Xtraordinary</sub-title>
-    <desc lang="en">Pendragon’s second Blader is Khrome Ryugu; it's Blader X's turn to take the stage.</desc>
+    <sub-title lang="en">A Wicked Wind Blows</sub-title>
+    <desc lang="en">With Kai losing in the first round, Ray must find some way to even up the score. Can he find the strength to do so, and if he does, will he risk losing Drigger forever?</desc>
     <episode-num system="onscreen">S01 E49</episode-num>
     <episode-num system="xmltv_ns">0.48.</episode-num>
   </programme>
@@ -12425,9 +12420,15 @@ Gym:  Moze and Ned spar in martial arts and Ned gets thrown for a loop. So now N
   </programme>
   <programme start="20261127230500 -0500" stop="20261127233500 -0500" channel="fizz">
     <title lang="en">Looney Tunes</title>
+    <desc lang="en">A fizzy nightcap from the Warner Bros. cellar.
+
+Starring Bugs Bunny, Daffy Duck, Porky Pig, Elmer Fudd, Yosemite Sam, Sylvester and Tweety, Foghorn Leghorn, Wile E. Coyote and the Road Runner in full Technicolor chaos.
+
+Stay up, it's worth it.</desc>
   </programme>
   <programme start="20261127233500 -0500" stop="20261128000500 -0500" channel="fizz">
-    <title lang="en">D'Isigny Cartoons</title>
+    <title lang="en">Disney Cartoons</title>
+    <desc lang="en">Timeless theatrical animated shorts from Disney's golden age.</desc>
   </programme>
   <programme start="20261128000500 -0500" stop="20261128003000 -0500" channel="fizz">
     <title lang="en">Gargoyles</title>
@@ -12466,9 +12467,10 @@ Gym:  Moze and Ned spar in martial arts and Ned gets thrown for a loop. So now N
   </programme>
   <programme start="20261128021000 -0500" stop="20261128023500 -0500" channel="fizz">
     <title lang="en">Storm Hawks</title>
-    <sub-title lang="en">A Wallop For All Season</sub-title>
-    <episode-num system="onscreen">S01 E48</episode-num>
-    <episode-num system="xmltv_ns">0.47.</episode-num>
+    <sub-title lang="en">A Wallop for All Season</sub-title>
+    <desc lang="en">Junko goes back to his home terra to find out that the chief has decided to sign a treaty with the Cyclonians. When he can't convince the chief that the Cyclonians are evil, Junko challenges the chief to a battle to try and reason with him.</desc>
+    <episode-num system="onscreen">S02 E22</episode-num>
+    <episode-num system="xmltv_ns">1.21.</episode-num>
   </programme>
   <programme start="20261128023500 -0500" stop="20261128030000 -0500" channel="fizz">
     <title lang="en">Darkwing Duck</title>
@@ -12489,22 +12491,22 @@ Gym:  Moze and Ned spar in martial arts and Ned gets thrown for a loop. So now N
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
   <programme start="20261128042500 -0500" stop="20261128045000 -0500" channel="fizz">
-    <title lang="en">DuckTales (1987) (1987)</title>
-    <sub-title lang="en">Armstrong</sub-title>
-    <desc lang="en">Gyro presents the McDuck household with a robot named Armstrong to do their work for them. However, the robot decides it would rather work for itself.</desc>
+    <title lang="en">DuckTales (1987)</title>
+    <sub-title lang="en">Nothing to Fear</sub-title>
+    <desc lang="en">On a day when the McDuck family is trapped indoors by a thunderstorm, Magica DeSpell causes each of them to see living versions of their worst fears.</desc>
     <episode-num system="onscreen">S01 E09</episode-num>
     <episode-num system="xmltv_ns">0.8.</episode-num>
   </programme>
   <programme start="20261128045000 -0500" stop="20261128051500 -0500" channel="fizz">
-    <title lang="en">DuckTales (1987) (1987)</title>
-    <sub-title lang="en">Robot Robbers</sub-title>
-    <desc lang="en">After the incident with Armstrong, Gyro builds giant human-operated robots for Glomgold, only to have them be stolen and operated by Ma Beagle and the Beagle Boys.</desc>
+    <title lang="en">DuckTales (1987)</title>
+    <sub-title lang="en">Duck in the Iron Mask</sub-title>
+    <desc lang="en">Scrooge visits his old friend, Count Roy, of the mountain kingdom of Montedumas, only to find that his evil twin brother Ray has usurped the throne, and thrown Roy in jail wearing an iron mask.</desc>
     <episode-num system="onscreen">S01 E10</episode-num>
     <episode-num system="xmltv_ns">0.9.</episode-num>
   </programme>
   <programme start="20261128051500 -0500" stop="20261128060000 -0500" channel="fizz">
     <title lang="en">Late Night Mix</title>
-    <desc lang="en">Your hand-picked midnight refill of Looney Tunes, Tom and Jerry, Woody Woodpecker, Droopy, and animated shorts from Hubley Studio, NFB Canada and Zagreb Film, with pop and rock music videos fizzing away while the rest of the world sleeps.</desc>
+    <desc lang="en">Your hand-picked midnight refill of Walt Disney Cartoon Classics, Looney Tunes, Tom and Jerry, Woody Woodpecker, Droopy, and animated shorts from Hubley Studio, NFB Canada and Zagreb Film, with pop and rock music videos fizzing away while the rest of the world sleeps.</desc>
   </programme>
   <programme start="20261128060000 -0500" stop="20261128062500 -0500" channel="fizz">
     <title lang="en">Pee-Wee's Playhouse</title>
@@ -12578,15 +12580,15 @@ Gym:  Moze and Ned spar in martial arts and Ned gets thrown for a loop. So now N
   </programme>
   <programme start="20261128092500 -0500" stop="20261128095000 -0500" channel="fizz">
     <title lang="en">Beyblade</title>
-    <sub-title lang="en">The Two Xs</sub-title>
-    <desc lang="en">After a head-on collision cracks Buster Dran, Khrome reflects on his time with Jaxon.</desc>
+    <sub-title lang="en">New and Cyber-Improved...</sub-title>
+    <desc lang="en">When Tala gets cyber implants and Tyson gets new blading equipment, you know their match strategy's are bound to change, but just how will the changes affect the championship?</desc>
     <episode-num system="onscreen">S01 E50</episode-num>
     <episode-num system="xmltv_ns">0.49.</episode-num>
   </programme>
   <programme start="20261128095000 -0500" stop="20261128101500 -0500" channel="fizz">
     <title lang="en">Beyblade</title>
-    <sub-title lang="en">The Most Fun Ever</sub-title>
-    <desc lang="en">In the final battle, Blader Z seeks revenge while Robin is cheered on by his teammates.</desc>
+    <sub-title lang="en">Final Showdown</sub-title>
+    <desc lang="en">A grave meeting is held between the Majestics, Kevin of the White Tigers, and the Dark Bladers in case Tyson should lose the match. Can Tyson survive in this other dimension, or will the Demolition Boys become World Champions and rulers?</desc>
     <episode-num system="onscreen">S01 E51</episode-num>
     <episode-num system="xmltv_ns">0.50.</episode-num>
   </programme>
@@ -12844,8 +12846,9 @@ Bullies:  Loomer is looking for Ned and Cookie, they decide to make a stand.  Mo
   <programme start="20261129021500 -0500" stop="20261129024000 -0500" channel="fizz">
     <title lang="en">Storm Hawks</title>
     <sub-title lang="en">Payback</sub-title>
-    <episode-num system="onscreen">S01 E49</episode-num>
-    <episode-num system="xmltv_ns">0.48.</episode-num>
+    <desc lang="en">The Storm Hawks are scattered all around Atmos after Repton destroys the Condor. Aerrow meets up with Arygyn and the three guardians; Finn lands on a garbage truck owned by the Blizzarians; Piper ends up on Gundstaff's terra, who helps her get back to her friends; and Junko meets a group of wrestlers who help him fight a bunch of Cyclonians. Finally, Stork goes after Repton to make him pay for destroying the Condor.</desc>
+    <episode-num system="onscreen">S02 E23</episode-num>
+    <episode-num system="xmltv_ns">1.22.</episode-num>
   </programme>
   <programme start="20261129024000 -0500" stop="20261129030500 -0500" channel="fizz">
     <title lang="en">Darkwing Duck</title>
@@ -12866,22 +12869,22 @@ Bullies:  Loomer is looking for Ned and Cookie, they decide to make a stand.  Mo
     <episode-num system="xmltv_ns">0.5.</episode-num>
   </programme>
   <programme start="20261129042500 -0500" stop="20261129045000 -0500" channel="fizz">
-    <title lang="en">DuckTales (1987) (1987)</title>
-    <sub-title lang="en">Magica's Shadow War</sub-title>
-    <desc lang="en">Magica's plot to steal the Number One Dime using her own shadow goes awry when her shadow develops a mind of its own.</desc>
+    <title lang="en">DuckTales (1987)</title>
+    <sub-title lang="en">Much Ado About Scrooge</sub-title>
+    <desc lang="en">Scrooge and his nephews follow a trail to a remote island to find a lost play written by legendary playwright Drakespeare, followed by super-salesman Filler Brushbill.</desc>
     <episode-num system="onscreen">S01 E11</episode-num>
     <episode-num system="xmltv_ns">0.10.</episode-num>
   </programme>
   <programme start="20261129045000 -0500" stop="20261129051500 -0500" channel="fizz">
-    <title lang="en">DuckTales (1987) (1987)</title>
-    <sub-title lang="en">Master of the Djinni</sub-title>
-    <desc lang="en">Scrooge and Glomgold race for mastership of Aladdin's genie.</desc>
+    <title lang="en">DuckTales (1987)</title>
+    <sub-title lang="en">Spies in Their Eyes</sub-title>
+    <desc lang="en">Donald is hypnotized into stealing the control module for a prototype attack submarine Scrooge has developed for the Navy.</desc>
     <episode-num system="onscreen">S01 E12</episode-num>
     <episode-num system="xmltv_ns">0.11.</episode-num>
   </programme>
   <programme start="20261129051500 -0500" stop="20261129060000 -0500" channel="fizz">
     <title lang="en">Late Night Mix</title>
-    <desc lang="en">Your hand-picked midnight refill of Looney Tunes, Tom and Jerry, Woody Woodpecker, Droopy, and animated shorts from Hubley Studio, NFB Canada and Zagreb Film, with pop and rock music videos fizzing away while the rest of the world sleeps.</desc>
+    <desc lang="en">Your hand-picked midnight refill of Walt Disney Cartoon Classics, Looney Tunes, Tom and Jerry, Woody Woodpecker, Droopy, and animated shorts from Hubley Studio, NFB Canada and Zagreb Film, with pop and rock music videos fizzing away while the rest of the world sleeps.</desc>
   </programme>
   <programme start="20261129060000 -0500" stop="20261129062500 -0500" channel="fizz">
     <title lang="en">Pee-Wee's Playhouse</title>
@@ -12956,13 +12959,14 @@ Bullies:  Loomer is looking for Ned and Cookie, they decide to make a stand.  Mo
   <programme start="20261129092500 -0500" stop="20261129095000 -0500" channel="fizz">
     <title lang="en">Beyblade</title>
     <sub-title lang="en">Shot Down in Flames!</sub-title>
-    <desc lang="en">Tyson is back home from just winning the World Beyblade Championships and he thinks he's one hot dude!! But after disrupting his homeroom at school, he's punished with a detention which makes him late for a local tournament. When ...</desc>
+    <desc lang="en">Tyson starts the new season arrogant as always. There is a new blader in town called Mr. X. Can Tyson defeat him?</desc>
     <episode-num system="onscreen">S02 E01</episode-num>
     <episode-num system="xmltv_ns">1.0.</episode-num>
   </programme>
   <programme start="20261129095000 -0500" stop="20261129101500 -0500" channel="fizz">
     <title lang="en">Beyblade</title>
     <sub-title lang="en">The Search for Mr. X</sub-title>
+    <desc lang="en">Tyson is more determined than ever to face Mr. X again. Meanwhile Ray and Max are defeated by mysterious bladers as well. Is Chief to late to stop Tyson from battling Mr. X again?</desc>
     <episode-num system="onscreen">S02 E02</episode-num>
     <episode-num system="xmltv_ns">1.1.</episode-num>
   </programme>
@@ -13190,16 +13194,16 @@ Late Bus: When bus number 9 breaks down, all the kids are stuck waiting for anot
     <episode-num system="xmltv_ns">1.10.</episode-num>
   </programme>
   <programme start="20261127002500 -0500" stop="20261127005000 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">Unlikely Alliance</sub-title>
-    <desc lang="en">Raditz has kidnapped Gohan, and unless Goku agrees to join the sinister Saiyan, he may never see his son again! All hope is not lost, however, as a second visitor arrives, and Goku forges an unlikely alliance!</desc>
+    <title lang="en">Dragon Ball (1986) - Emperor Pilaf Saga</title>
+    <sub-title lang="en">The Nimbus Cloud of Roshi</sub-title>
+    <desc lang="en">Goku and Bulma help a lost sea turtle return home. As a reward, its master, the Turtle Hermit, offers Goku a magical flying cloud, but only if he can prove he's pure of heart.</desc>
     <episode-num system="onscreen">S01 E03</episode-num>
     <episode-num system="xmltv_ns">0.2.</episode-num>
   </programme>
   <programme start="20261127005000 -0500" stop="20261127011500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">Piccolo's Plan</sub-title>
-    <desc lang="en">Piccolo may have a way to stop Raditz - the Makankosappo! There’s only one problem. He needs time to gather energy for the blast, which means Goku must fight Raditz alone!</desc>
+    <title lang="en">Dragon Ball (1986) - Emperor Pilaf Saga</title>
+    <sub-title lang="en">Oolong the Terrible</sub-title>
+    <desc lang="en">Goku and Bulma arrive at a village terrorized by the shape-shifting Oolong, who has been kidnapping young women. To stop him and retrieve a Dragon Ball, Goku disguises himself as a girl to confront the mischievous pig.</desc>
     <episode-num system="onscreen">S01 E04</episode-num>
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
@@ -13323,7 +13327,7 @@ Come hungry, leave laughing.</desc>
     <title lang="en">Breakfast Shorts</title>
     <desc lang="en">Pour the cereal, the projector's already running.
 
-Disney Cartoons, Tom and Jerry, MGM and UPA shorts, with Terrytoons, George Pal's Puppetoons and Zagreb Film rolling out of the vault.
+Disney Cartoons, Tom and Jerry, Bugs Bunny and the Looney Tunes gang, MGM and UPA shorts, with Terrytoons, George Pal's Puppetoons and Zagreb Film rolling out of the vault.
 
 Spoon in one hand, remote in the other.</desc>
   </programme>
@@ -13466,18 +13470,18 @@ Homework can wait.</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
   <programme start="20261127201000 -0500" stop="20261127203500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">The Search Continues</sub-title>
-    <desc lang="en">Planet Freeza No. 79 — Vegeta Recovers!!Gohan, Krillin, and Bulma continue their search for the Dragon Balls with the help of their new friend Zarkro. Back on Earth, Goku has escaped from the hospital to begin training for his upcoming re-match with Vegeta.</desc>
-    <episode-num system="onscreen">S01 E42</episode-num>
-    <episode-num system="xmltv_ns">0.41.</episode-num>
+    <title lang="en">Dragon Ball Z - Cell Saga</title>
+    <sub-title lang="en">Borrowed Powers</sub-title>
+    <desc lang="en">Gingertown becomes a battlefield as Piccolo confronts Cell. This monster from the future gains his strength by sucking the life out of his victims! But that’s not the creature’s only talent. He also knows the Kamehameha Wave!</desc>
+    <episode-num system="onscreen">S05 E03</episode-num>
+    <episode-num system="xmltv_ns">4.2.</episode-num>
   </programme>
   <programme start="20261127203500 -0500" stop="20261127210000 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">A Friendly Surprise</sub-title>
-    <desc lang="en">The Dragon Balls Are All Here! Piccolo-san Comes Back to LifeAs Bulma, Krillin, and Gohan close in on the last of the Dragon Balls, they uncover a shocking secret about their Namekian friends. Meanwhile, Goku works to build up his strength, and Vegeta sets his sights on revenge!</desc>
-    <episode-num system="onscreen">S01 E43</episode-num>
-    <episode-num system="xmltv_ns">0.42.</episode-num>
+    <title lang="en">Dragon Ball Z - Cell Saga</title>
+    <sub-title lang="en">His Name is Cell</sub-title>
+    <desc lang="en">Heavily-armored tanks fail to halt Cell’s rampage, and now it’s up to Piccolo to stop the monster! As the Namekian fights for survival, Cell reveals that he’s actually an android, the ultimate achievement of Dr. Gero!</desc>
+    <episode-num system="onscreen">S05 E04</episode-num>
+    <episode-num system="xmltv_ns">4.3.</episode-num>
   </programme>
   <programme start="20261127210000 -0500" stop="20261127223000 -0500" channel="toon-diggity">
     <title lang="en">Gay Purr-ee (1962)</title>
@@ -13519,16 +13523,16 @@ Homework can wait.</desc>
     <episode-num system="xmltv_ns">0.7.</episode-num>
   </programme>
   <programme start="20261128004000 -0500" stop="20261128010500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">Gohan's Rage</sub-title>
-    <desc lang="en">Gohan unleashes a mighty attack that not even Radtiz can resist! But as quickly as his power appears, it vanishes. When Raditz prepares to strike back, Goku must make the ultimate sacrifice to save his son!</desc>
+    <title lang="en">Dragon Ball (1986) - Emperor Pilaf Saga</title>
+    <sub-title lang="en">Yamcha the Desert Bandit</sub-title>
+    <desc lang="en">While crossing the Diablo Desert, Goku, Bulma, and Oolong are ambushed by Yamcha, a desert bandit, and his shape-shifting companion, Puar. A fierce battle ensues, but Yamcha's fear of women unexpectedly turns the tide.</desc>
     <episode-num system="onscreen">S01 E05</episode-num>
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
   <programme start="20261128010500 -0500" stop="20261128013000 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">No Time Like the Present</sub-title>
-    <desc lang="en">Piccolo takes Gohan into the wild for a harsh training program. Meanwhile, Goku embarks on a new adventure in the next world, as he travels the endless Snake Way to reach the legendary King Kai!</desc>
+    <title lang="en">Dragon Ball (1986) - Emperor Pilaf Saga</title>
+    <sub-title lang="en">Keep an Eye on the Dragon Balls</sub-title>
+    <desc lang="en">Goku and friends continue across the desert, unaware that Yamcha is secretly trailing them. Meanwhile, Oolong's cowardice and Bulma's capsule mix-up lead to awkward mishaps as the hunt for the Dragon Balls continues.</desc>
     <episode-num system="onscreen">S01 E06</episode-num>
     <episode-num system="xmltv_ns">0.5.</episode-num>
   </programme>
@@ -13676,7 +13680,7 @@ Come hungry, leave laughing.</desc>
     <title lang="en">Breakfast Shorts</title>
     <desc lang="en">Pour the cereal, the projector's already running.
 
-Disney Cartoons, Tom and Jerry, MGM and UPA shorts, with Terrytoons, George Pal's Puppetoons and Zagreb Film rolling out of the vault.
+Disney Cartoons, Tom and Jerry, Bugs Bunny and the Looney Tunes gang, MGM and UPA shorts, with Terrytoons, George Pal's Puppetoons and Zagreb Film rolling out of the vault.
 
 Spoon in one hand, remote in the other.</desc>
   </programme>
@@ -13872,22 +13876,22 @@ Homework can wait.</desc>
     <episode-num system="xmltv_ns">0.2.</episode-num>
   </programme>
   <programme start="20261128201000 -0500" stop="20261128203500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Brood of Evil</sub-title>
-    <desc lang="en">A Tough New Enemy! Emperor of the Universe, FreezaBulma, Krillin, and Gohan finally continue their quest to locate all seven Dragon balls. Unfortunately, the gang soon discovers that they aren't the only ones seeking the magical balls.</desc>
-    <episode-num system="onscreen">S01 E44</episode-num>
-    <episode-num system="xmltv_ns">0.43.</episode-num>
+    <title lang="en">Dragon Ball Z - Cell Saga</title>
+    <sub-title lang="en">Piccolo's Folly</sub-title>
+    <desc lang="en">Piccolo cleverly distracts Cell long enough to regenerate his arm. The Namekian is ready for another round, and Krillin and Trunks have arrived to provide backup! With the odds mounting against him, Cell makes a tactical decision.</desc>
+    <episode-num system="onscreen">S05 E05</episode-num>
+    <episode-num system="xmltv_ns">4.4.</episode-num>
   </programme>
   <programme start="20261128203500 -0500" stop="20261128210000 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Frieza Strikes!</sub-title>
-    <desc lang="en">Vegeta's Ambition! I am the Greatest Warrior in the Universe!!Krillin, Gohan, and Bulma are horrified to see Vegeta's space pod land on Planet Namek, but the Saiyan Prince is the least of their problems. Yet another epically evil villain has come to Namek in search of the Dragon Balls!</desc>
-    <episode-num system="onscreen">S01 E45</episode-num>
-    <episode-num system="xmltv_ns">0.44.</episode-num>
+    <title lang="en">Dragon Ball Z - Cell Saga</title>
+    <sub-title lang="en">Laboratory Basement</sub-title>
+    <desc lang="en">With hopes of saving the future, Trunks and Krillin race to destroy Dr. Gero’s lab. Meanwhile, Piccolo and Tien search for the elusive Cell. But how can they stop an enemy who knows their every move?</desc>
+    <episode-num system="onscreen">S05 E06</episode-num>
+    <episode-num system="xmltv_ns">4.5.</episode-num>
   </programme>
   <programme start="20261128210000 -0500" stop="20261128215000 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z: Bardock – The Father of Goku (1990)</title>
-    <desc lang="en">Bardock, Son Goku's father, is a low-ranking Saiyan soldier who was given the power to see into the future by the last remaining alien on a planet he just destroyed. He witnesses the destruction of his race and must now do his best to stop Frieza's impending massacre.</desc>
+    <title lang="en">Dragon Ball Z: Bardock - The Father of Goku (1990)</title>
+    <desc lang="en">The tale of Bardock, the father of Goku, and his rebellion against his master the mighty Frieza.</desc>
   </programme>
   <programme start="20261128215000 -0500" stop="20261128222000 -0500" channel="toon-diggity">
     <title lang="en">Tenchi Muyo! Ryo-Ohki</title>
@@ -13911,9 +13915,9 @@ Homework can wait.</desc>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
   <programme start="20261128231000 -0500" stop="20261128233500 -0500" channel="toon-diggity">
-    <title lang="en">Free for All (2003) (2003)</title>
-    <sub-title lang="en">The Wrong Side of the Tracks</sub-title>
-    <desc lang="en">The Happy Tree Friends go to Lumpy's fun fair, but the roller coaster seems to be incomplete, troubling both the riders and Lumpy himself.</desc>
+    <title lang="en">Free for All (2003)</title>
+    <sub-title lang="en">The Deal</sub-title>
+    <desc lang="en">Follow the day-to-day life of Johnny Jenkins, an innocent 19-year-old college student who has to deal with a bitter, cigarette-smoking grandmother and a coarse, sometimes-violent, alcoholic father, in a rather dysfunctional family.</desc>
     <episode-num system="onscreen">S01 E01</episode-num>
     <episode-num system="xmltv_ns">0.0.</episode-num>
   </programme>
@@ -13932,16 +13936,16 @@ Homework can wait.</desc>
     <episode-num system="xmltv_ns">1.5.</episode-num>
   </programme>
   <programme start="20261129002500 -0500" stop="20261129005000 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">Day 1</sub-title>
-    <desc lang="en">Gohan begins his first day of Piccolo’s training. Alone in the wilderness, he must quickly learn to take care of himself. But that isn’t easy when he’s tired, hungry - and being chased by bloodthirsty dinosaurs!</desc>
+    <title lang="en">Dragon Ball (1986) - Emperor Pilaf Saga</title>
+    <sub-title lang="en">The Ox King on Fire Mountain</sub-title>
+    <desc lang="en">Goku, Bulma, and Oolong reach Fire Mountain, where they meet the fearsome Ox-King. When Goku's identity is revealed, the Ox-King asks him to retrieve the Bansho Fan from Master Roshi to put out the flames.</desc>
     <episode-num system="onscreen">S01 E07</episode-num>
     <episode-num system="xmltv_ns">0.6.</episode-num>
   </programme>
   <programme start="20261129005000 -0500" stop="20261129011500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball</title>
-    <sub-title lang="en">Gohan Goes Bananas!</sub-title>
-    <desc lang="en">Korin wants Krillin, Yamcha, Tien, and Chiaotzu to report for special training! Meanwhile, Gohan’s grueling training causes him to undergo a shocking transformation!</desc>
+    <title lang="en">Dragon Ball (1986) - Emperor Pilaf Saga</title>
+    <sub-title lang="en">The Kamehameha Wave</sub-title>
+    <desc lang="en">Goku and Chi-Chi return to Master Roshi's island to obtain the Bansho Fan, only to learn it's been discarded. Determined to help, Roshi accompanies them to Fire Mountain and unveils his powerful Kamehameha wave to extinguish the flames.</desc>
     <episode-num system="onscreen">S01 E08</episode-num>
     <episode-num system="xmltv_ns">0.7.</episode-num>
   </programme>
@@ -14063,14 +14067,14 @@ Come hungry, leave laughing.</desc>
     <title lang="en">Breakfast Shorts</title>
     <desc lang="en">Pour the cereal, the projector's already running.
 
-Disney Cartoons, Tom and Jerry, MGM and UPA shorts, with Terrytoons, George Pal's Puppetoons and Zagreb Film rolling out of the vault.
+Disney Cartoons, Tom and Jerry, Bugs Bunny and the Looney Tunes gang, MGM and UPA shorts, with Terrytoons, George Pal's Puppetoons and Zagreb Film rolling out of the vault.
 
 Spoon in one hand, remote in the other.</desc>
   </programme>
   <programme start="20261129100000 -0500" stop="20261129103000 -0500" channel="toon-diggity">
     <title lang="en">The Charlie Brown and Snoopy Show</title>
     <sub-title lang="en">Linus' Security Blanket</sub-title>
-    <desc lang="en">Linus gives his blanket away; Peppermint Patty and Charlie Brown get into a fight at school; Schroeder fears that his piano-playing days are over.</desc>
+    <desc lang="en">Episode shorts include "Snoopy &amp; Woodstock," "Sally," "Piano," "Baseball," "Sunset," "Football," "Security Blanket," "Kite," "Woodstock," and "Clinging Snoopy."</desc>
     <episode-num system="onscreen">S01 E05</episode-num>
     <episode-num system="xmltv_ns">0.4.</episode-num>
   </programme>
@@ -14219,18 +14223,18 @@ Homework can wait.</desc>
     <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
   <programme start="20261129200500 -0500" stop="20261129203000 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Defying Orders</sub-title>
-    <desc lang="en">Goku's Power at Full-Force!! Six Days to the End of the GalaxyWith the odds rapidly mounting against them, Krillin and Gohan will need some serious help if they hope to recover the Dragon Balls from Frieza and his henchmen.</desc>
-    <episode-num system="onscreen">S01 E46</episode-num>
-    <episode-num system="xmltv_ns">0.45.</episode-num>
+    <title lang="en">Dragon Ball Z - Cell Saga</title>
+    <sub-title lang="en">Our Hero Awakes</sub-title>
+    <desc lang="en">In South City, Cell plows through more civilians and accidentally runs into Krillin! Goku finally gets back on his feet, but with Cell and the other androids in full stride, can the Saiyan hero still make a difference?</desc>
+    <episode-num system="onscreen">S05 E07</episode-num>
+    <episode-num system="xmltv_ns">4.6.</episode-num>
   </programme>
   <programme start="20261129203000 -0500" stop="20261129205500 -0500" channel="toon-diggity">
-    <title lang="en">Dragon Ball Z</title>
-    <sub-title lang="en">Namek's Defense</sub-title>
-    <desc lang="en">Surprise Attack!! The Elder's Target was the ScouterKrillin and Gohan get their first glimpse of Frieza's cruelty as the villain unleashes his henchmen upon an unsuspecting Namek village. Frieza wants the fifth Dragon Ball, and he is prepared to learn its location by any means necessary!</desc>
-    <episode-num system="onscreen">S01 E47</episode-num>
-    <episode-num system="xmltv_ns">0.46.</episode-num>
+    <title lang="en">Dragon Ball Z - Cell Saga</title>
+    <sub-title lang="en">Time Chamber</sub-title>
+    <desc lang="en">As Cell continues his deadly march, Goku hatches a plan to squeeze a year’s worth of training into just one day! Back at Master Roshi’s, the android trio arrives looking for Goku! Can Piccolo hold them off until the Saiyans return?</desc>
+    <episode-num system="onscreen">S05 E08</episode-num>
+    <episode-num system="xmltv_ns">4.7.</episode-num>
   </programme>
   <programme start="20261129205500 -0500" stop="20261129221000 -0500" channel="toon-diggity">
     <title lang="en">Everybody Rides The Carousel (1976)</title>
