@@ -101,7 +101,7 @@ MIST_RENAMES = {
 }
 
 # Shows numbered ABSOLUTELY (3+ digit code = absolute ep in S01, hundreds kept)
-ABSOLUTE_SHOWS = {"dragon ball"}
+ABSOLUTE_SHOWS = {"dragon ball", "dragon ball z"}   # "Dragon Ball Z 140" = ep 140, not S01 E40
 
 # Show-name renames, keyed on the parsed base title (trailing "(YYYY)" kept)
 RENAMES = {
@@ -147,6 +147,8 @@ RENAMES = {
     "Lupin The Third Part II": "Lupin the Third Part II",
     "Gay Pur-ee": "Gay Purr-ee",                          # real title (feed misspells it; TMDB match)
     "Free for All": "Free for All (2003)",                # Showtime series; year disambiguates lookups
+    "1000 Ways To Die": "1000 Ways to Die",
+    "D'Isigny Cartoons": "Disney Cartoons",               # Fizz feed's garbled spelling -> existing blurb
     "Tenchi Muyo! Mihoshi Special": "Tenchi Muyo!: Galaxy Police Mihoshi Space Adventure (1994)",  # feed "T107b ..."
 }
 
@@ -167,8 +169,8 @@ REGEX_RENAMES = [
 _FIZZ_MIX_DESC = ("Classic cartoons like Looney Tunes, Tom and Jerry, Woody Woodpecker, "
                   "Droopy, Hubley Studio, NFB Canada and Zagreb Film animated shorts plus some "
                   "pop and rock music videos.")
-_LATE_NIGHT_MIX_DESC = ("Your hand-picked midnight refill of Looney Tunes, Tom and Jerry, "
-                        "Woody Woodpecker, Droopy, and animated shorts from Hubley Studio, NFB Canada and "
+_LATE_NIGHT_MIX_DESC = ("Your hand-picked midnight refill of Walt Disney Cartoon Classics, Looney Tunes, "
+                        "Tom and Jerry, Woody Woodpecker, Droopy, and animated shorts from Hubley Studio, NFB Canada and "
                         "Zagreb Film, with pop and rock music videos fizzing away while the "
                         "rest of the world sleeps.")
 _TOON_DISNEY_DESC = "Timeless theatrical animated shorts from Disney's golden age."
@@ -244,11 +246,11 @@ FIXED_DESC = {
         "hours nobody's watching."
         "\n\n"
         "Don't tell the kids.",
-    "Breakfast Shorts":                       # feed: "Early Morning Shuffle" (~6-8 AM ET)
+    "Breakfast Shorts":                       # feed: "Morning Shuffle" (9-10 AM ET, Nov 27 2026)
         "Pour the cereal, the projector's already running."
         "\n\n"
-        "Disney Cartoons, Tom and Jerry, MGM and UPA shorts, with Terrytoons, George Pal's "
-        "Puppetoons and Zagreb Film rolling out of the vault."
+        "Disney Cartoons, Tom and Jerry, Bugs Bunny and the Looney Tunes gang, MGM and UPA shorts, "
+        "with Terrytoons, George Pal's Puppetoons and Zagreb Film rolling out of the vault."
         "\n\n"
         "Spoon in one hand, remote in the other.",
     "Technicolor Toybox":                     # feed: "Late Morning Shuffle" (~10:30 AM-noon ET)
@@ -315,6 +317,16 @@ FIXED_DESC = {
         "A side story about Mihoshi's life as a Galaxy Police Officer. Mihoshi introduces her partner, "
         "Kiyone, an up-and-coming officer who believes that having Mihoshi as her partner could be the "
         "end of her career, and explains how they solved the case of the Missing Super Energy.",
+    "Starcade":                               # Taqi's text; show-level only (no sub-title, no S/E)
+        "Contestants answer questions about video games and then play featured arcade games in order "
+        "to earn enough points to beat the opponents.",
+    "Looney Tunes":                           # Fizz late-night block (~11:05 PM ET); Toon Diggity's is renamed
+        "A fizzy nightcap from the Warner Bros. cellar."
+        "\n\n"
+        "Starring Bugs Bunny, Daffy Duck, Porky Pig, Elmer Fudd, Yosemite Sam, Sylvester and Tweety, "
+        "Foghorn Leghorn, Wile E. Coyote and the Road Runner in full Technicolor chaos."
+        "\n\n"
+        "Stay up, it's worth it.",
     "Afternoon Shuffle":
         "An after-school reel of theatrical shorts: Tom and Jerry, Looney Tunes, Tex Avery, Walter Lantz "
         "Cartunes and Fleischer classics, cut with international gems from NFB/ONF Canada and Zagreb Film."
@@ -521,6 +533,909 @@ TENCHI_UNIVERSE = [  # index = absolute episode - 1: (arc, season, episode, name
      'In an epilogue, Tenchi discusses the fate of most of the group, all of whom have their reputations restored or rewarded. Despite such acknowledgements, all become fond of their experience on Earth and return to the Masaki household.'),
 ]
 
+# ── Storm Hawks (Toonami Wiki: names + synopses for all 52; "(Part N)" -> ": Part N") ──
+STORM_HAWKS = [  # index = absolute episode - 1 (feed: "Storm Hawks 47" = S02 E21): (season, ep, name, desc)
+    (1, 1, 'Age of Heroes: Part 1', 'Young Sky Knight Aerrow and his squadron, the Storm Hawks, get their first taste of battle when the sinister Master Cyclonis sends the dread Dark Ace to steal the most powerful crystal in the Atmos: the Aurora Stone.'),
+    (1, 2, 'Age of Heroes: Part 2', 'Having lost the Aurora Stone to the cunning Dark Ace, The Storm Hawks mount a daring mission, sneaking into the very heart of the evil empire of Cyclonia to take the powerful crystal back.'),
+    (1, 3, 'Gale Force Winds', "The Storm Hawks promise an old Sky Knight they'll rescue his granddaughter Dove, a prisoner in the clutches of Cyclonia. But when they sneak inside the Smelters of Terra Gale for the mission, they find Dove is anything but a damsel in distress."),
+    (1, 4, 'The Code', 'Competing against the strict and proper Rex Guardians for a powerful Phoenix Crystal, the Storm Hawks set out to prove that old-fashioned rules belong in the history books – not in the skies of battle. to take the powerful crystal back.'),
+    (1, 5, 'Tranquility Now', "Finn’s accidentally lost Junko's prized Knuckle Busters! Junko’s just not the same without them, which means Finn better find a replacement, and quick, or the Storm Hawks’ mission to stop Ravess and Snipe is doomed."),
+    (1, 6, 'Best Friends Forever', 'Piper becomes fast friends with an alluring stranger named Lark, but as the Storm Hawks soon find out, there is more to their guest than meets the eye. When Piper uncovers the true identify of her new best friend, she finds herself in the battle of a lifetime.'),
+    (1, 7, 'The Black Gorge', 'The Storm Hawks are stranded in the dreaded Black Gorge, from which no airship has ever returned. Now the only one who can lead them through the unspeakable dangers to recharge their power crystal is Stork!'),
+    (1, 8, 'Absolute Power', "While Aerrow goes off on a super-secret mission with Starling, Finn is left in charge of the Condor. Now it's tough to tell who's in more danger, Aerrow and Starling against Repton and his Raptors, or the rest of the team with a power-mad Finn calling the shots."),
+    (1, 9, 'Velocity', 'Every year dozens of Sky Knights go head to head in a treacherous bike race across Terra Saharr, competing to win a rare and powerful Velocity amulet. The adrenaline-fuelled run should give Aerrow a chance to show his stuff, but all bets are off when a mysterious masked rider shows up and plays by his own rules.'),
+    (1, 10, 'Fire and Ice', 'Repton and his cronies decide to heat things up on the icy Terra Blizzaris. But even working together with the wild and crazy Absolute Zeroes, the Storm Hawks may be headed for a meltdown.'),
+    (1, 11, 'King For a Day', "Finn is declared the long lost hero of Terra Vapos. Naturally he's loving every minute of it. But when he's expected to actually save them from a sinister foe, Finn learns being the Chosen One isn't all it's cracked up to be."),
+    (1, 12, 'Terra Deep', "Jagged rocks and thick clouds surround them, villainous Murk Raiders are on their tail and an entire Cyclonian fleet waits for them beyond. The Storm Hawks have to fly silent and fly quick if they're going to survive Terra Deep."),
+    (1, 13, 'Storm Warning', "Piper pretends to quit the team to teach the boys a lesson, but it's going to take everyone working together to stop Ravess and her dangerous plan to shut down the Storm Hawks for good."),
+    (1, 14, 'A Little Trouble', "Everyone's worried when Junko agrees to look after a baby Wallop for the day. But when the Storm Hawks set out on a mission to bring construction on Snipe's new mega-ship to a standstill, what starts as a simple favor turns out to be an adventure in babysitting… of giant proportions!"),
+    (1, 15, 'Thunder Run', "It's a race against the clock for the Storm Hawks! If they can't bring back a mysterious treasure from the other end of Atmos by sundown, a gangster known as The Colonel is going to have Junko for lunch! To give the Condor an extra burst of speed, Finn nabs a Velocity crystal off of a couple of Raptors. But will it be enough now that Repton's on their tail too?"),
+    (1, 16, 'Escape', 'Aerrow and Radarr make a break from the escape-proof prison on Terra Zartacla. With jail warden Mr. Moss on their tail, our two heroes set out to prove anything’s possible when you’re a Storm Hawk! Using every trick in the book, the two try to outsmart their jailers and survive the dangerous jungle. But will it be enough to get them to freedom?'),
+    (1, 17, 'Forbidden City', 'A double-crossing explorer has found a way inside the ancient Forbidden City, which means Snipe will get his hands on the treasure, unless the Storm Hawks can get there first. Of course they’ll have to brave a lot of dangerous traps and confusing riddles on the way in. The test is on: is Stork really prepared for anything?'),
+    (1, 18, 'Leviathan', 'The Condor has been swallowed whole by a giant sky creature, with Radarr inside! The terrified locals are no help at all, so the Storm Hawks will have to set out with nothing but their skimmers and their brains to hunt down the monster, and save their ship and their friend.'),
+    (1, 19, 'InFinnity', 'One Finn is plenty, but an entire Condor-full? That’s what happens when Finn accidentally sets off a crystal that creates dozens of brand new Finns, each one exactly like the next. But when Snipe gets his hands on it, the Storm Hawks quickly put those Finns to work against a growing army of Snipes!'),
+    (1, 20, 'Terra Neon', 'The Storm Hawks are sharing the spotlight on glitzy Terra Neon – but not by choice. Two evil producers have taken the Terra captive and are forcing everyone to audition for their next big show. And unless they can find a star, it’s curtains!'),
+    (1, 21, 'The Storm Hawks Seven', 'Starling joins the Storm Hawks for a daring mission to take back a tiny terra from the Cyclonians. Though it may seem like a harmless chunk of rock, Ravess is using the terra to house her evil sonic blaster, big enough to take out an entire airship! Unless Starling and the Hawks can find a way to work together, Ravess is going to control the skies!'),
+    (1, 22, 'Talon Academy', 'Being a Cyclonian isn’t as cool as they make it sound – and Aerrow, Radarr and Piper are determined to prove that to the kids at a Talon training academy. Sneaking inside as students, the Hawks quickly turn the training ground into a battle ground and overthrow the staff. Now they’ve got to teach headmaster Snipe a lesson!'),
+    (1, 23, "Siren's Song", "Trapped in The Great Expanse, the Storm Hawks face a new foe: a mysterious Sky Siren and her dangerous power – she can make them see whatever she wants them to. They'll have to outsmart her if they want to escape a giant sucking whirlpool, and that means resisting the things they each want the very most."),
+    (1, 24, 'Calling All Domos', 'There’s trouble again on Terra Vapos, and since Finn saved them once before, he’s called back to Domo duty. But with the rest of the Hawks dealing with Junko’s wallop-sized toothache, Finn only has Stork to back him up. But will that be enough against the scary pirates known as The Murk Raiders?'),
+    (1, 25, 'The Lesson', 'The Talons have somehow become supercharged, and unless an unusual sky-fu master can whip the Storm Hawks into shape, they’re looking at a major defeat. Only question is, are any of these strange lessons helping?'),
+    (1, 26, "Dude, Where's My Condor?", 'On a whim, the Storm Hawks trade in the Condor. But by the time they realize their mistake, their beloved ship has a new owner: a frightening gangster known as The Colonel! Aerrow and the Hawks have got to get it back! But they’d better hurry – the Condor will never survive what the Colonel has planned!'),
+    (2, 1, 'The Masked Masher', 'To get inside Cyclonia during its “Ultimate Warrior Championships,” the Storm Hawks enter Junko as one of the colorful competitors. Things quickly get out of hand – especially when Junko gets a little too much into character.'),
+    (2, 2, "Atmos' Most Wanted", 'Thieves are on the loose, and all clues seem to point to the Storm Hawks as the culprits! Clearing your good name isn’t easy when you’re Atmos’ most wanted!'),
+    (2, 3, 'Stratosphere', 'The space race is on, and Cyclonia has a head start. After discovering Ravess is commanding a battle platform high in the Stratosphere, the Storm Hawks must go higher, faster and farther than ever before to stop her.'),
+    (2, 4, 'The Last Stand', 'Stuck in the unforgiving Wastelands, the Storm Hawks must fend off an old Cyclonian rival bent on revenge. Meanwhile, Junko hopes to impress the tough as nails Wallop miners they went there to rescue.'),
+    (2, 5, 'Life with Lugey', 'Stork and Leugey get stuck together when Stork swallows a Gravatron Crystal. Now the Storm Hawks must find a way to get the two unstuck without Repton finding out.'),
+    (2, 6, 'What Got Into Finn?', "The Storm Hawks have to deliver a weird container and are told not to open it, but Finn's curiosity gets the better of him and he opens the container, which shoots out a weird gas that turns Finn into a monster. Stork creates a cure, but gets a little carried away trying to get Finn to take it."),
+    (2, 7, 'Royal Twist', "Piper meets a princess who looks exactly like her. The princess wants some adventure in her life, so she switches places with Piper and joins the Storm Hawks. Meanwhile, Piper gets into trouble when the princess' kingdom is invaded by a group of creatures known as the Nightcrawlers."),
+    (2, 8, 'Second Chances', "Carver, the former Sky Knight, claims that he has reformed and wants to join the Storm Hawks. The Storm Hawks really believe that Carver has changed, except for Aerrow, who thinks that Carver hasn't changed one bit."),
+    (2, 9, 'Radarr Love', 'While on a trip to Terra Neon, the Storm Hawks accidentally leave Radarr at a rest stop. Now Radarr must find a way to get back to the Condor while avoiding Cyclonians and a chicken that has a crush on him.'),
+    (2, 10, "Scout's Honor", 'As part of volunteer work, Stork takes a group of young Merb scouts on a camping trip. However things go totally wrong when Stork and the scouts land on the wrong terra, which is full of vicious creatures. They also have a run in with Snipe, who is testing a new weapon of his.'),
+    (2, 11, "Sky's End", "The Storm Hawks end up at Sky's End, an uncharted part of Atmos which is believed to be home to dragons. They meet a group of young dragons and try to protect them from the Murk Raiders who want to slay them."),
+    (2, 12, 'Five Days', 'After winding up in a body cast, Aerrow must spend five days in bed while his wounds heal. This proves to be difficult when Master Cyclonis invades the Condor.'),
+    (2, 13, 'Energy Crisis', "The Dark Ace stumbles upon a powerful suit of armor that is powered by crystals. He goes on a power hungry rampage, sucking up every crystal he can find and it's up to the Storm Hawks to stop him."),
+    (2, 14, 'Dark Waters', "The Storm Hawks head to Terra Aquanos to rescue the Neck Deeps who are trapped underwater. While looking for them, the Strom Hawks are attacked by a bunch of unknown sea monsters and must find a way to get rid of them before they become the monsters' next meal."),
+    (2, 15, 'Number One Fan', 'The Storm Hawks meet a young kid named Noob who claims to be their biggest fan. He asks for a tour of the Condor and the Storm Hawks agree, thinking nothing can go wrong. That is until Noob causes a lot of trouble for them and they try to get rid of him without hurting his feelings.'),
+    (2, 16, 'A Colonel of Truth', 'As part of the gangster code, the Colonel becomes the Storm Hawks servant after they save his pet. The Storm Hawks make him do a bunch of nice things like do community service and give away some of his money to poor people.'),
+    (2, 17, 'Shipwrecked', 'The Storm Hawks get stranded on Terra Tropika due to a giant tidal wave and try to figure out how to survive on the island. Meanwhile, Stork has to deal with a group of natives who want to make a meal out of him and think that the Condor is their god.'),
+    (2, 18, 'Power Grab', "While Master Cyclonis is off on a mission, Ravess is put in charge of Cyclonia. But Ravess lets all the power go to her head which angers Snipe, who declares mutiny on his sister and becomes the new person in charge. However he also becomes power hungry and orders everyone to shoot anything that comes near Cyclonia. However, the Raptors fly close by and aren't happy getting shot at."),
+    (2, 19, 'Home Movie Night', 'The Storm Hawks gather together to spend a night in the Condor watching their home movies. Each of the Storm Hawks members get a chance to show a video about themselves.'),
+    (2, 20, 'Origins', 'This episode serves as a prequel to the series. In this special flashback episode, we are shown what Aerrow and his friends were like before they became the Storm Hawks.'),
+    (2, 21, 'The Ultra Dudes', 'While on a Western-style terra, Finn scares away a bandit and becomes the new hero of the town. He even creates his own squad known as the Ultra Dudes, which might come in handy when the bandit returns with his own squad, the Murk Raiders. Meanwhile, the other Storm Hawks learn more about the gate that Master Cyclonis is looking for.'),
+    (2, 22, 'A Wallop for All Season', "Junko goes back to his home terra to find out that the chief has decided to sign a treaty with the Cyclonians. When he can't convince the chief that the Cyclonians are evil, Junko challenges the chief to a battle to try and reason with him."),
+    (2, 23, 'Payback', "The Storm Hawks are scattered all around Atmos after Repton destroys the Condor. Aerrow meets up with Arygyn and the three guardians; Finn lands on a garbage truck owned by the Blizzarians; Piper ends up on Gundstaff's terra, who helps her get back to her friends; and Junko meets a group of wrestlers who help him fight a bunch of Cyclonians. Finally, Stork goes after Repton to make him pay for destroying the Condor."),
+    (2, 24, 'The Key', 'While reconstruction of the Condor gets underway with countless volunteers, Aerrow and Piper try to stop Master Cyclonis and the Dark Ace from finding the oracle stone which is the key to opening the far side door.'),
+    (2, 25, 'Cyclonia Rising: Part 1', 'Master Cyclonis arms her Nightcrawlers with new crystal technology from the far side and plans to take over Atmos. Meanwhile, Piper has trouble with her new binding power and fears that if she uses it too much, it will make her evil.'),
+    (2, 26, 'Cyclonia Rising: Part 2', 'In only 6 weeks, Master Cyclonis has taken over all of Atmos and has captured all of the Sky Knights. Only the Storm Hawks remain and they must find a way to stop Master Cyclonis once and for all.'),
+]
+
+# ── 1000 Ways to Die (Wikipedia: episode title + summary, matched by title; S/E stays the feed's) ──
+WAYS_TO_DIE_1000 = {  # _guide_norm(title) -> (Wikipedia title, Wikipedia summary)
+    'lifewillkillyou': ('Life Will Kill You', "A gun enthusiast meets his end with a rattlesnake; a young woman's sex life ends prematurely; and a bug collector suffers a fatal bite from a black widow."),
+    'hardliveseasydeaths': ('Hard Lives, Easy Deaths', "A meat packer impregnates his employer's granddaughter and later meets his end in a mysteriously locked freezer; three friends learn the perils of scuba diving and flying on the same day; two brothers feud over land until one seeks revenge through a witch doctor's poison, only to fall victim himself; and a man wearing a homemade merman costume attempts to swim with fish but drowns instead."),
+    'deathovereasy': ('Death Over Easy', "A smoker gets burned; a beautiful dreamer can't wake up; an inmate is caught in a deadly wire; costumed freaks go wild; a pool shark bites off more than he can swallow; and a peeping pervert finds himself in the ultimate night shack."),
+    'unforcederrors': ('Unforced Errors', "A lawyer falls; a wood chipper develops a taste for manly appetites; two reckless co-eds find life a gas; a Texan's alluring wife gives him an itchy surprise; a sword swallower ends up choking on his own act; and a sex addict decides to go organic."),
+    'deadanddeader': ('Dead and Deader', 'A junkie addicted to pain; a man who prefers women to toilets; a gun lover who learns the hard way; a drinker who lets the liquor hit his liver; a javelin enthusiast who gets skewered; and a man who gets rubbered out.'),
+    'deathgetsbusy': ('Death Gets Busy', 'A man with anger issues meets his end after falling into a vat of acid while attacking his former boss; a bulimic supermodel dies following an uncontrollable binge; and a pornography addict is impaled when an overinflated tire explodes.'),
+    'thelightersideofdeath': ('The Lighter Side of Death', "A farmhand lands in trouble with the farmer's daughter; raw snails serve up a nasty surprise; and a magician finally bites the bullet."),
+    'thegoodthebadandthedead': ('The Good, The Bad, and the Dead', 'A paranoid survivalist crosses paths with a snake; a shoplifter dives into a dumpster and ends up getting trashed; and a cute girl catches a big one - right down her throat.'),
+    'deathbenotstupid': ('Death Be Not Stupid', "A biker downs gasoline; a couple meet their end after making love; a narcoleptic dozes off on the job; a woman's tapeworm diet eats her alive; paintball pranksters meet a fatal blow; and an anxious electrician tries fishing with electricity, and gets the shock of his life."),
+    'cureforthecommondeathparti': ('Cure for the Common Death, Part I', 'A redneck meets a fatal end while celebrating the Fourth of July; a man with a taste for metal takes his cravings too far; a pair of heavy metal fans learn the deadly side of headbanging; radium-painted workers glow for fun; two metal fans snort fire ants; and a diver who survives a tank failure is blown apart.'),
+    'deathausersmanual': ("Death: A User's Manual", "An overeater goes belly up; a bodybuilder juiced and loses; a young woman texts herself - to death; a golfer has a 'rough' round; a car thief gets left hanging; and a drunk clown pops his own balloon."),
+    'iseedeadpeopleandtheyrecrackingmeup': ("I See Dead People (And They're Cracking Me Up)", 'A fatal colonic; a delayed death; and a hot dog thief meets his end.'),
+    'deathonarrival': ('Death on Arrival', "A woman's breast implants explode mid-flight; and marijuana and a forklift end a young man's life."),
+    'deathbites': ('Death Bites!', 'A chubby chaser lands big; a frat boy suffers frat burn; a fiddler hits a sour note; an ex-con gets exterminated; a French maid dusts her boss; mobsters lose face; and a limp lover goes down hard.'),
+    'upwithdeath': ('Up With Death', 'A hot nurse strips down; two trippers get needled; a biker chick goes down; a necrophiliac gets a final nail; a holdup ends in a mix-up; a hockey fight turns bloody; and a raccoon lover gets smitten and bitten.'),
+    'puttingahappyfaceondeath': ('Putting a Happy Face on Death', 'A thief hides in a car wash with deadly consequences; and a man cheating at a cockfight is killed by his own rooster.'),
+    'bringinginthedead': ('Bringing in the Dead', 'A rapist makes a fatal mistake on a cross-dressing boxer; and hula and belly dancing turn deadly.'),
+    'gratefullydead': ('Gratefully Dead', 'An anal compulsive turns repulsive; a purse snatcher takes a tumble; a weightlifter loses his grip; a young goth gets exorcised; a smoker gets smoked; two dopes do themselves (in); and a cow lover gets milked.'),
+    'comeongetdeathy': ('Come On, Get Deathy', 'A bliss seeker gets tanked; a little person swallows a harp; a mean hubby goes over the edge; a guitarist gets unplugged; a foolhardy thief breaks his numb-skull; a gold digger digs her own grave; and a spurned lover gets trashed.'),
+    'deathwatch': ('Death Watch', 'Hot cheerleaders get buzzed; a B-52 goes down in flames; a speed freak blows his mind; a cat hater gets his head handed to him; a health nut gets ratted out; and a golfing couple suffers some bad fore play.'),
+    'wakingupdead': ('Waking Up Dead', 'An acupuncture patient misses the point; a construction worker takes a deadly bathroom break; a stowaway gets his ass-sets frozen; a nagging housewife blows her own fuse; and a cheating gambler gets squeezed.'),
+    'youredeadlol': ("You're Dead! LOL!", 'The Samurai Death Squad loses a member; a moron gets smoked by cigarettes; a remote glider backfires; a rejected boyfriend faces rejection; a dog walker gets hounded to death; and a biker sparks a riot.'),
+    'deadtorights': ('Dead to Rights', 'A man with anger issues dies three ways at once; and death results when a teen purse snatcher meets an elderly taekwondo master.'),
+    'deadondead': ('Dead on Dead', 'Two drug smugglers get in hot water in the South Pacific; and the CIA zaps a terrorist with a gamma ray gun.'),
+    'deathonastick': ('Death on a Stick', 'A peeper takes a bath; a pool hopper goes belly-up; three soldiers get blown up; a gigolo gums up; a bachelorette takes a mouthful; a monk tangles with a donkey; and a boy band hits rock bottom.'),
+    'puttingasmileyfaceondeath': ('Putting A Smiley Face On Death', 'A liposuction among friends goes wrong; a crude boss takes a leak and bleeds out; a proctologist gets rear-ended; a line-crossing Viking gets split open; a waiter makes a fatal mistake; a woman grabs attention, but bolts too fast; and a hippie gets road killed.'),
+    'stupidisasstupiddies': ('Stupid is as Stupid Dies', 'A meth maker loses face; a nudist follows a deadly diet; a sorority girl swallows too much; a survivalist gets the hook; a spider topples a stud; a half-naked football fan gets freeze-framed; and two thrill-seekers lose their heads over piercings.'),
+    'deadwrongs': ('Dead Wrongs', 'Two con men get blown away; a sushi chef becomes the butt of the joke; and porn addiction turns deadly.'),
+    'fataldistractions': ('Fatal Distractions', 'A drug runner gets a heads up; two stoners get bonged; a glutton goes belly up; a man-baby gets timed out; a nature hater gets turtle waxed; a woman gets down and dirty; and a man-hater gets feminated.'),
+    'theendisweird': ('The End is Weird', "A robot maker meets his maker; an exhibitionist goes down in public; Houdini's final escape; a vomit lover gets chunked; a prankster gets pranked; a B-baller finds only death; and a Hollywood star gets drained."),
+    'hurryupanddie': ('Hurry Up and Die', 'An organ donor loses a heart; someone gets swept away; trailer trashed; nymphos run wild; a wrestler hits the mat; a mailman goes postal; and a rocker gets high.'),
+    'deathputsonaduncecap': ('Death Puts on a Dunce Cap', 'Eating a live octopus; multiple orgasms; a hunter becomes the hunted; a soccer fan gets blown away; a beauty loses her face; and drug addicts get their heads cracked.'),
+    'youngdumbandfullofdeath': ('Young, Dumb and Full of Death', 'A salesman sells out; a cokehead gets nosed out; a phony preacher sees the light; a peeper gets hammered; a skateboarder face-plants; a corporate trainer takes a fall; and a dummy gets offed in the woods.'),
+    'todaysmenudeepfrieddeath': ("Today's Menu: Deep Fried Death", "Death in the '70s; a thief bites his tongue; a groupie falls for a snake; a juicer gets juiced; Typhoid Mary goes down; a mean girl gets a chubby bunny; and a biker craps out."),
+    'cureforthecommondeathpartii': ('Cure for the Common Death, Part II', 'A low rider is crushed; a dummy meets nunchucks; Bigfoot gets the boot; a bikini girl swallows trouble; and a jockey gets tossed.'),
+    'suddendeath': ('Sudden Death', 'A Japanese rocker dies onstage; prison escape blows up; a scorned roommate gets revenge; a vain dancer bites the dust; clueless terrorists melt down; a foolish hard hat falls; and a tall man squeezed out in Medieval England.'),
+    'dyingtotellthestory': ('Dying to Tell the Story', "A couple gets antsy on safari; a braggart's new truck turns on him; a surfer is board to death; and a chess master meets his match."),
+    'ifyouredeadleaveamessageandwellgetbacktoyou': ("If You're Dead - Leave a Message and We'll Get Back to You", "A hat maker doesn't make it; a tech geek gets uninstalled; a wannabe hip-hop queen gets butted out; a carjacker gets jacked off; a pretend gangbanger gets body-slammed; a scam artist's plan gets crushed; and an agro dad gets blanked."),
+    'theoneaboutdumbpeopledying': ('The One About Dumb People Dying', 'A crossdresser "wets" the bed; a gymnast makes a killer move; a greedy crematorium worker explodes; a man drinking liquid cocaine gets a deadly kick; a stewardess is in over her head; a taxidermist gets squirrely; and a pumpkin thief takes theft to the heart.'),
+    'gettingarisefromthedead': ('Getting a Rise from the Dead', 'A sign spinner spins out; a recipe thief gets her goose cooked; cloud seeding turns rocky; a tobacco chewer gets chewed out; a mob hit goes awry; a corporate spy hits the fan; and a mad scientist gets reanimated.'),
+    'readyornotherecomesdeath': ('Ready or Not, Here Comes Death', 'A Japanese game show contestant gets deep-sixed; a free runner runs out of time; a mean caretaker gets pickled; a stripper with big boobies meets her end; a softballer busts a gut; a murderer busts out of the nut house; and two hunters get dogged.'),
+    'graveerrors': ('Grave Errors', "A hairdresser swallows too many 'leg spreaders'; Katrina looters get a shock; 1920s pipe-hitting homeboys; a fake doctor meets a leper; a mistress loses face; and a cell phone user gets disconnected."),
+    'killingthemsoftly': ('Killing Them Softly', 'An email scammer gets deleted; a hot co-ed flunks out; a grave robber digs his own grave; a warlord snorts crystal death; a couple screws themselves to death mid-air; two losers suck and blow up; and an old Nazi meets an old bullet.'),
+    'betterthemthanus': ('Better Them Than Us', 'A millionaire bottoms out; a Russian pimp struggles; gang bangers play doctor; a pyromaniac gets burned; an ice cream man gets iced; a bad actor loses a hand; and a Greek meets his brass.'),
+    'deadbeforetheyknowit': ('Dead Before They Know It', 'Death crashes a terrorist wedding; a big box squashes small heads; a self-blood transfusion goes wrong; a gangster spills his guts; a French killer loses his head; and a very bad Santa gets iced.'),
+    'stupidisasdeathdoes': ('Stupid Is as Death Does', 'A deadbeat dad goes through the roof; a stump lover gets eyeballed; a drinking game turns deadly; a dummy goes from spying to dying; a gamer gets pwned; a mover stops moving; and a poser artist explodes onto the scene.'),
+    'thatsmisterdeath': ('That\'s "Mister Death', 'A jersey chaser gets plugged; OCD stands for "of course (you\'re) dead"; a terrorist eats himself to death; an animal abuser gets dog-boned; a massage parlor patron meets an unhappy end; two inmates lynch themselves; and a bank robber loses his head.'),
+    'deaththenewblack': ('Death, the New Black', 'A disco king hits the floor; a sauna contest goes gaseous; an upskirting perv gets busted; a meathead blows himself (up); a pot farmer gets munchied; a football coach splits his uprights; and a drunk heckler gets fleshed out.'),
+    'deathbealadytonight': ('Death Be a Lady Tonight', 'An annoying guy gets cut down; a stalker gets smoked out; a football fanatic goes down in a barfight; a drug addict gets crushed; and a tomb raider goes batty.'),
+    'todaysspecialdeath': ("Today's Special: Death", "A hot welder goes down on the job; an unfaithful wife can't cheat death; a '20s gangster gets steamed; and a mother-in-law from hell goes back."),
+    'eatpraydie': ('Eat, Pray, Die', 'A medieval German gets stoned; a bachelor gets butted out; a con man guru flames out; a dog hater gets boned; and a juvenile delinquent hates Farmville.'),
+    'waitdonttellmeyouredead': ("Wait, Don't Tell Me? You're Dead!", "A neo-Nazi opens a can of whoop-ass; a prankster's joke backfires; a voyeur gets fooled; a stalker gets shafted; and an epileptic stripper goes lights out."),
+    'deaththegiftthatlastsforever': ('Death - The Gift That Lasts Forever', "A cheatin' hubby gets eaten by a bear; an old pervert sex-plodes; a bride goes down at the altar; a package thief meets an anthrax surprise; an insomniac hits and runs; a bearded hipster drowns; and a drunk worker's pants explode."),
+    'deathonesizefitsall': ('Death: One Size Fits All', 'A fake handicapped man gets his comeuppance; a con man is frozen; a female wrestler goes down; a driving teacher loses control; and a mine foreman explodes.'),
+    'deathbyrequest': ('Death by Request', '1000 Ways to Die presents a new award show... "The Deathies", featuring selected deaths: Sexiest Death: "Washed and Fried" ( Winner ) "Blood Bath & Beyond" (Runner-Up A) "Gum\'s The Word" (Runner-Up B) Historical Death: "Back Stabbed" ( Winner ) "Vike-O-Done" (Runner-Up A) "My Big Fat Greek Death" (Runner-Up B) Death During Sex: "Ass Phyxiated" ( Winner ) "Gasketballed" (Runner-Up A) "Orspasm" (Runner-Up B) Cosmic Karma: "Steward-death" ( Winner ) "Dead Meat-eorite" (Runner-Up A) "Road Killed" (Runner-Up B) Worst Pervert: "Vom-ate-dead" ( Winner ) "Crib Your Enthusiasm" (Runner-Up A) "Mercury in Uranus" (Runner-Up B) Sports Death: "Dead Eye" ( Winner ) "Samurai Death Squad" (Runner-Up A) "Pam Caked!" (Runner-Up B) Dumbest Druggie: "Em-Bear-Assed" ( Winner ) "Curl Up And Die" (Runner-Up A) "Fecal Attraction" (Runner-Up B) Dumbest Death: "Boys 2 Dead" ( Winner ) "Bitch Zapped" (Runner-Up A) "Midnight Choker" (Runner-Up B) Most Painful Death: "Bad Max" ( Winner ) "Easy Slider" (Runner-Up A) "Bot-ily Harm" (Runner-Up B) Deathiest Death: "Titty Titty Bang Bang" ( Winner ) "Fat-ality" (Runner-Up A) "Chippin\' Dale" (Runner-Up B)'),
+    'deadliestkitsch': ('Deadliest Kitsch', 'A dictator gets stuck; a security guard gets hosed; a cyclist runs out of breath; a rock climber falls; and a circus clown meets an insane posse.'),
+    'gravedecisions': ('Grave Decisions', 'A politico has a sneezing fit; a gun-toting senior blows up; a road-rage woman takes one in the gut; a convict meets a shocking end; a dirty biker gets their due; and a camper boils over with love.'),
+    'dirtnap': ('Dirt Nap', "A bank robber sticks his neck out; a redhead gets taken down; a tough teen meets a mailbox; a shyster shopper takes a dip; a fat man loses face; a crazy ex gets ex'd; and a farting contest turns fatal."),
+    'deathtakesavacation': ('Death Takes a Vacation', 'A bouncer gets beamed; a Japanese rockstar sparks suicide; a food vendor gets deep fried; a chemical owner tries to stop a leak; a drug smuggler meets a lethal tie-dye; a mime gets pickled; and a tennis girl hits her target.'),
+    'wildwilddeath': ('Wild Wild Death', "A bank robber fails badly; a fake superhero falls; a guy dies chasing views; a supervisor's date goes wrong; an art thief gets glassed; a paramedic gets high - and shocks himself dead; and a sex blogger hickeys herself to a stroke."),
+    'deathpenalties': ('Death Penalties', 'A wedding singer gets choked up; a French maid trapped in an iron maiden; a chef loses face; and a muscle woman meets her maker.'),
+    'dieabetic': ('Die-abetic', "A lady puckers up one last time; a tow truck driver becomes a head banger; a waitress gets a bad tip; a food critic misses the point; a turkey meets a turkey; a neck massager takes a woman's breath away; and a dancer loses heart."),
+    'stardeaththelastgeneration': ('Star Death: The Last Generation', "A cat lady's love goes too fur; a burglar falls for his victim; a mob boss gets the finger; a nasty supermodel meets a dead eye; a customer is left breathless by great savings; a perfectionist overhydrates; and a man rolls over the point."),
+    'deathputtingthefun': ('Death: Putting the "Fun', 'Trainer and barbells collide; a polygamist falls into his own trap; a couple wine and die; and a ticket scalper meets a red light.'),
+    'sordeadaffair': ('Sor-Dead Affair', 'A man gets frisky with a statue; a rioter gets the wind knocked out; a sleepwalker goes for a swim; and a man dies with a happy ending.'),
+    'lockedandlowdead': ('Locked and Low Dead', 'Socialite goes green; a short-fused man finally blows; a woman high-jumps to her death; a crooked cop reeks of decay; a wormy scam artist; a trippy trip to the market; and a bumbling mad scientist gets burned.'),
+    'entertheferret': ('Enter the Ferret', 'A ferret goes up the eerie canal; a fat man squeezes into a baby swing; a female boxer goes down; a stoner gets launched; a bad man takes an acid bath; a food fight turns deadly; and a tattoo artist swallows a chain.'),
+    'thinkgloballydielocally': ('Think Globally, Die Locally', "A Chinese rapper gets grilled; a mini-golfer maxes out; a super lotto winner goes super nuts; a yoga teacher is a real gas; a hipster goes down in slo-mo; a hacker gets hacked; and a warden can't lock it down."),
+    'tweetsfromthedead': ('Tweets From the Dead', 'An exterminator gets exterminated; a stockbroker turns magnetic in the stomach; a wedding crasher crashes through the glass; a thief meets a meathook; a black marketeer gets blown up; a hijacker is exploded by a semi; and a ghost buster gets busted.'),
+    'anewappcalleddeath': ('A New App Called Death', 'A sexy copier mishap; a scavenger loses his head; a bicycle hater gets hit; milking a pig; a winded diva; and a motel inspector stirs the dead.'),
+    'deathcertificates': ('Death Certificates', 'A fitness instructor gets bounced; a bird smuggler catches the flu; coke mules get branded; a couple takes a hit; a computer thief crashes and burns; a moonshiner gets poked; and a director makes a scene.'),
+    'cryingoverspilledblood': ('Crying Over Spilled Blood', 'A tennis brat gets the shaft; a sadistic loan officer; a dead-eye sniper; ghost peppers; a deadly infomercial; a jailbreak gone wrong; and a caveman discovers fire.'),
+    'itsadeaddeaddeadworld': ("It's a Dead, Dead, Dead World", 'A lazy husband goes on a roll; terrorists get gassed; a germaphobe takes a deadly bath; and death hits the Jersey Shore.'),
+    'deaththefinalfrontier': ('Death, The Final Frontier', 'A tease gets stoned; a drunk wife crashes a sobriety party; a filthy husband falls for a chainsaw; a garage sale turns deadly; and a strongman gets weak in the knees.'),
+}
+
+# ── Dragon Ball (1986): TMDB titles, IMDb synopses, Wikipedia saga per episode; one season S01 E1-153 ──
+DRAGON_BALL = [  # index = absolute episode - 1 (feed: "Dragon Ball 003"): (saga, name, synopsis)
+    ('Emperor Pilaf Saga', 'The Secret of the Dragon Balls', "Isolated martial artist Goku crosses paths with treasure-hunter Bulma, launching an unlikely duo's quest for the mythic Dragon Balls."),
+    ('Emperor Pilaf Saga', "The Emperor's Quest", "On the road to the Dragon Balls, Goku and Bulma make camp, brave the wilds, and meet a lost sea turtle -- unaware Pilaf's minions are scouting a mysterious glow nearby."),
+    ('Emperor Pilaf Saga', 'The Nimbus Cloud of Roshi', "Goku and Bulma help a lost sea turtle return home. As a reward, its master, the Turtle Hermit, offers Goku a magical flying cloud, but only if he can prove he's pure of heart."),
+    ('Emperor Pilaf Saga', 'Oolong the Terrible', 'Goku and Bulma arrive at a village terrorized by the shape-shifting Oolong, who has been kidnapping young women. To stop him and retrieve a Dragon Ball, Goku disguises himself as a girl to confront the mischievous pig.'),
+    ('Emperor Pilaf Saga', 'Yamcha the Desert Bandit', "While crossing the Diablo Desert, Goku, Bulma, and Oolong are ambushed by Yamcha, a desert bandit, and his shape-shifting companion, Puar. A fierce battle ensues, but Yamcha's fear of women unexpectedly turns the tide."),
+    ('Emperor Pilaf Saga', 'Keep an Eye on the Dragon Balls', "Goku and friends continue across the desert, unaware that Yamcha is secretly trailing them. Meanwhile, Oolong's cowardice and Bulma's capsule mix-up lead to awkward mishaps as the hunt for the Dragon Balls continues."),
+    ('Emperor Pilaf Saga', 'The Ox King on Fire Mountain', "Goku, Bulma, and Oolong reach Fire Mountain, where they meet the fearsome Ox-King. When Goku's identity is revealed, the Ox-King asks him to retrieve the Bansho Fan from Master Roshi to put out the flames."),
+    ('Emperor Pilaf Saga', 'The Kamehameha Wave', "Goku and Chi-Chi return to Master Roshi's island to obtain the Bansho Fan, only to learn it's been discarded. Determined to help, Roshi accompanies them to Fire Mountain and unveils his powerful Kamehameha wave to extinguish the flames."),
+    ('Emperor Pilaf Saga', "Boss Rabbit's Magic Touch", 'Son Goku, Bulma and Oolong arrive at a village in which the villagers seem scared of Bulma. It is soon found out to be due to her outfit having the rabbit ears associated with the Rabbit Gang, lead by Usagi Ninjinka.'),
+    ('Emperor Pilaf Saga', 'The Dragon Balls are Stolen!', "Shu runs off with Bulma's suitcase, which contains their Dragon Balls. Luckily, Goku still has the Four-Star Ball."),
+    ('Emperor Pilaf Saga', 'The Penalty is Pinball', 'Mai steals the Four-Star Ball from Goku. When they wake up, Pilaf sends giant pinballs rolling after them.'),
+    ('Emperor Pilaf Saga', 'A Wish to the Eternal Dragon', 'To stop Emperor Pilaf, Oolong interrupts his wish for world conquest with a wish for underpants. A furious Pilaf orders them burned to death. Then Goku looks up at the full moon and unleashes an ancient evil.'),
+    ('Emperor Pilaf Saga', 'The Legend of Goku', "Goku, now the Great Ape, begins destroying Pilaf's castle. Bulma, Yamcha, Oolong, and Puar are able to escape as Pilaf, Mai, and Shu start attacking Goku."),
+    ('Tournament Saga', "Goku's Rival", "Goku heads towards Master Roshi's island. Suddenly, another boy named Krillin requests training from Master Roshi."),
+    ('Tournament Saga', 'Look Out for Launch', "Goku and Krillin bring Launch back to Master Roshi's island. Unknown to either of them, when she sneezes, she turns into a violent blonde criminal."),
+    ('Tournament Saga', 'Find That Stone!', 'Master Roshi gives the boys their final test for the day. He throws a stone into the woods, telling them to find it, and the loser must go without dinner.'),
+    ('Tournament Saga', 'Milk Delivery', 'Master Roshi has the boys deliver milk in many exhausting runs.'),
+    ('Tournament Saga', 'The Turtle Hermit Way', 'Goku and Krillin continue their intense training.'),
+    ('Tournament Saga', 'The Tournament Begins', 'After months of training with heavy turtle shells, the boys are eager to learn fighting techniques in time for the 21st World Martial Arts Tournament.'),
+    ('Tournament Saga', 'Elimination Round', 'The preliminaries of the 21st World Martial Arts Tournament begin with Goku, Krillin, and Yamcha eager to advance.'),
+    ('Tournament Saga', 'Smells Like Trouble', 'In the quarterfinal matches, Krillin is in the first match against Bacterian, a giant whose stench overwhelms the enemy.'),
+    ('Tournament Saga', 'Quarterfinals Begin', 'In the quarterfinals, Yamcha fights the powerful Jackie Chun. Nam fights Ranfan, who relies on seduction to win.'),
+    ('Tournament Saga', 'Monster Beast Giran', "Goku's quarterfinal opponent, the monstrous Giran fights him with cheating tactics."),
+    ('Tournament Saga', "Krillin's Frantic Attack!", 'The semifinals begin as Krillin and Jackie Chun fight.'),
+    ('Tournament Saga', 'Danger From Above', 'Goku starts his semifinal match against Nam, who uses aerial attacks.'),
+    ('Tournament Saga', 'The Grand Finals', 'After many impressive battles, the final match of the World Martial Arts Tournament has finally arrived. This ultimate showdown features crafty veteran Jackie Chun taking on the rambunctious youngster Goku.'),
+    ('Tournament Saga', 'Number One Under the Moon?', "The final match between Goku and Jackie Chun continues as Jackie's hypnosis and Goku's janken fail to yield results. They are then forced to unleash their deadliest techniques."),
+    ('Tournament Saga', 'The Final Blow', 'Jackie Chun reveals that the actual target of his Kamehameha wave was the moon, to de-power Goku. With both of them exhausted, they agree on a straightforward finish to the fight.'),
+    ('Red Ribbon Army Saga', 'The Roaming Lake', "The river at Nam's village has run dry, and Goku finds that a dam has been built upstream by Giran and his fellow monsters."),
+    ('Red Ribbon Army Saga', 'Pilaf and the Mystery Force', 'When the dragon radar is stolen, Goku follows the thief to to an antique shop with a Dragon Ball.'),
+    ('Red Ribbon Army Saga', 'Wedding Plans?', "The much pursued Dragon Ball ends up in the possession of the great and powerful Ox-King – who just happens to be busy planning his daughter's wedding."),
+    ('Red Ribbon Army Saga', 'The Flying Fortress - Vanished!', 'Both the Red Ribbon Army and Goku pursue Pilaf for the Dragon Ball.'),
+    ('Red Ribbon Army Saga', 'The Legend of a Dragon', "As Goku searches for the Dragon Balls, he aids a group of monkeys threatened by the Red Ribbon Army. Meanwhile, Master Roshi shares an ancient legend about the Dragon Balls' origin."),
+    ('Red Ribbon Army Saga', 'Cruel General Red', "As Goku closes in on the Red Ribbon Army's base, General Red's ruthless ambition comes into focus. Meanwhile, Commander Red's true, selfish reason for collecting the Dragon Balls is shockingly revealed."),
+    ('Red Ribbon Army Saga', 'Cold Reception', 'The girl called Snow explains to Goku that the Red Ribbon Army is forcing their village to help them look for the Dragon Ball.'),
+    ('Red Ribbon Army Saga', 'Major Metallitron', 'Goku reaches the third floor of Muscle Tower and faces Major Metallitron, a massive android who shrugs off even a Kamehameha. With brute force failing, Goku must outthink the mechanical menace to continue his rescue mission.'),
+    ('Red Ribbon Army Saga', 'Ninja Murasaki is Coming!', "Goku ascends to the fourth floor of Muscle Tower, entering a forested arena. There, he faces Ninja Murasaki, a cunning adversary who employs deceptive tactics and surprise attacks to thwart Goku's rescue mission."),
+    ('Red Ribbon Army Saga', 'Five Murasakis', 'Goku faces off against Ninja Murasaki inside Muscle Tower, but the fight takes a strange turn when four more identical Murasakis appear, forcing Goku into a bizarre five-on-one ninja battle.'),
+    ('Red Ribbon Army Saga', 'Mysterious Android No. 8', "Goku confronts the gentle Android 8, who refuses to fight. Together, they navigate Muscle Tower's deadly traps, aiming to rescue the village chief from the Red Ribbon Army's clutches."),
+    ('Red Ribbon Army Saga', 'Horrifying Buyon', "Goku and Android 8 fall into a hidden floor of Muscle Tower, where General White unleashes the grotesque monster Buyon. Goku's punches bounce off, forcing him to improvise against the rubbery foe."),
+    ('Red Ribbon Army Saga', 'The Fall of Muscle Tower', "Goku confronts General White on Muscle Tower's top floor. When White resorts to underhanded tactics, Android 8 intervenes, leading to a decisive showdown that could bring down the entire tower."),
+    ('Red Ribbon Army Saga', 'The Secret of Dr. Flappe', 'Eighter still has the bomb inside him, so they go to Dr. Flappe to sort the problem as Murasaki stalks them.'),
+    ('Red Ribbon Army Saga', 'A Trip to the City', 'Goku reaches West City but has no idea where to find Bulma.'),
+    ('Red Ribbon Army Saga', 'Master Thief, Hasky', 'General Black hires a master thief, Hasky, to get the balls from Goku.'),
+    ('Red Ribbon Army Saga', 'Danger in the Air', 'Goku and friends enjoy an amusement park outing until a cunning thief targets his Dragon Balls with a mid-air trap.'),
+    ('General Blue Saga', "Bulma's Bad Day", "Goku dives for an undersea Dragon Ball off a remote island, while Bulma's brush with the Red Ribbon Army draws General Blue's attention."),
+    ('General Blue Saga', 'Kame House - Found!', "Seeking help to retrieve a Dragon Ball from the ocean floor, Goku and Bulma head to Master Roshi's island, unaware the Red Ribbon Army is closing in."),
+    ('General Blue Saga', 'Deep Blue Sea', 'Goku, Bulma, and Krillin hunt a Dragon Ball beneath the waves, but General Blue and the Red Ribbon Army close in, turning their submarine quest into a perilous cat-and-mouse chase.'),
+    ('General Blue Saga', 'Roshi Surprise', 'Goku, Bulma, and Krillin search an underwater pirate cave for a Dragon Ball while the Red Ribbon Army raids Kame House, leaving Master Roshi and Launch to deal with unwelcome visitors.'),
+    ('General Blue Saga', 'The Trap is Sprung', 'Chasing a Dragon Ball into an underwater pirate stronghold, Goku, Bulma, and Krillin face a gauntlet of traps -- while General Blue closes in.'),
+    ('General Blue Saga', 'Beware of Robot', 'Deep in a submerged pirate cave, Goku, Bulma, and Krillin brave lethal traps and a giant pirate robot as General Blue closes in on a long-lost Dragon Ball.'),
+    ('General Blue Saga', 'The Pirate Treasure', 'Exploring a sunken pirate hideout, Goku, Bulma, and Krillin hunt a Dragon Ball through lethal traps as a relentless Red Ribbon officer shadows their every move.'),
+    ('General Blue Saga', 'Blue, Black and Blue', 'In a booby-trapped pirate cave, Goku faces General Blue while Bulma and Krillin search for a Dragon Ball and a way out.'),
+    ('General Blue Saga', 'Escape From Pirate Cave', 'With traps primed and time running out, Goku, Krillin, and Bulma scramble to escape a collapsing pirate cavern -- all while a relentless adversary dogs their every step.'),
+    ('General Blue Saga', 'Penguin Village', "Goku's pursuit of General Blue steers Nimbus into the off-beat Penguin Village, where bizarre locals and slapstick surprises complicate his hunt for the Dragon Balls."),
+    ('General Blue Saga', 'Strange Visitor', "Lost in Penguin Village, Goku teams with Arale and the Gatchans to chase General Blue; Arale's antics blow his cover, and Senbei Norimaki races to mend Goku's smashed Dragon Radar."),
+    ('General Blue Saga', 'Arale vs. Blue', "General Blue infiltrates Penguin Village to swipe Goku's newly fixed Dragon Radar, but bumbling inventor Senbei and unstoppable Arale turn the theft into a madcap chase that leaves the Red Ribbon elite begging for mercy."),
+    ('Commander Red Saga', 'The Land of Korin', "In the Sacred Land of Korin, the Red Ribbon Army sends Captain Yellow to seize a Dragon Ball, but guardian Bora and his son stand firm; Goku's sudden arrival on Nimbus ignites a clash that could upend the Army's plans."),
+    ('Commander Red Saga', 'The Notorious Mercenary', "To silence Goku and reclaim the Dragon Balls, the Red Ribbon Army hires legendary assassin Tao Pai Pai, whose ruthless arrival at Korin's sacred land pits him against protector Bora -- and sets Goku on a deadly collision course."),
+    ('Commander Red Saga', 'Tao Attacks!', 'With the Dragon Balls in his sights, ruthless assassin Mercenary Tao confronts Goku, sparking a clash of signature techniques and propelling the young warrior toward a perilous ascent of the legendary Korin Tower.'),
+    ('Commander Red Saga', 'Korin Tower', 'In pursuit of the legendary Sacred Water, Goku undertakes the perilous climb of Korin Tower, pushing body and spirit toward new heights.'),
+    ('Commander Red Saga', 'Sacred Water', 'Scaling Korin Tower, Goku battles fatigue and a mischievous master in pursuit of a power that could change everything.'),
+    ('Commander Red Saga', 'The Return of Goku', 'After intense training atop Korin Tower, Goku rushes back to the Sacred Land to protect Upa and reclaim the four-star Dragon Ball, sparking a high-stakes rematch with the ruthless Mercenary Tao.'),
+    ('Commander Red Saga', 'The Last of Mercenary Tao', "Unable to beat Goku, Mercenary Tao scales Korin Tower seeking the Sacred Water's power, but the wily guardian cat has other plans -- while Goku and Upa await the next round."),
+    ('Commander Red Saga', 'Confront the Red Ribbon Army', "Goku races toward the Red Ribbon Army's headquarters as Colonel Violet hunts a Dragon Ball, setting the stage for a looming clash."),
+    ('Commander Red Saga', 'A Real Bind', "Goku heads to Red Ribbon Army HQ to reclaim the Dragon Balls as Commander Red scrambles his forces and Goku's friends race to back him up, setting the stage for a high-stakes showdown."),
+    ('Commander Red Saga', 'The End of Commander Red', "Goku storms the Red Ribbon Army's headquarters, plunging the fortress into chaos as panicked troops scatter and a power struggle brews, setting the stage for a decisive clash."),
+    ('Commander Red Saga', 'The Last Dragon Ball', "With the final Dragon Ball in sight, Goku storms the Red Ribbon Army HQ and faces Staff Officer Black's colossal battle suit, turning the hunt into a perilous showdown."),
+    ('Fortuneteller Baba Saga', 'Who is Fortuneteller Baba?', "With the final Dragon Ball missing from Bulma's radar, Goku and friends seek the elusive Fortuneteller Baba -- only to learn her help comes at a price."),
+    ('Fortuneteller Baba Saga', 'We are the Five Warriors', "At Fortuneteller Baba's palace, Goku's team must face her spooky fighters one by one; winning could reveal the last Dragon Ball's location."),
+    ('Fortuneteller Baba Saga', 'Deadly Battle', "In Fortuneteller Baba's arena, Yamcha duels an invisible foe as Goku rushes to rally help; the team pushes through the gauntlet for the final Dragon Ball's clue."),
+    ('Fortuneteller Baba Saga', "Goku's Turn", "Fortuneteller Baba's next challenge pits Yamcha against a swift, relentless mummy atop the Devil's Toilet; with the final Dragon Ball at stake, Goku readies himself to enter the fray."),
+    ('Fortuneteller Baba Saga', 'The Devilmite Beam', "At Fortuneteller Baba's arena, Goku faces a devilish challenger whose deadly technique targets the darkness in one's heart -- with the final Dragon Ball's location on the line."),
+    ('Fortuneteller Baba Saga', 'The Mysterious Fifth Man', "Goku goes head-to-head with Spike the Devilman, a winged freak known for feeding off negative vibes. If the little man survives, there's a fifth fighter waiting in the wings, and he smells strangely familiar."),
+    ('Fortuneteller Baba Saga', 'The Strong Ones', "At Fortuneteller Baba's tournament, the final match pits Goku against a mysterious masked fighter -- whose uncannily familiar style leaves Master Roshi uneasy."),
+    ('Fortuneteller Baba Saga', 'True Colors of the Masked Man', "At Fortuneteller Baba's arena, Goku duels a mysterious masked warrior while Pilaf, Shu, and Mai set a new scheme in motion for the Dragon Balls."),
+    ('Fortuneteller Baba Saga', "Pilaf's Tactics", 'Pilaf, Shu, and Mai challenge Goku to a winner-take-all bet, deploying robot suits to exploit his supposed weakness and snatch the Dragon Balls.'),
+    ('Fortuneteller Baba Saga', 'The Eternal Dragon Rises', 'With all seven Dragon Balls collected, Goku and Upa head to the Land of Korin to summon the Eternal Dragon, while Yamcha seeks fresh training under Master Roshi.'),
+    ('Fortuneteller Baba Saga', 'Terror and Plague', "Goku answers a little girl's plea and heads to a village terrorized by two bandits and their mysterious gourd -- where outsmarting their tricks matters as much as raw power."),
+    ('Fortuneteller Baba Saga', 'Goku vs. Sky Dragon', 'On the road, Goku is drawn into a rivalry between martial arts schools and volunteers to represent a struggling master, squaring off against Sky Dragon before the king.'),
+    ('Fortuneteller Baba Saga', 'Goku Goes to Demon Land', "Goku arrives in a village plagued by demons. After its princess is dragged into Demon Land, he ventures through the portal to challenge the realm's ruler and attempt a rescue."),
+    ('Fortuneteller Baba Saga', 'The Rampage of InoShikaCho', 'Goku meets a family fleeing a village terrorized by InoShikaCho and rushes to stop the beast -- only to find two mysterious fighters already on the scene.'),
+    ('Fortuneteller Baba Saga', 'Which Way to Papaya Island?', 'On the eve of the World Martial Arts Tournament, Goku races to Papaya Island, but a run-in with street hustlers -- and a new friend -- turns the trip into a test of his wits as much as his fists.'),
+    ('Tien Shinhan Saga', 'Rivals and Arrivals', 'On Papaya Island for the World Martial Arts Tournament, the gang checks in as Goku races the registration deadline, and familiar rivals arrive to set the stage for the preliminaries.'),
+    ('Tien Shinhan Saga', 'Preliminary Peril', "The preliminaries kick off at the World Martial Arts Tournament; Goku, Krillin, Yamcha, and Jackie Chun face early tests as the Crane School's Tien Shinhan and Chiaotzu arrive, igniting tensions and hinting at rivalries to come."),
+    ('Tien Shinhan Saga', 'Then There Were Eight', 'As the World Martial Arts Tournament preliminaries wrap up, Goku faces King Chappa while Krillin and Yamcha fight for places among the final eight.'),
+    ('Tien Shinhan Saga', 'Yamcha vs. Tien', 'At the 22nd World Martial Arts Tournament, the finalists draw lots and tensions between rival schools erupt as Yamcha and Tien square off in the opening bout.'),
+    ('Tien Shinhan Saga', "Yamcha's Big Break", 'The Quarterfinals kick off as Yamcha takes on the formidable Tien Shinhan at the 22nd World Martial Arts Tournament -- a clash of styles and pride that hints at unseen techniques and higher stakes ahead.'),
+    ('Tien Shinhan Saga', 'Full-Moon Vengeance', 'At the World Martial Arts Tournament, Jackie Chun faces Man-Wolf, a vengeful challenger driven by a full-moon grudge, in an offbeat bout where clever tactics matter as much as raw power.'),
+    ('Tien Shinhan Saga', 'The Dodon Wave', 'At the 22nd World Martial Arts Tournament, Krillin faces the enigmatic Chiaotzu, whose psychic powers and the Dodon Ray put Crane School techniques on display as rival students and masters look on.'),
+    ('Tien Shinhan Saga', 'Counting Controversy!!', "At the 22nd World Martial Arts Tournament, Krillin faces Chiaotzu's unnerving psychic techniques, turning the match into a battle of wits, while trouble for Goku brews outside the ring."),
+    ('Tien Shinhan Saga', 'Goku Enters the Ring', "At the 22nd World Martial Arts Tournament, Goku's quarterfinal against movie star Pomput is threatened when a shady manager schemes to keep him from the ring."),
+    ('Tien Shinhan Saga', 'Tien Shinhan vs. Jackie Chun', 'The first semifinal begins at the World Martial Arts Tournament, pitting Tien Shinhan against the enigmatic Jackie Chun in a showcase of high-level techniques and mind games.'),
+    ('Tien Shinhan Saga', 'Stepping Down', "At the 22nd World Martial Arts Tournament, Jackie Chun and Tien Shinhan's semifinal intensifies -- blinding techniques, clever counters, and a clash of ideals keep the arena on edge."),
+    ('Tien Shinhan Saga', 'Goku vs. Krillin', 'At the World Martial Arts Tournament, Goku and Krillin face each other in a spirited semifinal match that balances rivalry and respect, showcasing how far both have come.'),
+    ('Tien Shinhan Saga', "Tail's Tale", 'At the 22nd World Martial Arts Tournament, friends-turned-rivals Goku and Krillin face off in a fast semifinal where speed and strategy test their bond and push both fighters to new limits.'),
+    ('Tien Shinhan Saga', 'Final Match: Goku vs. Tien', 'At the 22nd World Martial Arts Tournament, the final begins: Goku vs. Tien. Friends scramble for seats as the rivals mix speed, skill, and strategy, setting the stage for a fierce, high-stakes duel.'),
+    ('Tien Shinhan Saga', "Victory's Edge", 'World Martial Arts Tournament final: Tien Shinhan unveils his "Volleyball Fist" against Goku, who answers with newfound intensity, pushing both fighters toward their limits.'),
+    ('Tien Shinhan Saga', "Tien's Insurrection", 'Goku duels Tien at the 22nd World Martial Arts Tournament, a high-stakes clash that tests skill, pride, and the meaning of a fair fight.'),
+    ('Tien Shinhan Saga', 'The Spirit Cannon', 'At the 22nd World Martial Arts Tournament, Goku and Tien push their match to new heights, unveiling surprising techniques as pride, endurance, and strategy clash.'),
+    ('Tien Shinhan Saga', 'The Fallen', "With the arena obliterated, Goku and Tien's World Martial Arts Tournament final becomes a gravity-defying test of endurance and ingenuity as both push beyond the ring to see who truly stands above."),
+    ('King Piccolo Saga', 'Enter King Piccolo', 'After the tournament, a shocking attack sends Goku after a shadowy assailant, while Master Roshi recognizes signs of an ancient evil tied to his past.'),
+    ('King Piccolo Saga', 'Tambourine Attacks!', 'King Piccolo sets his plan in motion as his assassin Tambourine hunts tournament fighters; Goku, weakened by hunger, gives chase -- pushing both toward a dangerous encounter.'),
+    ('King Piccolo Saga', 'Mark of the Demon', "While Tambourine targets Earth's fighters, King Piccolo sets a new plan in motion for the Dragon Balls. Stranded and starving, Goku encounters a mysterious mountain man who may change his path."),
+    ('King Piccolo Saga', 'Here Comes Yajirobe', "Goku's search leads him to the blunt swordsman Yajirobe; when a sinister creature arrives for the Dragon Ball, the two must quickly decide who will face it."),
+    ('King Piccolo Saga', 'Terrible Tambourine', "Tambourine's rampage continues with Yamcha in his sights. Master Roshi leads Tien and Chiaotzu to gather the Dragon Balls, while Goku seeks Yajirobe's Dragon Ball."),
+    ('King Piccolo Saga', "Tien's Atonement", "Roshi's Dragon Ball hunt leads to a risky deal; Tien crosses paths with an old rival, while Goku's chase after Yajirobe draws a ruthless assassin."),
+    ('King Piccolo Saga', "Goku's Revenge", 'At last, Goku confronts Tambourine for a long-awaited rematch, while Roshi and Tien pursue the Dragon Balls as an ominous force closes in.'),
+    ('King Piccolo Saga', 'Goku vs. King Piccolo', 'Goku confronts King Piccolo for the first time -- alone and with the Dragon Balls at stake -- as their showdown begins.'),
+    ('King Piccolo Saga', 'Piccolo Closes In', "Reeling from his clash with King Piccolo, Goku races for Korin Tower while Master Roshi and Tien set a risky trap to seize the remaining Dragon Balls and halt King Piccolo's reign."),
+    ('King Piccolo Saga', "Roshi's Gambit", 'Roshi confronts King Piccolo, betting everything on an ancient sealing technique as the tyrant closes in on the Dragon Balls.'),
+    ('King Piccolo Saga', "King Piccolo's Wish", 'With the Eternal Dragon within reach, King Piccolo seeks to make his wish. Tien and Chiaotzu attempt to intervene, while Goku and Yajirobe head for Korin Tower.'),
+    ('King Piccolo Saga', 'Siege on Chow Castle', "With King Piccolo bearing down on Chow Castle, Goku and Yajirobe head for Korin's Tower seeking aid, while Tien and friends regroup for the fight ahead."),
+    ('King Piccolo Saga', 'Conquest and Power', 'King Piccolo tightens his grip on Earth as Goku and Yajirobe reach Korin Tower for guidance, while Tien rushes to master a risky sealing technique -- and a shaken kingdom faces a grim ultimatum.'),
+    ('King Piccolo Saga', 'Awaken Darkness', 'Goku braves an icy labyrinth to find the Ultra Divine Water while a mysterious darkness awakens below.'),
+    ('King Piccolo Saga', 'A Taste of Destiny', 'Goku navigates a frozen maze in pursuit of the Ultra Divine Water, confronting deceptive reunions and perilous tests that blur reality from illusion.'),
+    ('King Piccolo Saga', 'The Ultimate Sacrifice', "Under King Piccolo's reign, Tien prepares a forbidden technique and sets out to confront him, while Goku, renewed by a perilous trial, launches toward the battle that could decide Earth's fate."),
+    ('King Piccolo Saga', 'Prelude to Vengeance', "King Piccolo targets West City as Tien reaches King's Castle -- only to confront a formidable new creation."),
+    ('King Piccolo Saga', 'Battle Cry', "As King Piccolo tightens his grip, Tien confronts a brutal new creation at the King's Castle, while Goku races to the battlefield -- stopping to protect loved ones along the way."),
+    ('King Piccolo Saga', 'Goku Strikes Back', 'Goku confronts King Piccolo in the capital, igniting a high-stakes showdown as allies race to the scene and the kingdom holds its breath.'),
+    ('King Piccolo Saga', 'The Biggest Crisis', "At Central City's King Castle, Goku squares off with King Piccolo in a high-stakes battle as news spreads and his friends race to help."),
+    ('King Piccolo Saga', 'Final Showdown', 'Goku stakes everything against King Piccolo in an all-or-nothing showdown, as a ruthless hostage ploy turns the battle into a dangerous gamble.'),
+    ('Piccolo Jr. Saga', 'Lost and Found', 'After the King Piccolo crisis, Goku searches for his Power Pole -- the key to reaching a hidden sanctuary above the clouds -- while his friends regroup and the world begins to heal.'),
+    ('Piccolo Jr. Saga', 'Temple Above the Clouds', 'Goku ascends the Power Pole to a temple above the clouds, where a serene attendant tests his worth before he can request an audience; meanwhile, reporters descend on Kame House.'),
+    ('Piccolo Jr. Saga', "Earth's Guardian Emerges", "Atop the Lookout, Goku's training with Mr. Popo becomes a test of resolve as a mysterious figure challenges his path -- bringing him closer to a way to restore what was lost."),
+    ('Piccolo Jr. Saga', 'Eternal Dragon Resurrected', 'As Goku begins training with Kami, the Eternal Dragon is restored and his friends gather to make a pivotal wish -- setting the stage for the next World Martial Arts Tournament.'),
+    ('Piccolo Jr. Saga', 'Quicker than Lightning', "Under Kami and Mr. Popo's watch, Goku braves Mount Rumble to claim the Sacred Crown, sharpening a sixth sense to outrun lightning while his friends continue their own training."),
+    ('Piccolo Jr. Saga', 'Secret of the Woods', 'Mr. Popo sends Goku into a quiet forest to find a teacher who can train his mind -- not his fists.'),
+    ('Piccolo Jr. Saga', 'The Time Room', 'Sent by Mr. Popo into the Time Room, Goku trains in the past and crosses paths with a young Master Roshi and the Crane Hermit.'),
+    ('Piccolo Jr. Saga', "Goku's Doll", "Mr. Popo grants Goku's wish for the ultimate sparring partner, forcing him to battle a powerful double while Tien, Krillin, Yamcha and Chiaotzu journey toward Korin Tower to begin their own intense training."),
+    ('Piccolo Jr. Saga', 'Walking Their Own Ways', "As Goku trains with Mr. Popo to sharpen his ki sense, Tien, Krillin, Yamcha and Chiaotzu's search for Korin's Tower leads them to a remote village in danger when its sacred mountain suddenly erupts."),
+    ('Piccolo Jr. Saga', 'Hotter than Lava', 'As Goku struggles to master his ki under Mr. Popo, Tien, Yamcha, Krillin and Chiaotzu battle an erupting volcano, racing to divert its lava before it engulfs a remote mountain village.'),
+    ('Piccolo Jr. Saga', 'Changes', 'After three years of training, Goku, Tien, Krillin, Yamcha and Chiaotzu reunite at the 23rd World Martial Arts Tournament, but a sinister new contestant suggests the real battle is only beginning.'),
+    ('Piccolo Jr. Saga', 'Preliminary Peril', 'At the 23rd World Martial Arts Tournament, Goku and his friends enter the brutal preliminaries, where a mysterious young fighter and a long-forgotten enemy raise the stakes for everyone.'),
+    ('Piccolo Jr. Saga', 'Battle of the Eight', 'The brutal preliminaries of the 23rd World Martial Arts Tournament reach their climax as returning heroes, vengeful foes and a mysterious girl battle for a coveted place among the final eight fighters.'),
+    ('Piccolo Jr. Saga', 'Tien Shinhan vs. Mercenary Tao', 'At the 23rd World Martial Arts Tournament, Tien squares off against his vengeful former master Mercenary Tao, while Goku is matched with a mysterious woman who seems furious with him.'),
+    ('Piccolo Jr. Saga', 'Anonymous Proposal', 'At the World Martial Arts Tournament, Goku battles a fierce female fighter entered as "Anonymous." Her anger hints at unfinished business, and she vows to reveal her identity only if Goku can defeat her.'),
+    ('Piccolo Jr. Saga', 'The Mysterious Hero', 'At the 23rd World Martial Arts Tournament, Krillin battles the fearsome Piccolo Jr., while Yamcha squares off with a clumsy contender called Hero -- whose odd luck and stumbles may be an act.'),
+    ('Piccolo Jr. Saga', 'Rematch', 'At the World Martial Arts Tournament, Yamcha faces the enigmatic Hero, then Goku and Tien kick off their long-awaited rematch.'),
+    ('Piccolo Jr. Saga', 'Goku Gains Speed', "At the World Martial Arts Tournament, Goku and Tien's rematch intensifies when Tien's incredible speed corners Goku, prompting an unexpected adjustment and forcing Tien to debut a new technique."),
+    ('Piccolo Jr. Saga', 'The Four Faces of Tien', 'Tien uses a new technique to create multiple copies of himself, forcing Goku to fight four opponents at once during their World Martial Arts Tournament rematch.'),
+    ('Piccolo Jr. Saga', 'Kami vs. Piccolo', "Goku wants to fight Piccolo Jr., but the tournament's mysterious Hero faces him in the semifinals, setting a dangerous plan in motion that could decide the championship and Earth's fate."),
+    ('Piccolo Jr. Saga', 'Battle for the Future', "With the world at stake and Kami's fate uncertain, Goku enters the World Martial Arts Tournament final to battle Piccolo Jr., a ruthless challenger bent on domination."),
+    ('Piccolo Jr. Saga', 'Super Kamehameha', 'In the 23rd World Martial Arts Tournament final, Piccolo Jr. threatens the arena with a devastating blast. With the crowd in peril, Goku gathers his strength for an ultimate Super Kamehameha.'),
+    ('Piccolo Jr. Saga', 'Junior No More', 'Piccolo reveals his true nature in the World Martial Arts Tournament final, sparking panic. As he transforms and the stadium clears, Goku faces a larger-than-life challenge.'),
+    ('Piccolo Jr. Saga', "Goku's Trap", 'As the tournament final intensifies, Goku gambles on a daring strategy against Piccolo, whose mounting fury pushes their battle toward a devastating new level.'),
+    ('Piccolo Jr. Saga', 'Goku Hangs On', 'Piccolo resorts to his ultimate attack, destroying the entire island and seemingly Goku.'),
+    ('Piccolo Jr. Saga', 'The Victor', 'Piccolo flies to the sky to finish off his nemesis. However, Goku has a surprise in store for him.'),
+    ('Piccolo Jr. Saga', 'Dress in Flames', 'Goku and Chichi prepare for their wedding.'),
+    ('Piccolo Jr. Saga', 'The Fire-Eater', 'The people are unable to extinguish the fire consuming the castle, so Goku and Chi Chi seek another Bansho fan.'),
+    ('Piccolo Jr. Saga', 'Outrageous Octagon', 'Goku and Chi Chi search for the Bansho fan in a snowy mountain.'),
+    ('Piccolo Jr. Saga', 'Mystery of the Dark World', "Goku realizes that the fan won't work and he must go to the Dark World."),
+    ('Piccolo Jr. Saga', 'The End, the Beginning', 'In the series finale, Goku and Chi Chi fight to make their wedding go as planned.'),
+]
+
+# ── Dragon Ball Z: Wikipedia original NA dub titles (uncut re-dub title where the old dub merged
+#    episodes, and for 68-74), TMDB sagas / season numbering / synopses (dashes -> en dash) ──
+DRAGON_BALL_Z = [  # index = absolute episode - 1 (feed: "Dragon Ball Z 140" = S05 E01): (season, ep, saga, name, synopsis)
+    (1, 1, 'Saiyan Saga', 'The New Threat', 'Goku’s quiet life with his family and friends is about to be interrupted. A new threat – a powerful and sinister alien – is on its way to Earth.'),
+    (1, 2, 'Saiyan Saga', 'Reunions', 'Goku and Gohan attend a reunion on Roshi’s island, where Goku introduces his son to all of his old friends. The smiles quickly fade, however, as an unexpected visitor – Raditz – lands on the island.'),
+    (1, 3, 'Saiyan Saga', "The World's Strongest Team", 'Raditz has kidnapped Gohan, and unless Goku agrees to join the sinister Saiyan, he may never see his son again! All hope is not lost, however, as a second visitor arrives, and Goku forges an unlikely alliance!'),
+    (1, 4, 'Saiyan Saga', "Gohan's Hidden Powers", 'Piccolo may have a way to stop Raditz – the Makankosappo! There’s only one problem. He needs time to gather energy for the blast, which means Goku must fight Raditz alone!'),
+    (1, 5, 'Saiyan Saga', "Gohan's Rage", 'Gohan unleashes a mighty attack that not even Radtiz can resist! But as quickly as his power appears, it vanishes. When Raditz prepares to strike back, Goku must make the ultimate sacrifice to save his son!'),
+    (1, 6, 'Saiyan Saga', 'No Time Like the Present', 'Piccolo takes Gohan into the wild for a harsh training program. Meanwhile, Goku embarks on a new adventure in the next world, as he travels the endless Snake Way to reach the legendary King Kai!'),
+    (1, 7, 'Saiyan Saga', 'Day 1', 'Gohan begins his first day of Piccolo’s training. Alone in the wilderness, he must quickly learn to take care of himself. But that isn’t easy when he’s tired, hungry – and being chased by bloodthirsty dinosaurs!'),
+    (1, 8, 'Saiyan Saga', 'Gohan Goes Bananas!', 'Korin wants Krillin, Yamcha, Tien, and Chiaotzu to report for special training! Meanwhile, Gohan’s grueling training causes him to undergo a shocking transformation!'),
+    (1, 9, 'Saiyan Saga', 'The Strangest Robot', 'To escape a pack of wild animals, Gohan ventures into an ancient cave, where he meets an old Capsule Corp robot. The robot has lived alone in the cave for over 30 years, and he’s not happy to have visitors!'),
+    (1, 10, 'Saiyan Saga', 'A New Friend', 'Gohan’s wilderness adventure continues, as he makes a new dinosaur friend! He’s happy to finally have some company until he’s harshly reminded that not all dinosaurs are friendly!'),
+    (1, 11, 'Saiyan Saga', 'Trouble on Arlia', 'On planet Arlia, Vegeta and Nappa become prisoners of the tyrant king who rules the planet. After a brief scuffle with the monster Yeddy, the Arlians realize that the two Saiyans are more than they can handle.'),
+    (1, 12, 'Saiyan Saga', 'Global Training', 'Gohan spends his day tormenting a T-Rex. Across the planet, Tien and Chiaotzu find their training interrupted by Launch. Meanwhile, Goku tries to find King Kai on Snake Way.'),
+    (1, 13, 'Saiyan Saga', 'Goz and Mez', 'Goku encounters two giant ogres who want nothing more than to use the hero as a play toy! If he can defeat their challenges, the ogres vow to show him the way back to Snake Way.'),
+    (1, 14, 'Saiyan Saga', "Princess Snake's Hospitality", 'Back on Snake Way, Goku comes across a house he believes might belong to King Kai! Unfortunately, the dwelling is inhabited by Princess Snake, and she’ll do anything to keep Goku as her prisoner forever!'),
+    (1, 15, 'Saiyan Saga', 'Dueling Piccolos', 'Piccolo flies off the handle during his fight with Raditz and splits in two! Meanwhile, Gohan decides to take a raft across the sea to visit his mother, gets caught in a storm, and suddenly remembers that he can’t swim!'),
+    (1, 16, 'Saiyan Saga', 'Plight of the Children', 'Gohan finds shelter with a gang of orphans living on the run from meddling adults. The group’s leader hatches a plan to take the kids to a safer hiding place, but when the police show up everything goes wrong!'),
+    (1, 17, 'Saiyan Saga', 'Showdown in the Past', 'Earth’s top warriors visit Kami’s Pendulum Room where the past, present, and future co-exist. After a trip back in time, they realize they’ll need to train harder to stand a chance against the approaching Saiyans.'),
+    (1, 18, 'Saiyan Saga', 'The End of Snake Way', 'Gohan continues training, but a full moon causes the young Saiyan to rampage out of control! Meanwhile, Goku makes it to the end of Snake Way only to mistake a friendly ape named Bubbles for King Kai!'),
+    (1, 19, 'Saiyan Saga', 'A Fight Against Gravity... Catch Bubbles!', 'The intense gravity of King Kai’s planet makes Goku’s training difficult, but when he learns that the Saiyans are used to extreme fighting conditions, Goku is inspired to give it his all. Will it be enough?'),
+    (1, 20, 'Saiyan Saga', 'The Legend of the Saiyans', 'After Goku struggles to bash Gregory with a hammer, King Kai inspires him with the story of the Saiyan race – and offers to train him personally! Will it be enough to stop the looming Saiyan invasion?'),
+    (1, 21, 'Saiyan Saga', 'A Black Day for Planet Earth', 'Goku’s training is complete, so the gang summons the Eternal Dragon to wish him back to life. There’s only one day left before the Saiyans arrive. Unfortunately, it will take Goku two days to return!'),
+    (1, 22, 'Saiyan Saga', 'The Battle Begins... Goku Where Are You?', 'Vegeta and Nappa mark their arrival with the destruction of an entire city! When the Z-Fighters confront them, the heroes must face an onslaught of Saibamen under the command of the Saiyans.'),
+    (1, 23, 'Saiyan Saga', 'The Saibamen Strike', 'Krillin, Piccolo, and Gohan stand face to face with the sinister Saiyans and their diabolical henchmen. The villains have already proven terrifyingly powerful. Can Earth’s heroes hold out until Goku arrives?'),
+    (1, 24, 'Saiyan Saga', 'Nappa... The Invincible?', 'Enraged over the loss of Yamcha, Krillin unleashes a powerful attack that destroys the maniacal Saibamen once and for all. Now Earth’s defenders must battle the Saiyans themselves – starting with Nappa.'),
+    (1, 25, 'Saiyan Saga', 'Sacrifice', 'Chiaotzu sacrifices himself to save his friends from Nappa, but when the smoke clears, the villain still stands! Luckily, Tien has one trick left that could forever silence the Saiyan warrior!'),
+    (1, 26, 'Saiyan Saga', "Nappa's Rampage", 'Vegeta has called a halt to the fighting, and Nappa uses the time to go on a rampage! Meanwhile, Goku reaches the end of Snake Way and races to rejoin his friends – but is he already too late?'),
+    (1, 27, 'Saiyan Saga', "Time's Up!", 'Piccolo, Gohan, and Krillin do their best to stop the Saiyans from finding the Dragon Balls. Meanwhile, Goku rushes back to Earth on the Flying Nimbus, armed with more power than ever before!'),
+    (1, 28, 'Saiyan Saga', 'The Return of Goku', 'Piccolo makes the ultimate sacrifice to save Gohan from the rampaging Saiyans. Just when all seems lost, Goku returns to Earth with an incredible new level of power and confronts the invaders.'),
+    (1, 29, 'Saiyan Saga', 'Goku Strikes Back', 'Locked in battle with the Saiyans, Goku gives Nappa a brutal demonstration of the training he received from King Kai. Broken and defeated, Nappa must now face the ferocious wrath of Vegeta!'),
+    (1, 30, 'Saiyan Saga', 'Goku vs. Vegeta', 'Goku decides to take on mighty Vegeta all by himself! The two appear evenly matched, but both are hiding their true strength. The epic battle is underway – which mighty warrior will claim victory?'),
+    (1, 31, 'Saiyan Saga', 'Saiyan Sized Secret', 'Vegeta and Goku continue trading brutal blows, but the action intensifies when Vegeta reveals the secret power of the Saiyans: the ability to transform into a giant, planet-destroying ape!'),
+    (1, 32, 'Saiyan Saga', 'Vegeta... Saiyan Style!', 'Goku feels the brunt of Vegeta’s fully-realized Saiyan power! Earth’s greatest hero is left with no choice except to use the Spirit Bomb. If his attack fails, he may find himself completely doomed!'),
+    (1, 33, 'Saiyan Saga', 'Hero in the Shadows', 'With Goku caught in the clutches of the giant ape Vegeta, Krillin attacks with his Destructo Disk! When his effort falls short, an unlikely hero steps out of the shadows!'),
+    (1, 34, 'Saiyan Saga', "Krillin's Offensive", 'Goku passes the power of the Spirit Bomb to Krillin, who – with King Kai’s guidance – launches the bomb at Vegeta. The Saiyan is sent flying into the sky, but is the evil warrior really gone for good?'),
+    (1, 35, 'Saiyan Saga', 'The Battle Ends', 'Vegeta is crushed beneath the full weight of Gohan’s giant ape form! With the Saiyan battered and defeated, Krillin moves to finish the Saiyan with a final blow – but Goku has other plans.'),
+    (1, 36, 'Saiyan Saga', 'Picking Up the Pieces', 'The gang mourns the loss of Yamcha, Tien, Chiaotzu, and Piccolo. With Kami gone, Earth’s Dragon Balls have disappeared. Will the surviving heroes find a way to wish their fallen friends back to life?'),
+    (1, 37, 'Saiyan Saga', 'Plans for Departure', 'Bulma accidentally destroys the Saiyan spaceship! Luckily, Mr. Popo reveals the existence of another ship that may be able to reach Namek. Can they find it in time, and will the old ship still work if they do?'),
+    (1, 38, 'Saiyan Saga', 'Nursing Wounds', 'Goku, Krillin, and Gohan prepare for the return of the Saiyans. Meanwhile, Bulma and Mr. Popo search for a second spaceship capable of transporting her to Planet Namek.'),
+    (1, 39, 'Saiyan Saga', 'Friends or Foes?', 'Gohan, Bulma, and Krillin blast off for Planet Namek in search of the magic Dragon Balls, but their journey quickly turns chaotic when they encounter a bizarre situation in the vacuum of space!'),
+    (2, 1, 'Namek Saga', 'Held Captive', 'Bulma, Gohan, and Krillin are mistaken for friends of Frieza and taken prisoner by an angry army of children! To regain their freedom and continue on their mission, the gang must convince the kids of their innocence.'),
+    (2, 2, 'Namek Saga', 'Look Out Below', 'A near-fatal crash landing turns out to have a silver lining when Bulma, Gohan, and Krillin are rescued by two friendly Namekians who agree to help them locate the seven Dragon Balls.'),
+    (2, 3, 'Namek Saga', 'Hunt for a Dragon Ball', 'Gohan, Krillin, and Bulma continue their search for the Dragon Balls with the help of their new friend Zaacro. Back on Earth, Goku has escaped from the hospital to begin training for his upcoming re-match with Vegeta.'),
+    (2, 4, 'Namek Saga', "Who's Who?!", 'As Bulma, Krillin, and Gohan close in on the last of the Dragon Balls, they uncover a shocking secret about their Namekian friends. Meanwhile, Goku works to build up his strength, and Vegeta sets his sights on revenge!'),
+    (2, 5, 'Namek Saga', 'Touchdown on Namek', 'Bulma, Krillin, and Gohan finally continue their quest to locate all seven Dragon balls. Unfortunately, the gang soon discovers that they aren’t the only ones seeking the magical orbs!'),
+    (2, 6, 'Namek Saga', 'Face-off on Namek', 'Krillin, Gohan, and Bulma are horrified to see Vegeta’s space pod land on Planet Namek, but the Saiyan Prince is the least of their problems. Yet another epically evil villain has come to Namek in search of the Dragon Balls!'),
+    (2, 7, 'Namek Saga', 'The Ruthless Frieza', 'With the odds are rapidly mounting against them, Krillin and Gohan will need some serious help if they hope to recover the Dragon Balls from Frieza and his henchmen.'),
+    (2, 8, 'Namek Saga', 'The Nameks versus Frieza', 'Krillin and Gohan get their first glimpse of Frieza’s cruelty as the villain unleashes his henchmen upon an unsuspecting Namek village. Frieza wants the fifth Dragon Ball, and he is prepared to learn its location by any means necessary!'),
+    (2, 9, 'Namek Saga', 'Escape from Dodoria', 'Gohan risks his life to rescue a Namek boy from the clutches of Frieza’s evil henchmen. Now Gohan and Krillin have an even bigger problem on their hands: Dodoria is chasing them, and he won’t stop until he has his revenge!'),
+    (2, 10, 'Namek Saga', 'Secrets Revealed', 'Dodoria’s search for Krillin and Gohan brings him face to face with an unexpected foe – Vegeta! The Saiyan prince has a score to settle with Dodoria, and the time for a final showdown between these two powerful villains has arrived!'),
+    (2, 11, 'Namek Saga', 'A Collision Course', 'Goku’s journey to Namek takes an unexpected detour when his spaceship is knocked off course by an asteroid! Goku has to act fast to get his ship back on track because he’s headed straight for the fiery center of a star!'),
+    (2, 12, 'Namek Saga', 'Vegeta Has a Ball', 'With his new abilities, Vegeta quickly tracks down and forcefully acquires another Dragon Ball. Now, there is only one magic orb left to find, and Dende knows who has it – the Eldest Namekian!'),
+    (2, 13, 'Namek Saga', 'The Past and Future', 'King Kai becomes concerned after learning that Goku is on a collision course with the ruthless Frieza. Meanwhile, back on Planet Namek, the battle between Vegeta and Zarbon has begun!'),
+    (2, 14, 'Namek Saga', 'Zarbon Transformed', 'Vegeta’s latest battle heats up as Zarbon reveals his true power: the ability to transform into a monstrous beast! With his increased size and strength, Zarbon seems ready to turn the lights out on the Saiyan Prince – permanently!'),
+    (2, 15, 'Namek Saga', 'The Eldest Namek', 'When Krillin speaks to the Eldest Namekian, he gets a double surprise! Not only does he receive a Dragon Ball, but the sleeping powers within him are awoken! Will Krillin’s incredible new strength be enough to save his friends?'),
+    (2, 16, 'Namek Saga', 'Get Vegeta!', 'Yamcha, Tien, and Chiaotzu continue training, but their workout gets intense when Piccolo challenges them all to a three-on-one bout! Back on Namek, Frieza’s henchmen try to revive Vegeta in order to obtain the missing Dragon Ball.'),
+    (2, 17, 'Namek Saga', 'Vegeta Revived', 'Vegeta escapes from the clutches of Frieza, and steals the Dragon Balls in the process! Elsewhere, Goku’s journey through space grows perilous as his ship is caught in a powerful magnetic storm!'),
+    (2, 18, 'Namek Saga', 'A Heavy Burden', 'Krillin returns from his meeting with the Eldest Namekian only to be greeted by a pair of unwelcome visitors: Vegeta and Zarbon! Meanwhile, Gohan discovers the seventh and final Dragon Ball!'),
+    (2, 19, 'Namek Saga', 'Immortality Denied', 'The Ginyu Force has been dispatched to Planet Namek to help search for the Dragon Balls. Unaware of this new threat, Krillin and Gohan struggle to keep the seventh Dragon Ball from falling into Vegeta’s evil hands.'),
+    (2, 20, 'Namek Saga', 'Big Trouble for Bulma', 'While Krillin and Gohan visit the Eldest Namekian, they leave the seventh Dragon Ball their hidden camp. When the Dragon Ball mysteriously disappears, Bulma must embark on a daring underwater adventure to get it back!'),
+    (2, 21, 'Namek Saga', 'Scramble for the Dragon Balls!', 'Bulma is taken hostage by Frieza’s evil henchmen, who force her to lead them on an underwater quest for the Dragon Balls. Without Gohan and Krillin to save her, she’ll have to outsmart her captors – or wind up sleeping with the fishes!'),
+    (2, 22, 'Namek Saga', 'Arrival of the Ginyu Force', 'Krillin and Gohan complete their journey to Guru’s house, but little do they know, Vegeta is hot on their trail! Can Guru unlock Gohan’s hidden powers in time to hold off the rampaging Saiyan’s wrath?'),
+    (2, 23, 'Namek Saga', 'Elite Fighters of the Universe... The Ginyu Force', 'The Ginyu Force has arrived on Planet Namek! Now, Vegeta, Krillin, and Gohan must form an uneasy alliance as they stand face to face with five of the fiercest warriors in the universe!'),
+    (2, 24, 'Namek Saga', 'Time Tricks and Body Binds', 'The battle with the Ginyu Force begins, as Gohan and Krillin launch a barrage of explosive energy blasts at Guldo! The Heroes are rendered helpless by Guldo’s Mind Blind technique, and this time, there is no one to save them!'),
+    (2, 25, 'Namek Saga', 'No Refuge From Recoome', 'The battle with Guldo may be over, but the real nightmare is just beginning! Recoome, the most massive member of the Ginyu Force, is ready to fight, and even the mighty Vegeta’s attacks have no effect on this monstrous foe!'),
+    (2, 26, 'Namek Saga', 'Enter Goku', 'With Krillin and Vegeta both out of commission, only Gohan remains to carry on the fight against Recoome! The young Saiyan must summon every ounce of his strength and courage in order to face this powerful foe.'),
+    (2, 27, 'Namek Saga', "Goku's New Power", 'Goku has arrived on Planet Namek, and without a second to lose! Gohan and Krillin are hanging by a thread, held at the mercy of the Ginyu Force! Has Goku’s training in 100-times gravity prepared him to face these powerful foes?'),
+    (2, 28, 'Namek Saga', 'A Legend Revealed', 'As Vegeta, Krillin, and Gohan look on, Goku easily deflects the attacks of Jeice and Burter, two of the Force’s fiercest warriors. Could Goku have become what Vegeta thought was only a legend: a Super Saiyan?'),
+    (2, 29, 'Namek Saga', 'Ginyu Assault', 'When Goku proves too much for Burter and Jeice to handle on their own, Jeice retreats in search of reinforcements. Now, the real test for Goku and his newly-acquired powers is about to begin as Captain Ginyu enters the fight!'),
+    (2, 30, 'Namek Saga', 'Incredible Force!', 'As the battle between Goku and Captain Ginyu rages on, Gohan and Krillin steal the unguarded Dragon Balls from Frieza’s ship. It’s a race against time, and our heroes must unlock the power of the Dragon Balls before it’s too late!'),
+    (2, 31, 'Namek Saga', 'Frieza Approaches', 'Goku astounds Captain Ginyu with his amazing new powers, but the Captain still has a few tricks up his sleeve! Meanwhile, Frieza arrives at the home of the Eldest Namek and begins a battle with the noble warrior, Nail!'),
+    (2, 32, 'Namek Saga', 'Goku is Ginyu and Ginyu is Goku', 'In an attempt to save the Elder, Nail fights a hopeless battle against the ruthless Frieza. Meanwhile, finding himself no match for Goku’s superior abilities, Captain Ginyu unleashes his ultimate attack, the Body Switch Technique!'),
+    (2, 33, 'Namek Saga', 'Calling the Eternal Dragon', 'Armed with the Dragon Radar, Gohan and Krillin recover the seven Dragon Balls from their hiding places. But before they can summon the Eternal Dragon to make their wish, they are confronted by a powerful new enemy – Goku?!'),
+    (2, 34, 'Namek Saga', 'Gohan, Defeat Your Dad!', 'After taking control of Goku’s body, Captain Ginyu turns his attention to Gohan and Krillin! With Goku trapped in the Captain’s broken body, it’s up to Gohan to stop the rampaging Ginyu!'),
+    (2, 35, 'Namek Saga', 'Captain Ginyu... The Frog', 'As the bout between Captain Ginyu and Vegeta heats up, Goku summons the last of his strength and tricks his foe into reversing the Body Switch Technique. Now, Goku, Krillin, and Gohan must join forces with Vegeta for the battle with Frieza.'),
+    (3, 1, 'Frieza Saga', 'Password is Porunga', 'Having acquired all seven Namekian Dragon Balls, Krillin and Gohan are ready to summon the dragon and make their wish. There’s just one problem: they don’t know the password!'),
+    (3, 2, 'Frieza Saga', "Piccolo's Return", 'With the help of young Dende, Krillin and Gohan learn they will be granted three wishes! But even as Krillin and Gohan call upon the dragon, Vegeta races to the scene on a mission to wish for mortality!'),
+    (3, 3, 'Frieza Saga', 'The Fusion', 'With the Dragon Balls gone and his plan in ruins, Frieza unleashes his fury upon Vegeta, Gohan, and Krillin. Elsewhere, the newly-revived Piccolo finds himself on Planet Namek. Will his arrival be enough to turn the tide?'),
+    (3, 4, 'Frieza Saga', 'Fighting Power: One Million?', 'Frieza reveals a dark secret from Vegeta’s past, but the villain has an even more shocking secret in store for the Z-fighters! As the monster’s power level rises to terrifying new heights, all hope for the universe seems lost!'),
+    (3, 5, 'Frieza Saga', 'Gohan Attacks', 'Frieza claims his first victim, Krillin, and Gohan must summon every ounce of his strength in order to save his friend. Can the young Saiyan put a stop to Freiza’s ruthless onslaught, or is he destined to become the next victim?'),
+    (3, 6, 'Frieza Saga', 'Piccolo the Super-Namek', 'Gohan and Krillin continue their struggle against the overwhelming powers of Frieza, but as the fighting reaches its peak, a new warrior arrives on the battlefield to aid them in their efforts!'),
+    (3, 7, 'Frieza Saga', 'Deja Vu', 'Piccolo quickly takes control of the battle with Frieza, and the putrid purple monster is shocked to learn the secret behind his opponent’s powers!'),
+    (3, 8, 'Frieza Saga', "Frieza's Second Transformation", 'Just as it appears that Piccolo has gained the upper hand, Frieza quickly dashes all hopes for victory by revealing his second monstrous transformation!'),
+    (3, 9, 'Frieza Saga', 'Another Transformation?', 'Unable to watch as Piccolo is overwhelmed by Frieza, Gohan springs into action! Meanwhile, Vegeta devises a risky plan for transforming himself into a Super Saiyan!'),
+    (3, 10, 'Frieza Saga', "Dende's Demise", 'Having reached his ultimate form, Frieza is determined to destroy the remaining Z-fighters one by one, but Vegeta boldly announces the end of Frieza’s tyrannical reign! Are Vegeta’s claims true? Has he become a Super Saiyan?'),
+    (3, 11, 'Frieza Saga', 'The Renewed Goku', 'Despite his new powers, Vegeta proves no match for Frieza! Meanwhile, Goku’s time in the rejuvenation chamber is nearly complete! Can he reach the battlefield in time to save his friends?'),
+    (3, 12, 'Frieza Saga', 'The End of Vegeta', 'Goku rejoins his friends on the battlefield, but not before Vegeta is defeated by Frieza! As the Saiyan Prince clings to life by a thread, he reveals the secrets of his violent past.'),
+    (3, 13, 'Frieza Saga', 'The Ultimate Battle', 'Feeling a new sense of connection to the dwindling Saiyan race, Goku wages war on the monstrous Frieza! As the fight intensifies, Frieza directs his energy blasts at Namek itself, turning the planet into a lava-spewing war zone!'),
+    (3, 14, 'Frieza Saga', 'Clash of the Super Powers', "Goku and Frieza continue their epic battle! An underwater attack puts Goku on top until Frieza traps him in an energy ball! It's fun and games for Frieza, but the exploding ball may prove deadly for Goku!"),
+    (3, 15, 'Frieza Saga', "Frieza's Boast", 'Frieza vows to beat Goku without using his hands, but the mighty Saiyan soon makes the mosnter eat his words! Elsewhere, Captain Ginyu uses his Body Switch Technique on Bulma, leaving her trapped in the body of a frog!'),
+    (3, 16, 'Frieza Saga', 'Bold and Fearless', "Captain Ginyu returns to the battlefield in Bulma's body! Can Piccolo, Krillin, and Gohan handle this Femme Fatale? Later, Frieza powers up to fifty percent of his maximum, and Goku finds himself completely outmatched!"),
+    (3, 17, 'Frieza Saga', 'Embodiment of Fire', 'Goku’s powerful Kaio-Ken attack has no effect on Frieza, who is still only fighting with fifty-percent of his power! Just as it seems Frieza has won the battle, a dream-like vision helps Goku ascend to a higher level of power and strength!'),
+    (3, 18, 'Frieza Saga', 'Trump Card', 'Once again, Goku is rescued by a vision! This time, Vegeta talks to Goku from beyond the grave to offer new hope and encouragement! But when Goku realizes that the battle against Frieza is futile, he turns to his last resort: the Spirit Bomb!'),
+    (3, 19, 'Frieza Saga', 'Keep the Chance Alive!!', 'Yamcha, Tien, and Chiaotzu find themselves in serious trouble when the Ginyu Force invades King Kai’s planet! Meanwhile, as Frieza thwarts Goku’s efforts to gather energy for the Spirit Bomb, Piccolo must enter the battle!'),
+    (3, 20, 'Frieza Saga', 'Power of the Spirit', 'Chaos erupts on King Kai’s planet as the Z-fighters battle the Ginyu Force! Back on Planet Namek, the life and death struggle between Piccolo and Frieza rages on, and Goku completes his Spirit Bomb!'),
+    (3, 21, 'Frieza Saga', 'Transformed at Last', 'A victory celebration comes to a halt when Frieza reappears! With no reserves left, Goku watches helplessly as Frieza directs his fury at Piccolo and Krillin. Enraged by the loss of his friends, Goku undergoes a wild transformation!'),
+    (3, 22, 'Frieza Saga', 'Explosion of Anger', 'Engulfed in golden light, Goku announces that he is now a Super Saiyan! Frieza is unimpressed – until the fighting begins! In a raging battle, Frieza is horrified when he realizes that Goku is now superior to him in every way!'),
+    (3, 23, 'Frieza Saga', "Namek's Destruction?", 'Finding himself no match for Goku, Frieza attacks Planet Namek! Unable to react in time, Goku is forced to watch helplessly as the fiery blast rips through Namek’s core! Can anyone survive such incredible destruction?'),
+    (3, 24, 'Frieza Saga', 'A Final Attack', 'With only minutes to go before the planet explodes, Frieza reaches his maximum power! Meanwhile, Gohan and Bulma race back to Goku’s spaceship. Can Goku defeat Frieza in time to rejoin his son and fly to safety?'),
+    (3, 25, 'Frieza Saga', 'Approaching Destruction', 'The battle between Goku and Frieza rages on! Back on Earth, the seven Dragon Balls have been restored, but with Namek’s destruction imminent, can Kami and Mr. Popo summon the Eternal Dragon before it’s too late?'),
+    (3, 26, 'Frieza Saga', 'Gohan Returns', 'Frieza’s victims have been wished back to life, but as they begin to rise, Goku falls – overwhelmed by Frieza’s devastating assault. Sensing his father’s defeat, Gohan rushes to the scene as the universe’s final hope.'),
+    (3, 27, 'Frieza Saga', 'The Last Wish', 'Guru and the people of Namek have been brought back to life, and the dragon Porunga has reappeared to grant the last of three wishes. While a newly enraged Goku resumes his onslaught against the evil Frieza, Dende races to make the final wish!'),
+    (3, 28, 'Frieza Saga', 'Duel on a Vanishing Planet', 'Goku chooses to stay behind and finish his fight with Frieza. With Namek set to explode any second, there seems no way for Goku to defeat Frieza and escape in time! Has the Super Saiyan made the greatest mistake of his life?'),
+    (3, 29, 'Frieza Saga', 'Pathos of Frieza', 'Time grows short for Goku as each passing second brings Namek closer to ultimate destruction. As the Super Saiyan’s strength increases with every blow, it appears his epic battle with Frieza has at last reached its conclusion!'),
+    (3, 30, 'Frieza Saga', 'Frieza Defeated!!', 'Frieza lashes out in a blind rage, launching a reckless volley of energy attacks. In the face of Goku’s superior power, the evil tyrant’s greatest fear has finally been realized: defeat at the hands of a Super Saiyan!'),
+    (3, 31, 'Frieza Saga', 'Mighty Blast of Rage', 'Even after being sliced into pieces by his own energy disk, Frieza isn’t ready to release his stranglehold on the universe. With what little power he has left, Frieza fires a final energy blast after Goku as he leaves the battlefield!'),
+    (3, 32, 'Frieza Saga', "Namek's Explosion... Goku's End?", 'Even though it looks like Goku is trapped on the exploding planet Namek, Dende has a good reason to celebrate: the Dragon Balls have the power to bring Goku back! But if that’s the case, why does everyone still look so sad?'),
+    (3, 33, 'Frieza Saga', "Goku's Alive!!", 'It is a time of joyful reunions as old friends long absent are finally wished home with the Dragon Balls! Krillin and Yamcha are brought back from the spirit world, but Porunga, the Namekian dragon, has startling news about Goku!'),
+    (4, 1, 'Androids Saga', 'The Heavens Tremble', "Gohan's going fishing, Krillin's found a girlfriend, and it looks as though peace has once again returned to the Earth. But a terrible evil lurks beneath this tranquil surface: Garlic Junior has escaped from the Dead Zone!"),
+    (4, 2, 'Androids Saga', 'Black Fog of Terror', "With the help of the Spice Boys, Garlic Junior releases the Black Water Mist upon an unsuspecting world. As the dreaded fog spreads, so does Garlic Junior's control over the Earth!"),
+    (4, 3, 'Androids Saga', "Battle in Kami's Lookout", 'As Piccolo attempts to hold off the Spice Boys and the infected Z Fighters, Gohan and Krillin race toward Kami’s Lookout to retrieve the one thing capable of reversing the effects of the Black Water Mist: the Sacred Water!'),
+    (4, 4, 'Androids Saga', 'Fight with Piccolo', 'With Piccolo infected by the Black Water Mist and Kami trapped in a glass bottle, Garlic Jr. allows his Spice Boys to “have sport” with Earth’s heroic defenders. Will Spice’s energy blast finish off Krillin for good?'),
+    (4, 5, 'Androids Saga', 'Call for Restoration', 'Krillin, after suffering a Spice Boys beating, attempts to free Kami and Mr. Popo, but he soon falls prey to the Black Water Mist. Gohan is the only hero left who can save the Earth, but can he do it with his two best friends against him?'),
+    (4, 6, 'Androids Saga', 'Suicidal Course', 'Piccolo and Krillin spring their trap, revealing that they have pretended to be infected by the Black Water Mist! Enraged, Garlic Jr. transforms using the energy of the Makyo Star and warns that the Sacred Water’s effectiveness will soon expire.'),
+    (4, 7, 'Androids Saga', 'Extreme Measures', 'Garlic Junior and his Spice Boys harness the evil power of the Makyo Star to become stronger than ever, but Gohan, Krillin, and Piccolo are ready to battle this new threat!'),
+    (4, 8, 'Androids Saga', 'The World Awakens', 'In a last ditch effort to save his friends, Gohan launches an all out assault on Garlic Junior! Meanwhile, deep within the Lookout, Kami and Mr. Popo are under siege by the Former Guardians!'),
+    (4, 9, 'Androids Saga', 'Brief Chance for Victory', 'Blinded by rage and desperate to destroy his enemies, Garlic Junior uses his power to open up the Dead Zone! With Piccolo and Krillin out of commission, Gohan is the only one left who can stop him!'),
+    (4, 10, 'Androids Saga', "Krillin's Proposal", 'Even though peace has been restored on Earth, Krillin faces his toughest challenge ever: surviving a shopping trip with Maron! And it looks like she’s picking out a wedding dress! Are Krillin and Maron planning to tie the knot?'),
+    (4, 11, 'Androids Saga', "Frieza's Counterattack", 'Gohan’s cracking the books, and his new tutor is cracking the whip! But study time is almost over, for a powerful evil is racing toward the Earth! Gohan’s worst fears have come to life: Frieza has survived!'),
+    (4, 12, 'Androids Saga', 'The Mysterious Youth', 'The Earth faces its darkest hour as Frieza and his father King Cold rapidly approach! Without Goku to assist them, the Z-Fighters prepare to launch a desperate attack against the most powerful evil the universe has ever known!'),
+    (4, 13, 'Androids Saga', 'Another Super Saiyan?', 'Frieza and King Cold descend upon the Earth, but a mysterious warrior has come to thwart their diabolical plot for revenge. Does this brash young hero have what it takes to stand up to these twin titans of evil?'),
+    (4, 14, 'Androids Saga', 'Welcome Back Goku', "After defeating Frieza and King Cold, the mysterious stranger announces the exact time and place of Goku's arrival on Earth. Can this young Super-Saiyan really predict the future?! Gohan and the others are determined to find out!"),
+    (4, 15, 'Androids Saga', 'Mystery Revealed', 'After testing Goku in combat, the mysterious stranger reveals his true identity! What does his timely arrival mean?! In a startling conversation with Goku, this powerful hero from the future tells all!'),
+    (4, 16, 'Androids Saga', "Goku's Special Technique", 'The future has been written – or has it? That’s what Goku and the rest of the Z-Fighters must decide as they hear Trunks’ ominous warning. The Androids are coming! And they just might be bringing the end of the world with them!'),
+    (4, 17, 'Androids Saga', 'Z Warriors Prepare', 'Gohan learns some new tricks, Vegeta pushes himself to the breaking point, and Yamcha struggles just to keep up as everyone prepares to face the looming Android menace! But will all their preparations be enough?'),
+    (4, 18, 'Androids Saga', "Goku's Ordeal", 'ChiChi wants a car! Goku and Piccolo take a day off from training to enroll in driving school. These two mighty warriors may be the Earth’s only chance for survival, but what are the chances they’ll learn how to parallel park?'),
+    (4, 19, 'Androids Saga', 'The Androids Appear', 'Three years have come and gone, and the day of reckoning has finally arrived! The Androids are here, and they’re wreaking havoc on an unsuspecting city! Goku and his friends must now put their training to the test!'),
+    (4, 20, 'Androids Saga', 'A Handy Trick', 'Yamcha is held at the mercy of the ruthless Android 20, and Goku and the others must race to help their friend. Believing their power to be far superior, the Androids tempt Goku’s rage by leveling half of the city!'),
+    (4, 21, 'Androids Saga', 'Double Trouble for Goku', 'The battle with the Androids begins as Goku launches an all out assault against Android 19. The Super Saiyan seems to have the fight under control, but something is about to go horribly wrong!'),
+    (4, 22, 'Androids Saga', 'Upgrade to Super Saiyan', 'Attacked from within by a crippling virus, Goku is helpless against the maniacal Android 19. But just when it looks like the end for Goku, Vegeta appears on the scene! And he’s got a few big surprises in store for the Androids!'),
+    (4, 23, 'Androids Saga', 'The Secret of Dr. Gero', 'In his first fight as a Super Saiyan, Vegeta takes control of the battlefield and defeats Android 19 in convincing fashion! Unwilling to share 19’s fate, Android 20 runs for cover in the mountains!'),
+    (4, 24, 'Androids Saga', 'More Androids?!', 'Vegeta, Piccolo, and Gohan lead an exhaustive search through the mountains for Android 20. But the hunters are also the hunted! Android 20 lurks in the shadows, ready to strike, and it looks like Piccolo is his first target!'),
+    (4, 25, 'Androids Saga', 'Follow Dr. Gero', 'Our heroes make a startling discovery: Android 20 is none other than Dr. Gero himself! Before they can act on this new knowledge, the diabolical doctor flees to his secret laboratory, where he intends to awaken more killer androids!'),
+    (4, 26, 'Androids Saga', 'Nightmare Comes True', 'The race is on, as the Z-Fighters search frantically for Dr. Gero’s hidden laboratory! But rather than stop the androids before they’re activated, Vegeta wants a challenge! Despite Trunks’ warning, he chooses to fight the androids alone'),
+    (4, 27, 'Androids Saga', "Goku's Assassin", 'Dr. Gero escapes to his mountain hideout and brings his killer androids to life. Without the help of Goku, all hope seems lost. Dr. Gero appears one step closer to ultimate vengeance, but his evil creations have a vendetta of their own!'),
+    (4, 28, 'Androids Saga', 'Deadly Beauty', 'Vegeta and Android 18 have a showdown on the highway. Trunks and the others are there to help, but the Saiyan prince insists on fighting his opponent man-to-android! Will Vegeta’s overconfidence be his undoing?'),
+    (4, 29, 'Androids Saga', 'No Match for the Androids', 'In an earthshaking battle, the beautiful Android 18 brings Vegeta to his knees. But before she can deliver the final blow, Trunks steps in to help. Soon an all out war between good and evil begins, and the androids have the upper hand.'),
+    (4, 30, 'Androids Saga', 'Last Ditch Effort', 'Vegeta, Trunks, Tien, and Piccolo realize a grim truth: unless they can increase their powers quickly, they’ll have no chance against the androids. In a drastic move, Piccolo flies to Kami’s Lookout and makes a most unexpected proposal!'),
+    (4, 31, 'Androids Saga', 'Closing In', 'The androids hit the road in pursuit of Goku, but they’re delayed by some hyperactive hoodlums. Krillin and Trunks race to move Goku to a safer hiding place, and Kami wrestles with Piccolo’s difficult offer.'),
+    (4, 32, 'Androids Saga', 'Unwelcome Discovery', 'The Z-fighters retreat to Master Roshi’s house to plan their next move. Meanwhile, Bulma makes a startling discovery: the wreckage of a second time capsule! Where did it come from, and more importantly, who was in it?'),
+    (5, 1, 'Cell Saga', 'Seized with Fear', 'Trunks and Krillin join Bulma at the crash site of the mysterious time capsule and find an eerie clue: the shell of a large, locust-like creature! Whatever arrived in the time capsule isn’t human, and it’s on the loose!'),
+    (5, 2, 'Cell Saga', 'The Reunion', 'An insect-like monster threatens to turn Gingertown into a ghastly graveyard! In response to this new menace, Kami fuses with Piccolo, and the resulting Super Namekian flies to Gingertown for a showdown of epic proportions!'),
+    (5, 3, 'Cell Saga', 'Borrowed Powers', 'Gingertown becomes a battlefield as Piccolo confronts Cell. This monster from the future gains his strength by sucking the life out of his victims! But that’s not the creature’s only talent. He also knows the Kamehameha Wave!'),
+    (5, 4, 'Cell Saga', 'His Name is Cell', 'Heavily-armored tanks fail to halt Cell’s rampage, and now it’s up to Piccolo to stop the monster! As the Namekian fights for survival, Cell reveals that he’s actually an android, the ultimate achievement of Dr. Gero!'),
+    (5, 5, 'Cell Saga', "Piccolo's Folly", 'Piccolo cleverly distracts Cell long enough to regenerate his arm. The Namekian is ready for another round, and Krillin and Trunks have arrived to provide backup! With the odds mounting against him, Cell makes a tactical decision.'),
+    (5, 6, 'Cell Saga', 'Laboratory Basement', 'With hopes of saving the future, Trunks and Krillin race to destroy Dr. Gero’s lab. Meanwhile, Piccolo and Tien search for the elusive Cell. But how can they stop an enemy who knows their every move?'),
+    (5, 7, 'Cell Saga', 'Our Hero Awakes', 'In South City, Cell plows through more civilians and accidentally runs into Krillin! Goku finally gets back on his feet, but with Cell and the other androids in full stride, can the Saiyan hero still make a difference?'),
+    (5, 8, 'Cell Saga', 'Time Chamber', 'As Cell continues his deadly march, Goku hatches a plan to squeeze a year’s worth of training into just one day! Back at Master Roshi’s, the android trio arrives looking for Goku! Can Piccolo hold them off until the Saiyans return?'),
+    (5, 9, 'Cell Saga', 'The Monster is Coming', 'Behind the closed doors of the Hyperbolic Time Chamber, Vegeta and Trunks struggle to push past the level of Super Saiyan! Down on Earth, Piccolo challenges Android 17 to a battle!'),
+    (5, 10, 'Cell Saga', "He's Here", 'Stronger than ever after fusing with Kami, Piccolo leads the attack against the androids! It looks like the Super Namekian has things under control until Cell arrives on the battlefield! Can anyone stop this hideous monster?!'),
+    (5, 11, 'Cell Saga', 'Up to Piccolo', 'Just as Cell is about to absorb Android 17, Piccolo bravely steps in and foils the monster’s plan! Does the Super Namekian really have a chance at stopping Cell on his own?! Or is he simply putting off the inevitable?'),
+    (5, 12, 'Cell Saga', 'Silent Warrior', 'When Android 16 claims to be as strong as Cell, it seems like a wild boast! But after he launches an offensive that throws Cell against the ropes, it becomes clear that the big android has the power to back up his words!'),
+    (5, 13, 'Cell Saga', 'Say Goodbye, 17', 'It’s android against android as 16 clashes with Cell. Android 16 is the stronger fighter, but Cell is far too driven to be stopped now! With an underhanded attack, Cell moves one step closer to his gruesome transformation!'),
+    (5, 14, 'Cell Saga', 'Sacrifice', 'With an onslaught of psychic blasts, Tien gives Androids 16 and 18 a chance to escape, but the powerful attack rapidly drains his strength. Tien may have saved the androids, but can he save himself?'),
+    (5, 15, 'Cell Saga', 'Saiyans Emerge', 'Trunks and Vegeta emerge from the time chamber after a year of intense training. Goku and Gohan are next into the room, but with Cell nearing his ultimate form, can the fighters afford to wait another day?'),
+    (5, 16, 'Cell Saga', 'Super Vegeta', 'Cell obliterates a chain of islands in search of Android 18! Vegeta, fresh from the time chamber, is ready to test his new strength against the monster, but is he really stronger than a Super Saiyan?'),
+    (5, 17, 'Cell Saga', 'Bow to the Prince', 'It’s show-and-tell for Vegeta as he demonstrates how much difference a year of training can make! Meanwhile, back in the time chamber, Gohan struggles to become a Super Saiyan.'),
+    (5, 18, 'Cell Saga', 'Hour of Temptation', 'Vegeta quickly pounds Cell six feet into the ground! With his back against the wall, the monstrous android attacks Vegeta’s weakest point: his arrogance! Can the Saiyan Prince resist Cell’s tempting challenge?'),
+    (5, 19, 'Cell Saga', "Krillin's Decision", 'With beautiful Android 18 in his sights, Krillin clutches the controller that will shut her down forever. But when the moment arrives, the little man hesitates! All the while, Cell looms overhead, hungry for perfection!'),
+    (5, 20, 'Cell Saga', 'The Last Defense', 'With the remote control smashed, Krillin and Trunks must save Android 18 from Cell’s power-hungry grasp. But Vegeta has other plans in mind. Will trunks attack his own father to save humanity?'),
+    (5, 21, 'Cell Saga', 'Cell is Complete', 'The earth’s greatest fear has come true: Cell is complete! Can anyone stop the android nightmare in his final, perfect form? As the heroes nervously line up, a glimmer of hope shines from above. Gohan is a Super Saiyan!'),
+    (5, 22, 'Cell Saga', 'Vegeta Must Pay', 'After allowing Cell to reach his final form, Vegeta is ready for the challenge he was promised. But as Cell easily deflects the Saiyan’s every blow, it’s clear that Vegeta has more on his hands than he bargained for!'),
+    (5, 23, 'Cell Saga', 'Trunks Ascends', 'Tapping into the deepest wells of his energy, Vegeta summons one last attack: the Final Flash! Meanwhile, Trunks struggles to decide whether or not to help his father. Vegeta’s pride is at stake, but so is his life!'),
+    (5, 24, 'Cell Saga', 'Saving Throw', 'Vegeta lies unconscious after his battle with Cell, and Trunks unleashes his hidden powers to save his father’s life. With Goku and Gohan still training, Trunks is the only person standing in the evil android’s way.'),
+    (5, 25, 'Cell Saga', 'Ghosts from Tomorrow', 'Trunks vows to stop the future from repeating itself; Cell can’t wait for the future to unfold. It’s all up for grabs as the two warriors prepare for battle. Only one future will survive. Whose will it be?'),
+    (5, 26, 'Cell Saga', 'The Cell Games', 'Realizing that his powers are no match for his opponent, Trunks accepts defeat, only to be given a second chance when Cell proposes a tournament! Is Cell really interested in competition, or does he have a sinister motive?'),
+    (6, 1, 'Cell Games Saga', 'What is the Tournament?', 'While Trunks tells the others of Cell’s plans to hold a tournament, the diabolical android begins his preparations for the competition by constructing a fighting arena. Do the Z-Fighters have a chance, or is this a contest that only Cell can win?'),
+    (6, 2, 'Cell Games Saga', 'The Doomsday Broadcast', 'Cell breaks into showbiz, literally! The sinister android hijacks a television station in order to announce his "Cell Games" to the world! But are there any challengers left with the strength and courage to get into the ring?'),
+    (6, 3, 'Cell Games Saga', 'Meet Me in the Ring', 'Panicked Earthlings flee their homes to escape Cell’s wrath, but all hope is not lost! Back at the Lookout, Goku and Gohan finally emerge from the Time Chamber. After a quick trip to size up the competition, Goku is ready to battle Cell!'),
+    (6, 4, 'Cell Games Saga', 'No Worries Here', "With nine days until Cell's tournament begins, Vegeta, Piccolo, and Trunks plan to return to the Hyperbolic Time Chamber. But Goku decides that he and Gohan have had enough training! What does Goku know that the others don't?"),
+    (6, 5, 'Cell Games Saga', 'A Girl Named Lime', "Gohan stumbles upon a village that has retreated to a nearby shelter, and when he discovers that the owner of the shelter is capitalizing on the villagers' fear of Cell, he comes up with a Super Saiyan solution to the problem!"),
+    (6, 6, 'Cell Games Saga', 'Memories of Gohan', "As the Cell Games draw near, Goku enjoys his remaining time with friends and family! First he fishes with Krillin, then he strolls down memory lane with Chichi, and finally it's time for a very special boy to blow out the candles!"),
+    (6, 7, 'Cell Games Saga', 'A New Guardian', 'When the Royal Military foolishly tries to stop Cell with ordinary weapons, the attack quickly becomes a suicide mission! Goku is determined to revive the fallen soldiers, but that will require new Dragon Balls!'),
+    (6, 8, 'Cell Games Saga', "Dende's Dragon", 'With help from King Kai, Goku travels to Namek to recruit a new guardian for the Earth! Most of the Namekians refuse the offer, but there’s one little guy who can’t wait to go! Dende is back, and he’s going to create a new Dragon!'),
+    (6, 9, 'Cell Games Saga', 'The Puzzle of General Tao', 'Goku comes face to face with an old adversary: General Tao! The search for the Dragon Balls led Goku to the aging general, but unless the Super Saiyan can solve the crafty villain’s puzzle, the search may end in vain!'),
+    (6, 10, 'Cell Games Saga', 'The Games Begin', 'The wait is over, and the Cell Games are ready to begin! The Z-Fighters arrive ringside, only to discover another challenger already on the scene. It’s none other than World Martial Arts Champion, Mr. Satan!'),
+    (6, 11, 'Cell Games Saga', 'Losers Fight First', 'Caroni and Pirozhki, Mr. Satan’s top students, make a spectacular entrance to the ring, but are they really ready to rumble with Cell? Don’t miss a minute of the fun, because this fight could be over fast!'),
+    (6, 12, 'Cell Games Saga', 'Goku vs. Cell', 'The main event begins! Now free of distraction, Goku steps into the ring to face Cell. The Earth shakes and the heavens tremble as these mighty super warriors collide! And that’s just the warm up!'),
+    (6, 13, 'Cell Games Saga', "Cell's Bag of Tricks", 'Cell attacks Goku with a dazzling array of moves: the Destructo Disk, the Special Beam Cannon, even the Kamehameha Wave! So far, Goku has been able to match Cell blow for blow, but how will the Super Saiyan fare against such a lethal arsenal?'),
+    (6, 14, 'Cell Games Saga', 'No More Rules', 'As the battle intensifies, Cell quickly grows tired of the rules he created for the tournament. With a flick of his finger, the Android destroys the ring, instantly turning the Cell Games into a deadly fight to the finish!'),
+    (6, 15, 'Cell Games Saga', 'The Fight is Over', 'Goku blasts Cell with a Kamehameha Wave that reduces the android to a pile of cinders, but his triumph is short-lived. The monster shows his amazing resilience by fully regenerating himself!'),
+    (6, 16, 'Cell Games Saga', 'Faith in a Boy', 'After surrendering to Cell, Goku names the next challenger to enter the Cell Games: Gohan! Goku has supreme faith in his son’s abilities, but the young Saiyan will need a lot more than his father’s confidence if he’s going to survive!'),
+    (6, 17, 'Cell Games Saga', "Gohan's Desperate Plea", 'The fight between Gohan and Cell intensifies, but the villain’s attacks seem to have no effect on the boy! Could the young hero really have the power to defeat the evil android once and for all?'),
+    (6, 18, 'Cell Games Saga', 'Android Explosion', 'Cell is determined to unleash Gohan’s full potential, but the boy refuses to fight, prompting the android to torture Gohan’s friends instead! Next, Cell does the unthinkable by spawning miniature Cells to attack the Z-Fighters!'),
+    (6, 19, 'Cell Games Saga', 'Cell Juniors Attack!', 'Gohan boils with rage as the Cell Juniors wreak havoc on the Z-Fighters. The boy struggles to resist the urge to fight, but he’s a powder keg waiting to explode, and Android 16 appears ready to light the fuse!'),
+    (6, 20, 'Cell Games Saga', 'The Unleashing', 'Spurred by Android 16’s dying words, Gohan’s hidden power is finally unleashed! With his new strength and speed, Gohan easily destroys the wicked Cell Juniors, but his sights are set on a bigger target!'),
+    (6, 21, 'Cell Games Saga', 'The Unstoppable Gohan', 'Cell’s desire for battle turns into a nightmare as Gohan unleashes the full fury of his strength. The evil android powers up to his maximum level, but will it be enough to spare him from the wrath of Super Saiyan?'),
+    (6, 22, 'Cell Games Saga', "Cell's Mighty Breakdown", 'Gohan’s Super Saiyan strength appears to have no limit, and the young hero delivers a blow so severe it causes Cell to cough up Android 18! As the monster wears down, Gohan prepares to end the battle once and for all!'),
+    (6, 23, 'Cell Games Saga', "A Hero's Farewell", 'Clearly overmatched by Gohan, Cell initiates his last line of defense: a self-destruct program that will blow up the entire planet! With only seconds to spare, Goku risks everything to transport Cell away from the Earth.'),
+    (6, 24, 'Cell Games Saga', 'Cell Returns!', 'The nightmare continues! Cell explodes, but a particle of his nucleus survives the blast, providing all the android needs to regenerate himself! Restored to his ultimate form, Cell returns to the Earth more powerful than ever!'),
+    (6, 25, 'Cell Games Saga', "The Horror Won't End", 'After easily dispensing of both Trunks and Vegeta, Cell announces a new plan. First, he’ll destroy the Earth, and after that, the Universe will be his next target! Can this weapon of ultimate destruction be stopped?'),
+    (6, 26, 'Cell Games Saga', 'Save the World', 'The final showdown begins! While Goku telepathically coaches Gohan from the Other World, the Z-Fighters jump in for a five-sided attack! Gohan has the potential inside him, but can Goku show him how to unlock it?'),
+    (6, 27, 'Cell Games Saga', "Goku's Decision", 'Cell is finally defeated, but the Z-Fighters still have much to resolve! Can they make it to the Lookout in time to heal the badly-injured Gohan? Is Android 18 still a threat? And can our heroes find a way to bring back Goku?'),
+    (6, 28, 'Cell Games Saga', 'One More Wish', "After Goku’s decision to stay in the after-world, Krillin uses the final wish to save Android 18, but does he have the courage to reveal his true feelings? And is anyone brave enough to break the news of Goku's passing to Chichi?!"),
+    (6, 29, 'Cell Games Saga', 'Free the Future', 'Peace and order have been restored on Earth in the present, but Trunks’ future world is still a place of darkness and despair! Once he arrives home, the future will be forever changed!'),
+    (7, 1, 'World Tournament Saga', 'Warriors of the Dead', 'When Goku hears about a martial arts master known as the Grand Kai, he rushes to meet him for a lesson! Meanwhile, Cell, Frieza, King Cold and the Ginyu Force have teamed up to take control of Other World!'),
+    (7, 2, 'World Tournament Saga', 'Tournament Begins', 'Goku must train for 10,000 years before he can study under the Grand Kai! But when the West, South, and East Kai’s decide to hold an Other World Tournament, Goku gets his chance! All he has to do is defeat the greatest fighters of all time!'),
+    (7, 3, 'World Tournament Saga', 'Water Fight', "The Other World Tournament advances to the Quarter-Finals, and the battles are out of this world! Goku's opponent, Arqua, appears to be a wimp, but things change quickly when he transforms the entire ring into water!"),
+    (7, 4, 'World Tournament Saga', 'Final Round', "Goku advances to the final round of the tournament where he will face the warrior Pikkon! Sparks of energy fly as the brawlers battle for the title! When Pikkon reveals a Piccolo-like secret, Goku must up the ante! It's Super Saiyan time!"),
+    (7, 5, 'World Tournament Saga', 'Goku vs. Pikkon', "Goku may be a Super Saiyan, but can he withstand Pikkon's unbelievable Thunder Flash Attack?! And that's not all! While Goku's been fighting in Other World, seven years have passed on Earth, Gohan is now a teenager!"),
+    (7, 6, 'World Tournament Saga', 'Gohan Goes to High School', 'On his first day of high school, Gohan stops a truckload of bank robbers by turning Super Saiyan. Now, the city can\'t stop talking about this mysterious “Gold Fighter!” Can Gohan get through class without revealing his secret identity?'),
+    (7, 7, 'World Tournament Saga', 'I am Saiyaman', 'Afraid he’ll be recognized by his classmates, Gohan gets Bulma to design a retractable super-hero costume that he can activate in an instant. Say goodbye to Gohan – and hello to Saiyaman!'),
+    (7, 8, 'World Tournament Saga', "Gohan's First Date", "Gohan thinks being a super-hero is a snap until a pretty girl named Angela discovers his secret. When Angela threatens to tell all unless he goes on a date with her, Gohan's life suddenly becomes more complicated than ever!"),
+    (7, 9, 'World Tournament Saga', 'Rescue Videl', "When the Red Shark Gang kidnaps the mayor and demands a showdown with Mr. Satan, it's Videl who answers the challenge. Gohan knows Videl is in over her head, but he can't leave his classroom to help her without blowing his cover!"),
+    (7, 10, 'World Tournament Saga', 'Blackmail', 'When a greedy circus promoter kidnaps a baby dinosaur, all he sees are dollar signs! Little does he know, that the dinosaur is a close, personal friend of the Great Saiyaman!'),
+    (7, 11, 'World Tournament Saga', "I'll Fight Too!", 'Lights! Camera! Action! The Great Saiyaman is about to become a movie star! But the hero’s brush with stardom better not take long, because he has to hurry up and tell all of his old friends the big news: Goku’s coming back!'),
+    (7, 12, 'World Tournament Saga', 'The Newest Super Saiyan', 'While training for the upcoming tournament, Gohan discovers that Goten has already reached the level of Super Saiyan! Sparks fly when the brothers spar, but the main event happens when Videl meets Chichi for the first time!'),
+    (7, 13, 'World Tournament Saga', 'Take Flight Videl', 'With the Tournament fast approaching, Videl and Goten must learn to fly! Miles away, Vegeta holds a training session of his own, and his young son, Trunks, has a big surprise in store for him'),
+    (7, 14, 'World Tournament Saga', 'Gather For the Tournament', "Videl learns to fly, and Gohan and Goten do some last minute honing of their Super Saiyan skills. On the island where the tournament will be held, a special guest arrives! What do you say to a hero who's been dead for seven years?!"),
+    (7, 15, 'World Tournament Saga', 'Camera Shy', 'High school jock, Sharpner, discovers his crush, Videl, has her heart set on the mysterious Great Saiyaman! Refusing to be replaced, Sharpner vows to ruin the caped fighter by unmasking his true identity and capturing it on film!'),
+    (7, 16, 'World Tournament Saga', 'The World Tournament', 'The action begins as the World Martial Arts Tournament opens with the Junior Division! Thirty-five young fighters vie for the prize, but the matches prove to be more comedy than competition – until Trunks steps into the ring!'),
+    (7, 17, 'World Tournament Saga', 'Trunks vs. Goten', "Goten and Trunks breeze through the Junior Division of the tournament until they find themselves going head-to-head in the finals! Who will win this exciting match? This is one championship fight you won't want to miss!"),
+    (7, 18, 'World Tournament Saga', 'Best of the Boys', 'The match for the Junior Division World Championship continues as Goten and Trunks battle for the title! The winner of this final joust becomes the new World Champion! Can Goten outwit the cunning Trunks?'),
+    (7, 19, 'World Tournament Saga', 'Big Trouble, Little Trunks', "After winning the championship, Trunks fights an exhibition match against Mr. Satan! Can the Champ hold on to his reputation as the world's strongest fighter? Meanwhile, two mysterious figures reveal themselves to Goku!"),
+    (7, 20, 'World Tournament Saga', 'Who Will Fight Who?', 'Trunks and Gohan infiltrate the adult competition at the tournament by donning the disguise of Mighty Mask. The pairings for the day’s matches are selected. The first to fight: Krillin vs. Pintar, a man easily ten times Krillin’s size!'),
+    (7, 21, 'World Tournament Saga', 'Forfeit of Piccolo!', 'Piccolo stuns the crowd by surrendering to his mysterious opponent before the first punch is thrown! Next into the ring is Videl, who must face the enormous Spopovitch. Will she be able to handle such a large job?'),
+    (7, 22, 'World Tournament Saga', 'A Dark and Secret Power', 'Videl takes to the ring for what is expected to be an easy victory over Spopovitch. She hits the towering brute with everything she’s got, but her attacks have no effect. It seems Spopovitch is possessed by a supernatural power!'),
+    (7, 23, 'World Tournament Saga', 'Videl is Crushed', 'To everyone’s horror, Spopovitch delays his inevitable victory for the purposes of torturing Videl! It appears the muscle-bound thug isn’t going to stop until he kills her! Will Videl make it out of the ring alive?'),
+    (7, 24, 'World Tournament Saga', 'Identities Revealed', 'Gohan’s identity is finally discovered as he takes his place on the tournament floor, but he has bigger things to worry about. His opponent, Kibito, is determined to see him transform into a Super Saiyan!'),
+    (7, 25, 'World Tournament Saga', 'Energy Drain', 'When Gohan transforms into a Super Saiyan, Spopovitch and Yamu spring into action! Armed with a mysterious energy-draining device, the pair launch an attack on the golden-haired teen.'),
+    (8, 1, 'Majin Buu Saga', "The Wizard's Curse", 'The Z-Fighters race to stop Babidi’s cronies from delivering the pure energy that will be used resurrect the dreaded Majin Buu. Will they find Babidi’s hidden spaceship in time?'),
+    (8, 2, 'Majin Buu Saga', 'King of the Demons', 'Piccolo and Krillin are turned to stone by Dabura! Determined to save their friends, Goku, Gohan, and Vegeta board Babidi’s ship only to find themselves trapped! Can they save their friends and find their way out?'),
+    (8, 3, 'Majin Buu Saga', 'Vegeta Attacks', 'At each stage of Babidi’s ship, Goku, Gohan, and Vegeta must face a fearsome warrior, each more powerful than the last. There’s no room for error! Even the tiniest mistake will enable Babidi to steal their energy for Majin Buu!'),
+    (8, 4, 'Majin Buu Saga', 'Next Up, Goku', 'Babidi unleashes his monster Yakon to steal the Z-Fighters’ energy for Majin Buu. The battle at Stage Two is sure to be intense, as Yakon is one of the most fearsome creatures in the universe!'),
+    (8, 5, 'Majin Buu Saga', 'Battle Supreme', 'At the World Martial Arts Tournament, the five remaining competitors enter the ring for an all-out Battle Royale! The fists fly as Number 18, Mighty Mask, and Mr. Satan duke it out to decide who will be the next Champion of the World!'),
+    (8, 6, 'Majin Buu Saga', 'Eighteen Unmasks', 'The battle heats up as Number 18 and Mighty Mask take their fight to the skies! Number 18 gives it everything she’s got, but her attacks prove useless against her masked opponent. Could she find the edge she needs to win?'),
+    (8, 7, 'Majin Buu Saga', 'Pay to Win', 'As the final bout of the tournament continues, Number 18 throws the defending champ for a loop by offering to throw the fight! Meanwhile, Babidi has selected his warrior for Stage 3: Dabura, King of the Demon World!'),
+    (8, 8, 'Majin Buu Saga', 'Heart of a Villain', 'The intense battle between Gohan and Dabura rages on, but just as the Stage 3 clash reaches a heated peak, Dabura stops the fight! Why has the evil giant conceded, and what is the great discovery he claims to have made?'),
+    (8, 9, 'Majin Buu Saga', 'The Dark Prince Returns', 'In an all-out assault against Vegeta, Babidi uses his power to undo the unsuspecting Prince from within! Vegeta is stripped of his good qualities by the wicked wizard, and becomes the heartless warrior that he once was!'),
+    (8, 10, 'Majin Buu Saga', "Vegeta's Pride", 'Evil Vegeta gives Goku an ultimatum: fight – or watch him annihilate more innocent lives! Goku vows to settle the score between them once and for all, but the Supreme Kai steps between the Saiyans with a bold declaration!'),
+    (8, 11, 'Majin Buu Saga', 'The Long Awaited Fight', 'The battle between Goku and Vegeta has begun! With Babidi’s magic enhancing his already incredible strength, Vegeta matches Goku move for move, but every blow the Saiyan Prince lands is a boost for Majin Buu!'),
+    (8, 12, 'Majin Buu Saga', 'Magic Ball of Buu', 'With the fight between Goku and Vegeta supplying vast quantities of energy for Majin Buu, there’s not a moment to lose! Can Gohan muster up the strength to stop the evil wizard before it’s too late?'),
+    (8, 13, 'Majin Buu Saga', 'Buu is Hatched!', 'The seal encasing Buu is finally broken! Supreme Kai insists on retreat, but Gohan refuses, launching an incredible series of energy attacks. When the shell opens, nothing is inside! Gohan, however, knows it’s no time to celebrate.'),
+    (8, 14, 'Majin Buu Saga', 'The Losses Begin', 'With his big pink belly and infantile behavior, Buu doesn’t fit the bill of a galaxy destroyer – until he hurls Dabura into a cliff with a single blow! Gohan senses a limitless power, and the Supreme Kai insists this is the end!'),
+    (8, 15, 'Majin Buu Saga', 'The Terror of Majin Buu', 'Supreme Kai must use his unique fighting powers to keep Buu at bay – or lose his life! One mile away, Goten and Trunks stumble upon Piccolo, still frozen in stone, and accidentally shatter him to pieces! And there’s more! The King of Demons returns!'),
+    (8, 16, 'Majin Buu Saga', 'Meal Time', 'Free from the grip of Babidi, Vegeta decides to seek his revenge by destroying the monster Majin Buu. Assuming Gohan to be a victim of the voracious villain, the Super Saiyan goes ballistic. Can Vegeta bring down Buu?'),
+    (8, 17, 'Majin Buu Saga', "The Warrior's Decision", 'With Goku and Gohan missing in action, it’s up to Vegeta to end Majin Buu’s reign of terror. The Saiyan prince gives it his all, but Buu’s powers may be more than he can handle!'),
+    (8, 18, 'Majin Buu Saga', 'Final Atonement', 'Trunks and Goten save Vegeta from a savage beating, but the prideful prince is determined to destroy Majin Buu by himself. Vegeta is prepared to risk everything to defeat this foe, but is he really ready to give up his own life?'),
+    (8, 19, 'Majin Buu Saga', 'Evil Lives On', 'Majin Buu’s flesh is scattered on the battlefield, but his mystical power is rebuilding the monster into one deadly piece! Babidi is recovering, too, having narrowly survived Piccolo’s attack!'),
+    (8, 20, 'Majin Buu Saga', 'Find the Dragon Balls', 'Anxious to undo the massacre caused by Vegeta, Bulma and the others search frantically for the seven Dragon Balls! Meanwhile, the injured Goku finally awakens, and Dende uses his healing powers to bring him back to speed!'),
+    (8, 21, 'Majin Buu Saga', 'Revival', 'Goku hatches a plan for defeating Majin Buu: Fusion! By joining two fighters of equal size and strength, an entirely new fighter can be created. But only one such pair remains – Goten and Trunks! Can the young half-Saiyans save the world?'),
+    (8, 22, 'Majin Buu Saga', 'Global Announcement', 'Babidi seeks vengeance against Piccolo, Goten, and Trunks! Plastering images on everyone’s mind, Babidi threatens to terrorize humanity until the trio is brought forward! Meanwhile, Gohan is taken to Supreme Kai’s world!'),
+    (8, 23, 'Majin Buu Saga', 'Learn to Fuse', 'Goku begins training Goten and Trunks in the art of Fusion. Meanwhile, Gohan, having been healed in Supreme Kai’s world, tries to remove the legendary Z-Sword to use in the fight against Majin Buu!'),
+    (8, 24, 'Majin Buu Saga', 'The Z Sword', 'Majin Buu launches into a feeding frenzy, transforming an entire town’s population into chocolate! Gohan draws the ancient Z-Sword, Goku struggles to teach Goten and Trunks the art of Fusion, and an unlikely hero is asked to join the fight!'),
+    (8, 25, 'Majin Buu Saga', 'Race to Capsule Corp.', 'As Goten and Trunks train to stop the vicious Majin Buu, Idasa’s jaded mother tells Babidi exactly where Trunks lives! The Z-Fighters must now find a way to stop the evil wizard before he reaches Capsule Corp!'),
+    (8, 26, 'Majin Buu Saga', 'Super Saiyan 3?!', 'Trunks searches frantically for the lost dragon radar, and Goku powers-up to an unimaginable level: Super Saiyan 3! Will this newfound strength be enough to stop Majin Buu from destroying West City?'),
+    (8, 27, 'Majin Buu Saga', "Buu's Mutiny", 'Goku uses his new Super Saiyan 3 abilities to combat the evil Majin Buu, buying Trunks the time he needs to locate the missing Dragon Radar. But now that Goku has started the fight, he may not be able to escape!'),
+    (8, 28, 'Majin Buu Saga', 'The Fusion Dance', 'Liberated from his master, Majin Buu becomes even more destructive than before, wiping out entire cities in mere seconds! Earth’s only hope now rests on the shoulders of two young warriors: Goten and Trunks!'),
+    (8, 29, 'Majin Buu Saga', "Goku's Time is Up", 'Tensions rise for Goten and Trunks as their duel with Majin Buu approaches. Meanwhile, Buu prepares for the upcoming battle by building himself a home! Elsewhere, Goku bids a poignant farewell as he finally returns to Other World.'),
+    (8, 30, 'Majin Buu Saga', 'Return to Other World', 'While Trunks and Goten continue their quest to perfect the Fusion Technique, Gohan seeks to master the Z-Sword. Back on Earth, an encounter with a blind boy reveals that there is another side to the belligerent Buu!'),
+    (8, 31, 'Majin Buu Saga', 'Out From the Broken Sword', 'When Gohan’s intense training breaks the legendary Z-Sword, all hope seems lost until Old Kai emerges and from the legendary weapon. Who is this aged fellow, and does he really have the incredible power he claims to possess?'),
+    (8, 32, 'Majin Buu Saga', 'Gotenks is Born', 'After many comical misfires, Trunks and Goten finally perfect the Fusion technique, and Gotenks is born! Defying Piccolo’s command, the super-kid immediately leaves to go fight Majin Buu! Is Gotenks ready for the fight of his young life?'),
+    (8, 33, 'Majin Buu Saga', 'Unlikely Friendship', 'As Majin Buu continues to terrorize humanity, a lone savior appears: Mr. Satan! His Megaton punch won’t be enough to stop the monster, but this unlikely hero may have a few surprises in store for Buu!'),
+    (8, 34, 'Majin Buu Saga', 'I Kill No More', 'While the Z-Fighters continue training in preparation for their battle with Majin Buu, Mr. Satan devises some sneakier plans to take the villain down. But will he even need to carry them out? Is Majin Buu having a change of heart?'),
+    (9, 1, 'Kid Buu Saga', 'The Evil of Men', 'When Mr. Satan inspires Majin Buu to give up his evil ways, it seems the professional pretender has really saved the world! But when a deranged madman suddenly spoils Buu’s good mood, the pink terror goes on another rampage!'),
+    (9, 2, 'Kid Buu Saga', 'Buu Against Buu', 'The Battle of the Buus begins as Majin Buu fights his evil counterpart! The good Buu gets a taste of his own medicine when he’s turned into chocolate! Evil Buu gobbles him up, and a horrible transformation takes place! Who is this radical new Buu?'),
+    (9, 3, 'Kid Buu Saga', 'Empty Planet', 'When the new and improved Majin Buu makes a surprise visit to the Lookout to challenge Gotenks, every second becomes a test of survival! And where are Trunks and Goten during the chaos that erupts?... Sound asleep, of course!'),
+    (9, 4, 'Kid Buu Saga', 'Time Struggle', 'Before he can unleash his fury on the remaining Z-Fighters, Majin Buu is coaxed into the Hyperbolic Time Chamber. Inside, Trunks and Goten are training diligently, but will they have enough time to perfect their new moves before Majin Buu arrives?'),
+    (9, 5, 'Kid Buu Saga', 'Super Moves of Gotenks', 'The long awaited rematch between Majin Buu and Gotenks begins! But when Gotenks’ fighting techniques come up short, he is forced to improvise – resulting in some of the craziest attack moves ever!'),
+    (9, 6, 'Kid Buu Saga', 'Trapped in Forever', 'The battle between Gotenks and Majin Buu rages on inside the Hyperbolic Time Chamber. On the outside, family and friends wait anxiously for Gotenks and Piccolo to reappear. Can they successfully defeat Majin Buu and make it out alive?'),
+    (9, 7, 'Kid Buu Saga', 'Feeding Frenzy', 'Powered by his insatiable hunger, Majin Buu escapes the Hyperbolic Time Chamber, leaving Piccolo and Gotenks trapped inside. Krillin and the gang are forced to fight the monster on their own. Will Buu finally make a meal out of the good guys?'),
+    (9, 8, 'Kid Buu Saga', 'Gotenks is Awesome', 'Super Saiyan 3 Gotenks continues his fight with Majin Buu, and the Lookout is caught in the crossfire! As Gotenks turns up the power, so does Majin Buu – and by the time it’s over, one of them will be in way over his head!'),
+    (9, 9, 'Kid Buu Saga', 'Unlucky Break', 'Gohan continues his training on the World of the Kais. Meanwhile, Gotenks briefly takes the upper hand in the battle with Majin Buu before his techniques begin to fall apart. Will Gohan be ready in time to step in and finish the fight?'),
+    (9, 10, 'Kid Buu Saga', 'A Whole New Gohan', 'When Gotenks’ fusion unravels, it appears the end has finally come for Goten and Trunks. But just as things seem their worst, Gohan descends on the scene with his newly awakened powers! Finally, the tables are turning on Majin Buu!'),
+    (9, 11, 'Kid Buu Saga', 'Search for Survivors', 'After being dominated on the battlefield, Majin Buu blows himself up in a desperate attempt to destroy Gohan! But is this just a ploy? Gohan seems to think so! Is Majin Buu plotting an ambush or simply trying to buy a little time?'),
+    (9, 12, 'Kid Buu Saga', 'Majin Buu Transforms', 'Majin Buu reappears, ready for battle, but rather than continue his fight against Gohan, Buu stages a clever deception to absorb Gotenks and Piccolo. With the wisdom of Piccolo and the power of Super Saiyan Gotenks, Buu transforms into “Super Buu!”'),
+    (9, 13, 'Kid Buu Saga', "The Old Kai's Weapon", 'After absorbing Piccolo and Gotenks, Majin Buu’s powers have increased exponentially! Armed with some new tricks, Majin Buu is poised for global destruction. Now that Gohan is alone and weakening, is there anyone who can stop the monster?'),
+    (9, 14, 'Kid Buu Saga', 'Ready to Fuse?', 'Goku watches helplessly from Other World as Majin Buu sets his sights on Gohan. Luckily the Old Kai reveals a secret source of power that could save the day. Is Goku ready to bond with his son and put an end to Majin Buu’s reign of terror?'),
+    (9, 15, 'Kid Buu Saga', 'Union of Rivals', 'After Majin Buu absorbs Gohan, Goku’s plan to join forces with his son is ruined. But an unlikely ally arrives on the scene – Vegeta! Will the Saiyan Prince put aside his differences and agree to merge with Goku?'),
+    (9, 16, 'Kid Buu Saga', 'Meet Vegito', 'The bodies of Goku and Vegeta join to form a new Saiyan warrior. The monster Majin Buu is impressed by the strength of his new opponent, but refuses to take him seriously. Will Majin Buu’s arrogance be his undoing?'),
+    (9, 17, 'Kid Buu Saga', 'Rip in the Universe', 'The newly-formed Saiyan warrior Super Vegito matches Majin Buu punch for punch. But the monster’s new opponent stirs up an uncontrollable anger within the very heart of the beast. Will Majin Buu’s frenzy mean the end of planet Earth?'),
+    (9, 18, 'Kid Buu Saga', 'Vegito...Downsized', 'The battle rages on between Vegito and Majin Buu! The Super Saiyan Combo seems to have the fight well in hand. But is Vegito tempting fate by toying with Buu? What terrible tricks does the wily, pink monster still have up his sleeve?'),
+    (9, 19, 'Kid Buu Saga', 'The Incredible Fighting Candy', 'Having been reduced to a coffee-flavored candy, it seems nothing can stop Vegito from being consumed by the evil Majin Buu. But when the gumdrop fights back, Buu realizes that the battle is far from over!'),
+    (9, 20, 'Kid Buu Saga', 'The Innards of Buu', 'When Majin Buu absorbs Vegito, the fused Saiyan separates into Goku and Vegeta once again. Deep within the villain, they reveal their plan to rescue Gohan and the others. Can the duo survive the digestive process and carry out their mission?'),
+    (9, 21, 'Kid Buu Saga', 'Mind Trap', 'Dangers abound as Goku and Vegeta continue their search for Gohan and inside of Majin Buu’s body! After meeting some disgusting bedfellows, they finally find what they’re looking for as they enter Majin Buu’s head!'),
+    (9, 22, 'Kid Buu Saga', 'Deadly Vision', 'Goku and Vegeta reunite the others only to be attacked by Majin Buu! The showdown proves that fighting Buu inside his own head is a mind-bending experience. Can Goku and Vegeta survive in this twisted house of horrors where all is Buu?'),
+    (9, 23, 'Kid Buu Saga', 'Evil Kid Buu!', 'When Super Buu’s body begins to mutate once again, Goku and Vegeta have to get out fast! But what awaits them should they manage to escape? What will the insidious Buu turn into next?'),
+    (9, 24, 'Kid Buu Saga', 'End of Earth', "After the cords of attachment to the roly-poly Buu are cut by Vegeta, Majin Buu should mutate into a much weaker form. But instead he gets even stronger! This baffles everyone but Kibito Kai, who discloses Majin Buu's bizarre history!"),
+    (9, 25, 'Kid Buu Saga', 'True Saiyans Fight Alone', "With Earth erased from existence, Majin Buu begins his search for Goku and Vegeta, leaving entire worlds destroyed in his wake. But when Buu's hunt leads him to the World of the Kais, Goku and Vegeta draw the line!"),
+    (9, 26, 'Kid Buu Saga', 'Battle for the Universe Begins', 'With Majin Buu ready for a fight, Kibito Kai is stunned to see Goku and Vegeta playing a game of Rock, Paper, Scissors! Rather than use the Fusion Technique to join their powers, the duo has decided to fight Buu one at a time!'),
+    (9, 27, 'Kid Buu Saga', "Vegeta's Respect", 'When Super Saiyan 3 Goku collapses from exhaustion, Vegeta enters the fight, but he doesn’t last long! Just as Majin Buu is about to deliver the deathblow, Goku makes a comeback!'),
+    (9, 28, 'Kid Buu Saga', 'Minute of Desperation', "Goku's powers are fading, and he must end the battle before it's too late! Enter Vegeta, who begins a furious battle with Buu to buy Goku the time needed to gather energy. Outclassed by his opponent, can the Saiyan Prince survive!?"),
+    (9, 29, 'Kid Buu Saga', 'Old Buu Emerges', 'When Vegeta falls, Mr. Satan steps in to take up the challenge! It appears the wannabe hero has signed his death warrant, but when Buu attempts to attack, the monster is crippled by agony!'),
+    (9, 30, 'Kid Buu Saga', 'Earth Reborn', "As good Majin Buu wages an all-out war against his evil counterpart, Vegeta asks Dende to summon the Dragon on the new Planet Namek. With the good Buu's power dwindling, will Vegeta have enough time to carry out the final phase of his plan?"),
+    (9, 31, 'Kid Buu Saga', 'Call to Action', 'Goku awaits the arrival of the Earthlings’ collective energy to vitalize the Spirit Bomb, but the energy isn’t coming! Have the people of the Earth turned a deaf ear to Vegeta’s plea for help at this most critical hour?'),
+    (9, 32, 'Kid Buu Saga', 'People of Earth Unite', 'The foolish Earthlings ignore Goku, but when Mr. Satan asks for help, the humans have a change of heart. Will their outpouring of energy arrive in time? Goku can only wait and watch as Vegeta crumbles under the might of Majin Buu!'),
+    (9, 33, 'Kid Buu Saga', 'Spirit Bomb Triumphant', 'After the good Buu and Mr. Satan free Vegeta, Goku launches the Spirit Bomb! Unfortunately, the weary Saiyan doesn’t have enough power to deliver the blast, and Buu sends it right back at him! Will Goku be destroyed by his own attack?'),
+    (9, 34, 'Kid Buu Saga', 'Celebrations with Majin Buu', 'When Goku and his companions return to Earth after defeating Majin Buu, they are welcomed with open arms. But nobody is happy to see the good Buu! Can Mr. Satan’s pink pal manage to fit into society? Or is he destined to become an outcast?'),
+    (9, 35, 'Kid Buu Saga', "He's Always Late", 'Goku has his hands full guarding four dragon eggs from the dangers of the wild, but even if he can save the baby dragons, he will soon face an even more dangerous peril: an angry Chi Chi!'),
+    (9, 36, 'Kid Buu Saga', 'Granddaughter Pan', 'It’s been ten years since the demise of evil Majin Buu, and Earth is once again at peace. Gohan is a scholar. Trunks and Goten are strong, young teenagers! Vegeta and Bulma have a new daughter! And Goku is a grandfather!'),
+    (9, 37, 'Kid Buu Saga', "Buu's Reincarnation", 'A new World Tournament is set to begin! With help from Majin Buu, Goku rigs the drawing so he faces a mysterious fighter in the first round of the finals! Is this timid, little village boy called Uub really as strong as Goku thinks?'),
+    (9, 38, 'Kid Buu Saga', "Goku's Next Journey", 'Uub grows stronger as the battle rages, soon becoming the Saiyan’s equal, but before the match is decided, Goku makes a startling revelation! With his plan revealed, Goku and Uub depart the arena, leaving a stunned crowd in their wake.'),
+]
+
+# Dragon Ball specials (TMDB Specials): feed film keyword -> (canonical title, TMDB synopsis). Ordered: specific first.
+DBZ_SPECIALS = [
+    ('episode of bardock', 'Dragon Ball: Episode of Bardock (2011)', "The continuing adventures of Goku's father Bardock, who traveled through time and met new friends and enemies."),
+    ('bardock', 'Dragon Ball Z: Bardock - The Father of Goku (1990)', 'The tale of Bardock, the father of Goku, and his rebellion against his master the mighty Frieza.'),
+    ('summer vacation', 'Dragon Ball Z: Summer Vacation Special (1992)', 'In the streets of West City, Goku and Gohan, wearing sharp tuxedos, discuss the first three movies of Dragon Ball and the first seven of Dragon Ball Z.'),
+    ('atsumare', 'Dragon Ball Z: Atsumare! Gokū Wārudo (1992)', 'Goku and his friends pose questions for the viewers about the Dragon Ball series.'),
+    ('goku world', 'Dragon Ball Z: Atsumare! Gokū Wārudo (1992)', 'Goku and his friends pose questions for the viewers about the Dragon Ball series.'),
+    ('history of trunks', 'Dragon Ball Z: The History of Trunks (1993)', "It has been thirteen years since the Androids began their killing rampage and Son Gohan is the only person fighting back. He takes Bulma's son Trunks as a student and even gives his own life to save Trunks's. Now Trunks must figure out a way to change this apocalyptic future."),
+    ('eradicate the super saiyan', 'Dragon Ball: Plan to Eradicate the Super Saiyans (2010)', 'Dr. Raichi is one of the only survivors of the Tuffles, a race that once lived on Planet Plant before the coming of the Saiyans. The Saiyans not only massacred the entire Tuffle race, but also stole their technology and conquered the planet, renaming it Planet Vegeta in honor of their king. Raichi managed to escape with a capsule and found refuge on the Dark Planet, a world at the end of the universe. His only wish is to eradicate the last remaining Saiyans.'),
+    ('eradicate the saiyan', 'Dragon Ball Z Side Story: Plan to Eradicate the Saiyans (1993)', "Dr. Raichi, a survivor of the Tuffle race that was eliminated from Planet Vegeta by the Saiyans, is trying to take revenge on the surviving Saiyans by killing them and Earth's population. Goku, Gohan, Piccolo, Trunks, and Vegeta must find and destroy generators emitting deadly Destron Gas before all life on Earth is extinguished, then find Raichi and stop him."),
+    ('year-end', 'Looking Back at It All: The Dragon Ball Z Year-End Show! (1993)', 'Gohan and Goten are having a hot bath outside in the middle of winter. A dead Goku suddenly appears in front of his sons with the help of his Instant Transmission. The three Saiyans reflect back on the events that occurred during the Cell Games.'),
+    ('looking back', 'Looking Back at It All: The Dragon Ball Z Year-End Show! (1993)', 'Gohan and Goten are having a hot bath outside in the middle of winter. A dead Goku suddenly appears in front of his sons with the help of his Instant Transmission. The three Saiyans reflect back on the events that occurred during the Cell Games.'),
+    ('friends return', 'Dragon Ball: Yo! Son Goku and His Friends Return!! (2008)', "Goku and his family and friends encounter Vegeta's brother, and a threat from Vegeta's past shows up and causes trouble."),
+    ('tree of might', 'Dragon Ball Z: The Tree of Might (1990)', None),
+]
+
+def _joint_nums(se):
+    """House rule for joint slots: 1 ep -> (None, None); 2 eps -> "S05 E01+E02" (joint list);
+    3+ consecutive eps in one season -> range "S05 E01-E03" (ep_end)."""
+    if len(se) < 2:
+        return None, None
+    if len(se) == 2 or len({s for s, _ in se}) > 1:
+        return None, [list(x) for x in se]
+    return se[-1][1], None
+
+# ── Gunsmith Cats (1995-96 OVA, 3 episodes; IMDb list, typos tidied) ─────────
+DUCKTALES = {  # DuckTales (1987), IMDb list keyed on the feed's (season, episode): (name, synopsis)
+    (1, 1): ("Treasure of the Golden Suns: Don't Give Up the Ship", "Part 1 of 5. Scrooge McDuck is forced to take in his three nephews Huey, Dewey, and Louie, when their Uncle Donald enlists in the Navy. As they learn to get along, the mysterious El Capitan hires the Beagle Boys to steal a small wooden ship from Scrooge's museum, saying it is a map to a real treasure ship."),
+    (1, 2): ('Treasure of the Golden Suns: Wronguay in Ronguay', "Part 2 of 5. Having learned about the ship of gold, Scrooge and the triplets follow the map to South America, in a race with El Capitan, this time aided by Scrooge's archenemy, Flintheart Glomgold. Both parties are caught in the region's legendary Monsopies rainstorms."),
+    (1, 3): ('Treasure of the Golden Suns: Three Ducks of the Condor', 'Part 3 of 5. An expert examines a coin from the sunken ship and declares it is from the legendary Valley of the Golden Suns. Scrooge flies to the Andes mountains to find the owner of a twin coin, and one half of the map leading to the Valley. He is aided by his nephew Donald, on temporary leave from the Navy, and pilot Launchpad McQuack.'),
+    (1, 4): ('Treasure of the Golden Suns: Cold Duck', "After Scrooge goes off alone to follow the ocean currents to find the other half of the map, Launchpad and the boys follow his trail to Anarctica, where they are captured by a city of intelligent Penguins. they receive unexpected help from the boys' new governess, Mrs. Beakley, and her granddaughter Webbigail."),
+    (1, 5): ('Treasure of the Golden Suns: Too Much of a Gold Thing', "Having completed the map, McDuck and Co. finally fly to the Valley of the Golden Suns. From outside they are stalked by El Capitan; from inside they are threatened by Scrooge's increasing greed, which leads him to recklessly risk all their lives against the Valley's booby traps."),
+    (1, 6): ('Armstrong', "Gyro Gearloose builds a robot that can do anything efficiently and effectively. Then it goes berserk and takes over Scrooge's empire."),
+    (1, 7): ("Luck o' the Ducks", 'Webigail befriends a leprechaun cast out by his people. Scrooge inadvertently saves the little man\'s life, and, knowing that his people have to grant him a wish, demands that he be given their legendary "Golden Caverns" in return. When the little people scheme to punish Scrooge for his greed, Webigail and her friend must save him.'),
+    (1, 8): ('Where No Duck Has Gone Before', "Uncle Scrooge forecloses on a loan for a movie studio. To improve it, he instructs Gyro to make the set for a space show, as real as possible. When he does, Huey, Dewey, and Louie go to space with their hero 'Major Courage,' where they are captured by aliens. How will they defeat the aliens and return home? Does 'Major Courage' have 'what it takes' when it is not an act?"),
+    (1, 9): ('Nothing to Fear', 'On a day when the McDuck family is trapped indoors by a thunderstorm, Magica DeSpell causes each of them to see living versions of their worst fears.'),
+    (1, 10): ('Duck in the Iron Mask', 'Scrooge visits his old friend, Count Roy, of the mountain kingdom of Montedumas, only to find that his evil twin brother Ray has usurped the throne, and thrown Roy in jail wearing an iron mask.'),
+    (1, 11): ('Much Ado About Scrooge', 'Scrooge and his nephews follow a trail to a remote island to find a lost play written by legendary playwright Drakespeare, followed by super-salesman Filler Brushbill.'),
+    (1, 12): ('Spies in Their Eyes', 'Donald is hypnotized into stealing the control module for a prototype attack submarine Scrooge has developed for the Navy.'),
+    (1, 13): ('Dime Enough for Luck', "Magica DeSpell enchants Scrooge's nephew Gladstone Gander into using his supernatural luck to infiltrate Scrooge's money bin and steal his Number One Dime, thus cursing himself with bad luck."),
+    (1, 14): ('Jungle Duck', "A search for a lost silver statue causes Scrooge and the others to discover a jungle duck. Much to Mrs Beakley's surprise, the jungle duck is a Prince whom she was once a nanny to long ago."),
+    (1, 15): ('Scroogerello', 'Scrooge is the servant boy for his evil stepbrothers and evil stepfather. His fairy godmother prepares him for the ball, where he falls in love with the princess. She is kidnapped! How will he rescue the princess before midnight?'),
+    (1, 16): ('Top Duck', "Launchpad is terrified of making a fool of himself in front of his flying-ace family when all the McQuacks are to appear at an air show together. Launchpad is to fly Scrooge's experimental fighter plane, the Mc-X. But when the Beagle Boys sabotage his practice efforts and put themselves forward as its test pilots, the entire McQuack clan must bond together to stop an aerial assault on Scrooge's money bin."),
+    (1, 17): ('Bermuda Triangle Tangle', "After a cargo ship is lost in the Bermuda Triangle, Scrooge and his nephews travel there to discover the Triangle's secret and find the missing crew."),
+    (1, 18): ('The Status Seekers', 'Scrooge realizes that he is not acting like a rich snob, which makes him unpopular among other rich people. He tries to raise his social status by acting rich, but the price of this turns out to be too high for him.'),
+    (1, 19): ('Sweet Duck of Youth', 'Thinking that he has become too old, Scrooge sets out to find the Fountain of Youth.'),
+    (1, 20): ("Magica's Shadow War", "Magica De Spell's plan to magically use her shadow to retrieve Scrooge's number one dime backfires when her shadow overpowers her."),
+    (1, 21): ("Launchpad's First Crash", 'After Launchpad crashes for a hundredth time, he and Scrooge remember how they first met (and crashed).'),
+    (1, 22): ('Home Sweet Homer', 'In ancient Greece, evil sorceress Circe accidentally brings uncle Scrooge and the boys back in time, where they help a young king, Homer, to defeat her. Inspired by the ancient Greek epic poem The Odyssey.'),
+    (1, 23): ('Duck to the Future', 'Magica DeSpell tricks uncle Scrooge and sends him 40 years into the future, in which she is in control. Scrooge must defeat her and return to his own time.'),
+    (1, 24): ('Down and Out in Duckburg', 'Uncle Scrooge is challenged by someone collecting an old guarantee. Who will help Scrooge after the way he treated them? How will he reclaim his former wealth?'),
+    (1, 25): ('Dr. Jekyll & Mr. McDuck', 'Uncle Scrooge uses a strange perfume he bought in an auction, which makes him go crazy. His nephews must find an antidote with the help of a famous British detective.'),
+    (1, 26): ('Time Teasers', 'Gyro invents a time-stopping device, which gets stolen by the Beagle boys. The chase after the thieves brings Scrooge, his nephews, and Gyro centuries into the past, where they are all caught by pirates.'),
+    (1, 27): ('Catch as Cash Can: Part 1 - A Drain on the Economy', "Flintheart Glomgold hires the Beagle boys to steal Scrooge's fortune, so that Glomgold could win the title of the richest duck in the world, and an amazing prize that comes with it."),
+    (1, 28): ('Catch as Cash Can: Part 2 - A Whale of a Bad Time', 'Glomgold tries again to stop Scrooge from being declared the richest duck in the world, this time using a stolen submarine.'),
+    (1, 29): ('Catch as Cash Can: Part 3 - Aqua Ducks', 'Scrooge must go to the bottom of the sea to recover his fortune, which was sunk in the previous episode.'),
+    (1, 30): ('Catch as Cash Can: Part 4 - Working for Scales', 'After recovering his money from the bottom of the sea, Scrooge has very little time left to deliver it to Macaroon and be declared the richest duck in the world. Glomgold and the Beagle boys will stop at nothing to prevent this.'),
+    (1, 31): ('Merit-Time Adventure', "A sea monster is attacking ships, and even abducts uncle Scrooge. It's up to the junior woodchucks to stop the monster, but only one of them knows how."),
+    (1, 32): ('Ducky Horror Picture Show', 'Werewolf, Dracula, and other monsters come to Duckburg for an annual convention, wreaking havoc on the town and on Scrooge McDuck.'),
+    (1, 33): ('The Golden Fleecing', 'Scrooge, his nephews and Launchpad must fight their way through harpies and a dragon to steal the legendary Golden Fleecing.'),
+    (1, 34): ('Horse Scents', 'Flintheart Glomgold bets against Scrooge McDuck on horse racing, in a hope of becoming the richest duck in the world, and he is willing to use any means to ensure his victory.'),
+    (1, 35): ("Duckworth's Revolt", 'After Duckworth is fired so he can find his own fortune, he and the nephews are captured and enslaved. How will they get back to Earth?'),
+    (1, 36): ('Ducks of the West', "Scrooge's oil reserves are suddenly dried up. He goes to the land of the cowboys to find out why."),
+    (1, 37): ('Pearl of Wisdom', 'A couple of thieves steal a huge pearl from Banana Island inhabitants and sell it to Scrooge. But the pearl turns out to be far more valuable than they thought.'),
+    (1, 38): ('Once Upon a Dime', 'Uncle Scrooge tells the story of how he made his fortune.'),
+    (1, 39): ('Dinosaur Ducks', "Scrooge and Launchpad go to the Lost World to get a dinosaur for Scrooge's zoo."),
+    (1, 40): ('Sphinx for the Memories', 'Donald is mistaken for an Ancient Egyptian ruler, known as the Garbled One, whose spirit later takes over his body.'),
+    (1, 41): ('Double-O-Duck', 'When a spy who looks exactly like Launchpad is caught, Launchpad is offered to impersonate that spy in order to foil an evil plot.'),
+    (1, 42): ('Micro Ducks from Outer Space', 'Tiny aliens visit Earth and leave one of their machines behind. When Scrooge tries to use this machine, he creates a very small problem.'),
+    (1, 43): ('Robot Robbers', 'Gyro creates giant robots for construction work, but Beagle Boys find another use for them.'),
+    (1, 44): ('Send in the Clones', "Magica De Spell transforms the Beagle Boys into Scrooge's nephews and sends them to retrieve Scrooge's Number One Dime."),
+    (1, 45): ('Lost Crown of Genghis Khan', 'Scrooge and his nephews must beat other treasure hunters and recover the lost crown of Genghis Khan from the Abominable Snowman.'),
+    (1, 46): ('The Right Duck', "Thanks to Launchpad's stupidity, he and Dufus find themselves in a rocket heading for Mars. How will they get back?"),
+    (1, 47): ('Back Out in the Outback', "Someone of something is attacking the sheep on the Scrooge's farm in Australia. He goes down there to investigate."),
+    (1, 48): ('Sir Gyro de Gearloose', 'Fed up with just being considered a "Gadget Man," Gyro uses his time-tub to go back to medieval times to become a brave knight. However, his penchant for invention soon gets the better of him.'),
+    (1, 49): ('Raiders of the Lost Harp', 'Scrooge discovers the Lost City of Troy, in which he finds a magic harp. But his claim on the harp is challenged by Magica DeSpell and the Minotaur.'),
+    (1, 50): ('All Ducks on Deck', 'A strange creature who calls himself Phantom Blot steals a top secret jet in order to conquer the world. Scrooge, his nephews, and Launchpad team up with Donald to stop this evil plot.'),
+    (1, 51): ('The Curse of Castle McDuck', 'Scrooge McDuck takes his nephews and Webby back to Scotland, visiting both Cottage McDuck, and Castle McDuck. However, the locals are fearful of the castle, claiming a supernatural hound haunts the grounds.'),
+    (1, 52): ('Superdoo!', 'Dufus finds an alien crystal, which gives him superpowers.'),
+    (1, 53): ('Earth Quack', 'Strange underground creatures settle under Duckburg and cause earthquakes for fun. Scrooge and his nephews go down to stop them.'),
+    (1, 54): ("Magica's Magic Mirror / Take Me Out of the Ballgame", "Magica DeSpell tricks Scrooge with a magic mirror to get his lucky dime. / Duckworth becomes a baseball coach, even though he doesn't know a first thing about baseball."),
+    (1, 55): ("Scrooge's Pet", 'Webbie has an idea to help Uncle Scrooge worry less about his money. However the pet causes more worry when it takes the new combination for the safe door.'),
+    (1, 56): ('The Money Vanishes', "The Beagle Boys steal Gyro's teleportation device to get to the Scrooge's gold."),
+    (1, 57): ('Back to the Klondike', 'Scrooge returns to the place where he started making his fortune, but finds more of his past than he expected.'),
+    (1, 58): ('Master of the Djinni', 'McDuck and Glomgold race each other to find the magic lamp of Aladdin, but finding the lamp turns out to be just the beginning.'),
+    (1, 59): ("Launchpad's Civil War", 'Launchpad is invited to participate in a reenactment of a civil war battle. He feels honored at first, but the honor turns out to be more of an insult.'),
+    (1, 60): ('Hero for Hire', "After being fired by Scrooge, Launchpad is recruited as a movie hero, not realizing that he's being used by the Beagle Boys to rob Duckburg's banks."),
+    (1, 61): ('Maid of the Myth', 'A group of vikings, who were cut off from civilization for centuries, attack Duckburg and abduct Mrs. Beakley. Scrooge and his team are off to the rescue.'),
+    (1, 62): ('Hotel Strangeduck', 'Scrooge buys an old castle and tries to turn it into a hotel, but the castle appears to be haunted. Or is it?'),
+    (1, 63): ('Duckman of Aquatraz', 'Scrooge is framed for the robbery of a famous painting and is sent to Aquatraz prison.'),
+    (1, 64): ('The Uncrashable Hindentanic', 'Flintheart Glomgold gives Scrooge the challenge of turning a profit on the retired airship, the Hindentanic. However, when it looks like Scrooge may best him again, Glomgold prepares to sabotage the star-studded maiden voyage.'),
+    (1, 65): ("'Till Nephews Do Us Part", "Scrooge's plans to merge McDuck Enterprises with Vanderbucks Industries soon includes a proposal of marriage when he falls for CEO Millionaira Vanderbucks."),
+    (2, 1): ('Time Is Money: Part 1 - Marking Time', 'Glomgold sells a useless island to Scrooge, but upon learning that the island is rich in diamonds, he gets it back by trickery. Scrooge decides to travel back in time to prevent this from happening, but ends up in the distant past.'),
+    (2, 2): ('Time Is Money: Part 2 - The Duck Who Would Be King', 'Scrooge tries to return to the present, after being stranded in prehistoric times. On the way he discovers stowaways – a cave duck named Bubba and his pet triceratops Tutsi.'),
+    (2, 3): ('Time Is Money: Part 3 - Bubba Trubba', 'After returning to the present, Scrooge get his hands on the diamond mine, stolen from him by Glomgold in the previous episodes. Meanwhile, Bubba tries to get used to living in the modern world.'),
+    (2, 4): ('Time Is Money: Part 4 - Ducks on the Lam', "Scrooge still has to pay 10 million to Glomgold for the diamond island. Glomgold will stop at nothing to sabotage Scrooge's attempts to pay him."),
+    (2, 5): ("Time Is Money: Part 5 - Ali Bubba's Cave", 'Scrooge has one last chance to pay Glomgold and get the diamond island, but he is running out of time.'),
+    (2, 6): ('Super DuckTales: Part 1 - Liquid Assets', "Scrooge hires accountant Fenton Crackshell to keep track of his fortune. When Fenton hears Scrooge wants his assets kept 'liquid,' he ends up dumping the entire fortune in Lake Dobegone, where the Beagle Boys soon find it."),
+    (2, 7): ('Super DuckTales: Part 2 - Frozen Assets', 'After recovering his fortune, Scrooge asks Gyro Gearloose to build a security robot, which ends up keeping even Scrooge away from his fortune.'),
+    (2, 8): ('Super DuckTales: Part 3 - Full Metal Duck', 'Gyro creates a wearable suit dubbed "Gizmoduck," which accidentally finds it\'s way into Fenton Crackshell\'s hands. However, Fenton soon uses the suit to become Duckburg\'s newest hero, much to the chagrin of the Beagle Boys.'),
+    (2, 9): ('Super DuckTales: Part 4 - The Billionaire Beagle Boys Club', "The Beagle Boys manage to take control of Gizmoduck, and use him to make off with Scrooge's fortune."),
+    (2, 10): ('Super DuckTales: Part 5 - Money to Burn', 'Scrooge tries to rescue his money bin from under the sea, but before he can get to it, the bin is taken away by alien robots.'),
+    (3, 1): ('The Land of Trala La', 'Scrooge has a nervous breakdown from all the money problems, so he sets out to find a mythical Land of Trala La, where there is no money. But running away from money is not as simple as it sounds.'),
+    (3, 2): ('Allowance Day', "Huey, Dewey and Louie's plan to make Scrooge think it's Saturday to get their allowances causes a global crisis."),
+    (3, 3): ('Bubbeo & Juliet', 'Bubba falls in love with a girl next door. Unfortunately for both of them, their parents are engaged in a petty war with each other.'),
+    (3, 4): ('The Good Muddahs', 'The Beagle Babes kidnap Webby for ransom, but then decide to keep her.'),
+    (3, 5): ('My Mother the Psychic', "Fenton's mother is zapped by a TV set and gets the ability to predict the future, which quickly becomes a burden."),
+    (3, 6): ('Metal Attraction', 'Gyro builds a robot maid and gives her emotions so she could do her job better. But things get out of control when the robot falls in love with Gizmoduck.'),
+    (3, 7): ('Dough Ray Me', 'Gyro invents a device, which can duplicate any object. But the duplication process has an unexpected side effect, which puts Duckburg in serious jeopardy.'),
+    (3, 8): ("Bubba's Big Brainstorm", "Tired of being dumb, Bubba uses Gyro's Thinking Hat to become smarter, only to discover that he has more value as a prehistoric goon."),
+    (3, 9): ('The Big Flub', "Fenton uses one of Gyro's half-baked inventions, a levitating bubblegum, to make a fortune, but the success doesn't last."),
+    (3, 10): ('A Case of Mistaken Secret Identity', "Fenton longs for the recognition of his heroic deeds as Gizmoduck. The situation really goes out of hand when people come to believe that Gizmoduck's secret identity is Launchpad."),
+    (3, 11): ('Blue Collar Scrooge', 'Scrooge gets amnesia and ends up working at one of his own factories in terrible conditions. Eventually, this makes him realize the error of his ways, and become a more generous employer – well, at least a little bit.'),
+    (3, 12): ('Beaglemania', "When trying to steal the prize money for a Rock and Roll contest, the Beagle Boys sing a song titled 'The Boogie Beagle Blues,' and end up impressing the crowd and winning the prize money! They soon become a music sensation."),
+    (3, 13): ('Yuppy Ducks', 'After Scrooge is quarantined, his nephews take over the business with disastrous results.'),
+    (3, 14): ('The Bride Wore Stripes', "Ma Beagle pretends to be Scrooge's wife to get half of his money."),
+    (3, 15): ('The Unbreakable Bin', 'Gyro invents an unbreakable glass, which Scrooge uses to protect his money bin. But the glass has one weakness, and Magica DeSpell finds out about it.'),
+    (3, 16): ('Attack of the Fifty-Foot Webby', 'Webby turns into a giant, after discovering a magic spring during an expedition to the jungle.'),
+    (3, 17): ('The Masked Mallard', 'To improve his public image, Scrooge becomes a superhero. But that gets him in even more trouble.'),
+    (3, 18): ('A DuckTales Valentine (Amour or Less)', "Scrooge steals Cupid's arrows from an ancient temple, which attracts the attention of the Greek gods. Things get even more complicated when Scrooge himself falls under the arrows' spell."),
+    (4, 1): ('Ducky Mountain High', 'McDuck and Glomgold are trying to cheat each other out of getting a newly discovered gold deposit. But they may not be the best cheaters in the game anymore.'),
+    (4, 2): ('Attack of the Metal Mites', "Glomgold's scientists create mites that eat metal. Glomgold tries to use them to ruin Scrooge."),
+    (4, 3): ('The Duck Who Knew Too Much', 'While being on an unauthorized vacation, Fenton must stop spies who intend to rob Scrooge, but he has to avoid being seen by Scrooge at the same time.'),
+    (4, 4): ('New Gizmo-Kids on the Block', "Fenton's mother accidentally shrinks the Gizmo-suit in a wash, which creates an opportunity for Huey, Dewey, or Louie to become the newest Duckburg's superhero. But which one of them will succeed?"),
+    (4, 5): ("Scrooge's Last Adventure", "Scrooge and Fenton embark on a most dangerous quest inside a computer to save Scrooge's fortune from a computer glitch."),
+    (4, 6): ('The Golden Goose: Part 1', "The mystical Golden Goose, which can turn anything to gold, accidentally falls into Scrooge's hands. Blinded by greed, Scrooge puts the entire world at risk."),
+    (4, 7): ('The Golden Goose: Part 2', 'The Golden Goose goes out of control and threatens to turn the entire world into gold. Scrooge and his team have only one chance of stopping it.'),
+}
+
+CHARLIE_BROWN_SNOOPY = {  # The Charlie Brown and Snoopy Show (1983), IMDb, keyed on the feed's (season, episode)
+    (1, 1): ("Snoopy's Cat Fight", "Charlie Brown can't pitch, Sally's struggles in school, Charlie Brown and Peppermint Patty share a desk, Lucy finds new ways to annoy Schroder. Lastly Snoopy, Linus, and Woodstock fight the cat next door for Linus' blanket."),
+    (1, 2): ('Snoopy: Team Manager', "Lucy's garden, Re-Run's life, Linus loses his blanket, and Snoopy manages the baseball team."),
+    (1, 3): ('Linus and Lucy', "Sally gets Snoopy's help with a school assignment, the gang plays football and plays in the snow, Lucy fawns over Schroder, Charlie has a kite flying fiasco, and the various ways Lucy tortures Linus."),
+    (1, 4): ('Lucy vs. the World', "Lucy has to put up with a lot; but she can also dish it out with the best of them whether it's playing baseball, or putting up with her brother. Other stories include Peppermint Patty staying at Charlie Brown's house and Snoopy is nominated for an award."),
+    (1, 5): ("Linus' Security Blanket", 'Episode shorts include "Snoopy & Woodstock," "Sally," "Piano," "Baseball," "Sunset," "Football," "Security Blanket," "Kite," "Woodstock," and "Clinging Snoopy."'),
+    (1, 6): ("Snoopy: Man's Best Friend", 'Snoopy is a complex dog. Various stories include his amorous side, his playful side, his role as a protector, a watchdog, and even a rescue dog.'),
+    (1, 7): ('Snoopy the Psychiatrist', "Lucy picks on Charlie Brown driving him to seek help from Snoopy. Charlie Brown and Linus try to fly a kite. Peppermint Patty and Snoopy go to a dance. Thiebault borrows Charlie Brown's baseball mitt and then insults Peppermint Patty and Marcie."),
+    (1, 8): ("You Can't Win, Charlie Brown", 'Short stories include Charlie Brown and Snoopy discussing puppy training, Rerun contributing to the baseball team, Lucy and Linus playing in the snow, and Peppermint Patty and Marcie in school among many others.'),
+    (1, 9): ('The Lost Ballpark', "Charlie Brown walks funny, Marcie finds her mean streak after a boy develops a crush on her, Linus and Snoopy go truffle hunting, and Charlie Brown's team suffers setback after setback."),
+    (1, 10): ("Snoopy's Football Career", "Peppermint Patty is accused of stealing her teacher's gold stars and she enlists Snoopy's help in order to clear her name. Linus claims someone stole his blanket; the search leads to a likely culprit. Schroder's piano playing elicits many varied reactions. The gang tries to teach each other how to play football leading to hilarious moments."),
+    (1, 11): ('Chaos in the Classroom', "Sally's interesting theories about schooling and her trouble with a kid whose ruler she borrowed. The kids play football leading to Lucy pulling the football away from Charlie Brown. Marcie and Peppermint Patty become school crossing guards. Linus' blanket has a mind of its own and begins to annoy Lucy. Charlie Brown's team goes through the predictable struggles."),
+    (1, 12): ("It's That Team Spirit, Charlie Brown", "Snoopy uses various techniques to get a hold of Linus' blanket including acting like a vulture. Peppermint Patty continues to struggle in school to the point where she threatens to drop out and hang out with Snoopy all day. Re-Run goes for a ride on his mother's bicycle. Charlie Brown tries to coach up his baseball team."),
+    (1, 13): ('Lucy Loves Schroeder', "Charlie Brown tangles with the Kite-Eating Tree. Snoopy eats Sally's homework. The gang goes to summer camp where Peppermint Patty confronts the little red-haired girl. Lucy fawns over Schroder unsuccessfully. Something that goes bump in the night scares Snoopy, so he seeks help from Lucy."),
+    (2, 1): ('Snoopy and the Giant', "Snoopy breaks his foot and must wear a cast, which proves complicated when he has to play for Peppermint Patty's baseball team. Meanwhile, Woodstock grows a beanstalk to the sky, where he and Snoopy meet a cookie-hoarding giant. Finally, the youngest of the Van Pelts has to deal with various problems."),
+    (2, 2): ("Snoopy's Brother Spike", "Peppermint Patty asks Charlie Brown for help with her team. Linus waits up for the Great Pumpkin while Charlie Brown and Peppermint Patty go bowling. Snoopy's older brother Spike vists."),
+    (2, 3): ("Snoopy's Robot", "Snoopy drives the gang to a computer camp. Once they explore the world of computers and Snoopy plays with a robot. Linus starts a clinic for kids that have security blankets. Snoopy goes to visit Spike in the desert taking Linus' blanket with him. Charlie Brown and Peppermint Patty go on a date. Later Marcie and Peppermint Patty both develop a crush on Charlie Brown."),
+    (2, 4): ("Peppermint Patty's School Days", "Peppermint Patty's struggles in school are chronicled. Snoopy develops a cool trick after his antics begin to wear on the kids' nerves. Schroeder doesn't know how to get to piano camp. The gang flys him there on Snoopy's doghouse."),
+    (2, 5): ("Sally's Sweet Babboo", "Charlie Brown reflects on his most memorable Christmas while Sally and Lucy prepare for Valentine's Day and Peppermint Patty writes an award-winning essay on Snoopy."),
+}
+BEYBLADE = {  # Beyblade (2001) TMDB: S1 = Beyblade, S2 = V-Force, S3 = G-Revolution; feed '1x48' / '2x01'
+    (1, 1): ('The Blade Raider', 'Tyson is caught up in the sport of Beyblading, but can he balance Beyblading and martial arts?'),
+    (1, 2): ('Day of the Dragoon', 'When Tyson and Kai end up battling against each other, Tyson is easily defeated. Can he unlock a mythical bit beast to even the score?'),
+    (1, 3): ('Take It to the Max', "Can Kenny's friendship with Tyson continue when a new kid named Max seems to be stealing Tyson away?"),
+    (1, 4): ('The Qualifier Begins', 'Max and Tyson arrive at the tournament and Tyson faces his first opponent.'),
+    (1, 5): ('Draciel of Approval', 'The first matchup in the semi-finals is Max vs. Kai. Can Max pull the upset off without a bitbeast giving him support?'),
+    (1, 6): ('Dragoon Storm', 'The mysterious blader Ray and Tyson do battle in the second round. Can Tyson survive the mysterious Tiger Claw Attack?'),
+    (1, 7): ('Thirteen Candles', "The National Beyblade Championship Match is set – with Tyson facing off against reigning champion, Kai. It's not until Grandpa throws a surprise party for Tyson that the rookie sensation realizes he has forgotten his own birthday, but what will Kai have in store for him?"),
+    (1, 8): ("Bladin' In The Streets", "Tyson and his new team, the Bladebreakers, prepare for the World Championships. Kai seems to reject his newfound team and leads them on a chase through the streets. That's where the guys learn some lessons about Beyblading from some very mysterious 'bladers."),
+    (1, 9): ('Showdown in Hong Kong', "Our heroes arrive in Hong Kong on a stop-over to the Asian World   Championships when they run into Ray's old gang, the White Tigers. Naturally, a Beyblade battle quickly ensues."),
+    (1, 10): ('Battle in the Sky', "The Bladebreakers discover that them and the White Tigers are in different divisons. To face them, they'll have to make it to the finals, but can the Unknown Tall Boys shock everyone and defeat the Bladebreakers ending all national title hopes?"),
+    (1, 11): ('Bye Bye Bit Beast', 'Kevin decides to try and destroy Ray by stealing his data. What will happen if Kevin succeeds? Will the Bladebreakers have any chance of winning the Asian tournament, or will something worse happen?'),
+    (1, 12): ('Adios Bladebreakers', 'With his bitbeast gone, Ray loses all confidence and decides to leave the Bladebreakers. Can Tyson convience him to come back, or will Mariah convience him that the White Tigers team is his real home?'),
+    (1, 13): ('Crouching Lion, Hidden Tiger', 'With the Bladebreakers having impressed everyone, the White Tigers decide to get serious. Can they show everyone why they are the best?'),
+    (1, 14): ('The Race is On!', 'A rockslide makes Tyson and Ray fall behind on their way to the semi-final matchup. Can they make it on time, or will a forfit keep the Bladebreakers from a showdown with the White Tigers?'),
+    (1, 15): ('Going for the Gold', "The Asian finals begin between Max and Gary, but Gary's open-mindedness makes everyone think he can't win a thing. Will Gary's true wrath be unleashed to show why he battles instead of Kevin?"),
+    (1, 16): ('My Enemy, My Friend', 'Ray and Mariah get ready to go head to head, but can these two lovers put aside their feelings for the match. Maybe their bitbeasts will have something to say about it.'),
+    (1, 17): ('A Score to Settle', "When Tyson and Lee's matchup turns out to be a draw, it's up to Ray to defeat his old team and keep Driger. How will Driger and Ray react to this news?"),
+    (1, 18): ('A Star is Born', 'With the Asian Tournament over, the Bladebreakers head home for a small break, but what will happen now that Tyson feels he has power?'),
+    (1, 19): ('Under the Microscope', 'Max insists on seeing his mom before the American tournament, but what will he do when he finds out she works for the opposing team?'),
+    (1, 20): ('All Relative', "After their non-competition loss to Emily of the All Starz at the BBA Research Center, the Blade Breakers sneak around the high-tech facility, hoping to learn more about their competition. There, they confront two other All Starz, and Max learns more about his Mom's job at the BBA – specifically, a rumor of why Max wasn't asked to join the All Starz Team."),
+    (1, 21): ('Practice Makes Perfect', 'Can the Bladebreakers gain their confidence back after seeing all the fancy American equipment?'),
+    (1, 22): ('Blading with the Stars!', 'When Max participates in a charity Beyblade event, he must teach Emily what team work is all about. Can he succeed?'),
+    (1, 23): ('Showdown in Vegas', 'The American tournament begins in Las Vegas. Will Kai decide to show the All Starz his true power?'),
+    (1, 24): ('Viva Las Vegas', 'The Blade Breakers decide to study the All Starz moves so they can become stronger. Will they succeed?'),
+    (1, 25): ('My Way or the Highway', 'When Tyson gets a stomachache before the semi-finals, Kai must step up and take his place. Can the Bladebreakers keep their momentum going in the mysterious New Jersey Turnpike?'),
+    (1, 26): ('Catch a Shooting All-Star', "Tyson's health is restored before the finals, so he gets ready to battle again. Can Max help them realize he can defeat his mom's team, or will Kai get the final spot?"),
+    (1, 27): ('The Battle of America', 'The finals continue. Can the Blade Breakers muster the strength to win, or will the All Starz become the new American Champions?'),
+    (1, 28): ('Bottom of the Ninth', "It's Max versus Michael for the American team championship. Which team will end up being victorious?"),
+    (1, 29): ('Play It Again, Dizzi!', 'Kenny ponders how the Bladebreakers got together, and he wonders what the next touranment will bring.'),
+    (1, 30): ('Cruising for a Bruising', 'When the Bladebreakers run into Robert on a ship to Russia, they realize just how much their bitbeasts need to develop. Can they learn how to gain the strength needed?'),
+    (1, 31): ('London Calling', "When the Bladebreakers arrive in London, a mysterious tape about evil bitbeasts is waiting for Tyson. Can they interpret what Tyson's father is trying to tell them before they encounter an evil bitbeast, or is it already to late?"),
+    (1, 32): ('Darkness at the End of the Tunnel', 'The Dark Bladers try once again to steal the Bladebreakers bitbeasts and turn them evil in a subway tunnel. Will they succeed?'),
+    (1, 33): ('Last Tangle in Paris', 'The Blade Breakers arrive in Paris, but the Dark Bladers follow them there. Can the Blade Breakers handle one more battle with the Dark Bladers, or will additional and unexpected help come to save them?'),
+    (1, 34): ('Art Attack', 'Tyson determines to battle the blader named Oliver, but does he have any chance at victory?'),
+    (1, 35): ('When in Rome... Beyblade', "The Blade Breakers arrive in Rome to battle against their next opponent, Enrique. Can Tyson finally successfully defeat one of Europe's top bladers, or will he learn that he has a lot of skills to develop?"),
+    (1, 36): ('Deja Vu All Over Again', "Tyson determines that he must defeat Enrique if his reputation as a top Beyblader is to be restored, but when Oliver arrives it becomes 2 of Europe's top bladers against Tyson's ego. Can he figure out a way to show that bitbeasts should be used for more than just power?"),
+    (1, 37): ('A Knight to Remember', "Enrique and Oliver take the Blade Breakers to Robert's mansion, but can Tyson get his rematch against Robert, or will this Johnny character interfer?"),
+    (1, 38): ('Olympia Challenge', 'The Blade Breakers decide to challenge Robert, Johnny, Enrique, and Oliver to a team battle. They accept, but can ""The Majestics"" work together as a team when they\'ve been individual fighters their entire life?'),
+    (1, 39): ('A Majestic Battle... A Majestic Victory?', "It's Kai versus Johnny and Tyson versus Robert for the right to go to the World Championships in Russia. Who will win the bout?"),
+    (1, 40): ('Hot Battle in a Cold Town', 'A mysterious man named Boris invites the Bladebreakers to his physilities for a practice battle. Should they trust him, and if they do, then can they win the battle?'),
+    (1, 41): ('Out of the Past', "Kai investigates Boris' Abbey since he feels some sort of draw to it. What will he find? Also, Max meets up with the All Starz and Ray meets up with the White Tigers. Why have they come to Russia?"),
+    (1, 42): ('Drawn to the Darkness', 'Kai must choose whether he wants the power of Dark Dranzer or the friendship of the Blade Breakers. Which will he decide?'),
+    (1, 43): ('Live and Let Kai!', "While the Bladebreakers try and find out what Kai's doing, the All Starz get ready to scrimmage the Demolition Boys, but when Kai shows up on the Demolition Boys and challenges all 4 All Starz at once, you know fire works will erupt. What will he do?"),
+    (1, 44): ('Losing Kai', 'The White Tigers determine to get revenge on Kai for the All Starz, but will they need to when Tyson and the Bladebreakers decide to try and talk some sense into Kai?'),
+    (1, 45): ('Breaking the Ice', "Kai decides he wants all of the bitbeast, so he challenges the Bladebreakers to a match. Will they stand a chance without Max, who's with his mom at the airport?"),
+    (1, 46): ('First Strike', "Kai and Tyson's father appear to let everyone know what Biovalt is really up to. Can the Bladebreakers find a way to stop them?"),
+    (1, 47): ('A Lesson for Tyson', 'The Majestics show up in Russia with a challenge for the Bladebreakers, defeat them in a match, or lose their bitbeasts. Why have they come to Russia, and why do they want the Bladebreakes bitbeasts?'),
+    (1, 48): ('Victory in Defeat', 'Kai is given a tempting offer from his grandfather Voltaire, use dark Dranzer, or risk losing Dranzer forever. Will he give in?'),
+    (1, 49): ('A Wicked Wind Blows', 'With Kai losing in the first round, Ray must find some way to even up the score. Can he find the strength to do so, and if he does, will he risk losing Drigger forever?'),
+    (1, 50): ('New and Cyber-Improved...', "When Tala gets cyber implants and Tyson gets new blading equipment, you know their match strategy's are bound to change, but just how will the changes affect the championship?"),
+    (1, 51): ('Final Showdown', 'A grave meeting is held between the Majestics, Kevin of the White Tigers, and the Dark Bladers in case Tyson should lose the match. Can Tyson survive in this other dimension, or will the Demolition Boys become World Champions and rulers?'),
+    (2, 1): ('Shot Down in Flames!', 'Tyson starts the new season arrogant as always. There is a new blader in town called Mr. X. Can Tyson defeat him?'),
+    (2, 2): ('The Search for Mr. X', 'Tyson is more determined than ever to face Mr. X again. Meanwhile Ray and Max are defeated by mysterious bladers as well. Is Chief to late to stop Tyson from battling Mr. X again?'),
+    (2, 3): ('Unseen and Unleashed', "Chief in on his way to tell Tyson what he has learned about the three mysterious bladers. We find out Mr. X's name is Ozuma. Chief, Tyson, and Hilary are to mee to discuss tactics. When Tyson arrives to meet the other two they are gone. What happened to them?"),
+    (2, 4): ('Searching for Dragoon', 'Tyson has to track down what happened to Chief and Hilary. He is led to a run down boat that transports him to a room with a glass front. Can Tyson save his two friends?'),
+    (2, 5): ("Guess Who's Back in Town?", 'Chief can only assume that since Tyson, Ray, and Max have been defeated by mysterious bladers that Kai is next. Is Chief right? Meanwhile Kai is back in school and meets a guy named Wyatt.'),
+    (2, 6): ('The Magtram Threat', 'Gideon, the one who is bhind the kidnapping of Chief and Hilary, has got him a new recruit by the name of Snakey. Can Snakey defeat Tyson and Dragoon?'),
+    (2, 7): ('The Reunion Begins', "After reviewing Tyson and Snakey's battle Dizzi and Chief figure out Snakey was using a Magtram-enhanced Beyblade. The same metal that was used on the boat Tyson was on. Gideon has a team called Team Psykick. Can the Bladebreakers defeat Team Psykick?"),
+    (2, 8): ('Return of the Bladebreakers!', 'The newly reunited Bladebreakers begin training for their upcoming battle with Team Psykick.  Armed with the new MG Core, which will give the team complete control of their blades, one question comes to mind. Can they manage to learn to use the core correctly?'),
+    (2, 9): ('La Isla Bey-Nita', 'The Bladebreakers are trapped on an island. Max is the first to battle against a character named Chameleon, but what tricks does Chameleon have in store for him, and why did team Psykick drag them all the way out to an unknown island?'),
+    (2, 10): ('The Island of No Return', 'Ray is next to battle a guy named Bat, who can see in the dark. Can Ray overcome not seeing in the dark to keep his bitbeast Driger?'),
+    (2, 11): ('The Evil Island of Dr. B', "After Kai's win against Figel, he joins Kenny and Hilary to resume their journey to the lighthouse. From there the heroes hope to get a clear satellite signal to call for help.  Will they be able to call for help before Daryl takes on the wounded Tyson?"),
+    (2, 12): ('Bring Me Dranzer', "Gideon plans to create his own Cyber Bit Beasts but lacks vital data on Dranzer. Meanwhile the Saint Shields plan their own attack on Dranzer and send Dunga to do the job. Will the Blade Breakers realize there's a conspiracy against them before it's too late?"),
+    (2, 13): ('Testing One, Two, Three', "Joseph decides to find out what the Psykicks are doing with the data they've collected from their matchups with the BladeBreakers. His discoveries cause them to escalate matchups against the BladeBreakers as they secretly test Max & Ray in a two vs. two battle against Miriam & Joseph. Who will win the match-up, and just what did Joseph discover?"),
+    (2, 14): ('Gideon Raises Gerry!', 'Doctor B unveils the first Cyber Bit Beast to the world. Gerry from Team Psykick is chosen to be the first to wield this new Beyblade. What can possibly go wrong with an untested, experimental, extremely powerful, Mad Scientist created Bit Beast?'),
+    (2, 15): ('Show Me the Bit-Beasts!', "Kenny discovers that someone has made copies of all the Blade Breakers' Bit Beasts and the team decides to prepare themselves for battle. Hilary feels left out because she can't see the team's Bit Beasts so she joins the gang in their training."),
+    (2, 16): ("Team Psykick's New Recruit", "Dr. B and his team have finally perfected the Cyber Bit Beast and are ready to test it on the BladeBreakers, but first they need to find a Blader strong enough to take on the challenge.  Will Kai's classmate Wyatt be just the Blader they're looking for?"),
+    (2, 17): ("Hilary's Bey-B-Cue", "Getting fed up with the rest of the team, Tyson decides to quit. This doesn't last for long, when his insatiable appetite lures him back into the fold.  Grandpa's fishing doesn't work out according to plan either. The catch of the day has turned the tides on this old man, but who are these new bladers that save him. Can the BladeBreakers trust them?"),
+    (2, 18): ('When Friends Become Foes', "The Blade Breakers sneak into Doctor B's lab, where Tyson learns that the dreaded Psykick's have recruited his new pal Kane into their ranks, but can they convience them to leave the Psykicks, or have the Cyber Bit Beast already begun taking them over?"),
+    (2, 19): ('Their Own Private Battles', 'After seeing the Cyber Bit Beasts in action, Tyson vows to do whatever it takes to beat them. Ray develops an unexpected friendship with Salima of Team Psykick in the hopes of learning more about their next challenge, but is she really to be trusted, or is she planning on taking Ray down some how?'),
+    (2, 20): ('The Power Half Hour!!', 'Tyson struggles to control his new ""tricked out"" Beyblade. His frustration leads him to battle Ozuma who is always around to teach Tyson a lesson when he needs one. Will Tyson finally be able to defeat Ozuma, or will Ozuma destroy Tyson\'s blade and ego for good?'),
+    (2, 21): ('The Battle Tower Showdown', 'The Bladebreakers and Hilary head for their battle against Team Psykick in a helicopter. They are met in the Battle Tower by robots. Luckily the Saint Shields are there to cover their backs. Max and Jim are the first two to battle. Who will win the first round?'),
+    (2, 22): ('Max Takes One for the Team', 'Jim and Cyber Draciel appear to have the upper hand due to the Cyber repair system, but can Max find a way to make defeat into victory?'),
+    (2, 23): ('The Bigger the Cyber-Driger...The Harder It Falls...', "Selima and Ray battle head to head in the second match up, but will Cyber Driger prove to be too strong for Driger, or will driger's previous power fully return?"),
+    (2, 24): ('Ghost in the Machine', "Kai squares off against Goki on Level Four of Gideon's Battle Tower. But when his real opponent turns out to be the ghost of his friend Wyatt, Kai finds himself helpless.  Can the Bladebreakers help Kai lay his guilt to rest or is this the Bladebreakers final defeat?"),
+    (2, 25): ('Raising Kane!!', 'The final battle between Tyson and Kane begins with a shock. Kane actually decides to battle fair without the help of Cyber Dragoon, but can this resolve last long, or will Tyson and Dragoon see powers they never could have imagined?'),
+    (2, 26): ('Cyber Dragoon Takes Control!', 'Tyson faces off against Kane only to discover that Kane has fallen under the control of his Cyber Bit Beast. Tyson reluctantly tells Dragoon to give up, but will Dragoon listen, or will his loyal Bit Beast summon the strength to keep fighting and inspire Tyson to do the same?'),
+    (2, 27): ('Building the Perfect Bit Beast!', 'At the conclusion of the fierce battle between Tyson and Kane, the Battle Tower starts to collapse around them.  During their mad dash to make it out of the building, Max realizes that Draciel is still inside. How will he get him out of there?'),
+    (2, 28): ('Hot Rock', "The Bladebreakers and Hilary head off for NYC. Max's mom Judy is their to greet them. Judy unveils a secret rock to the BladeBreakers, but when it gets stolen its up to the BladeBreakers to get it back. Can they succeed?"),
+    (2, 29): ("A Friend's Cry / Bad Seed in the Big Apple", "As it turns out Max's friend Alan was part of the scheme to steal the powerful rock. Can Max manage to defeat Alan and get him to reveal what's going on?"),
+    (2, 30): ('Get a Piece of the Rock!', 'The Bladebreakers return to Japan accompanied by Judy. Mr. Dickenson tells all of them about a partner he used to work with named Dr. Zagart. Tyson has to learn to control his new Beyblade Dragoon V2. The Saint Shields decide to efeat Tyson before he can learn to control his new blade, but will they succeed when a mysterious fighter appears?'),
+    (2, 31): ('Attack of the Rock Bit Beast', 'The search for the missing rock  and the mysterious Dr. Zagart goes on. Unfortunately the BladeBreakers are at a loss as to where they should look. When Foxy challenges Ray to a match, the team unknowingly moves a step closer to solving the mystery, but first they have to defeat Foxy. Will they succeed?'),
+    (2, 32): ('Lots of Questions... Few Answers', "After Foxy's attack, the team has many questions, but few answers. Who was behind the attack and how is the rock involved?"),
+    (2, 33): ('Rock Bottom!', "When Ray loses Driger to Dunga's Vortex Ape, the Bladebreakers resolve to go back into training and rescue him. But will they be able to save Driger without putting themselves into further jeopardy? And what is Dunga's real reason for taking Ray's bit-beast?"),
+    (2, 34): ('Itzy Bey-Itzy Spider', 'Tyson runs into a sticky situation while trying to figure out how to get Driger back.  Net and his Bit Beast Spider coax Tyson into releasing Dragoon so they can capture it for their own goals. Will he be able to escape from this web slinging assassin?'),
+    (2, 35): ('See No Bit Beast, Hear No Bit Beast', "There's a new Blader after Kai's Bit beast and he's ready for battle. The only problem is he's quiet as the wind and as strong as a hurricane. How can Kai possibly beat an opponent that he can't even see?"),
+    (2, 36): ('Friends and Enemies', 'After Max is ambushed, Mariam discovers that Dr. K is using Power Injection to make the Bit Beast, Tyranno stronger. When Mariam destroys much of the building, she and Max must work together to find a way out. But will Mariam capture Draciel once they escape?'),
+    (2, 37): ('Beybattle at the Bit Beast Corral', 'With the goal of acquiring the BladeBreakers Bit Beasts and sealing them in a rock, The Saint Shields challenge them to a match at an abandoned amusement park. The first match is Miriam versus Max, but will Max manage to win, or is Draciel done for?'),
+    (2, 38): ('The Fate Of The Spark Battle', "The Saint Shields have already captured Ray's Bit Beast, Driger, and now they've set their sights on capturing Kai's Dranzer. Dunga goes into battle against Kai and the fight intensifies as the blades race along the rails of an abandoned roller coaster to what looks like their doom. Can any of them survive?"),
+    (2, 39): ('The Bit Beast Bond', 'Ozuma, leader of the Saint Shields gang makes a final play for the BladeBreakers four Bit Beasts. During his battle with Tyson, it is revealed that he comes from an ancient group that is sworn to capture and contain all the Bit Beasts in the world, but will this new found knowledge give the BladeBreakers the know how to defeat Ozuma, or is Dragoon done or?'),
+    (2, 40): ('Squeeze Play', 'Pleased that the Saint Shields no longer wish to seal the four Bit Beasts, Dr. K gives a new Blader, Denny, a powerful rock Bit Beast named Clarken and orders him to capture the four Sacred Bit Beasts.  Meanwhile, Zeo catches up with the Bladebreakers and shows them his invitation to the upcoming World Championships, but when Denny shows up to destroy their practice, can Zeo help them win the day?'),
+    (2, 41): ("Who's Your Daddy?", "The BladeBreakers show up at the World Championship Tournament and go up into the stands to cheer on Zeo who's fighting in the preliminaries, but a shocking turn of events is about to occur for Zeo. Find out what it is when you finally meet Zeo's dad."),
+    (2, 42): ('Fortunes Dear and Dire', 'Zeo focuses on Beyblade training with his father Zagart. The most powerful rock Bit-Beast named Cerberus is designated for Zeo, but he must first be able to summon it. Zeo trains furiously, but the elusive Bit Beast never fully materializes. Meanwhile, the Bladebreakers must choose their two team-pairs for the World Beyblade Championships, but what will be their teams and can Zeo really become the BladeBreakers enemy?'),
+    (2, 43): ("Kai's Royal Flush", "While all that the BladeBreakers can think of are the finals, Kai can't stop obsessing about King and Queen.  With a brand new Beyblade crafted for him by Kenny, Kai longs for a rematch. But Kai isn't the only one with the royal pair on his mind. Doctor K tracks the duo down and offers them a chance to team up with her so they can capture and wield the power of the four sacred Bit Beasts together. What will King and Queen end up doing, and can Kai get his revenge on the duo?"),
+    (2, 44): ('The Calm Before the Storm', "After disappearing thirty years ago, Zagart confronts Mr. Dickenson, forcing him to enter Zeo in the World Championship Finals. He reveals that Zeo is his son and that he won't show mercy when he confronts the Bladebreakers in the tournament. Meanwhile, the pairings for the finals are announced, but King and Queen want to start the fun a bit early. Can Mr. Dickenson stop chaos from occuring, or will it take someone else a bit stronger?"),
+    (2, 45): ('Zeo vs. Ozuma', 'The Beyblade World Championship Finals are underway and eight teams convene to compete for the title. The BladeBreakers are shocked to see that their old friend Zeo is in the competition and Tyson confronts him to find out why he has decided to compete against them. Will Zeo reveal the truth, or can the Saint Shields knock Zeo out of the tournament?'),
+    (2, 46): ('Black & White Evil Powers', 'The World Beyblade Championships continue and the next round has Tyson and Max squaring off against Kane and Jim. Kane and Jim decide to have a little practice battle at the beach. But King and Queen show up for a surprise attack. Can Kane and Jim hold off the duo, or will the BladeBreakers or Saint Shields manage to show up and save the day?'),
+    (2, 47): ('Deceit From Above', "In the Semi-Final round of the World Beyblade Championships, Max & Tyson take on King & Queen. Doctor K tempts Queen into using a vicious new attack ring she's created called 'The Shredder'. Can Max and Tyson manage to overcome this new piece, or will they lose their sacred Bit Beasts?"),
+    (2, 48): ('Phoenix Falling', "The second semi-final begins with Ray battling Gordo and Kai battling Zeo. Can the BladeBreakers manage to end Zeo's dreams now, or will the BladeBreakers have their worst nightmare yet come forth?"),
+    (2, 49): ('The Enemy Within', "The Bladebreakers begin to lose faith in each other, and Tyson contemplates Zeo's betrayal of them. Tyson decides to confront Zeo about it, but what will be the result, and will the other Bladebreakers support him?"),
+    (2, 50): ('Clash Of The Tyson', "The Championship Finals begin as Tyson faces Gordo and Max faces Zeo. Can the BladeBreakers win both matches and repeat as champions, or will a 3rd and final match decide the outcome? Also, Zeo's secret will finally be revealed. All this occurs only on this episode of V-Force."),
+    (2, 51): ('Destiny of the Final Battle', 'The finals between Zeo and Tyson begin, but with Zeo being revealed to be a cyborg can Tyson gain the endurance to win this battle and remain the world champion?'),
+    (3, 1): ('New Kid in Town', 'Tyson is home training kids after winning his second championship when two new challengers arrive. What do they want with the World Champion?'),
+    (3, 2): ('A Team Divided', 'The new rules of the World Championships cause changes to occur to the BladeBreakers, but will they be beneficial or harmful in the long run?'),
+    (3, 3): ('Invitation to Battle', "With Ray and Max leaving the Bladebreakers to go to old teams, Jin decides to test Tyson, but when Ray ends up with the note he accepts Jin's challenge instead. Who will win between these two opponents?"),
+    (3, 4): ('We Were Once Bladebreakers...', "With Max and Ray having quit the team, it's up to Kenny to keep the remaining Bladebreakers together. Will he succeed?"),
+    (3, 5): ('A League of His Own', "Tyson must once again prove he's the best in Block A, but a Chameleon blade has a few surprises in store for him and Kenny. Who will win he first final?"),
+    (3, 6): ("You're the Man, Kai!", "It's Kai versus Daichi in the block B final. Who will become Tyson's teammate, and what surprises does Jin of the Gale have for the team?"),
+    (3, 7): ('Take Your Best Shot', "The BBA Revolution practices at Tyson's place while other qualifying matches are taking place, but who will the BBA Revolution end up facing? What surprises are in store for them?"),
+    (3, 8): ('Roughing It', "The new BBA Revolution team will be complete when Kai finally makes his decision as to what team he's going to be on. How will this affect the World Championships?"),
+    (3, 9): ('Swiped on the Streets', 'The World Championships are about to begin, but now that Kai has left the BBA Revolution, he must side with someone else. Who will that end up being? Also, how well will Daichi and Tyson get along? Find out in this episode of GRevolution.'),
+    (3, 10): ("It's a Battle Royale", 'The BBA Revolution battles White Tiger X in the first match of the World Championships, but which man will end up with the bragging rights: Tyson or Ray?'),
+    (3, 11): ('The Blame Game', "Tyson has been totally out of control since Kai transferred to the Blitzkreig Boys, not to mention the defeat to the White Tigers. He can't admit it was his fault and gets into an argument with Daichi. Meanwhile Barthez leads a new team in the ways of cheating. Can Tyson and the rest of the bladers handle these new chalengers?"),
+    (3, 12): ('When In Rome, Let It Rip!', 'The White Tigers battle the Barthez Battalion in the first beystage in Rome for this years world tournament. Which side will prevail? Will Ray become 2-0 and the favorite to win it all, or will the Bartez men give him a run for his money?'),
+    (3, 13): ("Kenny's Big Battle", 'Tyson is pulled from the battle against the Blitzkreig Boys and replaced by Kenny. What will this do to the BBA Revolution? Can Tyson get his ego under control finally?'),
+    (3, 14): ('Picking Up the Pieces', "The Blitzkreig Boys are on a role and Tala defeats Kenny with a special attack! Next up to face Tala is Daichi. Even though Kenny lost to Tala, he has found a strategy to defeat him. But will Daichi use Kenny's plan for victory?"),
+    (3, 15): ('Sleepless in Madrid', 'Lee of the White Tigers X suffers a lack of sleep due to nightmares that further emphasizes his mediocre performance lately. Tired and fragile, he pushes himself hard enough to cause his Galeon to run out of control during the match against F-Dynasty! Will Ray really forfeit the match in order to help his friend?'),
+    (3, 16): ('Fire and Water', 'The Blitzkreg Boys battle the PBA All-Starz, and the truth behind the Barthez Battalion blades is revealed. What will this do to the World Championships?'),
+    (3, 17): ('Same Old Dirty Tricks', "Finally, BBA Revolution faces off against the Barthez Battalion! Daichi faces off against Mathilda in the first match, but, following Barthez's evil plans, Mathilda reluctantly sacrifices her Beyblade to severly damage Daichi's Strata Dragoon, making it uncapable of fighting in a tie-breaker! Can Tyson win his match to achieve victory? And will Miguel finally make a stand to their cruel coach?"),
+    (3, 18): ('Beyblade Like An Egyptian', 'The Barthez Battalion members must decide whether or not to cheat in their upcoming match against the Blitzkreig Boys, but which way will they decide?'),
+    (3, 19): ('One For All . . . Free For All', 'The White Tigers battle the All-Starz, but can the All-Starz handle a team that works together when they are divided at times?'),
+    (3, 20): ('Burdens of a Champion', 'The BBA Revolution must battle F-Dynasty in a tag match, but who will come out as the winners and continue into the next round.'),
+    (3, 21): ('Under Pressure', "Ever since his loss against F Dynasty, Tyson falls to the pressures of being world champion, so much so that he embarrasses himself during a BBA Revolution interview! Can a match with Daichi help regain Tyson's true fighting spirit at last?"),
+    (3, 22): ('Sibling Rivalry', 'Raul tries to convince Julia he should battle Matilda in their battle against Barthez Battalions. Who will go to the semi-finals to meet the Blitzkreig boys?'),
+    (3, 23): ('Ray And Kai: The Ultimate Face-off...', 'Ray and Kai go head to head, and the winner gets to face Tyson, but who will end up prevailing between Dranzer and Driger?'),
+    (3, 24): ('Down Under, Thunder', "Down in Australia, the BBA Revolution faces off against the PPB All-Starz. Everyone seems to believe that Rick will win in his match against Daichi, but the young boy is determined to prove to everyone that he will win! Can Daichi overcome Rick's Drop Rock attack so he can meet Tala of the Blitzkrieg Boys once again in the finals?"),
+    (3, 25): ('Max Attacks', "The match between the BBA Revolution and the PPB All-Starz continues! Daichi has defeated Rick, so it's Max's turn to to battle with Tyson at last. Now that he has finally resolved his personal problems, will Tyson help the team move on to the next round? Will his Dragoon Galaxy even come out of this in one piece?!"),
+    (3, 26): ('Familiar Faces', 'The final rounds take place back in Japan! Equipped with his new blade, Dragoon Galaxy Turbo, Tyson and the rest of BBA Revolution must face F Dynasty once more to reach the dominating team, the Blitzkrieg Boys. Will Tyson and Daichi manage to redeem themselves from their last defeat and best Raul and Julia?'),
+    (3, 27): ('What a Blast', 'The whole city is watching the semi-finals match between BBA revolution and F-dynasty in a tag-team format. Tyson and Daichi want to dethrone the tag-team champions and intend to use some of the twins own moves to do so. The winner moves on to the finals where the Blitzkrieg Boys are waiting!'),
+    (3, 28): ('Changing Gears', "The finals have finally arrived and BBA Revolution gets ready to face the Blitzkrieg Boys in a heated battle. But before that can happen, a routine check-up of Tyson's Beyblade turns up a faulty gear assembly, which needs to be repaired! Time is running out, and Daichi has to stretch out his match with Tala to give Kenny the time he needs to fix Dragoon!"),
+    (3, 29): ('And Then There Were Two', 'Daichi and Tala have both been thrown from the dish at the same time, resulting in a tie game. Because they are in no condition for a rematch, Mr. Dickenson rules that the next match will determine the new tournament Champion. It all comes down to Kai and Tyson.'),
+    (3, 30): ('Let The Games Begin... Again!', "It's the finals of the World Beyblading Championships and the final battle pits Kai against the defending world Champion, Tyson. The fight is incredibly intense and what's even more amazing, it looks like the two combatants are so evenly matched, there might not be a winner."),
+    (3, 31): ('Runaway Daichi', 'The Beyblade World Championship finally concludes with BBA Revolution as the victorious team. However, an old wound opens in Daichi as he watches Tyson get all the attention once again. Will Daichi really leave the team for good?'),
+    (3, 32): ('Beyblade Idol', "The BBA has been sold out, meaning Mr. Dickenson has no control over this mysterious new group, the Beyblade Entertainment Global Association: BEGA. Determined to find out what's going on, Tyson, Daichi, and Max challenge BEGA's mascot, the pop sensation, Ming Ming, to a battle! And, afterwards, Tyson meets a familiar face..."),
+    (3, 33): ('Out of Their League', "Boris returns after two years of travelling, and explains what he has seen has changed him and inspired him to create BEGA, in an effort to convice the gang, he gives Tyson, Max, Daichi and kenny a tour of their facilities. Tyson finds out BEGA aren't slacking when he battles Crusher, who's motives may change Tyson's mind about Boris."),
+    (3, 34): ('The Mysterious Mystel', 'At China, Ray and his White Tiger X teammates return to their usual life routine until the next World Championship until they encounter a strange and mysterious youth named Mystel. Will Ray be able to trust this stranger, especially after Mystel claims that Tyson is an official member of BEGA?!'),
+    (3, 35): ('Pros and Ex-Cons', "Tyson, still thinking whether Boris has changed at all, is unsure about joining BEGA. Tala, Spencer, and Bryan go to confront Boris once again and shut his organization down for good. The Blitzkrieg Boys thrash their first three opponents, but Bryan and Spencer are beaten by Garland, who is one of BEGA's top bladers! Will he be too much for even Tala to handle?"),
+    (3, 36): ('Boris, the Blade Stops Here', "In order to bring Boris' plan to a halt, Tala challenges Garland of Team Bega to a Beyblade match. But, Garland proves to be more than a match for him! Is Tala fighting a losing battle?"),
+    (3, 37): ('The Bega Challenge', "Tyson accepts Boris' challenge to a five-on-five Beybattle for the future of the world of Beyblade. But, things are made worse when Kai joins BEGA and Hiro, as Jin of the Gale, becomes their new coach! It's up to Ray to bring Tyson back to his senses. But, since BEGA rules state that those who are not members cannot purchase new Beyblade parts, is this a battle they may end up regretting?"),
+    (3, 38): ('Bega on the Rise', "While Tyson and the others find a way to make their own Beyblades, BEGA's influence continues to spread throughout the world. Hiro requests to coach BEGA's secret weapon, Brooklyn, but this young prodigy has a few surprises in store. Is it possible to be that powerful when Brooklyn never practiced a day in his life? Kai doesn't think so!"),
+    (3, 39): ('Rebel Alliance', "In a miraculous turn of events, the past teams from the recent tournament, White Tiger X, PPB All-Starz, F-Dynasty, and Barthez Battalion joins Tyson and company in their battle against BEGA. With Emily and Miguel's help, Kenny manages to complete the first of the new Hard Metal Series of Beyblade, Dragoon Metal Storm! But, is it too much for even Tyson to control?!"),
+    (3, 40): ('Back to Basics', 'Training camp continues as Tyson, Daichi, Ray, and Max strive to control their new HMS Beyblades. After several failures and humorous chase scenes, Tyson and the others must look into their hearts to find the answer of how to master complete control. It might even take them back to their childhood...'),
+    (3, 41): ('And Justice-Five For All', "Under the pretext of gaining more supporters, BEGA holds a qualification tournament to decide the organization's five bladers they'll use in the Justice 5. Garland, Crusher, Ming Ming, and Mystel all secured their entries, and Kai ironically faces Brooklyn for the fifth spot. Will Kai defeat BEGA's secret weapon and get to face Tyson again in the end? Or will the mysterious Brooklyn demonstrate a skill unfathomable to all?"),
+    (3, 42): ('When You Wish Upon A Star', 'Kai tries his best, but he is ultimately outmatched by Brooklyn. So, the BEGA team has been decided, and Tyson\'s team, the newly-named G-Revolutions, must act accordingly. While he buys a bit more time with ""Mister X"" as their fifth member, Tyson holds on to the wish that HE would join his team...'),
+    (3, 43): ('Sing Ming Ming Sing!', 'For the first match, Daichi of Team G-Revolutions faces off against Ming Ming of Team Bega. But during the course of the match, the young pop star has won over the entire crowd, even Kenny! Can Daichi manage to overcome his most formidable opponent by far?'),
+    (3, 44): ('Refuse to Lose', "The second match against BEGA begins as Ray does battle with the towering Crusher. Crusher's sister, Monica, is having her operation at the same moment, and he must win if he is to pay the expenses needed. Ray fights with the strong desire to save the future of all that is Beyblade, but will it be enough to overcome Crusher and his love for his sister?"),
+    (3, 45): ('Max to the Maxx', 'Team G Revolution have two consecutive losses, so Max is given the pressure to win or face elimination. Can Rick give Max the encouragement he needs to face Mystel in the third match?'),
+    (3, 46): ('The Return of Kai', "As Tyson trains intensively for his two consecutive matches against Brooklyn and Garland, a lifeless Kai visits Tala in the hospital and finds Dranzer MS beside him. The new Beyblade literally brings life back in Kai's eyes, and he desperately tries to gain control over it. Can F-Dynasty's coach, Romero, help him out so Kai will be able to rejoin his old team?"),
+    (3, 47): ("Now You're Making Me Mad", "The fourth match begins with a great surprise. Kai has joined the G-Revolutions! And he demands a rematch with Brooklyn using his new blade, Dranzer MS. Will Kai just lose again to Brooklyn and Zeus' awesome dark powers? Or will his strong emotions turn the tide?"),
+    (3, 48): ('Beyblading Spirit', "The fourth match between Kai and Brooklyn continues! Holding to the little faith he has left in his teammate, Tyson continues to cheer Kai on. As the battle wages on, with every move Brooklyn uses against him, Kai refuses to stay down! Brooklyn finally begins to lose composure to Kai's burning passion for Beyblade, but will the first win for G Revolutions come without a price?"),
+    (3, 49): ('Principles of Victory', "It's a grudge match between the two team leaders, Tyson and Garland, in the fifth match! As the descendent of a family who dominates all the world's sports, Garland plans to uphold the family honor by winning this match. Will Tyson be able to stand up to this powerful Beyblader?"),
+    (3, 50): ('Welcome to My Nightmare', "G Revolutions and the BEGA Bladers are now tied with two wins, two losses, and a draw. So, a sixth and final match has been announced! But, Boris seems to have other plans when he sends Crusher and Ming Ming to attack Tyson back at his home. This evil man's true colors are beginning to rise to the surface, and loyalty is torn between him and the BEGA Bladers. And what about Brooklyn? Ever since his defeat against Kai, his fate now walks an even darker path..."),
+    (3, 51): ("Brooklyn's Back", "Finally, it's the tiebreaker match, Tyson versus Brooklyn! But, Brooklyn has changed for the worst after his defeat against Kai, and he completely submits to the seductive darkness of Zeus. This incredible power even threatens the entire world! Will Tyson be able to defeat Brooklyn at this level of intensity?!"),
+    (3, 52): ('Beybattle for the Ages', "The match continues, and Brooklyn's dark powers may be too much for Tyson. But, with his old teammates behind him and with the power of Dragoon, Tyson will fight to the very end! And after this climatic battle, it WILL be the end..."),
+}
+
+GUNSMITH_CATS = [  # index = episode - 1: (name, synopsis)
+    ("The Neutral Zone",
+     "Gun experts Rally Vincent and Minnie May Hopkins, who run a Chicago gun shop, are pushed by "
+     "ATF agent Bill Collins into breaking a gun-smuggling ring tied to underboss Jonathan Washington."),
+    ("Swing High!",
+     "Bill and the Gunsmith Cats have to work underground when a Russian hit woman starts wiping out evidence."),
+    ("High Speed Edge",
+     "The Gunsmith Cats are ready to get an award from Senator Haints but Bloody Pierce is ready for them."),
+]
+
 # Per-episode sub-titles the feed doesn't carry: (show, season, episode) -> sub-title
 EPISODE_SUBS = {
     ("Homeless in Denton", 2, 5): "Fry St. Fair '06",
@@ -534,7 +1449,7 @@ EPISODE_SUBS = {
 _FILM_FRANCHISE = re.compile(r"^(.*\S)\s+(?:Movie|OVA)$", re.I)   # "DBZ Movie"/"DBZ OVA" + "<Film> (YYYY)"
 FILM_CANON = {
     "tree of might": "Dragon Ball Z: The Tree of Might (1990)",
-    "bardock":       "Dragon Ball Z: Bardock \u2013 The Father of Goku (1990)",
+    "bardock":       "Dragon Ball Z: Bardock - The Father of Goku (1990)",
 }
 
 # Episode names the feed spells differently from TVmaze/TVDB: (show, feed name) -> lookup name
@@ -550,6 +1465,10 @@ EEL_SHOW_LOOKUP = {
     "Space Goofs": None,
     "Funky Cops": None,
     "Free for All (2003)": None,
+    # no episode text in any DB (Nov 27 2026 check) -> show-level synopsis (TMDB/TVmaze/TVDB, then IMDb)
+    "1000 Ways to Die": None,
+    "Storm Hawks": None,
+    "Beyblade": None,
 }
 
 # Multi-part specials the feed sends as "<Title>: Part N" / "<Title> (N)" with no S/E:
@@ -669,6 +1588,8 @@ def _rename(title):
     base = title[:m.start()].strip() if m else title
     if base in RENAMES:
         base = RENAMES[base]
+        if YEAR_END.search(base):
+            yr = ""              # canonical already carries its year: no "(1987) (1987)"
     else:
         for rx, canon in REGEX_RENAMES:
             if rx.match(base):
@@ -1301,6 +2222,18 @@ def build_eel(tv, root, cache):
     for _alias, _loc in EEL_NAME_ALIASES.items():
         name2local[_norm_chan_name(_alias)] = _loc
     resolved = {}   # src_id_in_feed -> (local_id, display)
+    # Content check for Toon Diggity: the feed keeps a stale twin (Nov 27 2026: declared
+    # C121.244 = old Cartoon Shuffle grid, undeclared C122.245 = live eToons grid). Whichever
+    # configured id carries the eToons segment titles wins, whatever the declarations say.
+    _seg = {"Terry Toons", "Columbia Cavalcade", "Universal Union", "Paramount Potluck", "MGM Gems"}
+    _td_ids = [cid for cid, (loc, _) in EEL_CHANNEL_MAP.items() if loc == "toon-diggity"]
+    _td_live = [cid for cid in _td_ids if any((p.findtext("title") or "").strip() in _seg
+                for p in root.findall("programme") if p.get("channel") == cid)]
+    if len(_td_live) > 1:                # both carry it (Nov 27 2026 "ID fixed"): trust the declared one
+        _decl = [cid for cid in _td_live if cid in declared]
+        _td_live = _decl or _td_live[-1:]
+    if len(_td_live) == 1:
+        resolved[_td_live[0]] = EEL_CHANNEL_MAP[_td_live[0]]
     # newest ids are listed last, so walk the map backwards: if the feed still declares an
     # old id next to the new one, the newest wins and the channel is never doubled
     for want_id, (local_id, display) in reversed(list(EEL_CHANNEL_MAP.items())):
@@ -1347,10 +2280,58 @@ def build_eel(tv, root, cache):
             title = _rename(_decap(title))                                    # BLOCK CAPS -> Title Case
             if season is not None and season in SEASON_REMAP.get(title, {}):
                 season = SEASON_REMAP[title][season]                          # T225 Tenchi Universe -> S01 E25
+            _jm = re.match(r"^(Dragon Ball(?: Z)?)\s+(\d{1,3})\s*[-+&/]\s*(\d{1,3})$", raw_title.strip(), re.I)
+            if _jm:                              # joint slot "Dragon Ball Z 140-141" (absolute numbers)
+                title, sub, season = _jm.group(1).title().replace("Z", "Z"), None, 1
+                ep, ep_end = int(_jm.group(2)), int(_jm.group(3))
             pinned = False                       # title/sub/S-E/desc fully set from a built-in list
+            _jse = None                          # joint-slot S/E list from a built-in list
             if title == "Tenchi Universe" and ep and 1 <= ep <= len(TENCHI_UNIVERSE):
                 _arc, season, ep, sub, _syn = TENCHI_UNIVERSE[ep - 1]
                 title, ep_end, pinned = f"Tenchi Universe - {_arc}", None, True
+            elif title == "Dragon Ball Z" and ep and season in (None, 1) and 1 <= ep <= len(DRAGON_BALL_Z):
+                # absolute 1-291 -> TMDB saga S/E; a joint slot ("140-141") joins names/synopses with " / "
+                _es = [DRAGON_BALL_Z[i - 1] for i in range(ep, (ep_end or ep) + 1) if i <= len(DRAGON_BALL_Z)]
+                title = f"Dragon Ball Z - {_es[0][2]}"
+                season, ep = _es[0][0], _es[0][1]
+                sub = " / ".join(e[3] for e in _es); _syn = " / ".join(e[4] for e in _es)
+                ep_end, _jse = _joint_nums([(e[0], e[1]) for e in _es])
+                pinned = True
+            elif title == "Dragon Ball" and ep and season in (None, 1) and 1 <= ep <= len(DRAGON_BALL):
+                _es = [(1, i) + DRAGON_BALL[i - 1] for i in range(ep, (ep_end or ep) + 1) if i <= len(DRAGON_BALL)]
+                title = f"Dragon Ball (1986) - {_es[0][2]}"     # the 1986 series, absolute 1-153, one season
+                season, ep = 1, _es[0][1]
+                sub = " / ".join(e[3] for e in _es); _syn = " / ".join(e[4] for e in _es)
+                ep_end, _jse = _joint_nums([(e[0], e[1]) for e in _es])
+                pinned = True
+            elif title == "Gunsmith Cats" and ep and 1 <= ep <= len(GUNSMITH_CATS):
+                sub, _syn = GUNSMITH_CATS[ep - 1]
+                season, ep_end, pinned = 1, None, True
+            elif title == "DuckTales (1987)" and ep and (season or 1, ep) in DUCKTALES:
+                season = season or 1                     # feed S/E == IMDb S/E (TMDB's names run off)
+                sub, _syn = DUCKTALES[(season, ep)]
+                ep_end, pinned = None, True
+            elif title == "The Charlie Brown and Snoopy Show" and ep and (season or 1, ep) in CHARLIE_BROWN_SNOOPY:
+                season = season or 1                     # feed S/E == IMDb S/E
+                sub, _syn = CHARLIE_BROWN_SNOOPY[(season, ep)]
+                ep_end, pinned = None, True
+            elif title == "Beyblade" and ep and (season or 1, ep) in BEYBLADE:
+                season = season or 1                     # the 2001 original (Tyson/Dragoon), TMDB per season
+                sub, _syn = BEYBLADE[(season, ep)]
+                ep_end, pinned = None, True
+            elif title == "Starcade":                     # show-level only: no sub-title, no S/E
+                sub, season, ep, ep_end, _syn, pinned = None, None, None, None, FIXED_DESC["Starcade"], True
+            elif title == "Storm Hawks" and ep:
+                _abs = ep if season in (None, 1) else 26 * (season - 1) + ep   # feed sends absolute "47"
+                if 1 <= _abs <= len(STORM_HAWKS):
+                    season, ep, sub, _syn = STORM_HAWKS[_abs - 1]
+                    ep_end = None
+                    pinned = _syn is not None   # no episode text -> normal lookups fill it (S/E now right)
+            elif title == "1000 Ways to Die" and sub:
+                _w = WAYS_TO_DIE_1000.get(_guide_norm(sub))
+                if _w:
+                    sub, _syn = _w
+                    pinned = True                        # S/E stays the feed's
             title = _eel_segment_rename(title, prog.get("start"), local_id)   # time/channel-based renames
             if season is None:                    # "This Is America, Charlie Brown: Part 2" -> S01 E02
                 pm = _PART_TAIL.match(f"{title}: {sub}" if sub else title)
@@ -1367,11 +2348,20 @@ def build_eel(tv, root, cache):
                 yr = re.search(r"\((?:19|20)\d\d\)", sub) or re.search(r"\((?:19|20)\d\d\)", raw_title)
                 if yr:
                     film = re.sub(r"\s*\((?:19|20)\d\d\)\s*", " ", sub).strip()
-                    canon = next((v for k, v in FILM_CANON.items() if k in film.lower()), None)
+                    # joint parts in one slot: "(1-2)", "(1 & 2)", "Parts 1 and 2", "Part 1 / Part 2"
+                    _pj = re.search(r"(?:\bparts?\s*|\()(\d)\s*(?:-|&|\+|and|/\s*part)\s*(\d)\)?\s*$", film, re.I)
+                    _pt = None if _pj else re.search(r"(?:\bpart\s*|\()(\d)\)?\s*$", film, re.I)   # "(2)" / "Part 2"
+                    if _pj or _pt: film = film[:(_pj or _pt).start()].strip(" :-")
+                    _sp = next((x for x in DBZ_SPECIALS if x[0] in film.lower()), None)
+                    canon = _sp[1] if _sp else next((v for k, v in FILM_CANON.items() if k in film.lower()), None)
                     title = canon or f"{fm.group(1)}: {film} {yr.group(0)}"
-                    sub, season, ep, ep_end = None, None, None, None
+                    sub = (f"Part {_pj.group(1)} / Part {_pj.group(2)}" if _pj
+                           else f"Part {_pt.group(1)}" if _pt else None)
+                    season, ep, ep_end = None, None, None
+                    if _sp and _sp[2]:
+                        _syn, pinned = _sp[2], True
             desc = _syn if pinned else None
-            joint_se = None          # [[s,e],...] for a joint (multi-segment) episode
+            joint_se = _jse          # [[s,e],...] for a joint (multi-segment) episode
             # Per-show override guide (feed numbers the show in an order the DBs don't share).
             #   mode "absolute": index by the feed's absolute episode number (Batman).
             #   mode "se":       key by the feed's season.episode (Garfield; feed S/E == guide S/E).
@@ -1439,7 +2429,8 @@ def build_eel(tv, root, cache):
             # Part-marker guardrail (runs AFTER movie detection so a "(YYYY)" is untouched):
             # standardize "(1)/(2)"/"(Part One)"/": Part Four" -> ": Part N" on every channel.
             title = norm_parts(title)
-            if sub: sub = norm_parts(sub)
+            if sub and not re.fullmatch(r"Part \d+(?: / Part \d+)*", sub):   # "Part 1 / Part 2" is final
+                sub = norm_parts(sub).lstrip(": ") or None   # bare "Part 2" sub stays "Part 2"
             np = ET.Element("programme", {k: prog.get(k) for k in prog.keys()})
             np.set("channel", local_id)
             ET.SubElement(np, "title", {"lang": "en"}).text = title
@@ -2353,6 +3344,8 @@ DUMMY_CHANNELS = [
      "Entretenimiento y películas en vivo desde Posadas, Misiones.", 12),
     ("ObjectCentral", "Object Central", "https://i.imgur.com/Sm3bF3R.png", "Object Central",
      "A TV Channel for the osc!", 12),
+    ("Telepix", "Telepix", "https://i.imgur.com/6CXVNAC.png", "Telepix",
+     "Offering popular movies and shows you won't find anywhere else, Telepix is your Movie Hub.", 12),
     ("Collective", "Collective", "https://i.imgur.com/pMdLPNI.png", "Collective",
      "Tune in every day for the best dance tunes and chart topping hits.", 12),
     ("HubNetwork", "Hub Network", "https://i.imgur.com/HH5Dj6q.png", "Hub Network",
@@ -2418,6 +3411,16 @@ def build_all(wl_root, eel_root, cache):
     print("Eel:");      build_eel(tv, eel_root, cache)
     return tv
 
+
+def _scrub(root):
+    """Safety net before any guide is written: drop U+FFFD (garbled characters crash IPTVBoss)."""
+    for el in root.iter():
+        if el.text and "\ufffd" in el.text: el.text = el.text.replace("\ufffd", "")
+        if el.tail and "\ufffd" in el.tail: el.tail = el.tail.replace("\ufffd", "")
+        for k, v in list(el.attrib.items()):
+            if "\ufffd" in v: el.set(k, v.replace("\ufffd", ""))
+    return root
+
 def main():
     cache = load_desc_cache()
     if not TMDB_KEY:
@@ -2426,7 +3429,7 @@ def main():
     print(f"Fetching {EEL_URL} ..."); eel_root = fetch_xml_safe(EEL_URL, "Eel")
     tv = build_all(wl_root, eel_root, cache)
     indent(tv)
-    ET.ElementTree(tv).write(EPG_OUTPUT, encoding="UTF-8", xml_declaration=True)
+    ET.ElementTree(_scrub(tv)).write(EPG_OUTPUT, encoding="UTF-8", xml_declaration=True)
     with open(M3U_OUTPUT, "w", encoding="utf-8") as f: f.write(build_m3u())
     print(f"Wrote {EPG_OUTPUT} and {M3U_OUTPUT}")
     print(f"Channels: {len(tv.findall('channel'))}, programmes: {len(tv.findall('programme'))}")
@@ -2436,7 +3439,7 @@ def main():
     if mist_root.findall("channel") or mist_root.findall("programme"):
         print("MistLive:"); mtv = build_mist(mist_root, cache)
         indent(mtv)
-        ET.ElementTree(mtv).write(MIST_OUTPUT, encoding="UTF-8", xml_declaration=True)
+        ET.ElementTree(_scrub(mtv)).write(MIST_OUTPUT, encoding="UTF-8", xml_declaration=True)
         print(f"Wrote {MIST_OUTPUT}")
         print(f"Channels: {len(mtv.findall('channel'))}, programmes: {len(mtv.findall('programme'))}")
     else:
@@ -2475,7 +3478,7 @@ def main():
                                             specials={RB_ID: RB_SPECIALS, NICK_ID: NICK_SPECIALS,
                                                       TSD_ID: TSD_SPECIALS}.get(cid))
         indent(wtv)
-        ET.ElementTree(wtv).write(out, encoding="UTF-8", xml_declaration=True)
+        ET.ElementTree(_scrub(wtv)).write(out, encoding="UTF-8", xml_declaration=True)
         print(f"Wrote {out}")
         print(f"Channels: {len(wtv.findall('channel'))}, programmes: {len(wtv.findall('programme'))}")
 
@@ -2483,7 +3486,7 @@ def main():
     placid_src = fetch_placid_uploads()
     print("Placid:"); ptv = build_placid(placid_src)
     indent(ptv)
-    ET.ElementTree(ptv).write(PLACID_OUTPUT, encoding="UTF-8", xml_declaration=True)
+    ET.ElementTree(_scrub(ptv)).write(PLACID_OUTPUT, encoding="UTF-8", xml_declaration=True)
     print(f"Wrote {PLACID_OUTPUT}")
     print(f"Channels: {len(ptv.findall('channel'))}, programmes: {len(ptv.findall('programme'))}")
 
@@ -2491,7 +3494,7 @@ def main():
     mtv40 = build_40media()
     if mtv40 is not None:
         indent(mtv40)
-        ET.ElementTree(mtv40).write(MEDIA40_OUTPUT, encoding="UTF-8", xml_declaration=True)
+        ET.ElementTree(_scrub(mtv40)).write(MEDIA40_OUTPUT, encoding="UTF-8", xml_declaration=True)
         print(f"Wrote {MEDIA40_OUTPUT}")
         print(f"Channels: {len(mtv40.findall('channel'))}, programmes: {len(mtv40.findall('programme'))}")
 
@@ -2500,7 +3503,7 @@ def main():
     print("Locomotion:"); ltv = build_locomotion(loco_src)
     if ltv is not None:
         indent(ltv)
-        ET.ElementTree(ltv).write(LOCO_OUTPUT, encoding="UTF-8", xml_declaration=True)
+        ET.ElementTree(_scrub(ltv)).write(LOCO_OUTPUT, encoding="UTF-8", xml_declaration=True)
         print(f"Wrote {LOCO_OUTPUT} ({len(ltv.findall('programme'))} programmes)")
     else:
         print(f"  Locomotion feed empty/unavailable - keeping existing {LOCO_OUTPUT}")
@@ -2508,7 +3511,7 @@ def main():
     print("Webchnl dummies:")
     dtv = build_dummies()
     indent(dtv)
-    ET.ElementTree(dtv).write(DUMMIES_OUTPUT, encoding="UTF-8", xml_declaration=True)
+    ET.ElementTree(_scrub(dtv)).write(DUMMIES_OUTPUT, encoding="UTF-8", xml_declaration=True)
     print(f"Wrote {DUMMIES_OUTPUT} ({len(dtv.findall('channel'))} channels, {len(dtv.findall('programme'))} programmes)")
 
     save_desc_cache(cache)
